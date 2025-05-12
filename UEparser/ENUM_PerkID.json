@@ -1,0 +1,686 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_PerkID",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "FD4EFBB7446FF2B1C1E3AB89A6F06186",
+            "SourceString": "-",
+            "LocalizedString": "-"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "ECDA0DBF4155AA1B625E6B9DD019FED9",
+            "SourceString": "Covert",
+            "LocalizedString": "Covert"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "E1420C874D1C98978881B09BE622FF95",
+            "SourceString": "Threat Detection",
+            "LocalizedString": "Threat Detection"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "A8869E754492E54ADF4711B15E2BC965",
+            "SourceString": "Advanced Recon",
+            "LocalizedString": "Advanced Recon"
+          }
+        },
+        {
+          "Key": "NewEnumerator4",
+          "Value": {
+            "Namespace": "",
+            "Key": "F24F954C4EF3A233990A46B6E10F84FF",
+            "SourceString": "Enhanced Dexterity",
+            "LocalizedString": "Enhanced Dexterity"
+          }
+        },
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "C67A3EB2484DA6160026DDA1C7AAC748",
+            "SourceString": "Recovery",
+            "LocalizedString": "Recovery"
+          }
+        },
+        {
+          "Key": "NewEnumerator6",
+          "Value": {
+            "Namespace": "",
+            "Key": "26CFDA234400920A9ED276A2A2537B5B",
+            "SourceString": "Augmented Arms",
+            "LocalizedString": "Augmented Arms"
+          }
+        },
+        {
+          "Key": "NewEnumerator7",
+          "Value": {
+            "Namespace": "",
+            "Key": "7225F4AA471933831A20A1A4711417B8",
+            "SourceString": "Augmented Legs",
+            "LocalizedString": "Augmented Legs"
+          }
+        },
+        {
+          "Key": "NewEnumerator8",
+          "Value": {
+            "Namespace": "",
+            "Key": "376A117847A4AA344C7F7C9A50BF5440",
+            "SourceString": "Damage Report",
+            "LocalizedString": "Damage Report"
+          }
+        },
+        {
+          "Key": "NewEnumerator9",
+          "Value": {
+            "Namespace": "",
+            "Key": "399F06B144E7A4B0F79977988907422A",
+            "SourceString": "Low Profile",
+            "LocalizedString": "Low Profile"
+          }
+        },
+        {
+          "Key": "NewEnumerator10",
+          "Value": {
+            "Namespace": "",
+            "Key": "335CC5364B26D5022D5552A3FE0FA9FD",
+            "SourceString": "Adrenaline Rush",
+            "LocalizedString": "Adrenaline Rush"
+          }
+        },
+        {
+          "Key": "NewEnumerator11",
+          "Value": {
+            "Namespace": "",
+            "Key": "A59D938748B0B18B5D67DBB077B7C83C",
+            "SourceString": "Combat Core",
+            "LocalizedString": "Combat Core"
+          }
+        },
+        {
+          "Key": "NewEnumerator12",
+          "Value": {
+            "Namespace": "",
+            "Key": "6C6ABF994D03AB85F4DB928259F25440",
+            "SourceString": "Reactive Core",
+            "LocalizedString": "Reactive Core"
+          }
+        },
+        {
+          "Key": "NewEnumerator13",
+          "Value": {
+            "Namespace": "",
+            "Key": "32BD136B46BC291A86BA068E923BFA4D",
+            "SourceString": "Auto-Doc",
+            "LocalizedString": "Auto-Doc"
+          }
+        },
+        {
+          "Key": "NewEnumerator14",
+          "Value": {
+            "Namespace": "",
+            "Key": "0D6694E041C3A3271C06C39B8075A83D",
+            "SourceString": "Potent Stimulants",
+            "LocalizedString": "Potent Stimulants"
+          }
+        },
+        {
+          "Key": "NewEnumerator15",
+          "Value": {
+            "Namespace": "",
+            "Key": "FA47A6834479551AF894739574E3D915",
+            "SourceString": "Auxiliary Vitals",
+            "LocalizedString": "Auxiliary Vitals"
+          }
+        },
+        {
+          "Key": "NewEnumerator16",
+          "Value": {
+            "Namespace": "",
+            "Key": "C48690414B57455DFCF31AB66CFAC478",
+            "SourceString": "Akimbo",
+            "LocalizedString": "Akimbo"
+          }
+        },
+        {
+          "Key": "NewEnumerator17",
+          "Value": {
+            "Namespace": "",
+            "Key": "0CB072EE44E3630B02B7B2943806DC06",
+            "SourceString": "Experimental",
+            "LocalizedString": "Experimental"
+          }
+        },
+        {
+          "Key": "NewEnumerator18",
+          "Value": {
+            "Namespace": "",
+            "Key": "A740B0F846D28C17BBAEDE8623BA981B",
+            "SourceString": "Specialist",
+            "LocalizedString": "Specialist"
+          }
+        },
+        {
+          "Key": "NewEnumerator19",
+          "Value": {
+            "Namespace": "",
+            "Key": "1DC817D54E36E020B47C0EB4BD075A00",
+            "SourceString": "Heavy Weapons",
+            "LocalizedString": "Heavy Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator20",
+          "Value": {
+            "Namespace": "",
+            "Key": "F3EC23D240A4617EB7648AB534BC2B1F",
+            "SourceString": "Kinetic Focus",
+            "LocalizedString": "Kinetic Focus"
+          }
+        },
+        {
+          "Key": "NewEnumerator21",
+          "Value": {
+            "Namespace": "",
+            "Key": "12D14B3E4E1A0134361DD6862E1758D8",
+            "SourceString": "Resourceful",
+            "LocalizedString": "Resourceful"
+          }
+        },
+        {
+          "Key": "NewEnumerator22",
+          "Value": {
+            "Namespace": "",
+            "Key": "00731EFB43DE65BE9675C2A8D8BFE8EC",
+            "SourceString": "Fail-safe",
+            "LocalizedString": "Fail-safe"
+          }
+        },
+        {
+          "Key": "NewEnumerator23",
+          "Value": {
+            "Namespace": "",
+            "Key": "19DE61704E10A17BA60072BF30B48ED4",
+            "SourceString": "Technician",
+            "LocalizedString": "Technician"
+          }
+        },
+        {
+          "Key": "NewEnumerator24",
+          "Value": {
+            "Namespace": "",
+            "Key": "D9AE111E4E0017019EF5D5880960803B",
+            "SourceString": "Augmented Nano-wire",
+            "LocalizedString": "Augmented Nano-wire"
+          }
+        },
+        {
+          "Key": "NewEnumerator25",
+          "Value": {
+            "Namespace": "",
+            "Key": "30B5C86B42A10865D496708A044469F7",
+            "SourceString": "Surplus",
+            "LocalizedString": "Surplus"
+          }
+        },
+        {
+          "Key": "NewEnumerator26",
+          "Value": {
+            "Namespace": "",
+            "Key": "71D1EEA94959A0116AAE28839E03B310",
+            "SourceString": "Armadillo",
+            "LocalizedString": "Armadillo"
+          }
+        },
+        {
+          "Key": "NewEnumerator27",
+          "Value": {
+            "Namespace": "",
+            "Key": "4C0236C04A57836296957496797A3F61",
+            "SourceString": "Acrobatics",
+            "LocalizedString": "Acrobatics"
+          }
+        },
+        {
+          "Key": "NewEnumerator28",
+          "Value": {
+            "Namespace": "",
+            "Key": "A11C0A9A48DA0311832F0FB4CF953C31",
+            "SourceString": "Hardcase",
+            "LocalizedString": "Hardcase"
+          }
+        },
+        {
+          "Key": "NewEnumerator29",
+          "Value": {
+            "Namespace": "",
+            "Key": "3568005942DE66F7852213BA440E18EA",
+            "SourceString": "Counter Intelligence",
+            "LocalizedString": "Counter Intelligence"
+          }
+        },
+        {
+          "Key": "NewEnumerator30",
+          "Value": {
+            "Namespace": "",
+            "Key": "3B5A30A74CA0785E423513962604A55B",
+            "SourceString": "Addict",
+            "LocalizedString": "Addict"
+          }
+        },
+        {
+          "Key": "NewEnumerator31",
+          "Value": {
+            "Namespace": "",
+            "Key": "EC87D0B7442775EA0B89E1873258E83F",
+            "SourceString": "Unstable Core",
+            "LocalizedString": "Unstable Core"
+          }
+        },
+        {
+          "Key": "NewEnumerator32",
+          "Value": {
+            "Namespace": "",
+            "Key": "F80F655743697AB670CB0D91BD117C1C",
+            "SourceString": "Bloodsport",
+            "LocalizedString": "Bloodsport"
+          }
+        },
+        {
+          "Key": "NewEnumerator33",
+          "Value": {
+            "Namespace": "",
+            "Key": "B0215F3A4FFB4E97A774C6AADE547D89",
+            "SourceString": "Heavy Ordnance",
+            "LocalizedString": "Heavy Ordnance"
+          }
+        },
+        {
+          "Key": "NewEnumerator34",
+          "Value": {
+            "Namespace": "",
+            "Key": "A20AE73A4EF2A6A509E485BD4AF9DB77",
+            "SourceString": "Disengage",
+            "LocalizedString": "Disengage"
+          }
+        },
+        {
+          "Key": "NewEnumerator35",
+          "Value": {
+            "Namespace": "",
+            "Key": "9546FBB24376ED81550D8295B4D52F5E",
+            "SourceString": "Shifter",
+            "LocalizedString": "Shifter"
+          }
+        },
+        {
+          "Key": "NewEnumerator36",
+          "Value": {
+            "Namespace": "",
+            "Key": "491968DE45E8882CF9F10F8EC6A02AE4",
+            "SourceString": "Overclocked",
+            "LocalizedString": "Overclocked"
+          }
+        },
+        {
+          "Key": "NewEnumerator37",
+          "Value": {
+            "Namespace": "",
+            "Key": "1E359902495BF742D2B89F96E2D484D9",
+            "SourceString": "Headhunter",
+            "LocalizedString": "Headhunter"
+          }
+        },
+        {
+          "Key": "NewEnumerator38",
+          "Value": {
+            "Namespace": "",
+            "Key": "35A86B8A41399C0DF6B1E48E4066509D",
+            "SourceString": "Exploit Weakness",
+            "LocalizedString": "Exploit Weakness"
+          }
+        },
+        {
+          "Key": "NewEnumerator39",
+          "Value": {
+            "Namespace": "",
+            "Key": "91FA7022462268692B79CDA9A7284E24",
+            "SourceString": "Hunter Optics",
+            "LocalizedString": "Hunter Optics"
+          }
+        },
+        {
+          "Key": "NewEnumerator40",
+          "Value": {
+            "Namespace": "",
+            "Key": "0897AE714F6839632C0DA4875A7EA12C",
+            "SourceString": "Transference",
+            "LocalizedString": "Transference"
+          }
+        },
+        {
+          "Key": "NewEnumerator41",
+          "Value": {
+            "Namespace": "",
+            "Key": "88E5E4354A7D92C7CF8BAC97943F2276",
+            "SourceString": "Dispersal",
+            "LocalizedString": "Dispersal"
+          }
+        },
+        {
+          "Key": "NewEnumerator42",
+          "Value": {
+            "Namespace": "",
+            "Key": "96EA712F43EA83168768B5AC06537C8B",
+            "SourceString": "Vendetta",
+            "LocalizedString": "Vendetta"
+          }
+        },
+        {
+          "Key": "NewEnumerator43",
+          "Value": {
+            "Namespace": "",
+            "Key": "DAFD449445B49CC47C1865B306DD1C34",
+            "SourceString": "Kinetic Injectors",
+            "LocalizedString": "Kinetic Injectors"
+          }
+        },
+        {
+          "Key": "NewEnumerator44",
+          "Value": {
+            "Namespace": "",
+            "Key": "2C2A4DBF4125B026712E97A3FB9ED444",
+            "SourceString": "Tether",
+            "LocalizedString": "Tether"
+          }
+        },
+        {
+          "Key": "NewEnumerator45",
+          "Value": {
+            "Namespace": "",
+            "Key": "A364484B4DB67E05D37CE2876A5847B3",
+            "SourceString": "Reversal",
+            "LocalizedString": "Reversal"
+          }
+        },
+        {
+          "Key": "NewEnumerator46",
+          "Value": {
+            "Namespace": "",
+            "Key": "00DA142D4FC7451C600A85B71EF6D733",
+            "SourceString": "Hardened",
+            "LocalizedString": "Hardened"
+          }
+        },
+        {
+          "Key": "NewEnumerator47",
+          "Value": {
+            "Namespace": "",
+            "Key": "C5EA5B8A483C95F748DB849D99C575C6",
+            "SourceString": "Overseer",
+            "LocalizedString": "Overseer"
+          }
+        },
+        {
+          "Key": "NewEnumerator48",
+          "Value": {
+            "Namespace": "",
+            "Key": "D0032974422CE53D238F5BB790A6955E",
+            "SourceString": "Caustic",
+            "LocalizedString": "Caustic"
+          }
+        },
+        {
+          "Key": "NewEnumerator49",
+          "Value": {
+            "Namespace": "",
+            "Key": "EDCA15D5418E876D50A0A2B46A68AE13",
+            "SourceString": "Puncture",
+            "LocalizedString": "Puncture"
+          }
+        },
+        {
+          "Key": "NewEnumerator50",
+          "Value": {
+            "Namespace": "",
+            "Key": "95734AA146CDFAEA4CD2DFB2881E1D74",
+            "SourceString": "Professional",
+            "LocalizedString": "Professional"
+          }
+        },
+        {
+          "Key": "NewEnumerator51",
+          "Value": {
+            "Namespace": "",
+            "Key": "1DAF421142F0E42E941A89A0C4CDDFC3",
+            "SourceString": "Temporal Suspension",
+            "LocalizedString": "Temporal Suspension"
+          }
+        },
+        {
+          "Key": "NewEnumerator52",
+          "Value": {
+            "Namespace": "",
+            "Key": "530BC38F4441FC88DCFEC79EA4AE5ABE",
+            "SourceString": "Perpetual Motion",
+            "LocalizedString": "Perpetual Motion"
+          }
+        },
+        {
+          "Key": "NewEnumerator53",
+          "Value": {
+            "Namespace": "",
+            "Key": "6CDBA3C04404A8BDA93D2DB7276FE02C",
+            "SourceString": "Reactive Dermis",
+            "LocalizedString": "Reactive Dermis"
+          }
+        },
+        {
+          "Key": "NewEnumerator54",
+          "Value": {
+            "Namespace": "",
+            "Key": "2D7AD3E348F5640E1AC4F98C057CEE06",
+            "SourceString": "Maximum Efficiency",
+            "LocalizedString": "Maximum Efficiency"
+          }
+        },
+        {
+          "Key": "NewEnumerator55",
+          "Value": {
+            "Namespace": "",
+            "Key": "8D6AF7FB41C2CF9D3E87888FE0727E75",
+            "SourceString": "Renewal",
+            "LocalizedString": "Renewal"
+          }
+        },
+        {
+          "Key": "NewEnumerator56",
+          "Value": {
+            "Namespace": "",
+            "Key": "9002C1BC4C3CF5F730922DB454B907B6",
+            "SourceString": "Gecko",
+            "LocalizedString": "Gecko"
+          }
+        },
+        {
+          "Key": "NewEnumerator57",
+          "Value": {
+            "Namespace": "",
+            "Key": "1D5087C44C5DFAE71317E5805EE9EAB0",
+            "SourceString": "Counterbalance",
+            "LocalizedString": "Counterbalance"
+          }
+        },
+        {
+          "Key": "NewEnumerator58",
+          "Value": {
+            "Namespace": "",
+            "Key": "24FCAA994D70B55673CDE38AB14DED01",
+            "SourceString": "Chemical Warfare",
+            "LocalizedString": "Chemical Warfare"
+          }
+        },
+        {
+          "Key": "NewEnumerator59",
+          "Value": {
+            "Namespace": "",
+            "Key": "8FA3F2C648FC6161233230935160B297",
+            "SourceString": "Inertial Buffer",
+            "LocalizedString": "Inertial Buffer"
+          }
+        },
+        {
+          "Key": "NewEnumerator60",
+          "Value": {
+            "Namespace": "",
+            "Key": "EA0780A54B7C849153511383B15DB08D",
+            "SourceString": "Chain Reaction",
+            "LocalizedString": "Chain Reaction"
+          }
+        },
+        {
+          "Key": "NewEnumerator61",
+          "Value": {
+            "Namespace": "",
+            "Key": "5EFB537A437DF1DD51B9F4A6D327F838",
+            "SourceString": "Versatile",
+            "LocalizedString": "Versatile"
+          }
+        },
+        {
+          "Key": "NewEnumerator62",
+          "Value": {
+            "Namespace": "",
+            "Key": "62E4C9B94C54F94FEC0E4BA769D79CB7",
+            "SourceString": "Enhanced Foundation",
+            "LocalizedString": "Enhanced Foundation"
+          }
+        },
+        {
+          "Key": "NewEnumerator63",
+          "Value": {
+            "Namespace": "",
+            "Key": "61EE889A41DD5C1786ED19A2900F3869",
+            "SourceString": "Core Discharge",
+            "LocalizedString": "Core Discharge"
+          }
+        },
+        {
+          "Key": "NewEnumerator64",
+          "Value": {
+            "Namespace": "",
+            "Key": "AFFB980748FADED35ED01BB31B5BFBD9",
+            "SourceString": "Dead Drop",
+            "LocalizedString": "Dead Drop"
+          }
+        },
+        {
+          "Key": "NewEnumerator65",
+          "Value": {
+            "Namespace": "",
+            "Key": "A96EFE964A0CCBDE5D5DDD9E11588F13",
+            "SourceString": "Hot Swap",
+            "LocalizedString": "Hot Swap"
+          }
+        },
+        {
+          "Key": "NewEnumerator66",
+          "Value": {
+            "Namespace": "",
+            "Key": "E81EA0FD4507660FBA686DBA74E524D2",
+            "SourceString": "Rage Core",
+            "LocalizedString": "Rage Core"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_PerkID::NewEnumerator0": 0,
+      "ENUM_PerkID::NewEnumerator1": 1,
+      "ENUM_PerkID::NewEnumerator2": 2,
+      "ENUM_PerkID::NewEnumerator3": 3,
+      "ENUM_PerkID::NewEnumerator4": 4,
+      "ENUM_PerkID::NewEnumerator5": 5,
+      "ENUM_PerkID::NewEnumerator6": 6,
+      "ENUM_PerkID::NewEnumerator7": 7,
+      "ENUM_PerkID::NewEnumerator8": 8,
+      "ENUM_PerkID::NewEnumerator9": 9,
+      "ENUM_PerkID::NewEnumerator10": 10,
+      "ENUM_PerkID::NewEnumerator11": 11,
+      "ENUM_PerkID::NewEnumerator12": 12,
+      "ENUM_PerkID::NewEnumerator13": 13,
+      "ENUM_PerkID::NewEnumerator14": 14,
+      "ENUM_PerkID::NewEnumerator15": 15,
+      "ENUM_PerkID::NewEnumerator16": 16,
+      "ENUM_PerkID::NewEnumerator17": 17,
+      "ENUM_PerkID::NewEnumerator18": 18,
+      "ENUM_PerkID::NewEnumerator19": 19,
+      "ENUM_PerkID::NewEnumerator20": 20,
+      "ENUM_PerkID::NewEnumerator21": 21,
+      "ENUM_PerkID::NewEnumerator22": 22,
+      "ENUM_PerkID::NewEnumerator23": 23,
+      "ENUM_PerkID::NewEnumerator24": 24,
+      "ENUM_PerkID::NewEnumerator25": 25,
+      "ENUM_PerkID::NewEnumerator26": 26,
+      "ENUM_PerkID::NewEnumerator27": 27,
+      "ENUM_PerkID::NewEnumerator28": 28,
+      "ENUM_PerkID::NewEnumerator29": 29,
+      "ENUM_PerkID::NewEnumerator30": 30,
+      "ENUM_PerkID::NewEnumerator31": 31,
+      "ENUM_PerkID::NewEnumerator32": 32,
+      "ENUM_PerkID::NewEnumerator33": 33,
+      "ENUM_PerkID::NewEnumerator34": 34,
+      "ENUM_PerkID::NewEnumerator35": 35,
+      "ENUM_PerkID::NewEnumerator36": 36,
+      "ENUM_PerkID::NewEnumerator37": 37,
+      "ENUM_PerkID::NewEnumerator38": 38,
+      "ENUM_PerkID::NewEnumerator39": 39,
+      "ENUM_PerkID::NewEnumerator40": 40,
+      "ENUM_PerkID::NewEnumerator41": 41,
+      "ENUM_PerkID::NewEnumerator42": 42,
+      "ENUM_PerkID::NewEnumerator43": 43,
+      "ENUM_PerkID::NewEnumerator44": 44,
+      "ENUM_PerkID::NewEnumerator45": 45,
+      "ENUM_PerkID::NewEnumerator46": 46,
+      "ENUM_PerkID::NewEnumerator47": 47,
+      "ENUM_PerkID::NewEnumerator48": 48,
+      "ENUM_PerkID::NewEnumerator49": 49,
+      "ENUM_PerkID::NewEnumerator50": 50,
+      "ENUM_PerkID::NewEnumerator51": 51,
+      "ENUM_PerkID::NewEnumerator52": 52,
+      "ENUM_PerkID::NewEnumerator53": 53,
+      "ENUM_PerkID::NewEnumerator54": 54,
+      "ENUM_PerkID::NewEnumerator55": 55,
+      "ENUM_PerkID::NewEnumerator56": 56,
+      "ENUM_PerkID::NewEnumerator57": 57,
+      "ENUM_PerkID::NewEnumerator58": 58,
+      "ENUM_PerkID::NewEnumerator59": 59,
+      "ENUM_PerkID::NewEnumerator60": 60,
+      "ENUM_PerkID::NewEnumerator61": 61,
+      "ENUM_PerkID::NewEnumerator62": 62,
+      "ENUM_PerkID::NewEnumerator63": 63,
+      "ENUM_PerkID::NewEnumerator64": 64,
+      "ENUM_PerkID::NewEnumerator65": 65,
+      "ENUM_PerkID::NewEnumerator66": 66,
+      "ENUM_PerkID::ENUM_MAX": 67
+    },
+    "CppForm": "Namespaced"
+  }
+]
