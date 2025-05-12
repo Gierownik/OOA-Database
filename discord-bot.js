@@ -57,8 +57,6 @@ function createAugmentEmbed(augmentName, effects) {
         !positiveEffects.includes(effect) && 
         !negativeEffects.includes(effect) 
     );
-    positiveEffects = positiveEffects.slice(0, 2).concat(positiveEffects.slice(3));
-    negativeEffects = negativeEffects.slice(0, 2).concat(negativeEffects.slice(3));
     
 
     // Add fields for different types of effects
@@ -66,12 +64,6 @@ function createAugmentEmbed(augmentName, effects) {
         embed.addFields({
             name: '✅ Positive Effects',
             value: positiveEffects.map(effect => effect).join('\n')
-        });
-    }
-    if (SpecialEffects.length > 0) {
-        embed.addFields({
-            name: '⚙ Special Mechanics',
-            value: SpecialEffects.map(effect => effect).join('\n')
         });
     }
     if (negativeEffects.length > 0) {
