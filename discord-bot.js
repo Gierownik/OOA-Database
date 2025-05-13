@@ -2,7 +2,10 @@
 const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, REST, Routes } = require('discord.js');
 const stringSimilarity = require('string-similarity');
 const fs = require('fs');
-
+//EXAMPLE BTH STATS
+const B = "5"
+const T = "15"
+const H = "25"
 // Initialize Discord client
 const client = new Client({
     intents: [
@@ -43,6 +46,7 @@ function createAugmentEmbed(augmentName, effects) {
         .setColor('#0099ff')
         .setTitle(augmentName)
         .setDescription('Effects:')
+        .setFooter({ text:'Body: '+ B +' Tech: '+ T + ' Hardware: '+ H})
         .setTimestamp();
 
     // Split effects into positive and negative based on prefix
