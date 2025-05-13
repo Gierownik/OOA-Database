@@ -37,7 +37,7 @@ for skill_name, skill_data in skill_rows.items():
 
     if perk_enum in perk_id_to_name:
         perk_name = perk_id_to_name[perk_enum]
-        tooltips = skill_data.get("Tooltip_54_1E2214584583FA289C1781AA8CE4153E", []) #same here, i can give you the BTH ones soon
+        tooltips = skill_data.get("Tooltip_54_1E2214584583FA289C1781AA8CE4153E", []) #same here
         if not tooltips:
             continue
 
@@ -55,3 +55,7 @@ with open("augments.json", "w", encoding="utf-8") as out_file:
     json.dump(perk_output, out_file, indent=2, ensure_ascii=False)
 
 print("Shit's working")
+
+#BTH ID: "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B"
+#"Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC"
+#"Hardware_12_9310D7DB447E651E58D0268CC41AC3B7"
