@@ -2,10 +2,6 @@
 const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, REST, Routes } = require('discord.js');
 const stringSimilarity = require('string-similarity');
 const fs = require('fs');
-//EXAMPLE BTH STATS
-const B = "5"
-const T = "15"
-const H = "25"
 // Initialize Discord client
 const client = new Client({
     intents: [
@@ -46,7 +42,6 @@ function createAugmentEmbed(augmentName, effects) {
         .setColor('#0099ff')
         .setTitle(augmentName)
         .setDescription('Effects:')
-        .setFooter({ text:'Body: '+ B +' Tech: '+ T + ' Hardware: '+ H})
         .setTimestamp();
 
     // Split effects into positive and negative based on prefix
@@ -56,10 +51,14 @@ function createAugmentEmbed(augmentName, effects) {
     const negativeEffects = effects.filter(effect => 
         effect.tagCheck('@')
     );
+    const foundation = effects.filter(effect => 
+        effect.startsWith('&')
+    );
 
     const neutralEffects = effects.filter(effect => 
         !positiveEffects.includes(effect) && 
-        !negativeEffects.includes(effect) 
+        !negativeEffects.includes(effect) &&
+        !foundation.includes(effect)
     );
     
 
@@ -81,6 +80,13 @@ function createAugmentEmbed(augmentName, effects) {
         embed.addFields({
             name: '📝 Other Effects',
             value: neutralEffects.map(effect => effect).join('\n')
+        });
+    }
+    
+    if (foundation.length > 0) {
+        embed.addFields({
+            name: '⚙ Foundations',
+            value: foundation.map(effect => effect).join('\n')
         });
     }
 
