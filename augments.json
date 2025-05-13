@@ -35,7 +35,7 @@
     "- ^ **100%** additional sidearm reserve ammo",
     "- @ Can no longer equip sidearm optics",
     "- @  **25%** reduced sidearm damage",
-    "- @  **25%** increased sidearm recoil",
+    "- @  **50%** increased sidearm recoil",
     "- @  **50%** reduced primary weapon reserve ammo"
   ],
   "Armadillo": [
@@ -325,8 +325,7 @@
     "- @  **1/s** vitals + defense damage while active with no visible enemies"
   ],
   "Reactive Core": [
-    "- ^ Core automatically activates when affected by other Cores, without charge cost",
-    "- @  **75%** active Core speed, Shell specific active Core bonuses disabled on reactive activations",
+    "- ^ **80%** active + inactive Core speed",
     "- @  **25%** reduced Core generation"
   ],
   "Reactive Dermis": [

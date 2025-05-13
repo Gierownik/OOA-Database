@@ -680,8 +680,8 @@
           {
             "Namespace": "",
             "Key": "1A64533145A598717FD6819AADABD8D2",
-            "SourceString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>25%</> <B>increased sidearm recoil</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>",
-            "LocalizedString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>25%</> <B>increased sidearm recoil</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
+            "SourceString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>",
+            "LocalizedString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
           }
         ]
       },
@@ -1692,8 +1692,8 @@
           {
             "Namespace": "",
             "Key": "C56FBF6E4C5A41863399818735C5F854",
-            "SourceString": "> Core automatically activates when affected by other Cores, without charge cost\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled on reactive activations</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>",
-            "LocalizedString": "> Core automatically activates when affected by other Cores, without charge cost\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled on reactive activations</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>"
+            "SourceString": "> <C>80%</> active + inactive Core speed\r\n<B>></> <C>25%</> <B>reduced Core generation</>",
+            "LocalizedString": "> <C>80%</> active + inactive Core speed\r\n<B>></> <C>25%</> <B>reduced Core generation</>"
           }
         ]
       },
