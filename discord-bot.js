@@ -151,8 +151,6 @@ client.on('interactionCreate', async interaction => {
         const page = interaction.options.getInteger('page');
         const perPage = 10;
         const allAugments = Object.entries(augments)
-            .sort(([a], [b]) => a.localeCompare(b));
-    
         const start = (page - 1) * perPage;
         const pageItems = allAugments.slice(start, start + perPage);
     
