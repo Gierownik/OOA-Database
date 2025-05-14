@@ -61,32 +61,38 @@ function createAugmentEmbed(augmentName, effects) {
         !foundation.includes(effect)
     );
     
+    const cleanEffect = line => line.tagCheck('^') || line.tagCheck('@')
+    ? line.slice(0, 2) + line.slice(3)
+    : line.startsWith('&')
+    ? line.slice(1)
+    : line;
+    
 
     // Add fields for different types of effects
     if (positiveEffects.length > 0) {
         embed.addFields({
             name: '✅ Positive Effects',
-            value: positiveEffects.map(effect => effect).join('\n')
+            value: positiveEffects.map(cleanEffect).join('\n')
         });
     }
     if (negativeEffects.length > 0) {
         embed.addFields({
             name: '❌ Negative Effects',
-            value: negativeEffects.map(effect => effect).join('\n')
+            value: negativeEffects.map(cleanEffect).join('\n')
         });
     }
 
     if (neutralEffects.length > 0) {
         embed.addFields({
             name: '📝 Other Effects',
-            value: neutralEffects.map(effect => effect).join('\n')
+            value: neutralEffects.map(cleanEffect).join('\n')
         });
     }
     
     if (foundation.length > 0) {
         embed.addFields({
             name: '⚙ Foundations',
-            value: foundation.map(effect => effect).join('\n')
+            value: foundation.map(cleanEffect).join('\n')
         });
     }
 
@@ -153,12 +159,6 @@ client.on('interactionCreate', async interaction => {
         const allAugments = Object.entries(augments)
         const start = (page - 1) * perPage;
         const pageItems = allAugments.slice(start, start + perPage);
-    
-        if (pageItems.length === 0) {
-            await interaction.reply(`Page ${page} is empty or out of action.`);
-            return;
-        }
-    
         const embeds = pageItems.map(([name, effects]) =>
             createAugmentEmbed(name, effects)
         );
