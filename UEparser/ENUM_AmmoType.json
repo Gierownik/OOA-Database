@@ -1,0 +1,176 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_AmmoType",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator12",
+          "Value": {
+            "Namespace": "",
+            "Key": "50526BE04672C8246C3E748EF3D74241",
+            "SourceString": "Piercing",
+            "LocalizedString": "Piercing"
+          }
+        },
+        {
+          "Key": "NewEnumerator13",
+          "Value": {
+            "Namespace": "",
+            "Key": "81D93CD8418FA53A4872FFB6B63749AB",
+            "SourceString": "Heavy",
+            "LocalizedString": "Heavy"
+          }
+        },
+        {
+          "Key": "NewEnumerator15",
+          "Value": {
+            "Namespace": "",
+            "Key": "70B52A5E4EBF46324E9B7CA0B6CC1ABE",
+            "SourceString": "Shred",
+            "LocalizedString": "Shred"
+          }
+        },
+        {
+          "Key": "NewEnumerator16",
+          "Value": {
+            "Namespace": "",
+            "Key": "172D619A400BBB027E718A8AD587D093",
+            "SourceString": "Incendiary",
+            "LocalizedString": "Incendiary"
+          }
+        },
+        {
+          "Key": "NewEnumerator17",
+          "Value": {
+            "Namespace": "",
+            "Key": "01807CAD4795C1610C6333A0F5FE59B0",
+            "SourceString": "EM",
+            "LocalizedString": "EM"
+          }
+        },
+        {
+          "Key": "NewEnumerator6",
+          "Value": {
+            "Namespace": "",
+            "Key": "372D432845600B167E0D80A2A605C602",
+            "SourceString": "Standard",
+            "LocalizedString": "Standard"
+          }
+        },
+        {
+          "Key": "NewEnumerator18",
+          "Value": {
+            "Namespace": "",
+            "Key": "351D79044E28F992E16384A5D9E56117",
+            "SourceString": "CB",
+            "LocalizedString": "CB"
+          }
+        },
+        {
+          "Key": "NewEnumerator19",
+          "Value": {
+            "Namespace": "",
+            "Key": "1BBEBB704D86040F430756B9777EC2BC",
+            "SourceString": "T-Lock",
+            "LocalizedString": "T-Lock"
+          }
+        },
+        {
+          "Key": "NewEnumerator20",
+          "Value": {
+            "Namespace": "",
+            "Key": "DBF241094EFDFF7E4958FC8D7882F5FE",
+            "SourceString": "Explosive",
+            "LocalizedString": "Explosive"
+          }
+        },
+        {
+          "Key": "NewEnumerator21",
+          "Value": {
+            "Namespace": "",
+            "Key": "0491AE344E57D895CFABF1BF01A49346",
+            "SourceString": "TD",
+            "LocalizedString": "TD"
+          }
+        },
+        {
+          "Key": "NewEnumerator22",
+          "Value": {
+            "Namespace": "",
+            "Key": "A7BF73DC4D71CF457C7DC8B4B1AB0277",
+            "SourceString": "Chem",
+            "LocalizedString": "Chem"
+          }
+        },
+        {
+          "Key": "NewEnumerator23",
+          "Value": {
+            "Namespace": "",
+            "Key": "EA15E5A6491F9F73643030BA825827BD",
+            "SourceString": "Standard Grenade",
+            "LocalizedString": "Standard Grenade"
+          }
+        },
+        {
+          "Key": "NewEnumerator24",
+          "Value": {
+            "Namespace": "",
+            "Key": "D223FC8E4E1367F1AC80ABA92BB0B546",
+            "SourceString": "Impact Grenade",
+            "LocalizedString": "Impact Grenade"
+          }
+        },
+        {
+          "Key": "NewEnumerator25",
+          "Value": {
+            "Namespace": "",
+            "Key": "8C3F17134F989F8ABD028F9507A82C0A",
+            "SourceString": "Incendiary Grenade",
+            "LocalizedString": "Incendiary Grenade"
+          }
+        },
+        {
+          "Key": "NewEnumerator26",
+          "Value": {
+            "Namespace": "",
+            "Key": "5A5621844131CB204CCB9FAC2F89FAC1",
+            "SourceString": "Proximity Grenade",
+            "LocalizedString": "Proximity Grenade"
+          }
+        },
+        {
+          "Key": "NewEnumerator27",
+          "Value": {
+            "Namespace": "",
+            "Key": "ADEDDFCC4721B24349633AA1D54BD3F9",
+            "SourceString": "Ghostfire",
+            "LocalizedString": "Ghostfire"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_AmmoType::NewEnumerator6": 0,
+      "ENUM_AmmoType::NewEnumerator12": 1,
+      "ENUM_AmmoType::NewEnumerator13": 2,
+      "ENUM_AmmoType::NewEnumerator15": 3,
+      "ENUM_AmmoType::NewEnumerator16": 4,
+      "ENUM_AmmoType::NewEnumerator17": 5,
+      "ENUM_AmmoType::NewEnumerator18": 6,
+      "ENUM_AmmoType::NewEnumerator19": 7,
+      "ENUM_AmmoType::NewEnumerator20": 8,
+      "ENUM_AmmoType::NewEnumerator21": 9,
+      "ENUM_AmmoType::NewEnumerator22": 10,
+      "ENUM_AmmoType::NewEnumerator23": 11,
+      "ENUM_AmmoType::NewEnumerator24": 12,
+      "ENUM_AmmoType::NewEnumerator25": 13,
+      "ENUM_AmmoType::NewEnumerator26": 14,
+      "ENUM_AmmoType::NewEnumerator27": 15,
+      "ENUM_AmmoType::ENUM_MAX": 16
+    },
+    "CppForm": "Namespaced"
+  }
+]

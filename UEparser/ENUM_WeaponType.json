@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_WeaponType",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "F173A46F4FD27C37EAEB85BD0896BA08",
+            "SourceString": "Thrown",
+            "LocalizedString": "Thrown"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "A5DD9A9D475205C58C5A0790965C9E30",
+            "SourceString": "Ballistic",
+            "LocalizedString": "Ballistic"
+          }
+        },
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "DAC06D9A4754D131C8672A9463ACFD8F",
+            "SourceString": "Melee",
+            "LocalizedString": "Melee"
+          }
+        },
+        {
+          "Key": "NewEnumerator6",
+          "Value": {
+            "Namespace": "",
+            "Key": "6C33388047D1E01DDF6427971E762D91",
+            "SourceString": "Launcher",
+            "LocalizedString": "Launcher"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_WeaponType::NewEnumerator5": 0,
+      "ENUM_WeaponType::NewEnumerator0": 1,
+      "ENUM_WeaponType::NewEnumerator1": 2,
+      "ENUM_WeaponType::NewEnumerator6": 3,
+      "ENUM_WeaponType::ENUM_MAX": 4
+    },
+    "CppForm": "Namespaced"
+  }
+]

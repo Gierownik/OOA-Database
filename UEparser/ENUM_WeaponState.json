@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_WeaponState",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "551485CB4B2566C9AE333B807AA9CDBC",
+            "SourceString": "Idle",
+            "LocalizedString": "Idle"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "8A5415D5449D90F06E96A29CF13C77D8",
+            "SourceString": "Firing",
+            "LocalizedString": "Firing"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "FF54CE004B2FE26765514B99BF57B683",
+            "SourceString": "Reloading",
+            "LocalizedString": "Reloading"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "F4A0C9CD40D3CFFD0A7A3A89A812607D",
+            "SourceString": "Equipping",
+            "LocalizedString": "Equipping"
+          }
+        },
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "1F80D4684BAECCB933A79B98315D1F40",
+            "SourceString": "Holstered",
+            "LocalizedString": "Holstered"
+          }
+        },
+        {
+          "Key": "NewEnumerator8",
+          "Value": {
+            "Namespace": "",
+            "Key": "A5348AE646B1DA1B294461BFA70374FA",
+            "SourceString": "Charging",
+            "LocalizedString": "Charging"
+          }
+        },
+        {
+          "Key": "NewEnumerator10",
+          "Value": {
+            "Namespace": "",
+            "Key": "B4428A1240C2A891EC8DAFB4D5DD178E",
+            "SourceString": "Spinning Up",
+            "LocalizedString": "Spinning Up"
+          }
+        },
+        {
+          "Key": "NewEnumerator11",
+          "Value": {
+            "Namespace": "",
+            "Key": "336E835C49E13AE31C4519B2BA9879A1",
+            "SourceString": "Quick Melee",
+            "LocalizedString": "Quick Melee"
+          }
+        },
+        {
+          "Key": "NewEnumerator12",
+          "Value": {
+            "Namespace": "",
+            "Key": "C7C77B634E27D8BFA1F9868D9ED2045E",
+            "SourceString": "Chambering",
+            "LocalizedString": "Chambering"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_WeaponState::NewEnumerator0": 0,
+      "ENUM_WeaponState::NewEnumerator1": 1,
+      "ENUM_WeaponState::NewEnumerator2": 2,
+      "ENUM_WeaponState::NewEnumerator3": 3,
+      "ENUM_WeaponState::NewEnumerator5": 4,
+      "ENUM_WeaponState::NewEnumerator8": 5,
+      "ENUM_WeaponState::NewEnumerator10": 6,
+      "ENUM_WeaponState::NewEnumerator11": 7,
+      "ENUM_WeaponState::NewEnumerator12": 8,
+      "ENUM_WeaponState::ENUM_MAX": 9
+    },
+    "CppForm": "Namespaced"
+  }
+]

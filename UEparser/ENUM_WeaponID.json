@@ -1,0 +1,256 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_WeaponID",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator15",
+          "Value": {
+            "Namespace": "",
+            "Key": "B8BB445D456318EAFC6C7AB7A735B605",
+            "SourceString": "-",
+            "LocalizedString": "-"
+          }
+        },
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "5098EE5446B40302D9EDD2A775F8B66E",
+            "SourceString": "Major",
+            "LocalizedString": "Major"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "B900DA8248D5C4D1C53D7887C569ABD3",
+            "SourceString": "Deckard",
+            "LocalizedString": "Deckard"
+          }
+        },
+        {
+          "Key": "NewEnumerator17",
+          "Value": {
+            "Namespace": "",
+            "Key": "5004691148BFB1E53DE41F8BE825B161",
+            "SourceString": "Icarus",
+            "LocalizedString": "Icarus"
+          }
+        },
+        {
+          "Key": "NewEnumerator18",
+          "Value": {
+            "Namespace": "",
+            "Key": "B30F294845A5B383E4C8C1BEA2D6E698",
+            "SourceString": "Master-Key",
+            "LocalizedString": "Master-Key"
+          }
+        },
+        {
+          "Key": "NewEnumerator19",
+          "Value": {
+            "Namespace": "",
+            "Key": "BAF5A90A45EE7E5ABA063286B685FCC5",
+            "SourceString": "Cerberus",
+            "LocalizedString": "Cerberus"
+          }
+        },
+        {
+          "Key": "NewEnumerator23",
+          "Value": {
+            "Namespace": "",
+            "Key": "26BB720F442235EB8D2E25B4C3272CD0",
+            "SourceString": "Vigil",
+            "LocalizedString": "Vigil"
+          }
+        },
+        {
+          "Key": "NewEnumerator28",
+          "Value": {
+            "Namespace": "",
+            "Key": "66649AC448C055038B8D7BB4F6C4ECB6",
+            "SourceString": "TTK",
+            "LocalizedString": "TTK"
+          }
+        },
+        {
+          "Key": "NewEnumerator41",
+          "Value": {
+            "Namespace": "",
+            "Key": "43154A3A4B6850DBF19B169736EFEFAE",
+            "SourceString": "Custodian",
+            "LocalizedString": "Custodian"
+          }
+        },
+        {
+          "Key": "NewEnumerator45",
+          "Value": {
+            "Namespace": "",
+            "Key": "403115C64684F6F6C68BE29C5EB873E6",
+            "SourceString": "Geist",
+            "LocalizedString": "Geist"
+          }
+        },
+        {
+          "Key": "NewEnumerator46",
+          "Value": {
+            "Namespace": "",
+            "Key": "47D1C1B142874982B60E6981B33740DB",
+            "SourceString": "Inhibitor",
+            "LocalizedString": "Inhibitor"
+          }
+        },
+        {
+          "Key": "NewEnumerator47",
+          "Value": {
+            "Namespace": "",
+            "Key": "B435CB014F3584B14FA3DD9E0D869454",
+            "SourceString": "Sentinel",
+            "LocalizedString": "Sentinel"
+          }
+        },
+        {
+          "Key": "NewEnumerator48",
+          "Value": {
+            "Namespace": "",
+            "Key": "2CA7C51B417D115627D69F82B6D3DE7F",
+            "SourceString": "Warrant",
+            "LocalizedString": "Warrant"
+          }
+        },
+        {
+          "Key": "NewEnumerator51",
+          "Value": {
+            "Namespace": "",
+            "Key": "D8B117514513EA5B182EAD8334265820",
+            "SourceString": "Helix",
+            "LocalizedString": "Helix"
+          }
+        },
+        {
+          "Key": "NewEnumerator52",
+          "Value": {
+            "Namespace": "",
+            "Key": "15B2EAB9405F63036D40B587F0178236",
+            "SourceString": "Nexus",
+            "LocalizedString": "Nexus"
+          }
+        },
+        {
+          "Key": "NewEnumerator53",
+          "Value": {
+            "Namespace": "",
+            "Key": "159C3B0F4CCE37B5D1B65C9CCFF3641B",
+            "SourceString": "Umibozu",
+            "LocalizedString": "Umibozu"
+          }
+        },
+        {
+          "Key": "NewEnumerator54",
+          "Value": {
+            "Namespace": "",
+            "Key": "5D74FBB849F50E0410C72AAC1CAC30A7",
+            "SourceString": "Blackout",
+            "LocalizedString": "Blackout"
+          }
+        },
+        {
+          "Key": "NewEnumerator55",
+          "Value": {
+            "Namespace": "",
+            "Key": "FC7C4D7146940F987826C08DAE41E1E1",
+            "SourceString": "Akanami",
+            "LocalizedString": "Akanami"
+          }
+        },
+        {
+          "Key": "NewEnumerator56",
+          "Value": {
+            "Namespace": "",
+            "Key": "A9CE0D6042FE73DA10442B88F7AE9803",
+            "SourceString": "Typhon",
+            "LocalizedString": "Typhon"
+          }
+        },
+        {
+          "Key": "NewEnumerator57",
+          "Value": {
+            "Namespace": "",
+            "Key": "856958344519292497BE6AAC2B77BF6E",
+            "SourceString": "Omen",
+            "LocalizedString": "Omen"
+          }
+        },
+        {
+          "Key": "NewEnumerator58",
+          "Value": {
+            "Namespace": "",
+            "Key": "D20A82E34F8505573599F4BD906C6F7D",
+            "SourceString": "Hole-Punch",
+            "LocalizedString": "Hole-Punch"
+          }
+        },
+        {
+          "Key": "NewEnumerator59",
+          "Value": {
+            "Namespace": "",
+            "Key": "4227B1A44EA4E03A3A4FE3A3B14996B3",
+            "SourceString": "Double-Tap",
+            "LocalizedString": "Double-Tap"
+          }
+        },
+        {
+          "Key": "NewEnumerator60",
+          "Value": {
+            "Namespace": "",
+            "Key": "7F6122ED411F72E54F1BB39C156A301F",
+            "SourceString": "Dusters",
+            "LocalizedString": "Dusters"
+          }
+        },
+        {
+          "Key": "NewEnumerator61",
+          "Value": {
+            "Namespace": "",
+            "Key": "96AE5C7F49F2A974C26AA1A690F21F45",
+            "SourceString": "Fists",
+            "LocalizedString": "Fists"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_WeaponID::NewEnumerator15": 0,
+      "ENUM_WeaponID::NewEnumerator28": 1,
+      "ENUM_WeaponID::NewEnumerator0": 2,
+      "ENUM_WeaponID::NewEnumerator1": 3,
+      "ENUM_WeaponID::NewEnumerator45": 4,
+      "ENUM_WeaponID::NewEnumerator19": 5,
+      "ENUM_WeaponID::NewEnumerator18": 6,
+      "ENUM_WeaponID::NewEnumerator17": 7,
+      "ENUM_WeaponID::NewEnumerator41": 8,
+      "ENUM_WeaponID::NewEnumerator23": 9,
+      "ENUM_WeaponID::NewEnumerator46": 10,
+      "ENUM_WeaponID::NewEnumerator47": 11,
+      "ENUM_WeaponID::NewEnumerator48": 12,
+      "ENUM_WeaponID::NewEnumerator51": 13,
+      "ENUM_WeaponID::NewEnumerator52": 14,
+      "ENUM_WeaponID::NewEnumerator53": 15,
+      "ENUM_WeaponID::NewEnumerator54": 16,
+      "ENUM_WeaponID::NewEnumerator55": 17,
+      "ENUM_WeaponID::NewEnumerator56": 18,
+      "ENUM_WeaponID::NewEnumerator57": 19,
+      "ENUM_WeaponID::NewEnumerator58": 20,
+      "ENUM_WeaponID::NewEnumerator59": 21,
+      "ENUM_WeaponID::NewEnumerator60": 22,
+      "ENUM_WeaponID::NewEnumerator61": 23,
+      "ENUM_WeaponID::ENUM_MAX": 24
+    },
+    "CppForm": "Namespaced"
+  }
+]

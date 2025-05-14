@@ -1,0 +1,186 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_DeviceID",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "D6278442429F25FF9BA0D08D1A8ED23D",
+            "SourceString": "Overcharge",
+            "LocalizedString": "Overcharge"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "36006F9445B8A4201DB85B93D298F9AB",
+            "SourceString": "Laser Wire",
+            "LocalizedString": "Laser Wire"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "373E86844C7C4C3A77F22BBE98B21EFB",
+            "SourceString": "Breach",
+            "LocalizedString": "Breach"
+          }
+        },
+        {
+          "Key": "NewEnumerator10",
+          "Value": {
+            "Namespace": "",
+            "Key": "42364D5B4F04FAD15FA23F8A1923C81E",
+            "SourceString": "-",
+            "LocalizedString": "-"
+          }
+        },
+        {
+          "Key": "NewEnumerator12",
+          "Value": {
+            "Namespace": "",
+            "Key": "E2C1B7F44784C38612C51789743BDF9D",
+            "SourceString": "Disrupter",
+            "LocalizedString": "Disrupter"
+          }
+        },
+        {
+          "Key": "NewEnumerator13",
+          "Value": {
+            "Namespace": "",
+            "Key": "63F14BB940E92DC45B7768937B94AC5A",
+            "SourceString": "Detonator",
+            "LocalizedString": "Detonator"
+          }
+        },
+        {
+          "Key": "NewEnumerator14",
+          "Value": {
+            "Namespace": "",
+            "Key": "28996FBF4C81F2F66ACDA99FCFDCA308",
+            "SourceString": "Proximity Mine",
+            "LocalizedString": "Proximity Mine"
+          }
+        },
+        {
+          "Key": "NewEnumerator15",
+          "Value": {
+            "Namespace": "",
+            "Key": "B956494B45B0CD880E0E01927FA9F5B2",
+            "SourceString": "Firecracker",
+            "LocalizedString": "Firecracker"
+          }
+        },
+        {
+          "Key": "NewEnumerator16",
+          "Value": {
+            "Namespace": "",
+            "Key": "F24D85EE4421D4BDCAC8F98B7CAEBC7C",
+            "SourceString": "Relocator",
+            "LocalizedString": "Relocator"
+          }
+        },
+        {
+          "Key": "NewEnumerator17",
+          "Value": {
+            "Namespace": "",
+            "Key": "6F80B85044232BB2E1384890A64947CB",
+            "SourceString": "AAP Turret",
+            "LocalizedString": "AAP Turret"
+          }
+        },
+        {
+          "Key": "NewEnumerator20",
+          "Value": {
+            "Namespace": "",
+            "Key": "9D27CDC14D36657D77C5EA9F1806453D",
+            "SourceString": "Deadzone",
+            "LocalizedString": "Deadzone"
+          }
+        },
+        {
+          "Key": "NewEnumerator22",
+          "Value": {
+            "Namespace": "",
+            "Key": "3F486ABE4E2A4DBF3C0D01ABAE0BFD3D",
+            "SourceString": "Satchel Charge",
+            "LocalizedString": "Satchel Charge"
+          }
+        },
+        {
+          "Key": "NewEnumerator23",
+          "Value": {
+            "Namespace": "",
+            "Key": "B91266584F207E5A5DFEEAA3EA08E242",
+            "SourceString": "Bolster",
+            "LocalizedString": "Bolster"
+          }
+        },
+        {
+          "Key": "NewEnumerator24",
+          "Value": {
+            "Namespace": "",
+            "Key": "675DA5C54CCC6EAABE6CE9931212C0EC",
+            "SourceString": "Shroud",
+            "LocalizedString": "Shroud"
+          }
+        },
+        {
+          "Key": "NewEnumerator25",
+          "Value": {
+            "Namespace": "",
+            "Key": "378D8F4F4DDE8148A21F8680D08E6EA9",
+            "SourceString": "Reserve Stim",
+            "LocalizedString": "Reserve Stim"
+          }
+        },
+        {
+          "Key": "NewEnumerator26",
+          "Value": {
+            "Namespace": "",
+            "Key": "A5BEECFC43DD030F33D7AFBA6E88FD1D",
+            "SourceString": "Tempest",
+            "LocalizedString": "Tempest"
+          }
+        },
+        {
+          "Key": "NewEnumerator27",
+          "Value": {
+            "Namespace": "",
+            "Key": "1EE06BB5499A186C68B009983307E23C",
+            "SourceString": "Shifter",
+            "LocalizedString": "Shifter"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_DeviceID::NewEnumerator10": 0,
+      "ENUM_DeviceID::NewEnumerator3": 1,
+      "ENUM_DeviceID::NewEnumerator0": 2,
+      "ENUM_DeviceID::NewEnumerator1": 3,
+      "ENUM_DeviceID::NewEnumerator12": 4,
+      "ENUM_DeviceID::NewEnumerator13": 5,
+      "ENUM_DeviceID::NewEnumerator14": 6,
+      "ENUM_DeviceID::NewEnumerator15": 7,
+      "ENUM_DeviceID::NewEnumerator16": 8,
+      "ENUM_DeviceID::NewEnumerator17": 9,
+      "ENUM_DeviceID::NewEnumerator20": 10,
+      "ENUM_DeviceID::NewEnumerator22": 11,
+      "ENUM_DeviceID::NewEnumerator23": 12,
+      "ENUM_DeviceID::NewEnumerator24": 13,
+      "ENUM_DeviceID::NewEnumerator25": 14,
+      "ENUM_DeviceID::NewEnumerator26": 15,
+      "ENUM_DeviceID::NewEnumerator27": 16,
+      "ENUM_DeviceID::ENUM_MAX": 17
+    },
+    "CppForm": "Namespaced"
+  }
+]

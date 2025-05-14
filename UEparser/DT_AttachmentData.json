@@ -1,0 +1,861 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AttachmentData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'STRUCT_AttachmentData'",
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_AttachmentData.0"
+      }
+    },
+    "Rows": {
+      "DualWield": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator47",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator59",
+          "ENUM_WeaponID::NewEnumerator57"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "LaserSight": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator48",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 1,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "Suppressor": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator49",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "Foregrip": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator50",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "SecureGrip": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator51",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59",
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "TacticalForeGrip": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator52",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator18"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "Auto-Bolt": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator53",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator23"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "HeavyBarrel": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator54",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "LongBarrel": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator55",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator19"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "HighCapacity": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator56",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "ExternalMag": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator57",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator18"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "SpeedLoader": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator58",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator19"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "AdaptiveChoke": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator59",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator56"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
+          "ENUM_AttachmentID::NewEnumerator77"
+        ]
+      },
+      "LightTrigger": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator75",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
+          "ENUM_AttachmentID::NewEnumerator93",
+          "ENUM_AttachmentID::NewEnumerator85"
+        ]
+      },
+      "AutomaticTrigger": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator76",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "RifledBarrel": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator77",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
+          "ENUM_AttachmentID::NewEnumerator59"
+        ]
+      },
+      "CQBMount": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator78",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "IronSights": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator73",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator0",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "ReflexSight": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator61",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator0",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 1,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "2xSight": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator62",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator0",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 1,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "3xSight": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator63",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator0",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 1,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "4xSight": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator64",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator0",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator1"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "MarksmanSight": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator65",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator0",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator52"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "TargetPainter": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator79",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator0",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "2xTRGSight": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator81",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator0",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "4xTRGSight": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator82",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator0",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator1"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "PiercingAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator66",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 1,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "HeavyAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator67",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 1,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "ShredAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator68",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "IncendiaryAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator69",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator23",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "EMAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator70",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator23",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "CBAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator71",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator23",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "T-LockAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator72",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator23",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "StandardAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator74",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "TDAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator80",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "ContactCharge": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator83",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59",
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "BurstTrigger": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator85",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
+          "ENUM_AttachmentID::NewEnumerator75"
+        ]
+      },
+      "ChemAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator84",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator23",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "StandardGrenade": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator86",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "ImpactGrenade": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator87",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 1,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "IncendiaryGrenade": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator88",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "ProximityGrenade": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator89",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "GhostfireAmmo": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator96",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator23",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator3",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "Stabilizer": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator90",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator52"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 2,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "LightweightFrame": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator91",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator0",
+          "ENUM_WeaponID::NewEnumerator1",
+          "ENUM_WeaponID::NewEnumerator45",
+          "ENUM_WeaponID::NewEnumerator19",
+          "ENUM_WeaponID::NewEnumerator18",
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator41",
+          "ENUM_WeaponID::NewEnumerator23",
+          "ENUM_WeaponID::NewEnumerator46",
+          "ENUM_WeaponID::NewEnumerator47",
+          "ENUM_WeaponID::NewEnumerator51",
+          "ENUM_WeaponID::NewEnumerator52",
+          "ENUM_WeaponID::NewEnumerator56",
+          "ENUM_WeaponID::NewEnumerator57",
+          "ENUM_WeaponID::NewEnumerator59",
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 0,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "HVBarrel": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator92",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator48"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 1,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "WildfireTrigger": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator93",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator1"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
+          "ENUM_AttachmentID::NewEnumerator75"
+        ]
+      },
+      "HeavyReceiver": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator94",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator46"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      },
+      "HavokCycler": {
+        "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator95",
+        "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
+        "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
+        "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
+          "ENUM_WeaponID::NewEnumerator17",
+          "ENUM_WeaponID::NewEnumerator46"
+        ],
+        "requirement_40_742C59FB42D2AECF0A292889D9BF010D": 3,
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+      }
+    }
+  }
+]

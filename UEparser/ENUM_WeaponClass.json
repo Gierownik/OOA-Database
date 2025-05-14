@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_WeaponClass",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator47",
+          "Value": {
+            "Namespace": "",
+            "Key": "CFE853444C2B5DF6A37E6B9ECB3B0839",
+            "SourceString": "Sidearm",
+            "LocalizedString": "Sidearm"
+          }
+        },
+        {
+          "Key": "NewEnumerator48",
+          "Value": {
+            "Namespace": "",
+            "Key": "7B351A924743C59261B7F189779D63EB",
+            "SourceString": "Primary",
+            "LocalizedString": "Primary"
+          }
+        },
+        {
+          "Key": "NewEnumerator46",
+          "Value": {
+            "Namespace": "",
+            "Key": "7295BBA84BAB95F93D57AF98E9C13ABC",
+            "SourceString": "Backup",
+            "LocalizedString": "Backup"
+          }
+        },
+        {
+          "Key": "NewEnumerator50",
+          "Value": {
+            "Namespace": "",
+            "Key": "44EB702446582304D58243B193E8FDFF",
+            "SourceString": "Heavy",
+            "LocalizedString": "Heavy"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_WeaponClass::NewEnumerator46": 0,
+      "ENUM_WeaponClass::NewEnumerator47": 1,
+      "ENUM_WeaponClass::NewEnumerator48": 2,
+      "ENUM_WeaponClass::NewEnumerator50": 3,
+      "ENUM_WeaponClass::ENUM_MAX": 4
+    },
+    "CppForm": "Namespaced"
+  }
+]

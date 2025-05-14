@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_FireMode",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "57FA01494740E15FBD4D17888F86E237",
+            "SourceString": "Semi-Automatic",
+            "LocalizedString": "Semi-Automatic"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "F0E4D6984124D9B8EBC39FB9067A3D24",
+            "SourceString": "Automatic",
+            "LocalizedString": "Automatic"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "7BA11EC5425BAC194E96CEBDC192D809",
+            "SourceString": "Burst",
+            "LocalizedString": "Burst"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "AEBFE6EC421B7EF308C8949524432A1B",
+            "SourceString": "Chambered",
+            "LocalizedString": "Chambered"
+          }
+        },
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "DF14E8C045D56A5B003512969802799D",
+            "SourceString": "Charged",
+            "LocalizedString": "Charged"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_FireMode::NewEnumerator5": 0,
+      "ENUM_FireMode::NewEnumerator0": 1,
+      "ENUM_FireMode::NewEnumerator1": 2,
+      "ENUM_FireMode::NewEnumerator2": 3,
+      "ENUM_FireMode::NewEnumerator3": 4,
+      "ENUM_FireMode::ENUM_MAX": 5
+    },
+    "CppForm": "Namespaced"
+  }
+]
