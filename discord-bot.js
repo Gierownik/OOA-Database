@@ -48,6 +48,9 @@ function createAugmentEmbed(augmentName, effects) {
     const positiveEffects = effects.filter(effect => 
         effect.tagCheck('^')
     );
+    const additionalEffects = effects.filter(effect => 
+        effect.tagCheck('$')
+    );
     const negativeEffects = effects.filter(effect => 
         effect.tagCheck('@')
     );
@@ -61,7 +64,7 @@ function createAugmentEmbed(augmentName, effects) {
         !foundation.includes(effect)
     );
     
-    const cleanEffect = line => line.tagCheck('^') || line.tagCheck('@')
+    const cleanEffect = line => line.tagCheck('^') || line.tagCheck('@') || line.tagCheck('$')
     ? line.slice(0, 2) + line.slice(3)
     : line.startsWith('&')
     ? line.slice(1)
@@ -73,6 +76,12 @@ function createAugmentEmbed(augmentName, effects) {
         embed.addFields({
             name: '✅ Positive Effects',
             value: positiveEffects.map(cleanEffect).join('\n')
+        });
+    }
+    if (additionalEffects.length > 0) {
+        embed.addFields({
+            name: '🔧 Additional Mechanics',
+            value: additionalEffects.map(cleanEffect).join('\n')
         });
     }
     if (negativeEffects.length > 0) {
