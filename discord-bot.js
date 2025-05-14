@@ -101,6 +101,15 @@ const augmentCommand = new SlashCommandBuilder()
         option.setName('name')
             .setDescription('The name of the augment')
             .setRequired(true));
+const augallCommand = new SlashCommandBuilder()
+    .setName('aug-all')
+    .setDescription('Get information about all augments, split into pages')
+    .addIntegerOption(option =>
+        option.setName('page')
+            .setDescription('Page number')
+            .setRequired(true)
+            .setMinValue(1)
+            .setMaxValue(7) );
 
 // Register slash commands
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
@@ -111,7 +120,7 @@ const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 
         await rest.put(
             Routes.applicationCommands(process.env.CLIENT_ID),
-            { body: [augmentCommand.toJSON()] },
+            { body: [augmentCommand.toJSON(), augallCommand.toJSON()] },
         );
 
         console.log('Successfully reloaded application (/) commands.');
@@ -123,19 +132,41 @@ const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 // Handle slash command interactions
 client.on('interactionCreate', async interaction => {
     if (!interaction.isChatInputCommand()) return;
-    if (interaction.commandName !== 'augment') return;
 
-    const query = interaction.options.getString('name');
-    const closestMatch = findClosestAugment(query);
-    const effects = augments[closestMatch];
+    if (interaction.commandName === 'augment') {
+        const query = interaction.options.getString('name');
+        const closestMatch = findClosestAugment(query);
+        const effects = augments[closestMatch];
 
-    if (!effects) {
-        await interaction.reply('No augment found matching your query.');
-        return;
+        if (!effects) {
+            await interaction.reply('No augment found matching your query.');
+            return;
+        }
+
+        const embed = createAugmentEmbed(closestMatch, effects);
+        await interaction.reply({ embeds: [embed] });
     }
 
-    const embed = createAugmentEmbed(closestMatch, effects);
-    await interaction.reply({ embeds: [embed] });
+    else if (interaction.commandName === 'aug-all') {
+        const page = interaction.options.getInteger('page');
+        const perPage = 10;
+        const allAugments = Object.entries(augments)
+            .sort(([a], [b]) => a.localeCompare(b));
+    
+        const start = (page - 1) * perPage;
+        const pageItems = allAugments.slice(start, start + perPage);
+    
+        if (pageItems.length === 0) {
+            await interaction.reply(`Page ${page} is empty or out of action.`);
+            return;
+        }
+    
+        const embeds = pageItems.map(([name, effects]) =>
+            createAugmentEmbed(name, effects)
+        );
+    
+        await interaction.reply({ embeds });
+    }
 });
 
 // Handle ready event
