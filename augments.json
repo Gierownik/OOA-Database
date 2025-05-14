@@ -410,7 +410,7 @@
   ],
   "Specialist": [
     "- ^ Additional weapon mod slot",
-    "- ^ **75%** sidearm + primary weapon handling speed penalties while only sidearm or primary slot used",
+    "- ^ **65%** sidearm + primary weapon handling speed penalties while only sidearm or primary slot used",
     "- ^ **25%** increased sidearm + primary weapon dexterity while only sidearm or primary slot used",
     "- @ Can only equip **1** device",
     "& 15 Body, 0 Tech, 20 Hardware"

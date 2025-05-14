@@ -1830,8 +1830,8 @@
           {
             "Namespace": "",
             "Key": "EB616C7C4BC519C512D18092164CDF2E",
-            "SourceString": "> Additional weapon mod slot\r\n> <C>75%</> sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>",
-            "LocalizedString": "> Additional weapon mod slot\r\n> <C>75%</> sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>"
+            "SourceString": "> Additional weapon mod slot\r\n> <C>65%</> sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>",
+            "LocalizedString": "> Additional weapon mod slot\r\n> <C>65%</> sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>"
           }
         ]
       },
@@ -2819,8 +2819,8 @@
           {
             "Namespace": "",
             "Key": "636B615B46874F89062808B4AABFF165",
-            "SourceString": "> Removes radar profile from firing\r\n> Tracers no longer visible to enemies while using non-exotic ammo types\r\n> <C>50%</> reduced vertical recoil\r\n> <C>25%</> reduced horizontal recoil\r\n<B>></> <C>15%</> <B>reduced velocity</>",
-            "LocalizedString": "> Removes radar profile from firing\r\n> Tracers no longer visible to enemies while using non-exotic ammo types\r\n> <C>50%</> reduced vertical recoil\r\n> <C>25%</> reduced horizontal recoil\r\n<B>></> <C>15%</> <B>reduced velocity</>"
+            "SourceString": "> Removes radar profile from firing\r\n> Tracers no longer visible to enemies while using non-exotic ammo types\r\n> <C>50%</> reduced vertical recoil\r\n<B>></> <C>15%</> <B>reduced velocity</>",
+            "LocalizedString": "> Removes radar profile from firing\r\n> Tracers no longer visible to enemies while using non-exotic ammo types\r\n> <C>50%</> reduced vertical recoil\r\n<B>></> <C>15%</> <B>reduced velocity</>"
           }
         ]
       },
