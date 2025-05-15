@@ -19,6 +19,7 @@ String.prototype.tagCheck = function(char) {
 
 // Load augments data
 const augments = JSON.parse(fs.readFileSync('augments.json', 'utf8'));
+const weapons = JSON.parse(fs.readFileSync('weapons.json', 'utf8'));
 
 /**
  * Find the closest matching augment name using fuzzy matching
@@ -30,11 +31,18 @@ function findClosestAugment(query) {
     const matches = stringSimilarity.findBestMatch(query.toLowerCase(), augmentNames.map(name => name.toLowerCase()));
     return augmentNames[matches.bestMatchIndex];
 }
+function findClosestWeapon(query) {
+    const weaponNames = Object.keys(weapons);
+    const Gmatches = stringSimilarity.findBestMatch(query.toLowerCase(), weaponNames.map(name => name.toLowerCase()));
+    return weaponNames[Gmatches.bestMatchIndex];
+}
 
 /**
  * Create a Discord embed for an augment
  * @param {string} augmentName - The name of the augment
- * @param {string[]} effects - The effects of the augment
+ * @param {string[]} effects
+ * @param {string} weaponName 
+ * @param {string[]} stats 
  * @returns {EmbedBuilder} - The Discord embed
  */
 function createAugmentEmbed(augmentName, effects) {
@@ -107,7 +115,36 @@ function createAugmentEmbed(augmentName, effects) {
 
     return embed;
 }
-
+function createGunEmbed(weaponName, stats) {
+    const embed = new EmbedBuilder()
+        .setColor('#db463b')
+        .setTitle(weaponName)
+        .setTimestamp();
+        const Loadoutstats = stats.filter(stats => 
+            stats.tagCheck('^')
+        );
+        const Mainstats = stats.filter(stats => 
+            stats.tagCheck('@')
+        );
+        const cleanStat = line => line.tagCheck('^') || line.tagCheck('@')
+        ? line.slice(0, 2) + line.slice(3)
+        : line;
+        
+        
+        if (Loadoutstats.length > 0) {
+            embed.addFields({
+                name: '⚙  Loadout',
+                value: Loadoutstats.map(cleanStat).join('\n')
+            });
+        }
+        if (Mainstats.length > 0) {
+            embed.addFields({
+                name: '🔧 Stats',
+                value: Mainstats.map(cleanStat).join('\n')
+            });
+        }
+    return embed;
+}
 // Define the slash command
 const augmentCommand = new SlashCommandBuilder()
     .setName('augment')
@@ -125,6 +162,13 @@ const augallCommand = new SlashCommandBuilder()
             .setRequired(true)
             .setMinValue(1)
             .setMaxValue(7) );
+const weaponCommand = new SlashCommandBuilder()          
+    .setName('weapon')
+    .setDescription('Get information about a weapon')
+    .addStringOption(option =>
+        option.setName('name')
+            .setDescription('The name of the weapon')
+            .setRequired(true));
 
 // Register slash commands
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
@@ -135,7 +179,7 @@ const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 
         await rest.put(
             Routes.applicationCommands(process.env.CLIENT_ID),
-            { body: [augmentCommand.toJSON(), augallCommand.toJSON()] },
+            { body: [augmentCommand.toJSON(), augallCommand.toJSON(), weaponCommand.toJSON()] },
         );
 
         console.log('Successfully reloaded application (/) commands.');
@@ -173,6 +217,19 @@ client.on('interactionCreate', async interaction => {
         );
     
         await interaction.reply({ embeds });
+    }
+    if (interaction.commandName === 'weapon') { 
+        const queryGun = interaction.options.getString('name');
+        const closestMatchGun = findClosestWeapon(queryGun);
+        const stats = weapons[closestMatchGun];
+
+        if (!stats) {
+            await interaction.reply('No gun found matching your query.');
+            return;
+        }
+
+        const embed = createGunEmbed(closestMatchGun, stats);
+        await interaction.reply({ embeds: [embed] });
     }
 });
 
