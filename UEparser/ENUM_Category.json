@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_Category",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "9E14BB494B112036BC9A719E97A6772C",
+            "SourceString": "Handguns",
+            "LocalizedString": "Handguns"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "312FA432425B0F8B3F4344BEA4181590",
+            "SourceString": "Small Arms",
+            "LocalizedString": "Small Arms"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "D8C6C7CE4046AEBC02A17D8426F9D644",
+            "SourceString": "Shotguns",
+            "LocalizedString": "Shotguns"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "2799D4074C465CEE42C3E6B41D8E4971",
+            "SourceString": "Assault Weapons",
+            "LocalizedString": "Assault Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator4",
+          "Value": {
+            "Namespace": "",
+            "Key": "5AD58FF448A1498F9AEB3F923AA1DB06",
+            "SourceString": "Support Weapons",
+            "LocalizedString": "Support Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "75FF15DA47598A465F2AC09DE7CA37B3",
+            "SourceString": "Precision Weapons",
+            "LocalizedString": "Precision Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator6",
+          "Value": {
+            "Namespace": "",
+            "Key": "1AEC23944C3E4C348949ECB90C1AEFB4",
+            "SourceString": "Heavy Weapons",
+            "LocalizedString": "Heavy Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator7",
+          "Value": {
+            "Namespace": "",
+            "Key": "B3A2A7DE4833D9ABD47B5EB61BB6EC7C",
+            "SourceString": "Melee Weapons",
+            "LocalizedString": "Melee Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator8",
+          "Value": {
+            "Namespace": "",
+            "Key": "D5F8FF90441FC6DFA31B01B82A79E023",
+            "SourceString": "-",
+            "LocalizedString": "-"
+          }
+        },
+        {
+          "Key": "NewEnumerator9",
+          "Value": {
+            "Namespace": "",
+            "Key": "8DAB4AE14B6C6A3D3F3C65A99F27B57C",
+            "SourceString": "Shells",
+            "LocalizedString": "Shells"
+          }
+        },
+        {
+          "Key": "NewEnumerator12",
+          "Value": {
+            "Namespace": "",
+            "Key": "36C57C3D48BDDB9F6305BA8477B51D38",
+            "SourceString": "Devices",
+            "LocalizedString": "Devices"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_Category::NewEnumerator8": 0,
+      "ENUM_Category::NewEnumerator0": 1,
+      "ENUM_Category::NewEnumerator1": 2,
+      "ENUM_Category::NewEnumerator2": 3,
+      "ENUM_Category::NewEnumerator3": 4,
+      "ENUM_Category::NewEnumerator4": 5,
+      "ENUM_Category::NewEnumerator5": 6,
+      "ENUM_Category::NewEnumerator6": 7,
+      "ENUM_Category::NewEnumerator7": 8,
+      "ENUM_Category::NewEnumerator9": 9,
+      "ENUM_Category::NewEnumerator12": 10,
+      "ENUM_Category::ENUM_MAX": 11
+    },
+    "CppForm": "Namespaced"
+  }
+]
