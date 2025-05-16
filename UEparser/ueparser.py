@@ -20,18 +20,6 @@ skill_rows = skilltree_data[0]["Rows"]
 
 perk_output = {}
 
-def format_line(line):
-    # Doku doesnt do other effects, so its just upside and downside (thats the reason i retype all tooltips)
-    # Discord formating: bold numbers: replaces <C>...</> with **...**
-    line = re.sub(r"<C>(.*?)</>", r"**\1**", line)
-    # Discord formatting: lists and upside tag (^): replace lines that start with "> " with "- ^"  (yeh i chose random symbols as tags)
-    line = re.sub(r"^> ", r"- ^ ", line)
-    # Discord formatting: list and downside tag (@): replaces <B>>...</> with - @...
-    line = re.sub(r"<B>>\s*(.*?)</>", r"- @ \1", line)
-    # The line above me does some funky stuff this is the fix:
-    line = re.sub(r"<B>\s*(.*?)</>", r"\1", line)
-    return line.strip()
-
 for skill_name, skill_data in skill_rows.items():
     perk_enum = skill_data.get("PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4")
 
@@ -44,7 +32,7 @@ for skill_name, skill_data in skill_rows.items():
         tooltip_text = tooltips[-1]["LocalizedString"]
 
         lines = [
-            format_line(line)
+            line
             for line in tooltip_text.strip().splitlines()
             if line.strip()
         ]

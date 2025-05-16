@@ -1,0 +1,20 @@
+{
+  "Acrobatics": [
+    "- ^ Additional aerial maneuver charge",
+    "- ^ Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge",
+    "- ^ Recover an aerial maneuver charge on starting a climb",
+    "- ^ **50%** reduced fall damage",
+    "- ^ **15%** increased climb speed",
+    "- ^ **1 m/s** increased jump speed",
+    "- @  **25** reduced defense"
+  ],
+  "Addict": [
+    "- ^ **50%** increased Stim use speed + hemostasis duration",
+    "- ^ **35%** reduced direct damage to vitals while hemostasis active",
+    "- ^ **50%** increased Core + Aux power regeneration while hemostasis active",
+    "- ^ **15%** increased ground speed while hemostasis active",
+    "- @  **1 s** detox cooldown on activation, increasing by **1 s** for each following activation, up to **20 s**",
+    "- @  **15-25** vital damage received on activation while detox on cooldown",
+    "- @  **50%** reduced vitals restored from all sources"
+  ]
+}

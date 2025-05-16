@@ -18,8 +18,8 @@ String.prototype.tagCheck = function(char) {
   };
 
 // Load augments data
-const augments = JSON.parse(fs.readFileSync('augments.json', 'utf8'));
-const weapons = JSON.parse(fs.readFileSync('weapons.json', 'utf8'));
+const augments = JSON.parse(fs.readFileSync('UEparser/augments_dc.json', 'utf8'));
+const weapons = JSON.parse(fs.readFileSync('UEparser/weapons_dc.json', 'utf8'));
 
 /**
  * Find the closest matching augment name using fuzzy matching

@@ -29,7 +29,7 @@ def format_everything(obj):
 perk_output = format_everything(enum_data)
 
 # Save to JSON
-with open("augments.json", "w", encoding="utf-8") as out_file:
+with open("augments_dc.json", "w", encoding="utf-8") as out_file:
     json.dump(perk_output, out_file, indent=2, ensure_ascii=False)
 
 print("Shit's working")

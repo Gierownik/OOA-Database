@@ -1,0 +1,489 @@
+{
+  "Acrobatics": [
+    "> Additional aerial maneuver charge",
+    "> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge",
+    "> Recover an aerial maneuver charge on starting a climb",
+    "> <C>50%</> reduced fall damage",
+    "> <C>15%</> increased climb speed",
+    "> <C>1 m/s</> increased jump speed",
+    "<B>></> <C>25</> <B>reduced defense</>",
+    "& 25 Body, 0 Tech, 0 Hardware"
+  ],
+  "Addict": [
+    "> <C>50%</> increased Stim use speed + hemostasis duration",
+    "> <C>35%</> reduced direct damage to vitals while hemostasis active",
+    "> <C>50%</> increased Core + Aux power regeneration while hemostasis active",
+    "> <C>15%</> increased ground speed while hemostasis active",
+    "<B>> </> <C>1 s</> <B>detox cooldown on activation, increasing by</> <C>1 s</> <B>for each following activation, up to</> <C>20 s</>",
+    "<B>></> <C>15-25</> <B>vital damage received on activation while detox on cooldown</>",
+    "<B>></> <C>50%</> <B>reduced vitals restored from all sources</>",
+    "& 10 Body, 0 Tech, 0 Hardware"
+  ],
+  "Adrenaline Rush": [
+    "> <C>25-75</> vitals restored on visible kill, scaling proportionally with Core charge from <C>0-100</>",
+    "> <C>0-15%</> increased ground speed + dexterity, scaling proportionally with Core charge from <C>0-100</>",
+    "<B>></> <C>25</> <B>reduced vitals</>",
+    "& 15 Body, 10 Tech, 0 Hardware"
+  ],
+  "Advanced Recon": [
+    "> <C>25%</> increased radar + detection range from all sources",
+    "> <C>50%</> reduced tag cooldown",
+    "> Detected enemies can be tagged",
+    "<B>> Can be disabled</>",
+    "& 0 Body, 5 Tech, 10 Hardware"
+  ],
+  "Akimbo": [
+    "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming",
+    "> Alternate aim stance: Fire a single sidearm with increased accuracy",
+    "> <C>15%</> increased Core generation with sidearms",
+    "> <C>100%</> additional sidearm reserve ammo",
+    "<B>> Can no longer equip sidearm optics</>",
+    "<B>></> <C>25%</> <B>reduced sidearm damage</>",
+    "<B>></> <C>50%</> <B>increased sidearm recoil</>",
+    "<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>",
+    "& 15 Body, 0 Tech, 20 Hardware"
+  ],
+  "Armadillo": [
+    "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown",
+    "> Deflect direct damage, clears burn + gains fire immunity while active",
+    "> Automatically roll on knockdown",
+    "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+    "<B>> Can be disabled</>",
+    "& 20 Body, 15 Tech, 0 Hardware"
+  ],
+  "Augmented Arms": [
+    "> <C>25%</> increased backup weapon damage + throw velocity",
+    "> <C>25%</> reduced firearm recoil + spread gain",
+    "<B>> Can be disabled</>",
+    "& 10 Body, 5 Tech, 0 Hardware"
+  ],
+  "Augmented Legs": [
+    "> <C>25%</> reduced loadout + movement speed penalties",
+    "> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling or crouched",
+    "> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers",
+    "<B>> Charging jump drains aux power</>",
+    "<B>> Can be disabled</>",
+    "& 10 Body, 5 Tech, 0 Hardware"
+  ],
+  "Augmented Nano-wire": [
+    "> Nano-wire can attach to held enemy weapons pulling you toward them, applies cripple for <C>1 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown",
+    "> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>",
+    "> <C>25%</> increased Nano-wire range",
+    "<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>",
+    "<B>></> <C>100%</> <B>increased Nano-wire cooldown</>",
+    "<B>></> <C>50%</> <B>aux power drained on pull</>",
+    "<B>> Can be disabled</>",
+    "& 5 Body, 10 Tech, 10 Hardware"
+  ],
+  "Auto-Doc": [
+    "> Automatically removes bleed, <C>10 s</> cooldown",
+    "> <C>25</> vitals restored + hemostasis for <C>2.5 s</> on activation",
+    "<B>> Can be disabled</>",
+    "& 5 Body, 10 Tech, 0 Hardware"
+  ],
+  "Auxiliary Vitals": [
+    "> <C>50</> increased vitals",
+    "> <C>50%</> reduced bleed damage received",
+    "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+    "& 15 Body, 0 Tech, 0 Hardware"
+  ],
+  "Bloodsport": [
+    "> Bleeding enemies within <C>30 m</> are detected while bleeding",
+    "> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>",
+    "> <C>15%</> increased ground speed while bleeding",
+    "> <C>50%</> reduced aux power drain while bleeding",
+    "<B>> Primary stim causes bleed, no longer restores vitals or applies hemostasis if used while not bleeding</>",
+    "<B>></> <C>50%</> <B>increased bleed damage received</>",
+    "& 20 Body, 0 Tech, 0 Hardware"
+  ],
+  "Caustic": [
+    "> Backup weapons deal chemical damage + apply corrode for <C>2 s</> ",
+    "> <C>25%</> of vitals damage received reflected as chemical damage + <C>2 s</> snare to enemies within <C>3 m</>",
+    "> <C>100%</> chemical resistance, chemical stat reduction immunity",
+    "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+    "<B>></> <C>25%</> <B>increased bleed damage received</>",
+    "& 10 Body, 0 Tech, 10 Hardware"
+  ],
+  "Chain Reaction": [
+    "> Disable all unobstructed enemies within <C>25 m</> on receiving disable",
+    "> Disable all unobstructed enemies within <C>25 m</> of enemy on applying disable",
+    "> <C>5%</> increased direct damage dealt per unobstructed disabled enemy within <C>25 m</>, stacking up to <C>25%</>",
+    "<B>></> <C>15%</> <B>increased direct damage received while disabled</>",
+    "& 10 Body, 20 Tech, 0 Hardware"
+  ],
+  "Chemical Warfare": [
+    "> Explosives deal chemical damage + apply corrode for <C>2 s</>",
+    "> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage",
+    "<B>></> <C>25%</> <B>reduced explosive damage radius</>",
+    "& 10 Body, 10 Tech, 15 Hardware"
+  ],
+  "Combat Core": [
+    "> <C>1%</> of direct damage dealt converted to active Core duration",
+    "> <C>25%</> increased Core generation",
+    "<B>></> <C>100%</> <B>reduced Core generation during active Core</>",
+    "<B>> Can be disabled</>",
+    "& 0 Body, 20 Tech, 0 Hardware"
+  ],
+  "Counterbalance": [
+    "> Removes flat vitals, defense + speed reductions from equipped augments",
+    "> Equipped augments can no longer be disabled",
+    "<B>> </><C>25%</><B> increased augment cooldowns</>",
+    "& 10 Body, 10 Tech, 0 Hardware"
+  ],
+  "Counter Intelligence": [
+    "> Enemies that are detecting you are detected",
+    "> Enemies interacting with objectives within <C>30 m</> are detected",
+    "> Enemies that tag you are tagged",
+    "> Visible disguised enemies within <C>10 m</> are revealed",
+    "<B>> Can be disabled</>",
+    "& 15 Body, 15 Tech, 0 Hardware"
+  ],
+  "Covert": [
+    "> <C>50%</> reduced detectable range",
+    "> Shroud for <C>3s</> on kill, <C>6s</> without receiving damage from target: Undetectable by all equipment",
+    "<B>> Can be disabled</>",
+    "& 20 Body, 20 Tech, 0 Hardware"
+  ],
+  "Damage Report": [
+    "> Detect enemies for <C>1.5 s</> on dealing direct damage",
+    "> Detect enemies within <C>15 m</> of killed enemy for <C>3 s</>, <C>10 s</> cooldown",
+    "<B>></> <C>50%</> <B>reduced radar detection range</>",
+    "<B>> Can be disabled</>",
+    "& 0 Body, 15 Tech, 10 Hardware"
+  ],
+  "Dead Drop": [
+    "> Aiming or charging backup weapon after recent climb activates Overkill, <C>10 s</> cooldown",
+    "> Overkill: Melee attacks + body impacts bypass defense + damage reductions, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity",
+    "> Deactivates after <C>2 s</> if no longer falling, <C>30 s</> cooldown on melee or body impact kill while active",
+    "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-10 s</>",
+    "& 20 Body, 20 Tech, 15 Hardware"
+  ],
+  "Disengage": [
+    "> Automatically relocate to a previous location on receiving fatal damage, <C>60 s</> cooldown",
+    "> <C>25%</> vitals + defense restored on activation",
+    "> Buffs + debuffs cleared on activation",
+    "<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>",
+    "<B>></> <C>50%</> <B>reduced Core charge on activation</>",
+    "<B>> Fatal explosive or telefrag damage prevents activation</>",
+    "<B>> Can be disabled</>",
+    "& 20 Body, 20 Tech, 0 Hardware"
+  ],
+  "Dispersal": [
+    "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown",
+    "> Seekers: Rolls toward and tracks targets, deals <C>25</> explosive damage within <C>4 m</> on reaching or losing target",
+    "<B>></> <C>25%</> <B>Increased device cooldowns</>",
+    "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+    "<B>> Can be disabled</>",
+    "& 10 Body, 10 Tech, 25 Hardware"
+  ],
+  "Enhanced Dexterity": [
+    "> <C>25%</> increased dexterity",
+    "> Complete active reloads on roll maneuvers at any stage of the reload",
+    "<B>> Can be disabled</>",
+    "& 15 Body, 0 Tech, 0 Hardware"
+  ],
+  "Enhanced Foundation": [
+    "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade",
+    "> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade",
+    "> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade",
+    "<B>></> <C>0.7%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>",
+    "<B>></> <C>0.7%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>",
+    "<B>></> <C>0.7%</> <B>reduced hemostasis + device duration for each Hardware foundation upgrade</>",
+    "& 25 Body, 25 Tech, 25 Hardware"
+  ],
+  "Experimental": [
+    "> Can equip experimental devices",
+    "> <C>50%</> increased applied debuff durations",
+    "<B>></> <C>25</> <B>reduced defense</>",
+    "& 0 Body, 20 Tech, 15 Hardware"
+  ],
+  "Exploit Weakness": [
+    "> Enemies with defense below <C>50%</> are considered weakened",
+    "> <C>100%</> defense bypass with backup weapons to weakened enemies",
+    "> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced loadout + movement speed penalties",
+    "> <C>25%</> increased direct damage to knocked down enemies",
+    "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+    "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
+    "& 15 Body, 0 Tech, 0 Hardware"
+  ],
+  "Fail-safe": [
+    "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown",
+    "> Devices can no longer be disabled",
+    "<B>></> <C>25%</> <B>reduced defense regeneration</>",
+    "& 10 Body, 15 Tech, 0 Hardware"
+  ],
+  "Gecko": [
+    "> Gain Shroud while climbing, <C>0.5 s</> activation time",
+    "> <C>100%</> reduced aux power drain from climbing",
+    "> <C>100%</> reduced fall damage when landing into a climb",
+    "> <C>25%</> increased climb speed + weapon accuracy while climbing",
+    "<B>> Can be disabled</>",
+    "& 15 Body, 15 Tech, 0 Hardware"
+  ],
+  "Hardcase": [
+    "> <C>0.25x</> reduced damage multiplier on headshots received while active",
+    "> <C>100%</> reduced defense penetration + bleeding from headshots received while active",
+    "> Absorbs single fatal headshot while active",
+    "> Immunity to Tether while active",
+    "<B>> Headshot damage received applies snare while active</>",
+    "<B>> </> <C>2 s</> <B>stun + deactivates on absorbtion of fatal headshot</>",
+    "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+    "& 15 Body, 15 Tech, 15 Hardware"
+  ],
+  "Hardened": [
+    "> <C>0-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>",
+    "<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>",
+    "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity, aux power + defense regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>",
+    "& 25 Body, 15 Tech, 0 Hardware"
+  ],
+  "Headhunter": [
+    "> <C>0.25x</> additional headshot damage multiplier",
+    "> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost",
+    "<B>></> <C>0.25x</> <B>reduced limb damage multiplier</>",
+    "& 15 Body, 15 Tech, 0 Hardware"
+  ],
+  "Heavy Ordnance": [
+    "> <C>25%</> increased explosive damage radius",
+    "> <C>50%</> increased explosive bleed damage",
+    "> All equipped or picked up weapons gain Contact Charge mod with no slot requirement",
+    "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+    "& 0 Body, 15 Tech, 25 Hardware"
+  ],
+  "Heavy Weapons": [
+    "> Can equip and pickup heavy weapons, replaces backup slot",
+    "> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback + knockdown, replaces dive while heavy weapon equipped",
+    "> Knockdown + disarm immunity while heavy weapon equipped",
+    "<B>> Unable to use dive, prone or roll maneuvers while heavy weapon equipped</>",
+    "<B>> Heavy weapons can only be fired while aiming</>",
+    "& 15 Body, 5 Tech, 20 Hardware"
+  ],
+  "Hot Swap": [
+    "> Cycle through unlocked ammo types on re-equip of current weapon",
+    "> <C>25%</> increased reload speed",
+    "<B>> Current ammo emptied into reserve on swap</>",
+    "<B>></> <C>25%</> <B>reduced reserve ammo</>",
+    "& 10 Body, 0 Tech, 15 Hardware"
+  ],
+  "Hunter Optics": [
+    "> Target recognition overlay, replaces scan",
+    "> Highlights enemies + devices while active",
+    "<B>> Disables detections + radar while active</>",
+    "<B>> Unable to use weapon optics while active</>",
+    "<B>> Can be disabled</>",
+    "& 15 Body, 20 Tech, 10 Hardware"
+  ],
+  "Inertial Buffer": [
+    "> <C>50%</> reduced deceleration while airborne or during maneuvers",
+    "> <C>35%</> reduced weapon spread + spread gain during sliding maneuvers",
+    "> <C>25%</> increased knockback resistance",
+    "> Knockdown immunity during sliding maneuvers",
+    "<B>></> <C>100%</> <B>reduced lateral control during sliding maneuvers</>",
+    "<B>></> <C>25%</> <B>reduced defense regeneration</>",
+    "& 20 Body, 15 Tech, 0 Hardware"
+  ],
+  "Kinetic Focus": [
+    "> <C>0-50%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>",
+    "> <C>0-50%</> reduced weapon spread + spread gain, scaling proportionally with speed from <C>4-12 m/s</>",
+    "<B>> Can be disabled</>",
+    "& 15 Body, 20 Tech, 0 Hardware"
+  ],
+  "Kinetic Injectors": [
+    "> <C>15</> vitals restored + hemostasis for <C>2.5 s</> on roll maneuvers, <C>3 s</> cooldown",
+    "<B>> Can be disabled</>",
+    "& 0 Body, 10 Tech, 15 Hardware"
+  ],
+  "Low Profile": [
+    "> <C>50%</> reduced movement sound + radar profile",
+    "<B>></> <C>25</> <B>reduced defense</>",
+    "& 15 Body, 15 Tech, 0 Hardware"
+  ],
+  "Maximum Efficiency": [
+    "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration",
+    "> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay",
+    "> <C>25%</> additional Satchel charge damage as fire damage",
+    "> <C>4 s</> stun to enemies within <C>5 m</> of Relocator activation",
+    "> <C>2 s</> stun on Breach",
+    "> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone",
+    "> <C>25%</> increased AAP Turret range + ammo capacity",
+    "> Laser wire beam no longer visible",
+    "> Reserve stim becomes potent",
+    "<B>></> <C>50%</> <B>Increased device cooldowns</>",
+    "& 0 Body, 10 Tech, 15 Hardware"
+  ],
+  "Overclocked": [
+    "> Unaffected by Core slowing effects while Core active",
+    "<B>></> <C>5 /s</> <B>vitals + defense damage while Core active</>",
+    "<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>",
+    "<B>></> <C>25%</> <B>reduced Core generation + duration</>",
+    "& 20 Body, 25 Tech, 0 Hardware"
+  ],
+  "Overseer": [
+    "> Personal targeting drone, replaces scan",
+    "> Provides external camera view + paints visible enemies while active",
+    "> <C>35%</> reduced spread + spread gain while active",
+    "<B>> Disrupts vision if drone takes damage while active</>",
+    "<B>> Can no longer ADS</>",
+    "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+    "<B>> Can be disabled</>",
+    "& 0 Body, 25 Tech, 15 Hardware"
+  ],
+  "Perpetual Motion": [
+    "> Snare immunity while Core fully charged",
+    "> <C>0-100%</> increased aux power regeneration, scaling proportionally with Core charge from <C>0-100</>",
+    "> <C>100%</> reduced aux power drain from all sources while Core active",
+    "> Gain <C>4</> aerial maneuver charges on Core activation",
+    "<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>",
+    "<B>></> <C>50%</> <B>increased radar profile</>",
+    "& 20 Body, 15 Tech, 0 Hardware"
+  ],
+  "Potent Stimulants": [
+    "> <C>100%</> increased vitals restored by primary stim",
+    "> <C>50%</> of vitals restored by primary stim restores max vitals",
+    "> <C>100%</> increased aux power regeneration during hemostasis from primary stim",
+    "<B>></> <C>100%</> <B>increased primary stim cooldown</>",
+    "& 10 Body, 0 Tech, 15 Hardware"
+  ],
+  "Professional": [
+    "> <C>15%</> increased near damage + <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance, overrides akimbo damage penalty, does not apply to T-Lock ammo",
+    "> <C>25%</> reduced spread + spread gain with sidearms while firing a single sidearm or akimbo alternate aim stance, does not apply to T-Lock ammo",
+    "> <C>50%</> increased backup weapon damage dealt to enemies from behind",
+    "> <C>100%</> additional sidearm reserve ammo",
+    "> All equipped or picked up sidearms gain Suppressor mod with no slot requirement",
+    "<B>> Can no longer equip primary weapons</>",
+    "<B>></> <C>25</> <B>Reduced defense</>",
+    "& 15 Body, 5 Tech, 20 Hardware"
+  ],
+  "Puncture": [
+    "> Backup weapons deal piercing damage",
+    "> <C>100%</> defense bypass with body impact damage",
+    "> <C>50%</> of body impact damage received reflected with defense bypass",
+    "> <C>5-20 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>",
+    "<B>></> <C>50%</> <B>reduced body impact damage dealt</>",
+    "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+    "& 15 Body, 0 Tech, 0 Hardware"
+  ],
+  "Rage Core": [
+    "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate",
+    "> Gain Overkill while vitals below <C>50%</> from enemy damage",
+    "> Overkill: Melee attacks + body impacts bypass defense + damage reductions, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity",
+    "<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>",
+    "<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
+    "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-10 s</>",
+    "<B>></> <C>1/s</> <B>vitals + defense damage while active with no visible enemies</>",
+    "& 25 Body, 25 Tech, 15 Hardware"
+  ],
+  "Reactive Core": [
+    "> <C>80%</> active + inactive Core speed",
+    "<B>></> <C>25%</> <B>reduced Core generation</>",
+    "& 0 Body, 15 Tech, 0 Hardware"
+  ],
+  "Reactive Dermis": [
+    "> <C>25%</> reduced debuff duration + bleed damage received",
+    "> <C>25%</> reduced explosive + backup weapon damage received",
+    "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+    "& 15 Body, 10 Tech, 10 Hardware"
+  ],
+  "Recovery": [
+    "> <C>5 /s</> additional vitals regeneration while no damage received within <C>1 s</>",
+    "> <C>25%</> increased vitals restored from all sources",
+    "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+    "<B>> Can be disabled</>",
+    "& 10 Body, 10 Tech, 0 Hardware"
+  ],
+  "Renewal": [
+    "> <C>25</> vitals, defense, max vitals + max defense restored every <C>10 s</>",
+    "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+    "<B>> Can be disabled</>",
+    "& 10 Body, 15 Tech, 10 Hardware"
+  ],
+  "Resourceful": [
+    "> <C>100%</> of current weapon ammo capacity restored as reserve ammo + <C>5 s</> reduced device cooldowns on weapon pickup, picked up weapon is destroyed",
+    "> <C>100%</> reduced primary stim cooldown if used while bleeding",
+    "<B>></> <C>50%</> <B>reduced reserve ammo</>",
+    "<B>></> <C>50%</> <B>increased primary stim cooldown if used while not bleeding</>",
+    "& 0 Body, 10 Tech, 15 Hardware"
+  ],
+  "Reversal": [
+    "> Overcharge on disable: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received disable",
+    "<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>",
+    "& 10 Body, 15 Tech, 0 Hardware"
+  ],
+  "Specialist": [
+    "> Additional weapon mod slot",
+    "> <C>65%</> sidearm + primary weapon handling speed penalties while only sidearm or primary slot used",
+    "> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used",
+    "<B>> Can only equip</> <C>1</> <B>device</>",
+    "& 15 Body, 0 Tech, 20 Hardware"
+  ],
+  "Surplus": [
+    "> Additional weapon mod slot",
+    "> <C>100%</> additional reserve ammo",
+    "> <C>50%</> reduced device cooldowns on kill",
+    "<B>></> <C>25%</> <B>Increased device cooldowns</>",
+    "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+    "& 5 Body, 0 Tech, 10 Hardware"
+  ],
+  "Technician": [
+    "> Can equip exotic ammo types",
+    "> <C>15 /s</> max defense regeneration while using Nano-wire without interaction",
+    "<B>></> <C>50%</> <B>reduced reserve ammo when using exotic ammo</>",
+    "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
+    "& 0 Body, 15 Tech, 25 Hardware"
+  ],
+  "Temporal Suspension": [
+    "> Freeze momentum while in air + aiming for up to <C>5 s</>, momentum restored when aim released, <C>3 s</> cooldown",
+    "> Unaffected by Core slowing effects while active",
+    "> <C>50%</> reduced direct damage received while active",
+    "<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>",
+    "<B>> Deactivates on collision with ground</>",
+    "<B>> Not usable while hovering</>",
+    "<B>> Can be disabled</>",
+    "& 15 Body, 25 Tech, 0 Hardware"
+  ],
+  "Tether": [
+    "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> disable + snare every <C>0.5 s</>",
+    "> <C>50%</> of damage dealt restored to vitals + max vitals",
+    "<B>> Can be disabled</>",
+    "& 5 Body, 20 Tech, 15 Hardware"
+  ],
+  "Threat Detection": [
+    "> Automatically detect enemies + enemy devices within <C>15 m</>",
+    "<B>></> <C>50%</> <B>increased radar profile</>",
+    "<B>> Visible on radar while stationary</>",
+    "<B>> Disables scan</>",
+    "<B>> Can be disabled</>",
+    "& 10 Body, 20 Tech, 20 Hardware"
+  ],
+  "Transference": [
+    "> Relocate to enemy location on visible or detected kill from direct damage, <C>5 s</> cooldown",
+    "> Disguise as enemy on activation, appearing as an ally on enemy HUD and radar",
+    "<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while disguised</>",
+    "<B>> Disguise removed on dealing + receiving visible direct damage from enemies</>",
+    "<B>> Can be disabled</>",
+    "& 15 Body, 25 Tech, 0 Hardware"
+  ],
+  "Unstable Core": [
+    "> <C>100%</> Core generation on deploy",
+    "> Core detonation on death or failure, deals <C>25-75</> vital damage to all enemies within <C>5 m</>, scaling proportionally with Core charge from <C>0-100</>",
+    "> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>",
+    "<B>> Core failure after</> <C>8 s</> <B>on Core activation or attempted enemy disable while Core fully charged, interrupted on killing an enemy</>",
+    "<B>></> <C>15%</> <B>reduced Core charge on failure interruption</>",
+    "<B>></> <C>50%</> <B>reduced Core duration</>",
+    "& 0 Body, 25 Tech, 0 Hardware"
+  ],
+  "Vendetta": [
+    "> Receiving over <C>150</> vitals damage from an enemy marks them as a vendetta, persists through death until enemy killed by the vendetta owner",
+    "> Vendettas are detected while within <C>45 m</>",
+    "> <C>25-50</> vitals, max vitals + Core charge restored on killing a vendetta, scaling proportionally with the vendetta damage from <C>150-300</>",
+    "<B>></> <C>25%</> <B>increased direct damage received from vendettas</>",
+    "& 15 Body, 20 Tech, 0 Hardware"
+  ],
+  "Versatile": [
+    "> <C>5 s</> immunity to debuff on end or removal",
+    "> Can equip sidearms + backup weapons in primary slot",
+    "> Can equip <C>2</> of the same device",
+    "<B>></> <C>50%</> <B>increased device cooldowns while both of same type</>",
+    "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+    "& 20 Body, 0 Tech, 20 Hardware"
+  ]
+}
