@@ -2,6 +2,8 @@ import json
 import re
 with open("augments.json", "r", encoding="utf-8") as f:
     enum_data = json.load(f)
+with open("devices.json", "r", encoding="utf-8") as f:
+    device_enum_data = json.load(f)
 
 def format_line(line):
     # Doku doesnt do other effects, so its just upside and downside (thats the reason i retype all tooltips)
@@ -27,9 +29,12 @@ def format_everything(obj):
 
 
 perk_output = format_everything(enum_data)
-
-# Save to JSON
 with open("augments_dc.json", "w", encoding="utf-8") as out_file:
     json.dump(perk_output, out_file, indent=2, ensure_ascii=False)
+device_output = format_everything(device_enum_data)
+with open("devices_dc.json", "w", encoding="utf-8") as out_file:
+    json.dump(device_output, out_file, indent=2, ensure_ascii=False)
+
+
 
 print("Shit's working")

@@ -92,7 +92,7 @@ for skill_name, data in skill_rows.items():
     cooldown = device_stat.get("cooldown_11_D555013643FE6003564BDCBE2F66D6AD", 0)
     duration = device_stat.get("duration_19_CADCF2D5460AE568CE1A9A8875DBE004", 0)
     speed_pen = device_stat.get("speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316", 0)
-    lines.append(f"$ {cooldown} Cooldown, {duration} Duration, {speed_pen} Speed Penalty")
+    lines.append(f"$ {cooldown} Cooldown, {duration} Duration, {speed_pen} Speed Penalty, Experimental: WIP")
 
 
     device_output[device_name] = lines
