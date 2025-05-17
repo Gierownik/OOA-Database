@@ -15,6 +15,9 @@ def format_line(line):
     line = re.sub(r"<B>>\s*(.*?)</>", r"- @ \1", line)
     # The line above me does some funky stuff this is the fix:
     line = re.sub(r"<B>\s*(.*?)</>", r"\1", line)
+    #Speed pen cm/s to m/s
+    line = re.sub(r",\s*(\d+)\.0 Speed Penalty",
+    lambda m: f", {int(m.group(1))/100:.2f} m/s Speed Penalty",line)
     return line.strip()
 
 def format_everything(obj):
