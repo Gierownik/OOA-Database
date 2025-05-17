@@ -20,8 +20,7 @@
     "& 10 Body, 0 Tech, 0 Hardware"
   ],
   "Adrenaline Rush": [
-    "- ^ **25-75** vitals restored on visible kill, scaling proportionally with Core charge from **0-100**",
-    "- ^ **0-15%** increased ground speed + dexterity, scaling proportionally with Core charge from **0-100**",
+    "- ^ **50** vitals restored + **15%** increased ground speed + dexterity for **10 s** on visible kill, **5 s** cooldown",
     "- @  **25** reduced vitals",
     "& 15 Body, 10 Tech, 0 Hardware"
   ],
@@ -66,7 +65,7 @@
     "& 10 Body, 5 Tech, 0 Hardware"
   ],
   "Augmented Nano-wire": [
-    "- ^ Nano-wire can attach to held enemy weapons pulling you toward them, applies cripple for **1 s**, can disarm weapon during active Core or while enemy is knocked down, **5 s** cooldown",
+    "- ^ Nano-wire can attach to held enemy weapons pulling you toward them, snares for **2 s**, can disarm weapon during active Core or while enemy is knocked down, **5 s** cooldown",
     "- ^ Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for **0.5 s**",
     "- ^ **25%** increased Nano-wire range",
     "- @ Attaches to enemy heads + no longer disarms with Tether equipped",
@@ -84,6 +83,7 @@
   "Auxiliary Vitals": [
     "- ^ **50** increased vitals",
     "- ^ **50%** reduced bleed damage received",
+    "- @  **25%** reduced vitals + defense restored from all sources",
     "- @  **0.5 m/s** reduced ground speed",
     "& 15 Body, 0 Tech, 0 Hardware"
   ],
@@ -161,7 +161,7 @@
   "Disengage": [
     "- ^ Automatically relocate to a previous location on receiving fatal damage, **60 s** cooldown",
     "- ^ **25%** vitals + defense restored on activation",
-    "- ^ Buffs + debuffs cleared on activation",
+    "- ^ Debuffs cleared on activation",
     "- @  **75%** reduced max vitals + defense on activation",
     "- @  **50%** reduced Core charge on activation",
     "- @ Fatal explosive or telefrag damage prevents activation",
@@ -193,7 +193,7 @@
   ],
   "Experimental": [
     "- ^ Can equip experimental devices",
-    "- ^ **50%** increased applied debuff durations",
+    "- ^ **50%** increased debuff durations from all sources other than experimental devices",
     "- @  **25** reduced defense",
     "& 0 Body, 20 Tech, 15 Hardware"
   ],
@@ -301,8 +301,8 @@
     "- ^ **100%** increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration",
     "- ^ **50%** reduced Detonator, Proximity mine + Disrupter activation delay",
     "- ^ **25%** additional Satchel charge damage as fire damage",
-    "- ^ **4 s** stun to enemies within **5 m** of Relocator activation",
-    "- ^ **2 s** stun on Breach",
+    "- ^ **5 s** overcharge on Relocator relocation",
+    "- ^ **4 s** stun to disabled enemies on Breach",
     "- ^ **5** vital damage every **0.25 s** to enemies within Deadzone",
     "- ^ **25%** increased AAP Turret range + ammo capacity",
     "- ^ Laser wire beam no longer visible",
@@ -324,6 +324,7 @@
     "- @ Disrupts vision if drone takes damage while active",
     "- @ Can no longer ADS",
     "- @  **0.5 m/s** reduced ground speed",
+    "- @ Can be destroyed",
     "- @ Can be disabled",
     "& 0 Body, 25 Tech, 15 Hardware"
   ],
@@ -479,7 +480,7 @@
     "& 15 Body, 20 Tech, 0 Hardware"
   ],
   "Versatile": [
-    "- ^ **5 s** immunity to debuff on end or removal",
+    "- ^ **10 s** immunity to a debuff on end or removal",
     "- ^ Can equip sidearms + backup weapons in primary slot",
     "- ^ Can equip **2** of the same device",
     "- @  **50%** increased device cooldowns while both of same type",
