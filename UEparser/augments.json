@@ -10,12 +10,13 @@
     "& 25 Body, 0 Tech, 0 Hardware"
   ],
   "Addict": [
-    "> <C>50%</> increased Stim use speed + hemostasis duration",
-    "> <C>35%</> reduced direct damage to vitals while hemostasis active",
-    "> <C>50%</> increased Core + Aux power regeneration while hemostasis active",
-    "> <C>15%</> increased ground speed while hemostasis active",
-    "<B>> </> <C>1 s</> <B>detox cooldown on activation, increasing by</> <C>1 s</> <B>for each following activation, up to</> <C>20 s</>",
-    "<B>></> <C>15-25</> <B>vital damage received on activation while detox on cooldown</>",
+    "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>",
+    "> <C>50%</> increased Stim use speed",
+    "> <C>35%</> reduced direct damage to vitals while active",
+    "> <C>50%</> increased Core + Aux power regeneration while active",
+    "> <C>15%</> increased ground speed while active",
+    "<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>",
+    "<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>",
     "<B>></> <C>50%</> <B>reduced vitals restored from all sources</>",
     "& 10 Body, 0 Tech, 0 Hardware"
   ],
@@ -76,7 +77,7 @@
   ],
   "Auto-Doc": [
     "> Automatically removes bleed, <C>10 s</> cooldown",
-    "> <C>25</> vitals restored + hemostasis for <C>2.5 s</> on activation",
+    "> <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal",
     "<B>> Can be disabled</>",
     "& 5 Body, 10 Tech, 0 Hardware"
   ],
@@ -188,7 +189,7 @@
     "> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade",
     "<B>></> <C>0.7%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>",
     "<B>></> <C>0.7%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>",
-    "<B>></> <C>0.7%</> <B>reduced hemostasis + device duration for each Hardware foundation upgrade</>",
+    "<B>></> <C>0.7%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>",
     "& 25 Body, 25 Tech, 25 Hardware"
   ],
   "Experimental": [
@@ -245,7 +246,7 @@
   "Heavy Ordnance": [
     "> <C>25%</> increased explosive damage radius",
     "> <C>50%</> increased explosive bleed damage",
-    "> All equipped or picked up weapons gain Contact Charge mod with no slot requirement",
+    "> All equipped or picked up weapons gain the Contact Charge mod with no slot cost",
     "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
     "& 0 Body, 15 Tech, 25 Hardware"
   ],
@@ -258,8 +259,10 @@
     "& 15 Body, 5 Tech, 20 Hardware"
   ],
   "Hot Swap": [
-    "> Cycle through unlocked ammo types on re-equip of current weapon",
+    "> Cycle through unlocked ammo types with fire or aim while holding reload",
     "> <C>25%</> increased reload speed",
+    "> <C>50%</> increased damage with the last round of a magazine on swap",
+    "> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible",
     "<B>> Current ammo emptied into reserve on swap</>",
     "<B>></> <C>25%</> <B>reduced reserve ammo</>",
     "& 10 Body, 0 Tech, 15 Hardware"
@@ -288,7 +291,8 @@
     "& 15 Body, 20 Tech, 0 Hardware"
   ],
   "Kinetic Injectors": [
-    "> <C>15</> vitals restored + hemostasis for <C>2.5 s</> on roll maneuvers, <C>3 s</> cooldown",
+    "> <C>15</> vitals restored on roll maneuvers, chemical heal, <C>3 s</> cooldown",
+    "> <C>2.5 s</> bleed immunity if used while bleeding",
     "<B>> Can be disabled</>",
     "& 0 Body, 10 Tech, 15 Hardware"
   ],
@@ -340,8 +344,8 @@
   "Potent Stimulants": [
     "> <C>100%</> increased vitals restored by primary stim",
     "> <C>50%</> of vitals restored by primary stim restores max vitals",
-    "> <C>100%</> increased aux power regeneration during hemostasis from primary stim",
-    "<B>></> <C>100%</> <B>increased primary stim cooldown</>",
+    "> <C>100%</> increased aux power regeneration for <C>5 s</> on primary stim use",
+    "<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>",
     "& 10 Body, 0 Tech, 15 Hardware"
   ],
   "Professional": [
@@ -349,7 +353,7 @@
     "> <C>25%</> reduced spread + spread gain with sidearms while firing a single sidearm or akimbo alternate aim stance, does not apply to T-Lock ammo",
     "> <C>50%</> increased backup weapon damage dealt to enemies from behind",
     "> <C>100%</> additional sidearm reserve ammo",
-    "> All equipped or picked up sidearms gain Suppressor mod with no slot requirement",
+    "> All equipped or picked up sidearms gain the Suppressor mod with no slot cost",
     "<B>> Can no longer equip primary weapons</>",
     "<B>></> <C>25</> <B>Reduced defense</>",
     "& 15 Body, 5 Tech, 20 Hardware"
@@ -427,7 +431,7 @@
   "Technician": [
     "> Can equip exotic ammo types",
     "> <C>15 /s</> max defense regeneration while using Nano-wire without interaction",
-    "<B>></> <C>50%</> <B>reduced reserve ammo when using exotic ammo</>",
+    "<B>></> <C>50%</> <B>reduced reserve ammo</>",
     "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
     "& 0 Body, 15 Tech, 25 Hardware"
   ],

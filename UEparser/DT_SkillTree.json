@@ -611,8 +611,8 @@
           {
             "Namespace": "",
             "Key": "9DB6701F4AD0A236972EE0B55D628B94",
-            "SourceString": "> <C>50%</> increased Stim use speed + hemostasis duration\r\n> <C>35%</> reduced direct damage to vitals while hemostasis active\r\n> <C>50%</> increased Core + Aux power regeneration while hemostasis active\r\n> <C>15%</> increased ground speed while hemostasis active\r\n<B>> </> <C>1 s</> <B>detox cooldown on activation, increasing by</> <C>1 s</> <B>for each following activation, up to</> <C>20 s</>\r\n<B>></> <C>15-25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>",
-            "LocalizedString": "> <C>50%</> increased Stim use speed + hemostasis duration\r\n> <C>35%</> reduced direct damage to vitals while hemostasis active\r\n> <C>50%</> increased Core + Aux power regeneration while hemostasis active\r\n> <C>15%</> increased ground speed while hemostasis active\r\n<B>> </> <C>1 s</> <B>detox cooldown on activation, increasing by</> <C>1 s</> <B>for each following activation, up to</> <C>20 s</>\r\n<B>></> <C>15-25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>"
+            "SourceString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>35%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + Aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>",
+            "LocalizedString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>35%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + Aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>"
           }
         ]
       },
@@ -795,8 +795,8 @@
           {
             "Namespace": "",
             "Key": "E28B6AB14354DE3BDE2139A523E824C4",
-            "SourceString": "> Automatically removes bleed, <C>10 s</> cooldown\r\n> <C>25</> vitals restored + hemostasis for <C>2.5 s</> on activation\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Automatically removes bleed, <C>10 s</> cooldown\r\n> <C>25</> vitals restored + hemostasis for <C>2.5 s</> on activation\r\n<B>> Can be disabled</>"
+            "SourceString": "> Automatically removes bleed, <C>10 s</> cooldown\r\n> <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Automatically removes bleed, <C>10 s</> cooldown\r\n> <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1140,8 +1140,8 @@
           {
             "Namespace": "",
             "Key": "C0E833164F4F02519DF017AB21CBC231",
-            "SourceString": "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade\r\n> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade\r\n> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade\r\n<B>></> <C>0.7%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>reduced hemostasis + device duration for each Hardware foundation upgrade</>",
-            "LocalizedString": "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade\r\n> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade\r\n> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade\r\n<B>></> <C>0.7%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>reduced hemostasis + device duration for each Hardware foundation upgrade</>"
+            "SourceString": "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade\r\n> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade\r\n> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade\r\n<B>></> <C>0.7%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>",
+            "LocalizedString": "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade\r\n> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade\r\n> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade\r\n<B>></> <C>0.7%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>"
           }
         ]
       },
@@ -1324,8 +1324,8 @@
           {
             "Namespace": "",
             "Key": "07FA24204CDF0F49B51220A5BC89839E",
-            "SourceString": "> <C>25%</> increased explosive damage radius\r\n> <C>50%</> increased explosive bleed damage\r\n> All equipped or picked up weapons gain Contact Charge mod with no slot requirement\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>25%</> increased explosive damage radius\r\n> <C>50%</> increased explosive bleed damage\r\n> All equipped or picked up weapons gain Contact Charge mod with no slot requirement\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> <C>25%</> increased explosive damage radius\r\n> <C>50%</> increased explosive bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> <C>25%</> increased explosive damage radius\r\n> <C>50%</> increased explosive bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -1370,8 +1370,8 @@
           {
             "Namespace": "",
             "Key": "90DB6320413546022E35F2AE4902AB91",
-            "SourceString": "> Cycle through unlocked ammo types on re-equip of current weapon\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>",
-            "LocalizedString": "> Cycle through unlocked ammo types on re-equip of current weapon\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>"
+            "SourceString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> <C>25%</> increased reload speed\r\n> <C>50%</> increased damage with the last round of a magazine on swap\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>",
+            "LocalizedString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> <C>25%</> increased reload speed\r\n> <C>50%</> increased damage with the last round of a magazine on swap\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>"
           }
         ]
       },
@@ -1462,8 +1462,8 @@
           {
             "Namespace": "",
             "Key": "734754774AD5FFD8E61043ABE1FB7E60",
-            "SourceString": "> <C>15</> vitals restored + hemostasis for <C>2.5 s</> on roll maneuvers, <C>3 s</> cooldown\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>15</> vitals restored + hemostasis for <C>2.5 s</> on roll maneuvers, <C>3 s</> cooldown\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>15</> vitals restored on roll maneuvers, chemical heal, <C>3 s</> cooldown\r\n> <C>2.5 s</> bleed immunity if used while bleeding\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>15</> vitals restored on roll maneuvers, chemical heal, <C>3 s</> cooldown\r\n> <C>2.5 s</> bleed immunity if used while bleeding\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1600,8 +1600,8 @@
           {
             "Namespace": "",
             "Key": "7140649847F2CC90288504A891061E81",
-            "SourceString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power regeneration during hemostasis from primary stim\r\n<B>></> <C>100%</> <B>increased primary stim cooldown</>",
-            "LocalizedString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power regeneration during hemostasis from primary stim\r\n<B>></> <C>100%</> <B>increased primary stim cooldown</>"
+            "SourceString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power regeneration for <C>5 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>",
+            "LocalizedString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power regeneration for <C>5 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>"
           }
         ]
       },
@@ -1623,8 +1623,8 @@
           {
             "Namespace": "",
             "Key": "AAF39FA44774776AE6576B9F9E583095",
-            "SourceString": "> <C>15%</> increased near damage + <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance, overrides akimbo damage penalty, does not apply to T-Lock ammo\r\n> <C>25%</> reduced spread + spread gain with sidearms while firing a single sidearm or akimbo alternate aim stance, does not apply to T-Lock ammo\r\n> <C>50%</> increased backup weapon damage dealt to enemies from behind\r\n> <C>100%</> additional sidearm reserve ammo\r\n> All equipped or picked up sidearms gain Suppressor mod with no slot requirement\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>",
-            "LocalizedString": "> <C>15%</> increased near damage + <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance, overrides akimbo damage penalty, does not apply to T-Lock ammo\r\n> <C>25%</> reduced spread + spread gain with sidearms while firing a single sidearm or akimbo alternate aim stance, does not apply to T-Lock ammo\r\n> <C>50%</> increased backup weapon damage dealt to enemies from behind\r\n> <C>100%</> additional sidearm reserve ammo\r\n> All equipped or picked up sidearms gain Suppressor mod with no slot requirement\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>"
+            "SourceString": "> <C>15%</> increased near damage + <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance, overrides akimbo damage penalty, does not apply to T-Lock ammo\r\n> <C>25%</> reduced spread + spread gain with sidearms while firing a single sidearm or akimbo alternate aim stance, does not apply to T-Lock ammo\r\n> <C>50%</> increased backup weapon damage dealt to enemies from behind\r\n> <C>100%</> additional sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>",
+            "LocalizedString": "> <C>15%</> increased near damage + <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance, overrides akimbo damage penalty, does not apply to T-Lock ammo\r\n> <C>25%</> reduced spread + spread gain with sidearms while firing a single sidearm or akimbo alternate aim stance, does not apply to T-Lock ammo\r\n> <C>50%</> increased backup weapon damage dealt to enemies from behind\r\n> <C>100%</> additional sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>"
           }
         ]
       },
@@ -1876,8 +1876,8 @@
           {
             "Namespace": "",
             "Key": "9D29260B47CCE0CC33D18ABC799FFC38",
-            "SourceString": "> Can equip exotic ammo types\r\n> <C>15 /s</> max defense regeneration while using Nano-wire without interaction\r\n<B>></> <C>50%</> <B>reduced reserve ammo when using exotic ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>",
-            "LocalizedString": "> Can equip exotic ammo types\r\n> <C>15 /s</> max defense regeneration while using Nano-wire without interaction\r\n<B>></> <C>50%</> <B>reduced reserve ammo when using exotic ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>"
+            "SourceString": "> Can equip exotic ammo types\r\n> <C>15 /s</> max defense regeneration while using Nano-wire without interaction\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>",
+            "LocalizedString": "> Can equip exotic ammo types\r\n> <C>15 /s</> max defense regeneration while using Nano-wire without interaction\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>"
           }
         ]
       },
@@ -2083,8 +2083,8 @@
           {
             "Namespace": "",
             "Key": "1069A4114A5D23C77CFED6B19967113C",
-            "SourceString": "> While active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>",
-            "LocalizedString": "> While active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>"
+            "SourceString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>",
+            "LocalizedString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>"
           }
         ]
       },
@@ -2313,8 +2313,8 @@
           {
             "Namespace": "",
             "Key": "66CC33A94DB1C1124DC5D3845AA9513C",
-            "SourceString": "> <C>25</> vitals restored + hemostasis for <C>5 s</> on activation",
-            "LocalizedString": "> <C>25</> vitals restored + hemostasis for <C>5 s</> on activation"
+            "SourceString": "> <C>25</> vitals restored on activation, chemical heal\r\n> <C>5 s</> bleed immunity if used while bleeding",
+            "LocalizedString": "> <C>25</> vitals restored on activation, chemical heal\r\n> <C>5 s</> bleed immunity if used while bleeding"
           }
         ]
       },
@@ -2658,8 +2658,8 @@
           {
             "Namespace": "",
             "Key": "DBC1B0724C4B81F3D9186885C014D2CB",
-            "SourceString": "> Can lock onto + track painted enemies\r\n> <C>50 m/s</> velocity with lock, <C>200 m/s</> without lock\r\n> <C>100%</> of damage dealt as additional explosive damage after <C>1 s</> \r\n> <C>25%</> reduced recoil\r\n<B>></> <C>70-80%</> <B>reduced damage</>\r\n<B>></> <C>0-25%</> <B>reduced rate of fire</>\r\n<B>></> <C>50%</> <B>reduced environment penetration</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Can lock onto + track painted enemies\r\n> <C>50 m/s</> velocity with lock, <C>200 m/s</> without lock\r\n> <C>100%</> of damage dealt as additional explosive damage after <C>1 s</> \r\n> <C>25%</> reduced recoil\r\n<B>></> <C>70-80%</> <B>reduced damage</>\r\n<B>></> <C>0-25%</> <B>reduced rate of fire</>\r\n<B>></> <C>50%</> <B>reduced environment penetration</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Can lock onto + track painted enemies\r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>100%</> of damage dealt as additional explosive damage after <C>2 s</> \r\n> <C>25%</> reduced recoil\r\n<B>></> <C>70-80%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>></> <C>50%</> <B>reduced environment penetration</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Can lock onto + track painted enemies\r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>100%</> of damage dealt as additional explosive damage after <C>2 s</> \r\n> <C>25%</> reduced recoil\r\n<B>></> <C>70-80%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>></> <C>50%</> <B>reduced environment penetration</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2704,8 +2704,8 @@
           {
             "Namespace": "",
             "Key": "CCA7DBDD48578433D7C6FE9C69C079E3",
-            "SourceString": "> Standard grenade\r\n> Can knockback",
-            "LocalizedString": "> Standard grenade\r\n> Can knockback"
+            "SourceString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback",
+            "LocalizedString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback"
           }
         ]
       },
@@ -2727,8 +2727,8 @@
           {
             "Namespace": "",
             "Key": "A723A65D45941CBB93BB42B45F4AD543",
-            "SourceString": "> Detonates on impact\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>",
-            "LocalizedString": "> Detonates on impact\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>"
+            "SourceString": "> Detonates on impact\r\n> Explosive damage\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>",
+            "LocalizedString": "> Detonates on impact\r\n> Explosive damage\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>"
           }
         ]
       },
@@ -2750,8 +2750,8 @@
           {
             "Namespace": "",
             "Key": "FD25E9B04641A86540112E87E912F17A",
-            "SourceString": "> Detonates on impact\r\n> Ignites surfaces\r\n> <C>100%</> of damage dealt as additional fire damage\r\n<B>></> <C>75%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>",
-            "LocalizedString": "> Detonates on impact\r\n> Ignites surfaces\r\n> <C>100%</> of damage dealt as additional fire damage\r\n<B>></> <C>75%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area\r\n<B>></> <C>50%</> <B>reduced damage</>",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area\r\n<B>></> <C>50%</> <B>reduced damage</>"
           }
         ]
       },
@@ -2773,8 +2773,8 @@
           {
             "Namespace": "",
             "Key": "06F24FB1450480DE005228B248EE18BC",
-            "SourceString": "> Proximity detection\r\n> Can attach to surfaces + Shells\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Proximity detection\r\n> Can attach to surfaces + Shells\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2980,8 +2980,8 @@
           {
             "Namespace": "",
             "Key": "A52BE29B4509CF37B4BC2B93886C814B",
-            "SourceString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>reduced reload speed</>",
-            "LocalizedString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>reduced reload speed</>"
+            "SourceString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased speed penalty</>",
+            "LocalizedString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased speed penalty</>"
           }
         ]
       },
@@ -2995,7 +2995,7 @@
         "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
           "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
           "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
+          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
         },
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
@@ -3003,8 +3003,8 @@
           {
             "Namespace": "",
             "Key": "E86B4EA74017A4A31BA66CB68F966343",
-            "SourceString": "> Converts to magazine reload\r\n> <C>25%</> increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>",
-            "LocalizedString": "> Converts to magazine reload\r\n> <C>25%</> increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>"
+            "SourceString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased speed penalty</>",
+            "LocalizedString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased speed penalty</>"
           }
         ]
       },
@@ -3256,8 +3256,8 @@
           {
             "Namespace": "",
             "Key": "2D3353BB42DB469FAFB471B2F3E650A0",
-            "SourceString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread gain</>",
-            "LocalizedString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread gain</>"
+            "SourceString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread + spread gain</>",
+            "LocalizedString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread + spread gain</>"
           }
         ]
       },
