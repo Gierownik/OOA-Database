@@ -128,19 +128,24 @@ function createGunEmbed(weaponName, stats) {
         .setTitle(weaponName)
         .setTimestamp();
         const Loadoutstats = stats.filter(stats => 
-            stats.tagCheck('^')
+            stats.startsWith('^')
         );
         const Mainstats = stats.filter(stats => 
             stats.tagCheck('@')
         );
-        const cleanStat = line => line.tagCheck('^') || line.tagCheck('@')
+        const foundation = stats.filter(stats => 
+            stats.startsWith('&')
+        );
+        const cleanStat = line => line.tagCheck('@')
         ? line.slice(0, 2) + line.slice(3)
+        : line.startsWith('&') || line.startsWith('^')
+        ? line.slice(1)
         : line;
         
         
         if (Loadoutstats.length > 0) {
             embed.addFields({
-                name: '⚙  Loadout',
+                name: '🧰  Loadout',
                 value: Loadoutstats.map(cleanStat).join('\n')
             });
         }
@@ -148,6 +153,12 @@ function createGunEmbed(weaponName, stats) {
             embed.addFields({
                 name: '🔧 Stats',
                 value: Mainstats.map(cleanStat).join('\n')
+            });
+        }
+        if (Mainstats.length > 0) {
+            embed.addFields({
+                name: '⚙ Foundations',
+                value: foundation.map(cleanStat).join('\n')
             });
         }
     return embed;

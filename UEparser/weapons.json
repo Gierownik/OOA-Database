@@ -1,0 +1,178 @@
+{
+  "Fists": [
+    "& 0 Body, 0 Tech, 0 Hardware",
+    "^ ID: ",
+    "^ Weapon Type: Fists",
+    "^ Slot: Backup",
+    "^ Category: NewEnumerator8",
+    "@ Firemode: Charged"
+  ],
+  "TTK": [
+    "& 5 Body, 0 Tech, 10 Hardware",
+    "^ ID: LDS TTK",
+    "^ Weapon Type: Throwing knives",
+    "^ Slot: Backup",
+    "^ Category: Melee Weapons",
+    "@ Firemode: Charged"
+  ],
+  "Akanami": [
+    "& 10 Body, 10 Tech, 5 Hardware",
+    "^ ID: MA-ACS",
+    "^ Weapon Type: Sword",
+    "^ Slot: Backup",
+    "^ Category: Melee Weapons",
+    "@ Firemode: Charged"
+  ],
+  "Dusters": [
+    "& 10 Body, 5 Tech, 5 Hardware",
+    "^ ID: W&S APDG",
+    "^ Weapon Type: Augmented fists",
+    "^ Slot: Backup",
+    "^ Category: Melee Weapons",
+    "@ Firemode: Charged"
+  ],
+  "Major": [
+    "& 0 Body, 0 Tech, 5 Hardware",
+    "^ ID: MA-P7",
+    "^ Weapon Type: Pistol",
+    "^ Slot: Sidearm",
+    "^ Category: Handguns",
+    "@ Firemode: Semi-Automatic"
+  ],
+  "Deckard": [
+    "& 0 Body, 0 Tech, 15 Hardware",
+    "^ ID: LDS SR .60",
+    "^ Weapon Type: Revolver",
+    "^ Slot: Sidearm",
+    "^ Category: Handguns",
+    "@ Firemode: Semi-Automatic"
+  ],
+  "Geist": [
+    "& 0 Body, 0 Tech, 10 Hardware",
+    "^ ID: W&S MP11",
+    "^ Weapon Type: PDW",
+    "^ Slot: Sidearm",
+    "^ Category: Small Arms",
+    "@ Firemode: Automatic"
+  ],
+  "Double-Tap": [
+    "& 0 Body, 5 Tech, 5 Hardware",
+    "^ ID: A-TAC 002",
+    "^ Weapon Type: Burst pistol",
+    "^ Slot: Sidearm",
+    "^ Category: Handguns",
+    "@ Firemode: Burst"
+  ],
+  "Omen": [
+    "& 0 Body, 0 Tech, 10 Hardware",
+    "^ ID: LDS X9E",
+    "^ Weapon Type: Machine pistol",
+    "^ Slot: Sidearm",
+    "^ Category: Small Arms",
+    "@ Firemode: Automatic"
+  ],
+  "Cerberus": [
+    "& 5 Body, 0 Tech, 5 Hardware",
+    "^ ID: MA-950-S",
+    "^ Weapon Type: Compact shotgun",
+    "^ Slot: Sidearm",
+    "^ Category: Shotguns",
+    "@ Firemode: Semi-Automatic"
+  ],
+  "Master-Key": [
+    "& 0 Body, 0 Tech, 10 Hardware",
+    "^ ID: A-TAC S20",
+    "^ Weapon Type: Shotgun",
+    "^ Slot: Primary",
+    "^ Category: Shotguns",
+    "@ Firemode: Chambered"
+  ],
+  "Icarus": [
+    "& 0 Body, 0 Tech, 10 Hardware",
+    "^ ID: MA-SX5",
+    "^ Weapon Type: SMG",
+    "^ Slot: Primary",
+    "^ Category: Small Arms",
+    "@ Firemode: Automatic"
+  ],
+  "Custodian": [
+    "& 0 Body, 0 Tech, 15 Hardware",
+    "^ ID: A-TAC 88",
+    "^ Weapon Type: Assault rifle",
+    "^ Slot: Primary",
+    "^ Category: Assault Weapons",
+    "@ Firemode: Automatic"
+  ],
+  "Inhibitor": [
+    "& 10 Body, 0 Tech, 15 Hardware",
+    "^ ID: LDS MXG-865",
+    "^ Weapon Type: LMG",
+    "^ Slot: Primary",
+    "^ Category: Support Weapons",
+    "@ Firemode: Automatic"
+  ],
+  "Vigil": [
+    "& 5 Body, 0 Tech, 20 Hardware",
+    "^ ID: W&S SP-R",
+    "^ Weapon Type: Bolt action rifle",
+    "^ Slot: Primary",
+    "^ Category: Precision Weapons",
+    "@ Firemode: Chambered"
+  ],
+  "Sentinel": [
+    "& 0 Body, 0 Tech, 15 Hardware",
+    "^ ID: A-TAC DMR-9",
+    "^ Weapon Type: DMR",
+    "^ Slot: Primary",
+    "^ Category: Precision Weapons",
+    "@ Firemode: Semi-Automatic"
+  ],
+  "Helix": [
+    "& 0 Body, 5 Tech, 10 Hardware",
+    "^ ID: W&S SG5",
+    "^ Weapon Type: Burst rifle",
+    "^ Slot: Primary",
+    "^ Category: Assault Weapons",
+    "@ Firemode: Burst"
+  ],
+  "Nexus": [
+    "& 0 Body, 0 Tech, 15 Hardware",
+    "^ ID: LDS MBR-A6",
+    "^ Weapon Type: Battle rifle",
+    "^ Slot: Primary",
+    "^ Category: Assault Weapons",
+    "@ Firemode: Semi-Automatic"
+  ],
+  "Typhon": [
+    "& 10 Body, 5 Tech, 15 Hardware",
+    "^ ID: MA-HA5-T3",
+    "^ Weapon Type: Auto shotgun",
+    "^ Slot: Primary",
+    "^ Category: Shotguns",
+    "@ Firemode: Semi-Automatic"
+  ],
+  "Warrant": [
+    "& 10 Body, 10 Tech, 20 Hardware",
+    "^ ID: A-TAC XGL6",
+    "^ Weapon Type: Grenade launcher",
+    "^ Slot: Primary",
+    "^ Category: Support Weapons",
+    "@ Firemode: Semi-Automatic"
+  ],
+  "Blackout": [
+    "& 20 Body, 5 Tech, 20 Hardware",
+    "^ ID: W&S TRS-1",
+    "^ Weapon Type: Rocket launcher",
+    "^ Slot: Heavy",
+    "^ Category: Heavy Weapons",
+    "@ Firemode: Semi-Automatic"
+  ],
+  "Umibozu": [
+    "& 15 Body, 5 Tech, 20 Hardware",
+    "^ ID: MA-HSW-P",
+    "^ Weapon Type: Heavy cycler",
+    "^ Slot: Heavy",
+    "^ Category: Heavy Weapons",
+    "@ Firemode: Automatic"
+  ]
+}
