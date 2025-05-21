@@ -154,9 +154,9 @@
   ],
   "Dead Drop": [
     "- ^ Aiming or charging backup weapon after recent climb activates Overkill, **10 s** cooldown",
-    "- ^ Overkill: Melee attacks + body impacts bypass defense + damage reductions, **100%** increased body impact damage, **100%** reduced aux drain from all sources, loadout + movement speed penalties, **50%** increased dexterity",
+    "- ^ Overkill: Melee attacks + body impacts bypass defense, **100%** increased body impact damage, **100%** reduced aux drain from all sources, loadout + movement speed penalties, **50%** increased dexterity",
     "- ^ Deactivates after **2 s** if no longer falling, **30 s** cooldown on melee or body impact kill while active",
-    "- @  **0-100%** increased direct damage received while active, scaling proportionally with duration active from **0-10 s**",
+    "- @  **0-100%** increased direct damage received while active, scaling proportionally with duration active from **0-5 s**",
     "& 20 Body, 20 Tech, 15 Hardware"
   ],
   "Disengage": [
@@ -316,7 +316,7 @@
   ],
   "Overclocked": [
     "- ^ Unaffected by Core slowing effects while Core active",
-    "- @  **5 /s** vitals + defense damage while Core active",
+    "- @  **10 /s** vitals + defense damage while Core active",
     "- @  **50%** reduced vitals + defense restored from all sources while Core active",
     "- @  **25%** reduced Core generation + duration",
     "& 20 Body, 25 Tech, 0 Hardware"
@@ -370,11 +370,11 @@
   "Rage Core": [
     "- ^ Gain active Core while vitals below **50%** from enemy damage + visible enemies, **10 s** cooldown on deactivate",
     "- ^ Gain Overkill while vitals below **50%** from enemy damage",
-    "- ^ Overkill: Melee attacks + body impacts bypass defense + damage reductions, **100%** increased body impact damage, **100%** reduced aux drain from all sources, loadout + movement speed penalties, **50%** increased dexterity",
+    "- ^ Overkill: Melee attacks + body impacts bypass defense, **100%** increased body impact damage, **100%** reduced aux drain from all sources, loadout + movement speed penalties, **50%** increased dexterity",
     "- @  **75%** reduced vitals + defense restored from all sources while active",
     "- @  **75%** active Core speed, Shell specific active Core bonuses disabled",
-    "- @  **0-100%** increased direct damage received while active, scaling proportionally with duration active from **0-10 s**",
-    "- @  **1/s** vitals + defense damage while active with no visible enemies",
+    "- @  **0-100%** increased direct damage received while active, scaling proportionally with duration active from **0-5 s**",
+    "- @  **5/s** vitals + defense damage while active with no visible enemies",
     "& 25 Body, 25 Tech, 15 Hardware"
   ],
   "Reactive Core": [

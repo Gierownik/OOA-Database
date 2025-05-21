@@ -154,9 +154,9 @@
   ],
   "Dead Drop": [
     "> Aiming or charging backup weapon after recent climb activates Overkill, <C>10 s</> cooldown",
-    "> Overkill: Melee attacks + body impacts bypass defense + damage reductions, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity",
+    "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity",
     "> Deactivates after <C>2 s</> if no longer falling, <C>30 s</> cooldown on melee or body impact kill while active",
-    "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-10 s</>",
+    "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
     "& 20 Body, 20 Tech, 15 Hardware"
   ],
   "Disengage": [
@@ -316,7 +316,7 @@
   ],
   "Overclocked": [
     "> Unaffected by Core slowing effects while Core active",
-    "<B>></> <C>5 /s</> <B>vitals + defense damage while Core active</>",
+    "<B>></> <C>10 /s</> <B>vitals + defense damage while Core active</>",
     "<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>",
     "<B>></> <C>25%</> <B>reduced Core generation + duration</>",
     "& 20 Body, 25 Tech, 0 Hardware"
@@ -370,11 +370,11 @@
   "Rage Core": [
     "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate",
     "> Gain Overkill while vitals below <C>50%</> from enemy damage",
-    "> Overkill: Melee attacks + body impacts bypass defense + damage reductions, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity",
+    "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity",
     "<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>",
     "<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
-    "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-10 s</>",
-    "<B>></> <C>1/s</> <B>vitals + defense damage while active with no visible enemies</>",
+    "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
+    "<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>",
     "& 25 Body, 25 Tech, 15 Hardware"
   ],
   "Reactive Core": [
