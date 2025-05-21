@@ -1048,8 +1048,8 @@
           {
             "Namespace": "",
             "Key": "ACD4A2DB4CCF2451A64427A46F62ED6B",
-            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>10 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense + damage reductions, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling, <C>30 s</> cooldown on melee or body impact kill while active\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-10 s</>",
-            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>10 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense + damage reductions, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling, <C>30 s</> cooldown on melee or body impact kill while active\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-10 s</>"
+            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>10 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling, <C>30 s</> cooldown on melee or body impact kill while active\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
+            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>10 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling, <C>30 s</> cooldown on melee or body impact kill while active\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
           }
         ]
       },
@@ -1531,8 +1531,8 @@
           {
             "Namespace": "",
             "Key": "994F35314CAEE88F6171D2BD42DFB988",
-            "SourceString": "> Unaffected by Core slowing effects while Core active\r\n<B>></> <C>5 /s</> <B>vitals + defense damage while Core active</>\r\n<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>",
-            "LocalizedString": "> Unaffected by Core slowing effects while Core active\r\n<B>></> <C>5 /s</> <B>vitals + defense damage while Core active</>\r\n<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>"
+            "SourceString": "> Unaffected by Core slowing effects while Core active\r\n<B>></> <C>10 /s</> <B>vitals + defense damage while Core active</>\r\n<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>",
+            "LocalizedString": "> Unaffected by Core slowing effects while Core active\r\n<B>></> <C>10 /s</> <B>vitals + defense damage while Core active</>\r\n<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>"
           }
         ]
       },
@@ -1669,8 +1669,8 @@
           {
             "Namespace": "",
             "Key": "79013A674F87E781F9AB95A2B90C2D8F",
-            "SourceString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense + damage reductions, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-10 s</>\r\n<B>></> <C>1/s</> <B>vitals + defense damage while active with no visible enemies</>",
-            "LocalizedString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense + damage reductions, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-10 s</>\r\n<B>></> <C>1/s</> <B>vitals + defense damage while active with no visible enemies</>"
+            "SourceString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>",
+            "LocalizedString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>"
           }
         ]
       },
@@ -2727,8 +2727,8 @@
           {
             "Namespace": "",
             "Key": "A723A65D45941CBB93BB42B45F4AD543",
-            "SourceString": "> Detonates on impact\r\n> Explosive damage\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>",
-            "LocalizedString": "> Detonates on impact\r\n> Explosive damage\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>"
+            "SourceString": "> Detonates on impact\r\n> Explosive damage\r\n<B>></> <C>50%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>",
+            "LocalizedString": "> Detonates on impact\r\n> Explosive damage\r\n<B>></> <C>50%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>"
           }
         ]
       },
@@ -2750,8 +2750,8 @@
           {
             "Namespace": "",
             "Key": "FD25E9B04641A86540112E87E912F17A",
-            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area\r\n<B>></> <C>50%</> <B>reduced damage</>",
-            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area\r\n<B>></> <C>50%</> <B>reduced damage</>"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area\r\n<B>></> <C>100%</> <B>reduced explosive damage</>",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area\r\n<B>></> <C>100%</> <B>reduced explosive damage</>"
           }
         ]
       },
@@ -2773,8 +2773,8 @@
           {
             "Namespace": "",
             "Key": "06F24FB1450480DE005228B248EE18BC",
-            "SourceString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -3256,8 +3256,8 @@
           {
             "Namespace": "",
             "Key": "2D3353BB42DB469FAFB471B2F3E650A0",
-            "SourceString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread + spread gain</>",
-            "LocalizedString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread + spread gain</>"
+            "SourceString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread gain</>",
+            "LocalizedString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread gain</>"
           }
         ]
       },
@@ -3325,8 +3325,8 @@
           {
             "Namespace": "",
             "Key": "FA9799FB44182E084B6625B05158BA81",
-            "SourceString": "> Converts to 3 round burst\r\n> <C>200%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>",
-            "LocalizedString": "> Converts to 3 round burst\r\n> <C>200%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>"
+            "SourceString": "> Converts to 2 round burst\r\n> <C>300%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>",
+            "LocalizedString": "> Converts to 2 round burst\r\n> <C>300%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>"
           }
         ]
       },
