@@ -176,6 +176,7 @@ for skill_name, data in skill_rows.items():
     slot_name = weapon_class_to_value.get(slot_key, slot_key)
     cat_name = weapon_category_to_value.get(cat_key, cat_key)
     fire_name = weapon_mode_to_value.get(fire_key, fire_key)
+    damage_section = weapon_stat.get("damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE", {})
     #-------------------Main part:-------------------
     #stat = weapon_stat.get("statid_ABCDEFGH", 0)
     #lines.append(f"@ Stat: {stat}")
@@ -186,6 +187,67 @@ for skill_name, data in skill_rows.items():
     lines.append(f"^ Slot: {slot_name}")
     lines.append(f"^ Category: {cat_name}")
     lines.append(f"@ Firemode: {fire_name}")
+    burst = weapon_stat.get("burstCount_125_4B49DFE84C24E8AA5A63B7B6983618D1", 0)
+    if burst not in [0, 0.0, False, ""]:
+        lines.append(f"@ Burst Count: {burst}")
+    burst_del = weapon_stat.get("burstDelay_152_D2A7BF0742680DCB3E9BE381C99B9BFC", 0)
+    if burst_del not in [0, 0.0, False, ""]:
+        lines.append(f"@ Burst Delay: {burst_del}s")
+    rpm = weapon_stat.get("roundsPerMinute_88_9A62D92546A54AF5B9BD9CA681C99779", 0)
+    lines.append(f"@ Firerate: {rpm} rpm")
+    spinup = weapon_stat.get("spinUpDuration_114_42F529AD41ADDCCCDB0ED0915E8BCCEC", 0)
+    if spinup not in [0, 0.0, False, ""]:
+        lines.append(f"@ Spinup: {spinup}s")
+    infammo = weapon_stat.get("usesAmmo_109_C8A226E545A12A663A1AF398568E1897", 0)
+    if infammo not in [0, 0.0, True, ""]:
+        lines.append(f"@ Infinite ammo: True")
+    cap = weapon_stat.get("ammoCapacity_37_C66372EB4769BC9D909A6CA771FD33A0", 0)
+    if cap not in [0, 0.0, False, ""]:
+        lines.append(f"@ Ammo Capacity: {cap}")
+    rlspe = weapon_stat.get("reloadSpeed_42_4B9E289B467B258218AE298E52A1B0E3", 0)
+    if rlspe not in [0, 0.0, False, ""]:
+        lines.append(f"@ Reload Duration: {rlspe}s")
+    rchm = weapon_stat.get("rechamberDuration_121_DA9C2951452609B501BB76B185DE3800", 0)
+    if rchm not in [0, 0.0, False, ""]:
+        lines.append(f"@ Rechamber Duration: {rchm}s")
+    singleload = weapon_stat.get("singleReload_128_E69294BE4B79448A0BAC2AB62561973D", 0)
+    if singleload not in [0, 0.0, False, ""]:
+        lines.append(f"@ One by one reload: True")
+    dmgn = damage_section.get("DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C", 0)
+    lines.append(f"@- Near Damage: {dmgn}")
+    dmgf = damage_section.get("DamageFar_31_9A92287545630DA083AAA18D6F6D52B2", 0)
+    lines.append(f"@- Far Damage: {dmgf}")
+    rngn = damage_section.get("RangeNear_32_7051C33A45ED3E81881748AF79D60E71", 0)
+    rngf = damage_section.get("RangeFar_33_9FC06C8A49BBBCDC074BDEBAF8F978BB", 0)
+    lines.append(f"@- Range: {rngn} - {rngf} m")
+    hsm = damage_section.get("HeadMultiplier_18_6AC23285474D12C7B9B9C9B43C915FE8", 0)
+    lines.append(f"@- Headshot Multiplier: {hsm}x")
+    lmb = damage_section.get("LimbMultiplier_36_F099D86241C4A7BDF8FC47849F76F552", 0)
+    lines.append(f"@- Limb Multiplier: {lmb}x")
+    bld = damage_section.get("BleedMultiplier_27_0D5F760E45CA9912594F6787BD30615F", 0)
+    if bld not in [1, 1.0, False, ""]:
+        lines.append(f"@- Bleed Multiplier: {bld}x")
+    pen = weapon_stat.get("penetrationPower_18_B8E8BDFC45F3DFA9B84410AEEF7CF3DE", 0)
+    lines.append(f"@ Penetration: {pen} cm")
+    vel = weapon_stat.get("muzzleVelocity_20_0A3F52FD4DB2E8D23F8E05A26A11E7BA", 0)
+    lines.append(f"@ Velocity: {vel} m/s")
+    recv = weapon_stat.get("recoilVertical_14_8D17013D41FC3D7BB68C2E816F8B69C7", 0)
+    lines.append(f"@- Vertical Recoil: {recv}")
+    rech = weapon_stat.get("recoilHorizonal_16_562990B74D7D4F4DDCF429942D1839C5", 0)
+    lines.append(f"@- Horizontal Recoil: {rech}")
+    ads = weapon_stat.get("aimTime_34_F110FBC149382F201D7A3C9AA8BE8D17", 0)
+    lines.append(f"@ Time to ADS: {ads}s")
+    sprdh = weapon_stat.get("hipSpread_92_F512DB8F4AA38F47776755B509674FDB", 0)
+    lines.append(f"@- Hipfire Spread: {sprdh}°")
+    sprda = weapon_stat.get("aimSpread_93_4DB54D3B45DEEA9F6DBF20B24D661F94", 0)
+    lines.append(f"@- ADS Spread: {sprda}°")
+    sprdg = weapon_stat.get("spreadGain_135_D194D65F441D7033F8F0E89B097BD9ED", 0)
+    lines.append(f"@- Spread Gain: {sprdg}°")
+    spdpen = weapon_stat.get("speedModifier_75_CA08E44842050D047DB75CA31280BE88", 0)
+    lines.append(f"@ Speed Penalty: 0.{spdpen} m/s")
+
+    
+
 
 
 

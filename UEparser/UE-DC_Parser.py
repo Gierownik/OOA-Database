@@ -22,12 +22,12 @@ def format_line(line):
     lambda m: f", {int(m.group(1))/100:.2f} m/s Speed Penalty",line)
     return line.strip()
 def format_weapon(line):
-    # Discord formating: bold shit
+    line = re.sub(r"Velocity: (.*?)00.0 m/s", r"Velocity: \1 m/s", line)
     line = re.sub(r":\s*(.+)", r": **\1**", line)
-    # Discord formatting: list and downside tag (@): replaces <B>>...</> with - @...
     line = re.sub(r"@", r"- @", line)
-    # The line above me does some funky stuff this is the fix:
-    #Speed pen cm/s to m/s
+    line = re.sub(r"\b(\d+)\.0\b", r"\1", line)
+
+
     return line.strip()
 def format_everything(obj):
     if isinstance(obj, str):
