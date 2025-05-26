@@ -2382,8 +2382,8 @@
           {
             "Namespace": "",
             "Key": "CC4DCBAE4E8B1A9CA99B2E94D621C2A1",
-            "SourceString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air\r\n> <C>100</> vital damage + knockback to enemies + devices within <C>1 m</> of relocation",
-            "LocalizedString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air\r\n> <C>100</> vital damage + knockback to enemies + devices within <C>1 m</> of relocation"
+            "SourceString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air\r\n> Telefrag enemies + devices within <C>1 m</> of relocation",
+            "LocalizedString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air\r\n> Telefrag enemies + devices within <C>1 m</> of relocation"
           }
         ]
       },
@@ -2704,8 +2704,8 @@
           {
             "Namespace": "",
             "Key": "CCA7DBDD48578433D7C6FE9C69C079E3",
-            "SourceString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback",
-            "LocalizedString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Explosive damage\r\n> Can knockback",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Explosive damage\r\n> Can knockback"
           }
         ]
       },
@@ -2750,8 +2750,8 @@
           {
             "Namespace": "",
             "Key": "FD25E9B04641A86540112E87E912F17A",
-            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area\r\n<B>></> <C>100%</> <B>reduced explosive damage</>",
-            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area\r\n<B>></> <C>100%</> <B>reduced explosive damage</>"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n<B>></> <C>100%</> <B>reduced explosive damage</>",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n<B>></> <C>100%</> <B>reduced explosive damage</>"
           }
         ]
       },
