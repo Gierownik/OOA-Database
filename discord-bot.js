@@ -238,42 +238,57 @@ function createShellEmbed(shellName, stats) {
         .setColor('#0affb6')
         .setTitle(shellName)
         .setTimestamp();
-        const intaugs = stats.filter(stats => 
-            stats.tagCheck('^') || stats.startsWith('*') || stats.tagCheck('@')
-        );
-        const foundation = stats.filter(stats => 
-            stats.startsWith('&')
-        );
-        const Mainstats = stats.filter(stats => 
-            !intaugs.includes(stats) && 
-            !foundation.includes(stats)
-        );
-        const cleanStat = line => line.tagCheck('@') || line.tagCheck('^')
+
+    const foundation = stats.filter(stat => stat.startsWith('&'));
+    const mainStats = stats.filter(stat => 
+        !stat.startsWith('&') && !stat.startsWith('**:: ') && !stat.startsWith('- ')
+    );
+
+
+    let currentAugment = null;
+    const augmentsMap = {};
+
+    for (const line of stats) {
+        if (line.startsWith('**:: ')) {
+            currentAugment = line;
+            augmentsMap[currentAugment] = [];
+        } else if (currentAugment && !line.startsWith('&') && line.startsWith('- ')) {
+            augmentsMap[currentAugment].push(line);
+        }
+    }
+
+    const cleanStat = line => line.tagCheck('@') || line.tagCheck('^')
         ? line.slice(0, 2) + line.slice(3)
         : line.startsWith('&')
         ? line.slice(1)
         : line;
-        
-        if (Mainstats.length > 0) {
+
+    if (mainStats.length > 0) {
+        embed.addFields({
+            name: '🔧 Stats',
+            value: mainStats.map(cleanStat).join('\n')
+        });
+    }
+
+    for (const [title, entries] of Object.entries(augmentsMap)) {
+        if (entries.length > 0) {
             embed.addFields({
-                name: '🔧 Stats',
-                value: Mainstats.map(cleanStat).join('\n')
+                name: `🦾 ${title}`,
+                value: entries.map(cleanStat).join('\n')
             });
         }
-        if (intaugs.length > 0) {
-            embed.addFields({
-                name: '🦾 Integrated Augments',
-                value: intaugs.map(cleanStat).join('\n')
-            });
-        }
-        if (foundation.length > 0) {
-            embed.addFields({
-                name: '⚙ Foundations',
-                value: foundation.map(cleanStat).join('\n')
-            });
-        }
+    }
+
+    if (foundation.length > 0) {
+        embed.addFields({
+            name: '⚙ Foundations',
+            value: foundation.map(cleanStat).join('\n')
+        });
+    }
+
     return embed;
 }
+
 // Define the slash command
 const augmentCommand = new SlashCommandBuilder()
     .setName('augment')
