@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_ShellID",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "FBACDF134F8156F68CB9F1B3DAC403DC",
+            "SourceString": "Bison",
+            "LocalizedString": "Bison"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "9B58D189462243F487EC4FADB341CFBC",
+            "SourceString": "Hydra",
+            "LocalizedString": "Hydra"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "F51424E7423DCE4650873C97ABA6B6DC",
+            "SourceString": "Rhino",
+            "LocalizedString": "Rhino"
+          }
+        },
+        {
+          "Key": "NewEnumerator4",
+          "Value": {
+            "Namespace": "",
+            "Key": "4A17647D425D5BD8DEFF70ABA8FF370D",
+            "SourceString": "Dragon",
+            "LocalizedString": "Dragon"
+          }
+        },
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "6ECCE5794AB09DEE6BBB05B9302498B3",
+            "SourceString": "Ghost",
+            "LocalizedString": "Ghost"
+          }
+        },
+        {
+          "Key": "NewEnumerator7",
+          "Value": {
+            "Namespace": "",
+            "Key": "5F9A26E04D78E250A8ECF59F45551D3E",
+            "SourceString": "-",
+            "LocalizedString": "-"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_ShellID::NewEnumerator7": 0,
+      "ENUM_ShellID::NewEnumerator0": 1,
+      "ENUM_ShellID::NewEnumerator1": 2,
+      "ENUM_ShellID::NewEnumerator4": 3,
+      "ENUM_ShellID::NewEnumerator2": 4,
+      "ENUM_ShellID::NewEnumerator5": 5,
+      "ENUM_ShellID::ENUM_MAX": 6
+    },
+    "CppForm": "Namespaced"
+  }
+]

@@ -8,6 +8,8 @@ with open("ENUM_DeviceID.json", "r", encoding="utf-8") as f:
     device_enum_data = json.load(f)
 with open("ENUM_WeaponID.json", "r", encoding="utf-8") as f:
     weapon_enum_data = json.load(f)
+with open("ENUM_ShellID.json", "r", encoding="utf-8") as f:
+    shell_enum_data = json.load(f)
 with open("DT_SkillTree.json", "r", encoding="utf-8") as f:
     skilltree_data = json.load(f)
 with open("DT_DeviceData.json", "r", encoding="utf-8") as f:
@@ -43,6 +45,11 @@ device_id_to_name = {
 weapon_id_to_name = {
     f"ENUM_WeaponID::{entry['Key']}": entry["Value"]["SourceString"]
     for entry in weapon_enum_data[0]["Properties"]["DisplayNameMap"]
+    if entry["Value"]["SourceString"] != "-"
+}
+shell_id_to_name = {
+    f"ENUM_ShellID::{entry['Key']}": entry["Value"]["SourceString"]
+    for entry in shell_enum_data[0]["Properties"]["DisplayNameMap"]
     if entry["Value"]["SourceString"] != "-"
 }
 
@@ -259,3 +266,37 @@ for skill_name, data in skill_rows.items():
 with open("weapons.json", "w", encoding="utf-8") as out_file:
     json.dump(weapon_output, out_file, indent=2, ensure_ascii=False)
 print("Weapon shit maybe workin")
+#------------------------------------------------Shell stuff-----------------------------------------------------------------------
+shell_output = {}
+
+for shell_name, shell_data in skill_rows.items():
+    shell_enum = shell_data.get("ShellID_20_E0F2764D41C112BEE1BFEA864FA45992")
+
+    if shell_enum in shell_id_to_name:
+        shell_name = shell_id_to_name[shell_enum]
+        tooltips = shell_data.get("Tooltip_54_1E2214584583FA289C1781AA8CE4153E", [])
+        if not tooltips:
+            continue
+
+        tooltip_text = tooltips[-1]["LocalizedString"]
+
+        lines = [
+            line
+            for line in tooltip_text.strip().splitlines()
+            if line.strip()
+        ]
+        req = skill_data.get("Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B", {})
+        body = req.get("Body_10_68FBC6C34B6DDB19E010A9AB2419B88B", 0)
+        tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
+        hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
+
+        lines.extend([
+            f"& {body} Body, {tech} Tech, {hardware} Hardware",
+        ])
+        shell_output[shell_name] = lines
+
+
+# Save to JSON
+with open("shells.json", "w", encoding="utf-8") as out_file:
+    json.dump(shell_output, out_file, indent=2, ensure_ascii=False)
+print("Shell shit workin")

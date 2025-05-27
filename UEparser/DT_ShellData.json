@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ShellData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'STRUCT_ShellData'",
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_ShellData.0"
+      }
+    },
+    "Rows": {
+      "Bison": {
+        "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator0",
+        "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
+          "ObjectName": "Texture2D'UI_BodySmall'",
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_BodySmall.0"
+        },
+        "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 150.0,
+        "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 150.0,
+        "speedModifier_32_2C4926ED42431993DD4F01B0F07F8908": 50.0,
+        "coreSpeed_49_16E1B3544598A2B32ABC7EB0BF430FCF": 0.8,
+        "radarRange_43_14DB15624ACE3BC2575EE191D41E0BDE": 1500.0,
+        "details_36_621ECE0846C0E870042B9085CBF07169": [
+          "+150 vitals",
+          "+150 defense",
+          "+Snare and stun resistance, increased stamina recovery",
+          "+Increased Core generation and duration",
+          "+Reduced slowing effect from active Core",
+          "+Snare and stun immunity while Core active",
+          "+Explosive resistance",
+          "-50 speed reduction"
+        ]
+      },
+      "Hydra": {
+        "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator1",
+        "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
+          "ObjectName": "Texture2D'UI_BodyOutline'",
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_BodyOutline.0"
+        },
+        "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 100.0,
+        "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 100.0,
+        "speedModifier_32_2C4926ED42431993DD4F01B0F07F8908": 100.0,
+        "coreSpeed_49_16E1B3544598A2B32ABC7EB0BF430FCF": 0.7,
+        "radarRange_43_14DB15624ACE3BC2575EE191D41E0BDE": 2000.0,
+        "details_36_621ECE0846C0E870042B9085CBF07169": [
+          "+100-200 vitals",
+          "+100 defense",
+          "+Increased defense regeneration",
+          "+Damage dealt during maneuvers, active Core or in close proximity recovers vitals. Can increase max vitals",
+          "+Gain passive vitals regeneration. Can increase max vitals",
+          "-100 speed reduction",
+          "-Regeneration can be disabled"
+        ]
+      },
+      "Dragon": {
+        "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator4",
+        "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
+          "ObjectName": "Texture2D'UI_Gadget_AntiGrav'",
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_AntiGrav.0"
+        },
+        "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 100.0,
+        "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 150.0,
+        "speedModifier_32_2C4926ED42431993DD4F01B0F07F8908": 150.0,
+        "coreSpeed_49_16E1B3544598A2B32ABC7EB0BF430FCF": 0.75,
+        "radarRange_43_14DB15624ACE3BC2575EE191D41E0BDE": 2000.0,
+        "details_36_621ECE0846C0E870042B9085CBF07169": [
+          "+100 vitals",
+          "+150 defense",
+          "+Gain hover, air dash, ground slam and improved dodge",
+          "+AOE fire blast on air dash and hover activation",
+          "+Fire resistance",
+          "+Fire immunity while Core active",
+          "-150 speed reduction",
+          "-Drifter pack can be disabled"
+        ]
+      },
+      "Ghost": {
+        "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator5",
+        "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
+          "ObjectName": "Texture2D'UI_Gadget_XVision'",
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_XVision.0"
+        },
+        "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 100.0,
+        "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 100.0,
+        "speedModifier_32_2C4926ED42431993DD4F01B0F07F8908": 0.0,
+        "coreSpeed_49_16E1B3544598A2B32ABC7EB0BF430FCF": 0.8,
+        "radarRange_43_14DB15624ACE3BC2575EE191D41E0BDE": 1000.0,
+        "details_36_621ECE0846C0E870042B9085CBF07169": [
+          "+100 vitals",
+          "+100 defense",
+          "+Gain optical camouflage",
+          "+Untargetable by enemy devices or T-lock ammo while camo active",
+          "+Activating Core Breaches unobstructed or detected enemies and devices",
+          "+Disable immunity while Core active",
+          "-Damage received bypasses defense while cloaked",
+          "-Optical camouflage can be disabled"
+        ]
+      },
+      "Rhino": {
+        "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator2",
+        "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
+          "ObjectName": "Texture2D'UI_Vest'",
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Vest.0"
+        },
+        "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 150.0,
+        "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 200.0,
+        "speedModifier_32_2C4926ED42431993DD4F01B0F07F8908": 200.0,
+        "coreSpeed_49_16E1B3544598A2B32ABC7EB0BF430FCF": 0.7,
+        "radarRange_43_14DB15624ACE3BC2575EE191D41E0BDE": 2500.0,
+        "details_36_621ECE0846C0E870042B9085CBF07169": [
+          "+150 vitals",
+          "+200 defense",
+          "+Gain knock down resistance, reduced damage flinch",
+          "+AOE damage / disable / snare on body impacts",
+          "+Increased body impact power and damage",
+          "+Explosive and melee resistance",
+          "+Bolster and knock down immunity while Core active",
+          "-200 speed reduction",
+          "-Reduced stamina recovery"
+        ]
+      }
+    }
+  }
+]
