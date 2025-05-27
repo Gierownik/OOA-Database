@@ -15,8 +15,7 @@ def format_line(line):
     line = re.sub(r":: <D>(.*?)</>", r"**:: \1**", line)
     # Discord formating: bold numbers
     line = re.sub(r"<C>(.*?)</>", r"**\1**", line)
-    if not line.strip().startswith("-") and not line.strip().startswith("**::"):
-        line = re.sub(r"^(.*?):\s*(.+)", r"\1: **\2**", line)
+    line = re.sub(r":\s*([\d]+(?:\.0|\.5))", r": **\1**", line)
     # Discord formatting: lists and upside tag (^): replace lines that start with "> " with "- ^"  (yeh i chose random symbols as tags)
     line = re.sub(r"^> ", r"- ^ ", line)
     # Discord formatting: list and downside tag (@): replaces <B>>...</> with - @...
