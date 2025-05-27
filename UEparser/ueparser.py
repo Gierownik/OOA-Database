@@ -299,7 +299,7 @@ for shell_name, shell_data in skill_rows.items():
         lines.append(f"Core Speed: {core * 100}%")
         rdr = shell_stat.get("radarRange_43_14DB15624ACE3BC2575EE191D41E0BDE", 0)
         lines.append(f"Radar detection range: {rdr / 100} m")
-        req = skill_data.get("Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B", {})
+        req = shell_data.get("Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B", {})
         body = req.get("Body_10_68FBC6C34B6DDB19E010A9AB2419B88B", 0)
         tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
         hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
