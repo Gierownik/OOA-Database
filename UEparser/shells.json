@@ -12,6 +12,11 @@
     "> <C>25%</> increased Core generation",
     "> <C>15%</> increased speed + dexterity while Core active",
     "> <C>0-25%</> Reduced Core activation cost scaling proportionally with remaining vitals from <C>100-50%</>",
+    "Vitals: 150.0",
+    "Defense: 150.0",
+    "Base Speed: 7.5 m/s",
+    "Core Speed: 80.0%",
+    "Radar detection range: 15.0 m",
     "& 0 Body, 15 Tech, 10 Hardware"
   ],
   "Hydra": [
@@ -30,6 +35,11 @@
     "> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals",
     "> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown",
     "> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown",
+    "Vitals: 100.0",
+    "Defense: 100.0",
+    "Base Speed: 7.0 m/s",
+    "Core Speed: 70.0%",
+    "Radar detection range: 20.0 m",
     "& 0 Body, 15 Tech, 10 Hardware"
   ],
   "Ghost": [
@@ -50,6 +60,11 @@
     "> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active",
     "> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</>",
     "> Neuro-link 'Breach' on core activation: Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
+    "Vitals: 100.0",
+    "Defense: 100.0",
+    "Base Speed: 8.0 m/s",
+    "Core Speed: 80.0%",
+    "Radar detection range: 10.0 m",
     "& 0 Body, 15 Tech, 10 Hardware"
   ],
   "Dragon": [
@@ -69,6 +84,11 @@
     "> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft",
     "> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>",
     "> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
+    "Vitals: 100.0",
+    "Defense: 150.0",
+    "Base Speed: 6.5 m/s",
+    "Core Speed: 75.0%",
+    "Radar detection range: 20.0 m",
     "& 0 Body, 15 Tech, 10 Hardware"
   ],
   "Rhino": [
@@ -86,6 +106,11 @@
     "> <C>50%</> increased explosive resistance",
     "> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>",
     "> Damage taken to vitals is restored to defense when defense regeneration resumes",
+    "Vitals: 150.0",
+    "Defense: 200.0",
+    "Base Speed: 6.0 m/s",
+    "Core Speed: 70.0%",
+    "Radar detection range: 25.0 m",
     "& 0 Body, 15 Tech, 10 Hardware"
   ]
 }

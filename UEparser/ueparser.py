@@ -16,6 +16,8 @@ with open("DT_DeviceData.json", "r", encoding="utf-8") as f:
     device_data = json.load(f)
 with open("DT_WeaponData.json", "r", encoding="utf-8") as f:
     weapon_data = json.load(f)
+with open("DT_ShellData.json", "r", encoding="utf-8") as f:
+    shell_data = json.load(f)
 
 with open("ENUM_WeaponClass.json", "r", encoding="utf-8") as f:
     weapon_class = json.load(f)
@@ -72,6 +74,7 @@ weapon_mode_to_value = {
 }
 device_stats = device_data[0]["Rows"]
 weapon_stats = weapon_data[0]["Rows"]
+shell_stats = shell_data[0]["Rows"]
 skill_rows = skilltree_data[0]["Rows"]
 
 #------------------------------------- Perk stuff ------------------------------------------
@@ -285,6 +288,17 @@ for shell_name, shell_data in skill_rows.items():
             for line in tooltip_text.strip().splitlines()
             if line.strip()
         ]
+        shell_stat = shell_stats.get(shell_name, {})
+        vit = shell_stat.get("health_46_8D62C6074CE3721B91A1A1A352B1DAAA", 0)
+        lines.append(f"Vitals: {vit}")
+        defe = shell_stat.get("armour_40_6774162D445FCEB1CEEC26A0CC5BE55F", 0)
+        lines.append(f"Defense: {defe}")
+        sped = shell_stat.get("speedModifier_32_2C4926ED42431993DD4F01B0F07F8908", 0)
+        lines.append(f"Base Speed: {(800 - sped) / 100} m/s")
+        core = shell_stat.get("coreSpeed_49_16E1B3544598A2B32ABC7EB0BF430FCF", 0)
+        lines.append(f"Core Speed: {core * 100}%")
+        rdr = shell_stat.get("radarRange_43_14DB15624ACE3BC2575EE191D41E0BDE", 0)
+        lines.append(f"Radar detection range: {rdr / 100} m")
         req = skill_data.get("Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B", {})
         body = req.get("Body_10_68FBC6C34B6DDB19E010A9AB2419B88B", 0)
         tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
