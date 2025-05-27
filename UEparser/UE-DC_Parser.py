@@ -11,8 +11,12 @@ with open("shells.json", "r", encoding="utf-8") as f:
 
 def format_line(line):
     # Doku doesnt do other effects, so its just upside and downside (thats the reason i retype all tooltips)
-    # Discord formating: bold numbers: replaces <C>...</> with **...**
+    # Discord formating: Integrated augments titles
+    line = re.sub(r":: <D>(.*?)</>", r"**:: \1**", line)
+    # Discord formating: bold numbers
     line = re.sub(r"<C>(.*?)</>", r"**\1**", line)
+    if not line.strip().startswith("-") and not line.strip().startswith("**::"):
+        line = re.sub(r"^(.*?):\s*(.+)", r"\1: **\2**", line)
     # Discord formatting: lists and upside tag (^): replace lines that start with "> " with "- ^"  (yeh i chose random symbols as tags)
     line = re.sub(r"^> ", r"- ^ ", line)
     # Discord formatting: list and downside tag (@): replaces <B>>...</> with - @...
@@ -22,8 +26,6 @@ def format_line(line):
     #Speed pen cm/s to m/s
     line = re.sub(r",\s*(\d+)\.0 Speed Penalty",
     lambda m: f", {int(m.group(1))/100:.2f} m/s Speed Penalty",line)
-    # Discord formating: Integrated augments titles
-    line = re.sub(r":: <D>(.*?)</>", r"**:: \1**", line)
     return line.strip()
 def format_weapon(line):
     line = re.sub(r":\s*(.+)", r": **\1**", line)

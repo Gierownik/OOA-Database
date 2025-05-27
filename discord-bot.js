@@ -1,5 +1,5 @@
  require('dotenv').config();
-const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, REST, Routes } = require('discord.js');
+const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, REST, Routes, StringSelectMenuBuilder } = require('discord.js');
 const stringSimilarity = require('string-similarity');
 const fs = require('fs');
 // Initialize Discord client
@@ -17,10 +17,11 @@ String.prototype.tagCheck = function(char) {
     return false;  
   };
 
-// Load augments data
+// Load data
 const augments = JSON.parse(fs.readFileSync('UEparser/augments_dc.json', 'utf8'));
 const weapons = JSON.parse(fs.readFileSync('UEparser/weapons_dc.json', 'utf8'));
 const devices = JSON.parse(fs.readFileSync('UEparser/devices_dc.json', 'utf8'));
+const shells = JSON.parse(fs.readFileSync('UEparser/shells_dc.json', 'utf8'));
 /**
  * Find the closest matching augment name using fuzzy matching
  * @param {string} query - The search query
@@ -43,13 +44,15 @@ function findClosestDevice(query) {
 }
 
 /**
- * Create a Discord embed for an augment
- * @param {string} augmentName - The name of the augment
+ * Create a Discord embed 
+ * @param {string} augmentName 
  * @param {string[]} effects
  * @param {string} weaponName 
  * @param {string[]} stats 
  * @param {string} deviceName
  * @param {string[]} devstats
+ * @param {string} shellName
+ * @param {string[]} shellstats
  * @returns {EmbedBuilder} - The Discord embed
  */
 function createAugmentEmbed(augmentName, effects) {
@@ -230,6 +233,47 @@ function createDeviceEmbed(deviceName, devstats) {
     
         return embed;
 }
+function createShellEmbed(shellName, stats) {
+    const embed = new EmbedBuilder()
+        .setColor('#0affb6')
+        .setTitle(shellName)
+        .setTimestamp();
+        const intaugs = stats.filter(stats => 
+            stats.tagCheck('^') || stats.startsWith('*') || stats.tagCheck('@')
+        );
+        const foundation = stats.filter(stats => 
+            stats.startsWith('&')
+        );
+        const Mainstats = stats.filter(stats => 
+            !intaugs.includes(stats) && 
+            !foundation.includes(stats)
+        );
+        const cleanStat = line => line.tagCheck('@') || line.tagCheck('^')
+        ? line.slice(0, 2) + line.slice(3)
+        : line.startsWith('&')
+        ? line.slice(1)
+        : line;
+        
+        if (Mainstats.length > 0) {
+            embed.addFields({
+                name: '🔧 Stats',
+                value: Mainstats.map(cleanStat).join('\n')
+            });
+        }
+        if (intaugs.length > 0) {
+            embed.addFields({
+                name: '🦾 Integrated Augments',
+                value: intaugs.map(cleanStat).join('\n')
+            });
+        }
+        if (foundation.length > 0) {
+            embed.addFields({
+                name: '⚙ Foundations',
+                value: foundation.map(cleanStat).join('\n')
+            });
+        }
+    return embed;
+}
 // Define the slash command
 const augmentCommand = new SlashCommandBuilder()
     .setName('augment')
@@ -261,6 +305,21 @@ const deviceCommand = new SlashCommandBuilder()
         option.setName('name')
             .setDescription('The name of the device')
             .setRequired(true));
+const shellCommand = new SlashCommandBuilder()
+  .setName('shell')
+  .setDescription('Get information about a shell')
+  .addStringOption(option =>
+    option.setName('name')
+      .setDescription('Select a shell')
+      .setRequired(true)
+      .addChoices(
+        { name: 'Bison', value: 'Bison' },
+        { name: 'Hydra', value: 'Hydra' },
+        { name: 'Dragon', value: 'Dragon' },
+        { name: 'Ghost', value: 'Ghost' },
+        { name: 'Rhino', value: 'Rhino' },
+      )
+  );
 
 // Register slash commands
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
@@ -271,7 +330,7 @@ const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 
         await rest.put(
             Routes.applicationCommands(process.env.CLIENT_ID),
-            { body: [augmentCommand.toJSON(), augallCommand.toJSON(), weaponCommand.toJSON(), deviceCommand.toJSON()] },
+            { body: [augmentCommand.toJSON(), augallCommand.toJSON(), weaponCommand.toJSON(), deviceCommand.toJSON(), shellCommand.toJSON()] },
         );
 
         console.log('Successfully reloaded application (/) commands.');
@@ -334,6 +393,18 @@ client.on('interactionCreate', async interaction => {
         }
 
         const embed = createDeviceEmbed(closestMatchDev, devs);
+        await interaction.reply({ embeds: [embed] });
+    }
+    else if (interaction.commandName === 'shell') { 
+        const shell = interaction.options.getString('name');
+        const shellstat = shells[shell]
+
+        if (!shell) {
+            await interaction.reply('Select a Shell');
+            return;
+        }
+
+        const embed = createShellEmbed(shell, shellstat);
         await interaction.reply({ embeds: [embed] });
     }
 });

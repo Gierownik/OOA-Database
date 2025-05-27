@@ -1,7 +1,7 @@
 {
   "Acrobatics": [
     "- ^ Additional aerial maneuver charge",
-    "- ^ Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge",
+    "- ^ Somersault manuever: **Aerial roll while jumping, falling or diving, requires aerial maneuver charge**",
     "- ^ Recover an aerial maneuver charge on starting a climb",
     "- ^ **50%** reduced fall damage",
     "- ^ **15%** increased climb speed",
@@ -33,8 +33,8 @@
     "& 0 Body, 5 Tech, 10 Hardware"
   ],
   "Akimbo": [
-    "- ^ Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming",
-    "- ^ Alternate aim stance: Fire a single sidearm with increased accuracy",
+    "- ^ Dual wield sidearms: **Fire simultaneously while aiming, sequentially while not aiming**",
+    "- ^ Alternate aim stance: **Fire a single sidearm with increased accuracy**",
     "- ^ **15%** increased Core generation with sidearms",
     "- ^ **100%** additional sidearm reserve ammo",
     "- @ Can no longer equip sidearm optics",
@@ -114,7 +114,7 @@
   ],
   "Chemical Warfare": [
     "- ^ Explosives deal chemical damage + apply corrode for **2 s**",
-    "- ^ All sources of corrode cause necrosis: **50%** of attempted vitals restoration dealt as chemical damage",
+    "- ^ All sources of corrode cause necrosis: ****50%** of attempted vitals restoration dealt as chemical damage**",
     "- @  **25%** reduced explosive damage radius",
     "& 10 Body, 10 Tech, 15 Hardware"
   ],
@@ -141,7 +141,7 @@
   ],
   "Covert": [
     "- ^ **50%** reduced detectable range",
-    "- ^ Shroud for **3s** on kill, **6s** without receiving damage from target: Undetectable by all equipment",
+    "- ^ Shroud for **3s** on kill, **6s** without receiving damage from target: **Undetectable by all equipment**",
     "- @ Can be disabled",
     "& 20 Body, 20 Tech, 0 Hardware"
   ],
@@ -154,7 +154,7 @@
   ],
   "Dead Drop": [
     "- ^ Aiming or charging backup weapon after recent climb activates Overkill, **10 s** cooldown",
-    "- ^ Overkill: Melee attacks + body impacts bypass defense, **100%** increased body impact damage, **100%** reduced aux drain from all sources, loadout + movement speed penalties, **50%** increased dexterity",
+    "- ^ Overkill: **Melee attacks + body impacts bypass defense, **100%** increased body impact damage, **100%** reduced aux drain from all sources, loadout + movement speed penalties, **50%** increased dexterity**",
     "- ^ Deactivates after **2 s** if no longer falling, **30 s** cooldown on melee or body impact kill while active",
     "- @  **0-100%** increased direct damage received while active, scaling proportionally with duration active from **0-5 s**",
     "& 20 Body, 20 Tech, 15 Hardware"
@@ -171,7 +171,7 @@
   ],
   "Dispersal": [
     "- ^ Launch **4** Seekers on roll maneuvers if unobscured enemies within **30 m**, **10 s** cooldown",
-    "- ^ Seekers: Rolls toward and tracks targets, deals **25** explosive damage within **4 m** on reaching or losing target",
+    "- ^ Seekers: **Rolls toward and tracks targets, deals **25** explosive damage within **4 m** on reaching or losing target**",
     "- @  **25%** Increased device cooldowns",
     "- @  **0.5 m/s** reduced ground speed",
     "- @ Can be disabled",
@@ -201,14 +201,14 @@
   "Exploit Weakness": [
     "- ^ Enemies with defense below **50%** are considered weakened",
     "- ^ **100%** defense bypass with backup weapons to weakened enemies",
-    "- ^ Unstoppable if unobscured weakened enemies within **15 m**: Knockdown immunity, **100%** reduced loadout + movement speed penalties",
+    "- ^ Unstoppable if unobscured weakened enemies within **15 m**: **Knockdown immunity, **100%** reduced loadout + movement speed penalties**",
     "- ^ **25%** increased direct damage to knocked down enemies",
     "- @  **25%** reduced vitals restored from all sources",
     "- @  **25%** reduced effectiveness of damage reductions",
     "& 15 Body, 0 Tech, 0 Hardware"
   ],
   "Fail-safe": [
-    "- ^ When vitals drop below **25%** or stunned: **20** vitals restored every **0.5 s** + stun immunity for **2.5 s**, **30 s** cooldown",
+    "- ^ When vitals drop below **25%** or stunned: ****20** vitals restored every **0.5 s** + stun immunity for **2.5 s**, **30 s** cooldown**",
     "- ^ Devices can no longer be disabled",
     "- @  **25%** reduced defense regeneration",
     "& 10 Body, 15 Tech, 0 Hardware"
@@ -252,7 +252,7 @@
   ],
   "Heavy Weapons": [
     "- ^ Can equip and pickup heavy weapons, replaces backup slot",
-    "- ^ Strafe maneuver: Run with increased speed in movement direction for **1 s** with no weapon handling speed penalty, can knockback + knockdown, replaces dive while heavy weapon equipped",
+    "- ^ Strafe maneuver: **Run with increased speed in movement direction for **1 s** with no weapon handling speed penalty, can knockback + knockdown, replaces dive while heavy weapon equipped**",
     "- ^ Knockdown + disarm immunity while heavy weapon equipped",
     "- @ Unable to use dive, prone or roll maneuvers while heavy weapon equipped",
     "- @ Heavy weapons can only be fired while aiming",
@@ -370,7 +370,7 @@
   "Rage Core": [
     "- ^ Gain active Core while vitals below **50%** from enemy damage + visible enemies, **10 s** cooldown on deactivate",
     "- ^ Gain Overkill while vitals below **50%** from enemy damage",
-    "- ^ Overkill: Melee attacks + body impacts bypass defense, **100%** increased body impact damage, **100%** reduced aux drain from all sources, loadout + movement speed penalties, **50%** increased dexterity",
+    "- ^ Overkill: **Melee attacks + body impacts bypass defense, **100%** increased body impact damage, **100%** reduced aux drain from all sources, loadout + movement speed penalties, **50%** increased dexterity**",
     "- @  **75%** reduced vitals + defense restored from all sources while active",
     "- @  **75%** active Core speed, Shell specific active Core bonuses disabled",
     "- @  **0-100%** increased direct damage received while active, scaling proportionally with duration active from **0-5 s**",
@@ -409,7 +409,7 @@
     "& 0 Body, 10 Tech, 15 Hardware"
   ],
   "Reversal": [
-    "- ^ Overcharge on disable: Disable immunity, **10%** increased ground speed, disable enemies + enemy devices within **4 m** for **2 s**, active for duration of received disable",
+    "- ^ Overcharge on disable: **Disable immunity, **10%** increased ground speed, disable enemies + enemy devices within **4 m** for **2 s**, active for duration of received disable**",
     "- @  **25%** increased direct damage taken while Overcharge active",
     "& 10 Body, 15 Tech, 0 Hardware"
   ],
@@ -470,7 +470,7 @@
   "Unstable Core": [
     "- ^ **100%** Core generation on deploy",
     "- ^ Core detonation on death or failure, deals **25-75** vital damage to all enemies within **5 m**, scaling proportionally with Core charge from **0-100**",
-    "- ^ Overcharge while Core fully charged: Disable immunity, **10%** increased ground speed, disable enemies + enemy devices within **4 m** for **2 s**",
+    "- ^ Overcharge while Core fully charged: **Disable immunity, **10%** increased ground speed, disable enemies + enemy devices within **4 m** for **2 s****",
     "- @ Core failure after **8 s** on Core activation or attempted enemy disable while Core fully charged, interrupted on killing an enemy",
     "- @  **15%** reduced Core charge on failure interruption",
     "- @  **50%** reduced Core duration",
