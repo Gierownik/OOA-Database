@@ -22,7 +22,6 @@ def format_line(line):
     lambda m: f", {int(m.group(1))/100:.2f} m/s Speed Penalty",line)
     return line.strip()
 def format_weapon(line):
-    line = re.sub(r"Velocity: (.*?)00.0 m/s", r"Velocity: \1 m/s", line)
     line = re.sub(r":\s*(.+)", r": **\1**", line)
     line = re.sub(r"@", r"- @", line)
     line = re.sub(r"\b(\d+)\.0\b", r"\1", line)

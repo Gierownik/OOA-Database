@@ -240,7 +240,7 @@ for skill_name, data in skill_rows.items():
     pen = weapon_stat.get("penetrationPower_18_B8E8BDFC45F3DFA9B84410AEEF7CF3DE", 0)
     lines.append(f"@ Penetration: {pen} cm")
     vel = weapon_stat.get("muzzleVelocity_20_0A3F52FD4DB2E8D23F8E05A26A11E7BA", 0)
-    lines.append(f"@ Velocity: {vel} m/s")
+    lines.append(f"@ Velocity: {vel / 100} m/s")
     recv = weapon_stat.get("recoilVertical_14_8D17013D41FC3D7BB68C2E816F8B69C7", 0)
     lines.append(f"@- Vertical Recoil: {recv}")
     rech = weapon_stat.get("recoilHorizonal_16_562990B74D7D4F4DDCF429942D1839C5", 0)
