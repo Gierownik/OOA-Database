@@ -76,16 +76,17 @@
     "& 5 Body, 10 Tech, 10 Hardware"
   ],
   "Auto-Doc": [
-    "- ^ Automatically removes bleed, **10 s** cooldown",
+    "- ^ Automatically clears bleed, **10 s** cooldown",
     "- ^ **25** vitals restored + bleed immunity for **2.5 s** on activation, chemical heal",
+    "- ^ **5 /s** max vitals regeneration",
     "- @ Can be disabled",
     "& 5 Body, 10 Tech, 0 Hardware"
   ],
   "Auxiliary Vitals": [
-    "- ^ **50** increased vitals",
-    "- ^ **50%** reduced bleed damage received",
-    "- @  **25%** reduced vitals + defense restored from all sources",
-    "- @  **0.5 m/s** reduced ground speed",
+    "- ^ Absorbs fatal bleed damage, **25** vitals restored + bleed immunity for **2.5 s** on activation, chemical heal, **20 s** cooldown",
+    "- ^ **5** vitals restored every **0.5 s** while bleed immunity from chemical heals active",
+    "- @  **25%** defense restored from all sources",
+    "- @  **0.25 m/s** reduced ground speed",
     "& 15 Body, 0 Tech, 0 Hardware"
   ],
   "Bloodsport": [
@@ -124,6 +125,14 @@
     "- @  **100%** reduced Core generation during active Core",
     "- @ Can be disabled",
     "& 0 Body, 20 Tech, 0 Hardware"
+  ],
+  "Core Discharge": [
+    "- ^ AOE impulse on Core activation or receiving fatal melee or body impact damage, absorbs damage, **30 s** cooldown",
+    "- ^ Deals **25** vital damage, **4 s** disable + knockback to enemies within **5 m**, knockdown if within **2.5 m**",
+    "- ^ Deflects unattached devices + projectiles within **5 m**",
+    "- @  **25%** reduced Core charge on activation from fatal melee or body impact damage",
+    "- @  **25%** reduced Core generation + duration",
+    "& 15 Body, 25 Tech, 0 Hardware"
   ],
   "Counterbalance": [
     "- ^ Removes flat vitals, defense + speed reductions from equipped augments",
@@ -415,7 +424,7 @@
   ],
   "Specialist": [
     "- ^ Additional weapon mod slot",
-    "- ^ **65%** sidearm + primary weapon handling speed penalties while only sidearm or primary slot used",
+    "- ^ **65%** reduced sidearm + primary weapon handling speed penalties while only sidearm or primary slot used",
     "- ^ **25%** increased sidearm + primary weapon dexterity while only sidearm or primary slot used",
     "- @ Can only equip **1** device",
     "& 15 Body, 0 Tech, 20 Hardware"

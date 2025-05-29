@@ -93,7 +93,7 @@
   ],
   "Shifter": [
     "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air",
-    "> Telefrag enemies + devices within <C>1 m</> of relocation",
+    "> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation",
     "& 10 Body, 25 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 5.0 Duration, 25.0 Speed Penalty, Experimental: WIP"
   ],

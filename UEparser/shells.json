@@ -69,8 +69,8 @@
   ],
   "Dragon": [
     ":: <D>Drifter Jump-Pack</>",
-    "> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced dodge + dive, unaffected by loadout + movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown",
-    "> Air Dash maneuver: Launch in movement direction while in air and hover not active, can knockback + knockdown",
+    "> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown",
+    "> Recover an aerial maneuver charge on hover activation",
     "> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown",
     "<B>> Deactivates on boost and Ground Slam impact</>",
     "<B>> Boosting drains aux power</>",
