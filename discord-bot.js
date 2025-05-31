@@ -22,6 +22,7 @@ const augments = JSON.parse(fs.readFileSync('UEparser/augments_dc.json', 'utf8')
 const weapons = JSON.parse(fs.readFileSync('UEparser/weapons_dc.json', 'utf8'));
 const devices = JSON.parse(fs.readFileSync('UEparser/devices_dc.json', 'utf8'));
 const shells = JSON.parse(fs.readFileSync('UEparser/shells_dc.json', 'utf8'));
+const effects = JSON.parse(fs.readFileSync('effects.json', 'utf8'));
 /**
  * Find the closest matching augment name using fuzzy matching
  * @param {string} query - The search query
@@ -42,6 +43,11 @@ function findClosestDevice(query) {
     const Gmatches = stringSimilarity.findBestMatch(query.toLowerCase(), deviceNames.map(name => name.toLowerCase()));
     return deviceNames[Gmatches.bestMatchIndex];
 }
+function findClosestEffect(query) {
+    const effectNames = Object.keys(effects);
+    const Gmatches = stringSimilarity.findBestMatch(query.toLowerCase(), effectNames.map(name => name.toLowerCase()));
+    return effectNames[Gmatches.bestMatchIndex];
+}
 
 /**
  * Create a Discord embed 
@@ -53,6 +59,8 @@ function findClosestDevice(query) {
  * @param {string[]} devstats
  * @param {string} shellName
  * @param {string[]} shellstats
+ * @param {string} effectName
+ * @param {string[]} effectstats
  * @returns {EmbedBuilder} - The Discord embed
  */
 function createAugmentEmbed(augmentName, effects) {
@@ -288,6 +296,54 @@ function createShellEmbed(shellName, stats) {
 
     return embed;
 }
+function createEffectEmbed(effectName, effects) {
+    const embed = new EmbedBuilder()
+        .setColor('#4e6c85')
+        .setTitle(effectName)
+        .setTimestamp();
+
+    // Split effects into positive and negative based on prefix
+    const positiveEffects = effects.filter(effect => 
+        effect.tagCheck('^')
+    );
+    const negativeEffects = effects.filter(effect => 
+        effect.tagCheck('@')
+    );
+    const enhancement = effects.filter(effect => 
+        effect.startsWith('&')
+    );
+    const enhancementEffects = effects.filter(effect => 
+        effect.tagCheck('$')
+    );
+    
+    const cleanEffect = line => line.tagCheck('^') || line.tagCheck('@') || line.tagCheck('$')
+    ? line.slice(0, 2) + line.slice(3)
+    : line.startsWith('&')
+    ? line.slice(1)
+    : line;
+    
+
+    // Add fields for different types of effects
+    if (positiveEffects.length > 0) {
+        embed.addFields({
+            name: '✅ Positive Effects',
+            value: positiveEffects.map(cleanEffect).join('\n')
+        });
+    }
+    if (negativeEffects.length > 0) {
+        embed.addFields({
+            name: '❌ Negative Effects',
+            value: negativeEffects.map(cleanEffect).join('\n')
+        });
+    }
+    if (enhancementEffects.length > 0) {
+        embed.addFields({
+            name: `⏫ Enhancement: ${enhancement.map(cleanEffect)}`,
+            value: enhancementEffects.map(cleanEffect).join('\n')
+        });
+    }
+    return embed;
+}
 
 // Define the slash command
 const augmentCommand = new SlashCommandBuilder()
@@ -320,6 +376,13 @@ const deviceCommand = new SlashCommandBuilder()
         option.setName('name')
             .setDescription('The name of the device')
             .setRequired(true));
+const effectCommand = new SlashCommandBuilder()          
+    .setName('effect')
+    .setDescription('Get information about an effect')
+    .addStringOption(option =>
+        option.setName('name')
+            .setDescription('The name of the effect')
+            .setRequired(true));
 const shellCommand = new SlashCommandBuilder()
   .setName('shell')
   .setDescription('Get information about a shell')
@@ -345,7 +408,7 @@ const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 
         await rest.put(
             Routes.applicationCommands(process.env.CLIENT_ID),
-            { body: [augmentCommand.toJSON(), augallCommand.toJSON(), weaponCommand.toJSON(), deviceCommand.toJSON(), shellCommand.toJSON()] },
+            { body: [augmentCommand.toJSON(), augallCommand.toJSON(), weaponCommand.toJSON(), deviceCommand.toJSON(), shellCommand.toJSON(), effectCommand.toJSON()] },
         );
 
         console.log('Successfully reloaded application (/) commands.');
@@ -408,6 +471,19 @@ client.on('interactionCreate', async interaction => {
         }
 
         const embed = createDeviceEmbed(closestMatchDev, devs);
+        await interaction.reply({ embeds: [embed] });
+    }
+    else if (interaction.commandName === 'effect') { 
+        const queryEffect = interaction.options.getString('name');
+        const closestMatchEffect = findClosestEffect(queryEffect);
+        const effs = effects[closestMatchEffect];
+
+        if (!effs) {
+            await interaction.reply('No effect found matching your query.');
+            return;
+        }
+
+        const embed = createEffectEmbed(closestMatchEffect, effs);
         await interaction.reply({ embeds: [embed] });
     }
     else if (interaction.commandName === 'shell') { 
