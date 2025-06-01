@@ -4,7 +4,8 @@
     "- ^ **200** max defense",
     "- ^ **0 s** defense regen delay",
     "- ^ **40 /s** defense regeneration",
-    "- @ **50%** reduced speed and vitals restored from all sources"
+    "- @ **50%** reduced speed and vitals restored from all sources",
+    "- @ Disables optical camouflage"
   ],
   "Bleed": [
     "- @ Constant bleed damage",
@@ -50,7 +51,8 @@
   "Reinforce": [
     "- ^ Defense penetration immunity",
     "- ^ Deflects projectiles",
-    "- ^ **50%** reduced direct damage recieved"
+    "- ^ **50%** reduced direct damage recieved",
+    "- @ Disables optical camouflage"
   ],
   "Shroud": [
     "- ^ Immunity to: detections, thermals, locks"
