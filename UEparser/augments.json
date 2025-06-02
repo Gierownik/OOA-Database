@@ -27,7 +27,6 @@
   ],
   "Advanced Recon": [
     "> <C>25%</> increased radar + detection range from all sources",
-    "> <C>50%</> reduced tag cooldown",
     "> Detected enemies can be tagged",
     "<B>> Can be disabled</>",
     "& 0 Body, 5 Tech, 10 Hardware"
@@ -71,7 +70,7 @@
     "> <C>25%</> increased Nano-wire range",
     "<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>",
     "<B>></> <C>100%</> <B>increased Nano-wire cooldown</>",
-    "<B>></> <C>50%</> <B>aux power drained on pull</>",
+    "<B>></> <C>50</> <B>aux power drained on pull</>",
     "<B>> Can be disabled</>",
     "& 5 Body, 10 Tech, 10 Hardware"
   ],
@@ -219,7 +218,7 @@
   "Fail-safe": [
     "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown",
     "> Devices can no longer be disabled",
-    "<B>></> <C>25%</> <B>reduced defense regeneration</>",
+    "<B>></> <C>35%</> <B>reduced defense regeneration</>",
     "& 10 Body, 15 Tech, 0 Hardware"
   ],
   "Gecko": [
@@ -249,7 +248,7 @@
   "Headhunter": [
     "> <C>0.25x</> additional headshot damage multiplier",
     "> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost",
-    "<B>></> <C>0.25x</> <B>reduced limb damage multiplier</>",
+    "<B>></> <C>25%</> <B>reduced direct body damage dealt</>",
     "& 15 Body, 15 Tech, 0 Hardware"
   ],
   "Heavy Ordnance": [
@@ -455,8 +454,8 @@
     "& 15 Body, 25 Tech, 0 Hardware"
   ],
   "Tether": [
-    "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> disable + snare every <C>0.5 s</>",
-    "> <C>50%</> of damage dealt restored to vitals + max vitals",
+    "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> disable + snare every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>",
+    "> <C>50%</> of damage dealt by tether restored to vitals + max vitals",
     "<B>> Can be disabled</>",
     "& 5 Body, 20 Tech, 15 Hardware"
   ],

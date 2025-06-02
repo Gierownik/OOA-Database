@@ -27,7 +27,6 @@
   ],
   "Advanced Recon": [
     "- ^ **25%** increased radar + detection range from all sources",
-    "- ^ **50%** reduced tag cooldown",
     "- ^ Detected enemies can be tagged",
     "- @ Can be disabled",
     "& 0 Body, 5 Tech, 10 Hardware"
@@ -71,7 +70,7 @@
     "- ^ **25%** increased Nano-wire range",
     "- @ Attaches to enemy heads + no longer disarms with Tether equipped",
     "- @  **100%** increased Nano-wire cooldown",
-    "- @  **50%** aux power drained on pull",
+    "- @  **50** aux power drained on pull",
     "- @ Can be disabled",
     "& 5 Body, 10 Tech, 10 Hardware"
   ],
@@ -219,7 +218,7 @@
   "Fail-safe": [
     "- ^ When vitals drop below **25%** or stunned: **20** vitals restored every **0.5 s** + stun immunity for **2.5 s**, **30 s** cooldown",
     "- ^ Devices can no longer be disabled",
-    "- @  **25%** reduced defense regeneration",
+    "- @  **35%** reduced defense regeneration",
     "& 10 Body, 15 Tech, 0 Hardware"
   ],
   "Gecko": [
@@ -249,7 +248,7 @@
   "Headhunter": [
     "- ^ **0.25x** additional headshot damage multiplier",
     "- ^ Headshot kills activate or extend active Core for **2.5 s** with no charge cost",
-    "- @  **0.25x** reduced limb damage multiplier",
+    "- @  **25%** reduced direct body damage dealt",
     "& 15 Body, 15 Tech, 0 Hardware"
   ],
   "Heavy Ordnance": [
@@ -455,8 +454,8 @@
     "& 15 Body, 25 Tech, 0 Hardware"
   ],
   "Tether": [
-    "- ^ Nano-wire can tether to enemy heads dealing **15** vital damage, **1 s** disable + snare every **0.5 s**",
-    "- ^ **50%** of damage dealt restored to vitals + max vitals",
+    "- ^ Nano-wire can tether to enemy heads dealing **15** vital damage, **1 s** disable + snare every **0.5 s**, ramping up to **0.25 s** over **2 s**",
+    "- ^ **50%** of damage dealt by tether restored to vitals + max vitals",
     "- @ Can be disabled",
     "& 5 Body, 20 Tech, 15 Hardware"
   ],

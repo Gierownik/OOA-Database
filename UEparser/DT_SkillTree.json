@@ -657,8 +657,8 @@
           {
             "Namespace": "",
             "Key": "527E03574FB905F6F1DE9980ED5047E4",
-            "SourceString": "> <C>25%</> increased radar + detection range from all sources\r\n> <C>50%</> reduced tag cooldown\r\n> Detected enemies can be tagged\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>25%</> increased radar + detection range from all sources\r\n> <C>50%</> reduced tag cooldown\r\n> Detected enemies can be tagged\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>25%</> increased radar + detection range from all sources\r\n> Detected enemies can be tagged\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>25%</> increased radar + detection range from all sources\r\n> Detected enemies can be tagged\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -772,8 +772,8 @@
           {
             "Namespace": "",
             "Key": "25B504B84A93A2602841668B532C9720",
-            "SourceString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>2 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50%</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>2 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50%</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>2 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>2 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1232,8 +1232,8 @@
           {
             "Namespace": "",
             "Key": "676A773940AB11C6B7BCADBC18149F5B",
-            "SourceString": "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown\r\n> Devices can no longer be disabled\r\n<B>></> <C>25%</> <B>reduced defense regeneration</>",
-            "LocalizedString": "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown\r\n> Devices can no longer be disabled\r\n<B>></> <C>25%</> <B>reduced defense regeneration</>"
+            "SourceString": "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown\r\n> Devices can no longer be disabled\r\n<B>></> <C>35%</> <B>reduced defense regeneration</>",
+            "LocalizedString": "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown\r\n> Devices can no longer be disabled\r\n<B>></> <C>35%</> <B>reduced defense regeneration</>"
           }
         ]
       },
@@ -1324,8 +1324,8 @@
           {
             "Namespace": "",
             "Key": "8426F2EC42DD0C04D63D65AD7EAC08FF",
-            "SourceString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost\r\n<B>></> <C>0.25x</> <B>reduced limb damage multiplier</>",
-            "LocalizedString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost\r\n<B>></> <C>0.25x</> <B>reduced limb damage multiplier</>"
+            "SourceString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>",
+            "LocalizedString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
           }
         ]
       },
@@ -1945,8 +1945,8 @@
           {
             "Namespace": "",
             "Key": "827DC73F457D05928F472C9449FE2BDE",
-            "SourceString": "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> disable + snare every <C>0.5 s</>\r\n> <C>50%</> of damage dealt restored to vitals + max vitals\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> disable + snare every <C>0.5 s</>\r\n> <C>50%</> of damage dealt restored to vitals + max vitals\r\n<B>> Can be disabled</>"
+            "SourceString": "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> disable + snare every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>\r\n> <C>50%</> of damage dealt by tether restored to vitals + max vitals\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> disable + snare every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>\r\n> <C>50%</> of damage dealt by tether restored to vitals + max vitals\r\n<B>> Can be disabled</>"
           }
         ]
       },

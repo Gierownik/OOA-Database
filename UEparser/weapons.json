@@ -53,7 +53,7 @@
     "^ Slot: Backup",
     "^ Category: Melee Weapons",
     "@ Firemode: Charged",
-    "@ Firerate: 100.0 rpm",
+    "@ Firerate: 75.0 rpm",
     "@- Near Damage: 175.0",
     "@- Far Damage: 175.0",
     "@- Range: 1.0 - 1.0 m",
@@ -271,7 +271,7 @@
     "@- Hipfire Spread: 3.0°",
     "@- ADS Spread: 0.75°",
     "@- Spread Gain: 0.5°",
-    "@ Speed Penalty: 0.55.0 m/s"
+    "@ Speed Penalty: 0.65.0 m/s"
   ],
   "Icarus": [
     "& 0 Body, 0 Tech, 10 Hardware",
@@ -306,7 +306,7 @@
     "^ Category: Assault Weapons",
     "@ Firemode: Automatic",
     "@ Firerate: 700.0 rpm",
-    "@ Ammo Capacity: 35",
+    "@ Ammo Capacity: 32",
     "@ Reload Duration: 0.7s",
     "@- Near Damage: 42.0",
     "@- Far Damage: 30.0",
@@ -391,7 +391,7 @@
     "@- Limb Multiplier: 0.7x",
     "@ Penetration: 75.0 cm",
     "@ Velocity: 750.0 m/s",
-    "@- Vertical Recoil: 24.0",
+    "@- Vertical Recoil: 22.0",
     "@- Horizontal Recoil: 8.0",
     "@ Time to ADS: 0.375s",
     "@- Hipfire Spread: 5.0°",
@@ -425,7 +425,7 @@
     "@- Hipfire Spread: 2.5°",
     "@- ADS Spread: 0.5°",
     "@- Spread Gain: 0.125°",
-    "@ Speed Penalty: 0.65.0 m/s"
+    "@ Speed Penalty: 0.60.0 m/s"
   ],
   "Nexus": [
     "& 0 Body, 0 Tech, 15 Hardware",
@@ -435,7 +435,7 @@
     "^ Category: Assault Weapons",
     "@ Firemode: Semi-Automatic",
     "@ Firerate: 350.0 rpm",
-    "@ Ammo Capacity: 20",
+    "@ Ammo Capacity: 24",
     "@ Reload Duration: 0.65s",
     "@- Near Damage: 90.0",
     "@- Far Damage: 70.0",
