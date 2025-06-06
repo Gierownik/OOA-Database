@@ -116,3 +116,51 @@ for skill_name, skill_data in skill_rows.items():
 with open("augments_db_test.json", "w", encoding="utf-8") as out_file:
     json.dump(perk_output, out_file, indent=2, ensure_ascii=False)
 print("Augment database shit workin")
+#------------------------------------------------------demvimces---------------------------
+device_output = []
+
+for skill_name, data in skill_rows.items():
+    device_enum = data.get("DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B")
+    if not device_enum or device_enum not in device_id_to_name:
+        continue
+
+    device_name = device_id_to_name[device_enum]
+    tooltips = data.get("Tooltip_54_1E2214584583FA289C1781AA8CE4153E", [])
+    if not tooltips:
+        continue
+
+    tooltip_text = tooltips[-1]["LocalizedString"]
+    lines = [
+        line.strip()
+        for line in tooltip_text.strip().splitlines()
+        if line.strip()
+    ]
+
+    device_stat = device_stats.get(skill_name, {})
+    cooldown = device_stat.get("cooldown_11_D555013643FE6003564BDCBE2F66D6AD", 0)
+    duration = device_stat.get("duration_19_CADCF2D5460AE568CE1A9A8875DBE004", 0)
+    speed_pen = device_stat.get("speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316", 0)
+
+    req = data.get("Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B", {})
+    body = req.get("Body_10_68FBC6C34B6DDB19E010A9AB2419B88B", 0)
+    tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
+    hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
+
+    device_output.append({
+        "name": device_name,
+        "tooltip": lines,
+        "stats": {
+            "cooldown": cooldown,
+            "duration": duration,
+            "penalty": speed_pen
+        },
+        "foundations": {
+            "body": body,
+            "tech": tech,
+            "hardware": hardware
+        }
+    })
+
+with open("devices_db_test.json", "w", encoding="utf-8") as out_file:
+    json.dump(device_output, out_file, indent=2, ensure_ascii=False)
+print("Device database shit workin")
