@@ -129,7 +129,7 @@
     "- ^ AOE impulse on Core activation or receiving fatal melee or body impact damage, absorbs damage, **30 s** cooldown",
     "- ^ Deals **25** vital damage, **4 s** disable + knockback to enemies within **5 m**, knockdown if within **2.5 m**",
     "- ^ Deflects unattached devices + projectiles within **5 m**",
-    "- @  **25%** reduced Core charge on activation from fatal melee or body impact damage",
+    "- @  **25** reduced Core charge on activation from fatal melee or body impact damage",
     "- @  **25%** reduced Core generation + duration",
     "& 15 Body, 25 Tech, 0 Hardware"
   ],
@@ -242,6 +242,7 @@
   "Hardened": [
     "- ^ **0-75%** reduced direct vitals damage received, scaling proportionally with reduced max vitals from **0-75%**",
     "- @  **100%** of vitals damage received reduces max vitals",
+    "- @ Prevents max vitals restoration",
     "- @  **0-50%** reduced ground speed, dexterity, aux power + defense regeneration, scaling proportionally with reduced max vitals from **0-75%**",
     "& 25 Body, 15 Tech, 0 Hardware"
   ],
@@ -480,7 +481,7 @@
     "- ^ Core detonation on death or failure, deals **25-75** vital damage to all enemies within **5 m**, scaling proportionally with Core charge from **0-100**",
     "- ^ Overcharge while Core fully charged: Disable immunity, **10%** increased ground speed, disable enemies + enemy devices within **4 m** for **2 s**",
     "- @ Core failure after **8 s** on Core activation or attempted enemy disable while Core fully charged, interrupted on killing an enemy",
-    "- @  **15%** reduced Core charge on failure interruption",
+    "- @  **15** reduced Core charge on failure interruption",
     "- @  **50%** reduced Core duration",
     "& 0 Body, 25 Tech, 0 Hardware"
   ],
