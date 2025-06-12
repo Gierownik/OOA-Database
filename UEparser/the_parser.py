@@ -200,27 +200,27 @@ for skill_name, data in skill_rows.items():
         "Slot": slot_name,
         "Category": cat_name,
         "Firemode": fire_name,
-        "Firerate": f"{weapon_stat.get('roundsPerMinute_88_9A62D92546A54AF5B9BD9CA681C99779', 0)} rpm",
+        "Firerate": f"{weapon_stat.get('roundsPerMinute_88_9A62D92546A54AF5B9BD9CA681C99779', 0)}",
         "Near Damage": damage_section.get("DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C", 0),
         "Far Damage": damage_section.get("DamageFar_31_9A92287545630DA083AAA18D6F6D52B2", 0),
-        "Range": f"{damage_section.get('RangeNear_32_7051C33A45ED3E81881748AF79D60E71', 0)} - {damage_section.get('RangeFar_33_9FC06C8A49BBBCDC074BDEBAF8F978BB', 0)} m",
-        "Headshot Multiplier": f"{damage_section.get('HeadMultiplier_18_6AC23285474D12C7B9B9C9B43C915FE8', 0)}x",
-        "Limb Multiplier": f"{damage_section.get('LimbMultiplier_36_F099D86241C4A7BDF8FC47849F76F552', 0)}x",
-        "Penetration": f"{weapon_stat.get('penetrationPower_18_B8E8BDFC45F3DFA9B84410AEEF7CF3DE', 0)} cm",
-        "Velocity": f"{weapon_stat.get('muzzleVelocity_20_0A3F52FD4DB2E8D23F8E05A26A11E7BA', 0) / 100} m/s",
+        "Range": f"{damage_section.get('RangeNear_32_7051C33A45ED3E81881748AF79D60E71', 0)} - {damage_section.get('RangeFar_33_9FC06C8A49BBBCDC074BDEBAF8F978BB', 0)}",
+        "Headshot Multiplier": f"{damage_section.get('HeadMultiplier_18_6AC23285474D12C7B9B9C9B43C915FE8', 0)}",
+        "Limb Multiplier": f"{damage_section.get('LimbMultiplier_36_F099D86241C4A7BDF8FC47849F76F552', 0)}",
+        "Penetration": f"{weapon_stat.get('penetrationPower_18_B8E8BDFC45F3DFA9B84410AEEF7CF3DE', 0)}",
+        "Velocity": f"{weapon_stat.get('muzzleVelocity_20_0A3F52FD4DB2E8D23F8E05A26A11E7BA', 0)}",
         "Vertical Recoil": weapon_stat.get("recoilVertical_14_8D17013D41FC3D7BB68C2E816F8B69C7", 0),
         "Horizontal Recoil": weapon_stat.get("recoilHorizonal_16_562990B74D7D4F4DDCF429942D1839C5", 0),
-        "Time to ADS": f"{weapon_stat.get('aimTime_34_F110FBC149382F201D7A3C9AA8BE8D17', 0)}s",
-        "Hipfire Spread": f"{weapon_stat.get('hipSpread_92_F512DB8F4AA38F47776755B509674FDB', 0)}°",
-        "ADS Spread": f"{weapon_stat.get('aimSpread_93_4DB54D3B45DEEA9F6DBF20B24D661F94', 0)}°",
-        "Spread Gain": f"{weapon_stat.get('spreadGain_135_D194D65F441D7033F8F0E89B097BD9ED', 0)}°",
-        "Speed Penalty": f"0.{weapon_stat.get('speedModifier_75_CA08E44842050D047DB75CA31280BE88', 0)} m/s"
+        "Time to ADS": f"{weapon_stat.get('aimTime_34_F110FBC149382F201D7A3C9AA8BE8D17', 0)}",
+        "Hipfire Spread": f"{weapon_stat.get('hipSpread_92_F512DB8F4AA38F47776755B509674FDB', 0)}",
+        "ADS Spread": f"{weapon_stat.get('aimSpread_93_4DB54D3B45DEEA9F6DBF20B24D661F94', 0)}",
+        "Spread Gain": f"{weapon_stat.get('spreadGain_135_D194D65F441D7033F8F0E89B097BD9ED', 0)}",
+        "Speed Penalty": f"{weapon_stat.get('speedModifier_75_CA08E44842050D047DB75CA31280BE88', 0)}"
     }
 
     if (val := weapon_stat.get("burstCount_125_4B49DFE84C24E8AA5A63B7B6983618D1")) not in [0, 0.0, False, ""]:
         stats["Burst Count"] = val
     if (val := weapon_stat.get("burstDelay_152_D2A7BF0742680DCB3E9BE381C99B9BFC")) not in [0, 0.0, False, ""]:
-        stats["Burst Delay"] = f"{val}s"
+        stats["Burst Delay"] = f"{val}"
     if (val := weapon_stat.get("spinUpDuration_114_42F529AD41ADDCCCDB0ED0915E8BCCEC")) not in [0, 0.0, False, ""]:
         stats["Spinup"] = f"{val}s"
     if (val := weapon_stat.get("usesAmmo_109_C8A226E545A12A663A1AF398568E1897")) not in [0, 0.0, True, ""]:
@@ -228,13 +228,13 @@ for skill_name, data in skill_rows.items():
     if (val := weapon_stat.get("ammoCapacity_37_C66372EB4769BC9D909A6CA771FD33A0")) not in [0, 0.0, False, ""]:
         stats["Ammo Capacity"] = val
     if (val := weapon_stat.get("reloadSpeed_42_4B9E289B467B258218AE298E52A1B0E3")) not in [0, 0.0, False, ""]:
-        stats["Reload Duration"] = f"{val}s"
+        stats["Reload Duration"] = f"{val}"
     if (val := weapon_stat.get("rechamberDuration_121_DA9C2951452609B501BB76B185DE3800")) not in [0, 0.0, False, ""]:
-        stats["Rechamber Duration"] = f"{val}s"
+        stats["Rechamber Duration"] = f"{val}"
     if (val := weapon_stat.get("singleReload_128_E69294BE4B79448A0BAC2AB62561973D")) not in [0, 0.0, False, ""]:
         stats["One by One Reload"] = True
     if (val := damage_section.get("BleedMultiplier_27_0D5F760E45CA9912594F6787BD30615F")) not in [1, 1.0, False, ""]:
-        stats["Bleed Multiplier"] = f"{val}x"
+        stats["Bleed Multiplier"] = f"{val}"
 
     weapon_output.append({
         "name": weapon_name,
