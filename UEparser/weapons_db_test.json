@@ -24,9 +24,8 @@
       "Speed Penalty": "0.0"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -55,9 +54,8 @@
       "Burst Delay": "0.25"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -85,9 +83,8 @@
       "Speed Penalty": "50.0"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -115,9 +112,8 @@
       "Speed Penalty": "25.0"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -147,9 +143,8 @@
       "Reload Duration": "1.15"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -181,9 +176,8 @@
       "Reload Duration": "1.0"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -213,9 +207,8 @@
       "Reload Duration": "1.0"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -247,9 +240,8 @@
       "Reload Duration": "1.15"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -279,9 +271,8 @@
       "Reload Duration": "1.0"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -311,9 +302,8 @@
       "Reload Duration": "0.6"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -345,9 +335,8 @@
       "One by One Reload": true
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -377,9 +366,8 @@
       "Reload Duration": "0.8"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -409,9 +397,8 @@
       "Reload Duration": "0.7"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -441,9 +428,8 @@
       "Reload Duration": "0.35"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -474,9 +460,8 @@
       "Rechamber Duration": "1.25"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -506,9 +491,8 @@
       "Reload Duration": "0.65"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -541,9 +525,8 @@
       "Reload Duration": "0.5"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -573,9 +556,8 @@
       "Reload Duration": "0.65"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -605,9 +587,8 @@
       "Reload Duration": "0.65"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -640,9 +621,8 @@
       "One by One Reload": true
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -673,9 +653,8 @@
       "One by One Reload": true
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -706,9 +685,8 @@
       "Reload Duration": "0.7"
     },
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   }
 ]

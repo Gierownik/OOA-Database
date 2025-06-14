@@ -11,9 +11,8 @@
       "<B>></> <C>25</> <B>reduced defense</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 15
     }
   },
   {
@@ -29,9 +28,8 @@
       "<B>></> <C>50%</> <B>reduced vitals restored from all sources</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 10
     }
   },
   {
@@ -41,9 +39,8 @@
       "<B>></> <C>25</> <B>reduced vitals</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -55,9 +52,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 10
     }
   },
   {
@@ -73,9 +69,8 @@
       "<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 10
     }
   },
   {
@@ -88,9 +83,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -101,9 +95,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 5
     }
   },
   {
@@ -116,9 +109,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 10
     }
   },
   {
@@ -133,9 +125,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 10
     }
   },
   {
@@ -147,9 +138,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -161,9 +151,8 @@
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 15
     }
   },
   {
@@ -177,9 +166,8 @@
       "<B>></> <C>50%</> <B>increased bleed damage received</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 10
     }
   },
   {
@@ -192,9 +180,8 @@
       "<B>></> <C>25%</> <B>increased bleed damage received</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -206,9 +193,8 @@
       "<B>></> <C>15%</> <B>increased direct damage received while disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 10
     }
   },
   {
@@ -219,9 +205,8 @@
       "<B>></> <C>25%</> <B>reduced explosive damage radius</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 10
     }
   },
   {
@@ -233,9 +218,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -248,9 +232,8 @@
       "<B>></> <C>25%</> <B>reduced Core generation + duration</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -261,9 +244,8 @@
       "<B>> </><C>25%</><B> increased augment cooldowns</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -276,9 +258,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -289,9 +270,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -303,9 +283,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -317,9 +296,8 @@
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 25
     }
   },
   {
@@ -334,9 +312,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 25
     }
   },
   {
@@ -349,9 +326,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 15
     }
   },
   {
@@ -362,9 +338,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 15
     }
   },
   {
@@ -378,9 +353,8 @@
       "<B>></> <C>0.7%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 0
     }
   },
   {
@@ -391,9 +365,8 @@
       "<B>></> <C>25</> <B>reduced defense</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -407,9 +380,8 @@
       "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -420,9 +392,8 @@
       "<B>></> <C>35%</> <B>reduced defense regeneration</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -435,9 +406,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 15
     }
   },
   {
@@ -452,9 +422,8 @@
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -466,9 +435,8 @@
       "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity, aux power + defense regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 15
     }
   },
   {
@@ -479,9 +447,8 @@
       "<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -493,9 +460,8 @@
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 20
     }
   },
   {
@@ -508,9 +474,8 @@
       "<B>> Heavy weapons can only be fired while aiming</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 20
     }
   },
   {
@@ -524,9 +489,8 @@
       "<B>></> <C>25%</> <B>reduced reserve ammo</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 10
     }
   },
   {
@@ -539,9 +503,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -555,9 +518,8 @@
       "<B>></> <C>25%</> <B>reduced defense regeneration</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 10
     }
   },
   {
@@ -568,9 +530,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 15
     }
   },
   {
@@ -581,9 +542,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 10
     }
   },
   {
@@ -594,9 +554,8 @@
       "<B>></> <C>25</> <B>reduced defense</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -614,9 +573,8 @@
       "<B>></> <C>50%</> <B>Increased device cooldowns</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 20
     }
   },
   {
@@ -628,9 +586,8 @@
       "<B>></> <C>25%</> <B>reduced Core generation + duration</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 25
     }
   },
   {
@@ -646,9 +603,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -662,9 +618,8 @@
       "<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -676,9 +631,8 @@
       "<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 10
     }
   },
   {
@@ -693,9 +647,8 @@
       "<B>></> <C>25</> <B>Reduced defense</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -709,9 +662,8 @@
       "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 15
     }
   },
   {
@@ -726,9 +678,8 @@
       "<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 25
     }
   },
   {
@@ -738,9 +689,8 @@
       "<B>></> <C>25%</> <B>reduced Core generation</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -751,9 +701,8 @@
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 10
     }
   },
   {
@@ -765,9 +714,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 15
     }
   },
   {
@@ -778,9 +726,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -792,9 +739,8 @@
       "<B>></> <C>50%</> <B>increased primary stim cooldown if used while not bleeding</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 15
     }
   },
   {
@@ -804,9 +750,8 @@
       "<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -818,9 +763,8 @@
       "<B>> Can only equip</> <C>1</> <B>device</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 10
     }
   },
   {
@@ -833,9 +777,8 @@
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "hardware",
+      "value": 10
     }
   },
   {
@@ -847,9 +790,8 @@
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -864,9 +806,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -877,9 +818,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 15
     }
   },
   {
@@ -892,9 +832,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -907,9 +846,8 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 25
     }
   },
   {
@@ -923,9 +861,8 @@
       "<B>></> <C>50%</> <B>reduced Core duration</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -937,9 +874,8 @@
       "<B>></> <C>25%</> <B>increased direct damage received from vendettas</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 20
     }
   },
   {
@@ -952,9 +888,8 @@
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
-      "body": 0,
-      "tech": 0,
-      "hardware": 0
+      "type": "body",
+      "value": 15
     }
   }
 ]

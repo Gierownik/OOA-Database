@@ -1,7 +1,5 @@
 import json
 import re
-# i use perk instead of aug cuz why not
-# Load ENUM_PerkID
 with open("ENUM_PerkID.json", "r", encoding="utf-8") as f:
     enum_data = json.load(f)
 with open("ENUM_DeviceID.json", "r", encoding="utf-8") as f:
@@ -95,18 +93,23 @@ for skill_name, skill_data in skill_rows.items():
             if line.strip()
         ]
 
-        req = skill_data.get("Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B", {})
-        body = req.get("Body_10_68FBC6C34B6DDB19E010A9AB2419B88B", 0)
-        tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
-        hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
+        found = skill_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+        if (found == "ENUM_Foundation::NewEnumerator0"):
+            found_type = "body"
+        elif (found == "ENUM_Foundation::NewEnumerator1"):
+            found_type = "tech"
+        elif (found == "ENUM_Foundation::NewEnumerator2"):
+            found_type = "hardware"
+        else:
+            found_type = "other"
+        req = skill_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
 
         perk_output.append({
             "name": perk_name,
             "tooltip": lines,
             "foundations": {
-                "body": body,
-                "tech": tech,
-                "hardware": hardware
+                "type": found_type,
+                "value": req
             }
         })
 
@@ -141,10 +144,16 @@ for skill_name, data in skill_rows.items():
     duration = device_stat.get("duration_19_CADCF2D5460AE568CE1A9A8875DBE004", 0)
     speed_pen = device_stat.get("speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316", 0)
 
-    req = data.get("Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B", {})
-    body = req.get("Body_10_68FBC6C34B6DDB19E010A9AB2419B88B", 0)
-    tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
-    hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
+    found = skill_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+    if (found == "ENUM_Foundation::NewEnumerator0"):
+        found_type = "body"
+    elif (found == "ENUM_Foundation::NewEnumerator1"):
+        found_type = "tech"
+    elif (found == "ENUM_Foundation::NewEnumerator2"):
+        found_type = "hardware"
+    else:
+        found_type = "other"
+    req = skill_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
 
     device_output.append({
         "name": device_name,
@@ -155,9 +164,8 @@ for skill_name, data in skill_rows.items():
             "penalty": speed_pen
         },
         "foundations": {
-            "body": body,
-            "tech": tech,
-            "hardware": hardware
+            "type": found_type,
+            "value": req
         }
     })
 
@@ -174,10 +182,16 @@ for skill_name, data in skill_rows.items():
 
     weapon_name = weapon_id_to_name[weapon_enum]
 
-    req = data.get("Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B", {})
-    body = req.get("Body_10_68FBC6C34B6DDB19E010A9AB2419B88B", 0)
-    tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
-    hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
+    found = skill_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+    if (found == "ENUM_Foundation::NewEnumerator0"):
+        found_type = "body"
+    elif (found == "ENUM_Foundation::NewEnumerator1"):
+        found_type = "tech"
+    elif (found == "ENUM_Foundation::NewEnumerator2"):
+        found_type = "hardware"
+    else:
+        found_type = "other"
+    req = skill_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
 
     weapon_stat = weapon_stats.get(skill_name, {})
     damage_section = weapon_stat.get("damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE", {})
@@ -240,9 +254,8 @@ for skill_name, data in skill_rows.items():
         "name": weapon_name,
         "stats": stats,
         "foundations": {
-            "body": body,
-            "tech": tech,
-            "hardware": hardware
+            "type": found_type,
+            "value": req
         }
     })
 
