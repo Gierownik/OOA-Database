@@ -23,7 +23,7 @@
     "@ Speed Penalty: 0.0.0 m/s"
   ],
   "TTK": [
-    "& 5 Body, 0 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: LDS TTK",
     "^ Weapon Type: Throwing knives",
     "^ Slot: Backup",
@@ -47,7 +47,7 @@
     "@ Speed Penalty: 0.35.0 m/s"
   ],
   "Akanami": [
-    "& 10 Body, 10 Tech, 5 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: MA-ACS",
     "^ Weapon Type: Sword",
     "^ Slot: Backup",
@@ -70,7 +70,7 @@
     "@ Speed Penalty: 0.50.0 m/s"
   ],
   "Dusters": [
-    "& 10 Body, 5 Tech, 5 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: W&S APDG",
     "^ Weapon Type: Augmented fists",
     "^ Slot: Backup",
@@ -93,7 +93,7 @@
     "@ Speed Penalty: 0.25.0 m/s"
   ],
   "Major": [
-    "& 0 Body, 0 Tech, 5 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: MA-P7",
     "^ Weapon Type: Pistol",
     "^ Slot: Sidearm",
@@ -118,7 +118,7 @@
     "@ Speed Penalty: 0.15.0 m/s"
   ],
   "Deckard": [
-    "& 0 Body, 0 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: LDS SR .60",
     "^ Weapon Type: Revolver",
     "^ Slot: Sidearm",
@@ -145,7 +145,7 @@
     "@ Speed Penalty: 0.30.0 m/s"
   ],
   "Geist": [
-    "& 0 Body, 0 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: W&S MP11",
     "^ Weapon Type: PDW",
     "^ Slot: Sidearm",
@@ -170,7 +170,7 @@
     "@ Speed Penalty: 0.30.0 m/s"
   ],
   "Double-Tap": [
-    "& 0 Body, 5 Tech, 5 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: A-TAC 002",
     "^ Weapon Type: Burst pistol",
     "^ Slot: Sidearm",
@@ -197,7 +197,7 @@
     "@ Speed Penalty: 0.20.0 m/s"
   ],
   "Omen": [
-    "& 0 Body, 0 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: LDS X9E",
     "^ Weapon Type: Machine pistol",
     "^ Slot: Sidearm",
@@ -222,7 +222,7 @@
     "@ Speed Penalty: 0.25.0 m/s"
   ],
   "Cerberus": [
-    "& 5 Body, 0 Tech, 5 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: MA-950-S",
     "^ Weapon Type: Compact shotgun",
     "^ Slot: Sidearm",
@@ -247,7 +247,7 @@
     "@ Speed Penalty: 0.40.0 m/s"
   ],
   "Master-Key": [
-    "& 0 Body, 0 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: A-TAC S20",
     "^ Weapon Type: Shotgun",
     "^ Slot: Primary",
@@ -274,7 +274,7 @@
     "@ Speed Penalty: 0.65.0 m/s"
   ],
   "Icarus": [
-    "& 0 Body, 0 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: MA-SX5",
     "^ Weapon Type: SMG",
     "^ Slot: Primary",
@@ -299,7 +299,7 @@
     "@ Speed Penalty: 0.40.0 m/s"
   ],
   "Custodian": [
-    "& 0 Body, 0 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: A-TAC 88",
     "^ Weapon Type: Assault rifle",
     "^ Slot: Primary",
@@ -321,10 +321,10 @@
     "@- Hipfire Spread: 2.5°",
     "@- ADS Spread: 0.5°",
     "@- Spread Gain: 0.1°",
-    "@ Speed Penalty: 0.60.0 m/s"
+    "@ Speed Penalty: 0.55.0 m/s"
   ],
   "Inhibitor": [
-    "& 10 Body, 0 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: LDS MXG-865",
     "^ Weapon Type: LMG",
     "^ Slot: Primary",
@@ -349,7 +349,7 @@
     "@ Speed Penalty: 0.125.0 m/s"
   ],
   "Vigil": [
-    "& 5 Body, 0 Tech, 20 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: W&S SP-R",
     "^ Weapon Type: Bolt action rifle",
     "^ Slot: Primary",
@@ -375,7 +375,7 @@
     "@ Speed Penalty: 0.75.0 m/s"
   ],
   "Sentinel": [
-    "& 0 Body, 0 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: A-TAC DMR-9",
     "^ Weapon Type: DMR",
     "^ Slot: Primary",
@@ -400,7 +400,7 @@
     "@ Speed Penalty: 0.70.0 m/s"
   ],
   "Helix": [
-    "& 0 Body, 5 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: W&S SG5",
     "^ Weapon Type: Burst rifle",
     "^ Slot: Primary",
@@ -428,7 +428,7 @@
     "@ Speed Penalty: 0.60.0 m/s"
   ],
   "Nexus": [
-    "& 0 Body, 0 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: LDS MBR-A6",
     "^ Weapon Type: Battle rifle",
     "^ Slot: Primary",
@@ -447,13 +447,13 @@
     "@- Vertical Recoil: 16.0",
     "@- Horizontal Recoil: 8.0",
     "@ Time to ADS: 0.35s",
-    "@- Hipfire Spread: 3.0°",
+    "@- Hipfire Spread: 3.5°",
     "@- ADS Spread: 0.65°",
     "@- Spread Gain: 0.15°",
-    "@ Speed Penalty: 0.65.0 m/s"
+    "@ Speed Penalty: 0.75.0 m/s"
   ],
   "Typhon": [
-    "& 10 Body, 5 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: MA-HA5-T3",
     "^ Weapon Type: Auto shotgun",
     "^ Slot: Primary",
@@ -474,11 +474,11 @@
     "@ Time to ADS: 0.4s",
     "@- Hipfire Spread: 3.0°",
     "@- ADS Spread: 0.75°",
-    "@- Spread Gain: 0.35°",
+    "@- Spread Gain: 0.2°",
     "@ Speed Penalty: 0.100.0 m/s"
   ],
   "Warrant": [
-    "& 10 Body, 10 Tech, 20 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: A-TAC XGL6",
     "^ Weapon Type: Grenade launcher",
     "^ Slot: Primary",
@@ -506,7 +506,7 @@
     "@ Speed Penalty: 0.90.0 m/s"
   ],
   "Blackout": [
-    "& 20 Body, 5 Tech, 20 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: W&S TRS-1",
     "^ Weapon Type: Rocket launcher",
     "^ Slot: Heavy",
@@ -532,7 +532,7 @@
     "@ Speed Penalty: 0.200.0 m/s"
   ],
   "Umibozu": [
-    "& 15 Body, 5 Tech, 20 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "^ ID: MA-HSW-P",
     "^ Weapon Type: Heavy cycler",
     "^ Slot: Heavy",
@@ -554,7 +554,7 @@
     "@ Time to ADS: 0.5s",
     "@- Hipfire Spread: 4.0°",
     "@- ADS Spread: 1.0°",
-    "@- Spread Gain: 0.1°",
+    "@- Spread Gain: 0.05°",
     "@ Speed Penalty: 0.200.0 m/s"
   ]
 }

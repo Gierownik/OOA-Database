@@ -55,9 +55,9 @@
       "Burst Delay": "0.25"
     },
     "foundations": {
-      "body": 5,
+      "body": 0,
       "tech": 0,
-      "hardware": 10
+      "hardware": 0
     }
   },
   {
@@ -85,9 +85,9 @@
       "Speed Penalty": "50.0"
     },
     "foundations": {
-      "body": 10,
-      "tech": 10,
-      "hardware": 5
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -115,9 +115,9 @@
       "Speed Penalty": "25.0"
     },
     "foundations": {
-      "body": 10,
-      "tech": 5,
-      "hardware": 5
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -149,7 +149,7 @@
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 5
+      "hardware": 0
     }
   },
   {
@@ -183,7 +183,7 @@
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 15
+      "hardware": 0
     }
   },
   {
@@ -215,7 +215,7 @@
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 10
+      "hardware": 0
     }
   },
   {
@@ -248,8 +248,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 5,
-      "hardware": 5
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -281,7 +281,7 @@
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 10
+      "hardware": 0
     }
   },
   {
@@ -311,9 +311,9 @@
       "Reload Duration": "0.6"
     },
     "foundations": {
-      "body": 5,
+      "body": 0,
       "tech": 0,
-      "hardware": 5
+      "hardware": 0
     }
   },
   {
@@ -347,7 +347,7 @@
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 10
+      "hardware": 0
     }
   },
   {
@@ -379,7 +379,7 @@
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 10
+      "hardware": 0
     }
   },
   {
@@ -404,14 +404,14 @@
       "Hipfire Spread": "2.5",
       "ADS Spread": "0.5",
       "Spread Gain": "0.1",
-      "Speed Penalty": "60.0",
+      "Speed Penalty": "55.0",
       "Ammo Capacity": 32,
       "Reload Duration": "0.7"
     },
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 15
+      "hardware": 0
     }
   },
   {
@@ -441,9 +441,9 @@
       "Reload Duration": "0.35"
     },
     "foundations": {
-      "body": 10,
+      "body": 0,
       "tech": 0,
-      "hardware": 15
+      "hardware": 0
     }
   },
   {
@@ -474,9 +474,9 @@
       "Rechamber Duration": "1.25"
     },
     "foundations": {
-      "body": 5,
+      "body": 0,
       "tech": 0,
-      "hardware": 20
+      "hardware": 0
     }
   },
   {
@@ -508,7 +508,7 @@
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 15
+      "hardware": 0
     }
   },
   {
@@ -542,8 +542,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 5,
-      "hardware": 10
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -565,17 +565,17 @@
       "Vertical Recoil": 16.0,
       "Horizontal Recoil": 8.0,
       "Time to ADS": "0.35",
-      "Hipfire Spread": "3.0",
+      "Hipfire Spread": "3.5",
       "ADS Spread": "0.65",
       "Spread Gain": "0.15",
-      "Speed Penalty": "65.0",
+      "Speed Penalty": "75.0",
       "Ammo Capacity": 24,
       "Reload Duration": "0.65"
     },
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 15
+      "hardware": 0
     }
   },
   {
@@ -599,15 +599,15 @@
       "Time to ADS": "0.4",
       "Hipfire Spread": "3.0",
       "ADS Spread": "0.75",
-      "Spread Gain": "0.35",
+      "Spread Gain": "0.2",
       "Speed Penalty": "100.0",
       "Ammo Capacity": 12,
       "Reload Duration": "0.65"
     },
     "foundations": {
-      "body": 10,
-      "tech": 5,
-      "hardware": 15
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -640,9 +640,9 @@
       "One by One Reload": true
     },
     "foundations": {
-      "body": 10,
-      "tech": 10,
-      "hardware": 20
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -673,9 +673,9 @@
       "One by One Reload": true
     },
     "foundations": {
-      "body": 20,
-      "tech": 5,
-      "hardware": 20
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -699,16 +699,16 @@
       "Time to ADS": "0.5",
       "Hipfire Spread": "4.0",
       "ADS Spread": "1.0",
-      "Spread Gain": "0.1",
+      "Spread Gain": "0.05",
       "Speed Penalty": "200.0",
       "Spinup": "0.75s",
       "Ammo Capacity": 250,
       "Reload Duration": "0.7"
     },
     "foundations": {
-      "body": 15,
-      "tech": 5,
-      "hardware": 20
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   }
 ]

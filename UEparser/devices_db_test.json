@@ -14,8 +14,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 20,
-      "hardware": 20
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -30,9 +30,9 @@
       "penalty": 40.0
     },
     "foundations": {
-      "body": 15,
-      "tech": 15,
-      "hardware": 20
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -48,8 +48,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 25,
-      "hardware": 15
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -66,8 +66,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 20,
-      "hardware": 15
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -84,7 +84,7 @@
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 5
+      "hardware": 0
     }
   },
   {
@@ -100,8 +100,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 5,
-      "hardware": 5
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -118,7 +118,7 @@
     "foundations": {
       "body": 0,
       "tech": 0,
-      "hardware": 10
+      "hardware": 0
     }
   },
   {
@@ -136,8 +136,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 10,
-      "hardware": 5
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -151,9 +151,9 @@
       "penalty": 20.0
     },
     "foundations": {
-      "body": 10,
-      "tech": 15,
-      "hardware": 10
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -170,8 +170,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 5,
-      "hardware": 10
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -190,8 +190,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 20,
-      "hardware": 15
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -206,9 +206,9 @@
       "penalty": 15.0
     },
     "foundations": {
-      "body": 15,
+      "body": 0,
       "tech": 0,
-      "hardware": 20
+      "hardware": 0
     }
   },
   {
@@ -224,9 +224,9 @@
       "penalty": 30.0
     },
     "foundations": {
-      "body": 10,
-      "tech": 5,
-      "hardware": 10
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -240,9 +240,9 @@
       "penalty": 25.0
     },
     "foundations": {
-      "body": 10,
-      "tech": 10,
-      "hardware": 15
+      "body": 0,
+      "tech": 0,
+      "hardware": 0
     }
   },
   {
@@ -257,8 +257,8 @@
       "penalty": 25.0
     },
     "foundations": {
-      "body": 10,
-      "tech": 25,
+      "body": 0,
+      "tech": 0,
       "hardware": 0
     }
   },
@@ -277,8 +277,8 @@
     },
     "foundations": {
       "body": 0,
-      "tech": 10,
-      "hardware": 15
+      "tech": 0,
+      "hardware": 0
     }
   }
 ]

@@ -18,29 +18,13 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 0,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 2,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "40138EC241A056E61134D8A555069188",
-            "SourceString": ":: <D>Kinetic Resistance</>\r\n> <C>25%</> increased explosive resistance\r\n<E>> 25% reduced aux power drain from all sources</>\r\n<E>> 25% reduced direct vitals damage received to during maneuvers</>\r\n\r\n:: <D>Survival Instinct</>\r\n> <C>50%</> increased snare resistance, snare immunity while Core active\r\n<E>> While below 50% defense: 25% reduced aux power drain from all sources, 25% increased acceleration + gain an additional aerial maneuver charge</>\r\n<E>> While below 50% vitals: 25% increased defense regeneration + vitals restored from all sources</>\r\n\r\n:: <D>Core Overdrive</>\r\n> <C>25%</> increased Core generation\r\n<E>> 15% increased speed + dexterity while Core active</>\r\n<E>> 0-25% Reduced Core activation cost scaling proportionally with remaining vitals from 100-50%</>",
-            "LocalizedString": ":: <D>Kinetic Resistance</>\r\n> <C>25%</> increased explosive resistance\r\n<E>> 25% reduced aux power drain from all sources</>\r\n<E>> 25% reduced direct vitals damage received to during maneuvers</>\r\n\r\n:: <D>Survival Instinct</>\r\n> <C>50%</> increased snare resistance, snare immunity while Core active\r\n<E>> While below 50% defense: 25% reduced aux power drain from all sources, 25% increased acceleration + gain an additional aerial maneuver charge</>\r\n<E>> While below 50% vitals: 25% increased defense regeneration + vitals restored from all sources</>\r\n\r\n:: <D>Core Overdrive</>\r\n> <C>25%</> increased Core generation\r\n<E>> 15% increased speed + dexterity while Core active</>\r\n<E>> 0-25% Reduced Core activation cost scaling proportionally with remaining vitals from 100-50%</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "AD2F47D243110C56CA3C928DBE080046",
-            "SourceString": ":: <D>Kinetic Resistance</>\r\n> <C>25%</> increased explosive resistance\r\n> <C>25%</> reduced aux power drain from all sources\r\n<E>> 25% reduced direct vitals damage received to during maneuvers</>\r\n\r\n:: <D>Survival Instinct</>\r\n> <C>50%</> increased snare resistance, snare immunity while Core active\r\n> While below <C>50%</> defense: <C>25%</> reduced aux power drain from all sources, <C>25%</> increased acceleration + gain an additional aerial maneuver charge\r\n<E>> While below 50% vitals: 25% increased defense regeneration + vitals restored from all sources</>\r\n\r\n:: <D>Core Overdrive</>\r\n> <C>25%</> increased Core generation\r\n> <C>15%</> increased speed + dexterity while Core active\r\n<E>> 0-25% Reduced Core activation cost scaling proportionally with remaining vitals from 100-50%</>",
-            "LocalizedString": ":: <D>Kinetic Resistance</>\r\n> <C>25%</> increased explosive resistance\r\n> <C>25%</> reduced aux power drain from all sources\r\n<E>> 25% reduced direct vitals damage received to during maneuvers</>\r\n\r\n:: <D>Survival Instinct</>\r\n> <C>50%</> increased snare resistance, snare immunity while Core active\r\n> While below <C>50%</> defense: <C>25%</> reduced aux power drain from all sources, <C>25%</> increased acceleration + gain an additional aerial maneuver charge\r\n<E>> While below 50% vitals: 25% increased defense regeneration + vitals restored from all sources</>\r\n\r\n:: <D>Core Overdrive</>\r\n> <C>25%</> increased Core generation\r\n> <C>15%</> increased speed + dexterity while Core active\r\n<E>> 0-25% Reduced Core activation cost scaling proportionally with remaining vitals from 100-50%</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "6E1A61BE4460216536A8DE88A913416D",
             "SourceString": ":: <D>Kinetic Resistance</>\r\n> <C>25%</> increased explosive resistance\r\n> <C>25%</> reduced aux power drain from all sources\r\n> <C>25%</> reduced direct vitals damage received to during maneuvers\r\n\r\n:: <D>Survival Instinct</>\r\n> <C>50%</> increased snare resistance, snare immunity while Core active\r\n> While below <C>50%</> defense: <C>25%</> reduced aux power drain from all sources, <C>25%</> increased acceleration + gain an additional aerial maneuver charge\r\n> While below <C>50%</> vitals: <C>25%</> increased defense regeneration + vitals restored from all sources\r\n\r\n:: <D>Core Overdrive</>\r\n> <C>25%</> increased Core generation\r\n> <C>15%</> increased speed + dexterity while Core active\r\n> <C>0-25%</> Reduced Core activation cost scaling proportionally with remaining vitals from <C>100-50%</>",
             "LocalizedString": ":: <D>Kinetic Resistance</>\r\n> <C>25%</> increased explosive resistance\r\n> <C>25%</> reduced aux power drain from all sources\r\n> <C>25%</> reduced direct vitals damage received to during maneuvers\r\n\r\n:: <D>Survival Instinct</>\r\n> <C>50%</> increased snare resistance, snare immunity while Core active\r\n> While below <C>50%</> defense: <C>25%</> reduced aux power drain from all sources, <C>25%</> increased acceleration + gain an additional aerial maneuver charge\r\n> While below <C>50%</> vitals: <C>25%</> increased defense regeneration + vitals restored from all sources\r\n\r\n:: <D>Core Overdrive</>\r\n> <C>25%</> increased Core generation\r\n> <C>15%</> increased speed + dexterity while Core active\r\n> <C>0-25%</> Reduced Core activation cost scaling proportionally with remaining vitals from <C>100-50%</>"
           }
@@ -53,29 +37,13 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 2,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "98C2F5C144B9057D3474CBBCB4944873",
-            "SourceString": ":: <D>Adrenal Feedback</>\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack\r\n<E>> 5% increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within 4 m, stacking up to 5 times</>\r\n<E>> Neuro-link 'Parasite' while Core active: Leech 5 vitals from all visible enemies every 0.5 s, increased by 1 for each Adrenal Feedback stack on activation</>\r\n<E>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n<E>> 25% of direct head + limb vitals damage received restored after 2 s of last direct damage, increased by 5% for each Adrenal Feedback stack</>\r\n<E>> Defense regeneration restores max defense while Core is active</>\r\n<E>> 5% increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n<E>> 50 vitals restored on Core activation, 10 s cooldown</>\r\n<E>> 50 vitals restored on defense depletion, 10 s cooldown</>",
-            "LocalizedString": ":: <D>Adrenal Feedback</>\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack\r\n<E>> 5% increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within 4 m, stacking up to 5 times</>\r\n<E>> Neuro-link 'Parasite' while Core active: Leech 5 vitals from all visible enemies every 0.5 s, increased by 1 for each Adrenal Feedback stack on activation</>\r\n<E>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n<E>> 25% of direct head + limb vitals damage received restored after 2 s of last direct damage, increased by 5% for each Adrenal Feedback stack</>\r\n<E>> Defense regeneration restores max defense while Core is active</>\r\n<E>> 5% increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n<E>> 50 vitals restored on Core activation, 10 s cooldown</>\r\n<E>> 50 vitals restored on defense depletion, 10 s cooldown</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "CD0BE258478ABE0FB52603A234DB1FCD",
-            "SourceString": ":: <D>Adrenal Feedback</>\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n<E>> Neuro-link 'Parasite' while Core active: Leech 5 vitals from all visible enemies every 0.5 s, increased by 1 for each Adrenal Feedback stack on activation</>\r\n<E>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n<E>> Defense regeneration restores max defense while Core is active</>\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n<E>> 50 vitals restored on defense depletion, 10 s cooldown</>",
-            "LocalizedString": ":: <D>Adrenal Feedback</>\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n<E>> Neuro-link 'Parasite' while Core active: Leech 5 vitals from all visible enemies every 0.5 s, increased by 1 for each Adrenal Feedback stack on activation</>\r\n<E>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n<E>> Defense regeneration restores max defense while Core is active</>\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n<E>> 50 vitals restored on defense depletion, 10 s cooldown</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "BF94D6144ADF4D4E560B8FA5A53A6F86",
             "SourceString": ":: <D>Adrenal Feedback</>\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> Neuro-link 'Parasite' while Core active: Leech <C>5</> vitals from all visible enemies every <C>0.5 s</>, increased by <C>1</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown",
             "LocalizedString": ":: <D>Adrenal Feedback</>\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> Neuro-link 'Parasite' while Core active: Leech <C>5</> vitals from all visible enemies every <C>0.5 s</>, increased by <C>1</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown"
           }
@@ -88,29 +56,13 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 2,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "00475715494F08DCB1DF068F27E3568B",
-            "SourceString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n<E>> 25% reduced loadout speed penalty + detectable range while active</>\r\n<E>> Deep Camouflage: Activates 2 s after being stationary or crouched, 50% reduced visibility and undetectable by targeting optics</>\r\n<E>> 2 s stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n<E>> 50% reduced explosive damage received during maneuvers</>\r\n<E>> 0.25x additional headshot multiplier with firearms + 25% defense bypass with backup weapons for 2 s after camouflage deactivation</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n<E>> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within 4 m for 2 s, Shroud on camouflage activate: undetectable by all equipment for 2 s</>\r\n<E>> Neuro-link 'Breach' on core activation: Deals 25 vital damage and 2 s disable + snare to visible or detected enemies, executes if target below 25% vitals, destroys visible or detected devices, 10 s cooldown</>",
-            "LocalizedString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n<E>> 25% reduced loadout speed penalty + detectable range while active</>\r\n<E>> Deep Camouflage: Activates 2 s after being stationary or crouched, 50% reduced visibility and undetectable by targeting optics</>\r\n<E>> 2 s stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n<E>> 50% reduced explosive damage received during maneuvers</>\r\n<E>> 0.25x additional headshot multiplier with firearms + 25% defense bypass with backup weapons for 2 s after camouflage deactivation</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n<E>> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within 4 m for 2 s, Shroud on camouflage activate: undetectable by all equipment for 2 s</>\r\n<E>> Neuro-link 'Breach' on core activation: Deals 25 vital damage and 2 s disable + snare to visible or detected enemies, executes if target below 25% vitals, destroys visible or detected devices, 10 s cooldown</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "E3224E6E4DB3E735B3257297834E33E7",
-            "SourceString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n<E>> Deep Camouflage: Activates 2 s after being stationary or crouched, 50% reduced visibility and undetectable by targeting optics</>\r\n<E>> 2 s stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n<E>> 0.25x additional headshot multiplier with firearms + 25% defense bypass with backup weapons for 2 s after camouflage deactivation</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</>\r\n<E>> Neuro-link 'Breach' on core activation: Deals 25 vital damage and 2 s disable + snare to visible or detected enemies, executes if target below 25% vitals, destroys visible or detected devices, 10 s cooldown</>",
-            "LocalizedString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n<E>> Deep Camouflage: Activates 2 s after being stationary or crouched, 50% reduced visibility and undetectable by targeting optics</>\r\n<E>> 2 s stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n<E>> 0.25x additional headshot multiplier with firearms + 25% defense bypass with backup weapons for 2 s after camouflage deactivation</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</>\r\n<E>> Neuro-link 'Breach' on core activation: Deals 25 vital damage and 2 s disable + snare to visible or detected enemies, executes if target below 25% vitals, destroys visible or detected devices, 10 s cooldown</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "A6986790499F3297F7C2838C8A5D64E2",
             "SourceString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> defense bypass with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</>\r\n> Neuro-link 'Breach' on core activation: Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
             "LocalizedString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> defense bypass with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</>\r\n> Neuro-link 'Breach' on core activation: Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
           }
@@ -123,29 +75,13 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 2,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "293CDDD44B45B6C1B63D1BA0E12B9E74",
-            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n<E>> Recover an aerial maneuver charge on hover activation</>\r\n<E>> Ground Slam maneuver: Launch downward to ground while in air, deals 50-25 explosive + fire damage damage within 2-4 m, enemies within 2 m can be knocked down, requires 3 m altitude, 10 s cooldown</>\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies nearby or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>3 s</> cooldown\r\n<E>> Ignites surrounding area for 3 s on death</>\r\n<E>> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing 25 fire damage per enemy, up to 100 damage, ignited enemies receive 50% increased direct defense damage, 10 s cooldown</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n<E>> 0-50% increased explosive resistance while hovering, scaling proportionally with speed from 0-12 m/s</>\r\n<E>> 0-20 /s additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from 0-12 m/s</>",
-            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n<E>> Recover an aerial maneuver charge on hover activation</>\r\n<E>> Ground Slam maneuver: Launch downward to ground while in air, deals 50-25 explosive + fire damage damage within 2-4 m, enemies within 2 m can be knocked down, requires 3 m altitude, 10 s cooldown</>\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies nearby or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>3 s</> cooldown\r\n<E>> Ignites surrounding area for 3 s on death</>\r\n<E>> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing 25 fire damage per enemy, up to 100 damage, ignited enemies receive 50% increased direct defense damage, 10 s cooldown</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n<E>> 0-50% increased explosive resistance while hovering, scaling proportionally with speed from 0-12 m/s</>\r\n<E>> 0-20 /s additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from 0-12 m/s</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "F138CD5A45F9235816E17183981B349A",
-            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n<E>> Ground Slam maneuver: Launch downward to ground while in air, deals 50-25 explosive + fire damage damage within 2-4 m, enemies within 2 m can be knocked down, requires 3 m altitude, 10 s cooldown</>\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies nearby or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>3 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death\r\n<E>> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing 25 fire damage per enemy, up to 100 damage, ignited enemies receive 50% increased direct defense damage, 10 s cooldown</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n<E>> 0-20 /s additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from 0-12 m/s</>",
-            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n<E>> Ground Slam maneuver: Launch downward to ground while in air, deals 50-25 explosive + fire damage damage within 2-4 m, enemies within 2 m can be knocked down, requires 3 m altitude, 10 s cooldown</>\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies nearby or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>3 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death\r\n<E>> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing 25 fire damage per enemy, up to 100 damage, ignited enemies receive 50% increased direct defense damage, 10 s cooldown</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n<E>> 0-20 /s additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from 0-12 m/s</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "CFAC8C0846A363C006116FA1B6CFE795",
             "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies nearby or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>3 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death\r\n> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing <C>25</> fire damage per enemy, up to <C>100</> damage, ignited enemies receive <C>50%</> increased direct defense damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
             "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies nearby or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>3 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death\r\n> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing <C>25</> fire damage per enemy, up to <C>100</> damage, ignited enemies receive <C>50%</> increased direct defense damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
           }
@@ -158,29 +94,13 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 2,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "0244F96740F9337D4C451CBD59B5AAA9",
-            "SourceString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n<E>> 50% reduced movement speed penalties while defence above 50%</>\r\n<E>> Bolster while Core active: Bleed + knockdown immunity, 0 s defense regen delay, 40 /s defense regeneration</>\r\n<E>> 50% reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or heavy landing: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>4 m</>, <C>3 s</> cooldown\r\n<E>> 50% of damage dealt by Shockwave restored to defense + max defense</>\r\n<E>> 25% of direct damage received reflected as shock damage + 0.5 s disable if enemy within 3 m while defense above 0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n<E>> 25-0% reduced direct defense damage received, scaling proportionally with speed from 0-8 m/s</>\r\n<E>> Damage taken to vitals is restored to defense when defense regeneration resumes</>",
-            "LocalizedString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n<E>> 50% reduced movement speed penalties while defence above 50%</>\r\n<E>> Bolster while Core active: Bleed + knockdown immunity, 0 s defense regen delay, 40 /s defense regeneration</>\r\n<E>> 50% reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or heavy landing: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>4 m</>, <C>3 s</> cooldown\r\n<E>> 50% of damage dealt by Shockwave restored to defense + max defense</>\r\n<E>> 25% of direct damage received reflected as shock damage + 0.5 s disable if enemy within 3 m while defense above 0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n<E>> 25-0% reduced direct defense damage received, scaling proportionally with speed from 0-8 m/s</>\r\n<E>> Damage taken to vitals is restored to defense when defense regeneration resumes</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "01F2757A450F10A9E91A1983D441B90C",
-            "SourceString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n> <C>50%</> reduced movement speed penalties while defence above <C>50%</>\r\n<E>> Bolster while Core active: Bleed + knockdown immunity, 0 s defense regen delay, 40 /s defense regeneration</>\r\n<E>> 50% reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or heavy landing: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>4 m</>, <C>3 s</> cooldown\r\n> <C>50%</> of damage dealt by Shockwave restored to defense + max defense\r\n<E>> 25% of direct damage received reflected as shock damage + 0.5 s disable if enemy within 3 m while defense above 0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>\r\n<E>> Damage taken to vitals is restored to defense when defense regeneration resumes</>",
-            "LocalizedString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n> <C>50%</> reduced movement speed penalties while defence above <C>50%</>\r\n<E>> Bolster while Core active: Bleed + knockdown immunity, 0 s defense regen delay, 40 /s defense regeneration</>\r\n<E>> 50% reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or heavy landing: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>4 m</>, <C>3 s</> cooldown\r\n> <C>50%</> of damage dealt by Shockwave restored to defense + max defense\r\n<E>> 25% of direct damage received reflected as shock damage + 0.5 s disable if enemy within 3 m while defense above 0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>\r\n<E>> Damage taken to vitals is restored to defense when defense regeneration resumes</>"
-          },
-          {
-            "Namespace": "",
-            "Key": "778918D74D3ECDF9ACFB688B174D394A",
             "SourceString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n> <C>50%</> reduced movement speed penalties while defence above <C>50%</>\r\n> Bolster while Core active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or heavy landing: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>4 m</>, <C>3 s</> cooldown\r\n> <C>50%</> of damage dealt by Shockwave restored to defense + max defense\r\n> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>\r\n> Damage taken to vitals is restored to defense when defense regeneration resumes",
             "LocalizedString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n> <C>50%</> reduced movement speed penalties while defence above <C>50%</>\r\n> Bolster while Core active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or heavy landing: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>4 m</>, <C>3 s</> cooldown\r\n> <C>50%</> of damage dealt by Shockwave restored to defense + max defense\r\n> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>\r\n> Damage taken to vitals is restored to defense when defense regeneration resumes"
           }
@@ -193,13 +113,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator61",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 0,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "TTK": {
@@ -209,13 +125,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator28",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 5,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Akanami": {
@@ -225,13 +137,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator55",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Dusters": {
@@ -241,13 +149,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator60",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Major": {
@@ -257,13 +161,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator0",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Deckard": {
@@ -273,13 +173,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator1",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Geist": {
@@ -289,13 +185,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator45",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Double-Tap": {
@@ -305,13 +197,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator59",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Omen": {
@@ -321,13 +209,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator57",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Cerberus": {
@@ -337,13 +221,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator19",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 5,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Master-Key": {
@@ -353,13 +233,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator18",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Icarus": {
@@ -369,13 +245,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator17",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Custodian": {
@@ -385,13 +257,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator41",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Inhibitor": {
@@ -401,13 +269,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator46",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Vigil": {
@@ -417,13 +281,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator23",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 5,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Sentinel": {
@@ -433,13 +293,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator47",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Helix": {
@@ -449,13 +305,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator51",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Nexus": {
@@ -465,13 +317,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator52",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Typhon": {
@@ -481,13 +329,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator56",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Warrant": {
@@ -497,13 +341,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator48",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Blackout": {
@@ -513,13 +353,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator54",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator19",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Umibozu": {
@@ -529,13 +365,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator53",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator19",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Hole-Punch": {
@@ -545,13 +377,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator19",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Talon": {
@@ -561,13 +389,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator19",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
       "Acrobatics": {
@@ -577,13 +401,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 25,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -600,13 +420,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -623,13 +439,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -646,19 +458,15 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "527E03574FB905F6F1DE9980ED5047E4",
-            "SourceString": "> <C>25%</> increased radar + detection range from all sources\r\n> Detected enemies can be tagged\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>25%</> increased radar + detection range from all sources\r\n> Detected enemies can be tagged\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>25%</> increased radar + detection range from all sources\r\n> <C>100%</> reduced scan + tag cooldown on ally killing tagged enemy\r\n> Detected enemies can be tagged\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>25%</> increased radar + detection range from all sources\r\n> <C>100%</> reduced scan + tag cooldown on ally killing tagged enemy\r\n> Detected enemies can be tagged\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -669,13 +477,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -692,13 +496,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -715,13 +515,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -738,13 +534,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -761,13 +553,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 5,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -784,13 +572,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 5,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -807,13 +591,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -830,13 +610,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -853,13 +629,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -876,13 +648,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -899,13 +667,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -922,13 +686,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -945,13 +705,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -968,13 +724,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -991,13 +743,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1014,13 +762,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1037,13 +781,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1060,13 +800,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1083,13 +819,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1106,13 +838,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1129,13 +857,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1152,13 +876,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 25,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 0,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1175,13 +895,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1198,13 +914,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1221,13 +933,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1244,13 +952,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1267,13 +971,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1290,13 +990,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 25,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1313,13 +1009,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1336,13 +1028,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1359,13 +1047,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1382,13 +1066,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1405,13 +1085,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1428,13 +1104,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1451,13 +1123,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1474,13 +1142,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1497,19 +1161,15 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "094D43B54579E81970C6B7BC9CCE383D",
-            "SourceString": "> <C>50%</> reduced movement sound + radar profile\r\n<B>></> <C>25</> <B>reduced defense</>",
-            "LocalizedString": "> <C>50%</> reduced movement sound + radar profile\r\n<B>></> <C>25</> <B>reduced defense</>"
+            "SourceString": "> <C>50%</> reduced movement sound + radar profile\r\n> <C>50%</> increased crouch speed\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> <C>50%</> reduced movement sound + radar profile\r\n> <C>50%</> increased crouch speed\r\n<B>></> <C>25</> <B>reduced defense</>"
           }
         ]
       },
@@ -1520,13 +1180,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1543,13 +1199,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1566,13 +1218,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1589,13 +1237,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1612,13 +1256,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1635,13 +1275,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1658,13 +1294,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1681,13 +1313,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 25,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1704,13 +1332,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1727,13 +1351,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1750,13 +1370,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1773,13 +1389,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1796,13 +1408,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1819,13 +1427,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1842,13 +1446,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1865,13 +1465,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 5,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1888,13 +1484,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1911,13 +1503,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1934,13 +1522,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 5,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1957,13 +1541,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -1980,13 +1560,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2003,13 +1579,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2026,13 +1598,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2049,13 +1617,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 20,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2072,13 +1636,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator17",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2095,13 +1655,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator23",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2118,13 +1674,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator3",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2141,13 +1693,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator20",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2164,13 +1712,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator13",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2187,13 +1731,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator12",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2210,13 +1750,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator15",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2233,13 +1769,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator1",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2256,13 +1788,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator0",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2279,13 +1807,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator14",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2302,13 +1826,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator16",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2325,13 +1845,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator25",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 15,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2348,13 +1864,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator22",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2371,13 +1883,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator24",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2394,13 +1902,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator27",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2417,13 +1921,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator26",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2440,13 +1940,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator74",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 0,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2463,13 +1959,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator66",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2486,13 +1978,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator67",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2509,13 +1997,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator68",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2532,13 +2016,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator80",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2555,13 +2035,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator71",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator23",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2578,13 +2054,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator84",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator23",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2601,13 +2073,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator70",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator23",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2624,13 +2092,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator69",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator23",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2647,13 +2111,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator79",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2670,13 +2130,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator72",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 25,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator23",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2693,13 +2149,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator96",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 25
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator23",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2716,13 +2168,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator86",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 0,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2739,13 +2187,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator87",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2762,13 +2206,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator88",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2785,13 +2225,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator89",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 20,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2808,13 +2244,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator48",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2831,13 +2263,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator49",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2854,13 +2282,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator50",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2877,13 +2301,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator51",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2900,13 +2320,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator52",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2923,13 +2339,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator53",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2946,13 +2358,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator54",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2969,13 +2377,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator55",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2992,13 +2396,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator56",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3015,13 +2415,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator57",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3038,13 +2434,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator58",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3061,13 +2453,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator59",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3084,13 +2472,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator73",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 0,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3107,13 +2491,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator65",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 0
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 0,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3130,13 +2510,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator61",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3153,13 +2529,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator62",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3176,13 +2548,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator63",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3199,13 +2567,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator64",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 5
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3222,13 +2586,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator81",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3245,13 +2605,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator82",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3268,13 +2624,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator75",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3291,19 +2643,15 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator76",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "E55BEE2240EE23C53B6324BD641592AD",
-            "SourceString": "> Converts to automatic\r\n> <C>25%</> increased RPM\r\n<B>></> <C>20%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased recoil</>",
-            "LocalizedString": "> Converts to automatic\r\n> <C>25%</> increased RPM\r\n<B>></> <C>20%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased recoil</>"
+            "SourceString": "> Converts to automatic\r\n> <C>25%</> increased RPM\r\n<B>></> <C>20%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased recoil + spread gain</>",
+            "LocalizedString": "> Converts to automatic\r\n> <C>25%</> increased RPM\r\n<B>></> <C>20%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased recoil + spread gain</>"
           }
         ]
       },
@@ -3314,13 +2662,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator83",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3337,13 +2681,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator85",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3360,13 +2700,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator90",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 5,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3383,13 +2719,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator91",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3406,13 +2738,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator92",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 10,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 10,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 20
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3429,13 +2757,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator93",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3452,13 +2776,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator94",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 0,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 15
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3475,13 +2795,9 @@
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator95",
-        "Requirements_8_A4C8470C4FCFFF82BFB0F097CA1EC92B": {
-          "Body_10_68FBC6C34B6DDB19E010A9AB2419B88B": 0,
-          "Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC": 15,
-          "Hardware_12_9310D7DB447E651E58D0268CC41AC3B7": 10
-        },
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Levels_44_A30DE1CF42F8CA7596E01A96D962CBF0": 0,
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",

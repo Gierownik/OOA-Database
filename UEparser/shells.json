@@ -40,7 +40,7 @@
     "Base Speed: 7.0 m/s",
     "Core Speed: 70.0%",
     "Radar detection range: 20.0 m",
-    "& 10 Body, 10 Tech, 0 Hardware"
+    "& 0 Body, 0 Tech, 0 Hardware"
   ],
   "Ghost": [
     ":: <D>Tactical Camouflage</>",
@@ -65,7 +65,7 @@
     "Base Speed: 8.0 m/s",
     "Core Speed: 80.0%",
     "Radar detection range: 10.0 m",
-    "& 0 Body, 15 Tech, 0 Hardware"
+    "& 0 Body, 0 Tech, 0 Hardware"
   ],
   "Dragon": [
     ":: <D>Drifter Jump-Pack</>",
@@ -89,7 +89,7 @@
     "Base Speed: 6.5 m/s",
     "Core Speed: 75.0%",
     "Radar detection range: 20.0 m",
-    "& 0 Body, 10 Tech, 10 Hardware"
+    "& 0 Body, 0 Tech, 0 Hardware"
   ],
   "Rhino": [
     ":: <D>Resilient Momentum</>",
@@ -111,6 +111,6 @@
     "Base Speed: 6.0 m/s",
     "Core Speed: 70.0%",
     "Radar detection range: 25.0 m",
-    "& 15 Body, 0 Tech, 5 Hardware"
+    "& 0 Body, 0 Tech, 0 Hardware"
   ]
 }

@@ -4,44 +4,44 @@
     "- ^ Deals **20-10** ballistic damage, **600 rpm**, **50** round capacity",
     "- ^ Can attach to surfaces + Shells",
     "- @ Can be disabled",
-    "& 0 Body, 20 Tech, 20 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 60.0 Duration, 0.35 m/s Speed Penalty, Experimental: WIP"
   ],
   "Bolster": [
     "- ^ While active: Bleed + knockdown immunity, **200** max defense, **0 s** defense regen delay, **40 /s** defense regeneration",
     "- @ While active: **50%** reduced speed + vitals restored from all sources",
-    "& 15 Body, 15 Tech, 20 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 60.0 Cooldown, 5.0 Duration, 0.40 m/s Speed Penalty, Experimental: WIP"
   ],
   "Breach": [
     "- ^ Deals **25** vital damage and **2 s** disable + snare to visible or detected enemies on activation, executes if target below **25%** vitals",
     "- ^ Destroys visible or detected devices on activation",
-    "& 0 Body, 25 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 0.0 Duration, 0.15 m/s Speed Penalty, Experimental: WIP"
   ],
   "Deadzone": [
     "- ^ Creates **16 m** disruptive field on activation",
     "- ^ While within field: Disable + snare to enemies + enemy devices, Shroud to allies",
     "- ^ Can attach to surfaces",
-    "& 0 Body, 20 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 30.0 Duration, 0.25 m/s Speed Penalty, Experimental: WIP"
   ],
   "Detonator": [
     "- ^ Deals **125-50** explosive damage + knockback to targets within **2-4 m** on activation",
     "- @ Can be disabled",
-    "& 0 Body, 0 Tech, 5 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 30.0 Cooldown, 0.0 Duration, 0.15 m/s Speed Penalty, Experimental: WIP"
   ],
   "Disrupter": [
     "- ^ **4 s** stun, + snare to targets within **6 m** on activation",
     "- ^ Can attach to surfaces + Shells",
-    "& 0 Body, 5 Tech, 5 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 0.0 Duration, 0.15 m/s Speed Penalty, Experimental: WIP"
   ],
   "Firecracker": [
     "- ^ Deals **25-15** explosive + **50-30** fire damage to targets within **2-3 m** + launches **10** incendiary projectiles on activation",
     "- ^ Incendiary projectile: Detonates after **1 s**, igniting surface + dealing **5** explosive + **5** fire damage to targets within **2 m**",
-    "& 0 Body, 0 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 7.5 Duration, 0.20 m/s Speed Penalty, Experimental: WIP"
   ],
   "Laser Wire": [
@@ -49,19 +49,19 @@
     "- ^ **2** charges",
     "- ^ Can attach to surfaces",
     "- @ Can be disabled",
-    "& 0 Body, 10 Tech, 5 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 60.0 Duration, 0.20 m/s Speed Penalty, Experimental: WIP"
   ],
   "Overcharge": [
     "- ^ While active: Disable immunity, **10%** increased ground speed, disable enemies + enemy devices within **4 m** for **2 s**",
-    "& 10 Body, 15 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 5.0 Duration, 0.20 m/s Speed Penalty, Experimental: WIP"
   ],
   "Proximity Mine": [
     "- ^ Deals **125-50** explosive damage, knockback + knockdown to targets within **2-5 m** on activation",
     "- ^ Can attach to surfaces + Shells",
     "- @ Can be disabled",
-    "& 0 Body, 5 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 30.0 Cooldown, 60.0 Duration, 0.15 m/s Speed Penalty, Experimental: WIP"
   ],
   "Relocator": [
@@ -70,31 +70,31 @@
     "- ^ **2 s** disable to enemies + devices within **4 m** on relocation",
     "- ^ Can attach to surfaces + Shells",
     "- @ Can be disabled",
-    "& 0 Body, 20 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 30.0 Cooldown, 60.0 Duration, 0.15 m/s Speed Penalty, Experimental: WIP"
   ],
   "Reserve Stim": [
     "- ^ **25** vitals restored on activation, chemical heal",
     "- ^ **5 s** bleed immunity if used while bleeding",
-    "& 15 Body, 0 Tech, 20 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 0.0 Duration, 0.15 m/s Speed Penalty, Experimental: WIP"
   ],
   "Satchel Charge": [
     "- ^ Deals **150-50** explosive damage, knockback + knockdown to targets within **2-5 m** on activation",
     "- ^ Can attach to surfaces + Shells",
     "- @ Can be disabled",
-    "& 10 Body, 5 Tech, 10 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 60.0 Duration, 0.30 m/s Speed Penalty, Experimental: WIP"
   ],
   "Shroud": [
     "- ^ While active: Undetectable by all equipment",
-    "& 10 Body, 10 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 30.0 Cooldown, 5.0 Duration, 0.25 m/s Speed Penalty, Experimental: WIP"
   ],
   "Shifter": [
     "- ^ While active: Relocate up to **3 m** in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air",
     "- ^ **100** vital damage + knockback to enemies within **1 m** of relocation",
-    "& 10 Body, 25 Tech, 0 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 5.0 Duration, 0.25 m/s Speed Penalty, Experimental: WIP"
   ],
   "Tempest": [
@@ -102,7 +102,7 @@
     "- ^ Clouds obscures vision + targeting systems",
     "- ^ While in contact with cloud: Detect + **1s** snare to enemies, **5 s** Overcharge to allies",
     "- @ Can be cleared with fire",
-    "& 0 Body, 10 Tech, 15 Hardware",
+    "& 0 Body, 0 Tech, 0 Hardware",
     "$ 45.0 Cooldown, 7.5 Duration, 0.25 m/s Speed Penalty, Experimental: WIP"
   ]
 }
