@@ -61,8 +61,7 @@
     "- @ **50%** reduced ground speed",
     "- @ **20 /s** AUX drain",
     "& Cripple",
-    "- $ Removes all aerial charges, maneuvers and the ability to climb",
-    "- $ **50%** increased ground speed reduction"
+    "- $ Removes all aerial charges, maneuvers and the ability to climb"
   ],
   "Test": [
     "- ^ upside",
