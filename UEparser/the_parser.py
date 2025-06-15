@@ -318,3 +318,58 @@ for skill_name, shell_data in skill_rows.items():
 with open("shells_db_test.json", "w", encoding="utf-8") as out_file:
     json.dump(shell_output, out_file, indent=2, ensure_ascii=False)
 print("Shell database shit workin")
+#----------------------------------------------------------faking toolips baybeeeeee-------------------------------
+spec_output = []
+
+for entry in wep_cat["DisplayNameMap"]:
+    key = entry["Key"]
+    spec = entry["Value"]["SourceString"]
+    if spec == "-":
+        continue
+    if spec == "Heavy Weapons":
+        spec_output.append({
+            "name": spec,
+            "tooltip": [
+                f"> <C>15%</> increased dexterity with {spec}",
+                f"> <C>25%</> reduced loadout speed penalty from {spec}",
+                f"> <C>25%</> reduced direct damage received from {spec}"
+            ]
+    })
+    elif spec == "Melee Weapons":
+        spec_output.append({
+            "name": spec,
+            "tooltip": [
+                f"> <C>15%</> increased dexterity with {spec}",
+                f"> <C>10%</> increased ground speed while using {spec}",
+                f"> <C>25%</> increased aux power regeneration while using {spec}"
+            ]
+    })
+    elif spec == "Devices":
+        spec_output.append({
+            "name": spec,
+            "tooltip": [
+                "> <C>100%</> reduced device speed penalties",
+                "> <C>25%</> increased device duration + throw velocity",
+                "> <C>25%</> reduced device cooldowns"
+            ]
+    })
+    elif spec == "Shells":
+        spec_output.append({
+            "name": spec,
+            "tooltip": [
+                "I'll be maneuvering my shell till it cores"
+            ]
+    })
+    else:
+        spec_output.append({
+            "name": spec,
+            "tooltip": [
+                f"> <C>15%</> increased dexterity with {spec}",
+                f"> <C>100%</> additional reserve ammo for {spec}",
+                f"> <C>100%</> additional reserve ammo for non loadout {spec}"
+            ]
+    })
+        
+with open("specialisations_db_test.json", "w", encoding="utf-8") as out_file:
+    json.dump(spec_output, out_file, indent=2, ensure_ascii=False)
+print("Spectz database shit faked")
