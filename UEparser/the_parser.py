@@ -161,7 +161,7 @@ for skill_name, data in skill_rows.items():
         "stats": {
             "cooldown": cooldown,
             "duration": duration,
-            "penalty": speed_pen
+            "speed_penalty": speed_pen / 100
         },
         "foundations": {
             "type": found_type,
@@ -209,46 +209,44 @@ for skill_name, data in skill_rows.items():
     fire_name = weapon_mode_to_value.get(fire_key, fire_key)
 
     stats = {
-        "ID": weapon_stat.get("ID_164_1DF0FD0E430EA7E965B389963917762B", 0),
-        "Weapon Type": weapon_stat.get("Class_165_71C2F5264EA07AE77DDE398BD5729CD0", 0),
-        "Slot": slot_name,
-        "Category": cat_name,
-        "Firemode": fire_name,
-        "Firerate": f"{weapon_stat.get('roundsPerMinute_88_9A62D92546A54AF5B9BD9CA681C99779', 0)}",
-        "Near Damage": damage_section.get("DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C", 0),
-        "Far Damage": damage_section.get("DamageFar_31_9A92287545630DA083AAA18D6F6D52B2", 0),
-        "Range": f"{damage_section.get('RangeNear_32_7051C33A45ED3E81881748AF79D60E71', 0)} - {damage_section.get('RangeFar_33_9FC06C8A49BBBCDC074BDEBAF8F978BB', 0)}",
-        "Headshot Multiplier": f"{damage_section.get('HeadMultiplier_18_6AC23285474D12C7B9B9C9B43C915FE8', 0)}",
-        "Limb Multiplier": f"{damage_section.get('LimbMultiplier_36_F099D86241C4A7BDF8FC47849F76F552', 0)}",
-        "Penetration": f"{weapon_stat.get('penetrationPower_18_B8E8BDFC45F3DFA9B84410AEEF7CF3DE', 0)}",
-        "Velocity": f"{weapon_stat.get('muzzleVelocity_20_0A3F52FD4DB2E8D23F8E05A26A11E7BA', 0)}",
-        "Vertical Recoil": weapon_stat.get("recoilVertical_14_8D17013D41FC3D7BB68C2E816F8B69C7", 0),
-        "Horizontal Recoil": weapon_stat.get("recoilHorizonal_16_562990B74D7D4F4DDCF429942D1839C5", 0),
-        "Time to ADS": f"{weapon_stat.get('aimTime_34_F110FBC149382F201D7A3C9AA8BE8D17', 0)}",
-        "Hipfire Spread": f"{weapon_stat.get('hipSpread_92_F512DB8F4AA38F47776755B509674FDB', 0)}",
-        "ADS Spread": f"{weapon_stat.get('aimSpread_93_4DB54D3B45DEEA9F6DBF20B24D661F94', 0)}",
-        "Spread Gain": f"{weapon_stat.get('spreadGain_135_D194D65F441D7033F8F0E89B097BD9ED', 0)}",
-        "Speed Penalty": f"{weapon_stat.get('speedModifier_75_CA08E44842050D047DB75CA31280BE88', 0)}"
+        "id": weapon_stat.get("ID_164_1DF0FD0E430EA7E965B389963917762B", 0),
+        "type": weapon_stat.get("Class_165_71C2F5264EA07AE77DDE398BD5729CD0", 0),
+        "slot": slot_name,
+        "category": cat_name,
+        "firemode": fire_name,
+        "firerate": f"{weapon_stat.get('roundsPerMinute_88_9A62D92546A54AF5B9BD9CA681C99779', 0)}",
+        "damage_near": damage_section.get("DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C", 0),
+        "damage_far": damage_section.get("DamageFar_31_9A92287545630DA083AAA18D6F6D52B2", 0),
+        "range": f"{damage_section.get('RangeNear_32_7051C33A45ED3E81881748AF79D60E71', 0)} - {damage_section.get('RangeFar_33_9FC06C8A49BBBCDC074BDEBAF8F978BB', 0)}",
+        "head_mult": f"{damage_section.get('HeadMultiplier_18_6AC23285474D12C7B9B9C9B43C915FE8', 0)}",
+        "limb_mult": f"{damage_section.get('LimbMultiplier_36_F099D86241C4A7BDF8FC47849F76F552', 0)}",
+        "penetration": f"{weapon_stat.get('penetrationPower_18_B8E8BDFC45F3DFA9B84410AEEF7CF3DE', 0)}",
+        "velocity": f"{weapon_stat.get('muzzleVelocity_20_0A3F52FD4DB2E8D23F8E05A26A11E7BA', 0) / 100}",
+        "recoil_vert": weapon_stat.get("recoilVertical_14_8D17013D41FC3D7BB68C2E816F8B69C7", 0),
+        "recoil_hor": weapon_stat.get("recoilHorizonal_16_562990B74D7D4F4DDCF429942D1839C5", 0),
+        "aim_time": f"{weapon_stat.get('aimTime_34_F110FBC149382F201D7A3C9AA8BE8D17', 0)}",
+        "spread_hip": f"{weapon_stat.get('hipSpread_92_F512DB8F4AA38F47776755B509674FDB', 0)}",
+        "spread_ads": f"{weapon_stat.get('aimSpread_93_4DB54D3B45DEEA9F6DBF20B24D661F94', 0)}",
+        "spread_gain": f"{weapon_stat.get('spreadGain_135_D194D65F441D7033F8F0E89B097BD9ED', 0)}",
+        "speed_penalty": f"{weapon_stat.get('speedModifier_75_CA08E44842050D047DB75CA31280BE88', 0) / 100}"
     }
 
     if (val := weapon_stat.get("burstCount_125_4B49DFE84C24E8AA5A63B7B6983618D1")) not in [0, 0.0, False, ""]:
-        stats["Burst Count"] = val
+        stats["burst_count"] = val
     if (val := weapon_stat.get("burstDelay_152_D2A7BF0742680DCB3E9BE381C99B9BFC")) not in [0, 0.0, False, ""]:
-        stats["Burst Delay"] = f"{val}"
+        stats["burst_delay"] = f"{val}"
     if (val := weapon_stat.get("spinUpDuration_114_42F529AD41ADDCCCDB0ED0915E8BCCEC")) not in [0, 0.0, False, ""]:
-        stats["Spinup"] = f"{val}s"
+        stats["spinup"] = f"{val}s"
     if (val := weapon_stat.get("usesAmmo_109_C8A226E545A12A663A1AF398568E1897")) not in [0, 0.0, True, ""]:
-        stats["Infinite Ammo"] = True
+        stats["ammo_infinite"] = True
     if (val := weapon_stat.get("ammoCapacity_37_C66372EB4769BC9D909A6CA771FD33A0")) not in [0, 0.0, False, ""]:
-        stats["Ammo Capacity"] = val
+        stats["ammo_capacity"] = val
     if (val := weapon_stat.get("reloadSpeed_42_4B9E289B467B258218AE298E52A1B0E3")) not in [0, 0.0, False, ""]:
-        stats["Reload Duration"] = f"{val}"
+        stats["reload_duration"] = f"{val}"
     if (val := weapon_stat.get("rechamberDuration_121_DA9C2951452609B501BB76B185DE3800")) not in [0, 0.0, False, ""]:
-        stats["Rechamber Duration"] = f"{val}"
+        stats["rechamber_duration"] = f"{val}"
     if (val := weapon_stat.get("singleReload_128_E69294BE4B79448A0BAC2AB62561973D")) not in [0, 0.0, False, ""]:
-        stats["One by One Reload"] = True
-    if (val := damage_section.get("BleedMultiplier_27_0D5F760E45CA9912594F6787BD30615F")) not in [1, 1.0, False, ""]:
-        stats["Bleed Multiplier"] = f"{val}"
+        stats["one_by_one_reload"] = True
 
     weapon_output.append({
         "name": weapon_name,
@@ -263,3 +261,60 @@ with open("weapons_db_test.json", "w", encoding="utf-8") as out_file:
     json.dump(weapon_output, out_file, indent=2, ensure_ascii=False)
 
 print("Weapon database shit workin")
+#-------------------------------------------------------------------Shellfish----------------------
+shell_output = []
+
+for skill_name, shell_data in skill_rows.items():
+    shell_enum = shell_data.get("ShellID_20_E0F2764D41C112BEE1BFEA864FA45992")
+    if not shell_enum or shell_enum not in shell_id_to_name:
+        continue
+
+    shell_name = shell_id_to_name[shell_enum]
+    tooltips = shell_data.get("Tooltip_54_1E2214584583FA289C1781AA8CE4153E", [])
+    if not tooltips:
+        continue
+
+    tooltip_text = tooltips[-1]["LocalizedString"]
+    lines = [
+        line.strip()
+        for line in tooltip_text.strip().splitlines()
+        if line.strip()
+    ]
+
+    shell_stat = shell_stats.get(shell_name, {})
+    vit = shell_stat.get("health_46_8D62C6074CE3721B91A1A1A352B1DAAA", 0)
+    defe = shell_stat.get("armour_40_6774162D445FCEB1CEEC26A0CC5BE55F", 0)
+    sped = shell_stat.get("speedModifier_32_2C4926ED42431993DD4F01B0F07F8908", 0)
+    core = shell_stat.get("coreSpeed_49_16E1B3544598A2B32ABC7EB0BF430FCF", 0)
+    rdr = shell_stat.get("radarRange_43_14DB15624ACE3BC2575EE191D41E0BDE", 0)
+
+    found = skill_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+    if (found == "ENUM_Foundation::NewEnumerator0"):
+        found_type = "body"
+    elif (found == "ENUM_Foundation::NewEnumerator1"):
+        found_type = "tech"
+    elif (found == "ENUM_Foundation::NewEnumerator2"):
+        found_type = "hardware"
+    else:
+        found_type = "other"
+    req = skill_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
+
+    shell_output.append({
+        "name": shell_name,
+        "tooltip": lines,
+        "stats": {
+            "vitals": vit,
+            "defense": defe,
+            "speed_penalty": sped / 100,
+            "core_speed": core,
+            "radar_range": rdr / 100
+        },
+        "foundations": {
+            "type": found_type,
+            "value": req
+        }
+    })
+
+with open("shells_db_test.json", "w", encoding="utf-8") as out_file:
+    json.dump(shell_output, out_file, indent=2, ensure_ascii=False)
+print("Shell database shit workin")

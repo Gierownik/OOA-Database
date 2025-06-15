@@ -10,7 +10,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 60.0,
-      "penalty": 35.0
+      "speed_penalty": 0.35
     },
     "foundations": {
       "type": "tech",
@@ -26,7 +26,7 @@
     "stats": {
       "cooldown": 60.0,
       "duration": 5.0,
-      "penalty": 40.0
+      "speed_penalty": 0.4
     },
     "foundations": {
       "type": "tech",
@@ -42,7 +42,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 0.0,
-      "penalty": 15.0
+      "speed_penalty": 0.15
     },
     "foundations": {
       "type": "tech",
@@ -59,7 +59,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 30.0,
-      "penalty": 25.0
+      "speed_penalty": 0.25
     },
     "foundations": {
       "type": "tech",
@@ -75,7 +75,7 @@
     "stats": {
       "cooldown": 30.0,
       "duration": 0.0,
-      "penalty": 15.0
+      "speed_penalty": 0.15
     },
     "foundations": {
       "type": "tech",
@@ -91,7 +91,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 0.0,
-      "penalty": 15.0
+      "speed_penalty": 0.15
     },
     "foundations": {
       "type": "tech",
@@ -107,7 +107,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 7.5,
-      "penalty": 20.0
+      "speed_penalty": 0.2
     },
     "foundations": {
       "type": "tech",
@@ -125,7 +125,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 60.0,
-      "penalty": 20.0
+      "speed_penalty": 0.2
     },
     "foundations": {
       "type": "tech",
@@ -140,7 +140,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 5.0,
-      "penalty": 20.0
+      "speed_penalty": 0.2
     },
     "foundations": {
       "type": "tech",
@@ -157,7 +157,7 @@
     "stats": {
       "cooldown": 30.0,
       "duration": 60.0,
-      "penalty": 15.0
+      "speed_penalty": 0.15
     },
     "foundations": {
       "type": "tech",
@@ -176,7 +176,7 @@
     "stats": {
       "cooldown": 30.0,
       "duration": 60.0,
-      "penalty": 15.0
+      "speed_penalty": 0.15
     },
     "foundations": {
       "type": "tech",
@@ -192,7 +192,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 0.0,
-      "penalty": 15.0
+      "speed_penalty": 0.15
     },
     "foundations": {
       "type": "tech",
@@ -209,7 +209,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 60.0,
-      "penalty": 30.0
+      "speed_penalty": 0.3
     },
     "foundations": {
       "type": "tech",
@@ -224,7 +224,7 @@
     "stats": {
       "cooldown": 30.0,
       "duration": 5.0,
-      "penalty": 25.0
+      "speed_penalty": 0.25
     },
     "foundations": {
       "type": "tech",
@@ -240,7 +240,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 5.0,
-      "penalty": 25.0
+      "speed_penalty": 0.25
     },
     "foundations": {
       "type": "tech",
@@ -258,7 +258,7 @@
     "stats": {
       "cooldown": 45.0,
       "duration": 7.5,
-      "penalty": 25.0
+      "speed_penalty": 0.25
     },
     "foundations": {
       "type": "tech",
