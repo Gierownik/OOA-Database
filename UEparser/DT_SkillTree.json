@@ -1073,8 +1073,8 @@
           {
             "Namespace": "",
             "Key": "90DB6320413546022E35F2AE4902AB91",
-            "SourceString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> <C>25%</> increased reload speed\r\n> <C>50%</> increased damage with the last round of a magazine on swap\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>",
-            "LocalizedString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> <C>25%</> increased reload speed\r\n> <C>50%</> increased damage with the last round of a magazine on swap\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>"
+            "SourceString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>",
+            "LocalizedString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>"
           }
         ]
       },
