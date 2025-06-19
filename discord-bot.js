@@ -124,12 +124,6 @@ function createAugmentEmbed(augmentName, effects) {
         });
     }
     
-    if (foundation.length > 0) {
-        embed.addFields({
-            name: '⚙ Foundations',
-            value: foundation.map(cleanEffect).join('\n')
-        });
-    }
 
     return embed;
 }
@@ -164,12 +158,6 @@ function createGunEmbed(weaponName, stats) {
             embed.addFields({
                 name: '🔧 Stats',
                 value: Mainstats.map(cleanStat).join('\n')
-            });
-        }
-        if (Mainstats.length > 0) {
-            embed.addFields({
-                name: '⚙ Foundations',
-                value: foundation.map(cleanStat).join('\n')
             });
         }
     return embed;
@@ -231,13 +219,6 @@ function createDeviceEmbed(deviceName, devstats) {
                 value: neutralStats.map(cleanStats).join('\n')
             });
         }
-        
-        if (foundation.length > 0) {
-            embed.addFields({
-                name: '⚙ Foundations',
-                value: foundation.map(cleanStats).join('\n')
-            });
-        }
     
         return embed;
 }
@@ -285,13 +266,6 @@ function createShellEmbed(shellName, stats) {
                 value: entries.map(cleanStat).join('\n')
             });
         }
-    }
-
-    if (foundation.length > 0) {
-        embed.addFields({
-            name: '⚙ Foundations',
-            value: foundation.map(cleanStat).join('\n')
-        });
     }
 
     return embed;
