@@ -58,7 +58,7 @@
     "<B>> Can be disabled</>",
     ":: <D>Disruptive Measures</>",
     "> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active",
-    "> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</>",
+    "> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive",
     "> Neuro-link 'Breach' on core activation: Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
     "Vitals: 100.0",
     "Defense: 100.0",

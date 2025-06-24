@@ -13,7 +13,7 @@
     "- ^ Activates on receiving chemical heal, **50%** of the heal amount converted to duration, up to **15 s**",
     "- ^ **50%** increased Stim use speed",
     "- ^ **35%** reduced direct damage to vitals while active",
-    "- ^ **50%** increased Core + Aux power regeneration while active",
+    "- ^ **50%** increased Core + aux power regeneration while active",
     "- ^ **15%** increased ground speed while active",
     "- @ Detox cooldown on activation, increasing by **25%** of duration for each activation, up to **30 s**",
     "- @  **25** vital damage received on activation while detox on cooldown",
@@ -117,6 +117,14 @@
     "- ^ Explosives deal chemical damage + apply corrode for **2 s**",
     "- ^ All sources of corrode cause necrosis: **50%** of attempted vitals restoration dealt as chemical damage",
     "- @  **25%** reduced explosive damage radius",
+    "& 0 Body, 0 Tech, 0 Hardware"
+  ],
+  "Close Minded": [
+    "- ^ **50%** reduced firearm spread + recoil while ADS with ironsights.",
+    "- ^ **25%** increased ground speed + Core generation while using backup weapons with enemies within **5 m**",
+    "- ^ **25%** reduced firearm + backup weapon damage received within **5 m**",
+    "- @  **25%** reduced firearm far damage range",
+    "- @  **25%** increased direct damage received beyond **5 m** while using backup weapons",
     "& 0 Body, 0 Tech, 0 Hardware"
   ],
   "Combat Core": [
