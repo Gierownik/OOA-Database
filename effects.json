@@ -55,7 +55,7 @@
     "- @ Disables optical camouflage"
   ],
   "Shroud": [
-    "- ^ Immunity to: detections, thermals, locks"
+    "- ^ Immunity to: radar, detections, thermals, locks"
   ],
   "Snare": [
     "- @ **50%** reduced ground speed",
