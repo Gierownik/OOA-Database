@@ -145,7 +145,7 @@ for skill_name, data in skill_rows.items():
     duration = device_stat.get("duration_19_CADCF2D5460AE568CE1A9A8875DBE004", 0)
     speed_pen = device_stat.get("speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316", 0)
 
-    found = skill_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+    found = data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
     if (found == "ENUM_Foundation::NewEnumerator0"):
         found_type = "body"
     elif (found == "ENUM_Foundation::NewEnumerator1"):
@@ -154,14 +154,32 @@ for skill_name, data in skill_rows.items():
         found_type = "hardware"
     else:
         found_type = "other"
-    req = skill_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
+    act = device_stat.get("action_57_9ACD9FD14A212852B1FFB8BB602B1D47")
+    if (act == "ENUM_DeviceAction::NewEnumerator0"):
+        action = "Throw"
+    elif (act == "ENUM_DeviceAction::NewEnumerator1"):
+        action = "Launch"
+    elif (act == "ENUM_DeviceAction::NewEnumerator2"):
+        action = "Activate"
+    else:
+        action = "Deploy"
+    
+    exp = data.get("Prerequisite_46_1618947F4F88562C70609FAE0671C5E9", 0)
+    if (exp == "ENUM_PerkID::NewEnumerator17"):
+        experimental = "Yes"
+    else:
+        experimental = "No"
+    
+    req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
 
     device_output.append({
         "name": device_name,
         "tooltip": lines,
+        "experimental": experimental,
         "stats": {
             "cooldown": cooldown,
             "duration": duration,
+            "action": action,
             "speed_penalty": speed_pen / 100
         },
         "foundations": {
