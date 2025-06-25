@@ -598,8 +598,8 @@
           {
             "Namespace": "",
             "Key": "0DAF1DAA4EFF406266CBF7A7AB0F0735",
-            "SourceString": "> Absorbs fatal bleed damage, <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal, <C>20 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>defense restored from all sources</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> Absorbs fatal bleed damage, <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal, <C>20 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>defense restored from all sources</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>defense restored from all sources</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>defense restored from all sources</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -611,14 +611,14 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
-        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "7E4F27EE405DD324F1797E82D5B7CE92",
-            "SourceString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed, no longer restores vitals or applies hemostasis if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>",
-            "LocalizedString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed, no longer restores vitals or applies hemostasis if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>"
+            "SourceString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>25</> vitals restored on visible bleeding enemy kill with firearms while bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>",
+            "LocalizedString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>25</> vitals restored on visible bleeding enemy kill with firearms while bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>"
           }
         ]
       },
@@ -820,7 +820,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
-        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
@@ -845,8 +845,8 @@
           {
             "Namespace": "",
             "Key": "FC56933E48A413BE2AEC11B5EDD898D8",
-            "SourceString": "> Automatically relocate to a previous location on receiving fatal damage, <C>60 s</> cooldown\r\n> <C>25%</> vitals + defense restored on activation\r\n> Debuffs cleared on activation\r\n<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can be disabled</>\r\n",
-            "LocalizedString": "> Automatically relocate to a previous location on receiving fatal damage, <C>60 s</> cooldown\r\n> <C>25%</> vitals + defense restored on activation\r\n> Debuffs cleared on activation\r\n<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can be disabled</>\r\n"
+            "SourceString": "> Automatically relocate to a previous location on receiving fatal damage\r\n> <C>25%</> vitals + defense restored on activation\r\n> Debuffs cleared on activation\r\n<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Automatically relocate to a previous location on receiving fatal damage\r\n> <C>25%</> vitals + defense restored on activation\r\n> Debuffs cleared on activation\r\n<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -902,8 +902,8 @@
           {
             "Namespace": "",
             "Key": "C0E833164F4F02519DF017AB21CBC231",
-            "SourceString": "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade\r\n> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade\r\n> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade\r\n<B>></> <C>0.7%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>",
-            "LocalizedString": "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade\r\n> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade\r\n> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade\r\n<B>></> <C>0.7%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>\r\n<B>></> <C>0.7%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>"
+            "SourceString": "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade\r\n> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade\r\n> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade\r\n<B>></> <C>0.5%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>\r\n<B>></> <C>0.5%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>\r\n<B>></> <C>0.5%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>",
+            "LocalizedString": "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade\r\n> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade\r\n> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade\r\n<B>></> <C>0.5%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>\r\n<B>></> <C>0.5%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>\r\n<B>></> <C>0.5%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>"
           }
         ]
       },
@@ -1016,8 +1016,8 @@
           {
             "Namespace": "",
             "Key": "D19F7CC649C5A99F8BB730B42FCBF9C6",
-            "SourceString": "> <C>0-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>\r\n<B>> Prevents max vitals restoration</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed, dexterity, aux power + defense regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>",
-            "LocalizedString": "> <C>0-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>\r\n<B>> Prevents max vitals restoration</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed, dexterity, aux power + defense regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>"
+            "SourceString": "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>\r\n<B>> Prevents max vitals restoration</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>",
+            "LocalizedString": "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>\r\n<B>> Prevents max vitals restoration</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>"
           }
         ]
       },

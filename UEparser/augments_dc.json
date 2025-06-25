@@ -73,7 +73,7 @@
     "- @ Can be disabled"
   ],
   "Auxiliary Vitals": [
-    "- ^ Absorbs fatal bleed damage, **25** vitals restored + bleed immunity for **2.5 s** on activation, chemical heal, **20 s** cooldown",
+    "- ^ On receiving fatal bleed damage or Core activation: **25** vitals restored + bleed immunity for **2.5 s**, chemical heal, **10 s** cooldown",
     "- ^ **5** vitals restored every **0.5 s** while bleed immunity from chemical heals active",
     "- @  **25%** defense restored from all sources",
     "- @  **0.25 m/s** reduced ground speed"
@@ -81,9 +81,10 @@
   "Bloodsport": [
     "- ^ Bleeding enemies within **30 m** are detected while bleeding",
     "- ^ **50-25%** of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from **2.5-5 m**",
+    "- ^ **25** vitals restored on visible bleeding enemy kill with firearms while bleeding",
     "- ^ **15%** increased ground speed while bleeding",
     "- ^ **50%** reduced aux power drain while bleeding",
-    "- @ Primary stim causes bleed, no longer restores vitals or applies hemostasis if used while not bleeding",
+    "- @ Primary stim causes bleed if used while not bleeding",
     "- @  **50%** increased bleed damage received"
   ],
   "Caustic": [
@@ -154,12 +155,13 @@
     "- @  **0-100%** increased direct damage received while active, scaling proportionally with duration active from **0-5 s**"
   ],
   "Disengage": [
-    "- ^ Automatically relocate to a previous location on receiving fatal damage, **60 s** cooldown",
+    "- ^ Automatically relocate to a previous location on receiving fatal damage",
     "- ^ **25%** vitals + defense restored on activation",
     "- ^ Debuffs cleared on activation",
     "- @  **75%** reduced max vitals + defense on activation",
     "- @  **50%** reduced Core charge on activation",
     "- @ Fatal explosive or telefrag damage prevents activation",
+    "- @ Can only activate once",
     "- @ Can be disabled"
   ],
   "Dispersal": [
@@ -178,9 +180,9 @@
     "- ^ **0.7%** reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade",
     "- ^ **0.7%** increased aux power regeneration + radar range for each Tech foundation upgrade",
     "- ^ **0.7%** reduced firearm recoil + ADS spread for each Hardware foundation upgrade",
-    "- @  **0.7%** reduced knockback resistance + climb speed for each Body foundation upgrade",
-    "- @  **0.7%** increased detectable range + direct damage received while disabled for each Tech foundation upgrade",
-    "- @  **0.7%** reduced bleed immunity + device duration for each Hardware foundation upgrade"
+    "- @  **0.5%** reduced knockback resistance + climb speed for each Body foundation upgrade",
+    "- @  **0.5%** increased detectable range + direct damage received while disabled for each Tech foundation upgrade",
+    "- @  **0.5%** reduced bleed immunity + device duration for each Hardware foundation upgrade"
   ],
   "Experimental": [
     "- ^ Can equip experimental devices",
@@ -217,10 +219,11 @@
     "- @  **0.25 m/s** reduced ground speed"
   ],
   "Hardened": [
-    "- ^ **0-75%** reduced direct vitals damage received, scaling proportionally with reduced max vitals from **0-75%**",
+    "- ^ **25-75%** reduced direct vitals damage received, scaling proportionally with reduced max vitals from **0-75%**",
     "- @  **100%** of vitals damage received reduces max vitals",
     "- @ Prevents max vitals restoration",
-    "- @  **0-50%** reduced ground speed, dexterity, aux power + defense regeneration, scaling proportionally with reduced max vitals from **0-75%**"
+    "- @  **0-50%** reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from **0-75%**",
+    "- @  **50%** increased burn damage received"
   ],
   "Headhunter": [
     "- ^ **0.25x** additional headshot damage multiplier",

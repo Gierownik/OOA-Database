@@ -16,11 +16,11 @@
       "> <C>0-25%</> Reduced Core activation cost scaling proportionally with remaining vitals from <C>100-50%</>"
     ],
     "stats": {
-      "vitals": 150.0,
-      "defense": 150.0,
-      "speed_penalty": 0.5,
-      "core_speed": 0.8,
-      "radar_range": 15.0
+      "vitals": 0,
+      "defense": 0,
+      "speed_penalty": 0.0,
+      "core_speed": 0,
+      "radar_range": 0.0
     },
     "foundations": {
       "type": "tech",
@@ -47,11 +47,11 @@
       "> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown"
     ],
     "stats": {
-      "vitals": 100.0,
-      "defense": 100.0,
-      "speed_penalty": 1.0,
-      "core_speed": 0.7,
-      "radar_range": 20.0
+      "vitals": 0,
+      "defense": 0,
+      "speed_penalty": 0.0,
+      "core_speed": 0,
+      "radar_range": 0.0
     },
     "foundations": {
       "type": "tech",
@@ -80,11 +80,11 @@
       "> Neuro-link 'Breach' on core activation: Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
     ],
     "stats": {
-      "vitals": 100.0,
-      "defense": 100.0,
+      "vitals": 0,
+      "defense": 0,
       "speed_penalty": 0.0,
-      "core_speed": 0.8,
-      "radar_range": 10.0
+      "core_speed": 0,
+      "radar_range": 0.0
     },
     "foundations": {
       "type": "tech",
@@ -112,11 +112,11 @@
       "> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
     ],
     "stats": {
-      "vitals": 100.0,
-      "defense": 150.0,
-      "speed_penalty": 1.5,
-      "core_speed": 0.75,
-      "radar_range": 20.0
+      "vitals": 0,
+      "defense": 0,
+      "speed_penalty": 0.0,
+      "core_speed": 0,
+      "radar_range": 0.0
     },
     "foundations": {
       "type": "tech",
@@ -142,11 +142,11 @@
       "> Damage taken to vitals is restored to defense when defense regeneration resumes"
     ],
     "stats": {
-      "vitals": 150.0,
-      "defense": 200.0,
-      "speed_penalty": 2.0,
-      "core_speed": 0.7,
-      "radar_range": 25.0
+      "vitals": 0,
+      "defense": 0,
+      "speed_penalty": 0.0,
+      "core_speed": 0,
+      "radar_range": 0.0
     },
     "foundations": {
       "type": "tech",

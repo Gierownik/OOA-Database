@@ -145,7 +145,7 @@
   {
     "name": "Auxiliary Vitals",
     "tooltip": [
-      "> Absorbs fatal bleed damage, <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal, <C>20 s</> cooldown",
+      "> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown",
       "> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active",
       "<B>></> <C>25%</> <B>defense restored from all sources</>",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
@@ -160,14 +160,15 @@
     "tooltip": [
       "> Bleeding enemies within <C>30 m</> are detected while bleeding",
       "> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>",
+      "> <C>25</> vitals restored on visible bleeding enemy kill with firearms while bleeding",
       "> <C>15%</> increased ground speed while bleeding",
       "> <C>50%</> reduced aux power drain while bleeding",
-      "<B>> Primary stim causes bleed, no longer restores vitals or applies hemostasis if used while not bleeding</>",
+      "<B>> Primary stim causes bleed if used while not bleeding</>",
       "<B>></> <C>50%</> <B>increased bleed damage received</>"
     ],
     "foundations": {
       "type": "body",
-      "value": 10
+      "value": 25
     }
   },
   {
@@ -311,18 +312,19 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 25
+      "value": 20
     }
   },
   {
     "name": "Disengage",
     "tooltip": [
-      "> Automatically relocate to a previous location on receiving fatal damage, <C>60 s</> cooldown",
+      "> Automatically relocate to a previous location on receiving fatal damage",
       "> <C>25%</> vitals + defense restored on activation",
       "> Debuffs cleared on activation",
       "<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>",
       "<B>></> <C>50%</> <B>reduced Core charge on activation</>",
       "<B>> Fatal explosive or telefrag damage prevents activation</>",
+      "<B>> Can only activate once</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -362,9 +364,9 @@
       "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade",
       "> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade",
       "> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade",
-      "<B>></> <C>0.7%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>",
-      "<B>></> <C>0.7%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>",
-      "<B>></> <C>0.7%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>"
+      "<B>></> <C>0.5%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>",
+      "<B>></> <C>0.5%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>",
+      "<B>></> <C>0.5%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>"
     ],
     "foundations": {
       "type": "body",
@@ -443,10 +445,11 @@
   {
     "name": "Hardened",
     "tooltip": [
-      "> <C>0-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>",
+      "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>",
       "<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>",
       "<B>> Prevents max vitals restoration</>",
-      "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity, aux power + defense regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>"
+      "<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>",
+      "<B>></> <C>50%</> <B>increased burn damage received</>"
     ],
     "foundations": {
       "type": "body",
