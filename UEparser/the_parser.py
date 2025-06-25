@@ -16,7 +16,8 @@ with open("DT_WeaponData.json", "r", encoding="utf-8") as f:
     weapon_data = json.load(f)
 with open("DT_ShellData.json", "r", encoding="utf-8") as f:
     shell_data = json.load(f)
-
+with open("DT_AttachmentData.json", "r", encoding="utf-8") as f:
+    shell_data = json.load(f)
 with open("ENUM_WeaponClass.json", "r", encoding="utf-8") as f:
     weapon_class = json.load(f)
 with open("ENUM_Category.json", "r", encoding="utf-8") as f:
