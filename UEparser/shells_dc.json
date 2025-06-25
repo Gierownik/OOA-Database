@@ -16,8 +16,7 @@
     "Defense: **150.0**",
     "Base Speed: **7.5** m/s",
     "Core Speed: **80.0**%",
-    "Radar detection range: **15.0** m",
-    "& 0 Body, 0 Tech, 0 Hardware"
+    "Radar detection range: **15.0** m"
   ],
   "Hydra": [
     "**:: Adrenal Feedback**",
@@ -39,8 +38,7 @@
     "Defense: **100.0**",
     "Base Speed: **7.0** m/s",
     "Core Speed: **70.0**%",
-    "Radar detection range: **20.0** m",
-    "& 0 Body, 0 Tech, 0 Hardware"
+    "Radar detection range: **20.0** m"
   ],
   "Ghost": [
     "**:: Tactical Camouflage**",
@@ -64,8 +62,7 @@
     "Defense: **100.0**",
     "Base Speed: **8.0** m/s",
     "Core Speed: **80.0**%",
-    "Radar detection range: **10.0** m",
-    "& 0 Body, 0 Tech, 0 Hardware"
+    "Radar detection range: **10.0** m"
   ],
   "Dragon": [
     "**:: Drifter Jump-Pack**",
@@ -88,8 +85,7 @@
     "Defense: **150.0**",
     "Base Speed: **6.5** m/s",
     "Core Speed: **75.0**%",
-    "Radar detection range: **20.0** m",
-    "& 0 Body, 0 Tech, 0 Hardware"
+    "Radar detection range: **20.0** m"
   ],
   "Rhino": [
     "**:: Resilient Momentum**",
@@ -110,7 +106,6 @@
     "Defense: **200.0**",
     "Base Speed: **6.0** m/s",
     "Core Speed: **70.0**%",
-    "Radar detection range: **25.0** m",
-    "& 0 Body, 0 Tech, 0 Hardware"
+    "Radar detection range: **25.0** m"
   ]
 }

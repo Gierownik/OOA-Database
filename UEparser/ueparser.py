@@ -101,9 +101,6 @@ for skill_name, skill_data in skill_rows.items():
         tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
         hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
 
-        lines.extend([
-            f"& {body} Body, {tech} Tech, {hardware} Hardware",
-        ])
         perk_output[perk_name] = lines
 
 
@@ -137,7 +134,6 @@ for skill_name, data in skill_rows.items():
     body = req.get("Body_10_68FBC6C34B6DDB19E010A9AB2419B88B", 0)
     tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
     hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
-    lines.append(f"& {body} Body, {tech} Tech, {hardware} Hardware")
 
 
     device_stat = device_stats.get(skill_name, {})
@@ -169,7 +165,6 @@ for skill_name, data in skill_rows.items():
     body = req.get("Body_10_68FBC6C34B6DDB19E010A9AB2419B88B", 0)
     tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
     hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
-    lines.append(f"& {body} Body, {tech} Tech, {hardware} Hardware")
 
 
     weapon_stat = weapon_stats.get(skill_name, {})
@@ -304,9 +299,6 @@ for shell_name, shell_data in skill_rows.items():
         tech = req.get("Tech_11_D9A98AA74B87F1DD6B0F43B4233753BC", 0)
         hardware = req.get("Hardware_12_9310D7DB447E651E58D0268CC41AC3B7", 0)
 
-        lines.extend([
-            f"& {body} Body, {tech} Tech, {hardware} Hardware",
-        ])
         shell_output[shell_name] = lines
 
 
