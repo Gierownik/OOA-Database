@@ -1206,8 +1206,8 @@
           {
             "Namespace": "",
             "Key": "7B33CE124DF4B6AC164ABE9679A52BB0",
-            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>5 s</> overcharge on Relocator relocation\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
-            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>5 s</> overcharge on Relocator relocation\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
+            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>5 s</> overcharge on Relocator relocation\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> Anchor restores aux power, aerial maneuver charges + clears snare on grab\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
+            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>5 s</> overcharge on Relocator relocation\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> Anchor restores aux power, aerial maneuver charges + clears snare on grab\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
           }
         ]
       },
@@ -1664,6 +1664,25 @@
             "Key": "3A4713D842EF210ACF74E7A979B27540",
             "SourceString": "> Engages closest visible enemy within <C>25 m</> on activation\r\n> Deals <C>20-10</> ballistic damage, <C>600 rpm</>, <C>50</> round capacity\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>",
             "LocalizedString": "> Engages closest visible enemy within <C>25 m</> on activation\r\n> Deals <C>20-10</> ballistic damage, <C>600 rpm</>, <C>50</> round capacity\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>"
+          }
+        ]
+      },
+      "Anchor": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator28",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "E223A85A439BA939B0A5FFB917E0D8B6",
+            "SourceString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Useable by allies\r\n> Can attach to surfaces + Shells",
+            "LocalizedString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Useable by allies\r\n> Can attach to surfaces + Shells"
           }
         ]
       },

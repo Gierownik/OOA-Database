@@ -20,6 +20,25 @@
     }
   },
   {
+    "name": "Anchor",
+    "tooltip": [
+      "> Can be used by Nano-wire to attach + pull towards location",
+      "> Useable by allies",
+      "> Can attach to surfaces + Shells"
+    ],
+    "experimental": "No",
+    "stats": {
+      "cooldown": 30.0,
+      "duration": 120.0,
+      "action": "Throw",
+      "speed_penalty": 0.15
+    },
+    "foundations": {
+      "type": "tech",
+      "value": 20
+    }
+  },
+  {
     "name": "Bolster",
     "tooltip": [
       "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
@@ -174,7 +193,7 @@
     ],
     "experimental": "No",
     "stats": {
-      "cooldown": 30.0,
+      "cooldown": 45.0,
       "duration": 60.0,
       "action": "Throw",
       "speed_penalty": 0.15
@@ -213,7 +232,7 @@
     ],
     "experimental": "No",
     "stats": {
-      "cooldown": 45.0,
+      "cooldown": 30.0,
       "duration": 0.0,
       "action": "Activate",
       "speed_penalty": 0.15
@@ -249,7 +268,7 @@
     ],
     "experimental": "No",
     "stats": {
-      "cooldown": 30.0,
+      "cooldown": 45.0,
       "duration": 5.0,
       "action": "Activate",
       "speed_penalty": 0.25

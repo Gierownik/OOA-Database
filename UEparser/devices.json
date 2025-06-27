@@ -6,6 +6,12 @@
     "<B>> Can be disabled</>",
     "$ 45.0 Cooldown, 60.0 Duration, 35.0 Speed Penalty, Experimental: WIP"
   ],
+  "Anchor": [
+    "> Can be used by Nano-wire to attach + pull towards location",
+    "> Useable by allies",
+    "> Can attach to surfaces + Shells",
+    "$ 30.0 Cooldown, 120.0 Duration, 15.0 Speed Penalty, Experimental: WIP"
+  ],
   "Bolster": [
     "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
     "<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>",
@@ -52,7 +58,7 @@
     "> Deals <C>125-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation",
     "> Can attach to surfaces + Shells",
     "<B>> Can be disabled</>",
-    "$ 30.0 Cooldown, 60.0 Duration, 15.0 Speed Penalty, Experimental: WIP"
+    "$ 45.0 Cooldown, 60.0 Duration, 15.0 Speed Penalty, Experimental: WIP"
   ],
   "Relocator": [
     "> Relocate to device location on activation",
@@ -65,7 +71,7 @@
   "Reserve Stim": [
     "> <C>25</> vitals restored on activation, chemical heal",
     "> <C>5 s</> bleed immunity if used while bleeding",
-    "$ 45.0 Cooldown, 0.0 Duration, 15.0 Speed Penalty, Experimental: WIP"
+    "$ 30.0 Cooldown, 0.0 Duration, 15.0 Speed Penalty, Experimental: WIP"
   ],
   "Satchel Charge": [
     "> Deals <C>150-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation",
@@ -75,7 +81,7 @@
   ],
   "Shroud": [
     "> While active: Undetectable by all equipment",
-    "$ 30.0 Cooldown, 5.0 Duration, 25.0 Speed Penalty, Experimental: WIP"
+    "$ 45.0 Cooldown, 5.0 Duration, 25.0 Speed Penalty, Experimental: WIP"
   ],
   "Shifter": [
     "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air",

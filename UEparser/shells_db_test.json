@@ -47,7 +47,7 @@
       "> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown"
     ],
     "stats": {
-      "vitals": 100.0,
+      "vitals": 150.0,
       "defense": 100.0,
       "speed_penalty": 1.0,
       "core_speed": 0.7,

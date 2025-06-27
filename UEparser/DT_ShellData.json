@@ -39,7 +39,7 @@
           "ObjectName": "Texture2D'UI_BodyOutline'",
           "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_BodyOutline.0"
         },
-        "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 100.0,
+        "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 150.0,
         "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 100.0,
         "speedModifier_32_2C4926ED42431993DD4F01B0F07F8908": 100.0,
         "coreSpeed_49_16E1B3544598A2B32ABC7EB0BF430FCF": 0.7,
