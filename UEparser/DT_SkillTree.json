@@ -560,8 +560,8 @@
           {
             "Namespace": "",
             "Key": "25B504B84A93A2602841668B532C9720",
-            "SourceString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>2 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>2 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1206,8 +1206,8 @@
           {
             "Namespace": "",
             "Key": "7B33CE124DF4B6AC164ABE9679A52BB0",
-            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>5 s</> overcharge on Relocator relocation\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> Anchor restores aux power, aerial maneuver charges + clears snare on grab\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
-            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>5 s</> overcharge on Relocator relocation\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> Anchor restores aux power, aerial maneuver charges + clears snare on grab\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
+            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
+            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
           }
         ]
       },
@@ -1453,8 +1453,8 @@
           {
             "Namespace": "",
             "Key": "EFCCFD77450D38D916362993C51C67F9",
-            "SourceString": "> Overcharge on disable: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received disable\r\n<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>",
-            "LocalizedString": "> Overcharge on disable: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received disable\r\n<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>"
+            "SourceString": "> Overcharge on receiving disable: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received disable\r\n<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>",
+            "LocalizedString": "> Overcharge on receiving disable: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received disable\r\n<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>"
           }
         ]
       },
@@ -1681,8 +1681,8 @@
           {
             "Namespace": "",
             "Key": "E223A85A439BA939B0A5FFB917E0D8B6",
-            "SourceString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Useable by allies\r\n> Can attach to surfaces + Shells",
-            "LocalizedString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Useable by allies\r\n> Can attach to surfaces + Shells"
+            "SourceString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores aux power, aerial maneuver charges + clears snare on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells",
+            "LocalizedString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores aux power, aerial maneuver charges + clears snare on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells"
           }
         ]
       },
@@ -1833,8 +1833,8 @@
           {
             "Namespace": "",
             "Key": "D0EF082C430C10ABC79592A632142240",
-            "SourceString": "> While active: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>",
-            "LocalizedString": "> While active: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>"
+            "SourceString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>",
+            "LocalizedString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>"
           }
         ]
       },

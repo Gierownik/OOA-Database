@@ -8,6 +8,7 @@
   ],
   "Anchor": [
     "> Can be used by Nano-wire to attach + pull towards location",
+    "> Restores aux power, aerial maneuver charges + clears snare on pull",
     "> Useable by allies",
     "> Can attach to surfaces + Shells",
     "$ 30.0 Cooldown, 120.0 Duration, 15.0 Speed Penalty, Experimental: WIP"
@@ -51,7 +52,7 @@
     "$ 45.0 Cooldown, 60.0 Duration, 20.0 Speed Penalty, Experimental: WIP"
   ],
   "Overcharge": [
-    "> While active: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>",
+    "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>",
     "$ 45.0 Cooldown, 5.0 Duration, 20.0 Speed Penalty, Experimental: WIP"
   ],
   "Proximity Mine": [

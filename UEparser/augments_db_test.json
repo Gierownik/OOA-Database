@@ -116,7 +116,7 @@
   {
     "name": "Augmented Nano-wire",
     "tooltip": [
-      "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>2 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown",
+      "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown",
       "> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>",
       "> <C>25%</> increased Nano-wire range",
       "<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>",
@@ -582,13 +582,13 @@
       "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration",
       "> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay",
       "> <C>25%</> additional Satchel charge damage as fire damage",
-      "> <C>5 s</> overcharge on Relocator relocation",
+      "> <C>60</> vitals + max vitals restored on Relocator use",
       "> <C>4 s</> stun to disabled enemies on Breach",
       "> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone",
       "> <C>25%</> increased AAP Turret range + ammo capacity",
       "> Laser wire beam no longer visible",
       "> Reserve stim becomes potent",
-      "> Anchor restores aux power, aerial maneuver charges + clears snare on grab",
+      "> <C>4 s</> overcharge on Anchor pull",
       "<B>></> <C>50%</> <B>Increased device cooldowns</>"
     ],
     "foundations": {
@@ -765,7 +765,7 @@
   {
     "name": "Reversal",
     "tooltip": [
-      "> Overcharge on disable: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received disable",
+      "> Overcharge on receiving disable: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received disable",
       "<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>"
     ],
     "foundations": {

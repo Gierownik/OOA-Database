@@ -316,7 +316,7 @@
       "firemode": "Chambered",
       "firerate": "200.0",
       "damage_near": 36.0,
-      "damage_far": 20.0,
+      "damage_far": 18.0,
       "range": "5.0 - 50.0",
       "head_mult": "1.25",
       "limb_mult": "0.7",

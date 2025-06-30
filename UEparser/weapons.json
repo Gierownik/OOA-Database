@@ -248,7 +248,7 @@
     "@ Rechamber Duration: 0.5s",
     "@ One by one reload: True",
     "@- Near Damage: 36.0",
-    "@- Far Damage: 20.0",
+    "@- Far Damage: 18.0",
     "@- Range: 5.0 - 50.0 m",
     "@- Headshot Multiplier: 1.25x",
     "@- Limb Multiplier: 0.7x",
