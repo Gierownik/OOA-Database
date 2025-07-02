@@ -55,10 +55,11 @@
     "- ^ **25-150%** increased jump speed, charged by holding jump while sliding, rolling or crouched",
     "- ^ **100%** reduced fall damage when landing on feet, slide or roll maneuvers",
     "- @ Charging jump drains aux power",
+    "- @ Snared while disabled",
     "- @ Can be disabled"
   ],
   "Augmented Nano-wire": [
-    "- ^ Nano-wire can attach to held enemy weapons pulling you toward them, snares for **4 s**, can disarm weapon during active Core or while enemy is knocked down, **5 s** cooldown",
+    "- ^ Nano-wire can attach to held enemy weapons pulling you toward them, snares for **4 s**, can disarm weapon during active Core or while enemy is knocked down",
     "- ^ Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for **0.5 s**",
     "- ^ **25%** increased Nano-wire range",
     "- @ Attaches to enemy heads + no longer disarms with Tether equipped",

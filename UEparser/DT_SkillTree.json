@@ -541,8 +541,8 @@
           {
             "Namespace": "",
             "Key": "97A222E54F033A144D0A248003835A8A",
-            "SourceString": "> <C>25%</> reduced loadout + movement speed penalties\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>25%</> reduced loadout + movement speed penalties\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>25%</> reduced loadout + movement speed penalties\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while disabled</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>25%</> reduced loadout + movement speed penalties\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while disabled</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -560,8 +560,8 @@
           {
             "Namespace": "",
             "Key": "25B504B84A93A2602841668B532C9720",
-            "SourceString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>"
           }
         ]
       },

@@ -106,6 +106,7 @@
       "> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling or crouched",
       "> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers",
       "<B>> Charging jump drains aux power</>",
+      "<B>> Snared while disabled</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -116,7 +117,7 @@
   {
     "name": "Augmented Nano-wire",
     "tooltip": [
-      "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down, <C>5 s</> cooldown",
+      "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down",
       "> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>",
       "> <C>25%</> increased Nano-wire range",
       "<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>",
