@@ -425,7 +425,7 @@ for entry in wep_cat["DisplayNameMap"]:
         spec_output.append({
             "name": spec,
             "tooltip": [
-                "I'll be smingusing my dingus till i zabka"
+                "Check shell tooltips"
             ]
     })
     else:
