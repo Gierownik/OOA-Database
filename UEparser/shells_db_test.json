@@ -18,9 +18,15 @@
     "stats": {
       "vitals": 150.0,
       "defense": 150.0,
-      "speed_penalty": 0.5,
+      "defense_regen": 15,
+      "defense_regen_delay": 1,
+      "aux_regen": 40,
+      "speed": 7.5,
+      "climb_penalty": 0.2,
+      "aerial_charges": 1,
       "core_speed": 0.8,
-      "radar_range": 15.0
+      "radar_profile": 15.0,
+      "specialisation": "> Activates after killing an enemy: <C>50%</> increased weapon accuracy, <C>25%</> increased speed + dexterity, for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown"
     },
     "foundations": {
       "type": "tech",
@@ -49,9 +55,15 @@
     "stats": {
       "vitals": 150.0,
       "defense": 100.0,
-      "speed_penalty": 1.0,
+      "defense_regen": 15,
+      "defense_regen_delay": 0,
+      "aux_regen": 35,
+      "speed": 7.0,
+      "climb_penalty": 0.25,
+      "aerial_charges": 1,
       "core_speed": 0.7,
-      "radar_range": 20.0
+      "radar_profile": 20.0,
+      "specialisation": "> Activates after killing an enemy: Gain an Adrenal Feedback stack every <C>20 s</>, stacking up to <C>5</> times"
     },
     "foundations": {
       "type": "tech",
@@ -82,9 +94,15 @@
     "stats": {
       "vitals": 100.0,
       "defense": 100.0,
-      "speed_penalty": 0.0,
+      "defense_regen": 10,
+      "defense_regen_delay": 1,
+      "aux_regen": 40,
+      "speed": 8.0,
+      "climb_penalty": 0.15,
+      "aerial_charges": 2,
       "core_speed": 0.8,
-      "radar_range": 10.0
+      "radar_profile": 10.0,
+      "specialisation": "> Activates after killing an enemy: Hip firing supressed firearms, throwing devices + interactions no longer deactivate camouflage"
     },
     "foundations": {
       "type": "tech",
@@ -114,9 +132,15 @@
     "stats": {
       "vitals": 100.0,
       "defense": 150.0,
-      "speed_penalty": 1.5,
+      "defense_regen": 10,
+      "defense_regen_delay": 1,
+      "aux_regen": 30,
+      "speed": 6.5,
+      "climb_penalty": 0.25,
+      "aerial_charges": 2,
       "core_speed": 0.75,
-      "radar_range": 20.0
+      "radar_profile": 20.0,
+      "specialisation": "> Activates after killing an enemy: Backdraft + Ground Slam deal <C>25%</> increased fire damage + apply combust"
     },
     "foundations": {
       "type": "tech",
@@ -144,9 +168,15 @@
     "stats": {
       "vitals": 150.0,
       "defense": 200.0,
-      "speed_penalty": 2.0,
+      "defense_regen": 10,
+      "defense_regen_delay": 1.5,
+      "aux_regen": 30,
+      "speed": 6.0,
+      "climb_penalty": 0.25,
+      "aerial_charges": 0,
       "core_speed": 0.7,
-      "radar_range": 25.0
+      "radar_profile": 25.0,
+      "specialisation": "> Activates after killing an enemy: Shockwave gains <C>50%</> increased debuff duration, incresed knockback force, applies stun + cripple"
     },
     "foundations": {
       "type": "tech",

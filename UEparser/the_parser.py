@@ -307,6 +307,49 @@ for skill_name, shell_data in skill_rows.items():
     core = shell_stat.get("coreSpeed_49_16E1B3544598A2B32ABC7EB0BF430FCF", 0)
     rdr = shell_stat.get("radarRange_43_14DB15624ACE3BC2575EE191D41E0BDE", 0)
 
+    if (shell_name == "Bison"):
+        defer = 15
+        deferd = 1
+        aux = 40
+        climb = 0.2
+        air = 1
+        spetz = "> Activates after killing an enemy: <C>50%</> increased weapon accuracy, <C>25%</> increased speed + dexterity, for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown"
+    elif (shell_name == "Hydra"):
+        defer = 15
+        deferd = 0
+        aux = 35
+        climb = 0.25
+        air = 1
+        spetz = "> Activates after killing an enemy: Gain an Adrenal Feedback stack every <C>20 s</>, stacking up to <C>5</> times"
+    elif (shell_name == "Dragon"):
+        defer = 10
+        deferd = 1
+        aux = 30
+        climb = 0.25
+        air = 2
+        spetz = "> Activates after killing an enemy: Backdraft + Ground Slam deal <C>25%</> increased fire damage + apply combust"
+    elif (shell_name == "Ghost"):
+        defer = 10
+        deferd = 1
+        aux = 40
+        climb = 0.15
+        air = 2
+        spetz = "> Activates after killing an enemy: Hip firing supressed firearms, throwing devices + interactions no longer deactivate camouflage"
+    elif (shell_name == "Rhino"):
+        defer = 10
+        deferd = 1.5
+        aux = 30
+        climb = 0.25
+        air = 0
+        spetz = "> Activates after killing an enemy: Shockwave gains <C>50%</> increased debuff duration, incresed knockback force, applies stun + cripple"
+    else:
+        defer = 0
+        deferd = 0
+        aux = 0
+        climb = 0
+        air = 0
+        spetz = "> Activates after scratching your balls"
+
     found = skill_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
     if (found == "ENUM_Foundation::NewEnumerator0"):
         found_type = "body"
@@ -324,9 +367,15 @@ for skill_name, shell_data in skill_rows.items():
         "stats": {
             "vitals": vit,
             "defense": defe,
-            "speed_penalty": sped / 100,
+            "defense_regen": defer,
+            "defense_regen_delay": deferd,
+            "aux_regen": aux,
+            "speed": 8 - (sped / 100),
+            "climb_penalty": climb,
+            "aerial_charges": air,
             "core_speed": core,
-            "radar_range": rdr / 100
+            "radar_profile": rdr / 100,
+            "specialisation": spetz
         },
         "foundations": {
             "type": found_type,
@@ -336,7 +385,7 @@ for skill_name, shell_data in skill_rows.items():
 
 with open("shells_db_test.json", "w", encoding="utf-8") as out_file:
     json.dump(shell_output, out_file, indent=2, ensure_ascii=False)
-print("Shell database shit workin")
+print("Shell database shit workin n faked")
 #----------------------------------------------------------faking toolips baybeeeeee-------------------------------
 spec_output = []
 
