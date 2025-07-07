@@ -1529,8 +1529,8 @@
           {
             "Namespace": "",
             "Key": "D9E7C6634552674B1EC99F905AD0634F",
-            "SourceString": "> Freeze momentum while in air + aiming for up to <C>5 s</>, momentum restored when aim released, <C>3 s</> cooldown\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Freeze momentum while in air + aiming for up to <C>5 s</>, momentum restored when aim released, <C>3 s</> cooldown\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Freeze momentum while in air + aiming for up to <C>5 s</>, momentum restored when aim released, <C>3 s</> cooldown\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Freeze momentum while in air + aiming for up to <C>5 s</>, momentum restored when aim released, <C>3 s</> cooldown\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1795,8 +1795,8 @@
           {
             "Namespace": "",
             "Key": "4C6850CB4B441F5CECE1F6B90B901404",
-            "SourceString": "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on activation\r\n> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>",
-            "LocalizedString": "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on activation\r\n> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>"
+            "SourceString": "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on impact\r\n> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation\r\n> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>",
+            "LocalizedString": "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on impact\r\n> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation\r\n> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>"
           }
         ]
       },
@@ -2061,8 +2061,8 @@
           {
             "Namespace": "",
             "Key": "963A60574A3A4AFC555268957245FF08",
-            "SourceString": "> Unaffected by Core slowing effects + temporal damage reductions while Core active\r\n> <C>15%</> increased Core generation\r\n<B>></> <C>25%</> <B>reduced far damage range</>",
-            "LocalizedString": "> Unaffected by Core slowing effects + temporal damage reductions while Core active\r\n> <C>15%</> increased Core generation\r\n<B>></> <C>25%</> <B>reduced far damage range</>"
+            "SourceString": "> Unaffected by Core slowing effects while Core active\r\n> Bypasses temporal damage reductions\r\n> <C>15%</> increased Core generation\r\n<B>></> <C>25%</> <B>reduced far damage range</>",
+            "LocalizedString": "> Unaffected by Core slowing effects while Core active\r\n> Bypasses temporal damage reductions\r\n> <C>15%</> increased Core generation\r\n<B>></> <C>25%</> <B>reduced far damage range</>"
           }
         ]
       },

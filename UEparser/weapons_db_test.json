@@ -349,7 +349,7 @@
       "firemode": "Automatic",
       "firerate": "900.0",
       "damage_near": 38.0,
-      "damage_far": 18.0,
+      "damage_far": 16.0,
       "range": "5.0 - 50.0",
       "head_mult": "1.35",
       "limb_mult": "0.7",

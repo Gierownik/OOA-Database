@@ -40,7 +40,8 @@
     "$ 45.0 Cooldown, 0.0 Duration, 0.15 m/s Speed Penalty, Experimental: WIP"
   ],
   "Firecracker": [
-    "- ^ Deals **25-15** explosive + **50-30** fire damage to targets within **2-3 m** + launches **10** incendiary projectiles on activation",
+    "- ^ Deals **25-15** explosive + **50-30** fire damage to targets within **2-3 m** + launches **10** incendiary projectiles on impact",
+    "- ^ Deals **100** fire damage to targets within **5 m** + launches **15** incendiary projectiles on activation",
     "- ^ Incendiary projectile: Detonates after **1 s**, igniting surface + dealing **5** explosive + **5** fire damage to targets within **2 m**",
     "$ 45.0 Cooldown, 7.5 Duration, 0.20 m/s Speed Penalty, Experimental: WIP"
   ],

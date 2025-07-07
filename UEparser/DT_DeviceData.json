@@ -51,7 +51,7 @@
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_ProxMine_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_ProxMine.17"
+          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_ProxMine.13"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0
       },
@@ -95,7 +95,7 @@
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Incendiary_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Incendiary.4"
+          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Incendiary.5"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0
       },
@@ -180,7 +180,7 @@
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Turret_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Turret.29"
+          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Turret.28"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 35.0
       },

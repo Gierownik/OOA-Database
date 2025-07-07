@@ -406,7 +406,7 @@
     "> Unaffected by Core slowing effects while active",
     "> <C>50%</> reduced direct damage received while active",
     "<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>",
-    "<B>> Deactivates on collision with ground</>",
+    "<B>> Deactivates on body impacts + collision with ground</>",
     "<B>> Not usable while hovering</>",
     "<B>> Can be disabled</>"
   ],

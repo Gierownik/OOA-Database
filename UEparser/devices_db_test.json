@@ -133,7 +133,8 @@
   {
     "name": "Firecracker",
     "tooltip": [
-      "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on activation",
+      "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on impact",
+      "> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation",
       "> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>"
     ],
     "experimental": "No",
