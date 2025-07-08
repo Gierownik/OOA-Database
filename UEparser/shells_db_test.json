@@ -29,8 +29,8 @@
       "specialisation": "> Activates after killing an enemy: <C>50%</> increased weapon accuracy, <C>25%</> increased speed + dexterity, for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown"
     },
     "foundations": {
-      "type": "tech",
-      "value": 20
+      "type": "body",
+      "value": 0
     }
   },
   {
@@ -66,8 +66,8 @@
       "specialisation": "> Activates after killing an enemy: Gain an Adrenal Feedback stack every <C>20 s</>, stacking up to <C>5</> times"
     },
     "foundations": {
-      "type": "tech",
-      "value": 20
+      "type": "body",
+      "value": 5
     }
   },
   {
@@ -105,8 +105,8 @@
       "specialisation": "> Activates after killing an enemy: Hip firing supressed firearms, throwing devices + interactions no longer deactivate camouflage"
     },
     "foundations": {
-      "type": "tech",
-      "value": 20
+      "type": "body",
+      "value": 10
     }
   },
   {
@@ -143,8 +143,8 @@
       "specialisation": "> Activates after killing an enemy: Backdraft + Ground Slam deal <C>25%</> increased fire damage + apply combust"
     },
     "foundations": {
-      "type": "tech",
-      "value": 20
+      "type": "body",
+      "value": 5
     }
   },
   {
@@ -179,8 +179,8 @@
       "specialisation": "> Activates after killing an enemy: Shockwave gains <C>50%</> increased debuff duration, incresed knockback force, applies stun + cripple"
     },
     "foundations": {
-      "type": "tech",
-      "value": 20
+      "type": "body",
+      "value": 10
     }
   }
 ]

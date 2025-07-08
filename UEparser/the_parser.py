@@ -201,7 +201,7 @@ for skill_name, data in skill_rows.items():
 
     weapon_name = weapon_id_to_name[weapon_enum]
 
-    found = skill_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+    found = data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
     if (found == "ENUM_Foundation::NewEnumerator0"):
         found_type = "body"
     elif (found == "ENUM_Foundation::NewEnumerator1"):
@@ -210,7 +210,7 @@ for skill_name, data in skill_rows.items():
         found_type = "hardware"
     else:
         found_type = "other"
-    req = skill_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
+    req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
 
     weapon_stat = weapon_stats.get(skill_name, {})
     damage_section = weapon_stat.get("damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE", {})
@@ -350,7 +350,7 @@ for skill_name, shell_data in skill_rows.items():
         air = 0
         spetz = "> Activates after scratching your balls"
 
-    found = skill_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+    found = shell_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
     if (found == "ENUM_Foundation::NewEnumerator0"):
         found_type = "body"
     elif (found == "ENUM_Foundation::NewEnumerator1"):
@@ -359,7 +359,7 @@ for skill_name, shell_data in skill_rows.items():
         found_type = "hardware"
     else:
         found_type = "other"
-    req = skill_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
+    req = shell_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
 
     shell_output.append({
         "name": shell_name,
