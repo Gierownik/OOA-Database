@@ -2859,8 +2859,27 @@
           {
             "Namespace": "",
             "Key": "5F959FBB4BC0F079D5CFF5AEC245AF85",
-            "SourceString": "> Fragments rounds while ADS\r\n> <C>4</> fragments per shot\r\n> <C>35%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range while active</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>\r\n<B>></> <C>5</> <B>reduced ammo capacity</>",
-            "LocalizedString": "> Fragments rounds while ADS\r\n> <C>4</> fragments per shot\r\n> <C>35%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range while active</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>\r\n<B>></> <C>5</> <B>reduced ammo capacity</>"
+            "SourceString": "> Fragments rounds while ADS\r\n> <C>4</> fragments per shot\r\n> <C>30%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range while active</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>\r\n<B>></> <C>5</> <B>reduced ammo capacity</>",
+            "LocalizedString": "> Fragments rounds while ADS\r\n> <C>4</> fragments per shot\r\n> <C>30%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range while active</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>\r\n<B>></> <C>5</> <B>reduced ammo capacity</>"
+          }
+        ]
+      },
+      "VXAccelerator": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator4",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator98",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "1DAEAA2C456A8DD75D697ABD9E79643C",
+            "SourceString": "> <C>50%</> increased near + far damage range\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>",
+            "LocalizedString": "> <C>50%</> increased near + far damage range\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>"
           }
         ]
       }
