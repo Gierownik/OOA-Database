@@ -30,7 +30,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 20
     }
   },
   {
@@ -67,7 +67,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 20
     }
   },
   {
@@ -106,7 +106,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 20
     }
   },
   {
@@ -144,7 +144,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 20
     }
   },
   {
@@ -180,7 +180,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 20
     }
   }
 ]
