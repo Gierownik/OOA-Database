@@ -27,7 +27,7 @@ def extract_enum_id(key_string):
 def categorize_attachment(name):
     if (name.endswith("Sight") or name.endswith("Sights")) and name != "Laser Sight":
         return "Optics"
-    elif name.endswith("ammo") or name.endswith("Ammo"):
+    elif name.endswith("Ammo") or name.endswith("Grenade"):
         return "Ammo"
     else:
         return "Mods"

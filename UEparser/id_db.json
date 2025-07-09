@@ -140,6 +140,10 @@
         "Standard Ammo": 74,
         "TD Ammo": 80,
         "Chem Ammo": 84,
+        "Standard Grenade": 86,
+        "Impact Grenade": 87,
+        "Incendiary Grenade": 88,
+        "Proximity Grenade": 89,
         "Ghostfire Ammo": 96
     },
     "Mods": {
@@ -163,10 +167,6 @@
         "Target Painter": 79,
         "Contact charge": 83,
         "Burst Trigger": 85,
-        "Standard Grenade": 86,
-        "Impact Grenade": 87,
-        "Incendiary Grenade": 88,
-        "Proximity Grenade": 89,
         "Stabilizer": 90,
         "Lightweight Frame": 91,
         "HV Barrel": 92,
