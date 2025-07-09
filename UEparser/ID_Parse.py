@@ -25,7 +25,7 @@ def extract_enum_id(key_string):
     return int(match.group(1)) if match else None
 
 def categorize_attachment(name):
-    if name.endswith("Sight") or name.endswith("Sights"):
+    if (name.endswith("Sight") or name.endswith("Sights")) and name != "Laser Sight":
         return "Optics"
     elif name.endswith("ammo") or name.endswith("Ammo"):
         return "Ammo"
@@ -34,7 +34,7 @@ def categorize_attachment(name):
 
 for filename, category in file_map.items():
     if not os.path.exists(filename):
-        print(f"Warning: {filename} not found.")
+        print(f"Warnin {filename} not found")
         continue
 
     with open(filename, "r", encoding="utf-8") as f:

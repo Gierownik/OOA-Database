@@ -125,7 +125,6 @@
         "2x Sight": 62,
         "3x Sight": 63,
         "Reflex Sight": 61,
-        "Laser Sight": 48,
         "Iron Sights": 73,
         "2x TRG Sight": 81,
         "4x TRG Sight": 82
@@ -155,6 +154,7 @@
         "Secure Grip": 51,
         "Foregrip": 50,
         "Suppressor": 49,
+        "Laser Sight": 48,
         "Dual Wield": 47,
         "Light Trigger": 75,
         "Automatic Trigger": 76,
