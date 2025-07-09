@@ -1092,8 +1092,8 @@
           {
             "Namespace": "",
             "Key": "90DB6320413546022E35F2AE4902AB91",
-            "SourceString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>",
-            "LocalizedString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>"
+            "SourceString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>50%</> <B>reduced speed while swapping</>",
+            "LocalizedString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>50%</> <B>reduced speed while swapping</>"
           }
         ]
       },
@@ -2004,8 +2004,8 @@
           {
             "Namespace": "",
             "Key": "2A1973E248CE7F418A7CD5803F5658E0",
-            "SourceString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n<B>></> <C>25%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>25%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n<B>></> <C>25%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>25%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n<B>></> <C>25%</> <B>reduced damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n<B>></> <C>25%</> <B>reduced damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced bleed damage</>"
           }
         ]
       },
@@ -2042,8 +2042,8 @@
           {
             "Namespace": "",
             "Key": "6BB05C6042DC508F836FA49A81DDF0EE",
-            "SourceString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n<B>></> <C>25%</> <B>reduced environment penetration</>",
-            "LocalizedString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n<B>></> <C>25%</> <B>reduced environment penetration</>"
+            "SourceString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n<B>></> <C>15%</> <B>reduced environment penetration</>",
+            "LocalizedString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n<B>></> <C>15%</> <B>reduced environment penetration</>"
           }
         ]
       },
@@ -2878,8 +2878,8 @@
           {
             "Namespace": "",
             "Key": "1DAEAA2C456A8DD75D697ABD9E79643C",
-            "SourceString": "> <C>50%</> increased near + far damage range\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>",
-            "LocalizedString": "> <C>50%</> increased near + far damage range\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>"
+            "SourceString": "> <C>50%</> increased near + far damage range\r\n> <C>50%</> increased velocity + environment penetration\r\n> <C>25%</> increased RPM\r\n<B>></> <C>0.35 s</> <B>spin up delay</>",
+            "LocalizedString": "> <C>50%</> increased near + far damage range\r\n> <C>50%</> increased velocity + environment penetration\r\n> <C>25%</> increased RPM\r\n<B>></> <C>0.35 s</> <B>spin up delay</>"
           }
         ]
       }

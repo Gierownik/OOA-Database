@@ -517,7 +517,7 @@
       "aim_time": "0.35",
       "spread_hip": "2.5",
       "spread_ads": "0.5",
-      "spread_gain": "0.125",
+      "spread_gain": "0.1",
       "speed_penalty": "0.6",
       "burst_count": 5,
       "burst_delay": "0.25",

@@ -251,7 +251,7 @@
     "- ^ All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible",
     "- ^ **25%** increased reload speed",
     "- @ Current ammo emptied into reserve on swap",
-    "- @  **25%** reduced reserve ammo"
+    "- @  **50%** reduced speed while swapping"
   ],
   "Hunter Optics": [
     "- ^ Target recognition overlay, replaces scan",
