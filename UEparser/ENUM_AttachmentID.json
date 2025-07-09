@@ -1,0 +1,536 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_AttachmentID",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "D7F35EBB4F1F6FB0FD4C16A8DFD801FB",
+            "SourceString": "-",
+            "LocalizedString": "-"
+          }
+        },
+        {
+          "Key": "NewEnumerator72",
+          "Value": {
+            "Namespace": "",
+            "Key": "3162E10D4C820C34C505D4A6544CFCD2",
+            "SourceString": "T-Lock Ammo",
+            "LocalizedString": "T-Lock Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator71",
+          "Value": {
+            "Namespace": "",
+            "Key": "F2C046E24823369244D545953009259F",
+            "SourceString": "CB Ammo",
+            "LocalizedString": "CB Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator70",
+          "Value": {
+            "Namespace": "",
+            "Key": "3E2528B24C827937A8C12A883535CF5A",
+            "SourceString": "EM Ammo",
+            "LocalizedString": "EM Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator69",
+          "Value": {
+            "Namespace": "",
+            "Key": "0D9CE7FF4034818D954527BADF399B20",
+            "SourceString": "Incendiary Ammo",
+            "LocalizedString": "Incendiary Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator68",
+          "Value": {
+            "Namespace": "",
+            "Key": "7364696F40C55F1DD8F28CBC8A61AC31",
+            "SourceString": "Shred Ammo",
+            "LocalizedString": "Shred Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator67",
+          "Value": {
+            "Namespace": "",
+            "Key": "5A78DEDF4E7E882FA2C0FCBEA38F57F1",
+            "SourceString": "Heavy Ammo",
+            "LocalizedString": "Heavy Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator66",
+          "Value": {
+            "Namespace": "",
+            "Key": "ADDFE6664C8C23C48E7EA88E33FC50B6",
+            "SourceString": "Piercing Ammo",
+            "LocalizedString": "Piercing Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator65",
+          "Value": {
+            "Namespace": "",
+            "Key": "49B8238641B392A155749D9CEAB4C4EB",
+            "SourceString": "Marksman Sight",
+            "LocalizedString": "Marksman Sight"
+          }
+        },
+        {
+          "Key": "NewEnumerator64",
+          "Value": {
+            "Namespace": "",
+            "Key": "37C2E6E74195BA42C99A36AE5366BBE1",
+            "SourceString": "4x Sight",
+            "LocalizedString": "4x Sight"
+          }
+        },
+        {
+          "Key": "NewEnumerator62",
+          "Value": {
+            "Namespace": "",
+            "Key": "25AB39DC441302FE9FBCC0B7227ED882",
+            "SourceString": "2x Sight",
+            "LocalizedString": "2x Sight"
+          }
+        },
+        {
+          "Key": "NewEnumerator63",
+          "Value": {
+            "Namespace": "",
+            "Key": "BE17DD39484907184F00129C52419752",
+            "SourceString": "3x Sight",
+            "LocalizedString": "3x Sight"
+          }
+        },
+        {
+          "Key": "NewEnumerator61",
+          "Value": {
+            "Namespace": "",
+            "Key": "4B40872A4189530978A63ABACC9D8989",
+            "SourceString": "Reflex Sight",
+            "LocalizedString": "Reflex Sight"
+          }
+        },
+        {
+          "Key": "NewEnumerator59",
+          "Value": {
+            "Namespace": "",
+            "Key": "A257A1AC4826DD5E50BDEF8F0A70D121",
+            "SourceString": "Adaptive Choke",
+            "LocalizedString": "Adaptive Choke"
+          }
+        },
+        {
+          "Key": "NewEnumerator58",
+          "Value": {
+            "Namespace": "",
+            "Key": "94FCFA2A46600BAF8ECBCC863D2B61AB",
+            "SourceString": "Speed Loader",
+            "LocalizedString": "Speed Loader"
+          }
+        },
+        {
+          "Key": "NewEnumerator57",
+          "Value": {
+            "Namespace": "",
+            "Key": "562B623F4D692CBC2FF06DB606504A30",
+            "SourceString": "External Mag",
+            "LocalizedString": "External Mag"
+          }
+        },
+        {
+          "Key": "NewEnumerator56",
+          "Value": {
+            "Namespace": "",
+            "Key": "61DDFDD74D9F8041A499D0B41D4E7862",
+            "SourceString": "High Capacity",
+            "LocalizedString": "High Capacity"
+          }
+        },
+        {
+          "Key": "NewEnumerator55",
+          "Value": {
+            "Namespace": "",
+            "Key": "D2AC273B4523017BA116C0B15446BE46",
+            "SourceString": "Long Barrel",
+            "LocalizedString": "Long Barrel"
+          }
+        },
+        {
+          "Key": "NewEnumerator54",
+          "Value": {
+            "Namespace": "",
+            "Key": "06D35AFF44230B29AAFB3CA57CF7B112",
+            "SourceString": "Heavy Barrel",
+            "LocalizedString": "Heavy Barrel"
+          }
+        },
+        {
+          "Key": "NewEnumerator53",
+          "Value": {
+            "Namespace": "",
+            "Key": "67C0B2C44A858DBC206E17A3EA690755",
+            "SourceString": "Auto-Bolt",
+            "LocalizedString": "Auto-Bolt"
+          }
+        },
+        {
+          "Key": "NewEnumerator52",
+          "Value": {
+            "Namespace": "",
+            "Key": "EC882E4444A4272CBDB0D0A450ECEAD2",
+            "SourceString": "Tactical Foregrip",
+            "LocalizedString": "Tactical Foregrip"
+          }
+        },
+        {
+          "Key": "NewEnumerator51",
+          "Value": {
+            "Namespace": "",
+            "Key": "CF01BC574F97EB40982DC189E9CFF89B",
+            "SourceString": "Secure Grip",
+            "LocalizedString": "Secure Grip"
+          }
+        },
+        {
+          "Key": "NewEnumerator50",
+          "Value": {
+            "Namespace": "",
+            "Key": "259D1D2D47F3E8B7C69B748AC98A91F7",
+            "SourceString": "Foregrip",
+            "LocalizedString": "Foregrip"
+          }
+        },
+        {
+          "Key": "NewEnumerator49",
+          "Value": {
+            "Namespace": "",
+            "Key": "071CB9E540460C2534696C94ABFA885C",
+            "SourceString": "Suppressor",
+            "LocalizedString": "Suppressor"
+          }
+        },
+        {
+          "Key": "NewEnumerator48",
+          "Value": {
+            "Namespace": "",
+            "Key": "4B70AD564C77C7965784EB8DC61023D2",
+            "SourceString": "Laser Sight",
+            "LocalizedString": "Laser Sight"
+          }
+        },
+        {
+          "Key": "NewEnumerator47",
+          "Value": {
+            "Namespace": "",
+            "Key": "9EBF8FF14C2CA67FFF5C2D945409BC76",
+            "SourceString": "Dual Wield",
+            "LocalizedString": "Dual Wield"
+          }
+        },
+        {
+          "Key": "NewEnumerator73",
+          "Value": {
+            "Namespace": "",
+            "Key": "4B558D8E4A59853F259D478ABAAA00C8",
+            "SourceString": "Iron Sights",
+            "LocalizedString": "Iron Sights"
+          }
+        },
+        {
+          "Key": "NewEnumerator74",
+          "Value": {
+            "Namespace": "",
+            "Key": "5476DE2C4E782FA174FFE897ACE83D04",
+            "SourceString": "Standard Ammo",
+            "LocalizedString": "Standard Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator75",
+          "Value": {
+            "Namespace": "",
+            "Key": "258ED4C64F55422B200A47AFD7E176C6",
+            "SourceString": "Light Trigger",
+            "LocalizedString": "Light Trigger"
+          }
+        },
+        {
+          "Key": "NewEnumerator76",
+          "Value": {
+            "Namespace": "",
+            "Key": "D40A0B86418ED0D1961ED693C19B1CAC",
+            "SourceString": "Automatic Trigger",
+            "LocalizedString": "Automatic Trigger"
+          }
+        },
+        {
+          "Key": "NewEnumerator77",
+          "Value": {
+            "Namespace": "",
+            "Key": "5F051339458169FD7B081B9C878CCD37",
+            "SourceString": "Rifled Barrel",
+            "LocalizedString": "Rifled Barrel"
+          }
+        },
+        {
+          "Key": "NewEnumerator78",
+          "Value": {
+            "Namespace": "",
+            "Key": "FADEBE0F44D1BD2D4D48449FDCB6957E",
+            "SourceString": "CQB Mount",
+            "LocalizedString": "CQB Mount"
+          }
+        },
+        {
+          "Key": "NewEnumerator79",
+          "Value": {
+            "Namespace": "",
+            "Key": "589D5B484E42330902011A92F9A072D8",
+            "SourceString": "Target Painter",
+            "LocalizedString": "Target Painter"
+          }
+        },
+        {
+          "Key": "NewEnumerator80",
+          "Value": {
+            "Namespace": "",
+            "Key": "572979A74215DF49CF4E5BA0417136AB",
+            "SourceString": "TD Ammo",
+            "LocalizedString": "TD Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator81",
+          "Value": {
+            "Namespace": "",
+            "Key": "48867FA44217FEA33DEEEAB223954B60",
+            "SourceString": "2x TRG Sight",
+            "LocalizedString": "2x TRG Sight"
+          }
+        },
+        {
+          "Key": "NewEnumerator82",
+          "Value": {
+            "Namespace": "",
+            "Key": "420D9AFC4670AAEA01A47F8F998A745E",
+            "SourceString": "4x TRG Sight",
+            "LocalizedString": "4x TRG Sight"
+          }
+        },
+        {
+          "Key": "NewEnumerator83",
+          "Value": {
+            "Namespace": "",
+            "Key": "933ABA534D8695DA36B0E1B259877BAB",
+            "SourceString": "Contact charge",
+            "LocalizedString": "Contact charge"
+          }
+        },
+        {
+          "Key": "NewEnumerator84",
+          "Value": {
+            "Namespace": "",
+            "Key": "FAD745B045EE3B0C2094109D5E30394A",
+            "SourceString": "Chem Ammo",
+            "LocalizedString": "Chem Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator85",
+          "Value": {
+            "Namespace": "",
+            "Key": "367C1D754347DB281A492BB4EAE027C7",
+            "SourceString": "Burst Trigger",
+            "LocalizedString": "Burst Trigger"
+          }
+        },
+        {
+          "Key": "NewEnumerator86",
+          "Value": {
+            "Namespace": "",
+            "Key": "11566D1241B22821189513BA8FB6936D",
+            "SourceString": "Standard Grenade",
+            "LocalizedString": "Standard Grenade"
+          }
+        },
+        {
+          "Key": "NewEnumerator87",
+          "Value": {
+            "Namespace": "",
+            "Key": "4CAB7C1847AE86605DA04F98A637EA96",
+            "SourceString": "Impact Grenade",
+            "LocalizedString": "Impact Grenade"
+          }
+        },
+        {
+          "Key": "NewEnumerator88",
+          "Value": {
+            "Namespace": "",
+            "Key": "6D12F8D447E96E6580EAB6B1665536E8",
+            "SourceString": "Incendiary Grenade",
+            "LocalizedString": "Incendiary Grenade"
+          }
+        },
+        {
+          "Key": "NewEnumerator89",
+          "Value": {
+            "Namespace": "",
+            "Key": "64C543DC44313091EC544F90C98850DA",
+            "SourceString": "Proximity Grenade",
+            "LocalizedString": "Proximity Grenade"
+          }
+        },
+        {
+          "Key": "NewEnumerator90",
+          "Value": {
+            "Namespace": "",
+            "Key": "5FF1AF43410EFDEE5E7368A47E9083E5",
+            "SourceString": "Stabilizer",
+            "LocalizedString": "Stabilizer"
+          }
+        },
+        {
+          "Key": "NewEnumerator91",
+          "Value": {
+            "Namespace": "",
+            "Key": "07502E994744C83BAA7AB59CA328B8A7",
+            "SourceString": "Lightweight Frame",
+            "LocalizedString": "Lightweight Frame"
+          }
+        },
+        {
+          "Key": "NewEnumerator92",
+          "Value": {
+            "Namespace": "",
+            "Key": "1620944B47896C0D5DEA8CA790BF562C",
+            "SourceString": "HV Barrel",
+            "LocalizedString": "HV Barrel"
+          }
+        },
+        {
+          "Key": "NewEnumerator93",
+          "Value": {
+            "Namespace": "",
+            "Key": "DCF7BCA34873037B3D185C8A37D74A10",
+            "SourceString": "Wildfire Trigger",
+            "LocalizedString": "Wildfire Trigger"
+          }
+        },
+        {
+          "Key": "NewEnumerator94",
+          "Value": {
+            "Namespace": "",
+            "Key": "A5FFC52B43704B3F0C3FA8A2076C9B5C",
+            "SourceString": "Heavy Receiver",
+            "LocalizedString": "Heavy Receiver"
+          }
+        },
+        {
+          "Key": "NewEnumerator95",
+          "Value": {
+            "Namespace": "",
+            "Key": "7B304C8645A94C8BF46710A7ACF6D281",
+            "SourceString": "Havok Cycler",
+            "LocalizedString": "Havok Cycler"
+          }
+        },
+        {
+          "Key": "NewEnumerator96",
+          "Value": {
+            "Namespace": "",
+            "Key": "DA0D85DA472896B26A47D7A70E921309",
+            "SourceString": "Ghostfire Ammo",
+            "LocalizedString": "Ghostfire Ammo"
+          }
+        },
+        {
+          "Key": "NewEnumerator97",
+          "Value": {
+            "Namespace": "",
+            "Key": "936C6EA54D195BB33B8B97ACB451E10F",
+            "SourceString": "Frag Mag",
+            "LocalizedString": "Frag Mag"
+          }
+        },
+        {
+          "Key": "NewEnumerator98",
+          "Value": {
+            "Namespace": "",
+            "Key": "B16D000F4F7B98B647C16784D6A7D0E6",
+            "SourceString": "VX Accelerator",
+            "LocalizedString": "VX Accelerator"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_AttachmentID::NewEnumerator5": 0,
+      "ENUM_AttachmentID::NewEnumerator47": 1,
+      "ENUM_AttachmentID::NewEnumerator48": 2,
+      "ENUM_AttachmentID::NewEnumerator49": 3,
+      "ENUM_AttachmentID::NewEnumerator50": 4,
+      "ENUM_AttachmentID::NewEnumerator51": 5,
+      "ENUM_AttachmentID::NewEnumerator52": 6,
+      "ENUM_AttachmentID::NewEnumerator53": 7,
+      "ENUM_AttachmentID::NewEnumerator54": 8,
+      "ENUM_AttachmentID::NewEnumerator55": 9,
+      "ENUM_AttachmentID::NewEnumerator56": 10,
+      "ENUM_AttachmentID::NewEnumerator57": 11,
+      "ENUM_AttachmentID::NewEnumerator58": 12,
+      "ENUM_AttachmentID::NewEnumerator59": 13,
+      "ENUM_AttachmentID::NewEnumerator61": 14,
+      "ENUM_AttachmentID::NewEnumerator62": 15,
+      "ENUM_AttachmentID::NewEnumerator63": 16,
+      "ENUM_AttachmentID::NewEnumerator64": 17,
+      "ENUM_AttachmentID::NewEnumerator65": 18,
+      "ENUM_AttachmentID::NewEnumerator66": 19,
+      "ENUM_AttachmentID::NewEnumerator67": 20,
+      "ENUM_AttachmentID::NewEnumerator68": 21,
+      "ENUM_AttachmentID::NewEnumerator69": 22,
+      "ENUM_AttachmentID::NewEnumerator70": 23,
+      "ENUM_AttachmentID::NewEnumerator71": 24,
+      "ENUM_AttachmentID::NewEnumerator73": 25,
+      "ENUM_AttachmentID::NewEnumerator74": 26,
+      "ENUM_AttachmentID::NewEnumerator75": 27,
+      "ENUM_AttachmentID::NewEnumerator76": 28,
+      "ENUM_AttachmentID::NewEnumerator77": 29,
+      "ENUM_AttachmentID::NewEnumerator78": 30,
+      "ENUM_AttachmentID::NewEnumerator79": 31,
+      "ENUM_AttachmentID::NewEnumerator81": 32,
+      "ENUM_AttachmentID::NewEnumerator82": 33,
+      "ENUM_AttachmentID::NewEnumerator83": 34,
+      "ENUM_AttachmentID::NewEnumerator80": 35,
+      "ENUM_AttachmentID::NewEnumerator84": 36,
+      "ENUM_AttachmentID::NewEnumerator85": 37,
+      "ENUM_AttachmentID::NewEnumerator86": 38,
+      "ENUM_AttachmentID::NewEnumerator87": 39,
+      "ENUM_AttachmentID::NewEnumerator88": 40,
+      "ENUM_AttachmentID::NewEnumerator89": 41,
+      "ENUM_AttachmentID::NewEnumerator90": 42,
+      "ENUM_AttachmentID::NewEnumerator91": 43,
+      "ENUM_AttachmentID::NewEnumerator92": 44,
+      "ENUM_AttachmentID::NewEnumerator93": 45,
+      "ENUM_AttachmentID::NewEnumerator72": 46,
+      "ENUM_AttachmentID::NewEnumerator94": 47,
+      "ENUM_AttachmentID::NewEnumerator95": 48,
+      "ENUM_AttachmentID::NewEnumerator96": 49,
+      "ENUM_AttachmentID::NewEnumerator97": 50,
+      "ENUM_AttachmentID::NewEnumerator98": 51,
+      "ENUM_AttachmentID::ENUM_MAX": 52
+    },
+    "CppForm": "Namespaced"
+  }
+]
