@@ -20,6 +20,7 @@
   "Corrode": [
     "- @ Constant chemical damage and both stat reduction",
     "- @ **100%** reduced vitals restored from all sources",
+    "- @ **20/s** defense drain",
     "& Necrosis",
     "- $ **50%** of attempted vitals restoration dealt back as chemical damage"
   ],
