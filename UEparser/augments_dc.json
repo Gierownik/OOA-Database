@@ -110,7 +110,7 @@
     "- ^ **50%** reduced firearm spread + recoil while ADS with ironsights.",
     "- ^ **25%** increased ground speed + Core generation while using backup weapons with enemies within **5 m**",
     "- ^ **25%** reduced firearm + backup weapon damage received within **5 m**",
-    "- @  **25%** reduced firearm far damage range",
+    "- @  **25%** reduced reduced speed while ADS + firearm far damage range",
     "- @  **25%** increased direct damage received beyond **5 m** while using backup weapons"
   ],
   "Combat Core": [

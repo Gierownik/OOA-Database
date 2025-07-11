@@ -473,6 +473,15 @@
             "SourceString": "VX Accelerator",
             "LocalizedString": "VX Accelerator"
           }
+        },
+        {
+          "Key": "NewEnumerator99",
+          "Value": {
+            "Namespace": "",
+            "Key": "38A06A1E409E212A422DB6B90F7B9DB5",
+            "SourceString": "Cripple Gauge",
+            "LocalizedString": "Cripple Gauge"
+          }
         }
       ]
     },
@@ -529,7 +538,8 @@
       "ENUM_AttachmentID::NewEnumerator96": 49,
       "ENUM_AttachmentID::NewEnumerator97": 50,
       "ENUM_AttachmentID::NewEnumerator98": 51,
-      "ENUM_AttachmentID::ENUM_MAX": 52
+      "ENUM_AttachmentID::NewEnumerator99": 52,
+      "ENUM_AttachmentID::ENUM_MAX": 53
     },
     "CppForm": "Namespaced"
   }

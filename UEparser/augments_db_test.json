@@ -217,7 +217,7 @@
       "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.",
       "> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>",
       "> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</>",
-      "<B>></> <C>25%</> <B>reduced firearm far damage range</>",
+      "<B>></> <C>25%</> <B>reduced reduced speed while ADS + firearm far damage range</>",
       "<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>"
     ],
     "foundations": {
