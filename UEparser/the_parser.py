@@ -322,6 +322,11 @@ for skill_name, data in skill_rows.items():
     else:
         compatibility = [weapon_id_to_name.get(wep_id, wep_id) for wep_id in comp]
     mod_type = attachment_stat.get("type_23_AEC1445A44E4B924DED2AABCBB869556", 0)
+    exclu = attachment_stat.get("excludeList_43_3E6DA3624973B648616BB8AC7146A5D8", 0)
+    if exclu == 0:
+        exclude = []
+    else:
+        exclude = [attachment_id_to_name.get(at_id, at_id) for at_id in exclu]
     if mod_type == "ENUM_AttachmentType::NewEnumerator2":
         attachment_type = "Mod"
     elif mod_type == "ENUM_AttachmentType::NewEnumerator0":
@@ -355,6 +360,7 @@ for skill_name, data in skill_rows.items():
         "tooltip": lines,
         "technician": technician,
         "compatibility": compatibility,
+        "excludes": exclude,
         "foundations": {
             "type": found_type,
             "value": req

@@ -23,6 +23,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "body",
       "value": 0
@@ -56,6 +57,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -87,6 +89,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 5
@@ -118,6 +121,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -150,6 +154,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 10
@@ -181,6 +186,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 20
@@ -214,6 +220,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 15
@@ -246,6 +253,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 20
@@ -277,6 +285,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 20
@@ -309,6 +318,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 25
@@ -345,6 +355,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 25
@@ -380,6 +391,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 20
@@ -397,6 +409,7 @@
     "compatibility": [
       "Warrant"
     ],
+    "excludes": [],
     "foundations": {
       "type": "body",
       "value": 0
@@ -415,6 +428,7 @@
     "compatibility": [
       "Warrant"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -432,6 +446,7 @@
     "compatibility": [
       "Warrant"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 20
@@ -451,6 +466,7 @@
     "compatibility": [
       "Warrant"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 20
@@ -481,6 +497,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -513,6 +530,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -535,6 +553,7 @@
       "Nexus",
       "Typhon"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -566,6 +585,7 @@
       "Double-Tap",
       "Warrant"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -582,6 +602,7 @@
     "compatibility": [
       "Master-Key"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 20
@@ -598,6 +619,7 @@
     "compatibility": [
       "Vigil"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 20
@@ -625,6 +647,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -643,6 +666,7 @@
     "compatibility": [
       "Cerberus"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -668,6 +692,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -687,6 +712,7 @@
       "Master-Key",
       "Warrant"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -703,6 +729,7 @@
       "Deckard",
       "Cerberus"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -720,6 +747,9 @@
       "Master-Key",
       "Cerberus",
       "Typhon"
+    ],
+    "excludes": [
+      "Rifled Barrel"
     ],
     "foundations": {
       "type": "tech",
@@ -748,6 +778,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "body",
       "value": 0
@@ -768,6 +799,7 @@
       "Sentinel",
       "Nexus"
     ],
+    "excludes": [],
     "foundations": {
       "type": "body",
       "value": 0
@@ -795,6 +827,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -822,6 +855,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -849,6 +883,7 @@
       "Nexus",
       "Typhon"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -872,6 +907,7 @@
       "Nexus",
       "Deckard"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -901,6 +937,7 @@
       "Omen",
       "Double-Tap"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 15
@@ -925,6 +962,7 @@
       "Nexus",
       "Deckard"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 15
@@ -942,6 +980,10 @@
     "compatibility": [
       "Deckard",
       "Warrant"
+    ],
+    "excludes": [
+      "Wildfire Trigger",
+      "Burst Trigger"
     ],
     "foundations": {
       "type": "hardware",
@@ -962,6 +1004,7 @@
       "Nexus",
       "Typhon"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -997,6 +1040,7 @@
       "Double-Tap",
       "Warrant"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 20
@@ -1015,6 +1059,9 @@
     "technician": "No",
     "compatibility": [
       "Warrant"
+    ],
+    "excludes": [
+      "Light Trigger"
     ],
     "foundations": {
       "type": "hardware",
@@ -1036,6 +1083,7 @@
       "Sentinel",
       "Nexus"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 20
@@ -1068,6 +1116,7 @@
       "Double-Tap",
       "Warrant"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -1084,6 +1133,7 @@
     "compatibility": [
       "Warrant"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -1104,6 +1154,9 @@
     "compatibility": [
       "Deckard"
     ],
+    "excludes": [
+      "Light Trigger"
+    ],
     "foundations": {
       "type": "tech",
       "value": 15
@@ -1123,6 +1176,7 @@
     "compatibility": [
       "Inhibitor"
     ],
+    "excludes": [],
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -1140,6 +1194,7 @@
       "Icarus",
       "Inhibitor"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 15
@@ -1160,6 +1215,7 @@
       "Major",
       "Sentinel"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 20
@@ -1178,6 +1234,7 @@
       "Vigil",
       "Helix"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 25
@@ -1197,6 +1254,7 @@
       "Cerberus",
       "Master-Key"
     ],
+    "excludes": [],
     "foundations": {
       "type": "tech",
       "value": 25
