@@ -26,7 +26,14 @@ with open("ENUM_Category.json", "r", encoding="utf-8") as f:
     weapon_category = json.load(f)
 with open("ENUM_FireMode.json", "r", encoding="utf-8") as f:
     weapon_mode = json.load(f)
+#-----------------------------------------------------------------------------Tactical ForeGripper fix-----------------------------------------------
 
+for item in attachment_data:
+    if "Rows" in item and "TacticalForeGrip" in item["Rows"]:
+        item["Rows"]["TacticalForegrip"] = item["Rows"].pop("TacticalForeGrip") 
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
 enum_props = enum_data[0]["Properties"]
 dev_props = device_data[0]["Properties"]
 wep_props = weapon_data[0]["Properties"]
