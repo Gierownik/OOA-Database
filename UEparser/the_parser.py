@@ -309,7 +309,11 @@ for skill_name, data in skill_rows.items():
     ]
 
     attachment_stat = attachment_stats.get(skill_name, {})
-    compatibility = attachment_stat.get("compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B", 0)
+    comp = attachment_stat.get("compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B", 0)
+    if comp == 0:
+        compatibility = []
+    else:
+        compatibility = [weapon_id_to_name.get(wep_id, wep_id) for wep_id in comp]
     mod_type = attachment_stat.get("type_23_AEC1445A44E4B924DED2AABCBB869556", 0)
     if mod_type == "ENUM_AttachmentType::NewEnumerator2":
         attachment_type = "Mod"
