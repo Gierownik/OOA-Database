@@ -11,7 +11,7 @@
     "> Restores aux power, aerial maneuver charges + clears snare on pull",
     "> Useable by allies",
     "> Can attach to surfaces + Shells",
-    "$ 30.0 Cooldown, 120.0 Duration, 15.0 Speed Penalty, Experimental: WIP"
+    "$ 5.0 Cooldown, 120.0 Duration, 15.0 Speed Penalty, Experimental: WIP"
   ],
   "Bolster": [
     "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",

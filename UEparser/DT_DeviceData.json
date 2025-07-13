@@ -31,7 +31,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Frag_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Frag"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "ProximityMine": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator14",
@@ -53,7 +54,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_ProxMine_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_ProxMine"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true
       },
       "Relocator": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator16",
@@ -75,7 +77,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Relocator_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Relocator"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "Firecracker": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator15",
@@ -97,7 +100,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Incendiary_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Incendiary"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "Disrupter": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator12",
@@ -119,7 +123,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Stun_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Stun"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "SatchelCharge": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator22",
@@ -141,7 +146,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Satchel_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Satchel"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 30.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 30.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "Breach": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator3",
@@ -160,7 +166,8 @@
           "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "AAPTurret": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator17",
@@ -182,7 +189,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Turret_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Turret"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 35.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 35.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true
       },
       "ReserveStim": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator25",
@@ -201,7 +209,8 @@
           "ObjectPath": "/Game/Characters/Animation/Test/Stim_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "Overcharge": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator0",
@@ -220,7 +229,8 @@
           "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "Deadzone": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator20",
@@ -242,7 +252,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Deadzone_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Deadzone"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true
       },
       "Bolster": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator23",
@@ -261,7 +272,8 @@
           "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 40.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 40.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "Shroud": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator24",
@@ -280,7 +292,8 @@
           "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "LaserWire": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator1",
@@ -302,7 +315,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_TripMine_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_TripMine"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true
       },
       "Tempest": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator26",
@@ -324,7 +338,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Tempest_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Tempest"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "Shifter": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator27",
@@ -343,14 +358,15 @@
           "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false
       },
       "Anchor": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator28",
         "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator0",
         "action_57_9ACD9FD14A212852B1FFB8BB602B1D47": "ENUM_DeviceAction::NewEnumerator0",
         "triggered_60_01E8E00C460DB929F1148DA9C2CC07B7": false,
-        "cooldown_11_D555013643FE6003564BDCBE2F66D6AD": 30.0,
+        "cooldown_11_D555013643FE6003564BDCBE2F66D6AD": 5.0,
         "duration_19_CADCF2D5460AE568CE1A9A8875DBE004": 120.0,
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
@@ -365,7 +381,8 @@
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Anchor_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Anchor"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true
       }
     }
   }

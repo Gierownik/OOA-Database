@@ -29,7 +29,7 @@
     ],
     "experimental": "No",
     "stats": {
-      "cooldown": 30.0,
+      "cooldown": 5.0,
       "duration": 120.0,
       "action": "Throw",
       "speed_penalty": 0.15
