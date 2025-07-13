@@ -6,6 +6,8 @@ with open("ENUM_DeviceID.json", "r", encoding="utf-8") as f:
     device_enum_data = json.load(f)
 with open("ENUM_WeaponID.json", "r", encoding="utf-8") as f:
     weapon_enum_data = json.load(f)
+with open("ENUM_AttachmentID.json", "r", encoding="utf-8") as f:
+    attachment_enum_data = json.load(f)
 with open("ENUM_ShellID.json", "r", encoding="utf-8") as f:
     shell_enum_data = json.load(f)
 with open("DT_SkillTree.json", "r", encoding="utf-8") as f:
@@ -48,6 +50,11 @@ weapon_id_to_name = {
     for entry in weapon_enum_data[0]["Properties"]["DisplayNameMap"]
     if entry["Value"]["SourceString"] != "-"
 }
+attachment_id_to_name = {
+    f"ENUM_AttachmentID::{entry['Key']}": entry["Value"]["SourceString"]
+    for entry in attachment_enum_data[0]["Properties"]["DisplayNameMap"]
+    if entry["Value"]["SourceString"] != "-"
+}
 shell_id_to_name = {
     f"ENUM_ShellID::{entry['Key']}": entry["Value"]["SourceString"]
     for entry in shell_enum_data[0]["Properties"]["DisplayNameMap"]
@@ -72,6 +79,7 @@ weapon_mode_to_value = {
     if entry["Value"]["SourceString"] != "-"
 }
 device_stats = device_data[0]["Rows"]
+attachment_stats = attachment_data[0]["Rows"]
 weapon_stats = weapon_data[0]["Rows"]
 shell_stats = shell_data[0]["Rows"]
 skill_rows = skilltree_data[0]["Rows"]
@@ -280,6 +288,71 @@ with open("weapons_db_test.json", "w", encoding="utf-8") as out_file:
     json.dump(weapon_output, out_file, indent=2, ensure_ascii=False)
 
 print("Weapon database shit workin")
+#----------------------------------------------------------------------Mods n shit-----------------------------------------------------------
+attachment_output = []
+
+for skill_name, data in skill_rows.items():
+    attachment_enum = data.get("AttachmentID_37_E6AEC497440716B81674448A0826E94C")
+    if not attachment_enum or attachment_enum not in attachment_id_to_name:
+        continue
+
+    attachment_name = attachment_id_to_name[attachment_enum]
+    tooltips = data.get("Tooltip_54_1E2214584583FA289C1781AA8CE4153E", [])
+    if not tooltips:
+        continue
+
+    tooltip_text = tooltips[-1]["LocalizedString"]
+    lines = [
+        line.strip()
+        for line in tooltip_text.strip().splitlines()
+        if line.strip()
+    ]
+
+    attachment_stat = attachment_stats.get(skill_name, {})
+    compatibility = attachment_stat.get("compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B", 0)
+    mod_type = attachment_stat.get("type_23_AEC1445A44E4B924DED2AABCBB869556", 0)
+    if mod_type == "ENUM_AttachmentType::NewEnumerator2":
+        attachment_type = "Mod"
+    elif mod_type == "ENUM_AttachmentType::NewEnumerator0":
+        attachment_type = "Optic"
+    elif mod_type == "ENUM_AttachmentType::NewEnumerator3":
+        attachment_type = "Ammo"
+    else:
+        attachment_type = "Unknown"
+
+    found = data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+    if (found == "ENUM_Foundation::NewEnumerator0"):
+        found_type = "body"
+    elif (found == "ENUM_Foundation::NewEnumerator1"):
+        found_type = "tech"
+    elif (found == "ENUM_Foundation::NewEnumerator2"):
+        found_type = "hardware"
+    else:
+        found_type = "other"
+
+    tech = data.get("Prerequisite_46_1618947F4F88562C70609FAE0671C5E9", 0)
+    if (tech == "ENUM_PerkID::NewEnumerator23"):
+        technician = "Yes"
+    else:
+        technician = "No"
+    
+    req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
+
+    attachment_output.append({
+        "name": attachment_name,
+        "type": attachment_type,
+        "tooltip": lines,
+        "technician": technician,
+        "compatibility": compatibility,
+        "foundations": {
+            "type": found_type,
+            "value": req
+        }
+    })
+
+with open("attachments_db_test.json", "w", encoding="utf-8") as out_file:
+    json.dump(attachment_output, out_file, indent=2, ensure_ascii=False)
+print("Mod database shit workin")
 #-------------------------------------------------------------------Shellfish----------------------
 shell_output = []
 
