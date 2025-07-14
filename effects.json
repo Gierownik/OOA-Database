@@ -10,7 +10,8 @@
   "Bleed": [
     "- @ Constant bleed damage",
     "& Hemorrhage",
-    "- $ Absorbs one bleed clear"
+    "- $ **25%** increased bleed damage",
+    "- $ Absorbs one bleed clear, downgrades to bleed"
   ],
   "Burn": [
     "- @ Constant fire damage and stat reduction",
@@ -56,7 +57,7 @@
     "- @ Disables optical camouflage"
   ],
   "Shroud": [
-    "- ^ Immunity to: radar, detections, thermals, locks, breach disruption notification"
+    "- ^ Immunity to: radar, detections, thermals, locks"
   ],
   "Snare": [
     "- @ **50%** reduced ground speed",
