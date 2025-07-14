@@ -361,7 +361,7 @@
       "spread_hip": "2.0",
       "spread_ads": "0.75",
       "spread_gain": "0.25",
-      "speed_penalty": "0.4",
+      "speed_penalty": "0.45",
       "ammo_capacity": 50,
       "reload_duration": "0.8"
     },
@@ -421,9 +421,9 @@
       "recoil_hor": 12.0,
       "aim_time": "0.425",
       "spread_hip": "3.5",
-      "spread_ads": "0.75",
+      "spread_ads": "0.5",
       "spread_gain": "0.2",
-      "speed_penalty": "1.25",
+      "speed_penalty": "1.15",
       "ammo_capacity": 100,
       "reload_duration": "0.35"
     },
@@ -583,7 +583,7 @@
       "spread_hip": "3.0",
       "spread_ads": "0.75",
       "spread_gain": "0.2",
-      "speed_penalty": "1.0",
+      "speed_penalty": "0.85",
       "ammo_capacity": 12,
       "reload_duration": "0.65"
     },
