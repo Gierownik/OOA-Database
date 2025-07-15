@@ -35,44 +35,38 @@ for filename, category in file_map.items():
 
     with open(filename, "r", encoding="utf-8") as f:
         data = json.load(f)
-        
-        entries = data[0].get("Properties", {}).get("DisplayNameMap", [])
-        
-        names_map_raw = data[0].get("Names", {})
-        names_map = {}
-        for full_key, final_id in names_map_raw.items():
-            parts = full_key.split("::")
-            if len(parts) == 2:
-                names_map[parts[1]] = final_id
+
+    entries = data[0].get("Properties", {}).get("DisplayNameMap", [])
+    names_map_raw = data[0].get("Names", {})
+    names_map = {}
+    for full_key, final_id in names_map_raw.items():
+        parts = full_key.split("::")
+        if len(parts) == 2:
+            names_map[parts[1]] = final_id
 
     for entry in entries:
-        key = entry.get("Key", "")  
+        key = entry.get("Key", "")
         value = entry.get("Value", {})
         name = value.get("SourceString", "").strip()
 
         if not name or name == "-":
             continue
 
+        # Try to resolve Final ID from names_map
+        final_id = names_map.get(key)
+        if final_id is None:
+            match = re.match(r"NewEnumerator(\d+)", key)
+            final_id = int(match.group(1)) if match else None
+
+        if final_id is None:
+            continue  # Skip if we couldn't resolve an ID at all
+
+        # Handle attachments with category mapping
         if filename == "ENUM_AttachmentID.json":
             subcategory = categorize_attachment(name)
-            match = re.match(r"NewEnumerator(\d+)", key)
-            enum_id = int(match.group(1)) if match else None
-            if enum_id is not None:
-                output[subcategory][name] = enum_id
-        elif filename in ("ENUM_WeaponID.json", "ENUM_DeviceID.json", "ENUM_ShellID.json"):
-            final_id = names_map.get(key)
-            if final_id is not None:
-                output[category][name] = final_id
-            else:
-                match = re.match(r"NewEnumerator(\d+)", key)
-                enum_id = int(match.group(1)) if match else None
-                if enum_id is not None:
-                    output[category][name] = enum_id
+            output[subcategory][name] = final_id
         else:
-            match = re.match(r"NewEnumerator(\d+)", key)
-            enum_id = int(match.group(1)) if match else None
-            if enum_id is not None:
-                output[category][name] = enum_id
+            output[category][name] = final_id
 
 with open("id_db.json", "w", encoding="utf-8") as f:
     json.dump(output, f, indent=4)
