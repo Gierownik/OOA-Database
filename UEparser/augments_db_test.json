@@ -90,8 +90,10 @@
   {
     "name": "Augmented Arms",
     "tooltip": [
-      "> <C>25%</> increased backup weapon damage + throw velocity",
+      "> <C>0-25%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>25%</> additional damage + velocity on full charge held for over <C>1 s</>",
+      "> <C>25%</> increased device throw velocity",
       "> <C>25%</> reduced firearm recoil + spread gain",
+      "<B>> Additional charging drains aux power</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -417,6 +419,7 @@
     "name": "Gecko",
     "tooltip": [
       "> Gain Shroud while climbing, <C>0.5 s</> activation time",
+      "> Gain camouflage while stationary + climbing, any actions will deactivate, <C>4 s</> cooldown",
       "> <C>100%</> reduced aux power drain from climbing",
       "> <C>100%</> reduced fall damage when landing into a climb",
       "> <C>25%</> increased climb speed + weapon accuracy while climbing",

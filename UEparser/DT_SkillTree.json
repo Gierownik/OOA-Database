@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
+        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
       }
     },
     "Rows": {
@@ -522,8 +522,8 @@
           {
             "Namespace": "",
             "Key": "433331A74F35FD08417394B2D1B51FEB",
-            "SourceString": "> <C>25%</> increased backup weapon damage + throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>25%</> increased backup weapon damage + throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>0-25%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>25%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional charging drains aux power</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>0-25%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>25%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional charging drains aux power</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -978,8 +978,8 @@
           {
             "Namespace": "",
             "Key": "C41D29FF47A9144E7A315AAD5235EE7D",
-            "SourceString": "> Gain Shroud while climbing, <C>0.5 s</> activation time\r\n> <C>100%</> reduced aux power drain from climbing\r\n> <C>100%</> reduced fall damage when landing into a climb\r\n> <C>25%</> increased climb speed + weapon accuracy while climbing\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Gain Shroud while climbing, <C>0.5 s</> activation time\r\n> <C>100%</> reduced aux power drain from climbing\r\n> <C>100%</> reduced fall damage when landing into a climb\r\n> <C>25%</> increased climb speed + weapon accuracy while climbing\r\n<B>> Can be disabled</>"
+            "SourceString": "> Gain Shroud while climbing, <C>0.5 s</> activation time\r\n> Gain camouflage while stationary + climbing, any actions will deactivate, <C>4 s</> cooldown\r\n> <C>100%</> reduced aux power drain from climbing\r\n> <C>100%</> reduced fall damage when landing into a climb\r\n> <C>25%</> increased climb speed + weapon accuracy while climbing\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Gain Shroud while climbing, <C>0.5 s</> activation time\r\n> Gain camouflage while stationary + climbing, any actions will deactivate, <C>4 s</> cooldown\r\n> <C>100%</> reduced aux power drain from climbing\r\n> <C>100%</> reduced fall damage when landing into a climb\r\n> <C>25%</> increased climb speed + weapon accuracy while climbing\r\n<B>> Can be disabled</>"
           }
         ]
       },

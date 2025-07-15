@@ -46,8 +46,10 @@
     "- @ Can be disabled"
   ],
   "Augmented Arms": [
-    "- ^ **25%** increased backup weapon damage + throw velocity",
+    "- ^ **0-25%** increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, **25%** additional damage + velocity on full charge held for over **1 s**",
+    "- ^ **25%** increased device throw velocity",
     "- ^ **25%** reduced firearm recoil + spread gain",
+    "- @ Additional charging drains aux power",
     "- @ Can be disabled"
   ],
   "Augmented Legs": [
@@ -205,6 +207,7 @@
   ],
   "Gecko": [
     "- ^ Gain Shroud while climbing, **0.5 s** activation time",
+    "- ^ Gain camouflage while stationary + climbing, any actions will deactivate, **4 s** cooldown",
     "- ^ **100%** reduced aux power drain from climbing",
     "- ^ **100%** reduced fall damage when landing into a climb",
     "- ^ **25%** increased climb speed + weapon accuracy while climbing",
