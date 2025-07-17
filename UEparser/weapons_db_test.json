@@ -70,7 +70,7 @@
       "damage_near": 175.0,
       "damage_far": 175.0,
       "range": "1.0 - 1.0",
-      "head_mult": "1.75",
+      "head_mult": "1.5",
       "limb_mult": "0.7",
       "penetration": "0.0",
       "velocity": "0.0",
