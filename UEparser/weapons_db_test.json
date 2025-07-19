@@ -66,7 +66,7 @@
       "slot": "Backup",
       "category": "Melee Weapons",
       "firemode": "Charged",
-      "firerate": "75.0",
+      "firerate": "65.0",
       "damage_near": 175.0,
       "damage_far": 175.0,
       "range": "1.0 - 1.0",
@@ -584,7 +584,7 @@
       "spread_ads": "0.75",
       "spread_gain": "0.2",
       "speed_penalty": "0.85",
-      "ammo_capacity": 12,
+      "ammo_capacity": 16,
       "reload_duration": "0.65"
     },
     "foundations": {
@@ -672,7 +672,7 @@
       "range": "5.0 - 50.0",
       "head_mult": "1.5",
       "limb_mult": "0.7",
-      "penetration": "75.0",
+      "penetration": "150.0",
       "velocity": "700.0",
       "recoil_vert": 20.0,
       "recoil_hor": 8.0,

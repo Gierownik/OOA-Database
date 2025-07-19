@@ -1244,8 +1244,8 @@
     "name": "Cripple Gauge",
     "type": "Mod",
     "tooltip": [
-      "> Generates an AOE pulse on firing while targets within a <C>5 m</> frontal cone",
-      "> Knockback + <C>2 s</> cripple to targets in range",
+      "> AOE knockback on firing while targets within a <C>5 m</> frontal cone",
+      "> <C>2 s</> cripple to enemies in range",
       "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>50%</> <B>increased pellet spread</>"
     ],

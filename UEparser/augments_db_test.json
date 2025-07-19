@@ -90,7 +90,7 @@
   {
     "name": "Augmented Arms",
     "tooltip": [
-      "> <C>0-25%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>25%</> additional damage + velocity on full charge held for over <C>1 s</>",
+      "> <C>0-15%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>35%</> additional damage + velocity on full charge held for over <C>1 s</>",
       "> <C>25%</> increased device throw velocity",
       "> <C>25%</> reduced firearm recoil + spread gain",
       "<B>> Additional charging drains aux power</>",
@@ -395,7 +395,7 @@
       "> <C>100%</> defense bypass with backup weapons to weakened enemies",
       "> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced loadout + movement speed penalties",
       "> <C>25%</> increased direct damage to knocked down enemies",
-      "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+      "<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>",
       "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
     ],
     "foundations": {
@@ -433,7 +433,7 @@
   {
     "name": "Hardcase",
     "tooltip": [
-      "> <C>0.25x</> reduced damage multiplier on headshots received while active",
+      "> <C>100%</> reduced bonus multiplier on headshots received while active",
       "> <C>100%</> reduced defense penetration + bleeding from headshots received while active",
       "> Absorbs single fatal headshot while active",
       "> Immunity to Tether while active",
@@ -678,10 +678,10 @@
     "name": "Puncture",
     "tooltip": [
       "> Backup weapons deal piercing damage",
-      "> <C>100%</> defense bypass with body impact damage",
-      "> <C>50%</> of body impact damage received reflected with defense bypass",
-      "> <C>5-20 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>",
-      "<B>></> <C>50%</> <B>reduced body impact damage dealt</>",
+      "> <C>50%</> of body impact damage received reflected",
+      "> <C>25%</> of body impact damage dealt or received penetrates defense",
+      "> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>",
+      "<B>></> <C>25%</> <B>reduced body imact damage on deflections</>",
       "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
     ],
     "foundations": {

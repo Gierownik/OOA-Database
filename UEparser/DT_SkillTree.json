@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
       }
     },
     "Rows": {
@@ -522,8 +522,8 @@
           {
             "Namespace": "",
             "Key": "433331A74F35FD08417394B2D1B51FEB",
-            "SourceString": "> <C>0-25%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>25%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional charging drains aux power</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>0-25%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>25%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional charging drains aux power</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>0-15%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>35%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional charging drains aux power</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>0-15%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>35%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional charging drains aux power</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -940,8 +940,8 @@
           {
             "Namespace": "",
             "Key": "D0FFE48E482CF021D5E1FE8F2B13CB54",
-            "SourceString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with backup weapons to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced loadout + movement speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
-            "LocalizedString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with backup weapons to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced loadout + movement speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
+            "SourceString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with backup weapons to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced loadout + movement speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
+            "LocalizedString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with backup weapons to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced loadout + movement speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
           }
         ]
       },
@@ -997,8 +997,8 @@
           {
             "Namespace": "",
             "Key": "99F2D4AB459D437DF20FDA8A8559D3B3",
-            "SourceString": "> <C>0.25x</> reduced damage multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration + bleeding from headshots received while active\r\n> Absorbs single fatal headshot while active\r\n> Immunity to Tether while active\r\n<B>> Headshot damage received applies snare while active</>\r\n<B>> </> <C>2 s</> <B>stun + deactivates on absorbtion of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>0.25x</> reduced damage multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration + bleeding from headshots received while active\r\n> Absorbs single fatal headshot while active\r\n> Immunity to Tether while active\r\n<B>> Headshot damage received applies snare while active</>\r\n<B>> </> <C>2 s</> <B>stun + deactivates on absorbtion of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> <C>100%</> reduced bonus multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration + bleeding from headshots received while active\r\n> Absorbs single fatal headshot while active\r\n> Immunity to Tether while active\r\n<B>> Headshot damage received applies snare while active</>\r\n<B>> </> <C>2 s</> <B>stun + deactivates on absorbtion of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> <C>100%</> reduced bonus multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration + bleeding from headshots received while active\r\n> Absorbs single fatal headshot while active\r\n> Immunity to Tether while active\r\n<B>> Headshot damage received applies snare while active</>\r\n<B>> </> <C>2 s</> <B>stun + deactivates on absorbtion of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -1320,8 +1320,8 @@
           {
             "Namespace": "",
             "Key": "4C793BB6432CE261C1C494A90C2BEBE1",
-            "SourceString": "> Backup weapons deal piercing damage\r\n> <C>100%</> defense bypass with body impact damage\r\n> <C>50%</> of body impact damage received reflected with defense bypass\r\n> <C>5-20 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced body impact damage dealt</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
-            "LocalizedString": "> Backup weapons deal piercing damage\r\n> <C>100%</> defense bypass with body impact damage\r\n> <C>50%</> of body impact damage received reflected with defense bypass\r\n> <C>5-20 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced body impact damage dealt</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
+            "SourceString": "> Backup weapons deal piercing damage\r\n> <C>50%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or received penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+            "LocalizedString": "> Backup weapons deal piercing damage\r\n> <C>50%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or received penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
           }
         ]
       },
@@ -2897,8 +2897,8 @@
           {
             "Namespace": "",
             "Key": "16479B694EB607B47DBDE6A9F7AC59F0",
-            "SourceString": "> Generates an AOE pulse on firing while targets within a <C>5 m</> frontal cone\r\n> Knockback + <C>2 s</> cripple to targets in range\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased pellet spread</>",
-            "LocalizedString": "> Generates an AOE pulse on firing while targets within a <C>5 m</> frontal cone\r\n> Knockback + <C>2 s</> cripple to targets in range\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased pellet spread</>"
+            "SourceString": "> AOE knockback on firing while targets within a <C>5 m</> frontal cone\r\n> <C>2 s</> cripple to enemies in range\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased pellet spread</>",
+            "LocalizedString": "> AOE knockback on firing while targets within a <C>5 m</> frontal cone\r\n> <C>2 s</> cripple to enemies in range\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased pellet spread</>"
           }
         ]
       }

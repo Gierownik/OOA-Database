@@ -46,7 +46,7 @@
     "- @ Can be disabled"
   ],
   "Augmented Arms": [
-    "- ^ **0-25%** increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, **25%** additional damage + velocity on full charge held for over **1 s**",
+    "- ^ **0-15%** increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, **35%** additional damage + velocity on full charge held for over **1 s**",
     "- ^ **25%** increased device throw velocity",
     "- ^ **25%** reduced firearm recoil + spread gain",
     "- @ Additional charging drains aux power",
@@ -197,7 +197,7 @@
     "- ^ **100%** defense bypass with backup weapons to weakened enemies",
     "- ^ Unstoppable if unobscured weakened enemies within **15 m**: Knockdown immunity, **100%** reduced loadout + movement speed penalties",
     "- ^ **25%** increased direct damage to knocked down enemies",
-    "- @  **25%** reduced vitals restored from all sources",
+    "- @  **25%** reduced vitals + defense restored from all sources",
     "- @  **25%** reduced effectiveness of damage reductions"
   ],
   "Fail-safe": [
@@ -214,7 +214,7 @@
     "- @ Can be disabled"
   ],
   "Hardcase": [
-    "- ^ **0.25x** reduced damage multiplier on headshots received while active",
+    "- ^ **100%** reduced bonus multiplier on headshots received while active",
     "- ^ **100%** reduced defense penetration + bleeding from headshots received while active",
     "- ^ Absorbs single fatal headshot while active",
     "- ^ Immunity to Tether while active",
@@ -340,10 +340,10 @@
   ],
   "Puncture": [
     "- ^ Backup weapons deal piercing damage",
-    "- ^ **100%** defense bypass with body impact damage",
-    "- ^ **50%** of body impact damage received reflected with defense bypass",
-    "- ^ **5-20 /s** bleed to enemies that deal or receive body impact damage, proportional to impact speed from **4-12 m/s**",
-    "- @  **50%** reduced body impact damage dealt",
+    "- ^ **50%** of body impact damage received reflected",
+    "- ^ **25%** of body impact damage dealt or received penetrates defense",
+    "- ^ **5-10 /s** bleed to enemies that deal or receive body impact damage, proportional to impact speed from **4-12 m/s**",
+    "- @  **25%** reduced body imact damage on deflections",
     "- @  **25%** reduced vitals restored from all sources"
   ],
   "Rage Core": [
