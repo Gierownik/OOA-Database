@@ -35,7 +35,7 @@
     "- ^ **100%** additional sidearm reserve ammo",
     "- @ Can no longer equip sidearm optics",
     "- @  **25%** reduced sidearm damage",
-    "- @  **50%** increased sidearm recoil",
+    "- @  **50%** increased sidearm recoil + spread",
     "- @  **50%** reduced primary weapon reserve ammo"
   ],
   "Armadillo": [
@@ -105,14 +105,14 @@
   ],
   "Chemical Warfare": [
     "- ^ Explosives deal chemical damage + apply corrode for **2 s**",
-    "- ^ All sources of corrode cause necrosis: **50%** of attempted vitals restoration dealt as chemical damage",
+    "- ^ All sources of corrode cause necrosis: **50%** of attempted vitals restoration dealt as chemical damage, duration refreshed while bleeding",
     "- @  **25%** reduced explosive damage radius"
   ],
   "Close Minded": [
     "- ^ **50%** reduced firearm spread + recoil while ADS with ironsights.",
     "- ^ **25%** increased ground speed + Core generation while using backup weapons with enemies within **5 m**",
     "- ^ **25%** reduced firearm + backup weapon damage received within **5 m**",
-    "- @  **25%** reduced reduced speed while ADS + firearm far damage range",
+    "- @  **25%** reduced speed while ADS + firearm far damage range",
     "- @  **25%** increased direct damage received beyond **5 m** while using backup weapons"
   ],
   "Combat Core": [

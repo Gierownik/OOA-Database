@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
+        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
       }
     },
     "Rows": {
@@ -484,8 +484,8 @@
           {
             "Namespace": "",
             "Key": "1A64533145A598717FD6819AADABD8D2",
-            "SourceString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>",
-            "LocalizedString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
+            "SourceString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil + spread</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>",
+            "LocalizedString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil + spread</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
           }
         ]
       },
@@ -674,8 +674,8 @@
           {
             "Namespace": "",
             "Key": "2361301942DFDE29C4F943B272FCF0D6",
-            "SourceString": "> Explosives deal chemical damage + apply corrode for <C>2 s</>\r\n> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>",
-            "LocalizedString": "> Explosives deal chemical damage + apply corrode for <C>2 s</>\r\n> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>"
+            "SourceString": "> Explosives deal chemical damage + apply corrode for <C>2 s</>\r\n> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage, duration refreshed while bleeding\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>",
+            "LocalizedString": "> Explosives deal chemical damage + apply corrode for <C>2 s</>\r\n> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage, duration refreshed while bleeding\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>"
           }
         ]
       },
@@ -693,8 +693,8 @@
           {
             "Namespace": "",
             "Key": "3E0A53D34309135B40F46C9EAA7D2831",
-            "SourceString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</>\r\n<B>></> <C>25%</> <B>reduced reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>",
-            "LocalizedString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</>\r\n<B>></> <C>25%</> <B>reduced reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>"
+            "SourceString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</>\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>",
+            "LocalizedString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</>\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>"
           }
         ]
       },
@@ -2118,8 +2118,8 @@
           {
             "Namespace": "",
             "Key": "ABC2AA17485EA500E2153B8FA18646D2",
-            "SourceString": "> <C>0.25-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>10-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>15%</> <B>reduced  damage</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>0.25-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>10-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>15%</> <B>reduced  damage</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>0.25-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>10-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>0.25-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>10-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
           }
         ]
       },

@@ -232,7 +232,7 @@
     "tooltip": [
       "> <C>0.25-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>10-200</>",
       "> <C>25%</> increased damage to stunned enemies",
-      "<B>></> <C>15%</> <B>reduced  damage</>",
+      "<B>></> <C>25%</> <B>reduced velocity + environment penetration</>",
       "<B>></> <C>50%</> <B>reduced bleed damage</>"
     ],
     "technician": "Yes",
