@@ -2878,8 +2878,8 @@
           {
             "Namespace": "",
             "Key": "1DAEAA2C456A8DD75D697ABD9E79643C",
-            "SourceString": "> <C>50%</> increased near + far damage range\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>",
-            "LocalizedString": "> <C>50%</> increased near + far damage range\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>"
+            "SourceString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>",
+            "LocalizedString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>"
           }
         ]
       },

@@ -1225,7 +1225,7 @@
     "name": "VX Accelerator",
     "type": "Mod",
     "tooltip": [
-      "> <C>50%</> increased near + far damage range",
+      "> <C>100%</> reduced damage falloff",
       "> <C>50%</> increased velocity + environment penetration",
       "<B>></> <C>0.35 s</> <B>spin up delay</>"
     ],

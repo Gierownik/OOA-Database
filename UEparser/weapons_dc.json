@@ -136,7 +136,7 @@
     "- @- Hipfire Spread: **2.5°**",
     "- @- ADS Spread: **0.65°**",
     "- @- Spread Gain: **0.35°**",
-    "- @ Speed Penalty: **0.30 m/s**"
+    "- @ Speed Penalty: **0.35 m/s**"
   ],
   "Geist": [
     "^ ID: **W&S MP11**",
@@ -444,8 +444,8 @@
     "- @ Firerate: **240 rpm**",
     "- @ Ammo Capacity: **16**",
     "- @ Reload Duration: **0.65s**",
-    "- @- Near Damage: **20**",
-    "- @- Far Damage: **10**",
+    "- @- Near Damage: **24**",
+    "- @- Far Damage: **12**",
     "- @- Range: **5 - 50 m**",
     "- @- Headshot Multiplier: **1.25x**",
     "- @- Limb Multiplier: **0.7x**",
