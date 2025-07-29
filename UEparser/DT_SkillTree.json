@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
       }
     },
     "Rows": {
@@ -2899,6 +2899,25 @@
             "Key": "16479B694EB607B47DBDE6A9F7AC59F0",
             "SourceString": "> AOE knockback on firing while targets within a <C>5 m</> frontal cone\r\n> <C>2 s</> cripple to enemies in range\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased pellet spread</>",
             "LocalizedString": "> AOE knockback on firing while targets within a <C>5 m</> frontal cone\r\n> <C>2 s</> cripple to enemies in range\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased pellet spread</>"
+          }
+        ]
+      },
+      "Hammer-Head": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator4",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator100",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "CE61E2904C8BDDAD9E1A889ED96D545B",
+            "SourceString": "> <C>300%</> increased damage every <C>4th</> shot\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>",
+            "LocalizedString": "> <C>300%</> increased damage every <C>4th</> shot\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>"
           }
         ]
       }

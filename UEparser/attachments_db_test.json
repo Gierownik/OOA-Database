@@ -1259,5 +1259,23 @@
       "type": "tech",
       "value": 25
     }
+  },
+  {
+    "name": "Hammer-Head",
+    "type": "Mod",
+    "tooltip": [
+      "> <C>300%</> increased damage every <C>4th</> shot",
+      "<B>></> <C>25%</> <B>reduced damage</>",
+      "<B>></> <C>25%</> <B>increased spread gain</>"
+    ],
+    "technician": "No",
+    "compatibility": [
+      "Custodian"
+    ],
+    "excludes": [],
+    "foundations": {
+      "type": "tech",
+      "value": 25
+    }
   }
 ]

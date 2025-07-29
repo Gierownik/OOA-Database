@@ -482,6 +482,15 @@
             "SourceString": "Cripple Gauge",
             "LocalizedString": "Cripple Gauge"
           }
+        },
+        {
+          "Key": "NewEnumerator100",
+          "Value": {
+            "Namespace": "",
+            "Key": "18174B42473FC0C436BE33AE972BB16B",
+            "SourceString": "Hammer-Head",
+            "LocalizedString": "Hammer-Head"
+          }
         }
       ]
     },
@@ -539,7 +548,8 @@
       "ENUM_AttachmentID::NewEnumerator97": 50,
       "ENUM_AttachmentID::NewEnumerator98": 51,
       "ENUM_AttachmentID::NewEnumerator99": 52,
-      "ENUM_AttachmentID::ENUM_MAX": 53
+      "ENUM_AttachmentID::NewEnumerator100": 53,
+      "ENUM_AttachmentID::ENUM_MAX": 54
     },
     "CppForm": "Namespaced"
   }
