@@ -1,75 +1,125 @@
-{
-  "Bolster": [
-    "- ^ Bleed and knockdown immunity", 
-    "- ^ **200** max defense",
-    "- ^ **0 s** defense regen delay",
-    "- ^ **40 /s** defense regeneration",
-    "- @ **50%** reduced speed and vitals restored from all sources",
-    "- @ Disables optical camouflage"
-  ],
-  "Bleed": [
-    "- @ Constant bleed damage",
-    "& Hemorrhage",
-    "- $ **25%** increased bleed damage",
-    "- $ Absorbs one bleed clear, downgrades to bleed"
-  ],
-  "Burn": [
-    "- @ Constant fire damage and stat reduction",
-    "& Combust",
-    "- $ **50%** increased damage taken to defense"
-  ],
-  "Corrode": [
-    "- @ Constant chemical damage and both stat reduction",
-    "- @ **100%** reduced vitals restored from all sources",
-    "- @ **10/s** defense drain",
-    "& Necrosis",
-    "- $ **50%** of attempted vitals restoration dealt back as chemical damage"
-  ],
-  "Disable": [
-    "- @ Disables: set augments/devices/projectiles, detections, nano-wire, objectives",
-    "- @ **100%** reduced defense regeneration",
-    "& Stun",
-    "- $ Visual and audio distortion",
-    "- $ **50%** reduced turn speed"
-  ],
-  "Hyper": [
-    "- ^ Full AUX refill",
-    "- ^ **100%** reduced AUX drain",
-    "- ^ **25%** increased Core speed"
-  ],
-  "Overcharge": [
-    "- ^ Disable immunity", 
-    "- ^ **10%** increased ground speed",
-    "- ^ Disable enemy players, devices and projectiles within **4 m** for **2 s**"
-  ],
-  "Overkill": [
-    "- ^ Melee attacks and body impacts bypass defense", 
-    "- ^ **100%** increased body impact damage",
-    "- ^ **100%** reduced AUX drain from all soruces",
-    "- ^ **100%** reduced loadout and movement speed penalties",
-    "- ^ **50%** increased dexterity",
-    "- @ **0 - 100%** increased direct damage recieved, scaling proportionally with duration active from **0 - 5 s**"
-  ],
-  "Reinforce": [
-    "- ^ Defense penetration immunity",
-    "- ^ Deflects projectiles",
-    "- ^ **50%** reduced direct damage recieved",
-    "- @ Disables optical camouflage"
-  ],
-  "Shroud": [
-    "- ^ Immunity to: radar, detections, thermals, locks"
-  ],
-  "Snare": [
-    "- @ **50%** reduced ground speed",
-    "- @ **20 /s** AUX drain",
-    "& Cripple",
-    "- $ Removes all aerial charges, maneuvers and the ability to climb",
-    "- $ Enviroment impacts deal damage"
-  ],
-  "Test": [
-    "- ^ upside",
-    "- @ downside",
-    "& Enhancement",
-    "- $ enhancement description"
-  ]
-}
+[
+  {
+    "name": "Bolster",
+    "tooltip": [
+      "> Bleed and knockdown immunity",
+      "> <C>200</> max defense",
+      "> <C>0 s</> defense regen delay",
+      "> <C>40 /s</> defense regeneration",
+      "<B>> <C>50%</> reduced speed and vitals restored from all sources</>",
+      "<B>> Disables optical camouflage</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Bleed",
+    "tooltip": [
+      "<B>> Constant bleed damage</>"
+    ],
+    "enhancement": "Hemorrhage",
+    "enh_tooltip": [
+      "<B>> <C>25%</> increased bleed damage</>",
+      "<B>> Absorbs one bleed clear, downgrades to bleed</>"
+    ]
+  },
+  {
+    "name": "Burn",
+    "tooltip": [
+      "<B>> Constant fire damage and stat reduction</>"
+    ],
+    "enhancement": "Combust",
+    "enh_tooltip": [
+      "<B>> <C>50%</> increased damage taken to defense</>"
+    ]
+  },
+  {
+    "name": "Corrode",
+    "tooltip": [
+      "<B>> Constant chemical damage and both stat reduction</>",
+      "<B>> <C>100%</> reduced vitals restored from all sources</>",
+      "<B>> <C>10/s</> defense drain</>"
+    ],
+    "enhancement": "Necrosis",
+    "enh_tooltip": [
+      "<B>> <C>50%</> of attempted vitals restoration dealt back as chemical damage</>",
+      "<B>> Duration constantly refreshed while bleeding</>"
+    ]
+  },
+  {
+    "name": "Disable",
+    "tooltip": [
+      "<B>> Disables: set augments/devices/projectiles, all forms of detections, nano-wire, terminals</>",
+      "<B>> <C>100%</> reduced defense regeneration</>"
+    ],
+    "enhancement": "Stun",
+    "enh_tooltip": [
+      "<B>> Visual and audio distortion</>",
+      "<B>> <C>50%</> reduced turn speed</>"
+    ]
+  },
+  {
+    "name": "Hyper",
+    "tooltip": [
+      "> Full AUX and Aerial charges refill",
+      "> <C>100%</> reduced AUX drain",
+      "> <C>25%</> increased Core speed"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Overcharge",
+    "tooltip": [
+      "> Disable immunity",
+      "> <C>10%</> increased ground speed",
+      "> Disable enemy players, devices and projectiles within <C>4 m</> for <C>2 s</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Overkill",
+    "tooltip": [
+      "> Melee attacks and body impacts bypass defense",
+      "> <C>100%</> increased body impact damage",
+      "> <C>100%</> reduced AUX drain from all soruces",
+      "> <C>100%</> reduced loadout and movement speed penalties",
+      "> <C>50%</> increased dexterity",
+      "<B>> <C>0 - 100%</> increased direct damage recieved, scaling proportionally with duration active from <C>0 - 5 s</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Reinforce",
+    "tooltip": [
+      "> Defense penetration immunity",
+      "> Deflects projectiles",
+      "> <C>50%</> reduced direct damage recieved",
+      "<B>> Disables optical camouflage</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Shroud",
+    "tooltip": [
+      "> Immunity to: radar, detections, thermals, locks"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Snare",
+    "tooltip": [
+      "<B>> <C>50%</> reduced ground speed</>",
+      "<B>> <C>20 /s</> AUX drain</>"
+    ],
+    "enhancement": "Cripple",
+    "enh_tooltip": [
+      "<B>> Removes all aerial charges, maneuvers and the ability to climb</>",
+      "<B>> Enviroment impacts deal damage</>"
+    ]
+  }
+]
