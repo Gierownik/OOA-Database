@@ -1,30 +1,30 @@
 import json
 import re
-with open("ENUM_PerkID.json", "r", encoding="utf-8") as f:
+with open("Raw Data\ENUM_PerkID.json", "r", encoding="utf-8") as f:
     enum_data = json.load(f)
-with open("ENUM_DeviceID.json", "r", encoding="utf-8") as f:
+with open("Raw Data\ENUM_DeviceID.json", "r", encoding="utf-8") as f:
     device_enum_data = json.load(f)
-with open("ENUM_WeaponID.json", "r", encoding="utf-8") as f:
+with open("Raw Data\ENUM_WeaponID.json", "r", encoding="utf-8") as f:
     weapon_enum_data = json.load(f)
-with open("ENUM_AttachmentID.json", "r", encoding="utf-8") as f:
+with open("Raw Data\ENUM_AttachmentID.json", "r", encoding="utf-8") as f:
     attachment_enum_data = json.load(f)
-with open("ENUM_ShellID.json", "r", encoding="utf-8") as f:
+with open("Raw Data\ENUM_ShellID.json", "r", encoding="utf-8") as f:
     shell_enum_data = json.load(f)
-with open("DT_SkillTree.json", "r", encoding="utf-8") as f:
+with open("Raw Data\DT_SkillTree.json", "r", encoding="utf-8") as f:
     skilltree_data = json.load(f)
-with open("DT_DeviceData.json", "r", encoding="utf-8") as f:
+with open("Raw Data\DT_DeviceData.json", "r", encoding="utf-8") as f:
     device_data = json.load(f)
-with open("DT_WeaponData.json", "r", encoding="utf-8") as f:
+with open("Raw Data\DT_WeaponData.json", "r", encoding="utf-8") as f:
     weapon_data = json.load(f)
-with open("DT_ShellData.json", "r", encoding="utf-8") as f:
+with open("Raw Data\DT_ShellData.json", "r", encoding="utf-8") as f:
     shell_data = json.load(f)
-with open("DT_AttachmentData.json", "r", encoding="utf-8") as f:
+with open("Raw Data\DT_AttachmentData.json", "r", encoding="utf-8") as f:
     attachment_data = json.load(f)
-with open("ENUM_WeaponClass.json", "r", encoding="utf-8") as f:
+with open("Raw Data\ENUM_WeaponClass.json", "r", encoding="utf-8") as f:
     weapon_class = json.load(f)
-with open("ENUM_Category.json", "r", encoding="utf-8") as f:
+with open("Raw Data\ENUM_Category.json", "r", encoding="utf-8") as f:
     weapon_category = json.load(f)
-with open("ENUM_FireMode.json", "r", encoding="utf-8") as f:
+with open("Raw Data\ENUM_FireMode.json", "r", encoding="utf-8") as f:
     weapon_mode = json.load(f)
 #-----------------------------------------------------------------------------Tactical ForeGripper fix-----------------------------------------------
 

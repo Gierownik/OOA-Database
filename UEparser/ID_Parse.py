@@ -3,11 +3,11 @@ import os
 import re
 
 file_map = {
-    "ENUM_ShellID.json": "Shells",
-    "ENUM_PerkID.json": "Augments",
-    "ENUM_DeviceID.json": "Devices",
-    "ENUM_WeaponID.json": "Weapons",
-    "ENUM_AttachmentID.json": "Attachments"
+    "Raw Data\ENUM_ShellID.json": "Shells",
+    "Raw Data\ENUM_PerkID.json": "Augments",
+    "Raw Data\ENUM_DeviceID.json": "Devices",
+    "Raw Data\ENUM_WeaponID.json": "Weapons",
+    "Raw Data\ENUM_AttachmentID.json": "Attachments"
 }
 
 output = {
@@ -62,7 +62,7 @@ for filename, category in file_map.items():
             continue  # Skip if we couldn't resolve an ID at all
 
         # Handle attachments with category mapping
-        if filename == "ENUM_AttachmentID.json":
+        if filename == "Raw Data\ENUM_AttachmentID.json":
             subcategory = categorize_attachment(name)
             output[subcategory][name] = final_id
         else:
