@@ -132,7 +132,7 @@ for skill_name, skill_data in skill_rows.items():
 
 
 # save dis
-with open("augments_db_test.json", "w", encoding="utf-8") as out_file:
+with open("augments.json", "w", encoding="utf-8") as out_file:
     json.dump(perk_output, out_file, indent=2, ensure_ascii=False)
 print("Augment database shit workin")
 #------------------------------------------------------demvimces---------------------------
@@ -203,7 +203,7 @@ for skill_name, data in skill_rows.items():
         }
     })
 
-with open("devices_db_test.json", "w", encoding="utf-8") as out_file:
+with open("devices.json", "w", encoding="utf-8") as out_file:
     json.dump(device_output, out_file, indent=2, ensure_ascii=False)
 print("Device database shit workin")
 #-------------------------------------------Goons---------------------------------------
@@ -291,7 +291,7 @@ for skill_name, data in skill_rows.items():
         }
     })
 
-with open("weapons_db_test.json", "w", encoding="utf-8") as out_file:
+with open("weapons.json", "w", encoding="utf-8") as out_file:
     json.dump(weapon_output, out_file, indent=2, ensure_ascii=False)
 
 print("Weapon database shit workin")
@@ -367,7 +367,7 @@ for skill_name, data in skill_rows.items():
         }
     })
 
-with open("attachments_db_test.json", "w", encoding="utf-8") as out_file:
+with open("attachments.json", "w", encoding="utf-8") as out_file:
     json.dump(attachment_output, out_file, indent=2, ensure_ascii=False)
 print("Mod database shit workin")
 #-------------------------------------------------------------------Shellfish----------------------
@@ -473,7 +473,7 @@ for skill_name, shell_data in skill_rows.items():
         }
     })
 
-with open("shells_db_test.json", "w", encoding="utf-8") as out_file:
+with open("shells.json", "w", encoding="utf-8") as out_file:
     json.dump(shell_output, out_file, indent=2, ensure_ascii=False)
 print("Shell database shit workin n faked")
 #----------------------------------------------------------faking toolips baybeeeeee-------------------------------
@@ -528,6 +528,6 @@ for entry in wep_cat["DisplayNameMap"]:
             ]
     })
         
-with open("specialisations_db_test.json", "w", encoding="utf-8") as out_file:
+with open("specialisations.json", "w", encoding="utf-8") as out_file:
     json.dump(spec_output, out_file, indent=2, ensure_ascii=False)
 print("Spectz database shit faked")

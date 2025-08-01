@@ -68,7 +68,7 @@ for filename, category in file_map.items():
         else:
             output[category][name] = final_id
 
-with open("id_db.json", "w", encoding="utf-8") as f:
+with open("id.json", "w", encoding="utf-8") as f:
     json.dump(output, f, indent=4)
 
 print("IDs Parsed")
