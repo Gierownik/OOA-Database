@@ -693,8 +693,8 @@
           {
             "Namespace": "",
             "Key": "3E0A53D34309135B40F46C9EAA7D2831",
-            "SourceString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</>\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>",
-            "LocalizedString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</>\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>"
+            "SourceString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</> while using backup weapons\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>",
+            "LocalizedString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</> while using backup weapons\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>"
           }
         ]
       },
@@ -2175,8 +2175,8 @@
           {
             "Namespace": "",
             "Key": "DBC1B0724C4B81F3D9186885C014D2CB",
-            "SourceString": "> Can lock onto + track painted enemies\r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>100%</> of damage dealt as additional explosive damage after <C>2 s</> \r\n> <C>25%</> reduced recoil\r\n<B>></> <C>70-80%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>></> <C>50%</> <B>reduced environment penetration</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Can lock onto + track painted enemies\r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>100%</> of damage dealt as additional explosive damage after <C>2 s</> \r\n> <C>25%</> reduced recoil\r\n<B>></> <C>70-80%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>></> <C>50%</> <B>reduced environment penetration</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>50</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>75%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>50</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>75%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2213,8 +2213,8 @@
           {
             "Namespace": "",
             "Key": "CCA7DBDD48578433D7C6FE9C69C079E3",
-            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Explosive damage\r\n> Can knockback",
-            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Explosive damage\r\n> Can knockback"
+            "SourceString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2916,8 +2916,8 @@
           {
             "Namespace": "",
             "Key": "CE61E2904C8BDDAD9E1A889ED96D545B",
-            "SourceString": "> <C>300%</> increased damage every <C>4th</> shot\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>",
-            "LocalizedString": "> <C>300%</> increased damage every <C>4th</> shot\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>"
+            "SourceString": "> <C>200%</> increased damage every <C>4th</> shot\r\n<B>></> <C>200%</> <B>increased vertical recoil every</> <C>4th</> <B>shot</>\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>",
+            "LocalizedString": "> <C>200%</> increased damage every <C>4th</> shot\r\n<B>></> <C>200%</> <B>increased vertical recoil every</> <C>4th</> <B>shot</>\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>"
           }
         ]
       }

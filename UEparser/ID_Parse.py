@@ -3,11 +3,11 @@ import os
 import re
 
 file_map = {
-    "Raw Data\ENUM_ShellID.json": "Shells",
-    "Raw Data\ENUM_PerkID.json": "Augments",
-    "Raw Data\ENUM_DeviceID.json": "Devices",
-    "Raw Data\ENUM_WeaponID.json": "Weapons",
-    "Raw Data\ENUM_AttachmentID.json": "Attachments"
+    r"Raw Data\ENUM_ShellID.json": "Shells",
+    r"Raw Data\ENUM_PerkID.json": "Augments",
+    r"Raw Data\ENUM_DeviceID.json": "Devices",
+    r"Raw Data\ENUM_WeaponID.json": "Weapons",
+    r"Raw Data\ENUM_AttachmentID.json": "Attachments"
 }
 
 output = {

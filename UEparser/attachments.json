@@ -329,12 +329,14 @@
     "type": "Ammo",
     "tooltip": [
       "> Can lock onto + track painted enemies",
+      "> Additional explosive damage after <C>2 s</>",
       "> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock",
-      "> <C>100%</> of damage dealt as additional explosive damage after <C>2 s</>",
+      "> <C>1.5x</> headshot mutliplier",
+      "> <C>50</> penetration",
       "> <C>25%</> reduced recoil",
-      "<B>></> <C>70-80%</> <B>reduced damage</>",
+      "<B>></> <C>75%</> <B>reduced direct damage</>",
       "<B>></> <C>25%</> <B>reduced automatic + burst RPM</>",
-      "<B>></> <C>50%</> <B>reduced environment penetration</>",
+      "<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>",
       "<B>> Can be disabled</>"
     ],
     "technician": "Yes",
@@ -401,9 +403,10 @@
     "name": "Standard Grenade",
     "type": "Ammo",
     "tooltip": [
-      "> Activates on impact, <C>0.75 s</> activation delay",
+      "> Activates on impact, <C>1 s</> activation delay",
       "> Explosive damage",
-      "> Can knockback"
+      "> Can knockback",
+      "<B>> Can be disabled</>"
     ],
     "technician": "No",
     "compatibility": [
@@ -1264,7 +1267,8 @@
     "name": "Hammer-Head",
     "type": "Mod",
     "tooltip": [
-      "> <C>300%</> increased damage every <C>4th</> shot",
+      "> <C>200%</> increased damage every <C>4th</> shot",
+      "<B>></> <C>200%</> <B>increased vertical recoil every</> <C>4th</> <B>shot</>",
       "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>25%</> <B>increased spread gain</>"
     ],
