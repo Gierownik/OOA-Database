@@ -334,7 +334,7 @@
       "> <C>1.5x</> headshot mutliplier",
       "> <C>50</> penetration",
       "> <C>25%</> reduced recoil",
-      "<B>></> <C>75%</> <B>reduced direct damage</>",
+      "<B>></> <C>85%</> <B>reduced direct damage</>",
       "<B>></> <C>25%</> <B>reduced automatic + burst RPM</>",
       "<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>",
       "<B>> Can be disabled</>"
@@ -998,13 +998,12 @@
     "type": "Mod",
     "tooltip": [
       "> Converts to automatic",
-      "> <C>25%</> increased RPM",
-      "<B>></> <C>20%</> <B>reduced damage</>",
+      "> <C>20%</> increased RPM",
+      "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>50%</> <B>increased recoil + spread gain</>"
     ],
     "technician": "No",
     "compatibility": [
-      "Nexus",
       "Typhon"
     ],
     "excludes": [],
@@ -1207,7 +1206,7 @@
     "name": "Frag Mag",
     "type": "Mod",
     "tooltip": [
-      "> Fragments rounds while ADS or akimbo alternate aim stance",
+      "> Fragments rounds while aiming",
       "> <C>4</> fragments per shot",
       "> <C>25%</> of base damage per fragment",
       "<B>></> <C>25%</> <B>reduced far damage range while active</>",
@@ -1230,6 +1229,7 @@
     "tooltip": [
       "> <C>100%</> reduced damage falloff",
       "> <C>50%</> increased velocity + environment penetration",
+      "> <C>25%</> increased RPM",
       "<B>></> <C>0.35 s</> <B>spin up delay</>"
     ],
     "technician": "No",

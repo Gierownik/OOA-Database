@@ -148,10 +148,11 @@
   {
     "name": "Auxiliary Vitals",
     "tooltip": [
+      "> Chemical heals gain bleed immunity if used while not bleeding",
       "> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown",
       "> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active",
-      "<B>></> <C>25%</> <B>defense restored from all sources</>",
-      "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+      "<B>></> <C>25%</> <B>reduced defense restored from all sources</>",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
       "type": "body",
@@ -163,7 +164,7 @@
     "tooltip": [
       "> Bleeding enemies within <C>30 m</> are detected while bleeding",
       "> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>",
-      "> <C>25</> vitals restored on visible bleeding enemy kill with firearms while bleeding",
+      "> <C>50</> vitals restored on visible bleeding enemy kill with firearms while bleeding",
       "> <C>15%</> increased ground speed while bleeding",
       "> <C>50%</> reduced aux power drain while bleeding",
       "<B>> Primary stim causes bleed if used while not bleeding</>",

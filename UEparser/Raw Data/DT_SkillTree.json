@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
+        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
       }
     },
     "Rows": {
@@ -82,8 +82,8 @@
           {
             "Namespace": "",
             "Key": "293CDDD44B45B6C1B63D1BA0E12B9E74",
-            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death\r\n> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing <C>25</> fire damage per enemy, up to <C>100</> damage, ignited enemies receive <C>50%</> increased direct defense damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
-            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death\r\n> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing <C>25</> fire damage per enemy, up to <C>100</> damage, ignited enemies receive <C>50%</> increased direct defense damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
+            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing <C>25</> fire damage per enemy, up to <C>100</> damage, ignited enemies receive <C>50%</> increased direct defense damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
+            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing <C>25</> fire damage per enemy, up to <C>100</> damage, ignited enemies receive <C>50%</> increased direct defense damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
           }
         ]
       },
@@ -598,8 +598,8 @@
           {
             "Namespace": "",
             "Key": "0DAF1DAA4EFF406266CBF7A7AB0F0735",
-            "SourceString": "> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>defense restored from all sources</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>defense restored from all sources</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -617,8 +617,8 @@
           {
             "Namespace": "",
             "Key": "7E4F27EE405DD324F1797E82D5B7CE92",
-            "SourceString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>25</> vitals restored on visible bleeding enemy kill with firearms while bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>",
-            "LocalizedString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>25</> vitals restored on visible bleeding enemy kill with firearms while bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>"
+            "SourceString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>50</> vitals restored on visible bleeding enemy kill with firearms while bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>",
+            "LocalizedString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>50</> vitals restored on visible bleeding enemy kill with firearms while bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>"
           }
         ]
       },
@@ -2175,8 +2175,8 @@
           {
             "Namespace": "",
             "Key": "DBC1B0724C4B81F3D9186885C014D2CB",
-            "SourceString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>50</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>75%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>50</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>75%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>50</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>85%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>50</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>85%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2688,8 +2688,8 @@
           {
             "Namespace": "",
             "Key": "E55BEE2240EE23C53B6324BD641592AD",
-            "SourceString": "> Converts to automatic\r\n> <C>25%</> increased RPM\r\n<B>></> <C>20%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased recoil + spread gain</>",
-            "LocalizedString": "> Converts to automatic\r\n> <C>25%</> increased RPM\r\n<B>></> <C>20%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased recoil + spread gain</>"
+            "SourceString": "> Converts to automatic\r\n> <C>20%</> increased RPM\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased recoil + spread gain</>",
+            "LocalizedString": "> Converts to automatic\r\n> <C>20%</> increased RPM\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>50%</> <B>increased recoil + spread gain</>"
           }
         ]
       },
@@ -2859,8 +2859,8 @@
           {
             "Namespace": "",
             "Key": "5F959FBB4BC0F079D5CFF5AEC245AF85",
-            "SourceString": "> Fragments rounds while ADS or akimbo alternate aim stance \r\n> <C>4</> fragments per shot\r\n> <C>25%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range while active</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>",
-            "LocalizedString": "> Fragments rounds while ADS or akimbo alternate aim stance \r\n> <C>4</> fragments per shot\r\n> <C>25%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range while active</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>"
+            "SourceString": "> Fragments rounds while aiming\r\n> <C>4</> fragments per shot\r\n> <C>25%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range while active</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>",
+            "LocalizedString": "> Fragments rounds while aiming\r\n> <C>4</> fragments per shot\r\n> <C>25%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range while active</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>"
           }
         ]
       },
@@ -2878,8 +2878,8 @@
           {
             "Namespace": "",
             "Key": "1DAEAA2C456A8DD75D697ABD9E79643C",
-            "SourceString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>",
-            "LocalizedString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n<B>></> <C>0.35 s</> <B>spin up delay</>"
+            "SourceString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n> <C>25%</> increased RPM\r\n<B>></> <C>0.35 s</> <B>spin up delay</>",
+            "LocalizedString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n> <C>25%</> increased RPM\r\n<B>></> <C>0.35 s</> <B>spin up delay</>"
           }
         ]
       },
