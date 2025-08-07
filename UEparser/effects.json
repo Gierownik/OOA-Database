@@ -72,7 +72,7 @@
     "name": "Overcharge",
     "tooltip": [
       "> Disable immunity",
-      "> <C>10%</> increased ground speed",
+      "> <C>10%</> increased ground speed and climb speed",
       "> Disable enemy players, devices and projectiles within <C>4 m</> for <C>2 s</>"
     ],
     "enhancement": "None",
