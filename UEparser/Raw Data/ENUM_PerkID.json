@@ -617,6 +617,15 @@
             "SourceString": "Close Minded",
             "LocalizedString": "Close Minded"
           }
+        },
+        {
+          "Key": "NewEnumerator68",
+          "Value": {
+            "Namespace": "",
+            "Key": "C0D582364A2AD58C0918EEB18D8BB942",
+            "SourceString": "Neuro-Hacker",
+            "LocalizedString": "Neuro-Hacker"
+          }
         }
       ]
     },
@@ -689,7 +698,8 @@
       "ENUM_PerkID::NewEnumerator65": 65,
       "ENUM_PerkID::NewEnumerator66": 66,
       "ENUM_PerkID::NewEnumerator67": 67,
-      "ENUM_PerkID::ENUM_MAX": 68
+      "ENUM_PerkID::NewEnumerator68": 68,
+      "ENUM_PerkID::ENUM_MAX": 69
     },
     "CppForm": "Namespaced"
   }

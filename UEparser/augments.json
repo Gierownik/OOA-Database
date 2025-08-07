@@ -601,6 +601,20 @@
     }
   },
   {
+    "name": "Neuro-Hacker",
+    "tooltip": [
+      "> Neuro-Link devices can be used while scanning",
+      "> Immunity to enemy Neuro-Link",
+      "> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation",
+      "<B>> Detected while scanning or for </><C>4 s</><B> on Neuro-Link device activation</>",
+      "<B>> Can be disabled</>"
+    ],
+    "foundations": {
+      "type": "tech",
+      "value": 20
+    }
+  },
+  {
     "name": "Overclocked",
     "tooltip": [
       "> Unaffected by Core slowing effects while Core active",

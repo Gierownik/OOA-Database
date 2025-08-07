@@ -73,7 +73,8 @@
         "Dead Drop": 64,
         "Hot Swap": 65,
         "Rage Core": 66,
-        "Close Minded": 67
+        "Close Minded": 67,
+        "Neuro-Hacker": 68
     },
     "Devices": {
         "Overcharge": 2,
