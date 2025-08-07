@@ -322,7 +322,7 @@
   {
     "name": "Disengage",
     "tooltip": [
-      "> Automatically relocate to a previous location on receiving fatal damage",
+      "> Automatically relocate to a previous location on death",
       "> <C>25%</> vitals + defense restored on activation",
       "> Debuffs cleared on activation",
       "<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>",
@@ -588,8 +588,7 @@
       "> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay",
       "> <C>25%</> additional Satchel charge damage as fire damage",
       "> <C>60</> vitals + max vitals restored on Relocator use",
-      "> <C>4 s</> stun to disabled enemies on Breach",
-      "> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone",
+      "<C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone",
       "> <C>25%</> increased AAP Turret range + ammo capacity",
       "> Laser wire beam no longer visible",
       "> Reserve stim becomes potent",

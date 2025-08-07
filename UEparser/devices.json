@@ -58,14 +58,70 @@
     }
   },
   {
-    "name": "Breach",
+    "name": "Spike",
     "tooltip": [
+      "> Neuro-Link device",
       "> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies on activation, executes if target below <C>25%</> vitals",
       "> Destroys visible or detected devices on activation"
     ],
     "experimental": "Yes",
     "stats": {
-      "cooldown": 45.0,
+      "cooldown": 60.0,
+      "duration": 0.0,
+      "action": "Activate",
+      "speed_penalty": 0.15
+    },
+    "foundations": {
+      "type": "tech",
+      "value": 20
+    }
+  },
+  {
+    "name": "Combust",
+    "tooltip": [
+      "> Neuro-Link device",
+      "> Deals <C>25</> fire damage + combust to visible or detected enemies, damage increased per enemy, up to <C>150</> damage"
+    ],
+    "experimental": "No",
+    "stats": {
+      "cooldown": 60.0,
+      "duration": 0.0,
+      "action": "Activate",
+      "speed_penalty": 0.15
+    },
+    "foundations": {
+      "type": "tech",
+      "value": 20
+    }
+  },
+  {
+    "name": "Parasite",
+    "tooltip": [
+      "> Neuro-Link device",
+      "> While active: Leech <C>5</> vitals from all visible or detected enemies every <C>0.5 s</>"
+    ],
+    "experimental": "Yes",
+    "stats": {
+      "cooldown": 60.0,
+      "duration": 2.5,
+      "action": "Activate",
+      "speed_penalty": 0.15
+    },
+    "foundations": {
+      "type": "tech",
+      "value": 20
+    }
+  },
+  {
+    "name": "Desync",
+    "tooltip": [
+      "> Neuro-Link device",
+      "> Drains <C>25%</> Core charge of visible or detected enemies, <C>100%</> of charge drained dealt as vital damage",
+      "> Scrambles radar, detections + targeting systems of visible or detected enemies for <C>4s</>"
+    ],
+    "experimental": "No",
+    "stats": {
+      "cooldown": 60.0,
       "duration": 0.0,
       "action": "Activate",
       "speed_penalty": 0.15

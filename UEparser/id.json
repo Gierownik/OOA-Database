@@ -78,7 +78,7 @@
     "Devices": {
         "Overcharge": 2,
         "Laser Wire": 3,
-        "Breach": 1,
+        "Spike": 1,
         "Disrupter": 4,
         "Detonator": 5,
         "Proximity Mine": 6,
@@ -92,7 +92,10 @@
         "Reserve Stim": 14,
         "Tempest": 15,
         "Shifter": 16,
-        "Anchor": 17
+        "Anchor": 17,
+        "Combust": 18,
+        "Parasite": 19,
+        "Desync": 20
     },
     "Weapons": {
         "Major": 2,

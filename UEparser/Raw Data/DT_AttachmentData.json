@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_AttachmentData'",
-        "ObjectPath": "/Game/Blueprints/Data/STRUCT_AttachmentData"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_AttachmentData.0"
       }
     },
     "Rows": {
@@ -165,8 +165,7 @@
           "ENUM_WeaponID::NewEnumerator47",
           "ENUM_WeaponID::NewEnumerator52",
           "ENUM_WeaponID::NewEnumerator56",
-          "ENUM_WeaponID::NewEnumerator57",
-          "ENUM_WeaponID::NewEnumerator59"
+          "ENUM_WeaponID::NewEnumerator57"
         ],
         "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
       },

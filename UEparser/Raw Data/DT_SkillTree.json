@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
       }
     },
     "Rows": {
@@ -44,8 +44,8 @@
           {
             "Namespace": "",
             "Key": "98C2F5C144B9057D3474CBBCB4944873",
-            "SourceString": ":: <D>Adrenal Feedback</>\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness\r\n> Neuro-link 'Parasite' while Core active: Leech <C>5</> vitals from all visible enemies every <C>0.5 s</>, increased by <C>1</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown",
-            "LocalizedString": ":: <D>Adrenal Feedback</>\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness\r\n> Neuro-link 'Parasite' while Core active: Leech <C>5</> vitals from all visible enemies every <C>0.5 s</>, increased by <C>1</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown"
+            "SourceString": ":: <D>Adrenal Feedback</>\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness\r\n> Neuro-link 'Parasite' while Core active: Leech <C>5</> vitals from all visible or detected enemies every <C>0.5 s</>, increased by <C>1</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown",
+            "LocalizedString": ":: <D>Adrenal Feedback</>\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness\r\n> Neuro-link 'Parasite' while Core active: Leech <C>5</> vitals from all visible or detected enemies every <C>0.5 s</>, increased by <C>1</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown"
           }
         ]
       },
@@ -82,8 +82,8 @@
           {
             "Namespace": "",
             "Key": "293CDDD44B45B6C1B63D1BA0E12B9E74",
-            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing <C>25</> fire damage per enemy, up to <C>100</> damage, ignited enemies receive <C>50%</> increased direct defense damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
-            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Ignites visible enemies, dealing <C>25</> fire damage per enemy, up to <C>100</> damage, ignited enemies receive <C>50%</> increased direct defense damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
+            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to visible or detected enemies, damage increased per enemy, up to <C>150</> damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
+            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to visible or detected enemies, damage increased per enemy, up to <C>150</> damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
           }
         ]
       },
@@ -845,8 +845,8 @@
           {
             "Namespace": "",
             "Key": "FC56933E48A413BE2AEC11B5EDD898D8",
-            "SourceString": "> Automatically relocate to a previous location on receiving fatal damage\r\n> <C>25%</> vitals + defense restored on activation\r\n> Debuffs cleared on activation\r\n<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Automatically relocate to a previous location on receiving fatal damage\r\n> <C>25%</> vitals + defense restored on activation\r\n> Debuffs cleared on activation\r\n<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Automatically relocate to a previous location on death\r\n> <C>25%</> vitals + defense restored on activation\r\n> Debuffs cleared on activation\r\n<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Automatically relocate to a previous location on death\r\n> <C>25%</> vitals + defense restored on activation\r\n> Debuffs cleared on activation\r\n<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1206,8 +1206,27 @@
           {
             "Namespace": "",
             "Key": "7B33CE124DF4B6AC164ABE9679A52BB0",
-            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
-            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n> <C>4 s</> stun to disabled enemies on Breach\r\n> <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
+            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
+            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
+          }
+        ]
+      },
+      "Neuro-Hacker": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator68",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "BB44592340A842DB4451F289EC7F3EF2",
+            "SourceString": "> Neuro-Link devices can be used while scanning\r\n> Immunity to enemy Neuro-Link\r\n> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scanning or for </><C>4 s</><B> on Neuro-Link device activation</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Neuro-Link devices can be used while scanning\r\n> Immunity to enemy Neuro-Link\r\n> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scanning or for </><C>4 s</><B> on Neuro-Link device activation</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1705,7 +1724,7 @@
           }
         ]
       },
-      "Breach": {
+      "Spike": {
         "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
         "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
         "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
@@ -1719,8 +1738,65 @@
           {
             "Namespace": "",
             "Key": "572C6D7C4A9158113E8B308ED4061852",
-            "SourceString": "> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies on activation, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices on activation",
-            "LocalizedString": "> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies on activation, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices on activation"
+            "SourceString": "> Neuro-Link device\r\n> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies on activation, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices on activation",
+            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible or detected enemies on activation, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices on activation"
+          }
+        ]
+      },
+      "Combust": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator29",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "0E27AEAA45471B74BF1263AE720A60D5",
+            "SourceString": "> Neuro-Link device\r\n> Deals <C>25</> fire damage + combust to visible or detected enemies, damage increased per enemy, up to <C>150</> damage",
+            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>25</> fire damage + combust to visible or detected enemies, damage increased per enemy, up to <C>150</> damage"
+          }
+        ]
+      },
+      "Parasite": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator30",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "3097FA4A4375793B54ACD0AF9F697D36",
+            "SourceString": "> Neuro-Link device\r\n> While active: Leech <C>5</> vitals from all visible or detected enemies every <C>0.5 s</>",
+            "LocalizedString": "> Neuro-Link device\r\n> While active: Leech <C>5</> vitals from all visible or detected enemies every <C>0.5 s</>"
+          }
+        ]
+      },
+      "Desync": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator31",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "D4216E3747F9754121EC098F436631DF",
+            "SourceString": "> Neuro-Link device\r\n> Drains <C>25%</> Core charge of visible or detected enemies, <C>100%</> of charge drained dealt as vital damage\r\n> Scrambles radar, detections + targeting systems of visible or detected enemies for <C>4s</> ",
+            "LocalizedString": "> Neuro-Link device\r\n> Drains <C>25%</> Core charge of visible or detected enemies, <C>100%</> of charge drained dealt as vital damage\r\n> Scrambles radar, detections + targeting systems of visible or detected enemies for <C>4s</> "
           }
         ]
       },

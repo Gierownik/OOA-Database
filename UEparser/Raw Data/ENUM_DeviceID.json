@@ -29,8 +29,8 @@
           "Value": {
             "Namespace": "",
             "Key": "373E86844C7C4C3A77F22BBE98B21EFB",
-            "SourceString": "Breach",
-            "LocalizedString": "Breach"
+            "SourceString": "Spike",
+            "LocalizedString": "Spike"
           }
         },
         {
@@ -167,6 +167,33 @@
             "SourceString": "Anchor",
             "LocalizedString": "Anchor"
           }
+        },
+        {
+          "Key": "NewEnumerator29",
+          "Value": {
+            "Namespace": "",
+            "Key": "68332B0848E059068604A58B3D317595",
+            "SourceString": "Combust",
+            "LocalizedString": "Combust"
+          }
+        },
+        {
+          "Key": "NewEnumerator30",
+          "Value": {
+            "Namespace": "",
+            "Key": "E8EE78B24776B748D7E01B8EE0E406C3",
+            "SourceString": "Parasite",
+            "LocalizedString": "Parasite"
+          }
+        },
+        {
+          "Key": "NewEnumerator31",
+          "Value": {
+            "Namespace": "",
+            "Key": "FABA0CC049A599E39BC69C983195DB9D",
+            "SourceString": "Desync",
+            "LocalizedString": "Desync"
+          }
         }
       ]
     },
@@ -189,7 +216,10 @@
       "ENUM_DeviceID::NewEnumerator26": 15,
       "ENUM_DeviceID::NewEnumerator27": 16,
       "ENUM_DeviceID::NewEnumerator28": 17,
-      "ENUM_DeviceID::ENUM_MAX": 18
+      "ENUM_DeviceID::NewEnumerator29": 18,
+      "ENUM_DeviceID::NewEnumerator30": 19,
+      "ENUM_DeviceID::NewEnumerator31": 20,
+      "ENUM_DeviceID::ENUM_MAX": 21
     },
     "CppForm": "Namespaced"
   }
