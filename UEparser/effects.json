@@ -26,7 +26,9 @@
   {
     "name": "Burn",
     "tooltip": [
-      "<B>> Constant fire damage and stat reduction</>"
+      "<B>> Constant fire damage and stat reduction</>",
+      "<B>> Burn ticks don't deplete while moving over 8m/s</>",
+      "> <C>2</> burn ticks removed on roll"
     ],
     "enhancement": "Combust",
     "enh_tooltip": [
@@ -44,6 +46,17 @@
     "enh_tooltip": [
       "<B>> <C>50%</> of attempted vitals restoration dealt back as chemical damage</>",
       "<B>> Duration constantly refreshed while bleeding</>"
+    ]
+  },
+{
+    "name": "Desync",
+    "tooltip": [
+      "<B>> Scrambles radar, detections and targeting systems</>"
+    ],
+    "enhancement": "Disconnect",
+    "enh_tooltip": [
+      "<B>> Freezes Non-augment cooldowns</>",
+      "<B>> <C>0-100%</> increased duration based on velocity <C>0 - 12m/s</></>"
     ]
   },
   {
