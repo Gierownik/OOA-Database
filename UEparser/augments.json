@@ -49,6 +49,7 @@
       "> <C>25%</> increased radar + detection range from all sources",
       "> <C>100%</> reduced scan + tag cooldown on ally killing tagged enemy",
       "> Detected enemies can be tagged",
+      "<B>> </><C>1</> <B> reduced limit to Neuro-Link detections</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -274,6 +275,7 @@
       "> Enemies interacting with objectives within <C>30 m</> are detected",
       "> Enemies that tag you are tagged",
       "> Visible disguised enemies within <C>10 m</> are revealed",
+      "<B>> </><C>2</> <B> reduced limit to Neuro-Link detections</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -604,9 +606,10 @@
     "name": "Neuro-Hacker",
     "tooltip": [
       "> Neuro-Link devices can be used while scanning",
-      "> Immunity to enemy Neuro-Link",
+      "> Immunity to enemy Neuro-Link while not detected",
       "> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation",
-      "<B>> Detected while scanning or for </><C>4 s</><B> on Neuro-Link device activation</>",
+      "<B>> Detected while scanning</>",
+      "<B>> Neuro-Link devices used while scanning only target detected enemies</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
