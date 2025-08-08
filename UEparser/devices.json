@@ -60,9 +60,9 @@
   {
     "name": "Spike",
     "tooltip": [
-      "> Neuro-Link device",
-      "> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies on activation, executes if target below <C>25%</> vitals",
-      "> Destroys visible or detected devices on activation"
+      "> Neuro-Link device, <C>3 s</> hack time",
+      "> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies, executes if target below <C>25%</> vitals",
+      "> Destroys visible or detected devices"
     ],
     "experimental": "Yes",
     "stats": {
@@ -79,7 +79,7 @@
   {
     "name": "Combust",
     "tooltip": [
-      "> Neuro-Link device",
+      "> Neuro-Link device, <C>3 s</> hack time",
       "> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage"
     ],
     "experimental": "No",
@@ -97,7 +97,7 @@
   {
     "name": "Parasite",
     "tooltip": [
-      "> Neuro-Link device",
+      "> Neuro-Link device, <C>2 s</> hack time",
       "> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>"
     ],
     "experimental": "Yes",
@@ -115,9 +115,9 @@
   {
     "name": "Desync",
     "tooltip": [
-      "> Neuro-Link device",
-      "> Drains <C>25%</> Core charge of visible + up to <C>6</> detected enemies, <C>100%</> of charge drained dealt as vital damage",
-      "> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>4s</>"
+      "> Neuro-Link device, <C>2 s</> hack time",
+      "> Deals <C>15</> vital damage to visible + up to <C>6</> detected enemies",
+      "> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>5s</>"
     ],
     "experimental": "No",
     "stats": {

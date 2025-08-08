@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
+        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
       }
     },
     "Rows": {
@@ -63,8 +63,8 @@
           {
             "Namespace": "",
             "Key": "00475715494F08DCB1DF068F27E3568B",
-            "SourceString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> defense bypass with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Breach' on core activation: Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
-            "LocalizedString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> defense bypass with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Breach' on core activation: Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
+            "SourceString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Breach' on core activation: Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
+            "LocalizedString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Breach' on core activation: Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
           }
         ]
       },
@@ -1738,8 +1738,8 @@
           {
             "Namespace": "",
             "Key": "572C6D7C4A9158113E8B308ED4061852",
-            "SourceString": "> Neuro-Link device\r\n> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies on activation, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices on activation",
-            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies on activation, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices on activation"
+            "SourceString": "> Neuro-Link device, <C>3 s</> hack time\r\n> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices",
+            "LocalizedString": "> Neuro-Link device, <C>3 s</> hack time\r\n> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices"
           }
         ]
       },
@@ -1757,8 +1757,8 @@
           {
             "Namespace": "",
             "Key": "0E27AEAA45471B74BF1263AE720A60D5",
-            "SourceString": "> Neuro-Link device\r\n> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage",
-            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage"
+            "SourceString": "> Neuro-Link device, <C>3 s</> hack time\r\n> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage",
+            "LocalizedString": "> Neuro-Link device, <C>3 s</> hack time\r\n> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage"
           }
         ]
       },
@@ -1776,8 +1776,8 @@
           {
             "Namespace": "",
             "Key": "3097FA4A4375793B54ACD0AF9F697D36",
-            "SourceString": "> Neuro-Link device\r\n> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>",
-            "LocalizedString": "> Neuro-Link device\r\n> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>"
+            "SourceString": "> Neuro-Link device, <C>2 s</> hack time\r\n> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>",
+            "LocalizedString": "> Neuro-Link device, <C>2 s</> hack time\r\n> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>"
           }
         ]
       },
@@ -1795,8 +1795,8 @@
           {
             "Namespace": "",
             "Key": "D4216E3747F9754121EC098F436631DF",
-            "SourceString": "> Neuro-Link device\r\n> Drains <C>25%</> Core charge of visible + up to <C>6</> detected enemies, <C>100%</> of charge drained dealt as vital damage\r\n> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>4s</> ",
-            "LocalizedString": "> Neuro-Link device\r\n> Drains <C>25%</> Core charge of visible + up to <C>6</> detected enemies, <C>100%</> of charge drained dealt as vital damage\r\n> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>4s</> "
+            "SourceString": "> Neuro-Link device, <C>2 s</> hack time\r\n> Deals <C>15</> vital damage to visible + up to <C>6</> detected enemies\r\n> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>5s</> ",
+            "LocalizedString": "> Neuro-Link device, <C>2 s</> hack time\r\n> Deals <C>15</> vital damage to visible + up to <C>6</> detected enemies\r\n> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>5s</> "
           }
         ]
       },

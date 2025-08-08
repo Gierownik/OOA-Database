@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_DeviceData'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_DeviceData.0"
+        "ObjectPath": "/Game/Blueprints/Data/STRUCT_DeviceData"
       }
     },
     "Rows": {
@@ -21,19 +21,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_FragGrenade'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_FragGrenade.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_FragGrenade"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Frag_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Frag.5"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Frag"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "ProximityMine": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator14",
@@ -45,19 +46,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_ProximityMine'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_ProximityMine.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_ProximityMine"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_ProxMine_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_ProxMine.13"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_ProxMine"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Relocator": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator16",
@@ -69,19 +71,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Gadget_Adrenaline'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_Adrenaline.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_Adrenaline"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Relocator_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Relocator.9"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Relocator"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Firecracker": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator15",
@@ -93,19 +96,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Fire'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Fire.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Fire"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Incendiary_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Incendiary.5"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Incendiary"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Disrupter": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator12",
@@ -117,19 +121,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Disrupter'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Disrupter.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Disrupter"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Stun_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Stun.7"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Stun"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "SatchelCharge": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator22",
@@ -141,19 +146,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Hacker'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Hacker.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Hacker"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Satchel_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Satchel.8"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Satchel"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 30.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Spike": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator3",
@@ -165,16 +171,17 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Gadget_XVision'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_XVision.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_XVision"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Use_Jammer_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Use_Jammer_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": true
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": true,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 3.0
       },
       "AAPTurret": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator17",
@@ -186,19 +193,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Turret'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Turret.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Turret"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Turret_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Turret.28"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Turret"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 35.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "ReserveStim": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator25",
@@ -210,16 +218,17 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": true,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Injector'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Injector.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Injector"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Stim_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Stim_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Stim_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Overcharge": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator0",
@@ -231,16 +240,17 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Disabled'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Disabled.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Disabled"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Use_Jammer_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Use_Jammer_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Deadzone": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator20",
@@ -252,19 +262,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Deadzone'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Deadzone.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Deadzone"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Deadzone_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Deadzone.15"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Deadzone"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Bolster": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator23",
@@ -276,16 +287,17 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Gadget_Shield'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_Shield.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_Shield"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Use_Jammer_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Use_Jammer_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 40.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Shroud": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator24",
@@ -297,16 +309,17 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Gadget_Stealth'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_Stealth.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_Stealth"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Use_Jammer_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Use_Jammer_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "LaserWire": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator1",
@@ -318,19 +331,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_LaserMine'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_LaserMine.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_LaserMine"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_TripMine_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_TripMine.17"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_TripMine"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Tempest": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator26",
@@ -342,19 +356,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Smoke'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Smoke.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Smoke"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Tempest_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Tempest.13"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Tempest"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Shifter": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator27",
@@ -366,16 +381,17 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Knock'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Knock.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Knock"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Use_Jammer_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Use_Jammer_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Anchor": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator28",
@@ -387,19 +403,20 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Gadget_AntiGrav'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_AntiGrav.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_AntiGrav"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Toss_Grenade_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Toss_Grenade_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Anchor_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Anchor.9"
+          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Anchor"
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": false,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Combust": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator29",
@@ -411,16 +428,17 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Explosion'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Explosion.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Explosion"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Use_Jammer_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Use_Jammer_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": true
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": true,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 3.0
       },
       "Parasite": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator30",
@@ -432,16 +450,17 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Gadget_Regen'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_Regen.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_Regen"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Use_Jammer_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Use_Jammer_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": true
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": true,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 2.0
       },
       "Desync": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator31",
@@ -453,16 +472,17 @@
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Cooldown'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Cooldown.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Cooldown"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Use_Jammer_Montage'",
-          "ObjectPath": "OutOfAction/Content/Characters/Animation/Test/Use_Jammer_Montage.0"
+          "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": true
+        "neuro-link_64_B5593B1E4585F61965634483AEF654CF": true,
+        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 2.0
       }
     }
   }
