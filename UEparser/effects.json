@@ -55,8 +55,7 @@
     ],
     "enhancement": "Disconnect",
     "enh_tooltip": [
-      "<B>> Freezes Non-augment cooldowns</>",
-      "<B>> <C>0-100%</> increased duration based on velocity <C>0 - 12m/s</></>"
+      "<B>> Freezes Non-augment cooldowns</>"
     ]
   },
   {
