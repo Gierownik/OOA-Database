@@ -79,8 +79,8 @@
   {
     "name": "Combust",
     "tooltip": [
-      "> Neuro-Link device, <C>3 s</> hack time",
-      "> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage"
+      "> Neuro-Link device, <C>5 s</> hack time",
+      "> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy"
     ],
     "experimental": "No",
     "stats": {
@@ -97,13 +97,13 @@
   {
     "name": "Parasite",
     "tooltip": [
-      "> Neuro-Link device, <C>2 s</> hack time",
+      "> Neuro-Link device, <C>3 s</> hack time",
       "> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>"
     ],
     "experimental": "Yes",
     "stats": {
       "cooldown": 60.0,
-      "duration": 2.5,
+      "duration": 5.0,
       "action": "Activate",
       "speed_penalty": 0.15
     },
@@ -129,6 +129,44 @@
     "foundations": {
       "type": "tech",
       "value": 20
+    }
+  },
+  {
+    "name": "Cascade",
+    "tooltip": [
+      "> Neuro-Link device, black market, <C>20 s</> hack time",
+      "> Initiates Core detonation to visible + up to <C>6</> detected enemies",
+      "<B>> Can only be used while scanning</>"
+    ],
+    "experimental": "No",
+    "stats": {
+      "cooldown": 60.0,
+      "duration": 0.0,
+      "action": "Activate",
+      "speed_penalty": 0.15
+    },
+    "foundations": {
+      "type": "tech",
+      "value": 25
+    }
+  },
+  {
+    "name": "Pathogen",
+    "tooltip": [
+      "> Neuro-Link device, black market, <C>10 s</> hack time",
+      "> Applies <C>10 /s</> bleed + Necrosis to visible + up to <C>6</> detected enemies",
+      "<B>> Can only be used while scanning</>"
+    ],
+    "experimental": "No",
+    "stats": {
+      "cooldown": 60.0,
+      "duration": 0.0,
+      "action": "Activate",
+      "speed_penalty": 0.15
+    },
+    "foundations": {
+      "type": "tech",
+      "value": 25
     }
   },
   {

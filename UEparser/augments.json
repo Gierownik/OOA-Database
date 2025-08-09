@@ -606,9 +606,10 @@
     "name": "Neuro-Hacker",
     "tooltip": [
       "> Neuro-Link devices can be used while scanning",
-      "> Immunity to enemy Neuro-Link while not detected",
-      "> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation",
-      "<B>> Detected while scanning</>",
+      "> Can equip black market Neuo-Link devices",
+      "> Immunity to enemy Neuro-Link devices while not scanning",
+      "> <C>5%</> reduced Neuro-Link device cooldown for each enemy affected on activation",
+      "<B>> Detected while scanning, overrides undetectable</>",
       "<B>> Neuro-Link devices used while scanning only target detected enemies</>",
       "<B>> Can be disabled</>"
     ],

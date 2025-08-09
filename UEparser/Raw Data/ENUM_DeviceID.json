@@ -194,6 +194,24 @@
             "SourceString": "Desync",
             "LocalizedString": "Desync"
           }
+        },
+        {
+          "Key": "NewEnumerator32",
+          "Value": {
+            "Namespace": "",
+            "Key": "090A1DCA4A36890D0187EBB3E81157AA",
+            "SourceString": "Cascade",
+            "LocalizedString": "Cascade"
+          }
+        },
+        {
+          "Key": "NewEnumerator33",
+          "Value": {
+            "Namespace": "",
+            "Key": "A17544884B2D8F92DDEF3E821DC36DD3",
+            "SourceString": "Pathogen",
+            "LocalizedString": "Pathogen"
+          }
         }
       ]
     },
@@ -219,7 +237,9 @@
       "ENUM_DeviceID::NewEnumerator29": 18,
       "ENUM_DeviceID::NewEnumerator30": 19,
       "ENUM_DeviceID::NewEnumerator31": 20,
-      "ENUM_DeviceID::ENUM_MAX": 21
+      "ENUM_DeviceID::NewEnumerator32": 21,
+      "ENUM_DeviceID::NewEnumerator33": 22,
+      "ENUM_DeviceID::ENUM_MAX": 23
     },
     "CppForm": "Namespaced"
   }

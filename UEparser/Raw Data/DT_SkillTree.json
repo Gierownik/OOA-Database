@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
       }
     },
     "Rows": {
@@ -82,8 +82,8 @@
           {
             "Namespace": "",
             "Key": "293CDDD44B45B6C1B63D1BA0E12B9E74",
-            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
-            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
+            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
+            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
           }
         ]
       },
@@ -1225,8 +1225,8 @@
           {
             "Namespace": "",
             "Key": "BB44592340A842DB4451F289EC7F3EF2",
-            "SourceString": "> Neuro-Link devices can be used while scanning\r\n> Immunity to enemy Neuro-Link while not detected\r\n> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scanning</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Neuro-Link devices can be used while scanning\r\n> Immunity to enemy Neuro-Link while not detected\r\n> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scanning</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Neuro-Link devices can be used while scanning\r\n> Can equip black market Neuo-Link devices\r\n> Immunity to enemy Neuro-Link devices while not scanning\r\n> <C>5%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scanning, overrides undetectable</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Neuro-Link devices can be used while scanning\r\n> Can equip black market Neuo-Link devices\r\n> Immunity to enemy Neuro-Link devices while not scanning\r\n> <C>5%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scanning, overrides undetectable</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1757,8 +1757,8 @@
           {
             "Namespace": "",
             "Key": "0E27AEAA45471B74BF1263AE720A60D5",
-            "SourceString": "> Neuro-Link device, <C>3 s</> hack time\r\n> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage",
-            "LocalizedString": "> Neuro-Link device, <C>3 s</> hack time\r\n> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy, up to <C>100</> damage"
+            "SourceString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy",
+            "LocalizedString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy"
           }
         ]
       },
@@ -1776,8 +1776,8 @@
           {
             "Namespace": "",
             "Key": "3097FA4A4375793B54ACD0AF9F697D36",
-            "SourceString": "> Neuro-Link device, <C>2 s</> hack time\r\n> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>",
-            "LocalizedString": "> Neuro-Link device, <C>2 s</> hack time\r\n> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>"
+            "SourceString": "> Neuro-Link device, <C>3 s</> hack time\r\n> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>",
+            "LocalizedString": "> Neuro-Link device, <C>3 s</> hack time\r\n> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>"
           }
         ]
       },
@@ -1797,6 +1797,44 @@
             "Key": "D4216E3747F9754121EC098F436631DF",
             "SourceString": "> Neuro-Link device, <C>2 s</> hack time\r\n> Deals <C>15</> vital damage to visible + up to <C>6</> detected enemies\r\n> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>5s</> ",
             "LocalizedString": "> Neuro-Link device, <C>2 s</> hack time\r\n> Deals <C>15</> vital damage to visible + up to <C>6</> detected enemies\r\n> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>5s</> "
+          }
+        ]
+      },
+      "Cascade": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator32",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator68",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "78CFC49D455CCE61E2C83999ED57EDB3",
+            "SourceString": "> Neuro-Link device, black market, <C>20 s</> hack time\r\n> Initiates Core detonation to visible + up to <C>6</> detected enemies\r\n<B>> Can only be used while scanning</>",
+            "LocalizedString": "> Neuro-Link device, black market, <C>20 s</> hack time\r\n> Initiates Core detonation to visible + up to <C>6</> detected enemies\r\n<B>> Can only be used while scanning</>"
+          }
+        ]
+      },
+      "Pathogen": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator33",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator68",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "DE611BFA4F0BEA71BCFD318CEDF91B92",
+            "SourceString": "> Neuro-Link device, black market, <C>10 s</> hack time\r\n> Applies <C>10 /s</> bleed + Necrosis to visible + up to <C>6</> detected enemies\r\n<B>> Can only be used while scanning</>",
+            "LocalizedString": "> Neuro-Link device, black market, <C>10 s</> hack time\r\n> Applies <C>10 /s</> bleed + Necrosis to visible + up to <C>6</> detected enemies\r\n<B>> Can only be used while scanning</>"
           }
         ]
       },
