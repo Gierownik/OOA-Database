@@ -181,9 +181,9 @@ for skill_name, data in skill_rows.items():
     
     exp = data.get("Prerequisite_46_1618947F4F88562C70609FAE0671C5E9", 0)
     if (exp == "ENUM_PerkID::NewEnumerator17"):
-        experimental = "Yes"
+        experimental = "true"
     else:
-        experimental = "No"
+        experimental = "false"
     
     req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
 
@@ -272,7 +272,7 @@ for skill_name, data in skill_rows.items():
     if (val := weapon_stat.get("spinUpDuration_114_42F529AD41ADDCCCDB0ED0915E8BCCEC")) not in [0, 0.0, False, ""]:
         stats["spinup"] = f"{val}s"
     if (val := weapon_stat.get("usesAmmo_109_C8A226E545A12A663A1AF398568E1897")) not in [0, 0.0, True, ""]:
-        stats["ammo_infinite"] = True
+        stats["ammo_infinite"] = "true"
     if (val := weapon_stat.get("ammoCapacity_37_C66372EB4769BC9D909A6CA771FD33A0")) not in [0, 0.0, False, ""]:
         stats["ammo_capacity"] = val
     if (val := weapon_stat.get("reloadSpeed_42_4B9E289B467B258218AE298E52A1B0E3")) not in [0, 0.0, False, ""]:
@@ -280,7 +280,7 @@ for skill_name, data in skill_rows.items():
     if (val := weapon_stat.get("rechamberDuration_121_DA9C2951452609B501BB76B185DE3800")) not in [0, 0.0, False, ""]:
         stats["rechamber_duration"] = f"{val}"
     if (val := weapon_stat.get("singleReload_128_E69294BE4B79448A0BAC2AB62561973D")) not in [0, 0.0, False, ""]:
-        stats["one_by_one_reload"] = True
+        stats["one_by_one_reload"] = "true"
 
     weapon_output.append({
         "name": weapon_name,
@@ -348,9 +348,9 @@ for skill_name, data in skill_rows.items():
 
     tech = data.get("Prerequisite_46_1618947F4F88562C70609FAE0671C5E9", 0)
     if (tech == "ENUM_PerkID::NewEnumerator23"):
-        technician = "Yes"
+        technician = "true"
     else:
-        technician = "No"
+        technician = "false"
     
     req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
 

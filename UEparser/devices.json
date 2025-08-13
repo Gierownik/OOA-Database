@@ -7,7 +7,7 @@
       "> Can attach to surfaces + Shells",
       "<B>> Can be disabled</>"
     ],
-    "experimental": "Yes",
+    "experimental": "true",
     "stats": {
       "cooldown": 45.0,
       "duration": 60.0,
@@ -27,7 +27,7 @@
       "> Useable by allies",
       "> Can attach to surfaces + Shells"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 5.0,
       "duration": 120.0,
@@ -45,7 +45,7 @@
       "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
       "<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 60.0,
       "duration": 5.0,
@@ -64,7 +64,7 @@
       "> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies, executes if target below <C>25%</> vitals",
       "> Destroys visible or detected devices"
     ],
-    "experimental": "Yes",
+    "experimental": "true",
     "stats": {
       "cooldown": 60.0,
       "duration": 0.0,
@@ -82,7 +82,7 @@
       "> Neuro-Link device, <C>5 s</> hack time",
       "> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 60.0,
       "duration": 0.0,
@@ -100,7 +100,7 @@
       "> Neuro-Link device, <C>3 s</> hack time",
       "> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>"
     ],
-    "experimental": "Yes",
+    "experimental": "true",
     "stats": {
       "cooldown": 60.0,
       "duration": 5.0,
@@ -119,7 +119,7 @@
       "> Deals <C>15</> vital damage to visible + up to <C>6</> detected enemies",
       "> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>5s</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 60.0,
       "duration": 0.0,
@@ -138,7 +138,7 @@
       "> Initiates Core detonation to visible + up to <C>6</> detected enemies",
       "<B>> Can only be used while scanning</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 60.0,
       "duration": 0.0,
@@ -157,7 +157,7 @@
       "> Applies <C>10 /s</> bleed + Necrosis to visible + up to <C>6</> detected enemies",
       "<B>> Can only be used while scanning</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 60.0,
       "duration": 0.0,
@@ -176,7 +176,7 @@
       "> While within field: Disable + snare to enemies + enemy devices, Shroud to allies",
       "> Can attach to surfaces"
     ],
-    "experimental": "Yes",
+    "experimental": "true",
     "stats": {
       "cooldown": 45.0,
       "duration": 30.0,
@@ -194,7 +194,7 @@
       "> Deals <C>125-50</> explosive damage + knockback to targets within <C>2-4 m</> on activation",
       "<B>> Can be disabled</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 30.0,
       "duration": 0.0,
@@ -212,7 +212,7 @@
       "> <C>4 s</> stun, + snare to targets within <C>6 m</> on activation",
       "> Can attach to surfaces + Shells"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 45.0,
       "duration": 0.0,
@@ -231,7 +231,7 @@
       "> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation",
       "> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 45.0,
       "duration": 7.5,
@@ -251,7 +251,7 @@
       "> Can attach to surfaces",
       "<B>> Can be disabled</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 45.0,
       "duration": 60.0,
@@ -268,7 +268,7 @@
     "tooltip": [
       "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 45.0,
       "duration": 5.0,
@@ -287,7 +287,7 @@
       "> Can attach to surfaces + Shells",
       "<B>> Can be disabled</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 45.0,
       "duration": 60.0,
@@ -308,7 +308,7 @@
       "> Can attach to surfaces + Shells",
       "<B>> Can be disabled</>"
     ],
-    "experimental": "Yes",
+    "experimental": "true",
     "stats": {
       "cooldown": 30.0,
       "duration": 60.0,
@@ -326,7 +326,7 @@
       "> <C>25</> vitals restored on activation, chemical heal",
       "> <C>5 s</> bleed immunity if used while bleeding"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 30.0,
       "duration": 0.0,
@@ -345,7 +345,7 @@
       "> Can attach to surfaces + Shells",
       "<B>> Can be disabled</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 45.0,
       "duration": 60.0,
@@ -362,7 +362,7 @@
     "tooltip": [
       "> While active: Undetectable by all equipment"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 45.0,
       "duration": 5.0,
@@ -380,7 +380,7 @@
       "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air",
       "> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation"
     ],
-    "experimental": "Yes",
+    "experimental": "true",
     "stats": {
       "cooldown": 45.0,
       "duration": 5.0,
@@ -400,7 +400,7 @@
       "> While in contact with cloud: Detect + <C>1s</> snare to enemies, <C>5 s</> Overcharge to allies",
       "<B>> Can be cleared with fire</>"
     ],
-    "experimental": "No",
+    "experimental": "false",
     "stats": {
       "cooldown": 45.0,
       "duration": 7.5,

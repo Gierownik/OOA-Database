@@ -5,7 +5,7 @@
     "tooltip": [
       "> Standard ammunition"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -39,7 +39,7 @@
       "<B>></> <C>25%</> <B>reduced damage on deflections</>",
       "<B>></> <C>25%</> <B>reduced bleed damage</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -71,7 +71,7 @@
       "> <C>100%</> increased near damage range",
       "<B>></> <C>15%</> <B>reduced velocity</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -103,7 +103,7 @@
       "> <C>15%</> increased limb damage",
       "<B>></> <C>15%</> <B>reduced environment penetration</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -136,7 +136,7 @@
       "> <C>15%</> increased Core generation",
       "<B>></> <C>25%</> <B>reduced far damage range</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -168,7 +168,7 @@
       "<B>></> <C>15%</> <B>reduced velocity</>",
       "<B>></> <C>25%</> <B>reduced far damage range</>"
     ],
-    "technician": "Yes",
+    "technician": "true",
     "compatibility": [
       "Major",
       "Deckard",
@@ -202,7 +202,7 @@
       "<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>",
       "<B>></> <C>50%</> <B>reduced bleed damage</>"
     ],
-    "technician": "Yes",
+    "technician": "true",
     "compatibility": [
       "Major",
       "Deckard",
@@ -235,7 +235,7 @@
       "<B>></> <C>25%</> <B>reduced velocity + environment penetration</>",
       "<B>></> <C>50%</> <B>reduced bleed damage</>"
     ],
-    "technician": "Yes",
+    "technician": "true",
     "compatibility": [
       "Major",
       "Deckard",
@@ -267,7 +267,7 @@
       "<B>></> <C>25%</> <B>reduced  damage</>",
       "<B>></> <C>100%</> <B>reduced bleed damage</>"
     ],
-    "technician": "Yes",
+    "technician": "true",
     "compatibility": [
       "Major",
       "Deckard",
@@ -300,7 +300,7 @@
       "<B>></> <C>25%</> <B>increased aim time</>",
       "<B>></> <C>25%</> <B>increased spread</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -339,7 +339,7 @@
       "<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>",
       "<B>> Can be disabled</>"
     ],
-    "technician": "Yes",
+    "technician": "true",
     "compatibility": [
       "Major",
       "Deckard",
@@ -375,7 +375,7 @@
       "<B>></> <C>100%</> <B>reduced environment penetration</>",
       "<B>></> <C>100%</> <B>reduced bleed damage</>"
     ],
-    "technician": "Yes",
+    "technician": "true",
     "compatibility": [
       "Major",
       "Deckard",
@@ -408,7 +408,7 @@
       "> Can knockback",
       "<B>> Can be disabled</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Warrant"
     ],
@@ -427,7 +427,7 @@
       "<B>></> <C>50%</> <B>reduced explosive damage</>",
       "<B>></> <C>25%</> <B>reduced damage range</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Warrant"
     ],
@@ -445,7 +445,7 @@
       "> Fire damage, ignites surrounding area, <C>2 s</> snare",
       "<B>></> <C>100%</> <B>reduced explosive damage</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Warrant"
     ],
@@ -465,7 +465,7 @@
       "<B>></> <C>25%</> <B>reduced explosive damage</>",
       "<B>> Can be disabled</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Warrant"
     ],
@@ -484,7 +484,7 @@
       "> <C>25%</> reduced akimbo spread + akimbo spread gain",
       "<B>> Visible laser</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -515,7 +515,7 @@
       "> <C>50%</> reduced vertical recoil",
       "<B>></> <C>15%</> <B>reduced velocity</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -547,7 +547,7 @@
       "> <C>25%</> reduced aim time",
       "<B>></> <C>0.15 m/s</> <B>increased speed penalty</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Icarus",
       "Custodian",
@@ -569,7 +569,7 @@
       "> Disarm immunity",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -601,7 +601,7 @@
       "> <C>25%</> increased rechamber speed",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Master-Key"
     ],
@@ -618,7 +618,7 @@
       "> <C>25%</> increased rechamber speed",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Vigil"
     ],
@@ -636,7 +636,7 @@
       "> <C>50%</> reduced spread gain",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -665,7 +665,7 @@
       "<B>></> <C>25%</> <B>increased aim time</>",
       "<B>></> <C>25%</> <B>increased hipfire spread</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Cerberus"
     ],
@@ -683,7 +683,7 @@
       "<B>></> <C>15%</> <B>increased aim time</>",
       "<B>></> <C>0.15 m/s</> <B>increased speed penalty</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Geist",
@@ -709,7 +709,7 @@
       "<B>></> <C>15%</> <B>increased aim time</>",
       "<B>></> <C>0.15 m/s</> <B>increased speed penalty</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Master-Key",
       "Warrant"
@@ -726,7 +726,7 @@
     "tooltip": [
       "> <C>50%</> increased reload speed"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Deckard",
       "Cerberus"
@@ -744,7 +744,7 @@
       "> <C>25%</> reduced pellet spread while ADS or akimbo alternate aim stance",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Master-Key",
       "Cerberus",
@@ -764,7 +764,7 @@
     "tooltip": [
       "> Iron sights"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -795,7 +795,7 @@
       "> <C>100%</> increased ADS range",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Vigil",
       "Sentinel",
@@ -813,7 +813,7 @@
     "tooltip": [
       "> <C>25%</> reduced ADS spread"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -841,7 +841,7 @@
     "tooltip": [
       "> <C>35%</> reduced ADS spread"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -871,7 +871,7 @@
       "> <C>25%</> increased ADS range",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Deckard",
       "Geist",
@@ -899,7 +899,7 @@
       "> <C>50%</> increased ADS range",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Custodian",
       "Vigil",
@@ -923,7 +923,7 @@
       "> <C>35%</> reduced ADS spread",
       "<B>></> <C>25%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -954,7 +954,7 @@
       "> <C>50%</> increased ADS range",
       "<B>></> <C>25%</> <B>increased aim time</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Custodian",
       "Vigil",
@@ -978,7 +978,7 @@
       "<B>></> <C>50%</> <B>increased recoil</>",
       "<B>></> <C>50%</> <B>increased spread gain</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Deckard",
       "Warrant"
@@ -1001,7 +1001,7 @@
       "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>50%</> <B>increased recoil + spread gain</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Typhon"
     ],
@@ -1022,7 +1022,7 @@
       "> <C>100-25</> damage with heavy weapons",
       "<B>></> <C>0.25 m/s</> <B>increased speed penalty</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -1057,7 +1057,7 @@
       "<B>></> <C>100%</> <B>increased hipfire spread</>",
       "<B>></> <C>100%</> <B>increased spread gain</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Warrant"
     ],
@@ -1077,7 +1077,7 @@
       "> <C>15%</> reduced aim time",
       "<B>></> <C>50%</> <B>reduced speed while ADS</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Vigil",
       "Inhibitor",
@@ -1098,7 +1098,7 @@
       "> <C>50%</> reduced speed penalty",
       "<B>></> <C>50%</> <B>increased recoil</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Deckard",
@@ -1130,7 +1130,7 @@
       "> <C>25%</> increased velocity",
       "<B>></> <C>0.25 m/s</> <B>increased speed penalty</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Warrant"
     ],
@@ -1151,7 +1151,7 @@
       "<B>></> <C>20%</> <B>reduced damage</>",
       "<B>></> <C>50%</> <B>increased spread gain</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Deckard"
     ],
@@ -1173,7 +1173,7 @@
       "<B>></> <C>50</> <B>reduced ammo capacity</>",
       "<B>></> <C>0.25 m/s</> <B>increased speed penalty</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Inhibitor"
     ],
@@ -1190,7 +1190,7 @@
       "> <C>0-100%</> increased RPM, scaling proportionally to rounds fired from <C>0-20%</> capacity",
       "<B>></> <C>35%</> <B>reduced RPM</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Icarus",
       "Inhibitor"
@@ -1211,7 +1211,7 @@
       "<B>></> <C>25%</> <B>reduced far damage range while active</>",
       "<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Major",
       "Sentinel"
@@ -1231,7 +1231,7 @@
       "> <C>25%</> increased RPM",
       "<B>></> <C>0.35 s</> <B>spin up delay</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Vigil",
       "Helix"
@@ -1251,7 +1251,7 @@
       "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>50%</> <B>increased pellet spread</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Cerberus",
       "Master-Key"
@@ -1271,7 +1271,7 @@
       "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>25%</> <B>increased spread gain</>"
     ],
-    "technician": "No",
+    "technician": "false",
     "compatibility": [
       "Custodian"
     ],

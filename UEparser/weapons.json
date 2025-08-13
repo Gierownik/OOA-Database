@@ -332,7 +332,7 @@
       "ammo_capacity": 8,
       "reload_duration": "1.0",
       "rechamber_duration": "0.65",
-      "one_by_one_reload": true
+      "one_by_one_reload": "true"
     },
     "foundations": {
       "type": "hardware",
@@ -619,7 +619,7 @@
       "burst_delay": "0.65",
       "ammo_capacity": 4,
       "reload_duration": "1.0",
-      "one_by_one_reload": true
+      "one_by_one_reload": "true"
     },
     "foundations": {
       "type": "hardware",
@@ -651,7 +651,7 @@
       "speed_penalty": "2.0",
       "ammo_capacity": 6,
       "reload_duration": "1.5",
-      "one_by_one_reload": true
+      "one_by_one_reload": "true"
     },
     "foundations": {
       "type": "hardware",
