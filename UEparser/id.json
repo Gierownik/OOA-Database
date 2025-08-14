@@ -74,7 +74,9 @@
         "Hot Swap": 65,
         "Rage Core": 66,
         "Close Minded": 67,
-        "Neuro-Hacker": 68
+        "Neuro-Hacker": 68,
+        "Net Runner": 69,
+        "Backdoor": 70
     },
     "Devices": {
         "Overcharge": 2,

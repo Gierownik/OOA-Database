@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_ShellData'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_ShellData.0"
+        "ObjectPath": "/Game/Blueprints/Data/STRUCT_ShellData"
       }
     },
     "Rows": {
@@ -15,7 +15,7 @@
         "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator0",
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_BodySmall'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_BodySmall.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_BodySmall"
         },
         "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 150.0,
         "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 150.0,
@@ -37,7 +37,7 @@
         "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator1",
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_BodyOutline'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_BodyOutline.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_BodyOutline"
         },
         "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 150.0,
         "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 100.0,
@@ -58,7 +58,7 @@
         "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator4",
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Gadget_AntiGrav'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_AntiGrav.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_AntiGrav"
         },
         "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 100.0,
         "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 150.0,
@@ -80,7 +80,7 @@
         "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator5",
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Gadget_XVision'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_XVision.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_XVision"
         },
         "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 100.0,
         "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 100.0,
@@ -102,7 +102,7 @@
         "armourID_28_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_ShellID::NewEnumerator2",
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
           "ObjectName": "Texture2D'UI_Vest'",
-          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Vest.0"
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Vest"
         },
         "health_46_8D62C6074CE3721B91A1A1A352B1DAAA": 150.0,
         "armour_40_6774162D445FCEB1CEEC26A0CC5BE55F": 200.0,

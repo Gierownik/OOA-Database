@@ -49,7 +49,7 @@
       "> <C>25%</> increased radar + detection range from all sources",
       "> <C>100%</> reduced scan + tag cooldown on ally killing tagged enemy",
       "> Detected enemies can be tagged",
-      "<B>> </><C>1</> <B> reduced limit to Neuro-Link detections</>",
+      "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -158,6 +158,19 @@
     "foundations": {
       "type": "body",
       "value": 15
+    }
+  },
+  {
+    "name": "Backdoor",
+    "tooltip": [
+      "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link",
+      "> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link",
+      "<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>",
+      "<B>> </><C>2</> <B> reduced Neuro-Link target limit</>"
+    ],
+    "foundations": {
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -271,11 +284,11 @@
   {
     "name": "Counter Intelligence",
     "tooltip": [
-      "> Enemies that are detecting you are detected",
+      "> Enemies detecting you within <C>30 m</> are detected",
       "> Enemies interacting with objectives within <C>30 m</> are detected",
       "> Enemies that tag you are tagged",
-      "> Visible disguised enemies within <C>10 m</> are revealed",
-      "<B>> </><C>2</> <B> reduced limit to Neuro-Link detections</>",
+      "> Visible disguised enemies within <C>15 m</> are revealed",
+      "<B>> </><C>2</> <B> reduced Neuro-Link target limit</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -325,11 +338,12 @@
     "name": "Disengage",
     "tooltip": [
       "> Automatically relocate to a previous location on death",
-      "> <C>25%</> vitals + defense restored on activation",
+      "> <C>50%</> vitals + defense restored on activation",
       "> Debuffs cleared on activation",
-      "<B>></> <C>75%</> <B>reduced max vitals + defense on activation</>",
+      "<B>></> <C>50%</> <B>reduced max vitals + defense on activation</>",
       "<B>></> <C>50%</> <B>reduced Core charge on activation</>",
       "<B>> Fatal explosive or telefrag damage prevents activation</>",
+      "<B>> Can no longer restore max vitals + max defense on activation</>",
       "<B>> Can only activate once</>",
       "<B>> Can be disabled</>"
     ],
@@ -439,9 +453,10 @@
       "> <C>100%</> reduced bonus multiplier on headshots received while active",
       "> <C>100%</> reduced defense penetration + bleeding from headshots received while active",
       "> Absorbs single fatal headshot while active",
-      "> Immunity to Tether while active",
+      "> Immunity to Tether + Neuro-Link while active",
       "<B>> Headshot damage received applies snare while active</>",
-      "<B>> </> <C>2 s</> <B>stun + deactivates on absorbtion of fatal headshot</>",
+      "<B>> Can no longer use Neuro-Link while active</>",
+      "<B>> </> <C>4 s</> <B>stun + deactivates on absorbtion of fatal headshot</>",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
@@ -454,7 +469,7 @@
     "tooltip": [
       "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>",
       "<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>",
-      "<B>> Prevents max vitals restoration</>",
+      "<B>> Can no longer restore max vitals</>",
       "<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>",
       "<B>></> <C>50%</> <B>increased burn damage received</>"
     ],
@@ -603,14 +618,29 @@
     }
   },
   {
+    "name": "Net Runner",
+    "tooltip": [
+      "> Can switch weapons + move freely while scanning",
+      "> <C>50%</> reduced scan movement speed penalty",
+      "> Reflect enemy Neuro-Link while moving, <C>20 s</> cooldown",
+      "<B>> </><C>50%</> <B> increased scan hack time</>",
+      "<B>> </><C>25%</> <B> reduced detection range</>"
+    ],
+    "foundations": {
+      "type": "tech",
+      "value": 25
+    }
+  },
+  {
     "name": "Neuro-Hacker",
     "tooltip": [
-      "> Neuro-Link devices can be used while scanning",
+      "> Scan hack: Neuro-Link devices can be used while scanning, <C>0-50%</> reduced hack time proportional to Core charge from <C>0-100</>",
       "> Can equip black market Neuo-Link devices",
       "> Immunity to enemy Neuro-Link devices while not scanning",
       "> <C>5%</> reduced Neuro-Link device cooldown for each enemy affected on activation",
       "<B>> Detected while scanning, overrides undetectable</>",
       "<B>> Neuro-Link devices used while scanning only target detected enemies</>",
+      "<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -897,8 +927,7 @@
       "> <C>100%</> Core generation on deploy",
       "> Core detonation on death or failure, deals <C>25-75</> vital damage to all enemies within <C>5 m</>, scaling proportionally with Core charge from <C>0-100</>",
       "> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>",
-      "<B>> Core failure after</> <C>8 s</> <B>on Core activation or attempted enemy disable while Core fully charged, interrupted on killing an enemy</>",
-      "<B>></> <C>15</> <B>reduced Core charge on failure interruption</>",
+      "<B>> Core failure after</> <C>8 s</> <B>on Core activation or attempted enemy disable while Core fully charged, Core can be vented by Core Activation or killing an enemy</>",
       "<B>></> <C>50%</> <B>reduced Core duration</>"
     ],
     "foundations": {

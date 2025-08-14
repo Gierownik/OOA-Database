@@ -1167,11 +1167,10 @@
     "name": "Heavy Receiver",
     "type": "Mod",
     "tooltip": [
-      "> <C>65%</> increased damage",
-      "> <C>25%</> increased environment penetration",
+      "> <C>50%</> increased damage",
+      "> <C>25%</> increased velocity + environment penetration",
       "<B>></> <C>35%</> <B>reduced RPM</>",
-      "<B>></> <C>50</> <B>reduced ammo capacity</>",
-      "<B>></> <C>0.25 m/s</> <B>increased speed penalty</>"
+      "<B>></> <C>50</> <B>reduced ammo capacity</>"
     ],
     "technician": "false",
     "compatibility": [

@@ -626,6 +626,24 @@
             "SourceString": "Neuro-Hacker",
             "LocalizedString": "Neuro-Hacker"
           }
+        },
+        {
+          "Key": "NewEnumerator69",
+          "Value": {
+            "Namespace": "",
+            "Key": "E9A30CA24731E70E8201E7B1FFFC0621",
+            "SourceString": "Net Runner",
+            "LocalizedString": "Net Runner"
+          }
+        },
+        {
+          "Key": "NewEnumerator70",
+          "Value": {
+            "Namespace": "",
+            "Key": "301679624854288C24931F887E881FD2",
+            "SourceString": "Backdoor",
+            "LocalizedString": "Backdoor"
+          }
         }
       ]
     },
@@ -699,7 +717,9 @@
       "ENUM_PerkID::NewEnumerator66": 66,
       "ENUM_PerkID::NewEnumerator67": 67,
       "ENUM_PerkID::NewEnumerator68": 68,
-      "ENUM_PerkID::ENUM_MAX": 69
+      "ENUM_PerkID::NewEnumerator69": 69,
+      "ENUM_PerkID::NewEnumerator70": 70,
+      "ENUM_PerkID::ENUM_MAX": 71
     },
     "CppForm": "Namespaced"
   }

@@ -60,8 +60,8 @@
   {
     "name": "Spike",
     "tooltip": [
-      "> Neuro-Link device, <C>3 s</> hack time",
-      "> Deals <C>25</> vital damage and <C>2 s</> disable + snare to visible + up to <C>6</> detected enemies, executes if target below <C>25%</> vitals",
+      "> Neuro-Link device, <C>5 s</> hack time",
+      "> Deals <C>25</> vital damage + <C>4 s</> disable to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals",
       "> Destroys visible or detected devices"
     ],
     "experimental": "true",
@@ -80,7 +80,7 @@
     "name": "Combust",
     "tooltip": [
       "> Neuro-Link device, <C>5 s</> hack time",
-      "> Deals <C>25</> fire damage + combust to visible + up to <C>6</> detected enemies, damage increased per enemy"
+      "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies"
     ],
     "experimental": "false",
     "stats": {
@@ -97,13 +97,13 @@
   {
     "name": "Parasite",
     "tooltip": [
-      "> Neuro-Link device, <C>3 s</> hack time",
-      "> While active: Leech <C>5</> vitals from visible + up to <C>6</> detected enemies every <C>0.5 s</>"
+      "> Neuro-Link device, <C>5 s</> hack time",
+      "> Leech <C>5 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>"
     ],
     "experimental": "true",
     "stats": {
       "cooldown": 60.0,
-      "duration": 5.0,
+      "duration": 0.0,
       "action": "Activate",
       "speed_penalty": 0.15
     },
@@ -115,9 +115,9 @@
   {
     "name": "Desync",
     "tooltip": [
-      "> Neuro-Link device, <C>2 s</> hack time",
-      "> Deals <C>15</> vital damage to visible + up to <C>6</> detected enemies",
-      "> Scrambles radar, detections + targeting systems of visible + up to <C>6</> detected enemies for <C>5s</>"
+      "> Neuro-Link device, <C>5 s</> hack time",
+      "> Deals <C>15</> vital damage + <C>5 s</> desync to visible + up to <C>6</> detected enemies",
+      "> Desync: Scrambles radar, detections + targeting systems"
     ],
     "experimental": "false",
     "stats": {
@@ -135,7 +135,7 @@
     "name": "Cascade",
     "tooltip": [
       "> Neuro-Link device, black market, <C>20 s</> hack time",
-      "> Initiates Core detonation to visible + up to <C>6</> detected enemies",
+      "> Initiates Core detonation to up to <C>6</> visible or detected enemies",
       "<B>> Can only be used while scanning</>"
     ],
     "experimental": "false",
@@ -154,7 +154,7 @@
     "name": "Pathogen",
     "tooltip": [
       "> Neuro-Link device, black market, <C>10 s</> hack time",
-      "> Applies <C>10 /s</> bleed + Necrosis to visible + up to <C>6</> detected enemies",
+      "> Applies <C>10 /s</> bleed + Necrosis to up to <C>6</> visible or detected enemies",
       "<B>> Can only be used while scanning</>"
     ],
     "experimental": "false",
@@ -397,7 +397,8 @@
     "tooltip": [
       "> Creates <C>7 m</> charged nano-particle cloud + launches <C>6</> additional <C>3.5 m</> clouds on activation",
       "> Clouds obscures vision + targeting systems",
-      "> While in contact with cloud: Detect + <C>1s</> snare to enemies, <C>5 s</> Overcharge to allies",
+      "> Enemy on contact with cloud: Detected to allies + <C>1s</> snare",
+      "> Ally on contact with cloud: <C>5 s</> Overcharge",
       "<B>> Can be cleared with fire</>"
     ],
     "experimental": "false",

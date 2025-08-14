@@ -454,6 +454,7 @@ for skill_name, shell_data in skill_rows.items():
     shell_output.append({
         "name": shell_name,
         "tooltip": lines,
+        "specialisation": spetz,
         "stats": {
             "vitals": vit,
             "defense": defe,
@@ -464,8 +465,7 @@ for skill_name, shell_data in skill_rows.items():
             "climb_penalty": climb,
             "aerial_charges": air,
             "core_speed": core,
-            "radar_profile": rdr / 100,
-            "specialisation": spetz
+            "radar_profile": rdr / 100     
         },
         "foundations": {
             "type": found_type,
