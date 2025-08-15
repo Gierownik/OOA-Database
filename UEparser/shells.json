@@ -40,7 +40,7 @@
       ":: <D>Adrenal Feedback</>",
       "> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times",
       "> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness",
-      "> Neuro-link 'Parasite' on Core activation: Leech <C>5 /s</> vitals from up to <C>6</> visible or detected enemies, increased by <C>1 /s</> for each Adrenal Feedback stack on activation",
+      "> Neuro-link 'Parasite' on Core activation: Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies, increased by <C>1 /s</> for each Adrenal Feedback stack on activation",
       "<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>",
       "<B>> Can be disabled</>",
       ":: <D>Regenetics</>",

@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
+        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
       }
     },
     "Rows": {
@@ -44,8 +44,8 @@
           {
             "Namespace": "",
             "Key": "98C2F5C144B9057D3474CBBCB4944873",
-            "SourceString": ":: <D>Adrenal Feedback</>\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness\r\n> Neuro-link 'Parasite' on Core activation: Leech <C>5 /s</> vitals from up to <C>6</> visible or detected enemies, increased by <C>1 /s</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown",
-            "LocalizedString": ":: <D>Adrenal Feedback</>\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness\r\n> Neuro-link 'Parasite' on Core activation: Leech <C>5 /s</> vitals from up to <C>6</> visible or detected enemies, increased by <C>1 /s</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown"
+            "SourceString": ":: <D>Adrenal Feedback</>\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness\r\n> Neuro-link 'Parasite' on Core activation: Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies, increased by <C>1 /s</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown",
+            "LocalizedString": ":: <D>Adrenal Feedback</>\r\n> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times\r\n> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness\r\n> Neuro-link 'Parasite' on Core activation: Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies, increased by <C>1 /s</> for each Adrenal Feedback stack on activation\r\n<B>> Neuro-link 'Parasiste' resets Adrenal Feedback stacks</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Regenetics</>\r\n> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack\r\n> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack\r\n> Defense regeneration restores max defense while Core is active\r\n<B>></> <C>5%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>\r\n\r\n:: <D>Adaptive Recovery</>\r\n> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals\r\n> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown\r\n> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown"
           }
         ]
       },
@@ -1225,8 +1225,8 @@
           {
             "Namespace": "",
             "Key": "7B33CE124DF4B6AC164ABE9679A52BB0",
-            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
-            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire beam no longer visible\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
+            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire applies hemorrhage\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
+            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire applies hemorrhage\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
           }
         ]
       },
@@ -1244,8 +1244,8 @@
           {
             "Namespace": "",
             "Key": "0F53D85242BB50298C798694013FEDFD",
-            "SourceString": "> Can switch weapons + move freely while scanning\r\n> <C>50%</> reduced scan movement speed penalty\r\n> Reflect enemy Neuro-Link while moving, <C>20 s</> cooldown\r\n<B>> </><C>50%</> <B> increased scan hack time</>\r\n<B>> </><C>25%</> <B> reduced detection range</>",
-            "LocalizedString": "> Can switch weapons + move freely while scanning\r\n> <C>50%</> reduced scan movement speed penalty\r\n> Reflect enemy Neuro-Link while moving, <C>20 s</> cooldown\r\n<B>> </><C>50%</> <B> increased scan hack time</>\r\n<B>> </><C>25%</> <B> reduced detection range</>"
+            "SourceString": "> Can switch weapons + move freely while scanning\r\n> <C>50%</> reduced scan movement speed penalty\r\n> Reflect enemy Neuro-Link while moving, <C>20 s</> cooldown\r\n<B>> </><C>25%</> <B> increased scan hack time</>\r\n<B>> </><C>25%</> <B> reduced detection range</>",
+            "LocalizedString": "> Can switch weapons + move freely while scanning\r\n> <C>50%</> reduced scan movement speed penalty\r\n> Reflect enemy Neuro-Link while moving, <C>20 s</> cooldown\r\n<B>> </><C>25%</> <B> increased scan hack time</>\r\n<B>> </><C>25%</> <B> reduced detection range</>"
           }
         ]
       },
@@ -1263,8 +1263,8 @@
           {
             "Namespace": "",
             "Key": "BB44592340A842DB4451F289EC7F3EF2",
-            "SourceString": "> Scan hack: Neuro-Link devices can be used while scanning, <C>0-50%</> reduced hack time proportional to Core charge from <C>0-100</>\r\n> Can equip black market Neuo-Link devices\r\n> Immunity to enemy Neuro-Link devices while not scanning\r\n> <C>5%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scan hacking, overrides undetectable</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Scan hack: Neuro-Link devices can be used while scanning, <C>0-50%</> reduced hack time proportional to Core charge from <C>0-100</>\r\n> Can equip black market Neuo-Link devices\r\n> Immunity to enemy Neuro-Link devices while not scanning\r\n> <C>5%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scan hacking, overrides undetectable</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Scan hack: Neuro-Link devices can be used while scanning, <C>0-50%</> reduced hack time proportional to Core charge from <C>0-100</>\r\n> Can equip black market Neuo-Link devices\r\n> Immunity to enemy Neuro-Link devices while not scanning\r\n> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scan hacking, overrides undetectable</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Scan hack: Neuro-Link devices can be used while scanning, <C>0-50%</> reduced hack time proportional to Core charge from <C>0-100</>\r\n> Can equip black market Neuo-Link devices\r\n> Immunity to enemy Neuro-Link devices while not scanning\r\n> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scan hacking, overrides undetectable</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1814,8 +1814,8 @@
           {
             "Namespace": "",
             "Key": "3097FA4A4375793B54ACD0AF9F697D36",
-            "SourceString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Leech <C>5 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>",
-            "LocalizedString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Leech <C>5 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>"
+            "SourceString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>",
+            "LocalizedString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>"
           }
         ]
       },
@@ -1833,8 +1833,8 @@
           {
             "Namespace": "",
             "Key": "D4216E3747F9754121EC098F436631DF",
-            "SourceString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Deals <C>15</> vital damage + <C>5 s</> desync to visible + up to <C>6</> detected enemies\r\n> Desync: Scrambles radar, detections + targeting systems",
-            "LocalizedString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Deals <C>15</> vital damage + <C>5 s</> desync to visible + up to <C>6</> detected enemies\r\n> Desync: Scrambles radar, detections + targeting systems"
+            "SourceString": "> Neuro-Link device, <C>5 s</> hack time\r\n> <C>6 s</> desync to visible + up to <C>6</> detected enemies\r\n> Desync: Scrambles radar, detections + targeting systems",
+            "LocalizedString": "> Neuro-Link device, <C>5 s</> hack time\r\n> <C>6 s</> desync to visible + up to <C>6</> detected enemies\r\n> Desync: Scrambles radar, detections + targeting systems"
           }
         ]
       },
@@ -1871,8 +1871,8 @@
           {
             "Namespace": "",
             "Key": "DE611BFA4F0BEA71BCFD318CEDF91B92",
-            "SourceString": "> Neuro-Link device, black market, <C>10 s</> hack time\r\n> Applies <C>10 /s</> bleed + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>",
-            "LocalizedString": "> Neuro-Link device, black market, <C>10 s</> hack time\r\n> Applies <C>10 /s</> bleed + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>"
+            "SourceString": "> Neuro-Link device, black market, <C>10 s</> hack time\r\n> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>",
+            "LocalizedString": "> Neuro-Link device, black market, <C>10 s</> hack time\r\n> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>"
           }
         ]
       },
@@ -1966,8 +1966,8 @@
           {
             "Namespace": "",
             "Key": "23DB0CCD437E7AAE16433AB17C58579F",
-            "SourceString": "> Deals <C>75</> vital damage, <C>20 /s</> bleed + <C>4 s</> snare to enemies on activation\r\n> <C>2</> charges\r\n> Can attach to surfaces\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Deals <C>75</> vital damage, <C>20 /s</> bleed + <C>4 s</> snare to enemies on activation\r\n> <C>2</> charges\r\n> Can attach to surfaces\r\n<B>> Can be disabled</>"
+            "SourceString": "> Deals <C>75</> vital damage, <C>10 /s</> bleed + <C>4 s</> snare to enemies on activation\r\n> <C>2</> charges\r\n> Can attach to surfaces\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Deals <C>75</> vital damage, <C>10 /s</> bleed + <C>4 s</> snare to enemies on activation\r\n> <C>2</> charges\r\n> Can attach to surfaces\r\n<B>> Can be disabled</>"
           }
         ]
       },

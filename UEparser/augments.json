@@ -608,7 +608,7 @@
       "> <C>60</> vitals + max vitals restored on Relocator use",
       "<C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone",
       "> <C>25%</> increased AAP Turret range + ammo capacity",
-      "> Laser wire beam no longer visible",
+      "> Laser wire applies hemorrhage",
       "> Reserve stim becomes potent",
       "> <C>4 s</> overcharge on Anchor pull",
       "<B>></> <C>50%</> <B>Increased device cooldowns</>"
@@ -624,7 +624,7 @@
       "> Can switch weapons + move freely while scanning",
       "> <C>50%</> reduced scan movement speed penalty",
       "> Reflect enemy Neuro-Link while moving, <C>20 s</> cooldown",
-      "<B>> </><C>50%</> <B> increased scan hack time</>",
+      "<B>> </><C>25%</> <B> increased scan hack time</>",
       "<B>> </><C>25%</> <B> reduced detection range</>"
     ],
     "foundations": {
@@ -638,7 +638,7 @@
       "> Scan hack: Neuro-Link devices can be used while scanning, <C>0-50%</> reduced hack time proportional to Core charge from <C>0-100</>",
       "> Can equip black market Neuo-Link devices",
       "> Immunity to enemy Neuro-Link devices while not scanning",
-      "> <C>5%</> reduced Neuro-Link device cooldown for each enemy affected on activation",
+      "> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation",
       "<B>> Detected while scan hacking, overrides undetectable</>",
       "<B>> Neuro-Link devices used while scanning only target detected enemies</>",
       "<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>",

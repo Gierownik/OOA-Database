@@ -98,7 +98,7 @@
     "name": "Parasite",
     "tooltip": [
       "> Neuro-Link device, <C>5 s</> hack time",
-      "> Leech <C>5 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>"
+      "> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>"
     ],
     "experimental": "true",
     "stats": {
@@ -116,7 +116,7 @@
     "name": "Desync",
     "tooltip": [
       "> Neuro-Link device, <C>5 s</> hack time",
-      "> Deals <C>15</> vital damage + <C>5 s</> desync to visible + up to <C>6</> detected enemies",
+      "> <C>6 s</> desync to visible + up to <C>6</> detected enemies",
       "> Desync: Scrambles radar, detections + targeting systems"
     ],
     "experimental": "false",
@@ -154,7 +154,7 @@
     "name": "Pathogen",
     "tooltip": [
       "> Neuro-Link device, black market, <C>10 s</> hack time",
-      "> Applies <C>10 /s</> bleed + Necrosis to up to <C>6</> visible or detected enemies",
+      "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies",
       "<B>> Can only be used while scanning</>"
     ],
     "experimental": "false",
@@ -246,7 +246,7 @@
   {
     "name": "Laser Wire",
     "tooltip": [
-      "> Deals <C>75</> vital damage, <C>20 /s</> bleed + <C>4 s</> snare to enemies on activation",
+      "> Deals <C>75</> vital damage, <C>10 /s</> bleed + <C>4 s</> snare to enemies on activation",
       "> <C>2</> charges",
       "> Can attach to surfaces",
       "<B>> Can be disabled</>"
