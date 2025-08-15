@@ -164,9 +164,10 @@
     "name": "Backdoor",
     "tooltip": [
       "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link",
+      "> Detects devices of detected enemies while scanning",
       "> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link",
       "<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>",
-      "<B>> </><C>2</> <B> reduced Neuro-Link target limit</>"
+      "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>"
     ],
     "foundations": {
       "type": "tech",
@@ -288,7 +289,7 @@
       "> Enemies interacting with objectives within <C>30 m</> are detected",
       "> Enemies that tag you are tagged",
       "> Visible disguised enemies within <C>15 m</> are revealed",
-      "<B>> </><C>2</> <B> reduced Neuro-Link target limit</>",
+      "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -638,7 +639,7 @@
       "> Can equip black market Neuo-Link devices",
       "> Immunity to enemy Neuro-Link devices while not scanning",
       "> <C>5%</> reduced Neuro-Link device cooldown for each enemy affected on activation",
-      "<B>> Detected while scanning, overrides undetectable</>",
+      "<B>> Detected while scan hacking, overrides undetectable</>",
       "<B>> Neuro-Link devices used while scanning only target detected enemies</>",
       "<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>",
       "<B>> Can be disabled</>"
@@ -927,7 +928,7 @@
       "> <C>100%</> Core generation on deploy",
       "> Core detonation on death or failure, deals <C>25-75</> vital damage to all enemies within <C>5 m</>, scaling proportionally with Core charge from <C>0-100</>",
       "> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>",
-      "<B>> Core failure after</> <C>8 s</> <B>on Core activation or attempted enemy disable while Core fully charged, Core can be vented by Core Activation or killing an enemy</>",
+      "<B>> Core failure after</> <C>8 s</> <B>on Core activation, drain or attempted enemy disable while Core fully charged, Core can be vented by Core Activation or killing an enemy</>",
       "<B>></> <C>50%</> <B>reduced Core duration</>"
     ],
     "foundations": {

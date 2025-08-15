@@ -400,7 +400,7 @@ for skill_name, shell_data in skill_rows.items():
     if (shell_name == "Bison"):
         defer = 15
         deferd = 1
-        aux = 40
+        aux = 35
         climb = 0.2
         air = 1
         spetz = "> Activates after killing an enemy: <C>50%</> increased weapon accuracy, <C>25%</> increased speed + dexterity, for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown"
@@ -430,7 +430,7 @@ for skill_name, shell_data in skill_rows.items():
         deferd = 1.5
         aux = 30
         climb = 0.25
-        air = 0
+        air = 1
         spetz = "> Activates after killing an enemy: Shockwave gains <C>50%</> increased debuff duration, incresed knockback force, applies stun + cripple"
     else:
         defer = 0
