@@ -128,7 +128,7 @@
       ":: <D>Thermal Nano-Mesh</>",
       "> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft",
       "> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>",
-      "> <C>0-20 /s</> additional defense regeneration with no delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
+      "> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
     ],
     "specialisation": "> Activates after killing an enemy: Backdraft + Ground Slam deal <C>25%</> increased fire damage + apply combust",
     "stats": {
