@@ -276,7 +276,7 @@ for skill_name, data in skill_rows.items():
     if (val := weapon_stat.get("ammoCapacity_37_C66372EB4769BC9D909A6CA771FD33A0")) not in [0, 0.0, False, ""]:
         stats["ammo_capacity"] = val
     if (val := weapon_stat.get("reloadSpeed_42_4B9E289B467B258218AE298E52A1B0E3")) not in [0, 0.0, False, ""]:
-        stats["reload_duration"] = f"{val}"
+        stats["reload_speed"] = f"{val}"
     if (val := weapon_stat.get("rechamberDuration_121_DA9C2951452609B501BB76B185DE3800")) not in [0, 0.0, False, ""]:
         stats["rechamber_duration"] = f"{val}"
     if (val := weapon_stat.get("singleReload_128_E69294BE4B79448A0BAC2AB62561973D")) not in [0, 0.0, False, ""]:
