@@ -121,7 +121,7 @@
     "name": "Augmented Nano-wire",
     "tooltip": [
       "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down",
-      "> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>",
+      "> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>1 s</>",
       "> <C>25%</> increased Nano-wire range",
       "<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>",
       "<B>></> <C>100%</> <B>increased Nano-wire cooldown</>",
@@ -163,7 +163,7 @@
   {
     "name": "Backdoor",
     "tooltip": [
-      "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link",
+      "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link",
       "> Detects devices of detected enemies while scanning",
       "> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link",
       "<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>",
@@ -621,11 +621,12 @@
   {
     "name": "Net Runner",
     "tooltip": [
-      "> Can switch weapons + move freely while scanning",
+      "> Can use enhancement devices, stims, weapon switching + move freely while scanning",
+      "> <C>0-50%</> increased scan hack speed proportional to speed from <C>4-8 m/s</>",
+      "> Reflect enemy Neuro-Link while moving over <C>4 m/s</> + scanning, <C>20 s</> cooldown",
       "> <C>50%</> reduced scan movement speed penalty",
-      "> Reflect enemy Neuro-Link while moving, <C>20 s</> cooldown",
-      "<B>> </><C>25%</> <B> increased scan hack time</>",
-      "<B>> </><C>25%</> <B> reduced detection range</>"
+      "<B>> </><C>100-0%</> <B>reduced scan hack speed proportional to speed from </><C>0-4 m/s</>",
+      "<B>> </><C>25%</> <B>reduced detection range</>"
     ],
     "foundations": {
       "type": "tech",

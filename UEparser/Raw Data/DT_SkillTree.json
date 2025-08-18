@@ -560,8 +560,8 @@
           {
             "Namespace": "",
             "Key": "25B504B84A93A2602841668B532C9720",
-            "SourceString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>0.5 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>1 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Nano-wire can attach to held enemy weapons pulling you toward them, snares for <C>4 s</>, can disarm weapon during active Core or while enemy is knocked down\r\n> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>1 s</>\r\n> <C>25%</> increased Nano-wire range\r\n<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>\r\n<B>></> <C>100%</> <B>increased Nano-wire cooldown</>\r\n<B>></> <C>50</> <B>aux power drained on pull</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -617,8 +617,8 @@
           {
             "Namespace": "",
             "Key": "221DF40647E0AFA3663C31A69B0D264B",
-            "SourceString": "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link\r\n> Detects devices of detected enemies while scanning\r\n> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link\r\n<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>\r\n<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
-            "LocalizedString": "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link\r\n> Detects devices of detected enemies while scanning\r\n> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link\r\n<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>\r\n<B>> </><C>1</> <B> reduced Neuro-Link target limit</>"
+            "SourceString": "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link\r\n> Detects devices of detected enemies while scanning\r\n> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link\r\n<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>\r\n<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
+            "LocalizedString": "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link\r\n> Detects devices of detected enemies while scanning\r\n> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link\r\n<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>\r\n<B>> </><C>1</> <B> reduced Neuro-Link target limit</>"
           }
         ]
       },
@@ -1244,8 +1244,8 @@
           {
             "Namespace": "",
             "Key": "0F53D85242BB50298C798694013FEDFD",
-            "SourceString": "> Can switch weapons + move freely while scanning\r\n> <C>50%</> reduced scan movement speed penalty\r\n> Reflect enemy Neuro-Link while moving, <C>20 s</> cooldown\r\n<B>> </><C>25%</> <B> increased scan hack time</>\r\n<B>> </><C>25%</> <B> reduced detection range</>",
-            "LocalizedString": "> Can switch weapons + move freely while scanning\r\n> <C>50%</> reduced scan movement speed penalty\r\n> Reflect enemy Neuro-Link while moving, <C>20 s</> cooldown\r\n<B>> </><C>25%</> <B> increased scan hack time</>\r\n<B>> </><C>25%</> <B> reduced detection range</>"
+            "SourceString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed proportional to speed from <C>4-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>4 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>100-0%</> <B>reduced scan hack speed proportional to speed from </><C>0-4 m/s</>\r\n<B>> </><C>25%</> <B>reduced detection range</>",
+            "LocalizedString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed proportional to speed from <C>4-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>4 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>100-0%</> <B>reduced scan hack speed proportional to speed from </><C>0-4 m/s</>\r\n<B>> </><C>25%</> <B>reduced detection range</>"
           }
         ]
       },
@@ -2327,8 +2327,8 @@
           {
             "Namespace": "",
             "Key": "DBC1B0724C4B81F3D9186885C014D2CB",
-            "SourceString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>50</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>85%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>50</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>85%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>25</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>85%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Can lock onto + track painted enemies\r\n> Additional explosive damage after <C>2 s</> \r\n> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock\r\n> <C>1.5x</> headshot mutliplier\r\n> <C>25</> penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>85%</> <B>reduced direct damage</>\r\n<B>></> <C>25%</> <B>reduced automatic + burst RPM</>\r\n<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>\r\n<B>> Can be disabled</>"
           }
         ]
       },

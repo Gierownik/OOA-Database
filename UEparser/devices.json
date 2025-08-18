@@ -1,6 +1,7 @@
 [
   {
     "name": "AAP Turret",
+    "type": "Standard",
     "tooltip": [
       "> Engages closest visible enemy within <C>25 m</> on activation",
       "> Deals <C>20-10</> ballistic damage, <C>600 rpm</>, <C>50</> round capacity",
@@ -21,6 +22,7 @@
   },
   {
     "name": "Anchor",
+    "type": "Standard",
     "tooltip": [
       "> Can be used by Nano-wire to attach + pull towards location",
       "> Restores aux power, aerial maneuver charges + clears snare on pull",
@@ -41,6 +43,7 @@
   },
   {
     "name": "Bolster",
+    "type": "Enhancement",
     "tooltip": [
       "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
       "<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>"
@@ -59,6 +62,7 @@
   },
   {
     "name": "Spike",
+    "type": "Neuro-link",
     "tooltip": [
       "> Neuro-Link device, <C>5 s</> hack time",
       "> Deals <C>25</> vital damage + <C>4 s</> disable to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals",
@@ -78,6 +82,7 @@
   },
   {
     "name": "Combust",
+    "type": "Neuro-link",
     "tooltip": [
       "> Neuro-Link device, <C>5 s</> hack time",
       "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies"
@@ -96,6 +101,7 @@
   },
   {
     "name": "Parasite",
+    "type": "Neuro-link",
     "tooltip": [
       "> Neuro-Link device, <C>5 s</> hack time",
       "> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>"
@@ -114,6 +120,7 @@
   },
   {
     "name": "Desync",
+    "type": "Neuro-link",
     "tooltip": [
       "> Neuro-Link device, <C>5 s</> hack time",
       "> <C>6 s</> desync to visible + up to <C>6</> detected enemies",
@@ -133,6 +140,7 @@
   },
   {
     "name": "Cascade",
+    "type": "Neuro-link",
     "tooltip": [
       "> Neuro-Link device, black market, <C>20 s</> hack time",
       "> Initiates Core detonation to up to <C>6</> visible or detected enemies",
@@ -152,6 +160,7 @@
   },
   {
     "name": "Pathogen",
+    "type": "Neuro-link",
     "tooltip": [
       "> Neuro-Link device, black market, <C>10 s</> hack time",
       "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies",
@@ -171,6 +180,7 @@
   },
   {
     "name": "Deadzone",
+    "type": "Standard",
     "tooltip": [
       "> Creates <C>16 m</> disruptive field on activation",
       "> While within field: Disable + snare to enemies + enemy devices, Shroud to allies",
@@ -190,6 +200,7 @@
   },
   {
     "name": "Detonator",
+    "type": "Standard",
     "tooltip": [
       "> Deals <C>125-50</> explosive damage + knockback to targets within <C>2-4 m</> on activation",
       "<B>> Can be disabled</>"
@@ -208,6 +219,7 @@
   },
   {
     "name": "Disrupter",
+    "type": "Standard",
     "tooltip": [
       "> <C>4 s</> stun, + snare to targets within <C>6 m</> on activation",
       "> Can attach to surfaces + Shells"
@@ -226,6 +238,7 @@
   },
   {
     "name": "Firecracker",
+    "type": "Standard",
     "tooltip": [
       "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on impact",
       "> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation",
@@ -245,6 +258,7 @@
   },
   {
     "name": "Laser Wire",
+    "type": "Standard",
     "tooltip": [
       "> Deals <C>75</> vital damage, <C>10 /s</> bleed + <C>4 s</> snare to enemies on activation",
       "> <C>2</> charges",
@@ -265,6 +279,7 @@
   },
   {
     "name": "Overcharge",
+    "type": "Enhancement",
     "tooltip": [
       "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>"
     ],
@@ -282,6 +297,7 @@
   },
   {
     "name": "Proximity Mine",
+    "type": "Standard",
     "tooltip": [
       "> Deals <C>125-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation",
       "> Can attach to surfaces + Shells",
@@ -301,6 +317,7 @@
   },
   {
     "name": "Relocator",
+    "type": "Standard",
     "tooltip": [
       "> Relocate to device location on activation",
       "> Telefrag targets within <C>1 m</> on relocation",
@@ -322,6 +339,7 @@
   },
   {
     "name": "Reserve Stim",
+    "type": "Enhancement",
     "tooltip": [
       "> <C>25</> vitals restored on activation, chemical heal",
       "> <C>5 s</> bleed immunity if used while bleeding"
@@ -340,6 +358,7 @@
   },
   {
     "name": "Satchel Charge",
+    "type": "Standard",
     "tooltip": [
       "> Deals <C>150-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation",
       "> Can attach to surfaces + Shells",
@@ -359,6 +378,7 @@
   },
   {
     "name": "Shroud",
+    "type": "Enhancement",
     "tooltip": [
       "> While active: Undetectable by all equipment"
     ],
@@ -376,6 +396,7 @@
   },
   {
     "name": "Shifter",
+    "type": "Enhancement",
     "tooltip": [
       "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air",
       "> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation"
@@ -394,6 +415,7 @@
   },
   {
     "name": "Tempest",
+    "type": "Standard",
     "tooltip": [
       "> Creates <C>7 m</> charged nano-particle cloud + launches <C>6</> additional <C>3.5 m</> clouds on activation",
       "> Clouds obscures vision + targeting systems",

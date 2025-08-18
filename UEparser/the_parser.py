@@ -159,8 +159,16 @@ for skill_name, data in skill_rows.items():
     cooldown = device_stat.get("cooldown_11_D555013643FE6003564BDCBE2F66D6AD", 0)
     duration = device_stat.get("duration_19_CADCF2D5460AE568CE1A9A8875DBE004", 0)
     speed_pen = device_stat.get("speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316", 0)
-
+    detype = device_stat.get("type_71_B5593B1E4585F61965634483AEF654CF", 0)
     found = data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+    if (detype == "ENUM_DeviceType::NewEnumerator0"):
+        dtype = "Standard"
+    elif (detype == "ENUM_DeviceType::NewEnumerator1"):
+        dtype = "Enhancement"
+    elif (detype == "ENUM_DeviceType::NewEnumerator2"):
+        dtype = "Neuro-link"
+    else:
+        dtype = "Else"
     if (found == "ENUM_Foundation::NewEnumerator0"):
         found_type = "body"
     elif (found == "ENUM_Foundation::NewEnumerator1"):
@@ -189,6 +197,7 @@ for skill_name, data in skill_rows.items():
 
     device_output.append({
         "name": device_name,
+        "type": dtype,
         "tooltip": lines,
         "experimental": experimental,
         "stats": {
