@@ -232,7 +232,7 @@
       "aim_time": "0.225",
       "spread_hip": "1.5",
       "spread_ads": "0.65",
-      "spread_gain": "0.1",
+      "spread_gain": "0.2",
       "speed_penalty": "0.2",
       "burst_count": 2,
       "burst_delay": "0.25",

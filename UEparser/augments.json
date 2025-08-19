@@ -20,7 +20,7 @@
     "tooltip": [
       "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>",
       "> <C>50%</> increased Stim use speed",
-      "> <C>35%</> reduced direct damage to vitals while active",
+      "> <C>25%</> reduced direct damage to vitals while active",
       "> <C>50%</> increased Core + aux power regeneration while active",
       "> <C>15%</> increased ground speed while active",
       "<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>",
@@ -357,7 +357,7 @@
     "name": "Dispersal",
     "tooltip": [
       "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown",
-      "> Seekers: Rolls toward and tracks targets, deals <C>25</> explosive damage within <C>4 m</> on reaching or losing target",
+      "> Seekers: Rolls toward and tracks targets, deals <C>20</> explosive damage within <C>4 m</> on reaching or losing target",
       "<B>></> <C>25%</> <B>Increased device cooldowns</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
       "<B>> Can be disabled</>"
@@ -566,8 +566,9 @@
   {
     "name": "Kinetic Focus",
     "tooltip": [
-      "> <C>0-50%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>",
-      "> <C>0-50%</> reduced weapon spread + spread gain, scaling proportionally with speed from <C>4-12 m/s</>",
+      "> <C>0-35%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>",
+      "> <C>0-35%</> reduced weapon spread + spread gain, scaling proportionally with speed from <C>4-12 m/s</>",
+      "> <C>0-35%</> increased knockback resistance, scaling proportionally with speed from <C>4-12 m/s</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -622,10 +623,10 @@
     "name": "Net Runner",
     "tooltip": [
       "> Can use enhancement devices, stims, weapon switching + move freely while scanning",
-      "> <C>0-50%</> increased scan hack speed proportional to speed from <C>4-8 m/s</>",
-      "> Reflect enemy Neuro-Link while moving over <C>4 m/s</> + scanning, <C>20 s</> cooldown",
+      "> <C>0-50%</> increased scan hack speed, scaling proportionally with movement speed from <C>6-8 m/s</>",
+      "> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown",
       "> <C>50%</> reduced scan movement speed penalty",
-      "<B>> </><C>100-0%</> <B>reduced scan hack speed proportional to speed from </><C>0-4 m/s</>",
+      "<B>> </><C>100-0%</> <B>reduced scan hack speed, scaling proportionally with movement speed from </><C>0-6 m/s</>",
       "<B>> </><C>25%</> <B>reduced detection range</>"
     ],
     "foundations": {
@@ -769,8 +770,9 @@
   {
     "name": "Reactive Dermis",
     "tooltip": [
+      "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</>",
       "> <C>25%</> reduced debuff duration + bleed damage received",
-      "> <C>25%</> reduced explosive + backup weapon damage received",
+      "> <C>25%</> reduced explosive damage received",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
@@ -795,6 +797,7 @@
     "name": "Renewal",
     "tooltip": [
       "> <C>25</> vitals, defense, max vitals + max defense restored every <C>10 s</>",
+      "> <C>100</> aux power restored every <C>10 s</>",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
       "<B>> Can be disabled</>"
     ],
@@ -831,7 +834,7 @@
     "name": "Specialist",
     "tooltip": [
       "> Additional weapon mod slot",
-      "> <C>65%</> reduced sidearm + primary weapon handling speed penalties while only sidearm or primary slot used",
+      "> <C>50%</> reduced sidearm + primary weapon handling speed penalties while only sidearm or primary slot used",
       "> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used",
       "<B>> Can only equip</> <C>1</> <B>device</>"
     ],
@@ -956,7 +959,7 @@
       "> <C>10 s</> immunity to a debuff on end or removal",
       "> Can equip sidearms + backup weapons in primary slot",
       "> Can equip <C>2</> of the same device",
-      "<B>></> <C>50%</> <B>increased device cooldowns while both of same type</>",
+      "<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {

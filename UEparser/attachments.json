@@ -230,7 +230,7 @@
     "name": "EM Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>0.25-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>10-200</>",
+      "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>",
       "> <C>25%</> increased damage to stunned enemies",
       "<B>></> <C>25%</> <B>reduced velocity + environment penetration</>",
       "<B>></> <C>50%</> <B>reduced bleed damage</>"

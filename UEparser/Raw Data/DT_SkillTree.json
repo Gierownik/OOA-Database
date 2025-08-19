@@ -427,8 +427,8 @@
           {
             "Namespace": "",
             "Key": "9DB6701F4AD0A236972EE0B55D628B94",
-            "SourceString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>35%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>",
-            "LocalizedString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>35%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>"
+            "SourceString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>",
+            "LocalizedString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>"
           }
         ]
       },
@@ -883,8 +883,8 @@
           {
             "Namespace": "",
             "Key": "70D0666D4FB052AD8EE19B9492C4B845",
-            "SourceString": "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown\r\n> Seekers: Rolls toward and tracks targets, deals <C>25</> explosive damage within <C>4 m</> on reaching or losing target\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown\r\n> Seekers: Rolls toward and tracks targets, deals <C>25</> explosive damage within <C>4 m</> on reaching or losing target\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown\r\n> Seekers: Rolls toward and tracks targets, deals <C>20</> explosive damage within <C>4 m</> on reaching or losing target\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown\r\n> Seekers: Rolls toward and tracks targets, deals <C>20</> explosive damage within <C>4 m</> on reaching or losing target\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1168,8 +1168,8 @@
           {
             "Namespace": "",
             "Key": "131E7E26433D1ED15BD1ACAB72DE2191",
-            "SourceString": "> <C>0-50%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>\r\n> <C>0-50%</> reduced weapon spread + spread gain, scaling proportionally with speed from <C>4-12 m/s</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>0-50%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>\r\n> <C>0-50%</> reduced weapon spread + spread gain, scaling proportionally with speed from <C>4-12 m/s</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>0-35%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>\r\n> <C>0-35%</> reduced weapon spread + spread gain, scaling proportionally with speed from <C>4-12 m/s</>\r\n> <C>0-35%</> increased knockback resistance, scaling proportionally with speed from <C>4-12 m/s</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>0-35%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>\r\n> <C>0-35%</> reduced weapon spread + spread gain, scaling proportionally with speed from <C>4-12 m/s</>\r\n> <C>0-35%</> increased knockback resistance, scaling proportionally with speed from <C>4-12 m/s</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1244,8 +1244,8 @@
           {
             "Namespace": "",
             "Key": "0F53D85242BB50298C798694013FEDFD",
-            "SourceString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed proportional to speed from <C>4-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>4 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>100-0%</> <B>reduced scan hack speed proportional to speed from </><C>0-4 m/s</>\r\n<B>> </><C>25%</> <B>reduced detection range</>",
-            "LocalizedString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed proportional to speed from <C>4-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>4 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>100-0%</> <B>reduced scan hack speed proportional to speed from </><C>0-4 m/s</>\r\n<B>> </><C>25%</> <B>reduced detection range</>"
+            "SourceString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed, scaling proportionally with movement speed from <C>6-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>100-0%</> <B>reduced scan hack speed, scaling proportionally with movement speed from </><C>0-6 m/s</>\r\n<B>> </><C>25%</> <B>reduced detection range</>",
+            "LocalizedString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed, scaling proportionally with movement speed from <C>6-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>100-0%</> <B>reduced scan hack speed, scaling proportionally with movement speed from </><C>0-6 m/s</>\r\n<B>> </><C>25%</> <B>reduced detection range</>"
           }
         ]
       },
@@ -1434,8 +1434,8 @@
           {
             "Namespace": "",
             "Key": "D1B807614CC5334D6A2024A3BB462461",
-            "SourceString": "> <C>25%</> reduced debuff duration + bleed damage received\r\n> <C>25%</> reduced explosive + backup weapon damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>25%</> reduced debuff duration + bleed damage received\r\n> <C>25%</> reduced explosive + backup weapon damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>25%</> reduced debuff duration + bleed damage received\r\n> <C>25%</> reduced explosive damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>25%</> reduced debuff duration + bleed damage received\r\n> <C>25%</> reduced explosive damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -1472,8 +1472,8 @@
           {
             "Namespace": "",
             "Key": "4BD083284D7A66E2ECF9088048592BAC",
-            "SourceString": "> <C>25</> vitals, defense, max vitals + max defense restored every <C>10 s</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>25</> vitals, defense, max vitals + max defense restored every <C>10 s</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>25</> vitals, defense, max vitals + max defense restored every <C>10 s</>\r\n> <C>100</> aux power restored every <C>10 s</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>25</> vitals, defense, max vitals + max defense restored every <C>10 s</>\r\n> <C>100</> aux power restored every <C>10 s</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1529,8 +1529,8 @@
           {
             "Namespace": "",
             "Key": "EB616C7C4BC519C512D18092164CDF2E",
-            "SourceString": "> Additional weapon mod slot\r\n> <C>65%</> reduced sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>",
-            "LocalizedString": "> Additional weapon mod slot\r\n> <C>65%</> reduced sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>"
+            "SourceString": "> Additional weapon mod slot\r\n> <C>50%</> reduced sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>",
+            "LocalizedString": "> Additional weapon mod slot\r\n> <C>50%</> reduced sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>"
           }
         ]
       },
@@ -1700,8 +1700,8 @@
           {
             "Namespace": "",
             "Key": "C096261F4EDA287B25B186852E6F7A65",
-            "SourceString": "> <C>10 s</> immunity to a debuff on end or removal\r\n> Can equip sidearms + backup weapons in primary slot\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>50%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>10 s</> immunity to a debuff on end or removal\r\n> Can equip sidearms + backup weapons in primary slot\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>50%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> <C>10 s</> immunity to a debuff on end or removal\r\n> Can equip sidearms + backup weapons in primary slot\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> <C>10 s</> immunity to a debuff on end or removal\r\n> Can equip sidearms + backup weapons in primary slot\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -2270,8 +2270,8 @@
           {
             "Namespace": "",
             "Key": "ABC2AA17485EA500E2153B8FA18646D2",
-            "SourceString": "> <C>0.25-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>10-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>0.25-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>10-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
           }
         ]
       },
