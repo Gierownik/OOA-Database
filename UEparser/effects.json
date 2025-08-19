@@ -19,8 +19,8 @@
     ],
     "enhancement": "Hemorrhage",
     "enh_tooltip": [
-      "<B>> <C>25%</> increased bleed damage</>",
-      "<B>> Absorbs one bleed clear, downgrades to bleed</>"
+      "<B>> Absorbs one bleed clear, downgrades to bleed</>",
+      "> <C>75%</> reduced bleed damage on downgrade"
     ]
   },
   {
