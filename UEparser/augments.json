@@ -151,7 +151,7 @@
     "tooltip": [
       "> Chemical heals gain bleed immunity if used while not bleeding",
       "> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown",
-      "> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active",
+      "> <C>5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active",
       "<B>></> <C>25%</> <B>reduced defense restored from all sources</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
@@ -325,9 +325,9 @@
   {
     "name": "Dead Drop",
     "tooltip": [
-      "> Aiming or charging backup weapon after recent climb activates Overkill, <C>10 s</> cooldown",
+      "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown",
       "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity",
-      "> Deactivates after <C>2 s</> if no longer falling, <C>30 s</> cooldown on melee or body impact kill while active",
+      "> Deactivates after <C>2 s</> if no longer falling",
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
     ],
     "foundations": {
@@ -525,7 +525,7 @@
       "> Picked-up weapons are automatically reloaded if reserve ammo available",
       "> <C>100%</> additional reserve ammo for non loadout weapons",
       "> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible",
-      "> <C>25%</> increased reload speed",
+      "> <C>50%</> reduced reload time",
       "<B>> Current ammo emptied into reserve on swap</>",
       "<B>></> <C>50%</> <B>reduced speed while swapping</>"
     ],
@@ -603,14 +603,15 @@
   {
     "name": "Maximum Efficiency",
     "tooltip": [
-      "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration",
+      "> <C>100%</> increased Bolster, Overcharge, Shroud,, Tempest + Firecracker duration",
       "> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay",
       "> <C>25%</> additional Satchel charge damage as fire damage",
-      "> <C>60</> vitals + max vitals restored on Relocator use",
+      "> <C>50</> vitals + max vitals restored on Relocator use",
       "<C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone",
       "> <C>25%</> increased AAP Turret range + ammo capacity",
       "> Laser wire applies hemorrhage",
       "> Reserve stim becomes potent",
+      "> Shifter clears debuffs on shift",
       "> <C>4 s</> overcharge on Anchor pull",
       "<B>></> <C>50%</> <B>Increased device cooldowns</>"
     ],
@@ -772,7 +773,6 @@
     "tooltip": [
       "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</>",
       "> <C>25%</> reduced debuff duration + bleed damage received",
-      "> <C>25%</> reduced explosive damage received",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
@@ -861,7 +861,7 @@
     "name": "Technician",
     "tooltip": [
       "> Can equip exotic ammo types",
-      "> <C>15 /s</> max defense regeneration while using Nano-wire without interaction",
+      "> <C>30 /s</> defense + max defense restored while using Nano-wire",
       "<B>></> <C>50%</> <B>reduced reserve ammo</>",
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>"
     ],
@@ -873,9 +873,10 @@
   {
     "name": "Temporal Suspension",
     "tooltip": [
-      "> Freeze momentum while in air + aiming for up to <C>5 s</>, momentum restored when aim released, <C>3 s</> cooldown",
+      "> Gain aerial suspension with reduced momentum while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
       "> Unaffected by Core slowing effects while active",
-      "> <C>50%</> reduced direct damage received while active",
+      "> <C>50-25%</> reduced direct damage received while active, scaling proportionally with duration from <C>0-5 s</>",
+      "> <C> Knockback immunity while active",
       "<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>",
       "<B>> Deactivates on body impacts + collision with ground</>",
       "<B>> Not usable while hovering</>",

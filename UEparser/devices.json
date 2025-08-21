@@ -398,13 +398,13 @@
     "name": "Shifter",
     "type": "Enhancement",
     "tooltip": [
-      "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air",
+      "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air, <C>5</> charges",
       "> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation"
     ],
     "experimental": "true",
     "stats": {
       "cooldown": 45.0,
-      "duration": 5.0,
+      "duration": 0.0,
       "action": "Activate",
       "speed_penalty": 0.25
     },

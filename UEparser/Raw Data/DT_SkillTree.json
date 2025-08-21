@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
+        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
       }
     },
     "Rows": {
@@ -598,8 +598,8 @@
           {
             "Namespace": "",
             "Key": "0DAF1DAA4EFF406266CBF7A7AB0F0735",
-            "SourceString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -845,8 +845,8 @@
           {
             "Namespace": "",
             "Key": "ACD4A2DB4CCF2451A64427A46F62ED6B",
-            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>10 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling, <C>30 s</> cooldown on melee or body impact kill while active\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
-            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>10 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling, <C>30 s</> cooldown on melee or body impact kill while active\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
+            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
+            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
           }
         ]
       },
@@ -1111,8 +1111,8 @@
           {
             "Namespace": "",
             "Key": "90DB6320413546022E35F2AE4902AB91",
-            "SourceString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>50%</> <B>reduced speed while swapping</>",
-            "LocalizedString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>25%</> increased reload speed\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>50%</> <B>reduced speed while swapping</>"
+            "SourceString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>50%</> reduced reload time\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>50%</> <B>reduced speed while swapping</>",
+            "LocalizedString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>50%</> reduced reload time\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>50%</> <B>reduced speed while swapping</>"
           }
         ]
       },
@@ -1225,8 +1225,8 @@
           {
             "Namespace": "",
             "Key": "7B33CE124DF4B6AC164ABE9679A52BB0",
-            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire applies hemorrhage\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
-            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud, Shifter, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>60</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire applies hemorrhage\r\n> Reserve stim becomes potent\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
+            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud,, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>50</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire applies hemorrhage\r\n> Reserve stim becomes potent\r\n> Shifter clears debuffs on shift\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
+            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud,, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>50</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire applies hemorrhage\r\n> Reserve stim becomes potent\r\n> Shifter clears debuffs on shift\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
           }
         ]
       },
@@ -1434,8 +1434,8 @@
           {
             "Namespace": "",
             "Key": "D1B807614CC5334D6A2024A3BB462461",
-            "SourceString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>25%</> reduced debuff duration + bleed damage received\r\n> <C>25%</> reduced explosive damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>25%</> reduced debuff duration + bleed damage received\r\n> <C>25%</> reduced explosive damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>25%</> reduced debuff duration + bleed damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>25%</> reduced debuff duration + bleed damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -1567,8 +1567,8 @@
           {
             "Namespace": "",
             "Key": "9D29260B47CCE0CC33D18ABC799FFC38",
-            "SourceString": "> Can equip exotic ammo types\r\n> <C>15 /s</> max defense regeneration while using Nano-wire without interaction\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>",
-            "LocalizedString": "> Can equip exotic ammo types\r\n> <C>15 /s</> max defense regeneration while using Nano-wire without interaction\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>"
+            "SourceString": "> Can equip exotic ammo types\r\n> <C>30 /s</> defense + max defense restored while using Nano-wire\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>",
+            "LocalizedString": "> Can equip exotic ammo types\r\n> <C>30 /s</> defense + max defense restored while using Nano-wire\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>"
           }
         ]
       },
@@ -1586,8 +1586,8 @@
           {
             "Namespace": "",
             "Key": "D9E7C6634552674B1EC99F905AD0634F",
-            "SourceString": "> Freeze momentum while in air + aiming for up to <C>5 s</>, momentum restored when aim released, <C>3 s</> cooldown\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Freeze momentum while in air + aiming for up to <C>5 s</>, momentum restored when aim released, <C>3 s</> cooldown\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Gain aerial suspension with reduced momentum while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50-25%</> reduced direct damage received while active, scaling proportionally with duration from <C>0-5 s</>\r\n> <C> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Gain aerial suspension with reduced momentum while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50-25%</> reduced direct damage received while active, scaling proportionally with duration from <C>0-5 s</>\r\n> <C> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2099,8 +2099,8 @@
           {
             "Namespace": "",
             "Key": "CC4DCBAE4E8B1A9CA99B2E94D621C2A1",
-            "SourceString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air\r\n> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation",
-            "LocalizedString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air\r\n> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation"
+            "SourceString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air, <C>5</> charges\r\n> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation",
+            "LocalizedString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air, <C>5</> charges\r\n> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation"
           }
         ]
       },
@@ -2992,8 +2992,8 @@
           {
             "Namespace": "",
             "Key": "55EBA5CC413842339934FB95CB953D71",
-            "SourceString": "> <C>0-100%</> increased RPM, scaling proportionally to rounds fired from <C>0-20%</> capacity\r\n<B>></> <C>35%</> <B>reduced RPM</>",
-            "LocalizedString": "> <C>0-100%</> increased RPM, scaling proportionally to rounds fired from <C>0-20%</> capacity\r\n<B>></> <C>35%</> <B>reduced RPM</>"
+            "SourceString": "> <C>0-100%</> increased RPM, scaling proportionally to rounds fired from <C>0-20%</> capacity\r\n<B>></> <C>50%</> <B>increased spread gain</>\r\n<B>></> <C>35%</> <B>reduced RPM</>",
+            "LocalizedString": "> <C>0-100%</> increased RPM, scaling proportionally to rounds fired from <C>0-20%</> capacity\r\n<B>></> <C>50%</> <B>increased spread gain</>\r\n<B>></> <C>35%</> <B>reduced RPM</>"
           }
         ]
       },

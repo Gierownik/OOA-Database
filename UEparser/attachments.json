@@ -1187,6 +1187,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>0-100%</> increased RPM, scaling proportionally to rounds fired from <C>0-20%</> capacity",
+      "<B>></> <C>50%</> <B>increased spread gain</>",
       "<B>></> <C>35%</> <B>reduced RPM</>"
     ],
     "technician": "false",
