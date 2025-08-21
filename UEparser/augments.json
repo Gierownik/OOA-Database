@@ -468,10 +468,11 @@
   {
     "name": "Hardened",
     "tooltip": [
-      "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>",
-      "<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>",
-      "<B>> Can no longer restore max vitals</>",
-      "<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>",
+      "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown",
+      "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active",
+      "<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>",
+      "<B>> Can no longer restore max vitals while active</>",
+      "<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> while active",
       "<B>></> <C>50%</> <B>increased burn damage received</>"
     ],
     "foundations": {
@@ -873,10 +874,10 @@
   {
     "name": "Temporal Suspension",
     "tooltip": [
-      "> Gain aerial suspension with reduced momentum while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
+      "> Gain aerial suspension while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
       "> Unaffected by Core slowing effects while active",
-      "> <C>50-25%</> reduced direct damage received while active, scaling proportionally with duration from <C>0-5 s</>",
-      "> <C> Knockback immunity while active",
+      "> <C>50%</> reduced direct damage received while active",
+      "> Knockback immunity while active",
       "<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>",
       "<B>> Deactivates on body impacts + collision with ground</>",
       "<B>> Not usable while hovering</>",

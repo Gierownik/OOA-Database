@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
       }
     },
     "Rows": {
@@ -1035,8 +1035,8 @@
           {
             "Namespace": "",
             "Key": "D19F7CC649C5A99F8BB730B42FCBF9C6",
-            "SourceString": "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>\r\n<B>> Can no longer restore max vitals</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>",
-            "LocalizedString": "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</>\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals</>\r\n<B>> Can no longer restore max vitals</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>"
+            "SourceString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> while active\r\n<B>></> <C>50%</> <B>increased burn damage received</>",
+            "LocalizedString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> while active\r\n<B>></> <C>50%</> <B>increased burn damage received</>"
           }
         ]
       },
@@ -1586,8 +1586,8 @@
           {
             "Namespace": "",
             "Key": "D9E7C6634552674B1EC99F905AD0634F",
-            "SourceString": "> Gain aerial suspension with reduced momentum while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50-25%</> reduced direct damage received while active, scaling proportionally with duration from <C>0-5 s</>\r\n> <C> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Gain aerial suspension with reduced momentum while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50-25%</> reduced direct damage received while active, scaling proportionally with duration from <C>0-5 s</>\r\n> <C> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Gain aerial suspension while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Gain aerial suspension while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>\r\n<B>> Deactivates on body impacts + collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
