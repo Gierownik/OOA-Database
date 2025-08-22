@@ -98,6 +98,7 @@
       "> <C>100%</> reduced AUX drain from all soruces",
       "> <C>100%</> reduced loadout and movement speed penalties",
       "> <C>50%</> increased dexterity",
+      "> Snare immunity"
       "<B>> <C>0 - 100%</> increased direct damage recieved, scaling proportionally with duration active from <C>0 - 5 s</>"
     ],
     "enhancement": "None",

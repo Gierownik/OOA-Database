@@ -7,7 +7,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
+        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
       }
     },
     "Rows": {
@@ -845,8 +845,8 @@
           {
             "Namespace": "",
             "Key": "ACD4A2DB4CCF2451A64427A46F62ED6B",
-            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
-            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
+            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
+            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
           }
         ]
       },
@@ -1035,8 +1035,8 @@
           {
             "Namespace": "",
             "Key": "D19F7CC649C5A99F8BB730B42FCBF9C6",
-            "SourceString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> while active\r\n<B>></> <C>50%</> <B>increased burn damage received</>",
-            "LocalizedString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> while active\r\n<B>></> <C>50%</> <B>increased burn damage received</>"
+            "SourceString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>",
+            "LocalizedString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>"
           }
         ]
       },
@@ -1244,8 +1244,8 @@
           {
             "Namespace": "",
             "Key": "0F53D85242BB50298C798694013FEDFD",
-            "SourceString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed, scaling proportionally with movement speed from <C>6-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>100-0%</> <B>reduced scan hack speed, scaling proportionally with movement speed from </><C>0-6 m/s</>\r\n<B>> </><C>25%</> <B>reduced detection range</>",
-            "LocalizedString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed, scaling proportionally with movement speed from <C>6-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>100-0%</> <B>reduced scan hack speed, scaling proportionally with movement speed from </><C>0-6 m/s</>\r\n<B>> </><C>25%</> <B>reduced detection range</>"
+            "SourceString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed + reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>",
+            "LocalizedString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed + reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>"
           }
         ]
       },
@@ -1396,8 +1396,8 @@
           {
             "Namespace": "",
             "Key": "79013A674F87E781F9AB95A2B90C2D8F",
-            "SourceString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>",
-            "LocalizedString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>"
+            "SourceString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>",
+            "LocalizedString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>"
           }
         ]
       },
@@ -2398,13 +2398,13 @@
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator88",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
         "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
-        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator23",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "FD25E9B04641A86540112E87E912F17A",
-            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n<B>></> <C>100%</> <B>reduced explosive damage</>",
-            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n<B>></> <C>100%</> <B>reduced explosive damage</>"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n<B>></> <C>75%</> <B>reduced explosive damage</>",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n<B>></> <C>75%</> <B>reduced explosive damage</>"
           }
         ]
       },
@@ -2422,8 +2422,8 @@
           {
             "Namespace": "",
             "Key": "06F24FB1450480DE005228B248EE18BC",
-            "SourceString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>"
           }
         ]
       },

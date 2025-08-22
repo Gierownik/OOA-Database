@@ -326,7 +326,7 @@
     "name": "Dead Drop",
     "tooltip": [
       "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown",
-      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity",
+      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity",
       "> Deactivates after <C>2 s</> if no longer falling",
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
     ],
@@ -472,7 +472,7 @@
       "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active",
       "<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>",
       "<B>> Can no longer restore max vitals while active</>",
-      "<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> while active",
+      "<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>",
       "<B>></> <C>50%</> <B>increased burn damage received</>"
     ],
     "foundations": {
@@ -625,10 +625,9 @@
     "name": "Net Runner",
     "tooltip": [
       "> Can use enhancement devices, stims, weapon switching + move freely while scanning",
-      "> <C>0-50%</> increased scan hack speed, scaling proportionally with movement speed from <C>6-8 m/s</>",
+      "> <C>0-50%</> increased scan hack speed + reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>",
       "> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown",
       "> <C>50%</> reduced scan movement speed penalty",
-      "<B>> </><C>100-0%</> <B>reduced scan hack speed, scaling proportionally with movement speed from </><C>0-6 m/s</>",
       "<B>> </><C>25%</> <B>reduced detection range</>"
     ],
     "foundations": {
@@ -747,7 +746,7 @@
     "tooltip": [
       "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate",
       "> Gain Overkill while vitals below <C>50%</> from enemy damage",
-      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity",
+      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity",
       "<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>",
       "<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",

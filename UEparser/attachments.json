@@ -443,9 +443,9 @@
     "tooltip": [
       "> Activates on impact, <C>0.75 s</> activation delay",
       "> Fire damage, ignites surrounding area, <C>2 s</> snare",
-      "<B>></> <C>100%</> <B>reduced explosive damage</>"
+      "<B>></> <C>75%</> <B>reduced explosive damage</>"
     ],
-    "technician": "false",
+    "technician": "true",
     "compatibility": [
       "Warrant"
     ],
@@ -459,7 +459,7 @@
     "name": "Proximity Grenade",
     "type": "Ammo",
     "tooltip": [
-      "> Proximity detection, <C>0.5 s</> activation delay",
+      "> Proximity detection, <C>0.75 s</> activation delay",
       "> Can attach to surfaces + Shells",
       "> Explosive damage",
       "<B>></> <C>25%</> <B>reduced explosive damage</>",
