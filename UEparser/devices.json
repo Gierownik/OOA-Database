@@ -64,9 +64,10 @@
     "name": "Spike",
     "type": "Neuro-link",
     "tooltip": [
-      "> Neuro-Link device, <C>5 s</> hack time",
-      "> Deals <C>25</> vital damage + <C>4 s</> disable to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals",
-      "> Destroys visible or detected devices"
+      "> Neuro-Link device",
+      "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack",
+      "> Destroys visible or detected devices",
+      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
     ],
     "experimental": "true",
     "stats": {
@@ -84,8 +85,9 @@
     "name": "Combust",
     "type": "Neuro-link",
     "tooltip": [
-      "> Neuro-Link device, <C>5 s</> hack time",
-      "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies"
+      "> Neuro-Link device",
+      "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack",
+      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
     ],
     "experimental": "false",
     "stats": {
@@ -103,8 +105,9 @@
     "name": "Parasite",
     "type": "Neuro-link",
     "tooltip": [
-      "> Neuro-Link device, <C>5 s</> hack time",
-      "> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>"
+      "> Neuro-Link device",
+      "> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>, restores max vitals if scan hack",
+      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
     ],
     "experimental": "true",
     "stats": {
@@ -122,9 +125,10 @@
     "name": "Desync",
     "type": "Neuro-link",
     "tooltip": [
-      "> Neuro-Link device, <C>5 s</> hack time",
-      "> <C>6 s</> desync to visible + up to <C>6</> detected enemies",
-      "> Desync: Scrambles radar, detections + targeting systems"
+      "> Neuro-Link device",
+      "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack",
+      "> Desync: Scrambles radar, detections + targeting systems",
+      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
     ],
     "experimental": "false",
     "stats": {
@@ -142,9 +146,10 @@
     "name": "Cascade",
     "type": "Neuro-link",
     "tooltip": [
-      "> Neuro-Link device, black market, <C>20 s</> hack time",
-      "> Initiates Core detonation to up to <C>6</> visible or detected enemies",
-      "<B>> Can only be used while scanning</>"
+      "> Neuro-Link device, black market",
+      "> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies",
+      "<B>> Can only be used while scanning</>",
+      "<B>> Requires</> <C>100</> <B>Core charge for scan hack</>"
     ],
     "experimental": "false",
     "stats": {
@@ -162,9 +167,10 @@
     "name": "Pathogen",
     "type": "Neuro-link",
     "tooltip": [
-      "> Neuro-Link device, black market, <C>10 s</> hack time",
+      "> Neuro-Link device, black market",
       "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies",
-      "<B>> Can only be used while scanning</>"
+      "<B>> Can only be used while scanning</>",
+      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
     ],
     "experimental": "false",
     "stats": {

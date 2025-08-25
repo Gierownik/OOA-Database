@@ -34,7 +34,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "ProximityMine": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator14",
@@ -59,7 +59,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Relocator": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator16",
@@ -84,7 +84,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Firecracker": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator15",
@@ -109,7 +109,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Disrupter": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator12",
@@ -134,7 +134,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "SatchelCharge": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator22",
@@ -159,7 +159,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 30.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Spike": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator3",
@@ -181,7 +181,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 5.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 25.0
       },
       "AAPTurret": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator17",
@@ -206,7 +206,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 35.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "ReserveStim": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator25",
@@ -228,7 +228,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Overcharge": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator0",
@@ -250,7 +250,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Deadzone": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator20",
@@ -275,7 +275,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Bolster": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator23",
@@ -297,7 +297,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 40.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Shroud": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator24",
@@ -319,7 +319,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "LaserWire": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator1",
@@ -344,7 +344,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 20.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Tempest": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator26",
@@ -369,7 +369,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Shifter": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator27",
@@ -391,7 +391,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 25.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Anchor": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator28",
@@ -416,7 +416,7 @@
         },
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Combust": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator29",
@@ -438,7 +438,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 5.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 25.0
       },
       "Parasite": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator30",
@@ -460,7 +460,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 5.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 50.0
       },
       "Desync": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator31",
@@ -482,7 +482,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 5.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 25.0
       },
       "Cascade": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator32",
@@ -504,7 +504,7 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 20.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 100.0
       },
       "Pathogen": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator33",
@@ -526,7 +526,29 @@
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
         "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
-        "hackTime_67_4777439447B8D0EC1F9F58AB05AB0DCF": 10.0
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 50.0
+      },
+      "Lockdown": {
+        "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator34",
+        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator68",
+        "action_57_9ACD9FD14A212852B1FFB8BB602B1D47": "ENUM_DeviceAction::NewEnumerator2",
+        "type_71_B5593B1E4585F61965634483AEF654CF": "ENUM_DeviceType::NewEnumerator2",
+        "triggered_60_01E8E00C460DB929F1148DA9C2CC07B7": false,
+        "cooldown_11_D555013643FE6003564BDCBE2F66D6AD": 60.0,
+        "duration_19_CADCF2D5460AE568CE1A9A8875DBE004": 0.0,
+        "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
+        "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
+          "ObjectName": "Texture2D'UI_Fist'",
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Fist"
+        },
+        "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
+          "ObjectName": "AnimMontage'Use_Jammer_Montage'",
+          "ObjectPath": "/Game/Characters/Animation/Test/Use_Jammer_Montage"
+        },
+        "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": null,
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
+        "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": false,
+        "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 75.0
       }
     }
   }

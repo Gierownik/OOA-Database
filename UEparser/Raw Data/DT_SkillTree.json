@@ -63,8 +63,8 @@
           {
             "Namespace": "",
             "Key": "00475715494F08DCB1DF068F27E3568B",
-            "SourceString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage + <C>4 s</> disable to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
-            "LocalizedString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage + <C>4 s</> disable to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
+            "SourceString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
+            "LocalizedString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
           }
         ]
       },
@@ -82,8 +82,8 @@
           {
             "Namespace": "",
             "Key": "293CDDD44B45B6C1B63D1BA0E12B9E74",
-            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>20%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
-            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>20%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
+            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
+            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
           }
         ]
       },
@@ -617,8 +617,8 @@
           {
             "Namespace": "",
             "Key": "221DF40647E0AFA3663C31A69B0D264B",
-            "SourceString": "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link\r\n> Detects devices of detected enemies while scanning\r\n> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link\r\n<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>\r\n<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
-            "LocalizedString": "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link\r\n> Detects devices of detected enemies while scanning\r\n> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link\r\n<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>\r\n<B>> </><C>1</> <B> reduced Neuro-Link target limit</>"
+            "SourceString": "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link\r\n> Devices + explosives of detected enemies are detected to allies\r\n> <C>20%</> reduced hack time of next scan hack for each additional enemy affected by last Neuro-Link\r\n> Tag enemies on receiving Neuro-Link\r\n<B>> </><C>1</> <B> reduced Neuro-Link target limit</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link\r\n> Devices + explosives of detected enemies are detected to allies\r\n> <C>20%</> reduced hack time of next scan hack for each additional enemy affected by last Neuro-Link\r\n> Tag enemies on receiving Neuro-Link\r\n<B>> </><C>1</> <B> reduced Neuro-Link target limit</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -845,8 +845,8 @@
           {
             "Namespace": "",
             "Key": "ACD4A2DB4CCF2451A64427A46F62ED6B",
-            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
-            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
+            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> speed penalties + reduced aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
+            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> speed penalties + reduced aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
           }
         ]
       },
@@ -1244,8 +1244,8 @@
           {
             "Namespace": "",
             "Key": "0F53D85242BB50298C798694013FEDFD",
-            "SourceString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed + reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>",
-            "LocalizedString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-50%</> increased scan hack speed + reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>"
+            "SourceString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-100%</> increased scan hack speed + Core regeneration while scanning, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> <C>0-50%</> reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Immunity to enemy Neuro-Link devices while scanning, inactive while scan hacking\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-100%</> increased scan hack speed + Core regeneration while scanning, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> <C>0-50%</> reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Immunity to enemy Neuro-Link devices while scanning, inactive while scan hacking\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1263,8 +1263,8 @@
           {
             "Namespace": "",
             "Key": "BB44592340A842DB4451F289EC7F3EF2",
-            "SourceString": "> Scan hack: Neuro-Link devices can be used while scanning, <C>0-50%</> reduced hack time proportional to Core charge from <C>0-100</>\r\n> Can equip black market Neuo-Link devices\r\n> Immunity to enemy Neuro-Link devices while not scanning\r\n> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scan hacking, overrides undetectable</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Scan hack: Neuro-Link devices can be used while scanning, <C>0-50%</> reduced hack time proportional to Core charge from <C>0-100</>\r\n> Can equip black market Neuo-Link devices\r\n> Immunity to enemy Neuro-Link devices while not scanning\r\n> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation\r\n<B>> Detected while scan hacking, overrides undetectable</>\r\n<B>> Neuro-Link devices used while scanning only target detected enemies</>\r\n<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Scan hack: Neuro-Link devices can be used while scanning\r\n> Can equip black market Neuo-Link devices\r\n> Reflect enemy Neuro-Link, <C>30 s</> cooldown, inactive while scanning\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Scan hack: Neuro-Link devices can be used while scanning\r\n> Can equip black market Neuo-Link devices\r\n> Reflect enemy Neuro-Link, <C>30 s</> cooldown, inactive while scanning\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1339,8 +1339,8 @@
           {
             "Namespace": "",
             "Key": "7140649847F2CC90288504A891061E81",
-            "SourceString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power regeneration for <C>5 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>",
-            "LocalizedString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power regeneration for <C>5 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>"
+            "SourceString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased Core + aux power regeneration for <C>5 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>",
+            "LocalizedString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased Core + aux power regeneration for <C>5 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>"
           }
         ]
       },
@@ -1396,8 +1396,8 @@
           {
             "Namespace": "",
             "Key": "79013A674F87E781F9AB95A2B90C2D8F",
-            "SourceString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>",
-            "LocalizedString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>"
+            "SourceString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>",
+            "LocalizedString": "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate\r\n> Gain Overkill while vitals below <C>50%</> from enemy damage\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>"
           }
         ]
       },
@@ -1776,8 +1776,8 @@
           {
             "Namespace": "",
             "Key": "572C6D7C4A9158113E8B308ED4061852",
-            "SourceString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Deals <C>25</> vital damage + <C>4 s</> disable to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices",
-            "LocalizedString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Deals <C>25</> vital damage + <C>4 s</> disable to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals\r\n> Destroys visible or detected devices"
+            "SourceString": "> Neuro-Link device\r\n> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1795,8 +1795,8 @@
           {
             "Namespace": "",
             "Key": "0E27AEAA45471B74BF1263AE720A60D5",
-            "SourceString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies",
-            "LocalizedString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies"
+            "SourceString": "> Neuro-Link device\r\n> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1814,8 +1814,8 @@
           {
             "Namespace": "",
             "Key": "3097FA4A4375793B54ACD0AF9F697D36",
-            "SourceString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>",
-            "LocalizedString": "> Neuro-Link device, <C>5 s</> hack time\r\n> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>"
+            "SourceString": "> Neuro-Link device\r\n> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>, restores max vitals if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Neuro-Link device\r\n> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>, restores max vitals if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1833,8 +1833,8 @@
           {
             "Namespace": "",
             "Key": "D4216E3747F9754121EC098F436631DF",
-            "SourceString": "> Neuro-Link device, <C>5 s</> hack time\r\n> <C>6 s</> desync to visible + up to <C>6</> detected enemies\r\n> Desync: Scrambles radar, detections + targeting systems",
-            "LocalizedString": "> Neuro-Link device, <C>5 s</> hack time\r\n> <C>6 s</> desync to visible + up to <C>6</> detected enemies\r\n> Desync: Scrambles radar, detections + targeting systems"
+            "SourceString": "> Neuro-Link device\r\n> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1852,8 +1852,8 @@
           {
             "Namespace": "",
             "Key": "78CFC49D455CCE61E2C83999ED57EDB3",
-            "SourceString": "> Neuro-Link device, black market, <C>20 s</> hack time\r\n> Initiates Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>",
-            "LocalizedString": "> Neuro-Link device, black market, <C>20 s</> hack time\r\n> Initiates Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>"
+            "SourceString": "> Neuro-Link device, black market\r\n> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Neuro-Link device, black market\r\n> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1871,8 +1871,27 @@
           {
             "Namespace": "",
             "Key": "DE611BFA4F0BEA71BCFD318CEDF91B92",
-            "SourceString": "> Neuro-Link device, black market, <C>10 s</> hack time\r\n> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>",
-            "LocalizedString": "> Neuro-Link device, black market, <C>10 s</> hack time\r\n> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>"
+            "SourceString": "> Neuro-Link device, black market\r\n> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Neuro-Link device, black market\r\n> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
+          }
+        ]
+      },
+      "Lockdown": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator34",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator68",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "3C0091AF4E943024064305B99457753D",
+            "SourceString": "> Neuro-Link device, black market\r\n> Disarms + applies <C>4 /s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Neuro-Link device, black market\r\n> Disarms + applies <C>4 /s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -3070,6 +3089,25 @@
             "Key": "CE61E2904C8BDDAD9E1A889ED96D545B",
             "SourceString": "> <C>200%</> increased damage every <C>4th</> shot\r\n<B>></> <C>200%</> <B>increased vertical recoil every</> <C>4th</> <B>shot</>\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>",
             "LocalizedString": "> <C>200%</> increased damage every <C>4th</> shot\r\n<B>></> <C>200%</> <B>increased vertical recoil every</> <C>4th</> <B>shot</>\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>"
+          }
+        ]
+      },
+      "BRRRTTrigger": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator4",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator101",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "F79E150E4C4BE5A53650C3933E3EBCBA",
+            "SourceString": "> <C>100%</> increased RPM\r\n> Entire magazine emptied on firing\r\n<B>></> <C>100%</> <B>increased recoil, spread + spread gain</>\r\n<B>> Firing can no longer be interrupted by other actions</>",
+            "LocalizedString": "> <C>100%</> increased RPM\r\n> Entire magazine emptied on firing\r\n<B>></> <C>100%</> <B>increased recoil, spread + spread gain</>\r\n<B>> Firing can no longer be interrupted by other actions</>"
           }
         ]
       }

@@ -164,10 +164,11 @@
     "name": "Backdoor",
     "tooltip": [
       "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link",
-      "> Detects devices of detected enemies while scanning",
-      "> <C>15%</> reduced hack time for next scan hack per target hit by last Neuro-Link",
-      "<B>> </><C>50%</> <B> increased Core charge drain on successful scan hack</>",
-      "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>"
+      "> Devices + explosives of detected enemies are detected to allies",
+      "> <C>20%</> reduced hack time of next scan hack for each additional enemy affected by last Neuro-Link",
+      "> Tag enemies on receiving Neuro-Link",
+      "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
+      "<B>> Can be disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -326,7 +327,7 @@
     "name": "Dead Drop",
     "tooltip": [
       "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown",
-      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity",
+      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> speed penalties + reduced aux drain from all sources, <C>50%</> increased dexterity, snare immunity",
       "> Deactivates after <C>2 s</> if no longer falling",
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
     ],
@@ -625,10 +626,12 @@
     "name": "Net Runner",
     "tooltip": [
       "> Can use enhancement devices, stims, weapon switching + move freely while scanning",
-      "> <C>0-50%</> increased scan hack speed + reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>",
-      "> Reflect enemy Neuro-Link while moving over <C>6 m/s</> + scanning, <C>20 s</> cooldown",
+      "> <C>0-100%</> increased scan hack speed + Core regeneration while scanning, scaling proportionally with movement speed from <C>0-8 m/s</>",
+      "> <C>0-50%</> reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>",
+      "> Immunity to enemy Neuro-Link devices while scanning, inactive while scan hacking",
       "> <C>50%</> reduced scan movement speed penalty",
-      "<B>> </><C>25%</> <B>reduced detection range</>"
+      "<B>> </><C>25%</> <B>reduced detection range</>",
+      "<B>> Can be disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -638,13 +641,14 @@
   {
     "name": "Neuro-Hacker",
     "tooltip": [
-      "> Scan hack: Neuro-Link devices can be used while scanning, <C>0-50%</> reduced hack time proportional to Core charge from <C>0-100</>",
+      "> Scan hack: Neuro-Link devices can be used while scanning",
       "> Can equip black market Neuo-Link devices",
-      "> Immunity to enemy Neuro-Link devices while not scanning",
-      "> <C>10%</> reduced Neuro-Link device cooldown for each enemy affected on activation",
-      "<B>> Detected while scan hacking, overrides undetectable</>",
-      "<B>> Neuro-Link devices used while scanning only target detected enemies</>",
-      "<B>> </><C>100%</> <B> base hack time per enemy affected drained from Core charge on successful scan hack</>",
+      "> Reflect enemy Neuro-Link, <C>30 s</> cooldown, inactive while scanning",
+      "> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation",
+      "> <C>5</> Core charge returned for each additional enemy affected on successful scan hack",
+      "<B>> Detected while scan hack active, overrides undetectable</>",
+      "<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>",
+      "<B>></> <C>25%</> <B>reduced Core generation</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -702,7 +706,7 @@
     "tooltip": [
       "> <C>100%</> increased vitals restored by primary stim",
       "> <C>50%</> of vitals restored by primary stim restores max vitals",
-      "> <C>100%</> increased aux power regeneration for <C>5 s</> on primary stim use",
+      "> <C>100%</> increased Core + aux power regeneration for <C>5 s</> on primary stim use",
       "<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>"
     ],
     "foundations": {
@@ -746,7 +750,7 @@
     "tooltip": [
       "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate",
       "> Gain Overkill while vitals below <C>50%</> from enemy damage",
-      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced aux drain from all sources, loadout + movement speed penalties, <C>50%</> increased dexterity, snare immunity",
+      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity",
       "<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>",
       "<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
