@@ -491,6 +491,15 @@
             "SourceString": "Hammer-Head",
             "LocalizedString": "Hammer-Head"
           }
+        },
+        {
+          "Key": "NewEnumerator101",
+          "Value": {
+            "Namespace": "",
+            "Key": "E02055F44593C623E1B35EA4C6E871F6",
+            "SourceString": "BRRRT Trigger",
+            "LocalizedString": "BRRRT Trigger"
+          }
         }
       ]
     },
@@ -549,7 +558,8 @@
       "ENUM_AttachmentID::NewEnumerator98": 51,
       "ENUM_AttachmentID::NewEnumerator99": 52,
       "ENUM_AttachmentID::NewEnumerator100": 53,
-      "ENUM_AttachmentID::ENUM_MAX": 54
+      "ENUM_AttachmentID::NewEnumerator101": 54,
+      "ENUM_AttachmentID::ENUM_MAX": 55
     },
     "CppForm": "Namespaced"
   }

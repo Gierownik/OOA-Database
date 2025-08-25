@@ -100,7 +100,8 @@
         "Parasite": 19,
         "Desync": 20,
         "Cascade": 21,
-        "Pathogen": 22
+        "Pathogen": 22,
+        "Lockdown": 23
     },
     "Weapons": {
         "Major": 2,
@@ -184,6 +185,7 @@
         "Frag Mag": 50,
         "VX Accelerator": 51,
         "Cripple Gauge": 52,
-        "Hammer-Head": 53
+        "Hammer-Head": 53,
+        "BRRRT Trigger": 54
     }
 }

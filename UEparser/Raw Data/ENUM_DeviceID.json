@@ -212,6 +212,15 @@
             "SourceString": "Pathogen",
             "LocalizedString": "Pathogen"
           }
+        },
+        {
+          "Key": "NewEnumerator34",
+          "Value": {
+            "Namespace": "",
+            "Key": "76A39E2A4643BF3052D15E9A9EA2F74D",
+            "SourceString": "Lockdown",
+            "LocalizedString": "Lockdown"
+          }
         }
       ]
     },
@@ -239,7 +248,8 @@
       "ENUM_DeviceID::NewEnumerator31": 20,
       "ENUM_DeviceID::NewEnumerator32": 21,
       "ENUM_DeviceID::NewEnumerator33": 22,
-      "ENUM_DeviceID::ENUM_MAX": 23
+      "ENUM_DeviceID::NewEnumerator34": 23,
+      "ENUM_DeviceID::ENUM_MAX": 24
     },
     "CppForm": "Namespaced"
   }

@@ -185,6 +185,27 @@
     }
   },
   {
+    "name": "Lockdown",
+    "type": "Neuro-link",
+    "tooltip": [
+      "> Neuro-Link device, black market",
+      "> Disarms + applies <C>4 /s</> stun + cripple to up to <C>6</> visible or detected enemies",
+      "<B>> Can only be used while scanning</>",
+      "<B>> Requires</> <C>75</> <B>Core charge for scan hack</>"
+    ],
+    "experimental": "false",
+    "stats": {
+      "cooldown": 60.0,
+      "duration": 0.0,
+      "action": "Activate",
+      "speed_penalty": 0.15
+    },
+    "foundations": {
+      "type": "tech",
+      "value": 25
+    }
+  },
+  {
     "name": "Deadzone",
     "type": "Standard",
     "tooltip": [

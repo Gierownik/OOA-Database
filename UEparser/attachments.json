@@ -1280,5 +1280,24 @@
       "type": "tech",
       "value": 25
     }
+  },
+  {
+    "name": "BRRRT Trigger",
+    "type": "Mod",
+    "tooltip": [
+      "> <C>100%</> increased RPM",
+      "> Entire magazine emptied on firing",
+      "<B>></> <C>100%</> <B>increased recoil, spread + spread gain</>",
+      "<B>> Firing can no longer be interrupted by other actions</>"
+    ],
+    "technician": "false",
+    "compatibility": [
+      "Geist"
+    ],
+    "excludes": [],
+    "foundations": {
+      "type": "tech",
+      "value": 25
+    }
   }
 ]
