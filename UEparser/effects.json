@@ -14,6 +14,7 @@
   },
   {
     "name": "Bleed",
+    "tick": "0.5s",
     "tooltip": [
       "<B>> Constant bleed damage</>"
     ],
@@ -25,10 +26,13 @@
   },
   {
     "name": "Burn",
+    "duration": "5s",
+    "tick": "0.5s",
     "tooltip": [
       "<B>> Constant fire damage and stat reduction</>",
+      "<B>> <C>50%</> decreased dexterity</>",
       "<B>> Burn ticks don't deplete while moving over 8m/s</>",
-      "> <C>2</> burn ticks removed on roll"
+      "> <C>5</> burn ticks removed on roll"
     ],
     "enhancement": "Combust",
     "enh_tooltip": [
@@ -37,6 +41,7 @@
   },
   {
     "name": "Corrode",
+    "duration": "2s",
     "tooltip": [
       "<B>> Constant chemical damage and both stat reduction</>",
       "<B>> <C>100%</> reduced vitals restored from all sources</>",
@@ -67,6 +72,7 @@
     "enhancement": "Stun",
     "enh_tooltip": [
       "<B>> Visual and audio distortion</>",
+      "<B>> <C>100%</> increased weapon spread</>"
       "<B>> <C>50%</> reduced turn speed</>"
     ]
   },
