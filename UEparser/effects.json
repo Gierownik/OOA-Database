@@ -58,9 +58,10 @@
     "tooltip": [
       "<B>> Scrambles radar, detections and targeting systems</>"
     ],
-    "enhancement": "Disconnect",
+    "enhancement": "Feedback",
     "enh_tooltip": [
-      "<B>> Freezes Non-augment cooldowns</>"
+      "<B>> <C>10 /s</> shock damage + stun while Core active</>",
+      "<C>25</> shock damage + <C>4 s</> stun on relocation"
     ]
   },
   {
@@ -72,7 +73,7 @@
     "enhancement": "Stun",
     "enh_tooltip": [
       "<B>> Visual and audio distortion</>",
-      "<B>> <C>100%</> increased weapon spread</>"
+      "<B>> <C>100%</> increased weapon spread</>",
       "<B>> <C>50%</> reduced turn speed</>"
     ]
   },
@@ -104,7 +105,7 @@
       "> <C>100%</> reduced AUX drain from all soruces",
       "> <C>100%</> reduced speed penalties and aux drain from all sources",
       "> <C>50%</> increased dexterity",
-      "> Snare immunity"
+      "> Snare immunity",
       "<B>> <C>0 - 100%</> increased direct damage recieved, scaling proportionally with duration active from <C>0 - 5 s</>"
     ],
     "enhancement": "None",
