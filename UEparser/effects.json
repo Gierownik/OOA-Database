@@ -16,7 +16,7 @@
     "name": "Bleed",
     "tick": "0.5s",
     "tooltip": [
-      "<B>> Constant bleed damage</>"
+      "<B>> Constant bleed damage, up to 20/s</>"
     ],
     "enhancement": "Hemorrhage",
     "enh_tooltip": [
