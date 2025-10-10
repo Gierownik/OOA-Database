@@ -67,7 +67,7 @@
   {
     "name": "Disable",
     "tooltip": [
-      "<B>> Disables: set augments/devices/projectiles, all forms of detections, nano-wire, terminals, defense regeneration</>"
+      "<B>> Disables: set augments/devices/projectiles, all forms of detections, radar, nano-wire, terminals, defense regeneration</>"
     ],
     "enhancement": "Stun",
     "enh_tooltip": [
