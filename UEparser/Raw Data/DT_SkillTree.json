@@ -3,7 +3,6 @@
     "Type": "DataTable",
     "Name": "DT_SkillTree",
     "Class": "UScriptClass'DataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
@@ -63,8 +62,8 @@
           {
             "Namespace": "",
             "Key": "00475715494F08DCB1DF068F27E3568B",
-            "SourceString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
-            "LocalizedString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty + detectable range while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased dexterity, weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
+            "SourceString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>3 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
+            "LocalizedString": ":: <D>Tactical Camouflage</>\r\n> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty while active\r\n> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics\r\n<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>\r\n<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>\r\n<B>> Deactivates on interactions + offensive actions</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Heightened Proficiency</>\r\n> <C>25%</> increased weapon accuracy + backup weapon damage\r\n> <C>50%</> reduced explosive damage received during maneuvers\r\n> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Disruptive Measures</>\r\n> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active\r\n> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>3 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive\r\n> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
           }
         ]
       },
@@ -82,8 +81,8 @@
           {
             "Namespace": "",
             "Key": "293CDDD44B45B6C1B63D1BA0E12B9E74",
-            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
-            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while in air, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, requires <C>3 m</> altitude, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>4 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
+            "SourceString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>3 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>",
+            "LocalizedString": ":: <D>Drifter Jump-Pack</>\r\n> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown\r\n> Recover an aerial maneuver charge on hover activation\r\n> Ground Slam maneuver: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, <C>10 s</> cooldown\r\n<B>> Deactivates on boost and Ground Slam impact</>\r\n<B>> Boosting drains aux power</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Scorch Hazard</>\r\n> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>3 m</> for <C>25</> fire damage, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>3 s</> on death if hovering\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Thermal Nano-Mesh</>\r\n> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft\r\n> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>\r\n> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
           }
         ]
       },
@@ -101,8 +100,8 @@
           {
             "Namespace": "",
             "Key": "0244F96740F9337D4C451CBD59B5AAA9",
-            "SourceString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n> <C>50%</> reduced movement speed penalties while defence above <C>50%</>\r\n> Bolster while Core active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>4 m</>, <C>5 s</> cooldown\r\n> <C>50%</> of damage dealt by Shockwave restored to defense + max defense\r\n> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>\r\n> Damage taken to vitals is restored to defense when defense regeneration resumes",
-            "LocalizedString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n> <C>50%</> reduced movement speed penalties while defence above <C>50%</>\r\n> Bolster while Core active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>4 m</>, <C>5 s</> cooldown\r\n> <C>50%</> of damage dealt by Shockwave restored to defense + max defense\r\n> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>\r\n> Damage taken to vitals is restored to defense when defense regeneration resumes"
+            "SourceString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n> <C>50%</> reduced movement speed penalties while defence above <C>50%</>\r\n> Bolster while Core active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>3 m</>, <C>5 s</> cooldown\r\n> <C>50%</> of damage dealt by Shockwave restored to defense + max defense\r\n> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>\r\n> Damage taken to vitals is restored to defense when defense regeneration resumes",
+            "LocalizedString": ":: <D>Resilient Momentum</>\r\n> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage\r\n> <C>50%</> reduced movement speed penalties while defence above <C>50%</>\r\n> Bolster while Core active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>\r\n\r\n:: <D>Concussive Impulse</>\r\n> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>3 m</>, <C>5 s</> cooldown\r\n> <C>50%</> of damage dealt by Shockwave restored to defense + max defense\r\n> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>\r\n<B>> Can be disabled</>\r\n\r\n:: <D>Reactive Cladding</>\r\n> <C>50%</> increased explosive resistance\r\n> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>\r\n> Damage taken to vitals is restored to defense when defense regeneration resumes"
           }
         ]
       },
@@ -330,7 +329,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
-        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 0,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": []
       },
@@ -408,8 +407,8 @@
           {
             "Namespace": "",
             "Key": "26446D2447152C2431D14D811B3C67EF",
-            "SourceString": "> Additional aerial maneuver charge\r\n> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge\r\n> Recover an aerial maneuver charge on starting a climb\r\n> <C>50%</> reduced fall damage\r\n> <C>15%</> increased climb speed\r\n> <C>1 m/s</> increased jump speed\r\n<B>></> <C>25</> <B>reduced defense</>",
-            "LocalizedString": "> Additional aerial maneuver charge\r\n> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge\r\n> Recover an aerial maneuver charge on starting a climb\r\n> <C>50%</> reduced fall damage\r\n> <C>15%</> increased climb speed\r\n> <C>1 m/s</> increased jump speed\r\n<B>></> <C>25</> <B>reduced defense</>"
+            "SourceString": "> Additional aerial maneuver charge\r\n> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge\r\n> Recover an aerial maneuver charge on starting a climb\r\n> <C>50%</> reduced fall damage\r\n> <C>15%</> increased jump + climb speed\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> Additional aerial maneuver charge\r\n> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge\r\n> Recover an aerial maneuver charge on starting a climb\r\n> <C>50%</> reduced fall damage\r\n> <C>15%</> increased jump + climb speed\r\n<B>></> <C>25</> <B>reduced defense</>"
           }
         ]
       },
@@ -427,8 +426,8 @@
           {
             "Namespace": "",
             "Key": "9DB6701F4AD0A236972EE0B55D628B94",
-            "SourceString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>",
-            "LocalizedString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>50%</> <B>reduced vitals restored from all sources</>"
+            "SourceString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+            "LocalizedString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased Core + aux power regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
           }
         ]
       },
@@ -446,8 +445,8 @@
           {
             "Namespace": "",
             "Key": "E451C72849440B94AB417A84E7DDF424",
-            "SourceString": "> <C>50</> vitals restored + <C>15%</> increased ground speed + dexterity for <C>10 s</> on visible kill, <C>5 s</> cooldown\r\n<B>></> <C>25</> <B>reduced vitals</>",
-            "LocalizedString": "> <C>50</> vitals restored + <C>15%</> increased ground speed + dexterity for <C>10 s</> on visible kill, <C>5 s</> cooldown\r\n<B>></> <C>25</> <B>reduced vitals</>"
+            "SourceString": "> Activates on visible kill, <C>5 s</> cooldown\r\n> <C>50</> vitals + aux power restored on activate\r\n> <C>15%</> increased ground speed + dexterity for <C>5 s</> on activate\r\n> <C>50%</> reduced aux power drain for <C>5 s</> on activate\r\n<B>></> <C>25</> <B>reduced vitals</>",
+            "LocalizedString": "> Activates on visible kill, <C>5 s</> cooldown\r\n> <C>50</> vitals + aux power restored on activate\r\n> <C>15%</> increased ground speed + dexterity for <C>5 s</> on activate\r\n> <C>50%</> reduced aux power drain for <C>5 s</> on activate\r\n<B>></> <C>25</> <B>reduced vitals</>"
           }
         ]
       },
@@ -484,8 +483,8 @@
           {
             "Namespace": "",
             "Key": "1A64533145A598717FD6819AADABD8D2",
-            "SourceString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil + spread</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>",
-            "LocalizedString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil + spread</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
+            "SourceString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional base sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage while not using alternate aim stance</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil + spread</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>",
+            "LocalizedString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n> <C>100%</> additional base sidearm reserve ammo\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>25%</> <B>reduced sidearm damage while not using alternate aim stance</>\r\n<B>></> <C>50%</> <B>increased sidearm recoil + spread</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
           }
         ]
       },
@@ -503,8 +502,8 @@
           {
             "Namespace": "",
             "Key": "031467254F3AC292F010E2A71189DFB1",
-            "SourceString": "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown\r\n> Deflect direct damage, clears burn + gains fire immunity while active\r\n> Automatically roll on knockdown\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown\r\n> Deflect direct damage, clears burn + gains fire immunity while active\r\n> Automatically roll on knockdown\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown\r\n> Deflect direct damage, clears burn + gains fire immunity while active\r\n> Destroys attached devices on activate\r\n> Automatically roll on knockdown\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown\r\n> Deflect direct damage, clears burn + gains fire immunity while active\r\n> Destroys attached devices on activate\r\n> Automatically roll on knockdown\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -522,8 +521,8 @@
           {
             "Namespace": "",
             "Key": "433331A74F35FD08417394B2D1B51FEB",
-            "SourceString": "> <C>0-15%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>35%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional charging drains aux power</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>0-15%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>35%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional charging drains aux power</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>0-25%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>25%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional attack charging drains aux power</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>0-25%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>25%</> additional damage + velocity on full charge held for over <C>1 s</>\r\n> <C>25%</> increased device throw velocity\r\n> <C>25%</> reduced firearm recoil + spread gain\r\n<B>> Additional attack charging drains aux power</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -541,8 +540,8 @@
           {
             "Namespace": "",
             "Key": "97A222E54F033A144D0A248003835A8A",
-            "SourceString": "> <C>25%</> reduced loadout + movement speed penalties\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while disabled</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>25%</> reduced loadout + movement speed penalties\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while disabled</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>25%</> reduced loadout + movement speed penalties\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while disabled</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>25%</> reduced loadout + movement speed penalties\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while disabled</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -579,8 +578,8 @@
           {
             "Namespace": "",
             "Key": "E28B6AB14354DE3BDE2139A523E824C4",
-            "SourceString": "> Automatically clears bleed, <C>10 s</> cooldown\r\n> <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal\r\n> <C>5 /s</> max vitals regeneration\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Automatically clears bleed, <C>10 s</> cooldown\r\n> <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal\r\n> <C>5 /s</> max vitals regeneration\r\n<B>> Can be disabled</>"
+            "SourceString": "> Automatically clears bleed, <C>10 s</> cooldown\r\n> <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal\r\n> <C>5 /s</> max vitals regeneration\r\n<B>></> <C>25%</> <B>reduced aux regeneration</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Automatically clears bleed, <C>10 s</> cooldown\r\n> <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal\r\n> <C>5 /s</> max vitals regeneration\r\n<B>></> <C>25%</> <B>reduced aux regeneration</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -598,8 +597,8 @@
           {
             "Namespace": "",
             "Key": "0DAF1DAA4EFF406266CBF7A7AB0F0735",
-            "SourceString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>2.5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> Chemical heals gain bleed immunity if used while not bleeding\r\n> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>5 s</>, chemical heal, <C>10 s</> cooldown\r\n> <C>5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -636,8 +635,8 @@
           {
             "Namespace": "",
             "Key": "7E4F27EE405DD324F1797E82D5B7CE92",
-            "SourceString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>50</> vitals restored on visible bleeding enemy kill with firearms while bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>",
-            "LocalizedString": "> Bleeding enemies within <C>30 m</> are detected while bleeding\r\n> <C>50-25%</> of damage dealt with backup weapons restored to vitals + max vitals while bleeding, scaling proportionally with range from <C>2.5-5 m</>\r\n> <C>50</> vitals restored on visible bleeding enemy kill with firearms while bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>"
+            "SourceString": "> Bleeding enemies are detected while bleeding\r\n> <C>100%</> of bleed damage dealt restored to vitals + max vitals while bleeding\r\n> <C>25%</> of damage dealt with backup weapons + body impacts restored to vitals + max vitals while bleeding, addititonal <C>25%</> if target is bleeding\r\n> <C>25</> vitals restored on visible enemy kill while bleeding, additional <C>50</> if target is bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim no longer restores vitals + causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>",
+            "LocalizedString": "> Bleeding enemies are detected while bleeding\r\n> <C>100%</> of bleed damage dealt restored to vitals + max vitals while bleeding\r\n> <C>25%</> of damage dealt with backup weapons + body impacts restored to vitals + max vitals while bleeding, addititonal <C>25%</> if target is bleeding\r\n> <C>25</> vitals restored on visible enemy kill while bleeding, additional <C>50</> if target is bleeding\r\n> <C>15%</> increased ground speed while bleeding\r\n> <C>50%</> reduced aux power drain while bleeding\r\n<B>> Primary stim no longer restores vitals + causes bleed if used while not bleeding</>\r\n<B>></> <C>50%</> <B>increased bleed damage received</>"
           }
         ]
       },
@@ -693,8 +692,8 @@
           {
             "Namespace": "",
             "Key": "2361301942DFDE29C4F943B272FCF0D6",
-            "SourceString": "> Explosives deal chemical damage + apply corrode for <C>2 s</>\r\n> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage, duration refreshed while bleeding\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>",
-            "LocalizedString": "> Explosives deal chemical damage + apply corrode for <C>2 s</>\r\n> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage, duration refreshed while bleeding\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>"
+            "SourceString": "> Explosives deal chemical damage + apply corrode for <C>2 s</>\r\n> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage, duration refreshed while bleeding\r\n<B>></> <C>25%</> <B>reduced explosive damage</>",
+            "LocalizedString": "> Explosives deal chemical damage + apply corrode for <C>2 s</>\r\n> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage, duration refreshed while bleeding\r\n<B>></> <C>25%</> <B>reduced explosive damage</>"
           }
         ]
       },
@@ -712,8 +711,8 @@
           {
             "Namespace": "",
             "Key": "3E0A53D34309135B40F46C9EAA7D2831",
-            "SourceString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</> while using backup weapons\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>",
-            "LocalizedString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights.\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</> while using backup weapons\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased direct damage received beyond</> <C>5 m</> <B>while using backup weapons</>"
+            "SourceString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</> while using backup weapons or ADS with ironsights\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased firearm + backup weapon damage received beyond</> <C>5 m</> <B>while using backup weapons or ADS with ironsights</>",
+            "LocalizedString": "> <C>50%</> reduced firearm spread + recoil while ADS with ironsights\r\n> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>5 m</>\r\n> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</> while using backup weapons or ADS with ironsights\r\n<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>\r\n<B>></> <C>25%</> <B>increased firearm + backup weapon damage received beyond</> <C>5 m</> <B>while using backup weapons or ADS with ironsights</>"
           }
         ]
       },
@@ -845,8 +844,8 @@
           {
             "Namespace": "",
             "Key": "ACD4A2DB4CCF2451A64427A46F62ED6B",
-            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> speed penalties + reduced aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
-            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> speed penalties + reduced aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
+            "SourceString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
+            "LocalizedString": "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
           }
         ]
       },
@@ -978,8 +977,8 @@
           {
             "Namespace": "",
             "Key": "676A773940AB11C6B7BCADBC18149F5B",
-            "SourceString": "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown\r\n> Devices can no longer be disabled\r\n<B>></> <C>35%</> <B>reduced defense regeneration</>",
-            "LocalizedString": "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown\r\n> Devices can no longer be disabled\r\n<B>></> <C>35%</> <B>reduced defense regeneration</>"
+            "SourceString": "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown\r\n> Devices can no longer be disabled\r\n<B>></> <C>25%</> <B>reduced defense + aux regeneration</>",
+            "LocalizedString": "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown\r\n> Devices can no longer be disabled\r\n<B>></> <C>25%</> <B>reduced defense + aux regeneration</>"
           }
         ]
       },
@@ -997,8 +996,8 @@
           {
             "Namespace": "",
             "Key": "C41D29FF47A9144E7A315AAD5235EE7D",
-            "SourceString": "> Gain Shroud while climbing, <C>0.5 s</> activation time\r\n> Gain camouflage while stationary + climbing, any actions will deactivate, <C>4 s</> cooldown\r\n> <C>100%</> reduced aux power drain from climbing\r\n> <C>100%</> reduced fall damage when landing into a climb\r\n> <C>25%</> increased climb speed + weapon accuracy while climbing\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Gain Shroud while climbing, <C>0.5 s</> activation time\r\n> Gain camouflage while stationary + climbing, any actions will deactivate, <C>4 s</> cooldown\r\n> <C>100%</> reduced aux power drain from climbing\r\n> <C>100%</> reduced fall damage when landing into a climb\r\n> <C>25%</> increased climb speed + weapon accuracy while climbing\r\n<B>> Can be disabled</>"
+            "SourceString": "> Gain Shroud while climbing, <C>0.5 s</> activation time\r\n> Gain camouflage while stationary + climbing, any actions will deactivate, <C>4 s</> cooldown\r\n> <C>100%</> reduced aux power drain from climbing\r\n> <C>100%</> reduced fall damage when landing into a climb\r\n> <C>15%</> increased speed, jump speed + weapon accuracy while climbing\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Gain Shroud while climbing, <C>0.5 s</> activation time\r\n> Gain camouflage while stationary + climbing, any actions will deactivate, <C>4 s</> cooldown\r\n> <C>100%</> reduced aux power drain from climbing\r\n> <C>100%</> reduced fall damage when landing into a climb\r\n> <C>15%</> increased speed, jump speed + weapon accuracy while climbing\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1016,8 +1015,8 @@
           {
             "Namespace": "",
             "Key": "99F2D4AB459D437DF20FDA8A8559D3B3",
-            "SourceString": "> <C>100%</> reduced bonus multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration + bleeding from headshots received while active\r\n> Absorbs single fatal headshot while active\r\n> Immunity to Tether + Neuro-Link while active\r\n<B>> Headshot damage received applies snare while active</>\r\n<B>> Can no longer use Neuro-Link while active</>\r\n<B>> </> <C>4 s</> <B>stun + deactivates on absorbtion of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>100%</> reduced bonus multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration + bleeding from headshots received while active\r\n> Absorbs single fatal headshot while active\r\n> Immunity to Tether + Neuro-Link while active\r\n<B>> Headshot damage received applies snare while active</>\r\n<B>> Can no longer use Neuro-Link while active</>\r\n<B>> </> <C>4 s</> <B>stun + deactivates on absorbtion of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> <C>100%</> reduced bonus multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration + bleeding from headshots received while active\r\n> Absorbs single fatal headshot while active\r\n> Immunity to Tether + Neuro-Link while active\r\n<B>> Headshot damage received applies snare while active</>\r\n<B>> Can no longer use Neuro-Link while active</>\r\n<B>> </> <C>4 s</> <B>stun + destroyed on absorbtion of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> <C>100%</> reduced bonus multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration + bleeding from headshots received while active\r\n> Absorbs single fatal headshot while active\r\n> Immunity to Tether + Neuro-Link while active\r\n<B>> Headshot damage received applies snare while active</>\r\n<B>> Can no longer use Neuro-Link while active</>\r\n<B>> </> <C>4 s</> <B>stun + destroyed on absorbtion of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -1035,8 +1034,8 @@
           {
             "Namespace": "",
             "Key": "D19F7CC649C5A99F8BB730B42FCBF9C6",
-            "SourceString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>",
-            "LocalizedString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>"
+            "SourceString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed, dexterity + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>",
+            "LocalizedString": "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed, dexterity + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>\r\n<B>></> <C>50%</> <B>increased burn damage received</>"
           }
         ]
       },
@@ -1073,8 +1072,8 @@
           {
             "Namespace": "",
             "Key": "07FA24204CDF0F49B51220A5BC89839E",
-            "SourceString": "> <C>25%</> increased explosive damage radius\r\n> <C>50%</> increased explosive bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>25%</> increased explosive damage radius\r\n> <C>50%</> increased explosive bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> <C>25%</> increased explosive far damage range\r\n> <C>50%</> increased explosive bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> <C>25%</> increased explosive far damage range\r\n> <C>50%</> increased explosive bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -1111,8 +1110,8 @@
           {
             "Namespace": "",
             "Key": "90DB6320413546022E35F2AE4902AB91",
-            "SourceString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>50%</> reduced reload time\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>50%</> <B>reduced speed while swapping</>",
-            "LocalizedString": "> Cycle through unlocked ammo types with fire or aim while holding reload\r\n> Picked-up weapons are automatically reloaded if reserve ammo available\r\n> <C>100%</> additional reserve ammo for non loadout weapons\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n> <C>50%</> reduced reload time\r\n<B>> Current ammo emptied into reserve on swap</>\r\n<B>></> <C>50%</> <B>reduced speed while swapping</>"
+            "SourceString": "> Hot mag: Cycle through available ammo types with fire or aim while holding reload, gain <C>50%</> reduced spread + improved ammo for equipped weapon on changing ammo type, <C>10 s</> cooldown\r\n> <C>100%</> reduced reload movement speed penalty, unaffected by Core slowing effects while reloading\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n<B>> </><C>25%</> <B>increased recoil while Hot mag active</>\r\n<B>> Hotmag deactivates on reload or weapon change</>\r\n<B>> Cycling ammo empties current magazine into reserve</>",
+            "LocalizedString": "> Hot mag: Cycle through available ammo types with fire or aim while holding reload, gain <C>50%</> reduced spread + improved ammo for equipped weapon on changing ammo type, <C>10 s</> cooldown\r\n> <C>100%</> reduced reload movement speed penalty, unaffected by Core slowing effects while reloading\r\n> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible\r\n<B>> </><C>25%</> <B>increased recoil while Hot mag active</>\r\n<B>> Hotmag deactivates on reload or weapon change</>\r\n<B>> Cycling ammo empties current magazine into reserve</>"
           }
         ]
       },
@@ -1149,8 +1148,8 @@
           {
             "Namespace": "",
             "Key": "0584A0FB45655F66FDFA12ABA4D392DC",
-            "SourceString": "> <C>50%</> reduced deceleration while airborne or during maneuvers\r\n> <C>35%</> reduced weapon spread + spread gain during sliding maneuvers\r\n> <C>25%</> increased knockback resistance\r\n> Knockdown immunity during sliding maneuvers\r\n<B>></> <C>100%</> <B>reduced lateral control during sliding maneuvers</>\r\n<B>></> <C>25%</> <B>reduced defense regeneration</>",
-            "LocalizedString": "> <C>50%</> reduced deceleration while airborne or during maneuvers\r\n> <C>35%</> reduced weapon spread + spread gain during sliding maneuvers\r\n> <C>25%</> increased knockback resistance\r\n> Knockdown immunity during sliding maneuvers\r\n<B>></> <C>100%</> <B>reduced lateral control during sliding maneuvers</>\r\n<B>></> <C>25%</> <B>reduced defense regeneration</>"
+            "SourceString": "> <C>50%</> reduced deceleration while airborne or during sliding maneuvers\r\n> <C>35%</> reduced weapon spread + spread gain during sliding maneuvers\r\n> <C>25%</> increased knockback resistance\r\n> Knockdown immunity during sliding maneuvers\r\n<B>></> <C>100%</> <B>reduced lateral control during sliding maneuvers</>\r\n<B>></> <C>25%</> <B>reduced defense regeneration</>",
+            "LocalizedString": "> <C>50%</> reduced deceleration while airborne or during sliding maneuvers\r\n> <C>35%</> reduced weapon spread + spread gain during sliding maneuvers\r\n> <C>25%</> increased knockback resistance\r\n> Knockdown immunity during sliding maneuvers\r\n<B>></> <C>100%</> <B>reduced lateral control during sliding maneuvers</>\r\n<B>></> <C>25%</> <B>reduced defense regeneration</>"
           }
         ]
       },
@@ -1187,8 +1186,8 @@
           {
             "Namespace": "",
             "Key": "734754774AD5FFD8E61043ABE1FB7E60",
-            "SourceString": "> <C>15</> vitals restored on roll maneuvers, chemical heal, <C>3 s</> cooldown\r\n> <C>2.5 s</> bleed immunity if used while bleeding\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> <C>15</> vitals restored on roll maneuvers, chemical heal, <C>3 s</> cooldown\r\n> <C>2.5 s</> bleed immunity if used while bleeding\r\n<B>> Can be disabled</>"
+            "SourceString": "> <C>25</> vitals restored on roll maneuvers, chemical heal, <C>5 s</> cooldown\r\n> <C>2.5 s</> bleed immunity if used while bleeding\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> <C>25</> vitals restored on roll maneuvers, chemical heal, <C>5 s</> cooldown\r\n> <C>2.5 s</> bleed immunity if used while bleeding\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1206,8 +1205,8 @@
           {
             "Namespace": "",
             "Key": "094D43B54579E81970C6B7BC9CCE383D",
-            "SourceString": "> <C>50%</> reduced movement sound + radar profile\r\n> <C>50%</> increased crouch speed\r\n<B>></> <C>25</> <B>reduced defense</>",
-            "LocalizedString": "> <C>50%</> reduced movement sound + radar profile\r\n> <C>50%</> increased crouch speed\r\n<B>></> <C>25</> <B>reduced defense</>"
+            "SourceString": "> <C>50%</> reduced movement sound\r\n> <C>50%</> reduced radar profile + tagged duration\r\n> <C>50%</> increased crouch speed\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> <C>50%</> reduced movement sound\r\n> <C>50%</> reduced radar profile + tagged duration\r\n> <C>50%</> increased crouch speed\r\n<B>></> <C>25</> <B>reduced defense</>"
           }
         ]
       },
@@ -1225,8 +1224,8 @@
           {
             "Namespace": "",
             "Key": "7B33CE124DF4B6AC164ABE9679A52BB0",
-            "SourceString": "> <C>100%</> increased Bolster, Overcharge, Shroud,, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>50</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire applies hemorrhage\r\n> Reserve stim becomes potent\r\n> Shifter clears debuffs on shift\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
-            "LocalizedString": "> <C>100%</> increased Bolster, Overcharge, Shroud,, Tempest + Firecracker duration\r\n> <C>50%</> reduced Detonator, Proximity mine + Disrupter activation delay\r\n> <C>25%</> additional Satchel charge damage as fire damage\r\n> <C>50</> vitals + max vitals restored on Relocator use\r\n <C>5</> vital damage every <C>0.25 s</> to enemies within Deadzone\r\n> <C>25%</> increased AAP Turret range + ammo capacity\r\n> Laser wire applies hemorrhage\r\n> Reserve stim becomes potent\r\n> Shifter clears debuffs on shift\r\n> <C>4 s</> overcharge on Anchor pull\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
+            "SourceString": "> Improves standard + enhancement devices\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
+            "LocalizedString": "> Improves standard + enhancement devices\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
           }
         ]
       },
@@ -1244,8 +1243,8 @@
           {
             "Namespace": "",
             "Key": "0F53D85242BB50298C798694013FEDFD",
-            "SourceString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-100%</> increased scan hack speed + Core regeneration while scanning, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> <C>0-50%</> reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Immunity to enemy Neuro-Link devices while scanning, inactive while scan hacking\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Can use enhancement devices, stims, weapon switching + move freely while scanning\r\n> <C>0-100%</> increased scan hack speed + Core regeneration while scanning, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> <C>0-50%</> reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Immunity to enemy Neuro-Link devices while scanning, inactive while scan hacking\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Can use enhancement devices + stims while scanning\r\n> Can climb + use all maneuvers while scanning\r\n> <C>0-100%</> increased scan hack speed + Core regeneration while scanning, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> <C>0-50%</> reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Immunity to enemy Neuro-Link devices while scanning, inactive while scan hacking\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Can use enhancement devices + stims while scanning\r\n> Can climb + use all maneuvers while scanning\r\n> <C>0-100%</> increased scan hack speed + Core regeneration while scanning, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> <C>0-50%</> reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>\r\n> Immunity to enemy Neuro-Link devices while scanning, inactive while scan hacking\r\n> <C>50%</> reduced scan movement speed penalty\r\n<B>> </><C>25%</> <B>reduced detection range</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1263,8 +1262,8 @@
           {
             "Namespace": "",
             "Key": "BB44592340A842DB4451F289EC7F3EF2",
-            "SourceString": "> Scan hack: Neuro-Link devices can be used while scanning\r\n> Can equip black market Neuo-Link devices\r\n> Reflect enemy Neuro-Link, <C>30 s</> cooldown, inactive while scanning\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Scan hack: Neuro-Link devices can be used while scanning\r\n> Can equip black market Neuo-Link devices\r\n> Reflect enemy Neuro-Link, <C>30 s</> cooldown, inactive while scanning\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Scan hack: Neuro-Link devices can be used while scanning\r\n> Can equip black market Neuo-Link devices\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n> <C>25%</> reduced hack speed on linked enemy scan hacks\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Scan hack: Neuro-Link devices can be used while scanning\r\n> Can equip black market Neuo-Link devices\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n> <C>25%</> reduced hack speed on linked enemy scan hacks\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1282,8 +1281,8 @@
           {
             "Namespace": "",
             "Key": "994F35314CAEE88F6171D2BD42DFB988",
-            "SourceString": "> Unaffected by Core slowing effects while Core active\r\n<B>></> <C>10 /s</> <B>vitals + defense damage while Core active</>\r\n<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>",
-            "LocalizedString": "> Unaffected by Core slowing effects while Core active\r\n<B>></> <C>10 /s</> <B>vitals + defense damage while Core active</>\r\n<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>"
+            "SourceString": "> Unaffected by Core slowing effects while Core active\r\n<B>></> <C>10 /s</> <B>vitals + defense damage while Core active</>\r\n<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>",
+            "LocalizedString": "> Unaffected by Core slowing effects while Core active\r\n<B>></> <C>10 /s</> <B>vitals + defense damage while Core active</>\r\n<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>"
           }
         ]
       },
@@ -1320,8 +1319,8 @@
           {
             "Namespace": "",
             "Key": "7D71C3F844519C03EC2B54BF37C14EAE",
-            "SourceString": "> Removes snare on performing a maneuver\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges on Core activation\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>",
-            "LocalizedString": "> Removes snare on performing a maneuver\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges on Core activation\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
+            "SourceString": "> Removes snare on performing a maneuver, can maneuver while crippled\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges on Core activation\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>",
+            "LocalizedString": "> Removes snare on performing a maneuver, can maneuver while crippled\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges on Core activation\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
           }
         ]
       },
@@ -1339,8 +1338,8 @@
           {
             "Namespace": "",
             "Key": "7140649847F2CC90288504A891061E81",
-            "SourceString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased Core + aux power regeneration for <C>5 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>",
-            "LocalizedString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased Core + aux power regeneration for <C>5 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>"
+            "SourceString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased Core + aux power regeneration for <C>10 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>",
+            "LocalizedString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased Core + aux power regeneration for <C>10 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>"
           }
         ]
       },
@@ -1358,8 +1357,8 @@
           {
             "Namespace": "",
             "Key": "AAF39FA44774776AE6576B9F9E583095",
-            "SourceString": "> <C>15%</> increased near damage + <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance, overrides akimbo damage penalty, does not apply to T-Lock ammo\r\n> <C>25%</> reduced spread + spread gain with sidearms while firing a single sidearm or akimbo alternate aim stance, does not apply to T-Lock ammo\r\n> <C>50%</> increased backup weapon damage dealt to enemies from behind\r\n> <C>100%</> additional sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>",
-            "LocalizedString": "> <C>15%</> increased near damage + <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance, overrides akimbo damage penalty, does not apply to T-Lock ammo\r\n> <C>25%</> reduced spread + spread gain with sidearms while firing a single sidearm or akimbo alternate aim stance, does not apply to T-Lock ammo\r\n> <C>50%</> increased backup weapon damage dealt to enemies from behind\r\n> <C>100%</> additional sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>"
+            "SourceString": "> <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, recoil + weapon handling speed penalties with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>100%</> increased quick melee damage for <C>1 s</> after dealing damage with sidearms, ignores defense if below <C>25%</>\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>",
+            "LocalizedString": "> <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, recoil + weapon handling speed penalties with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>100%</> increased quick melee damage for <C>1 s</> after dealing damage with sidearms, ignores defense if below <C>25%</>\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>"
           }
         ]
       },
@@ -1377,8 +1376,8 @@
           {
             "Namespace": "",
             "Key": "4C793BB6432CE261C1C494A90C2BEBE1",
-            "SourceString": "> Backup weapons deal piercing damage\r\n> <C>50%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or received penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
-            "LocalizedString": "> Backup weapons deal piercing damage\r\n> <C>50%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or received penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
+            "SourceString": "> Backup weapons deal piercing damage\r\n> <C>100%</> increased body impact damage\r\n> <C>100%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or reflected penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>25%</> <B>of body impact damage dealt or received reduces defense + max defense</>",
+            "LocalizedString": "> Backup weapons deal piercing damage\r\n> <C>100%</> increased body impact damage\r\n> <C>100%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or reflected penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>25%</> <B>of body impact damage dealt or received reduces defense + max defense</>"
           }
         ]
       },
@@ -1415,8 +1414,8 @@
           {
             "Namespace": "",
             "Key": "C56FBF6E4C5A41863399818735C5F854",
-            "SourceString": "> <C>80%</> active + inactive Core speed\r\n<B>></> <C>25%</> <B>reduced Core generation</>",
-            "LocalizedString": "> <C>80%</> active + inactive Core speed\r\n<B>></> <C>25%</> <B>reduced Core generation</>"
+            "SourceString": "> <C>80%</> active + inactive Core speed\r\n> <C>25%</> increased Core generation while affected by Core\r\n<B>></> <C>25%</> <B>reduced Core generation while not affected by Core</>",
+            "LocalizedString": "> <C>80%</> active + inactive Core speed\r\n> <C>25%</> increased Core generation while affected by Core\r\n<B>></> <C>25%</> <B>reduced Core generation while not affected by Core</>"
           }
         ]
       },
@@ -1434,8 +1433,8 @@
           {
             "Namespace": "",
             "Key": "D1B807614CC5334D6A2024A3BB462461",
-            "SourceString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>25%</> reduced debuff duration + bleed damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>25%</> reduced debuff duration + bleed damage received\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>10 s</> immunity to a debuff on end or removal\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</> \r\n> <C>10 s</> immunity to a debuff on end or removal\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -1515,6 +1514,25 @@
           }
         ]
       },
+      "Shifter": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator35",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "CC4DCBAE4E8B1A9CA99B2E94D621C2A1",
+            "SourceString": "> Shift: Attempt to relocate horizontally up to <C>3 m</> in movement direction, can bypass obstructions, replaces quick melee\r\n> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation\r\n<B>> Requires aerial maneuver charge, drains </> <C>25</> <B>aux power on shift</>\r\n<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>\r\n<B>></> <C>2 s</> <B>aerial maneuver charge regeneration delay on shift</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Shift: Attempt to relocate horizontally up to <C>3 m</> in movement direction, can bypass obstructions, replaces quick melee\r\n> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation\r\n<B>> Requires aerial maneuver charge, drains </> <C>25</> <B>aux power on shift</>\r\n<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>\r\n<B>></> <C>2 s</> <B>aerial maneuver charge regeneration delay on shift</>\r\n<B>> Can be disabled</>"
+          }
+        ]
+      },
       "Specialist": {
         "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
         "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
@@ -1529,8 +1547,8 @@
           {
             "Namespace": "",
             "Key": "EB616C7C4BC519C512D18092164CDF2E",
-            "SourceString": "> Additional weapon mod slot\r\n> <C>50%</> reduced sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>",
-            "LocalizedString": "> Additional weapon mod slot\r\n> <C>50%</> reduced sidearm + primary weapon handling speed penalties while only sidearm or primary slot used\r\n> <C>25%</> increased sidearm + primary weapon dexterity while only sidearm or primary slot used\r\n<B>> Can only equip</> <C>1</> <B>device</>"
+            "SourceString": "> Additional weapon mod slot\r\n> <C>50%</> reduced sidearm or primary weapon handling speed penalties while only sidearms or primary weapons equipped, additional <C>50%</> for <C>5 s</> on visible kill\r\n> <C>25%</> increased sidearm or primary weapon dexterity while only sidearms or primary weapons equipped, additional <C>25%</> for <C>5 s</> on visible kill\r\n<B>> Can only equip</> <C>1</> <B>device</>",
+            "LocalizedString": "> Additional weapon mod slot\r\n> <C>50%</> reduced sidearm or primary weapon handling speed penalties while only sidearms or primary weapons equipped, additional <C>50%</> for <C>5 s</> on visible kill\r\n> <C>25%</> increased sidearm or primary weapon dexterity while only sidearms or primary weapons equipped, additional <C>25%</> for <C>5 s</> on visible kill\r\n<B>> Can only equip</> <C>1</> <B>device</>"
           }
         ]
       },
@@ -1548,8 +1566,8 @@
           {
             "Namespace": "",
             "Key": "930242CA4C1F15BD03C79C991834AC7F",
-            "SourceString": "> Additional weapon mod slot\r\n> <C>100%</> additional reserve ammo\r\n> <C>50%</> reduced device cooldowns on kill\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> Additional weapon mod slot\r\n> <C>100%</> additional reserve ammo\r\n> <C>50%</> reduced device cooldowns on kill\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> Additional weapon mod slot\r\n> <C>200%</> additional base reserve ammo\r\n> <C>50%</> reduced device cooldowns on kill\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> Additional weapon mod slot\r\n> <C>200%</> additional base reserve ammo\r\n> <C>50%</> reduced device cooldowns on kill\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
           }
         ]
       },
@@ -1567,8 +1585,8 @@
           {
             "Namespace": "",
             "Key": "9D29260B47CCE0CC33D18ABC799FFC38",
-            "SourceString": "> Can equip exotic ammo types\r\n> <C>30 /s</> defense + max defense restored while using Nano-wire\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>",
-            "LocalizedString": "> Can equip exotic ammo types\r\n> <C>30 /s</> defense + max defense restored while using Nano-wire\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>"
+            "SourceString": "> Can equip exotic ammo types\r\n> <C>20 /s</> defense + max defense restored while using Nano-wire\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>",
+            "LocalizedString": "> Can equip exotic ammo types\r\n> <C>20 /s</> defense + max defense restored while using Nano-wire\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>"
           }
         ]
       },
@@ -1624,8 +1642,8 @@
           {
             "Namespace": "",
             "Key": "32C570984E128B8C00A1DB8AFCAB32A6",
-            "SourceString": "> Automatically detect enemies + enemy devices within <C>15 m</>\r\n<B>></> <C>50%</> <B>increased radar profile</>\r\n<B>> Visible on radar while stationary</>\r\n<B>> Disables scan</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Automatically detect enemies + enemy devices within <C>15 m</>\r\n<B>></> <C>50%</> <B>increased radar profile</>\r\n<B>> Visible on radar while stationary</>\r\n<B>> Disables scan</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Automatically detect enemies + enemy devices within <C>15 m</>\r\n> Countermeasure: Automatically destroys unobstructed enemy device or explosive within <C>5 m</>, <C>30 s</> cooldown\r\n<B>></> <C>50%</> <B>increased radar profile</>\r\n<B>> Visible on radar while stationary</>\r\n<B>> Disables scan</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Automatically detect enemies + enemy devices within <C>15 m</>\r\n> Countermeasure: Automatically destroys unobstructed enemy device or explosive within <C>5 m</>, <C>30 s</> cooldown\r\n<B>></> <C>50%</> <B>increased radar profile</>\r\n<B>> Visible on radar while stationary</>\r\n<B>> Disables scan</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1662,8 +1680,8 @@
           {
             "Namespace": "",
             "Key": "A7B1623149DADA2ECAB8CC9D2EE77FBD",
-            "SourceString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>25-75</> vital damage to all enemies within <C>5 m</>, scaling proportionally with Core charge from <C>0-100</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>\r\n<B>> Core failure after</> <C>8 s</> <B>on Core activation, drain or attempted enemy disable while Core fully charged, Core can be vented by Core Activation or killing an enemy</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>",
-            "LocalizedString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>25-75</> vital damage to all enemies within <C>5 m</>, scaling proportionally with Core charge from <C>0-100</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>\r\n<B>> Core failure after</> <C>8 s</> <B>on Core activation, drain or attempted enemy disable while Core fully charged, Core can be vented by Core Activation or killing an enemy</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>"
+            "SourceString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>25-75</> vital damage to all enemies within <C>5 m</>, scaling proportionally with Core charge from <C>0-100</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> Core failure after</> <C>8 s</> <B>on Core activation, drain or attempted enemy disable while Core fully charged, Core can be vented by Core Activation or killing an enemy</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>",
+            "LocalizedString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>25-75</> vital damage to all enemies within <C>5 m</>, scaling proportionally with Core charge from <C>0-100</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> Core failure after</> <C>8 s</> <B>on Core activation, drain or attempted enemy disable while Core fully charged, Core can be vented by Core Activation or killing an enemy</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>"
           }
         ]
       },
@@ -1700,8 +1718,8 @@
           {
             "Namespace": "",
             "Key": "C096261F4EDA287B25B186852E6F7A65",
-            "SourceString": "> <C>10 s</> immunity to a debuff on end or removal\r\n> Can equip sidearms + backup weapons in primary slot\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>10 s</> immunity to a debuff on end or removal\r\n> Can equip sidearms + backup weapons in primary slot\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> Can equip sidearm, backup + primary weapons in both sidearm + primary slots\r\n> <C>15%</> reduced spread + spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased dexterity + Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased damage + ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> Can equip sidearm, backup + primary weapons in both sidearm + primary slots\r\n> <C>15%</> reduced spread + spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased dexterity + Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased damage + ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>"
           }
         ]
       },
@@ -1719,8 +1737,8 @@
           {
             "Namespace": "",
             "Key": "3A4713D842EF210ACF74E7A979B27540",
-            "SourceString": "> Engages closest visible enemy within <C>25 m</> on activation\r\n> Deals <C>20-10</> ballistic damage, <C>600 rpm</>, <C>50</> round capacity\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Engages closest visible enemy within <C>25 m</> on activation\r\n> Deals <C>20-10</> ballistic damage, <C>600 rpm</>, <C>50</> round capacity\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>"
+            "SourceString": "> Engages closest visible enemy within <C>25 m</> on activation\r\n> Deals <C>20-10</> ballistic damage, <C>600 rpm</>, <C>50</> round capacity\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>25%</> increased range + ammo capacity\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Engages closest visible enemy within <C>25 m</> on activation\r\n> Deals <C>20-10</> ballistic damage, <C>600 rpm</>, <C>50</> round capacity\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>25%</> increased range + ammo capacity\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1738,8 +1756,8 @@
           {
             "Namespace": "",
             "Key": "E223A85A439BA939B0A5FFB917E0D8B6",
-            "SourceString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores aux power, aerial maneuver charges + clears snare on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells",
-            "LocalizedString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores aux power, aerial maneuver charges + clears snare on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells"
+            "SourceString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores aux power, aerial maneuver charges + clears snare on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>4 s</> Overcharge on pull",
+            "LocalizedString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores aux power, aerial maneuver charges + clears snare on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>4 s</> Overcharge on pull"
           }
         ]
       },
@@ -1757,8 +1775,8 @@
           {
             "Namespace": "",
             "Key": "1069A4114A5D23C77CFED6B19967113C",
-            "SourceString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>",
-            "LocalizedString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>"
+            "SourceString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n> Maximum Efficiency: <C>100%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>",
+            "LocalizedString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n> Maximum Efficiency: <C>100%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>"
           }
         ]
       },
@@ -1776,8 +1794,8 @@
           {
             "Namespace": "",
             "Key": "572C6D7C4A9158113E8B308ED4061852",
-            "SourceString": "> Neuro-Link device\r\n> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
+            "SourceString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1795,8 +1813,8 @@
           {
             "Namespace": "",
             "Key": "0E27AEAA45471B74BF1263AE720A60D5",
-            "SourceString": "> Neuro-Link device\r\n> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
+            "SourceString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1814,8 +1832,8 @@
           {
             "Namespace": "",
             "Key": "3097FA4A4375793B54ACD0AF9F697D36",
-            "SourceString": "> Neuro-Link device\r\n> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>, restores max vitals if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Neuro-Link device\r\n> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>, restores max vitals if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
+            "SourceString": "> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>, restores max vitals if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>, restores max vitals if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1833,8 +1851,8 @@
           {
             "Namespace": "",
             "Key": "D4216E3747F9754121EC098F436631DF",
-            "SourceString": "> Neuro-Link device\r\n> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Neuro-Link device\r\n> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
+            "SourceString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1852,8 +1870,8 @@
           {
             "Namespace": "",
             "Key": "78CFC49D455CCE61E2C83999ED57EDB3",
-            "SourceString": "> Neuro-Link device, black market\r\n> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Neuro-Link device, black market\r\n> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>"
+            "SourceString": "> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1871,8 +1889,8 @@
           {
             "Namespace": "",
             "Key": "DE611BFA4F0BEA71BCFD318CEDF91B92",
-            "SourceString": "> Neuro-Link device, black market\r\n> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Neuro-Link device, black market\r\n> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
+            "SourceString": "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1890,8 +1908,8 @@
           {
             "Namespace": "",
             "Key": "3C0091AF4E943024064305B99457753D",
-            "SourceString": "> Neuro-Link device, black market\r\n> Disarms + applies <C>4 /s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Neuro-Link device, black market\r\n> Disarms + applies <C>4 /s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>"
+            "SourceString": "> Disarms + applies <C>4 s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>",
+            "LocalizedString": "> Disarms + applies <C>4 s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>"
           }
         ]
       },
@@ -1909,8 +1927,8 @@
           {
             "Namespace": "",
             "Key": "66DC3E544A7723B0D856D6B01D7880A0",
-            "SourceString": "> Creates <C>16 m</> disruptive field on activation\r\n> While within field: Disable + snare to enemies + enemy devices, Shroud to allies\r\n> Can attach to surfaces",
-            "LocalizedString": "> Creates <C>16 m</> disruptive field on activation\r\n> While within field: Disable + snare to enemies + enemy devices, Shroud to allies\r\n> Can attach to surfaces"
+            "SourceString": "> Creates <C>16 m</> disruptive zone on activation\r\n> Disable + snare to enemies within zone\r\n> Disables enemy devices within zone\r\n> Shroud to allies within zone\r\n> Can attach to surfaces\r\n> Maximum Efficiency: <C>5</> vital damage every <C>0.5 s</> to enemies within Deadzone",
+            "LocalizedString": "> Creates <C>16 m</> disruptive zone on activation\r\n> Disable + snare to enemies within zone\r\n> Disables enemy devices within zone\r\n> Shroud to allies within zone\r\n> Can attach to surfaces\r\n> Maximum Efficiency: <C>5</> vital damage every <C>0.5 s</> to enemies within Deadzone"
           }
         ]
       },
@@ -1928,8 +1946,8 @@
           {
             "Namespace": "",
             "Key": "23E8FF184FA4BFC845BF20A9552D9574",
-            "SourceString": "> Deals <C>125-50</> explosive damage + knockback to targets within <C>2-4 m</> on activation\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Deals <C>125-50</> explosive damage + knockback to targets within <C>2-4 m</> on activation\r\n<B>> Can be disabled</>"
+            "SourceString": "> Deals <C>125-50</> explosive damage + knockback to targets within <C>2-4 m</> on activation\r\n> Maximum Efficiency: <C>50%</> reduced activation delay\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Deals <C>125-50</> explosive damage + knockback to targets within <C>2-4 m</> on activation\r\n> Maximum Efficiency: <C>50%</> reduced activation delay\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -1947,8 +1965,8 @@
           {
             "Namespace": "",
             "Key": "D01E518D4353F1F6080C74895DF52CA9",
-            "SourceString": "> <C>4 s</> stun, + snare to targets within <C>6 m</> on activation\r\n> Can attach to surfaces + Shells",
-            "LocalizedString": "> <C>4 s</> stun, + snare to targets within <C>6 m</> on activation\r\n> Can attach to surfaces + Shells"
+            "SourceString": "> <C>4 s</> stun, + snare to targets within <C>6 m</> on activation\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>50%</> reduced activation delay",
+            "LocalizedString": "> <C>4 s</> stun, + snare to targets within <C>6 m</> on activation\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>50%</> reduced activation delay"
           }
         ]
       },
@@ -1966,8 +1984,8 @@
           {
             "Namespace": "",
             "Key": "4C6850CB4B441F5CECE1F6B90B901404",
-            "SourceString": "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on impact\r\n> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation\r\n> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>",
-            "LocalizedString": "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on impact\r\n> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation\r\n> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>"
+            "SourceString": "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on impact\r\n> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation\r\n> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>\r\n> Maximum Efficiency: <C>100%</> increased duration",
+            "LocalizedString": "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on impact\r\n> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation\r\n> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>\r\n> Maximum Efficiency: <C>100%</> increased duration"
           }
         ]
       },
@@ -1985,8 +2003,8 @@
           {
             "Namespace": "",
             "Key": "23DB0CCD437E7AAE16433AB17C58579F",
-            "SourceString": "> Deals <C>75</> vital damage, <C>10 /s</> bleed + <C>4 s</> snare to enemies on activation\r\n> <C>2</> charges\r\n> Can attach to surfaces\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Deals <C>75</> vital damage, <C>10 /s</> bleed + <C>4 s</> snare to enemies on activation\r\n> <C>2</> charges\r\n> Can attach to surfaces\r\n<B>> Can be disabled</>"
+            "SourceString": "> Deals <C>75</> vital damage, <C>10 /s</> bleed + <C>4 s</> snare to enemies on activation\r\n> <C>2</> charges\r\n> Can attach to surfaces\r\n> Maximum Efficiency: Applies hemorrhage\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Deals <C>75</> vital damage, <C>10 /s</> bleed + <C>4 s</> snare to enemies on activation\r\n> <C>2</> charges\r\n> Can attach to surfaces\r\n> Maximum Efficiency: Applies hemorrhage\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2004,8 +2022,8 @@
           {
             "Namespace": "",
             "Key": "D0EF082C430C10ABC79592A632142240",
-            "SourceString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>",
-            "LocalizedString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>"
+            "SourceString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n> Maximum Efficiency: <C>100%</> increased duration",
+            "LocalizedString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n> Maximum Efficiency: <C>100%</> increased duration"
           }
         ]
       },
@@ -2023,8 +2041,8 @@
           {
             "Namespace": "",
             "Key": "76216E7C47B3B89E7628BABDA6B3F2CA",
-            "SourceString": "> Deals <C>125-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Deals <C>125-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>"
+            "SourceString": "> Deals <C>125-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>50%</> reduced activation delay\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Deals <C>125-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>50%</> reduced activation delay\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2042,8 +2060,8 @@
           {
             "Namespace": "",
             "Key": "3BB28A4E4E7683C3BE38D6B6E336F7A5",
-            "SourceString": "> Relocate to device location on activation\r\n> Telefrag targets within <C>1 m</> on relocation\r\n> <C>2 s</> disable to enemies + devices within <C>4 m</> on relocation\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Relocate to device location on activation\r\n> Telefrag targets within <C>1 m</> on relocation\r\n> <C>2 s</> disable to enemies + devices within <C>4 m</> on relocation\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>"
+            "SourceString": "> Relocate to device location on activation\r\n> Telefrag targets within <C>1 m</> on relocation\r\n> <C>2 s</> disable to enemies + devices within <C>3 m</> on relocation\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>50</> vitals + max vitals restored on activation\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Relocate to device location on activation\r\n> Telefrag targets within <C>1 m</> on relocation\r\n> <C>2 s</> disable to enemies + devices within <C>3 m</> on relocation\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>50</> vitals + max vitals restored on activation\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2061,8 +2079,8 @@
           {
             "Namespace": "",
             "Key": "66CC33A94DB1C1124DC5D3845AA9513C",
-            "SourceString": "> <C>25</> vitals restored on activation, chemical heal\r\n> <C>5 s</> bleed immunity if used while bleeding",
-            "LocalizedString": "> <C>25</> vitals restored on activation, chemical heal\r\n> <C>5 s</> bleed immunity if used while bleeding"
+            "SourceString": "> <C>25</> vitals restored on activation, chemical heal\r\n> <C>5 s</> bleed immunity if used while bleeding\r\n> Maximum Efficiency: Becomes potent",
+            "LocalizedString": "> <C>25</> vitals restored on activation, chemical heal\r\n> <C>5 s</> bleed immunity if used while bleeding\r\n> Maximum Efficiency: Becomes potent"
           }
         ]
       },
@@ -2080,8 +2098,8 @@
           {
             "Namespace": "",
             "Key": "4966E2834C63A82C30FB629D41C5A676",
-            "SourceString": "> Deals <C>150-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Deals <C>150-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation\r\n> Can attach to surfaces + Shells\r\n<B>> Can be disabled</>"
+            "SourceString": "> Deals <C>150-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>50%</> of damage dealt as additional fire damage\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Deals <C>150-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>50%</> of damage dealt as additional fire damage\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2099,27 +2117,8 @@
           {
             "Namespace": "",
             "Key": "78748CB24D3AA543FDF095A85338A68A",
-            "SourceString": "> While active: Undetectable by all equipment",
-            "LocalizedString": "> While active: Undetectable by all equipment"
-          }
-        ]
-      },
-      "Shifter": {
-        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
-        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
-        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
-        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
-        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator27",
-        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
-        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
-        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
-        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
-          {
-            "Namespace": "",
-            "Key": "CC4DCBAE4E8B1A9CA99B2E94D621C2A1",
-            "SourceString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air, <C>5</> charges\r\n> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation",
-            "LocalizedString": "> While active: Relocate up to <C>3 m</> in movement direction, can bypass obstructions, replaces dive, requires aerial maneuver charge while in air, <C>5</> charges\r\n> <C>100</> vital damage + knockback to enemies within <C>1 m</> of relocation"
+            "SourceString": "> While active: Undetectable by all equipment\r\n> Maximum Efficiency: <C>100%</> increased duration",
+            "LocalizedString": "> While active: Undetectable by all equipment\r\n> Maximum Efficiency: <C>100%</> increased duration"
           }
         ]
       },
@@ -2137,8 +2136,8 @@
           {
             "Namespace": "",
             "Key": "E4FE31C94820B55B45DD91B8893D0F10",
-            "SourceString": "> Creates <C>7 m</> charged nano-particle cloud + launches <C>6</> additional <C>3.5 m</> clouds on activation\r\n> Clouds obscures vision + targeting systems\r\n> Enemy on contact with cloud: Detected to allies + <C>1s</> snare\r\n> Ally on contact with cloud: <C>5 s</> Overcharge\r\n<B>> Can be cleared with fire</>",
-            "LocalizedString": "> Creates <C>7 m</> charged nano-particle cloud + launches <C>6</> additional <C>3.5 m</> clouds on activation\r\n> Clouds obscures vision + targeting systems\r\n> Enemy on contact with cloud: Detected to allies + <C>1s</> snare\r\n> Ally on contact with cloud: <C>5 s</> Overcharge\r\n<B>> Can be cleared with fire</>"
+            "SourceString": "> Creates multiple charged nano-particle clouds on activation\r\n> Clouds obscures vision + targeting systems\r\n> Detected + snare to enemies on contact \r\n> <C>5 s</> Overcharge to allies on contact\r\n> Maximum Efficiency: <C>100%</> increased duration\r\n<B>> Can be cleared with fire</>",
+            "LocalizedString": "> Creates multiple charged nano-particle clouds on activation\r\n> Clouds obscures vision + targeting systems\r\n> Detected + snare to enemies on contact \r\n> <C>5 s</> Overcharge to allies on contact\r\n> Maximum Efficiency: <C>100%</> increased duration\r\n<B>> Can be cleared with fire</>"
           }
         ]
       },
@@ -2156,8 +2155,8 @@
           {
             "Namespace": "",
             "Key": "399A9371465712612D13A0BBA958BB5F",
-            "SourceString": "> Standard ammunition",
-            "LocalizedString": "> Standard ammunition"
+            "SourceString": "> Standard ammunition\r\n> Hot mag: <C>25%</> additional environment penetration + velocity",
+            "LocalizedString": "> Standard ammunition\r\n> Hot mag: <C>25%</> additional environment penetration + velocity"
           }
         ]
       },
@@ -2175,8 +2174,8 @@
           {
             "Namespace": "",
             "Key": "2A1973E248CE7F418A7CD5803F5658E0",
-            "SourceString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n<B>></> <C>25%</> <B>reduced damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n<B>></> <C>25%</> <B>reduced damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced bleed damage</>"
           }
         ]
       },
@@ -2194,8 +2193,8 @@
           {
             "Namespace": "",
             "Key": "D5B467CF4E3BDE62291CEC8B05F9666C",
-            "SourceString": "> <C>0.25-2 s</> snare to enemies, scaling proportionally with damage dealt from <C>10-100</>\r\n> <C>100%</> increased near damage range\r\n<B>></> <C>15%</> <B>reduced velocity</>",
-            "LocalizedString": "> <C>0.25-2 s</> snare to enemies, scaling proportionally with damage dealt from <C>10-100</>\r\n> <C>100%</> increased near damage range\r\n<B>></> <C>15%</> <B>reduced velocity</>"
+            "SourceString": "> <C>0.25-2 s</> snare to enemies, scaling proportionally with damage dealt from <C>10-100</>\r\n> <C>100%</> increased near damage range\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced velocity</>",
+            "LocalizedString": "> <C>0.25-2 s</> snare to enemies, scaling proportionally with damage dealt from <C>10-100</>\r\n> <C>100%</> increased near damage range\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced velocity</>"
           }
         ]
       },
@@ -2213,8 +2212,8 @@
           {
             "Namespace": "",
             "Key": "6BB05C6042DC508F836FA49A81DDF0EE",
-            "SourceString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n<B>></> <C>15%</> <B>reduced environment penetration</>",
-            "LocalizedString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n<B>></> <C>15%</> <B>reduced environment penetration</>"
+            "SourceString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced environment penetration</>",
+            "LocalizedString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced environment penetration</>"
           }
         ]
       },
@@ -2232,8 +2231,8 @@
           {
             "Namespace": "",
             "Key": "963A60574A3A4AFC555268957245FF08",
-            "SourceString": "> Unaffected by Core slowing effects while Core active\r\n> Bypasses temporal damage reductions\r\n> <C>15%</> increased Core generation\r\n<B>></> <C>25%</> <B>reduced far damage range</>",
-            "LocalizedString": "> Unaffected by Core slowing effects while Core active\r\n> Bypasses temporal damage reductions\r\n> <C>15%</> increased Core generation\r\n<B>></> <C>25%</> <B>reduced far damage range</>"
+            "SourceString": "> Unaffected by Core slowing effects while Core active\r\n> Bypasses temporal damage reductions\r\n> <C>15%</> increased Core generation\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced far damage range</>",
+            "LocalizedString": "> Unaffected by Core slowing effects while Core active\r\n> Bypasses temporal damage reductions\r\n> <C>15%</> increased Core generation\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced far damage range</>"
           }
         ]
       },
@@ -2251,8 +2250,8 @@
           {
             "Namespace": "",
             "Key": "1A6973AC43BCC142980A38A741097224",
-            "SourceString": "> <C>50%</> of headshot damage dealt as additional vital damage after <C>1 s</>\r\n<B>></> <C>15%</> <B>reduced velocity</>\r\n<B>></> <C>25%</> <B>reduced far damage range</>",
-            "LocalizedString": "> <C>50%</> of headshot damage dealt as additional vital damage after <C>1 s</>\r\n<B>></> <C>15%</> <B>reduced velocity</>\r\n<B>></> <C>25%</> <B>reduced far damage range</>"
+            "SourceString": "> <C>50%</> of headshot damage dealt as additional vital damage after <C>1 s</>\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced velocity</>\r\n<B>></> <C>25%</> <B>reduced far damage range</>",
+            "LocalizedString": "> <C>50%</> of headshot damage dealt as additional vital damage after <C>1 s</>\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced velocity</>\r\n<B>></> <C>25%</> <B>reduced far damage range</>"
           }
         ]
       },
@@ -2270,8 +2269,8 @@
           {
             "Namespace": "",
             "Key": "8B5332914364554A3D641AACB9D37B20",
-            "SourceString": "> <C>2 s</> corrode to enemies\r\n> <C>15%</> of damage dealt penetrates defense\r\n> <C>25%</> of damage dealt reduces enemy max vitals + defense\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>2 s</> corrode to enemies\r\n> <C>15%</> of damage dealt penetrates defense\r\n> <C>25%</> of damage dealt reduces enemy max vitals + defense\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>2 s</> corrode to enemies\r\n> <C>15%</> of damage dealt penetrates defense\r\n> <C>25%</> of damage dealt reduces enemy max vitals + defense\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>2 s</> corrode to enemies\r\n> <C>15%</> of damage dealt penetrates defense\r\n> <C>25%</> of damage dealt reduces enemy max vitals + defense\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
           }
         ]
       },
@@ -2289,8 +2288,8 @@
           {
             "Namespace": "",
             "Key": "ABC2AA17485EA500E2153B8FA18646D2",
-            "SourceString": "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
           }
         ]
       },
@@ -2308,8 +2307,8 @@
           {
             "Namespace": "",
             "Key": "9D82EAD440FE62C827AC82B127E7DA0E",
-            "SourceString": "> <C>50%</> of damage dealt as additional fire damage\r\n<B>></> <C>25%</> <B>reduced  damage</>\r\n<B>></> <C>100%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>50%</> of damage dealt as additional fire damage\r\n<B>></> <C>25%</> <B>reduced  damage</>\r\n<B>></> <C>100%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>50%</> of damage dealt as additional fire damage\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced  damage</>\r\n<B>></> <C>100%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>50%</> of damage dealt as additional fire damage\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced  damage</>\r\n<B>></> <C>100%</> <B>reduced bleed damage</>"
           }
         ]
       },
@@ -2365,8 +2364,8 @@
           {
             "Namespace": "",
             "Key": "C9FF65B840A96D3F29DF3AAB73A13F37",
-            "SourceString": "> <C>100%</> defense bypass\r\n> <C>100%</> increased ricochets + reduced ricochet damage penalty\r\n> <C>100%</> reduced damage to self + allies\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>0.15x</> <B>reduced headshot multiplier</>\r\n<B>></> <C>100%</> <B>reduced environment penetration</>\r\n<B>></> <C>100%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>100%</> defense bypass\r\n> <C>100%</> increased ricochets + reduced ricochet damage penalty\r\n> <C>100%</> reduced damage to self + allies\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>0.15x</> <B>reduced headshot multiplier</>\r\n<B>></> <C>100%</> <B>reduced environment penetration</>\r\n<B>></> <C>100%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>100%</> defense bypass\r\n> <C>100%</> increased ricochets + reduced ricochet damage penalty\r\n> <C>100%</> reduced damage to self + allies\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>100%</> <B>reduced environment penetration</>\r\n<B>></> <C>100%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>100%</> defense bypass\r\n> <C>100%</> increased ricochets + reduced ricochet damage penalty\r\n> <C>100%</> reduced damage to self + allies\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>100%</> <B>reduced environment penetration</>\r\n<B>></> <C>100%</> <B>reduced bleed damage</>"
           }
         ]
       },
@@ -2384,8 +2383,8 @@
           {
             "Namespace": "",
             "Key": "CCA7DBDD48578433D7C6FE9C69C079E3",
-            "SourceString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n<B>> Can be disabled</>"
+            "SourceString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2403,8 +2402,8 @@
           {
             "Namespace": "",
             "Key": "A723A65D45941CBB93BB42B45F4AD543",
-            "SourceString": "> Detonates on impact\r\n> Explosive damage\r\n<B>></> <C>50%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>",
-            "LocalizedString": "> Detonates on impact\r\n> Explosive damage\r\n<B>></> <C>50%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced damage range</>"
+            "SourceString": "> Detonates on impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>",
+            "LocalizedString": "> Detonates on impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>"
           }
         ]
       },
@@ -2422,8 +2421,8 @@
           {
             "Namespace": "",
             "Key": "FD25E9B04641A86540112E87E912F17A",
-            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n<B>></> <C>75%</> <B>reduced explosive damage</>",
-            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n<B>></> <C>75%</> <B>reduced explosive damage</>"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>75%</> <B>reduced explosive damage</>",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Fire damage, ignites surrounding area, <C>2 s</> snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>75%</> <B>reduced explosive damage</>"
           }
         ]
       },
@@ -2441,8 +2440,8 @@
           {
             "Namespace": "",
             "Key": "06F24FB1450480DE005228B248EE18BC",
-            "SourceString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces + Shells\r\n> Explosive damage\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be disabled</>"
           }
         ]
       },
@@ -2840,8 +2839,8 @@
           {
             "Namespace": "",
             "Key": "2D3353BB42DB469FAFB471B2F3E650A0",
-            "SourceString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread gain</>",
-            "LocalizedString": "> <C>50%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil</>\r\n<B>></> <C>50%</> <B>increased spread gain</>"
+            "SourceString": "> <C>25%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil + spread gain</>",
+            "LocalizedString": "> <C>25%</> increased RPM\r\n<B>></> <C>50%</> <B>increased recoil + spread gain</>"
           }
         ]
       },
@@ -2935,8 +2934,8 @@
           {
             "Namespace": "",
             "Key": "445C5F8E48D29316185971B0AE765179",
-            "SourceString": "> <C>15%</> reduced aim time\r\n> <C>50%</> reduced speed penalty\r\n<B>></> <C>50%</> <B>increased recoil</>",
-            "LocalizedString": "> <C>15%</> reduced aim time\r\n> <C>50%</> reduced speed penalty\r\n<B>></> <C>50%</> <B>increased recoil</>"
+            "SourceString": "> <C>15%</> reduced aim time\r\n> <C>50%</> reduced speed penalty\r\n<B>></> <C>25%</> <B>increased recoil</>",
+            "LocalizedString": "> <C>15%</> reduced aim time\r\n> <C>50%</> reduced speed penalty\r\n<B>></> <C>25%</> <B>increased recoil</>"
           }
         ]
       },
@@ -3049,8 +3048,8 @@
           {
             "Namespace": "",
             "Key": "1DAEAA2C456A8DD75D697ABD9E79643C",
-            "SourceString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n> <C>25%</> increased RPM\r\n<B>></> <C>0.35 s</> <B>spin up delay</>",
-            "LocalizedString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n> <C>25%</> increased RPM\r\n<B>></> <C>0.35 s</> <B>spin up delay</>"
+            "SourceString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>0.25 s</> <B>spin up delay</>",
+            "LocalizedString": "> <C>100%</> reduced damage falloff\r\n> <C>50%</> increased velocity + environment penetration\r\n> <C>25%</> reduced recoil\r\n<B>></> <C>0.25 s</> <B>spin up delay</>"
           }
         ]
       },
@@ -3106,8 +3105,8 @@
           {
             "Namespace": "",
             "Key": "F79E150E4C4BE5A53650C3933E3EBCBA",
-            "SourceString": "> <C>100%</> increased RPM\r\n> Entire magazine emptied on firing\r\n<B>></> <C>100%</> <B>increased recoil, spread + spread gain</>\r\n<B>> Firing can no longer be interrupted by other actions</>",
-            "LocalizedString": "> <C>100%</> increased RPM\r\n> Entire magazine emptied on firing\r\n<B>></> <C>100%</> <B>increased recoil, spread + spread gain</>\r\n<B>> Firing can no longer be interrupted by other actions</>"
+            "SourceString": "> <C>50%</> increased RPM\r\n> Entire magazine emptied on firing\r\n<B>></> <C>50%</> <B>increased recoil, spread + spread gain</>\r\n<B>></> <C>15%</> <B>increased damage</>\r\n<B>> Firing can no longer be interrupted by other actions</>",
+            "LocalizedString": "> <C>50%</> increased RPM\r\n> Entire magazine emptied on firing\r\n<B>></> <C>50%</> <B>increased recoil, spread + spread gain</>\r\n<B>></> <C>15%</> <B>increased damage</>\r\n<B>> Firing can no longer be interrupted by other actions</>"
           }
         ]
       }
