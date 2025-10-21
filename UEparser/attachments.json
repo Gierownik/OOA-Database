@@ -1301,7 +1301,7 @@
       "> <C>50%</> increased RPM",
       "> Entire magazine emptied on firing",
       "<B>></> <C>50%</> <B>increased recoil, spread + spread gain</>",
-      "<B>></> <C>15%</> <B>increased damage</>",
+      "<B>></> <C>15%</> <B>reduced damage</>",
       "<B>> Firing can no longer be interrupted by other actions</>"
     ],
     "technician": "false",

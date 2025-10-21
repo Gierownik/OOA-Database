@@ -68,7 +68,7 @@
       "> <C>100%</> additional base sidearm reserve ammo",
       "<B>> Can no longer equip sidearm optics</>",
       "<B>></> <C>25%</> <B>reduced sidearm damage while not using alternate aim stance</>",
-      "<B>></> <C>50%</> <B>increased sidearm recoil + spread</>",
+      "<B>></> <C>25%</> <B>increased sidearm recoil + spread</>",
       "<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
     ],
     "foundations": {
@@ -215,7 +215,7 @@
     "tooltip": [
       "> Disable all unobstructed enemies within <C>25 m</> on receiving disable",
       "> Disable all unobstructed enemies within <C>25 m</> of enemy on applying disable",
-      "> <C>5%</> increased direct damage dealt per unobstructed disabled enemy within <C>25 m</>, stacking up to <C>25%</>",
+      "> <C>5%</> increased direct damage dealt per unobstructed disabled enemy within <C>50 m</>, stacking up to <C>25%</>",
       "<B>></> <C>15%</> <B>increased direct damage received while disabled</>"
     ],
     "foundations": {
@@ -622,8 +622,9 @@
     "name": "Net Runner",
     "tooltip": [
       "> Can use enhancement devices + stims while scanning",
-      "> Can climb + use all maneuvers while scanning",
-      "> <C>0-100%</> increased scan hack speed + Core regeneration while scanning, scaling proportionally with movement speed from <C>0-8 m/s</>",
+      "> Can activate Core, climb + use all maneuvers while scanning",
+      "> <C>0-100%</> increased Core regeneration, scaling proportionally with movement speed from <C>0-8 m/s</>, additional <C>0-100%</> per detected enemy",
+      "> <C>0-100%</> increased scan hack speed, scaling proportionally with movement speed from <C>0-8 m/s</>",
       "> <C>0-50%</> reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>",
       "> Immunity to enemy Neuro-Link devices while scanning, inactive while scan hacking",
       "> <C>50%</> reduced scan movement speed penalty",
@@ -643,6 +644,7 @@
       "> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation",
       "> <C>5</> Core charge returned for each additional enemy affected on successful scan hack",
       "> <C>25%</> reduced hack speed on linked enemy scan hacks",
+      "> <C>25%</> increased scan detection range",
       "<B>> Detected while scan hack active, overrides undetectable</>",
       "<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>",
       "<B>></> <C>25%</> <B>reduced Core generation</>",
