@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
+        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
       }
     },
     "Rows": {
@@ -2212,8 +2212,8 @@
           {
             "Namespace": "",
             "Key": "6BB05C6042DC508F836FA49A81DDF0EE",
-            "SourceString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced environment penetration</>",
-            "LocalizedString": "> <C>50%</> increased bleed damage\r\n> <C>15%</> increased limb damage\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced environment penetration</>"
+            "SourceString": "> <C>50%</> increased bleed damage\r\n> Bypasses limb damage reduction on targets with depleted defense\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced environment penetration</>",
+            "LocalizedString": "> <C>50%</> increased bleed damage\r\n> Bypasses limb damage reduction on targets with depleted defense\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced environment penetration</>"
           }
         ]
       },
@@ -2269,8 +2269,8 @@
           {
             "Namespace": "",
             "Key": "8B5332914364554A3D641AACB9D37B20",
-            "SourceString": "> <C>2 s</> corrode to enemies\r\n> <C>15%</> of damage dealt penetrates defense\r\n> <C>25%</> of damage dealt reduces enemy max vitals + defense\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>2 s</> corrode to enemies\r\n> <C>15%</> of damage dealt penetrates defense\r\n> <C>25%</> of damage dealt reduces enemy max vitals + defense\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>2 s</> corrode to enemies\r\n> <C>15%</> of damage dealt penetrates defense\r\n> <C>50%</> of damage dealt reduces enemy max vitals + defense\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>2 s</> corrode to enemies\r\n> <C>15%</> of damage dealt penetrates defense\r\n> <C>50%</> of damage dealt reduces enemy max vitals + defense\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
           }
         ]
       },
@@ -2288,8 +2288,8 @@
           {
             "Namespace": "",
             "Key": "ABC2AA17485EA500E2153B8FA18646D2",
-            "SourceString": "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
-            "LocalizedString": "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
+            "SourceString": "> <C>1-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>",
+            "LocalizedString": "> <C>1-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to stunned enemies\r\n> Hot mag: <C>25%</> additional environment penetration + velocity\r\n<B>></> <C>25%</> <B>reduced velocity + environment penetration</>\r\n<B>></> <C>50%</> <B>reduced bleed damage</>"
           }
         ]
       },

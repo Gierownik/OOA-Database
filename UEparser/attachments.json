@@ -103,7 +103,7 @@
     "type": "Ammo",
     "tooltip": [
       "> <C>50%</> increased bleed damage",
-      "> <C>15%</> increased limb damage",
+      "> Bypasses limb damage reduction on targets with depleted defense",
       "> Hot mag: <C>25%</> additional environment penetration + velocity",
       "<B>></> <C>15%</> <B>reduced environment penetration</>"
     ],
@@ -204,7 +204,7 @@
     "tooltip": [
       "> <C>2 s</> corrode to enemies",
       "> <C>15%</> of damage dealt penetrates defense",
-      "> <C>25%</> of damage dealt reduces enemy max vitals + defense",
+      "> <C>50%</> of damage dealt reduces enemy max vitals + defense",
       "> Hot mag: <C>25%</> additional environment penetration + velocity",
       "<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>",
       "<B>></> <C>50%</> <B>reduced bleed damage</>"
@@ -237,7 +237,7 @@
     "name": "EM Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>0.5-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>",
+      "> <C>1-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>",
       "> <C>25%</> increased damage to stunned enemies",
       "> Hot mag: <C>25%</> additional environment penetration + velocity",
       "<B>></> <C>25%</> <B>reduced velocity + environment penetration</>",
