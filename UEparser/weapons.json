@@ -37,10 +37,10 @@
       "category": "Melee Weapons",
       "firemode": "Charged",
       "firerate": "100.0",
-      "damage_near": 150.0,
-      "damage_far": 100.0,
+      "damage_near": 125.0,
+      "damage_far": 75.0,
       "range": "5.0 - 50.0",
-      "head_mult": "1.5",
+      "head_mult": "1.75",
       "limb_mult": "0.75",
       "penetration": "0.0",
       "velocity": "125.0",
@@ -51,7 +51,8 @@
       "spread_ads": "0.25",
       "spread_gain": "0.25",
       "speed_penalty": "0.25",
-      "burst_delay": "0.25"
+      "burst_delay": "0.25",
+      "ammo_capacity": 6
     },
     "foundations": {
       "type": "body",

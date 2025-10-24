@@ -23,7 +23,7 @@
       "> <C>50%</> increased Core + aux power regeneration while active",
       "> <C>15%</> increased ground speed while active",
       "<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>",
-      "<B>></> <C>25</> <B>vital damage received on activation while detox on cooldown</>",
+      "<B>></> <C>4 s</> <B>snare +</> <C>25</> <B>vital damage received on activation while detox on cooldown</>",
       "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
     ],
     "foundations": {
@@ -170,6 +170,7 @@
       "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link",
       "> Devices + explosives of detected enemies are detected to allies",
       "> <C>20%</> reduced hack time of next scan hack for each additional enemy affected by last Neuro-Link",
+      "> Immunity to enemy Neuro-Link while scanning, inactive while scan hacking",
       "> Tag enemies on receiving Neuro-Link",
       "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
       "<B>> Can be disabled</>"
@@ -528,12 +529,12 @@
   {
     "name": "Hot Swap",
     "tooltip": [
-      "> Hot mag: Cycle through available ammo types with fire or aim while holding reload, gain <C>50%</> reduced spread + improved ammo for equipped weapon on changing ammo type, <C>10 s</> cooldown",
+      "> Hot mag: Cycle through available ammo types with fire or aim while holding reload, gain <C>50%</> reduced spread + improved ammo for equipped weapon on changing ammo type, <C>10 s</> cooldown on drop, reload or activating on another weapon",
       "> <C>100%</> reduced reload movement speed penalty, unaffected by Core slowing effects while reloading",
       "> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible",
       "<B>> </><C>25%</> <B>increased recoil while Hot mag active</>",
-      "<B>> Hotmag deactivates on reload or weapon change</>",
-      "<B>> Cycling ammo empties current magazine into reserve</>"
+      "<B>> Cycling ammo empties current magazine into reserve</>",
+      "<B>> Can only be active on a single weapon</>"
     ],
     "foundations": {
       "type": "hardware",
@@ -621,14 +622,17 @@
   {
     "name": "Net Runner",
     "tooltip": [
-      "> Can use enhancement devices + stims while scanning",
-      "> Can activate Core, climb + use all maneuvers while scanning",
-      "> <C>0-100%</> increased Core regeneration, scaling proportionally with movement speed from <C>0-8 m/s</>, additional <C>0-100%</> per detected enemy",
-      "> <C>0-100%</> increased scan hack speed, scaling proportionally with movement speed from <C>0-8 m/s</>",
-      "> <C>0-50%</> reduced scan hack decay speed, scaling proportionally with movement speed from <C>0-8 m/s</>",
-      "> Immunity to enemy Neuro-Link devices while scanning, inactive while scan hacking",
-      "> <C>50%</> reduced scan movement speed penalty",
+      "> Actions no longer deactivate scan",
+      "> <C>100%</> reduced scan movement speed penalty",
+      "> <C>100%</> increased hack speed while dealing direct damage",
+      "> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link or while scan hacking",
+      "> <C>10%</> reduced aux power drain from all sources per detected enemy",
+      "<B>> Deactivates vitals + defense regeneration while scanning</>",
+      "<B>> Unable to use weapon optics while scanning</>",
+      "<B>> </><C>50%</> <B>increased spread + spread gain while scanning</>",
+      "<B>> </><C>50%</> <B>increased scan cooldown</>",
       "<B>> </><C>25%</> <B>reduced detection range</>",
+      "<B>> </><C>10 s</> <B>scan duration</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -869,6 +873,7 @@
     "tooltip": [
       "> Additional weapon mod slot",
       "> <C>200%</> additional base reserve ammo",
+      "> <C>100%</> additional thrown weapon ammo",
       "> <C>50%</> reduced device cooldowns on kill",
       "<B>></> <C>25%</> <B>Increased device cooldowns</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"

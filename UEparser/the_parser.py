@@ -280,8 +280,6 @@ for skill_name, data in skill_rows.items():
         stats["burst_delay"] = f"{val}"
     if (val := weapon_stat.get("spinUpDuration_114_42F529AD41ADDCCCDB0ED0915E8BCCEC")) not in [0, 0.0, False, ""]:
         stats["spinup"] = f"{val}s"
-    if (val := weapon_stat.get("usesAmmo_109_C8A226E545A12A663A1AF398568E1897")) not in [0, 0.0, True, ""]:
-        stats["ammo_infinite"] = "true"
     if (val := weapon_stat.get("ammoCapacity_37_C66372EB4769BC9D909A6CA771FD33A0")) not in [0, 0.0, False, ""]:
         stats["ammo_capacity"] = val
     if (val := weapon_stat.get("reloadSpeed_42_4B9E289B467B258218AE298E52A1B0E3")) not in [0, 0.0, False, ""]:
@@ -410,44 +408,32 @@ for skill_name, shell_data in skill_rows.items():
         defer = 15
         deferd = 1
         aux = 35
-        climb = 0.2
         air = 1
-        spetz = "> Activates after killing an enemy: <C>50%</> increased weapon accuracy, <C>25%</> increased speed + dexterity, for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown"
     elif (shell_name == "Hydra"):
         defer = 15
         deferd = 0
         aux = 35
-        climb = 0.25
         air = 1
-        spetz = "> Activates after killing an enemy: Gain an Adrenal Feedback stack every <C>20 s</>, stacking up to <C>5</> times"
     elif (shell_name == "Dragon"):
         defer = 10
         deferd = 1
         aux = 30
-        climb = 0.25
         air = 2
-        spetz = "> Activates after killing an enemy: Backdraft + Ground Slam deal <C>25%</> increased fire damage + apply combust"
     elif (shell_name == "Ghost"):
         defer = 10
         deferd = 1
         aux = 40
-        climb = 0.15
         air = 2
-        spetz = "> Activates after killing an enemy: Hip firing supressed firearms, throwing devices + interactions no longer deactivate camouflage"
     elif (shell_name == "Rhino"):
         defer = 10
         deferd = 1.5
         aux = 30
-        climb = 0.25
         air = 1
-        spetz = "> Activates after killing an enemy: Shockwave gains <C>50%</> increased debuff duration, incresed knockback force, applies stun + cripple"
     else:
         defer = 0
         deferd = 0
         aux = 0
-        climb = 0
         air = 0
-        spetz = "> Activates after scratching your balls"
 
     found = shell_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
     if (found == "ENUM_Foundation::NewEnumerator0"):
@@ -463,7 +449,6 @@ for skill_name, shell_data in skill_rows.items():
     shell_output.append({
         "name": shell_name,
         "tooltip": lines,
-        "specialisation": spetz,
         "stats": {
             "vitals": vit,
             "defense": defe,
@@ -471,7 +456,6 @@ for skill_name, shell_data in skill_rows.items():
             "defense_regen_delay": deferd,
             "aux_regen": aux,
             "speed": 8 - (sped / 100),
-            "climb_penalty": climb,
             "aerial_charges": air,
             "core_speed": core,
             "radar_profile": rdr / 100     

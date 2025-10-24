@@ -16,7 +16,6 @@
       "> <C>15%</> increased speed + dexterity while Core active",
       "> <C>0-25%</> Reduced Core activation cost scaling proportionally with remaining vitals from <C>100-50%</>"
     ],
-    "specialisation": "> Activates after killing an enemy: <C>50%</> increased weapon accuracy, <C>25%</> increased speed + dexterity, for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown",
     "stats": {
       "vitals": 150.0,
       "defense": 150.0,
@@ -24,7 +23,6 @@
       "defense_regen_delay": 1,
       "aux_regen": 35,
       "speed": 7.5,
-      "climb_penalty": 0.2,
       "aerial_charges": 1,
       "core_speed": 0.8,
       "radar_profile": 15.0
@@ -53,7 +51,6 @@
       "> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown",
       "> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown"
     ],
-    "specialisation": "> Activates after killing an enemy: Gain an Adrenal Feedback stack every <C>20 s</>, stacking up to <C>5</> times",
     "stats": {
       "vitals": 150.0,
       "defense": 100.0,
@@ -61,7 +58,6 @@
       "defense_regen_delay": 0,
       "aux_regen": 35,
       "speed": 7.0,
-      "climb_penalty": 0.25,
       "aerial_charges": 1,
       "core_speed": 0.7,
       "radar_profile": 20.0
@@ -92,7 +88,6 @@
       "> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>3 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive",
       "> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
     ],
-    "specialisation": "> Activates after killing an enemy: Hip firing supressed firearms, throwing devices + interactions no longer deactivate camouflage",
     "stats": {
       "vitals": 100.0,
       "defense": 100.0,
@@ -100,7 +95,6 @@
       "defense_regen_delay": 1,
       "aux_regen": 40,
       "speed": 8.0,
-      "climb_penalty": 0.15,
       "aerial_charges": 2,
       "core_speed": 0.8,
       "radar_profile": 10.0
@@ -130,7 +124,6 @@
       "> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>",
       "> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
     ],
-    "specialisation": "> Activates after killing an enemy: Backdraft + Ground Slam deal <C>25%</> increased fire damage + apply combust",
     "stats": {
       "vitals": 100.0,
       "defense": 150.0,
@@ -138,7 +131,6 @@
       "defense_regen_delay": 1,
       "aux_regen": 30,
       "speed": 6.5,
-      "climb_penalty": 0.25,
       "aerial_charges": 2,
       "core_speed": 0.75,
       "radar_profile": 20.0
@@ -166,7 +158,6 @@
       "> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>",
       "> Damage taken to vitals is restored to defense when defense regeneration resumes"
     ],
-    "specialisation": "> Activates after killing an enemy: Shockwave gains <C>50%</> increased debuff duration, incresed knockback force, applies stun + cripple",
     "stats": {
       "vitals": 150.0,
       "defense": 200.0,
@@ -174,7 +165,6 @@
       "defense_regen_delay": 1.5,
       "aux_regen": 30,
       "speed": 6.0,
-      "climb_penalty": 0.25,
       "aerial_charges": 1,
       "core_speed": 0.7,
       "radar_profile": 25.0
