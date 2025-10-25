@@ -106,7 +106,8 @@
     "name": "Parasite",
     "type": "Neuro-link",
     "tooltip": [
-      "> Leech <C>10 /s</> vitals from up to <C>6</> visible or detected enemies for <C>5 s</>, restores max vitals if scan hack",
+      "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>5 s</> to up to <C>6</> visible or detected enemies",
+      "> <C>200%</> of damage dealt restored to vitals, restores vitals to allies in line of sight if scan hack",
       "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
     ],
     "experimental": "true",

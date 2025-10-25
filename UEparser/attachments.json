@@ -1260,7 +1260,7 @@
     "type": "Mod",
     "tooltip": [
       "> AOE knockback on firing while targets within a <C>5 m</> frontal cone",
-      "> <C>2 s</> cripple to enemies in range",
+      "> <C>2 s</> snare to enemies in range, cripple if within <C>2.5 m</>",
       "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>50%</> <B>increased pellet spread</>"
     ],
