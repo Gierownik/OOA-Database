@@ -48,7 +48,7 @@
     ],
     "enhancement": "Necrosis",
     "enh_tooltip": [
-      "<B>> <C>50%</> of attempted vitals restoration dealt back as chemical damage</>",
+      "<B>> <C>50%</> of attempted vitals restoration drains vitals</>",
       "<B>> Duration constantly refreshed while bleeding</>"
     ]
   },
