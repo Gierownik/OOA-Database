@@ -43,7 +43,6 @@
     "name": "Corrode",
     "duration": "2s",
     "tooltip": [
-      "<B>> Constant chemical damage and both stat reduction</>",
       "<B>> <C>100%</> reduced vitals restored from all sources</>",
       "<B>> <C>10/s</> defense drain</>"
     ],
