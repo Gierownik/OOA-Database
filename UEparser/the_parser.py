@@ -427,7 +427,7 @@ for skill_name, shell_data in skill_rows.items():
     elif (shell_name == "Rhino"):
         defer = 10
         deferd = 1.5
-        aux = 30
+        aux = 25
         air = 1
     else:
         defer = 0

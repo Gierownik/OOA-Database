@@ -163,7 +163,7 @@
       "defense": 200.0,
       "defense_regen": 10,
       "defense_regen_delay": 1.5,
-      "aux_regen": 30,
+      "aux_regen": 25,
       "speed": 6.5,
       "aerial_charges": 1,
       "core_speed": 0.7,
