@@ -228,7 +228,7 @@
     "name": "Chemical Warfare",
     "tooltip": [
       "> Explosives deal chemical damage + apply corrode for <C>2 s</>",
-      "> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration dealt as chemical damage, duration refreshed while bleeding",
+      "> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration drained from vitals, duration refreshed while bleeding",
       "<B>></> <C>25%</> <B>reduced explosive damage</>"
     ],
     "foundations": {

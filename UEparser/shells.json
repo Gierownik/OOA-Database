@@ -49,7 +49,7 @@
       ":: <D>Adaptive Recovery</>",
       "> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals",
       "> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown",
-      "> <C>50</> vitals restored on defense depletion, <C>10 s</> cooldown"
+      "> <C>25</> vitals restored on defense depletion, <C>10 s</> cooldown"
     ],
     "stats": {
       "vitals": 150.0,
@@ -108,7 +108,7 @@
     "name": "Dragon",
     "tooltip": [
       ":: <D>Drifter Jump-Pack</>",
-      "> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge + Dive, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown",
+      "> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge, Dive + climb, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown",
       "> Recover an aerial maneuver charge on hover activation",
       "> Ground Slam maneuver: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, <C>10 s</> cooldown",
       "<B>> Deactivates if aux power fully depleted or on boost + Ground Slam impacts</>",
@@ -164,7 +164,7 @@
       "defense_regen": 10,
       "defense_regen_delay": 1.5,
       "aux_regen": 30,
-      "speed": 6.0,
+      "speed": 6.5,
       "aerial_charges": 1,
       "core_speed": 0.7,
       "radar_profile": 25.0
