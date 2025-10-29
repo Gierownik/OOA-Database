@@ -108,7 +108,7 @@
   {
     "name": "Augmented Legs",
     "tooltip": [
-      "> <C>25%</> reduced loadout + movement speed penalties",
+      "> <C>25%</> reduced loadout + movement speed penalties while on ground or climbing",
       "> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched",
       "> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers",
       "<B>> Charging jump drains aux power</>",

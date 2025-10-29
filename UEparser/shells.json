@@ -13,7 +13,7 @@
       "<B>> Can be disabled</>",
       ":: <D>Core Overdrive</>",
       "> <C>25%</> increased Core generation",
-      "> <C>15%</> increased speed + dexterity while Core active",
+      "> <C>25%</> increased dexterity + unaffected by loadout or movement speed penalties while Core active",
       "> <C>0-25%</> Reduced Core activation cost scaling proportionally with remaining vitals from <C>100-50%</>"
     ],
     "stats": {
@@ -108,8 +108,8 @@
     "name": "Dragon",
     "tooltip": [
       ":: <D>Drifter Jump-Pack</>",
-      "> Can activate hover while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, enhanced Dodge, Dive + climb, Air Dive replaced with Air Dash, unaffected by loadout + ground movement speed penalties while hover active, body impacts while boosting can knockback + knockdown, <C>4 s</> cooldown",
-      "> Recover an aerial maneuver charge on hover activation",
+      "> Hover: Can be activated while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, body impacts while boosting can knockback + knockdown, recover an aerial maneuver charge on activation, <C>4 s</> cooldown",
+      "> Enhanced Dodge, Dive + climbing, Air Dive replaced with Air Dash: Launch rapidly in movement direction, can knockback + knockdown",
       "> Ground Slam maneuver: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, <C>10 s</> cooldown",
       "<B>> Deactivates if aux power fully depleted or on boost + Ground Slam impacts</>",
       "<B>> Boosting drains aux power</>",
