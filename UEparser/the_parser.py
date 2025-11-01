@@ -200,7 +200,11 @@ for skill_name, data in skill_rows.items():
 
     hack_cost = device_stat.get("hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF", 0)
 
-    secondary = device_stat.get("reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1", 0)
+    scndry = device_stat.get("reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1", 0)
+    if (scndry == True):
+        secondary = "True"
+    else:
+        secondary = "False"
 
     proj = device_stat.get("projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6", 0)
     if (proj != "null"):
@@ -211,9 +215,9 @@ for skill_name, data in skill_rows.items():
 
         disble = projectile_stat.get("canBeDisabled_73_1459F3FC4E7DDBC4A6CE85AB203AE400", 0)
         if (disble == True):
-            disable = "Yes"
+            disable = "True"
         else:
-            disable = "No"
+            disable = "False"
 
         activcon = projectile_stat.get("activateOnContact_50_5549CD454D21A136A6AC7EBD817E82FE", 0)
         activtrig = projectile_stat.get("isTriggered_74_BFF001BC4CBD047E52B85EB0113E1DB8", 0)
@@ -231,7 +235,7 @@ for skill_name, data in skill_rows.items():
             activation = "None"
     
     else:
-        disable = "No"
+        disable = "False"
         activation = "Activate"
 
     device_output.append({

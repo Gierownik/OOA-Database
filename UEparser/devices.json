@@ -19,8 +19,8 @@
       "velocity": 10.0,
       "speed_penalty": 0.35,
       "hack_cost": 0.0,
-      "secondary_action": true,
-      "can_be_disabled": "Yes"
+      "secondary_action": "True",
+      "can_be_disabled": "True"
     },
     "foundations": {
       "type": "hardware",
@@ -47,8 +47,8 @@
       "velocity": 25.0,
       "speed_penalty": 0.15,
       "hack_cost": 0.0,
-      "secondary_action": true,
-      "can_be_disabled": "No"
+      "secondary_action": "True",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -73,8 +73,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.4,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "hardware",
@@ -99,8 +99,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.15,
       "hack_cost": 25.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -124,8 +124,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.15,
       "hack_cost": 25.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -150,8 +150,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.15,
       "hack_cost": 50.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -176,8 +176,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.15,
       "hack_cost": 25.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -202,8 +202,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.15,
       "hack_cost": 100.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -228,8 +228,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.15,
       "hack_cost": 50.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -254,8 +254,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.15,
       "hack_cost": 75.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -283,8 +283,8 @@
       "velocity": 15.0,
       "speed_penalty": 0.25,
       "hack_cost": 0.0,
-      "secondary_action": true,
-      "can_be_disabled": "No"
+      "secondary_action": "True",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -309,8 +309,8 @@
       "velocity": 25.0,
       "speed_penalty": 0.15,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "Yes"
+      "secondary_action": "False",
+      "can_be_disabled": "True"
     },
     "foundations": {
       "type": "hardware",
@@ -335,8 +335,8 @@
       "velocity": 25.0,
       "speed_penalty": 0.15,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -362,8 +362,8 @@
       "velocity": 20.0,
       "speed_penalty": 0.2,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "hardware",
@@ -390,8 +390,8 @@
       "velocity": 15.0,
       "speed_penalty": 0.2,
       "hack_cost": 0.0,
-      "secondary_action": true,
-      "can_be_disabled": "Yes"
+      "secondary_action": "True",
+      "can_be_disabled": "True"
     },
     "foundations": {
       "type": "hardware",
@@ -415,8 +415,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.2,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -442,8 +442,8 @@
       "velocity": 15.0,
       "speed_penalty": 0.15,
       "hack_cost": 0.0,
-      "secondary_action": true,
-      "can_be_disabled": "Yes"
+      "secondary_action": "True",
+      "can_be_disabled": "True"
     },
     "foundations": {
       "type": "hardware",
@@ -471,8 +471,8 @@
       "velocity": 25.0,
       "speed_penalty": 0.15,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "Yes"
+      "secondary_action": "False",
+      "can_be_disabled": "True"
     },
     "foundations": {
       "type": "tech",
@@ -497,8 +497,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.15,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "hardware",
@@ -524,8 +524,8 @@
       "velocity": 10.0,
       "speed_penalty": 0.3,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "Yes"
+      "secondary_action": "False",
+      "can_be_disabled": "True"
     },
     "foundations": {
       "type": "hardware",
@@ -549,8 +549,8 @@
       "velocity": 0.0,
       "speed_penalty": 0.25,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
@@ -578,8 +578,8 @@
       "velocity": 25.0,
       "speed_penalty": 0.25,
       "hack_cost": 0.0,
-      "secondary_action": false,
-      "can_be_disabled": "No"
+      "secondary_action": "False",
+      "can_be_disabled": "False"
     },
     "foundations": {
       "type": "tech",
