@@ -26,6 +26,8 @@ with open(r"Raw Data\ENUM_Category.json", "r", encoding="utf-8") as f:
     weapon_category = json.load(f)
 with open(r"Raw Data\ENUM_FireMode.json", "r", encoding="utf-8") as f:
     weapon_mode = json.load(f)
+with open(r"Raw Data\DT_ProjectileData.json", "r", encoding="utf-8") as f:
+    projectile_data = json.load(f)
 #-----------------------------------------------------------------------------Tactical ForeGripper fix-----------------------------------------------
 
 for item in attachment_data:
@@ -86,6 +88,7 @@ weapon_mode_to_value = {
     if entry["Value"]["SourceString"] != "-"
 }
 device_stats = device_data[0]["Rows"]
+projectile_stats = projectile_data[0]["Rows"]
 attachment_stats = attachment_data[0]["Rows"]
 weapon_stats = weapon_data[0]["Rows"]
 shell_stats = shell_data[0]["Rows"]
@@ -185,7 +188,7 @@ for skill_name, data in skill_rows.items():
     elif (act == "ENUM_DeviceAction::NewEnumerator2"):
         action = "Activate"
     else:
-        action = "Deploy"
+        action = "Other"
     
     exp = data.get("Prerequisite_46_1618947F4F88562C70609FAE0671C5E9", 0)
     if (exp == "ENUM_PerkID::NewEnumerator17"):
@@ -194,6 +197,42 @@ for skill_name, data in skill_rows.items():
         experimental = "false"
     
     req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
+
+    hack_cost = device_stat.get("hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF", 0)
+
+    secondary = device_stat.get("reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1", 0)
+
+    proj = device_stat.get("projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6", 0)
+    if (proj != "null"):
+        projectile_stat = projectile_stats.get(skill_name, {})
+        activation_delay = projectile_stat.get("activateDelay_61_34257DE240DD8147F7AF659F2274ADB0",0)
+
+        velocity = projectile_stat.get("velocity_5_9840E98F4ADCFA9D674713AF41DA77E3", 0)
+
+        disble = projectile_stat.get("canBeDisabled_73_1459F3FC4E7DDBC4A6CE85AB203AE400", 0)
+        if (disble == True):
+            disable = "Yes"
+        else:
+            disable = "No"
+
+        activcon = projectile_stat.get("activateOnContact_50_5549CD454D21A136A6AC7EBD817E82FE", 0)
+        activtrig = projectile_stat.get("isTriggered_74_BFF001BC4CBD047E52B85EB0113E1DB8", 0)
+        if (activcon == True) and (activtrig == False):
+            activation = "On impact"
+        elif (activcon == True) and (activtrig == True):
+            activation = "Proximity detection"
+        elif (activcon == False) and (activtrig == True):
+            activation = "Activate"
+            if (skill_name == "AAPTurret"):
+                activation = "Proximity detection"
+            elif (skill_name == "LaserWire"):
+                activation == "Laser detection"
+        else:
+            activation = "None"
+    
+    else:
+        disable = "No"
+        activation = "Activate"
 
     device_output.append({
         "name": device_name,
@@ -204,7 +243,13 @@ for skill_name, data in skill_rows.items():
             "cooldown": cooldown,
             "duration": duration,
             "action": action,
-            "speed_penalty": speed_pen / 100
+            "activation": activation,
+            "activation_delay": activation_delay,
+            "velocity": velocity / 100,
+            "speed_penalty": speed_pen / 100,
+            "hack_cost": hack_cost,
+            "secondary_action": secondary,
+            "can_be_disabled": disable
         },
         "foundations": {
             "type": found_type,

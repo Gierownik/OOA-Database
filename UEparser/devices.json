@@ -14,7 +14,13 @@
       "cooldown": 45.0,
       "duration": 60.0,
       "action": "Throw",
-      "speed_penalty": 0.35
+      "activation": "Proximity detection",
+      "activation_delay": 0.0,
+      "velocity": 10.0,
+      "speed_penalty": 0.35,
+      "hack_cost": 0.0,
+      "secondary_action": true,
+      "can_be_disabled": "Yes"
     },
     "foundations": {
       "type": "hardware",
@@ -36,7 +42,13 @@
       "cooldown": 5.0,
       "duration": 120.0,
       "action": "Throw",
-      "speed_penalty": 0.15
+      "activation": "Activate",
+      "activation_delay": 0.0,
+      "velocity": 25.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 0.0,
+      "secondary_action": true,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -56,7 +68,13 @@
       "cooldown": 60.0,
       "duration": 5.0,
       "action": "Activate",
-      "speed_penalty": 0.4
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.4,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "hardware",
@@ -76,7 +94,13 @@
       "cooldown": 60.0,
       "duration": 0.0,
       "action": "Activate",
-      "speed_penalty": 0.15
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 25.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -95,7 +119,13 @@
       "cooldown": 60.0,
       "duration": 0.0,
       "action": "Activate",
-      "speed_penalty": 0.15
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 25.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -115,7 +145,13 @@
       "cooldown": 60.0,
       "duration": 0.0,
       "action": "Activate",
-      "speed_penalty": 0.15
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 50.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -135,7 +171,13 @@
       "cooldown": 60.0,
       "duration": 0.0,
       "action": "Activate",
-      "speed_penalty": 0.15
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 25.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -155,7 +197,13 @@
       "cooldown": 60.0,
       "duration": 0.0,
       "action": "Activate",
-      "speed_penalty": 0.15
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 100.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -175,7 +223,13 @@
       "cooldown": 60.0,
       "duration": 0.0,
       "action": "Activate",
-      "speed_penalty": 0.15
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 50.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -195,7 +249,13 @@
       "cooldown": 60.0,
       "duration": 0.0,
       "action": "Activate",
-      "speed_penalty": 0.15
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 75.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -218,7 +278,13 @@
       "cooldown": 45.0,
       "duration": 30.0,
       "action": "Throw",
-      "speed_penalty": 0.25
+      "activation": "Activate",
+      "activation_delay": 0.0,
+      "velocity": 15.0,
+      "speed_penalty": 0.25,
+      "hack_cost": 0.0,
+      "secondary_action": true,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -238,7 +304,13 @@
       "cooldown": 30.0,
       "duration": 0.0,
       "action": "Throw",
-      "speed_penalty": 0.15
+      "activation": "On impact",
+      "activation_delay": 1.0,
+      "velocity": 25.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "Yes"
     },
     "foundations": {
       "type": "hardware",
@@ -258,7 +330,13 @@
       "cooldown": 45.0,
       "duration": 0.0,
       "action": "Throw",
-      "speed_penalty": 0.15
+      "activation": "On impact",
+      "activation_delay": 1.0,
+      "velocity": 25.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -279,7 +357,13 @@
       "cooldown": 45.0,
       "duration": 7.5,
       "action": "Throw",
-      "speed_penalty": 0.2
+      "activation": "Proximity detection",
+      "activation_delay": 0.0,
+      "velocity": 20.0,
+      "speed_penalty": 0.2,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "hardware",
@@ -301,7 +385,13 @@
       "cooldown": 45.0,
       "duration": 60.0,
       "action": "Throw",
-      "speed_penalty": 0.2
+      "activation": "Activate",
+      "activation_delay": 0.0,
+      "velocity": 15.0,
+      "speed_penalty": 0.2,
+      "hack_cost": 0.0,
+      "secondary_action": true,
+      "can_be_disabled": "Yes"
     },
     "foundations": {
       "type": "hardware",
@@ -320,7 +410,13 @@
       "cooldown": 45.0,
       "duration": 5.0,
       "action": "Activate",
-      "speed_penalty": 0.2
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.2,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -341,7 +437,13 @@
       "cooldown": 45.0,
       "duration": 60.0,
       "action": "Throw",
-      "speed_penalty": 0.15
+      "activation": "Activate",
+      "activation_delay": 0.75,
+      "velocity": 15.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 0.0,
+      "secondary_action": true,
+      "can_be_disabled": "Yes"
     },
     "foundations": {
       "type": "hardware",
@@ -364,7 +466,13 @@
       "cooldown": 30.0,
       "duration": 60.0,
       "action": "Throw",
-      "speed_penalty": 0.15
+      "activation": "Activate",
+      "activation_delay": 0.0,
+      "velocity": 25.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "Yes"
     },
     "foundations": {
       "type": "tech",
@@ -384,7 +492,13 @@
       "cooldown": 30.0,
       "duration": 0.0,
       "action": "Activate",
-      "speed_penalty": 0.15
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.15,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "hardware",
@@ -405,7 +519,13 @@
       "cooldown": 45.0,
       "duration": 60.0,
       "action": "Throw",
-      "speed_penalty": 0.3
+      "activation": "Activate",
+      "activation_delay": 0.0,
+      "velocity": 10.0,
+      "speed_penalty": 0.3,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "Yes"
     },
     "foundations": {
       "type": "hardware",
@@ -424,7 +544,13 @@
       "cooldown": 45.0,
       "duration": 5.0,
       "action": "Activate",
-      "speed_penalty": 0.25
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.25,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
@@ -447,7 +573,13 @@
       "cooldown": 45.0,
       "duration": 7.5,
       "action": "Throw",
-      "speed_penalty": 0.25
+      "activation": "On impact",
+      "activation_delay": 1.0,
+      "velocity": 25.0,
+      "speed_penalty": 0.25,
+      "hack_cost": 0.0,
+      "secondary_action": false,
+      "can_be_disabled": "No"
     },
     "foundations": {
       "type": "tech",
