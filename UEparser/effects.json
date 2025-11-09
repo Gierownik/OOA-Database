@@ -16,7 +16,7 @@
     "name": "Bleed",
     "tick": "0.5s",
     "tooltip": [
-      "<B>> Constant bleed damage, up to 20/s</>"
+      "<B>> Constant bleed damage, up to 10/s</>"
     ],
     "enhancement": "Hemorrhage",
     "enh_tooltip": [
@@ -29,7 +29,7 @@
     "duration": "5s",
     "tick": "0.5s",
     "tooltip": [
-      "<B>> Constant fire damage and stat reduction</>",
+      "<B>> Constant fire damage and stat reduction, up to 20/s</>",
       "<B>> <C>50%</> decreased dexterity</>",
       "<B>> Burn ticks don't deplete while moving over 8m/s</>",
       "> <C>5</> burn ticks removed on roll"
