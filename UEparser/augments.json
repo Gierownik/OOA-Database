@@ -11,7 +11,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -28,7 +28,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 10
+      "value": 50
     }
   },
   {
@@ -42,7 +42,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 30
     }
   },
   {
@@ -51,7 +51,7 @@
       "> <C>25%</> increased radar + detection range from all sources",
       "> <C>100%</> reduced scan + tag cooldown on ally killing tagged enemy",
       "> Detected enemies can be tagged",
-      "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
+      "<B>> </><C>1</> <B> reduced Shell detections</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -73,7 +73,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -87,14 +87,14 @@
       "<B>> Can be disabled</>"
     ],
     "foundations": {
-      "type": "tech",
-      "value": 15
+      "type": "body",
+      "value": 40
     }
   },
   {
     "name": "Augmented Arms",
     "tooltip": [
-      "> <C>0-25%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack charge, <C>25%</> additional damage + velocity on full charge held for over <C>1 s</>",
+      "> <C>0-50%</> increased backup weapon damage + throw velocity, scaling proportionally with primary attack fully charged for <C>0-1 s</>",
       "> <C>25%</> increased device throw velocity",
       "> <C>25%</> reduced firearm recoil + spread gain",
       "<B>> Additional attack charging drains aux power</>",
@@ -102,7 +102,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 5
+      "value": 20
     }
   },
   {
@@ -117,7 +117,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 10
+      "value": 15
     }
   },
   {
@@ -133,7 +133,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 10
+      "value": 15
     }
   },
   {
@@ -147,7 +147,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -161,23 +161,23 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 20
     }
   },
   {
     "name": "Backdoor",
     "tooltip": [
-      "> Enemies are detected to allies for <C>4 s</> on successful Neuro-Link",
+      "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link, <C>6 s</> if scan hack",
       "> Devices + explosives of detected enemies are detected to allies",
       "> <C>20%</> reduced hack time of next scan hack for each additional enemy affected by last Neuro-Link",
       "> Immunity to enemy Neuro-Link while scanning, inactive while scan hacking",
       "> Tag enemies on receiving Neuro-Link",
-      "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
+      "<B>> </><C>1</> <B> reduced Shell detections</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -194,7 +194,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 25
+      "value": 45
     }
   },
   {
@@ -208,7 +208,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -221,7 +221,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -233,7 +233,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 45
     }
   },
   {
@@ -247,7 +247,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 25
+      "value": 30
     }
   },
   {
@@ -274,7 +274,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 25
     }
   },
   {
@@ -286,7 +286,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 15
     }
   },
   {
@@ -313,7 +313,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -326,7 +326,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 30
     }
   },
   {
@@ -339,7 +339,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 30
     }
   },
   {
@@ -357,7 +357,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 20
     }
   },
   {
@@ -371,7 +371,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 25
     }
   },
   {
@@ -383,18 +383,18 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 25
     }
   },
   {
     "name": "Enhanced Foundation",
     "tooltip": [
-      "> <C>0.7%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade",
-      "> <C>0.7%</> increased aux power regeneration + radar range for each Tech foundation upgrade",
-      "> <C>0.7%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade",
-      "<B>></> <C>0.5%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>",
-      "<B>></> <C>0.5%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>",
-      "<B>></> <C>0.5%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>"
+      "> <C>0.35%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade",
+      "> <C>0.35%</> increased aux power regeneration + radar range for each Tech foundation upgrade",
+      "> <C>0.35%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade",
+      "<B>></> <C>0.25%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>",
+      "<B>></> <C>0.25%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>",
+      "<B>></> <C>0.25%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>"
     ],
     "foundations": {
       "type": "body",
@@ -410,7 +410,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -425,7 +425,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -437,7 +437,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 30
     }
   },
   {
@@ -452,7 +452,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 30
     }
   },
   {
@@ -469,7 +469,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -484,7 +484,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -496,7 +496,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 25
     }
   },
   {
@@ -509,7 +509,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 40
     }
   },
   {
@@ -523,7 +523,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 40
     }
   },
   {
@@ -538,7 +538,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -552,7 +552,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -567,7 +567,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -580,19 +580,19 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 30
     }
   },
   {
     "name": "Kinetic Injectors",
     "tooltip": [
-      "> <C>25</> vitals restored on roll maneuvers, chemical heal, <C>5 s</> cooldown",
+      "> <C>25</> vitals restored on roll maneuvers, chemical heal, <C>10 s</> cooldown",
       "> <C>2.5 s</> bleed immunity if used while bleeding",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 25
     }
   },
   {
@@ -605,7 +605,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -616,7 +616,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 30
     }
   },
   {
@@ -632,12 +632,13 @@
       "<B>> </><C>50%</> <B>increased spread + spread gain while scanning</>",
       "<B>> </><C>50%</> <B>increased scan cooldown</>",
       "<B>> </><C>25%</> <B>reduced detection range</>",
+      "<B>> </><C>1</> <B> reduced Shell detections</>",
       "<B>> </><C>10 s</> <B>scan duration</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 50
     }
   },
   {
@@ -656,7 +657,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -669,7 +670,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 50
     }
   },
   {
@@ -686,7 +687,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -701,7 +702,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -714,7 +715,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 15
     }
   },
   {
@@ -730,7 +731,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 30
     }
   },
   {
@@ -746,7 +747,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -762,7 +763,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 50
     }
   },
   {
@@ -774,7 +775,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 10
     }
   },
   {
@@ -786,7 +787,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 10
+      "value": 35
     }
   },
   {
@@ -799,7 +800,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 25
     }
   },
   {
@@ -812,7 +813,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 30
     }
   },
   {
@@ -825,7 +826,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 35
     }
   },
   {
@@ -836,7 +837,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 25
     }
   },
   {
@@ -852,7 +853,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 50
     }
   },
   {
@@ -865,7 +866,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 10
+      "value": 35
     }
   },
   {
@@ -880,7 +881,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -893,7 +894,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 35
     }
   },
   {
@@ -910,7 +911,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 30
     }
   },
   {
@@ -918,11 +919,12 @@
     "tooltip": [
       "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> disable + snare every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>",
       "> <C>50%</> of damage dealt by tether restored to vitals + max vitals",
+      "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -937,7 +939,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -951,7 +953,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 45
     }
   },
   {
@@ -965,7 +967,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 40
     }
   },
   {
@@ -978,7 +980,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 40
     }
   },
   {
@@ -995,7 +997,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 50
     }
   }
 ]

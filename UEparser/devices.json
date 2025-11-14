@@ -24,7 +24,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -52,7 +52,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -78,7 +78,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -104,7 +104,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 40
     }
   },
   {
@@ -136,7 +136,7 @@
     "name": "Parasite",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>5 s</> to up to <C>6</> visible or detected enemies",
+      "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>6 s</> to up to <C>5</> visible or detected enemies",
       "> <C>200%</> of damage dealt restored to vitals, restores vitals to allies in line of sight if scan hack",
       "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
     ],
@@ -155,7 +155,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 40
     }
   },
   {
@@ -181,7 +181,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 25
     }
   },
   {
@@ -207,7 +207,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 50
     }
   },
   {
@@ -233,7 +233,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 45
     }
   },
   {
@@ -259,7 +259,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 45
     }
   },
   {
@@ -288,7 +288,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 50
     }
   },
   {
@@ -301,7 +301,7 @@
     ],
     "experimental": "false",
     "stats": {
-      "cooldown": 30.0,
+      "cooldown": 45.0,
       "duration": 0.0,
       "action": "Throw",
       "activation": "On impact",
@@ -340,7 +340,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 5
+      "value": 0
     }
   },
   {
@@ -367,7 +367,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 15
     }
   },
   {
@@ -420,7 +420,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -447,7 +447,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 5
+      "value": 10
     }
   },
   {
@@ -476,7 +476,7 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -502,7 +502,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 5
     }
   },
   {
@@ -529,7 +529,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -570,7 +570,7 @@
     ],
     "experimental": "false",
     "stats": {
-      "cooldown": 45.0,
+      "cooldown": 60.0,
       "duration": 7.5,
       "action": "Throw",
       "activation": "On impact",

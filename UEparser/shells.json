@@ -19,11 +19,12 @@
     "stats": {
       "vitals": 150.0,
       "defense": 150.0,
-      "defense_regen": 15,
-      "defense_regen_delay": 1,
-      "aux_regen": 35,
+      "defense_regen": 15.0,
+      "defense_regen_delay": 3.0,
+      "aux_regen": 35.0,
       "speed": 7.5,
       "aerial_charges": 1,
+      "aerial_charges_regen": 0,
       "core_speed": 0.8,
       "radar_profile": 15.0
     },
@@ -54,17 +55,18 @@
     "stats": {
       "vitals": 150.0,
       "defense": 100.0,
-      "defense_regen": 15,
-      "defense_regen_delay": 0,
-      "aux_regen": 35,
+      "defense_regen": 15.0,
+      "defense_regen_delay": 2.0,
+      "aux_regen": 35.0,
       "speed": 7.0,
       "aerial_charges": 1,
+      "aerial_charges_regen": 0,
       "core_speed": 0.7,
       "radar_profile": 20.0
     },
     "foundations": {
       "type": "body",
-      "value": 5
+      "value": 10
     }
   },
   {
@@ -91,17 +93,18 @@
     "stats": {
       "vitals": 100.0,
       "defense": 100.0,
-      "defense_regen": 10,
-      "defense_regen_delay": 1,
-      "aux_regen": 40,
+      "defense_regen": 10.0,
+      "defense_regen_delay": 2.0,
+      "aux_regen": 40.0,
       "speed": 8.0,
       "aerial_charges": 2,
+      "aerial_charges_regen": 0,
       "core_speed": 0.8,
       "radar_profile": 10.0
     },
     "foundations": {
       "type": "body",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -127,17 +130,18 @@
     "stats": {
       "vitals": 100.0,
       "defense": 150.0,
-      "defense_regen": 10,
-      "defense_regen_delay": 1,
-      "aux_regen": 30,
+      "defense_regen": 10.0,
+      "defense_regen_delay": 2.5,
+      "aux_regen": 30.0,
       "speed": 6.5,
       "aerial_charges": 2,
+      "aerial_charges_regen": 0,
       "core_speed": 0.75,
       "radar_profile": 20.0
     },
     "foundations": {
       "type": "body",
-      "value": 5
+      "value": 10
     }
   },
   {
@@ -161,17 +165,18 @@
     "stats": {
       "vitals": 150.0,
       "defense": 200.0,
-      "defense_regen": 10,
-      "defense_regen_delay": 1.5,
-      "aux_regen": 25,
+      "defense_regen": 10.0,
+      "defense_regen_delay": 3.0,
+      "aux_regen": 25.0,
       "speed": 6.5,
       "aerial_charges": 1,
+      "aerial_charges_regen": 0,
       "core_speed": 0.7,
       "radar_profile": 25.0
     },
     "foundations": {
       "type": "body",
-      "value": 10
+      "value": 15
     }
   }
 ]

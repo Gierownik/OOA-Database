@@ -26,7 +26,7 @@
     ],
     "excludes": [],
     "foundations": {
-      "type": "body",
+      "type": "hardware",
       "value": 0
     }
   },
@@ -62,7 +62,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -95,7 +95,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 5
+      "value": 10
     }
   },
   {
@@ -128,7 +128,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 15
     }
   },
   {
@@ -162,7 +162,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 10
+      "value": 5
     }
   },
   {
@@ -195,7 +195,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -230,7 +230,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 35
     }
   },
   {
@@ -264,7 +264,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 40
     }
   },
   {
@@ -297,7 +297,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -369,7 +369,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 40
     }
   },
   {
@@ -405,7 +405,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -424,8 +424,8 @@
     ],
     "excludes": [],
     "foundations": {
-      "type": "body",
-      "value": 0
+      "type": "hardware",
+      "value": 35
     }
   },
   {
@@ -446,7 +446,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 45
     }
   },
   {
@@ -465,7 +465,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 40
     }
   },
   {
@@ -486,7 +486,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 35
     }
   },
   {
@@ -517,7 +517,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -550,7 +550,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 30
     }
   },
   {
@@ -622,7 +622,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 30
     }
   },
   {
@@ -639,7 +639,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -667,7 +667,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 30
     }
   },
   {
@@ -686,7 +686,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -711,7 +711,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 35
     }
   },
   {
@@ -731,7 +731,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 30
     }
   },
   {
@@ -748,7 +748,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 35
     }
   },
   {
@@ -769,7 +769,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 10
+      "value": 30
     }
   },
   {
@@ -796,7 +796,7 @@
     ],
     "excludes": [],
     "foundations": {
-      "type": "body",
+      "type": "hardware",
       "value": 0
     }
   },
@@ -817,8 +817,8 @@
     ],
     "excludes": [],
     "foundations": {
-      "type": "body",
-      "value": 0
+      "type": "hardware",
+      "value": 25
     }
   },
   {
@@ -846,7 +846,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 25
     }
   },
   {
@@ -874,7 +874,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 20
     }
   },
   {
@@ -926,7 +926,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 30
     }
   },
   {
@@ -956,7 +956,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 25
     }
   },
   {
@@ -981,7 +981,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 30
     }
   },
   {
@@ -1002,7 +1002,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -1021,7 +1021,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 35
     }
   },
   {
@@ -1057,7 +1057,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 30
     }
   },
   {
@@ -1079,7 +1079,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 45
     }
   },
   {
@@ -1100,7 +1100,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 45
     }
   },
   {
@@ -1133,7 +1133,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 25
     }
   },
   {
@@ -1150,7 +1150,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -1173,7 +1173,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -1192,7 +1192,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 40
     }
   },
   {
@@ -1211,7 +1211,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 45
     }
   },
   {
@@ -1232,7 +1232,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 25
     }
   },
   {
@@ -1252,7 +1252,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 40
     }
   },
   {
@@ -1272,7 +1272,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 50
     }
   },
   {
@@ -1291,7 +1291,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 45
     }
   },
   {
@@ -1311,7 +1311,7 @@
     "excludes": [],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 30
     }
   }
 ]
