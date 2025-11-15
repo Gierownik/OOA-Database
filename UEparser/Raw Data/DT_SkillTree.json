@@ -1535,8 +1535,8 @@
           {
             "Namespace": "",
             "Key": "0F53D85242BB50298C798694013FEDFD",
-            "SourceString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>100%</> increased hack speed while dealing direct damage\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link or while scan hacking\r\n> <C>10%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals + defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread + spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>25%</> <B>reduced detection range</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>10 s</> <B>scan duration</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>100%</> increased hack speed while dealing direct damage\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link or while scan hacking\r\n> <C>10%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals + defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread + spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>25%</> <B>reduced detection range</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>10 s</> <B>scan duration</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>100%</> increased hack speed while dealing direct damage\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link or while scan hacking\r\n> <C>10%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals + defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread + spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>10 s</> <B>scan duration</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>100%</> increased hack speed while dealing direct damage\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link or while scan hacking\r\n> <C>10%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals + defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread + spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>10 s</> <B>scan duration</>\r\n<B>> Can be disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1673,8 +1673,8 @@
           {
             "Namespace": "",
             "Key": "AAF39FA44774776AE6576B9F9E583095",
-            "SourceString": "> <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, recoil + weapon handling speed penalties with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>100%</> increased quick melee damage for <C>1 s</> after dealing damage with sidearms, ignores defense if below <C>25%</>\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>",
-            "LocalizedString": "> <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, recoil + weapon handling speed penalties with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>100%</> increased quick melee damage for <C>1 s</> after dealing damage with sidearms, ignores defense if below <C>25%</>\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>"
+            "SourceString": "> <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, recoil + weapon handling speed penalties with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>100%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores defense if below <C>25%</>\r\n> <C>50%</> increase quick melee dash range while using sidearms\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>",
+            "LocalizedString": "> <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, recoil + weapon handling speed penalties with sidearms while firing a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>100%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores defense if below <C>25%</>\r\n> <C>50%</> increase quick melee dash range while using sidearms\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2202,8 +2202,8 @@
           {
             "Namespace": "",
             "Key": "572C6D7C4A9158113E8B308ED4061852",
-            "SourceString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
+            "SourceString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>",
+            "LocalizedString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2225,8 +2225,8 @@
           {
             "Namespace": "",
             "Key": "0E27AEAA45471B74BF1263AE720A60D5",
-            "SourceString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
+            "SourceString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>",
+            "LocalizedString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2248,8 +2248,8 @@
           {
             "Namespace": "",
             "Key": "3097FA4A4375793B54ACD0AF9F697D36",
-            "SourceString": "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>6 s</> to up to <C>5</> visible or detected enemies\r\n> <C>200%</> of damage dealt restored to vitals, restores vitals to allies in line of sight if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>6 s</> to up to <C>5</> visible or detected enemies\r\n> <C>200%</> of damage dealt restored to vitals, restores vitals to allies in line of sight if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
+            "SourceString": "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>6 s</> to up to <C>5</> visible or detected enemies\r\n> <C>200%</> of damage dealt restored to vitals, restores vitals to allies in line of sight if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>",
+            "LocalizedString": "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>6 s</> to up to <C>5</> visible or detected enemies\r\n> <C>200%</> of damage dealt restored to vitals, restores vitals to allies in line of sight if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2271,8 +2271,8 @@
           {
             "Namespace": "",
             "Key": "D4216E3747F9754121EC098F436631DF",
-            "SourceString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
+            "SourceString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>",
+            "LocalizedString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2294,8 +2294,8 @@
           {
             "Namespace": "",
             "Key": "78CFC49D455CCE61E2C83999ED57EDB3",
-            "SourceString": "> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>"
+            "SourceString": "> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>",
+            "LocalizedString": "> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>100</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2317,8 +2317,8 @@
           {
             "Namespace": "",
             "Key": "DE611BFA4F0BEA71BCFD318CEDF91B92",
-            "SourceString": "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
+            "SourceString": "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>",
+            "LocalizedString": "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2340,8 +2340,8 @@
           {
             "Namespace": "",
             "Key": "3C0091AF4E943024064305B99457753D",
-            "SourceString": "> Disarms + applies <C>4 s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>",
-            "LocalizedString": "> Disarms + applies <C>4 s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>"
+            "SourceString": "> Disarms + applies <C>4 s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>",
+            "LocalizedString": "> Disarms + applies <C>4 s</> stun + cripple to up to <C>6</> visible or detected enemies\r\n<B>> Can only be used while scanning</>\r\n<B>> Requires</> <C>75</> <B>Core charge for scan hack</>\r\n<B>> Detected for</> <C>2 s</> <B>on use</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

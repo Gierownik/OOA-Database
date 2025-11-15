@@ -24,7 +24,7 @@
       "aux_regen": 35.0,
       "speed": 7.5,
       "aerial_charges": 1,
-      "aerial_charges_regen": 0,
+      "aerial_charges_regen": 0.5,
       "core_speed": 0.8,
       "radar_profile": 15.0
     },
@@ -60,7 +60,7 @@
       "aux_regen": 35.0,
       "speed": 7.0,
       "aerial_charges": 1,
-      "aerial_charges_regen": 0,
+      "aerial_charges_regen": 0.5,
       "core_speed": 0.7,
       "radar_profile": 20.0
     },
@@ -98,7 +98,7 @@
       "aux_regen": 40.0,
       "speed": 8.0,
       "aerial_charges": 2,
-      "aerial_charges_regen": 0,
+      "aerial_charges_regen": 0.5,
       "core_speed": 0.8,
       "radar_profile": 10.0
     },
@@ -135,7 +135,7 @@
       "aux_regen": 30.0,
       "speed": 6.5,
       "aerial_charges": 2,
-      "aerial_charges_regen": 0,
+      "aerial_charges_regen": 0.5,
       "core_speed": 0.75,
       "radar_profile": 20.0
     },
@@ -170,7 +170,7 @@
       "aux_regen": 25.0,
       "speed": 6.5,
       "aerial_charges": 1,
-      "aerial_charges_regen": 0,
+      "aerial_charges_regen": 0.5,
       "core_speed": 0.7,
       "radar_profile": 25.0
     },

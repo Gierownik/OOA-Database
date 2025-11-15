@@ -631,7 +631,7 @@
       "<B>> Unable to use weapon optics while scanning</>",
       "<B>> </><C>50%</> <B>increased spread + spread gain while scanning</>",
       "<B>> </><C>50%</> <B>increased scan cooldown</>",
-      "<B>> </><C>25%</> <B>reduced detection range</>",
+      "<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>",
       "<B>> </><C>1</> <B> reduced Shell detections</>",
       "<B>> </><C>10 s</> <B>scan duration</>",
       "<B>> Can be disabled</>"
@@ -723,7 +723,8 @@
     "tooltip": [
       "> <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance",
       "> <C>25%</> reduced spread, recoil + weapon handling speed penalties with sidearms while firing a single sidearm or akimbo alternate aim stance",
-      "> Dispatch: <C>100%</> increased quick melee damage for <C>1 s</> after dealing damage with sidearms, ignores defense if below <C>25%</>",
+      "> Dispatch: <C>100%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores defense if below <C>25%</>",
+      "> <C>50%</> increase quick melee dash range while using sidearms",
       "> <C>100%</> additional base sidearm reserve ammo",
       "> All equipped or picked up sidearms gain the Suppressor mod with no slot cost",
       "<B>> Can no longer equip primary weapons</>",

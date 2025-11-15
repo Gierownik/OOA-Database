@@ -87,7 +87,8 @@
     "tooltip": [
       "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack",
       "> Destroys visible or detected devices",
-      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
+      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+      "<B>> Detected for</> <C>2 s</> <B>on use</>"
     ],
     "experimental": "true",
     "stats": {
@@ -112,7 +113,8 @@
     "type": "Neuro-link",
     "tooltip": [
       "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack",
-      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
+      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+      "<B>> Detected for</> <C>2 s</> <B>on use</>"
     ],
     "experimental": "false",
     "stats": {
@@ -138,7 +140,8 @@
     "tooltip": [
       "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>6 s</> to up to <C>5</> visible or detected enemies",
       "> <C>200%</> of damage dealt restored to vitals, restores vitals to allies in line of sight if scan hack",
-      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
+      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
+      "<B>> Detected for</> <C>2 s</> <B>on use</>"
     ],
     "experimental": "true",
     "stats": {
@@ -164,7 +167,8 @@
     "tooltip": [
       "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack",
       "> Desync: Scrambles radar, detections + targeting systems",
-      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>"
+      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+      "<B>> Detected for</> <C>2 s</> <B>on use</>"
     ],
     "experimental": "false",
     "stats": {
@@ -190,7 +194,8 @@
     "tooltip": [
       "> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies",
       "<B>> Can only be used while scanning</>",
-      "<B>> Requires</> <C>100</> <B>Core charge for scan hack</>"
+      "<B>> Requires</> <C>100</> <B>Core charge for scan hack</>",
+      "<B>> Detected for</> <C>2 s</> <B>on use</>"
     ],
     "experimental": "false",
     "stats": {
@@ -216,7 +221,8 @@
     "tooltip": [
       "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies",
       "<B>> Can only be used while scanning</>",
-      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>"
+      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
+      "<B>> Detected for</> <C>2 s</> <B>on use</>"
     ],
     "experimental": "false",
     "stats": {
@@ -242,7 +248,8 @@
     "tooltip": [
       "> Disarms + applies <C>4 s</> stun + cripple to up to <C>6</> visible or detected enemies",
       "<B>> Can only be used while scanning</>",
-      "<B>> Requires</> <C>75</> <B>Core charge for scan hack</>"
+      "<B>> Requires</> <C>75</> <B>Core charge for scan hack</>",
+      "<B>> Detected for</> <C>2 s</> <B>on use</>"
     ],
     "experimental": "false",
     "stats": {

@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_ProjectileData'",
-        "ObjectPath": "/Game/Blueprints/Data/STRUCT_ProjectileData"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_ProjectileData.0"
       }
     },
     "Rows": {
@@ -15,7 +15,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator10",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_ThrowingKnife'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_ThrowingKnife"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_ThrowingKnife.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 0.0,
@@ -44,7 +44,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator13",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_FragGrenade'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_FragGrenade"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_FragGrenade.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 125.0,
@@ -73,7 +73,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator14",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_ProximityMine'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_ProximityMine"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_ProximityMine.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 125.0,
@@ -102,7 +102,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator12",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_Disrupter'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Disrupter"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Disrupter.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 0.0,
@@ -131,7 +131,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator17",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_Turret'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Turret"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Turret.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 20.0,
@@ -160,7 +160,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator15",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_Fire'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Fire"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Fire.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 25.0,
@@ -189,7 +189,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator16",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_Gadget_Adrenaline'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_Adrenaline"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_Adrenaline.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 0.0,
@@ -218,7 +218,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator10",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_FragGrenade'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_FragGrenade"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_FragGrenade.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 125.0,
@@ -247,7 +247,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator10",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_FragGrenade'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_FragGrenade"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_FragGrenade.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 100.0,
@@ -276,7 +276,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator22",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_Hacker'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Hacker"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Hacker.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 150.0,
@@ -305,7 +305,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator20",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_Deadzone'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Deadzone"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Deadzone.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 0.0,
@@ -334,7 +334,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator1",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_ProximityMine'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_ProximityMine"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_ProximityMine.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 75.0,
@@ -363,7 +363,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator26",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_Smoke'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Smoke"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Smoke.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 0.0,
@@ -392,7 +392,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator10",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_ProximityMine'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_ProximityMine"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_ProximityMine.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 20.0,
@@ -421,7 +421,7 @@
         "deviceID_67_32A8EF94446E4633A4CCDDAC82AE7BC4": "ENUM_DeviceID::NewEnumerator28",
         "icon_15_9BAED1B14768C0AF6656A4A69525FB4C": {
           "ObjectName": "Texture2D'UI_Gadget_AntiGrav'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Gadget_AntiGrav"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Gadget_AntiGrav.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 0.0,
