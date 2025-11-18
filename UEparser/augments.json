@@ -517,8 +517,9 @@
     "tooltip": [
       "> Can equip and pickup heavy weapons, replaces backup slot",
       "> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback + knockdown, replaces dive while heavy weapon equipped",
-      "> Knockdown + disarm immunity while heavy weapon equipped",
+      "> Disarm immunity while heavy weapon equipped",
       "<B>> Unable to use dive, prone or roll maneuvers while heavy weapon equipped</>",
+      "<B>> Dropped on knockdown or forced roll</>",
       "<B>> Heavy weapons can only be fired while aiming</>"
     ],
     "foundations": {

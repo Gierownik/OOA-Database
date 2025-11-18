@@ -1077,7 +1077,7 @@
         "ammoType_97_2B58827F4C18F7B2652A41AA43A96E08": "ENUM_AmmoType::NewEnumerator20",
         "projectile_106_A99689EF453B8C77EBEDC4B0BD7EBF3A": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Rocket_C'",
-          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Rocket.6"
+          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Rocket.9"
         },
         "launchAngle_132_0BC82EC84C473C712FBFEF8AD323A265": 0.0,
         "damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE": {

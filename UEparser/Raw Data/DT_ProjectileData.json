@@ -221,7 +221,7 @@
           "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_FragGrenade.0"
         },
         "damage_2_0B1642B7407A4B13E869A69C4D9C2905": {
-          "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 125.0,
+          "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 100.0,
           "DamageFar_31_9A92287545630DA083AAA18D6F6D52B2": 50.0,
           "RangeNear_32_7051C33A45ED3E81881748AF79D60E71": 2.0,
           "RangeFar_33_9FC06C8A49BBBCDC074BDEBAF8F978BB": 4.0,
