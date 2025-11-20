@@ -68,7 +68,7 @@
       "> <C>100%</> additional base sidearm reserve ammo",
       "<B>> Can no longer equip sidearm optics</>",
       "<B>></> <C>25%</> <B>reduced sidearm damage while not using alternate aim stance</>",
-      "<B>></> <C>25%</> <B>increased sidearm recoil + spread</>",
+      "<B>></> <C>25%</> <B>increased sidearm recoil, spread + spread gain while not using alternate aim stance</>",
       "<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
     ],
     "foundations": {
@@ -155,7 +155,7 @@
     "tooltip": [
       "> Chemical heals gain bleed immunity if used while not bleeding",
       "> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>5 s</>, chemical heal, <C>10 s</> cooldown",
-      "> <C>5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active",
+      "> <C>2.5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active",
       "<B>></> <C>25%</> <B>reduced defense restored from all sources</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
@@ -364,14 +364,14 @@
     "name": "Dispersal",
     "tooltip": [
       "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown",
-      "> Seekers: Rolls toward and tracks targets, deals <C>20</> explosive damage within <C>4 m</> on reaching or losing target",
+      "> Seekers: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching or losing target",
       "<B>></> <C>25%</> <B>Increased device cooldowns</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
       "type": "hardware",
-      "value": 25
+      "value": 35
     }
   },
   {
@@ -588,7 +588,8 @@
     "name": "Kinetic Injectors",
     "tooltip": [
       "> <C>25</> vitals restored on roll maneuvers, chemical heal, <C>10 s</> cooldown",
-      "> <C>2.5 s</> bleed immunity if used while bleeding",
+      "> <C>25</> vitals restored on receiving body impact, chemical heal",
+      "> <C>2.5 s</> bleed immunity if activated while bleeding",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -722,8 +723,8 @@
   {
     "name": "Professional",
     "tooltip": [
-      "> <C>25%</> increased far damage with sidearms while firing a single sidearm or akimbo alternate aim stance",
-      "> <C>25%</> reduced spread, recoil + weapon handling speed penalties with sidearms while firing a single sidearm or akimbo alternate aim stance",
+      "> <C>25%</> increased far damage with sidearms while using a single sidearm or akimbo alternate aim stance",
+      "> <C>25%</> reduced spread, spread gain, recoil + weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance",
       "> Dispatch: <C>100%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores defense if below <C>25%</>",
       "> <C>50%</> increase quick melee dash range while using sidearms",
       "> <C>100%</> additional base sidearm reserve ammo",

@@ -711,7 +711,7 @@
     "excludes": [],
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 25
     }
   },
   {
