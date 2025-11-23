@@ -308,7 +308,8 @@
     "name": "Covert",
     "tooltip": [
       "> <C>50%</> reduced detectable range",
-      "> Shroud for <C>3s</> on kill, <C>6s</> without receiving damage from target: Undetectable by all equipment",
+      "> Shroud for <C>3s</> on kill, <C>6s</> without receiving damage from target",
+      "> Neuro-Mask: Shroud for <C>5s</> on detecting Neuro-Link scan hack, <C>30 s</> cooldown",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -364,7 +365,7 @@
     "name": "Dispersal",
     "tooltip": [
       "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown",
-      "> Seekers: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching or losing target",
+      "> Seeker: Rolls toward + tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching or losing target",
       "<B>></> <C>25%</> <B>Increased device cooldowns</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
       "<B>> Can be disabled</>"
@@ -431,7 +432,7 @@
   {
     "name": "Fail-safe",
     "tooltip": [
-      "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + stun immunity for <C>2.5 s</>, <C>30 s</> cooldown",
+      "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + disable immunity for <C>2.5 s</>, <C>30 s</> cooldown",
       "> Devices can no longer be disabled",
       "<B>></> <C>25%</> <B>reduced defense + aux regeneration</>"
     ],
@@ -650,7 +651,6 @@
       "> Can equip black market Neuo-Link devices",
       "> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation",
       "> <C>5</> Core charge returned for each additional enemy affected on successful scan hack",
-      "> <C>25%</> reduced hack speed on linked enemy scan hacks",
       "> <C>25%</> increased scan detection range",
       "<B>> Detected while scan hack active, overrides undetectable</>",
       "<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>",

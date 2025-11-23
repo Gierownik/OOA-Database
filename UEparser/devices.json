@@ -138,8 +138,8 @@
     "name": "Parasite",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>6 s</> to up to <C>5</> visible or detected enemies",
-      "> <C>200%</> of damage dealt restored to vitals, restores vitals to allies in line of sight if scan hack",
+      "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>2.5 s</> to up to <C>6</> visible or detected enemies",
+      "> <C>300%</> of damage dealt restored to vitals, restores vitals to allies if scan hack",
       "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
       "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
     ],
@@ -221,7 +221,7 @@
     "tooltip": [
       "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies",
       "<B>> Can only be used while scanning</>",
-      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
+      "<B>> Requires</> <C>100</> <B>Core charge for scan hack</>",
       "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
     ],
     "experimental": "false",
@@ -233,7 +233,7 @@
       "activation_delay": 0,
       "velocity": 0.0,
       "speed_penalty": 0.15,
-      "hack_cost": 50.0,
+      "hack_cost": 100.0,
       "secondary_action": "false",
       "can_be_disabled": "false"
     },
@@ -248,7 +248,7 @@
     "tooltip": [
       "> Disarms + applies <C>4 s</> stun + cripple to up to <C>6</> visible or detected enemies",
       "<B>> Can only be used while scanning</>",
-      "<B>> Requires</> <C>75</> <B>Core charge for scan hack</>",
+      "<B>> Requires</> <C>100</> <B>Core charge for scan hack</>",
       "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
     ],
     "experimental": "false",
@@ -260,7 +260,7 @@
       "activation_delay": 0,
       "velocity": 0.0,
       "speed_penalty": 0.15,
-      "hack_cost": 75.0,
+      "hack_cost": 100.0,
       "secondary_action": "false",
       "can_be_disabled": "false"
     },
