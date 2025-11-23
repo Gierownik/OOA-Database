@@ -62,7 +62,7 @@ for filename, category in file_map.items():
             continue  # Skip if we couldn't resolve an ID at all
 
         # Handle attachments with category mapping
-        if filename == "Raw Data\ENUM_AttachmentID.json":
+        if filename == r"Raw Data\ENUM_AttachmentID.json":
             subcategory = categorize_attachment(name)
             output[subcategory][name] = final_id
         else:

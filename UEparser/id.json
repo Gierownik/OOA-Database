@@ -76,7 +76,12 @@
         "Close Minded": 67,
         "Neuro-Hacker": 68,
         "Net Runner": 69,
-        "Backdoor": 70
+        "Backdoor": 70,
+        "Shell Shock": 71,
+        "Core Decay": 72,
+        "Pyro-Psycho": 73,
+        "Limpet": 74,
+        "Volatile": 75
     },
     "Devices": {
         "Overcharge": 2,

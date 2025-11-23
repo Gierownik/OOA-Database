@@ -3,7 +3,6 @@
     "Type": "UserDefinedEnum",
     "Name": "ENUM_PerkID",
     "Class": "UScriptClass'UserDefinedEnum'",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "DisplayNameMap": [
         {
@@ -644,6 +643,51 @@
             "SourceString": "Backdoor",
             "LocalizedString": "Backdoor"
           }
+        },
+        {
+          "Key": "NewEnumerator71",
+          "Value": {
+            "Namespace": "",
+            "Key": "5F69CE7942B0EA76AF4FC999B0C81DE1",
+            "SourceString": "Shell Shock",
+            "LocalizedString": "Shell Shock"
+          }
+        },
+        {
+          "Key": "NewEnumerator72",
+          "Value": {
+            "Namespace": "",
+            "Key": "B3B37C09454003E22EED34A77FD93077",
+            "SourceString": "Core Decay",
+            "LocalizedString": "Core Decay"
+          }
+        },
+        {
+          "Key": "NewEnumerator73",
+          "Value": {
+            "Namespace": "",
+            "Key": "3DC9883943B3944B300BF9B6D455FB59",
+            "SourceString": "Pyro-Psycho",
+            "LocalizedString": "Pyro-Psycho"
+          }
+        },
+        {
+          "Key": "NewEnumerator74",
+          "Value": {
+            "Namespace": "",
+            "Key": "D63E27914BD99D26F342BA8A37A09238",
+            "SourceString": "Limpet",
+            "LocalizedString": "Limpet"
+          }
+        },
+        {
+          "Key": "NewEnumerator75",
+          "Value": {
+            "Namespace": "",
+            "Key": "37C9051D4AA66B0336B3AF81704820B9",
+            "SourceString": "Volatile",
+            "LocalizedString": "Volatile"
+          }
         }
       ]
     },
@@ -719,7 +763,12 @@
       "ENUM_PerkID::NewEnumerator68": 68,
       "ENUM_PerkID::NewEnumerator69": 69,
       "ENUM_PerkID::NewEnumerator70": 70,
-      "ENUM_PerkID::ENUM_MAX": 71
+      "ENUM_PerkID::NewEnumerator71": 71,
+      "ENUM_PerkID::NewEnumerator72": 72,
+      "ENUM_PerkID::NewEnumerator73": 73,
+      "ENUM_PerkID::NewEnumerator74": 74,
+      "ENUM_PerkID::NewEnumerator75": 75,
+      "ENUM_PerkID::ENUM_MAX": 76
     },
     "CppForm": "Namespaced"
   }
