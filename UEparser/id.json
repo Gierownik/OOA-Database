@@ -106,7 +106,9 @@
         "Desync": 20,
         "Cascade": 21,
         "Pathogen": 22,
-        "Lockdown": 23
+        "Lockdown": 23,
+        "Surge": 24,
+        "Hyper": 25
     },
     "Weapons": {
         "Major": 2,

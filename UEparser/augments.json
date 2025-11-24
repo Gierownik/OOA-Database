@@ -333,7 +333,7 @@
   {
     "name": "Dead Drop",
     "tooltip": [
-      "> Aiming or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown",
+      "> Aiming, quick melee or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown",
       "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity",
       "> Deactivates after <C>2 s</> if no longer falling",
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"

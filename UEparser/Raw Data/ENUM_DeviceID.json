@@ -3,7 +3,6 @@
     "Type": "UserDefinedEnum",
     "Name": "ENUM_DeviceID",
     "Class": "UScriptClass'UserDefinedEnum'",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "DisplayNameMap": [
         {
@@ -221,6 +220,24 @@
             "SourceString": "Lockdown",
             "LocalizedString": "Lockdown"
           }
+        },
+        {
+          "Key": "NewEnumerator35",
+          "Value": {
+            "Namespace": "",
+            "Key": "65907612431D0FDFE471708BF94C0399",
+            "SourceString": "Surge",
+            "LocalizedString": "Surge"
+          }
+        },
+        {
+          "Key": "NewEnumerator36",
+          "Value": {
+            "Namespace": "",
+            "Key": "76F92B7748074FC35870838D4931F8C0",
+            "SourceString": "Hyper",
+            "LocalizedString": "Hyper"
+          }
         }
       ]
     },
@@ -249,7 +266,9 @@
       "ENUM_DeviceID::NewEnumerator32": 21,
       "ENUM_DeviceID::NewEnumerator33": 22,
       "ENUM_DeviceID::NewEnumerator34": 23,
-      "ENUM_DeviceID::ENUM_MAX": 24
+      "ENUM_DeviceID::NewEnumerator35": 24,
+      "ENUM_DeviceID::NewEnumerator36": 25,
+      "ENUM_DeviceID::ENUM_MAX": 26
     },
     "CppForm": "Namespaced"
   }
