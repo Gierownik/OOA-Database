@@ -160,7 +160,7 @@
       ":: <D>Reactive Cladding</>",
       "> <C>50%</> increased explosive resistance",
       "> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>",
-      "> Damage taken to vitals is restored to defense when defense regeneration resumes"
+      "> Damage taken to vitals is restored to defense during defense regeneration, <C>5 s</> cooldown"
     ],
     "stats": {
       "vitals": 150.0,
