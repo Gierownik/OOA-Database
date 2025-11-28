@@ -1,6 +1,6 @@
 [
   {
-    "name": "Bison",
+    "name": "Bizon",
     "tooltip": [
       ":: <D>Kinetic Resistance</>",
       "> <C>25%</> increased explosive resistance",
@@ -70,7 +70,7 @@
     }
   },
   {
-    "name": "Ghost",
+    "name": "Duch",
     "tooltip": [
       ":: <D>Tactical Camouflage</>",
       "> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "name": "Dragon",
+    "name": "Smok",
     "tooltip": [
       ":: <D>Drifter Jump-Pack</>",
       "> Hover: Can be activated while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, body impacts while boosting can knockback + knockdown, recover an aerial maneuver charge on activation, <C>4 s</> cooldown",
@@ -145,20 +145,20 @@
     }
   },
   {
-    "name": "Rhino",
+    "name": "Grom",
     "tooltip": [
-      ":: <D>Resilient Momentum</>",
+      ":: <D>Niepowstrzymane Momentum</>",
       "> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage",
       "> <C>50%</> reduced movement speed penalties while defence above <C>50%</>",
       "> Bolster while Core active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
       "<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>",
-      ":: <D>Concussive Impulse</>",
+      ":: <D>Impuls Wstrząsowy</>",
       "> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>3 m</>, <C>5 s</> cooldown",
       "> <C>50%</> of damage dealt by Shockwave restored to defense + max defense",
       "> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>",
       "<B>> Can be disabled</>",
-      ":: <D>Reactive Cladding</>",
-      "> <C>50%</> increased explosive resistance",
+      ":: <D>Reaktywne Poszycie</>",
+      "> <C>50%</> zwiększona odpornośc na wybuchy",
       "> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>",
       "> Damage taken to vitals is restored to defense during defense regeneration, <C>5 s</> cooldown"
     ],
