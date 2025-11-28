@@ -20,7 +20,7 @@
       "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>",
       "> <C>50%</> increased Stim use speed",
       "> <C>25%</> reduced direct damage to vitals while active",
-      "> <C>50%</> increased Core + aux power regeneration while active",
+      "> <C>50%</> increased aux power + aerial maneuver regeneration while active",
       "> <C>15%</> increased ground speed while active",
       "<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>",
       "<B>></> <C>4 s</> <B>snare +</> <C>25</> <B>vital damage received on activation while detox on cooldown</>",
@@ -712,7 +712,7 @@
     "tooltip": [
       "> <C>100%</> increased vitals restored by primary stim",
       "> <C>50%</> of vitals restored by primary stim restores max vitals",
-      "> <C>100%</> increased Core + aux power regeneration for <C>10 s</> on primary stim use",
+      "> <C>100%</> increased aux power + aerial maneuver regeneration for <C>10 s</> on primary stim use",
       "<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>"
     ],
     "foundations": {

@@ -1,12 +1,12 @@
 [
   {
-    "name": "Fists",
+    "name": "Pięści",
     "stats": {
       "id": "",
-      "type": "Fists",
-      "slot": "Backup",
+      "type": "Pięści",
+      "slot": "Zapasowa",
       "category": "NewEnumerator8",
-      "firemode": "Charged",
+      "firemode": "Ładowana",
       "firerate": "100.0",
       "damage_near": 50.0,
       "damage_far": 50.0,
@@ -29,13 +29,13 @@
     }
   },
   {
-    "name": "TTK",
+    "name": "TNR",
     "stats": {
       "id": "LDS TTK",
-      "type": "Throwing knives",
-      "slot": "Backup",
-      "category": "Melee Weapons",
-      "firemode": "Charged",
+      "type": "Noże do Rzucania",
+      "slot": "Zapasowa",
+      "category": "Broń Biała",
+      "firemode": "Ładowana",
       "firerate": "100.0",
       "damage_near": 125.0,
       "damage_far": 75.0,
@@ -64,10 +64,10 @@
     "name": "Akanami",
     "stats": {
       "id": "MA-ACS",
-      "type": "Sword",
-      "slot": "Backup",
-      "category": "Melee Weapons",
-      "firemode": "Charged",
+      "type": "Katana",
+      "slot": "Zapasowa",
+      "category": "Broń Biała",
+      "firemode": "Ładowana",
       "firerate": "65.0",
       "damage_near": 150.0,
       "damage_far": 150.0,
@@ -90,12 +90,12 @@
     }
   },
   {
-    "name": "Dusters",
+    "name": "Kruszyciele",
     "stats": {
       "id": "W&S APDG",
-      "type": "Augmented fists",
-      "slot": "Backup",
-      "category": "Melee Weapons",
+      "type": "Rękawice Górnicze",
+      "slot": "Zapasowa",
+      "category": "Broń Biała",
       "firemode": "Charged",
       "firerate": "100.0",
       "damage_near": 75.0,
@@ -122,10 +122,10 @@
     "name": "Major",
     "stats": {
       "id": "MA-P7",
-      "type": "Pistol",
-      "slot": "Sidearm",
-      "category": "Handguns",
-      "firemode": "Semi-Automatic",
+      "type": "Pistolet",
+      "slot": "Boczna",
+      "category": "Pistolety",
+      "firemode": "Pół-Automatyczna",
       "firerate": "400.0",
       "damage_near": 80.0,
       "damage_far": 40.0,
@@ -153,10 +153,10 @@
     "name": "Deckard",
     "stats": {
       "id": "LDS SR .60",
-      "type": "Revolver",
-      "slot": "Sidearm",
-      "category": "Handguns",
-      "firemode": "Semi-Automatic",
+      "type": "Rewolwer",
+      "slot": "Boczna",
+      "category": "Pistolety",
+      "firemode": "Pół-Automatyczna",
       "firerate": "125.0",
       "damage_near": 150.0,
       "damage_far": 100.0,
@@ -183,13 +183,13 @@
     }
   },
   {
-    "name": "Geist",
+    "name": "Zjawa",
     "stats": {
       "id": "W&S MP11",
-      "type": "PDW",
-      "slot": "Sidearm",
-      "category": "Small Arms",
-      "firemode": "Automatic",
+      "type": "Lekki PM",
+      "slot": "Boczna",
+      "category": "Pistolety Maszynowe",
+      "firemode": "Automatyczna",
       "firerate": "1000.0",
       "damage_near": 34.0,
       "damage_far": 16.0,
@@ -214,13 +214,13 @@
     }
   },
   {
-    "name": "Double-Tap",
+    "name": "Dublet",
     "stats": {
       "id": "A-TAC 002",
-      "type": "Burst pistol",
-      "slot": "Sidearm",
-      "category": "Handguns",
-      "firemode": "Burst",
+      "type": "Pistolet strzelający serią",
+      "slot": "Boczna",
+      "category": "Pistolety",
+      "firemode": "Seria",
       "firerate": "1200.0",
       "damage_near": 65.0,
       "damage_far": 40.0,
@@ -250,10 +250,10 @@
     "name": "Omen",
     "stats": {
       "id": "LDS X9E",
-      "type": "Machine pistol",
-      "slot": "Sidearm",
-      "category": "Small Arms",
-      "firemode": "Automatic",
+      "type": "Ciężki PM",
+      "slot": "Boczna",
+      "category": "Pistolety Maszynowe",
+      "firemode": "Automatyczna",
       "firerate": "450.0",
       "damage_near": 70.0,
       "damage_far": 35.0,
@@ -278,13 +278,13 @@
     }
   },
   {
-    "name": "Cerberus",
+    "name": "Cerber",
     "stats": {
       "id": "MA-950-S",
-      "type": "Compact shotgun",
-      "slot": "Sidearm",
-      "category": "Shotguns",
-      "firemode": "Semi-Automatic",
+      "type": "Strzelba kompaktowa",
+      "slot": "Boczna",
+      "category": "Strzelby",
+      "firemode": "Pół-Automatyczna",
       "firerate": "125.0",
       "damage_near": 40.0,
       "damage_far": 12.0,
@@ -309,13 +309,13 @@
     }
   },
   {
-    "name": "Master-Key",
+    "name": "Klucznik",
     "stats": {
       "id": "A-TAC S20",
-      "type": "Shotgun",
-      "slot": "Primary",
-      "category": "Shotguns",
-      "firemode": "Chambered",
+      "type": "Strzelba",
+      "slot": "Główna",
+      "category": "Strzelby",
+      "firemode": "Manualna",
       "firerate": "200.0",
       "damage_near": 36.0,
       "damage_far": 16.0,
@@ -342,13 +342,13 @@
     }
   },
   {
-    "name": "Icarus",
+    "name": "Ikar",
     "stats": {
       "id": "MA-SX5",
-      "type": "SMG",
-      "slot": "Primary",
-      "category": "Small Arms",
-      "firemode": "Automatic",
+      "type": "PM",
+      "slot": "Główna",
+      "category": "Pistolety Maszynowe",
+      "firemode": "Automatyczna",
       "firerate": "900.0",
       "damage_near": 36.0,
       "damage_far": 18.0,
@@ -373,7 +373,7 @@
     }
   },
   {
-    "name": "Custodian",
+    "name": "Kustosz",
     "stats": {
       "id": "A-TAC 88",
       "type": "Assault rifle",
