@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Bolster",
+    "tooltip": [
+      "> Bleed and knockdown immunity",
+      "> <C>200</> max defense",
+      "> <C>0 s</> defense regen delay",
+      "> <C>40 /s</> defense regeneration",
+      "<B>> <C>50%</> reduced speed and vitals restored from all sources</>",
+      "<B>> Disables optical camouflage</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Bleed",
+    "tick": "0.5s",
+    "tooltip": [
+      "<B>> Constant bleed damage, up to 10/s</>"
+    ],
+    "enhancement": "Hemorrhage",
+    "enh_tooltip": [
+      "<B>> Absorbs one bleed clear, downgrades to bleed</>",
+      "> <C>75%</> reduced bleed damage on downgrade"
+    ]
+  },
+  {
+    "name": "Burn",
+    "duration": "5s",
+    "tick": "0.5s",
+    "tooltip": [
+      "<B>> Constant fire damage and stat reduction, up to 20/s</>",
+      "<B>> <C>50%</> decreased dexterity</>",
+      "<B>> Burn ticks don't deplete while moving over 8m/s</>",
+      "> <C>5</> burn ticks removed on roll"
+    ],
+    "enhancement": "Combust",
+    "enh_tooltip": [
+      "<B>> <C>50%</> increased damage taken to defense</>"
+    ]
+  },
+  {
+    "name": "Corrode",
+    "duration": "2s",
+    "tooltip": [
+      "<B>> <C>100%</> reduced vitals restored from all sources</>",
+      "<B>> <C>10/s</> defense drain</>"
+    ],
+    "enhancement": "Necrosis",
+    "enh_tooltip": [
+      "<B>> <C>50%</> of attempted vitals restoration drains vitals</>",
+      "<B>> Duration constantly refreshed while bleeding</>"
+    ]
+  },
+{
+    "name": "Desync",
+    "tooltip": [
+      "<B>> Scrambles radar, detections and targeting systems</>"
+    ],
+    "enhancement": "Feedback",
+    "enh_tooltip": [
+      "<B>> <C>10 /s</> shock damage + stun while Core active</>",
+      "<B>><C>25</> shock damage + <C>4 s</> stun on relocation</>"
+    ]
+  },
+  {
+    "name": "Disable",
+    "tooltip": [
+      "<B>> Disables: set augments/devices/projectiles, all forms of detections, radar, terminals, defense and ammo regeneration</>",
+      "<B>> Pauses active device/scan/tag/stim cooldowns for duration</>"
+    ],
+    "enhancement": "Stun",
+    "enh_tooltip": [
+      "<B>> Visual and audio distortion</>",
+      "<B>> <C>100%</> increased weapon spread</>",
+      "<B>> <C>50%</> reduced turn speed</>"
+    ]
+  },
+  {
+    "name": "Hyper",
+    "tooltip": [
+      "> Full AUX and Aerial charges refill",
+      "> <C>100%</> reduced AUX drain",
+      "> <C>25%</> increased Core speed"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Overcharge",
+    "tooltip": [
+      "> Disable immunity",
+      "> <C>10%</> increased ground speed and climb speed",
+      "> Disable enemy players, devices and projectiles within <C>3 m</> for <C>2 s</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Overkill",
+    "tooltip": [
+      "> Melee attacks and body impacts bypass defense",
+      "> <C>100%</> increased body impact damage",
+      "> <C>100%</> reduced AUX drain from all soruces",
+      "> <C>100%</> reduced speed penalties and aux drain from all sources",
+      "> <C>50%</> increased dexterity",
+      "> Snare immunity",
+      "<B>> <C>0 - 100%</> increased direct damage recieved, scaling proportionally with duration active from <C>0 - 5 s</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Reinforce",
+    "tooltip": [
+      "> Defense penetration immunity",
+      "> Deflects projectiles",
+      "> <C>50%</> reduced direct damage recieved",
+      "<B>> Disables optical camouflage</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Shroud",
+    "tooltip": [
+      "> Immunity to: radar, detections, thermals, locks"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
+    "name": "Snare",
+    "tooltip": [
+      "<B>> <C>50%</> reduced ground speed</>",
+      "<B>> <C>20 /s</> AUX drain</>"
+    ],
+    "enhancement": "Cripple",
+    "enh_tooltip": [
+      "<B>> Removes all aerial charges, maneuvers and the ability to climb</>",
+      "<B>> Enviroment impacts deal damage</>"
+    ]
+  }
+]

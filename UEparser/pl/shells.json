@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Bison",
+    "tooltip": [
+      ":: <D>Kinetic Resistance</>",
+      "> <C>25%</> increased explosive resistance",
+      "> <C>25%</> reduced aux power drain from all sources",
+      "> <C>25%</> reduced direct vitals damage received during maneuvers + while using backup weapons",
+      ":: <D>Survival Instinct</>",
+      "> <C>50%</> increased snare resistance, snare immunity while Core active",
+      "> While below <C>25%</> defense: <C>25%</> reduced aux power drain from all sources, <C>25%</> increased acceleration + gain an additional aerial maneuver charge",
+      "> While below <C>50%</> vitals: <C>25%</> increased defense regeneration + vitals restored from all sources",
+      "<B>> Can be disabled</>",
+      ":: <D>Core Overdrive</>",
+      "> <C>25%</> increased Core generation",
+      "> <C>25%</> increased dexterity + unaffected by loadout or movement speed penalties while Core active",
+      "> <C>0-25%</> Reduced Core activation cost scaling proportionally with remaining vitals from <C>100-50%</>"
+    ],
+    "stats": {
+      "vitals": 150.0,
+      "defense": 150.0,
+      "defense_regen": 15.0,
+      "defense_regen_delay": 3.0,
+      "aux_regen": 35.0,
+      "speed": 7.5,
+      "aerial_charges": 1,
+      "aerial_charges_regen": 0.5,
+      "core_speed": 0.8,
+      "radar_profile": 15.0
+    },
+    "foundations": {
+      "type": "body",
+      "value": 0
+    }
+  },
+  {
+    "name": "Hydra",
+    "tooltip": [
+      ":: <D>Adrenal Feedback</>",
+      "> <C>5%</> increased speed, dexterity, weapon accuracy + backup weapon damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times",
+      "> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness",
+      "> Neuro-link 'Parasite' on Core activation: Deals <C>5</> vitals damage every <C>0.5 s</> to up to <C>6</> visible or detected enemies, <C>200%</> of damage dealt restored to vitals + max vitals, increased by <C>10%</> for each Adrenal Feedback stack on activation",
+      "<B>> Core activation resets Adrenal Feedback stacks</>",
+      "<B>> Can be disabled</>",
+      ":: <D>Regenetics</>",
+      "> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack",
+      "> <C>25%</> of direct head + limb vitals damage received restored after <C>2 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack",
+      "> Defense regeneration restores max defense while Core is active",
+      "<B>></> <C>10%</> <B>increased debuff duration + bleed damage received for each Adrenal Feedback stack</>",
+      ":: <D>Adaptive Recovery</>",
+      "> Vitals restored by Adrenal Feeback, Regenetics + Adaptive Recovery increases + restores max vitals up to <C>200</> vitals",
+      "> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown",
+      "> <C>25</> vitals restored on defense depletion, <C>10 s</> cooldown"
+    ],
+    "stats": {
+      "vitals": 150.0,
+      "defense": 100.0,
+      "defense_regen": 15.0,
+      "defense_regen_delay": 2.0,
+      "aux_regen": 35.0,
+      "speed": 7.0,
+      "aerial_charges": 1,
+      "aerial_charges_regen": 0.5,
+      "core_speed": 0.7,
+      "radar_profile": 20.0
+    },
+    "foundations": {
+      "type": "body",
+      "value": 10
+    }
+  },
+  {
+    "name": "Ghost",
+    "tooltip": [
+      ":: <D>Tactical Camouflage</>",
+      "> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown",
+      "> <C>25%</> reduced loadout speed penalty while active",
+      "> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics",
+      "<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>",
+      "<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>",
+      "<B>> Deactivates on interactions + offensive actions</>",
+      "<B>> Can be disabled</>",
+      ":: <D>Heightened Proficiency</>",
+      "> <C>25%</> increased weapon accuracy + backup weapon damage",
+      "> <C>50%</> reduced explosive damage received during maneuvers",
+      "> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased defense damage with backup weapons for <C>2 s</> after camouflage deactivation",
+      "<B>> Can be disabled</>",
+      ":: <D>Disruptive Measures</>",
+      "> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active",
+      "> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>3 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive",
+      "> Neuro-link 'Spike' on Core activation: Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
+    ],
+    "stats": {
+      "vitals": 100.0,
+      "defense": 100.0,
+      "defense_regen": 10.0,
+      "defense_regen_delay": 2.0,
+      "aux_regen": 40.0,
+      "speed": 8.0,
+      "aerial_charges": 2,
+      "aerial_charges_regen": 0.5,
+      "core_speed": 0.8,
+      "radar_profile": 10.0
+    },
+    "foundations": {
+      "type": "body",
+      "value": 20
+    }
+  },
+  {
+    "name": "Dragon",
+    "tooltip": [
+      ":: <D>Drifter Jump-Pack</>",
+      "> Hover: Can be activated while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, body impacts while boosting can knockback + knockdown, recover an aerial maneuver charge on activation, <C>4 s</> cooldown",
+      "> Enhanced Dodge, Dive + climbing, Air Dive replaced with Air Dash: Launch rapidly in movement direction, can knockback + knockdown",
+      "> Ground Slam maneuver: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, <C>10 s</> cooldown",
+      "<B>> Deactivates if aux power fully depleted or on boost + Ground Slam impacts</>",
+      "<B>> Boosting drains aux power</>",
+      "<B>> Can be disabled</>",
+      ":: <D>Scorch Hazard</>",
+      "> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>3 m</> for <C>25</> fire damage, <C>5 s</> cooldown",
+      "> Ignites surrounding area for <C>3 s</> on death if hovering",
+      "> Neuro-link 'Combust' on Core activation: Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown",
+      "<B>> Can be disabled</>",
+      ":: <D>Thermal Nano-Mesh</>",
+      "> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft",
+      "> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>",
+      "> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
+    ],
+    "stats": {
+      "vitals": 100.0,
+      "defense": 150.0,
+      "defense_regen": 10.0,
+      "defense_regen_delay": 2.5,
+      "aux_regen": 30.0,
+      "speed": 6.5,
+      "aerial_charges": 2,
+      "aerial_charges_regen": 0.5,
+      "core_speed": 0.75,
+      "radar_profile": 20.0
+    },
+    "foundations": {
+      "type": "body",
+      "value": 10
+    }
+  },
+  {
+    "name": "Rhino",
+    "tooltip": [
+      ":: <D>Resilient Momentum</>",
+      "> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage",
+      "> <C>50%</> reduced movement speed penalties while defence above <C>50%</>",
+      "> Bolster while Core active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
+      "<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>",
+      ":: <D>Concussive Impulse</>",
+      "> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>3 m</>, <C>5 s</> cooldown",
+      "> <C>50%</> of damage dealt by Shockwave restored to defense + max defense",
+      "> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>",
+      "<B>> Can be disabled</>",
+      ":: <D>Reactive Cladding</>",
+      "> <C>50%</> increased explosive resistance",
+      "> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>",
+      "> Damage taken to vitals is restored to defense during defense regeneration, <C>5 s</> cooldown"
+    ],
+    "stats": {
+      "vitals": 150.0,
+      "defense": 200.0,
+      "defense_regen": 10.0,
+      "defense_regen_delay": 3.0,
+      "aux_regen": 25.0,
+      "speed": 6.5,
+      "aerial_charges": 1,
+      "aerial_charges_regen": 0.5,
+      "core_speed": 0.7,
+      "radar_profile": 25.0
+    },
+    "foundations": {
+      "type": "body",
+      "value": 15
+    }
+  }
+]
