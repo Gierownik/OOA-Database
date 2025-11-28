@@ -156,11 +156,11 @@
       "> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>3 m</>, <C>5 s</> cooldown",
       "> <C>50%</> of damage dealt by Shockwave restored to defense + max defense",
       "> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>",
-      "<B>> Can be disabled</>",
+      "<B>> Może zostać Dezaktywowane</>",
       ":: <D>Reaktywne Poszycie</>",
       "> <C>50%</> zwiększona odporność na wybuchy",
       "> <C>25-0%</> zmniejszone bezpośrednie obrażenia osłony, proporcjonalnie do prędkości od <C>0-8 m/s</>",
-      "> Obrażenia otrzymane do zdrowia są zwrócone do osłony podczas jej regeneracji, <C>5 s</> cooldown"
+      "> Obrażenia otrzymane do zdrowia są zwrócone do osłony podczas jej regeneracji, <C>5 s</> odnowienia"
     ],
     "stats": {
       "vitals": 150.0,
