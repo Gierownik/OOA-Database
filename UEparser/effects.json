@@ -133,7 +133,7 @@
     "name": "Snare",
     "tooltip": [
       "<B>> <C>50%</> reduced ground speed</>",
-      "<B>> <C>20 /s</> AUX drain</>"
+      "<B>> <C>80 /s</> AUX drain</>"
     ],
     "enhancement": "Cripple",
     "enh_tooltip": [
