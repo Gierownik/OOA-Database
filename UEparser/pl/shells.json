@@ -123,9 +123,9 @@
       "> Neuro-łącze 'Zapłon' przy aktywacji Rdzenia: Zadaje <C>25</> obrażeń ognistych + spopiela do <C>6</> widocznych lub wykrytych przeciwników, obrażenia zwiększone o <C>25%</> za każdego przeciwnika, <C>10 s</> odnowienia",
       "<B>> Może zostać Dezaktywowane</>",
       ":: <D>Termalna Nano-siatka</>",
-      "> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft",
-      "> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>",
-      "> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
+      "> <C>50%</> zwiększona odporność na ogień, ochrona przed redukcją maksymalnego zdrowia i osłony przez ogień + <C>25%</> osłony przywróconej za każdego przeciwnika trafionego Ognistym podmuchem",
+      "> <C>0-50%</> zwiększona odporność na wybuchy podczas zawisu, proporcjonalnie do prędkości od <C>0-12 m/s</>",
+      "> <C>0-100%</> zwiększona regeneracja osłony + brak opóźnienia regeneracji podczas zawisu lub manewrów, proporcjonalnie do prędkości od <C>0-12 m/s</>"
     ],
     "stats": {
       "vitals": 100.0,
