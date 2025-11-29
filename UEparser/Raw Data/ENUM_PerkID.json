@@ -688,6 +688,15 @@
             "SourceString": "Volatile",
             "LocalizedString": "Volatile"
           }
+        },
+        {
+          "Key": "NewEnumerator76",
+          "Value": {
+            "Namespace": "",
+            "Key": "E2AAED6D44BBC90724996187A7922E68",
+            "SourceString": "Studied",
+            "LocalizedString": "Studied"
+          }
         }
       ]
     },
@@ -768,7 +777,8 @@
       "ENUM_PerkID::NewEnumerator73": 73,
       "ENUM_PerkID::NewEnumerator74": 74,
       "ENUM_PerkID::NewEnumerator75": 75,
-      "ENUM_PerkID::ENUM_MAX": 76
+      "ENUM_PerkID::NewEnumerator76": 76,
+      "ENUM_PerkID::ENUM_MAX": 77
     },
     "CppForm": "Namespaced"
   }

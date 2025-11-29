@@ -203,7 +203,7 @@
       "aim_time": "0.225",
       "spread_hip": "2.0",
       "spread_ads": "0.75",
-      "spread_gain": "0.2",
+      "spread_gain": "0.25",
       "speed_penalty": "0.3",
       "ammo_capacity": 30,
       "reload_speed": "1.0"

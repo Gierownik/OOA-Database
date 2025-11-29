@@ -81,7 +81,8 @@
         "Core Decay": 72,
         "Pyro-Psycho": 73,
         "Limpet": 74,
-        "Volatile": 75
+        "Volatile": 75,
+        "Studied": 76
     },
     "Devices": {
         "Overcharge": 2,

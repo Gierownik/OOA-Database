@@ -65,8 +65,8 @@
       "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming",
       "> Alternate aim stance: Fire a single sidearm with increased accuracy",
       "> <C>15%</> increased Core generation with sidearms",
-      "> <C>100%</> additional base sidearm reserve ammo",
       "<B>> Can no longer equip sidearm optics</>",
+      "<B>></> <C>50%</> <B>reduced sidearm maneuver + stance accuracy bonuses</>",
       "<B>></> <C>25%</> <B>reduced sidearm damage while not using alternate aim stance</>",
       "<B>></> <C>25%</> <B>increased sidearm recoil, spread + spread gain while not using alternate aim stance</>",
       "<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
@@ -227,7 +227,7 @@
   {
     "name": "Chemical Warfare",
     "tooltip": [
-      "> Explosives deal chemical damage + apply corrode for <C>2 s</>",
+      "> Explosive damage deals chemical damage + applies corrode for <C>2 s</>",
       "> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration drained from vitals, duration refreshed while bleeding",
       "<B>></> <C>25%</> <B>reduced explosive damage</>"
     ],
@@ -261,6 +261,19 @@
     "foundations": {
       "type": "tech",
       "value": 15
+    }
+  },
+  {
+    "name": "Core Decay",
+    "tooltip": [
+      "> <C>0-100%</> increased aux power + aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
+      "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
+      "<B>> Core charge constantly drains</>",
+      "<B>> Can no longer manually activate Core</>"
+    ],
+    "foundations": {
+      "type": "body",
+      "value": 25
     }
   },
   {
@@ -844,6 +857,18 @@
     }
   },
   {
+    "name": "Shell Shock",
+    "tooltip": [
+      "> Explosive damage applies snare + disable for <C>2 s</>",
+      "> <C>25%</> increased explosive far damage range",
+      "<B>></> <C>25%</> <B>reduced explosive damage</>"
+    ],
+    "foundations": {
+      "type": "tech",
+      "value": 35
+    }
+  },
+  {
     "name": "Shifter",
     "tooltip": [
       "> Shift: Attempt to relocate horizontally up to <C>3 m</> in movement direction, can bypass obstructions, replaces quick melee",
@@ -870,6 +895,21 @@
     "foundations": {
       "type": "body",
       "value": 35
+    }
+  },
+  {
+    "name": "Studied",
+    "tooltip": [
+      "> Additional aerial maneuver charge while using backup weapons",
+      "> Unaffected by Core slowing effects while Core active + using backup weapons",
+      "> <C>200%</> increased Core generation with backup weapons",
+      "> <C>100%</> reduced backup weapon loadout speed penalty",
+      "<B>> Can only use backup weapons + enhancement devices</>",
+      "<B>></> <C>25%</> <B>reduced Core duration</>"
+    ],
+    "foundations": {
+      "type": "body",
+      "value": 40
     }
   },
   {
