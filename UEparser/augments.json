@@ -190,7 +190,8 @@
       "> <C>15%</> increased ground speed while bleeding",
       "> <C>50%</> reduced aux power drain while bleeding",
       "<B>> Primary stim no longer restores vitals + causes bleed if used while not bleeding</>",
-      "<B>></> <C>50%</> <B>increased bleed damage received</>"
+      "<B>></> <C>50%</> <B>increased bleed damage received</>",
+      "<B>> Core activation no longer clears bleed</>"
     ],
     "foundations": {
       "type": "body",
@@ -268,7 +269,7 @@
     "tooltip": [
       "> <C>0-100%</> increased aux power + aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
-      "<B>> Core charge constantly drains</>",
+      "<B>></> <C>0.5-1 /s</> <B>Core charge drain, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>> Can no longer manually activate Core</>"
     ],
     "foundations": {
