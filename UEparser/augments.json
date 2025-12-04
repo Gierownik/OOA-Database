@@ -269,7 +269,7 @@
     "tooltip": [
       "> <C>0-100%</> increased aux power + aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
-      "<B>></> <C>0.5-1 /s</> <B>Core charge drain, scaling proportionally with Core charge from</> <C>0-100</>",
+      "<B>></> <C>0.25-1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>> Can no longer manually activate Core</>"
     ],
     "foundations": {
@@ -765,6 +765,21 @@
     "foundations": {
       "type": "body",
       "value": 40
+    }
+  },
+  {
+    "name": "Pyro-Psycho",
+    "tooltip": [
+      "> <C>85%</> reduced fire damage received, can no longer die from fire damage",
+      "> <C>50%</> increased ground speed + jump height while burning",
+      "> Ignite enemies within <C>3 m</> while burning",
+      "> Ignite nearby surface for <C>3 s</> on roll while burning",
+      "> Snare immunity while burning",
+      "<B>> Burning has infinite duration and is no longer cleared on Core activation</>"
+    ],
+    "foundations": {
+      "type": "body",
+      "value": 45
     }
   },
   {
