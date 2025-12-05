@@ -755,12 +755,12 @@
     "name": "Puncture",
     "tooltip": [
       "> Backup weapons deal piercing damage",
-      "> <C>100%</> increased body impact damage",
+      "> <C>50%</> increased body impact damage",
       "> <C>100%</> of body impact damage received reflected",
       "> <C>25%</> of body impact damage dealt or reflected penetrates defense",
       "> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>",
       "<B>></> <C>25%</> <B>reduced body imact damage on deflections</>",
-      "<B>></> <C>25%</> <B>of body impact damage dealt or received reduces defense + max defense</>"
+      "<B>></> <C>50%</> <B>of body impact damage dealt or received reduces defense + max defense</>"
     ],
     "foundations": {
       "type": "body",
@@ -773,9 +773,10 @@
       "> <C>85%</> reduced fire damage received, can no longer die from fire damage",
       "> <C>50%</> increased ground speed + jump height while burning",
       "> Ignite enemies within <C>3 m</> while burning",
-      "> Ignite nearby surface for <C>3 s</> on roll while burning",
+      "> Ignite nearby surface for <C>3 s</> on roll maneuvers while burning",
       "> Snare immunity while burning",
-      "<B>> Burning has infinite duration and is no longer cleared on Core activation</>"
+      "<B>> Core activation no longer clears burning</>",
+      "<B>> Ignited on roll maneuvers</>"
     ],
     "foundations": {
       "type": "body",

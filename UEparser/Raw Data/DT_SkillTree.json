@@ -1719,8 +1719,8 @@
           {
             "Namespace": "",
             "Key": "4C793BB6432CE261C1C494A90C2BEBE1",
-            "SourceString": "> Backup weapons deal piercing damage\r\n> <C>100%</> increased body impact damage\r\n> <C>100%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or reflected penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>25%</> <B>of body impact damage dealt or received reduces defense + max defense</>",
-            "LocalizedString": "> Backup weapons deal piercing damage\r\n> <C>100%</> increased body impact damage\r\n> <C>100%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or reflected penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>25%</> <B>of body impact damage dealt or received reduces defense + max defense</>"
+            "SourceString": "> Backup weapons deal piercing damage\r\n> <C>50%</> increased body impact damage\r\n> <C>100%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or reflected penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt or received reduces defense + max defense</>",
+            "LocalizedString": "> Backup weapons deal piercing damage\r\n> <C>50%</> increased body impact damage\r\n> <C>100%</> of body impact damage received reflected\r\n> <C>25%</> of body impact damage dealt or reflected penetrates defense\r\n> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body imact damage on deflections</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt or received reduces defense + max defense</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1742,8 +1742,8 @@
           {
             "Namespace": "",
             "Key": "32FAD5534607BCE84D8AE6A50724F35C",
-            "SourceString": "> <C>85%</> reduced fire damage received, can no longer die from fire damage \r\n> <C>50%</> increased ground speed + jump height while burning\r\n> Ignite enemies within <C>3 m</> while burning\r\n> Ignite nearby surface for <C>3 s</> on roll while burning\r\n> Snare immunity while burning\r\n<B>> Burning has infinite duration and is no longer cleared on Core activation</>",
-            "LocalizedString": "> <C>85%</> reduced fire damage received, can no longer die from fire damage \r\n> <C>50%</> increased ground speed + jump height while burning\r\n> Ignite enemies within <C>3 m</> while burning\r\n> Ignite nearby surface for <C>3 s</> on roll while burning\r\n> Snare immunity while burning\r\n<B>> Burning has infinite duration and is no longer cleared on Core activation</>"
+            "SourceString": "> <C>85%</> reduced fire damage received, can no longer die from fire damage \r\n> <C>50%</> increased ground speed + jump height while burning\r\n> Ignite enemies within <C>3 m</> while burning\r\n> Ignite nearby surface for <C>3 s</> on roll maneuvers while burning\r\n> Snare immunity while burning\r\n<B>> Core activation no longer clears burning</>\r\n<B>> Ignited on roll maneuvers</>",
+            "LocalizedString": "> <C>85%</> reduced fire damage received, can no longer die from fire damage \r\n> <C>50%</> increased ground speed + jump height while burning\r\n> Ignite enemies within <C>3 m</> while burning\r\n> Ignite nearby surface for <C>3 s</> on roll maneuvers while burning\r\n> Snare immunity while burning\r\n<B>> Core activation no longer clears burning</>\r\n<B>> Ignited on roll maneuvers</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
