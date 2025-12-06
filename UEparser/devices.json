@@ -87,7 +87,7 @@
     "tooltip": [
       "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack",
       "> Destroys visible or detected devices",
-      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
       "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
     ],
     "experimental": "true",
@@ -99,7 +99,7 @@
       "activation_delay": 0,
       "velocity": 0.0,
       "speed_penalty": 0.15,
-      "hack_cost": 25.0,
+      "hack_cost": 50.0,
       "secondary_action": "false",
       "can_be_disabled": "false"
     },
@@ -113,7 +113,7 @@
     "type": "Neuro-link",
     "tooltip": [
       "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack",
-      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
       "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
     ],
     "experimental": "false",
@@ -125,7 +125,7 @@
       "activation_delay": 0,
       "velocity": 0.0,
       "speed_penalty": 0.15,
-      "hack_cost": 25.0,
+      "hack_cost": 50.0,
       "secondary_action": "false",
       "can_be_disabled": "false"
     },
@@ -167,7 +167,7 @@
     "tooltip": [
       "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack",
       "> Desync: Scrambles radar, detections + targeting systems",
-      "<B>> Requires</> <C>25</> <B>Core charge for scan hack</>",
+      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
       "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
     ],
     "experimental": "false",
@@ -179,7 +179,7 @@
       "activation_delay": 0,
       "velocity": 0.0,
       "speed_penalty": 0.15,
-      "hack_cost": 25.0,
+      "hack_cost": 50.0,
       "secondary_action": "false",
       "can_be_disabled": "false"
     },

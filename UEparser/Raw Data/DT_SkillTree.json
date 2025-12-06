@@ -776,8 +776,8 @@
           {
             "Namespace": "",
             "Key": "221DF40647E0AFA3663C31A69B0D264B",
-            "SourceString": "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link, <C>6 s</> if scan hack\r\n> Devices + explosives of detected enemies are detected to allies\r\n> <C>20%</> reduced hack time of next scan hack for each additional enemy affected by last Neuro-Link\r\n> Immunity to enemy Neuro-Link while scanning, inactive while scan hacking\r\n> Tag enemies on receiving Neuro-Link\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link, <C>6 s</> if scan hack\r\n> Devices + explosives of detected enemies are detected to allies\r\n> <C>20%</> reduced hack time of next scan hack for each additional enemy affected by last Neuro-Link\r\n> Immunity to enemy Neuro-Link while scanning, inactive while scan hacking\r\n> Tag enemies on receiving Neuro-Link\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link, <C>6 s</> if scan hack\r\n> Devices + explosives of detected enemies are detected to allies\r\n> Immunity to enemy Neuro-Link while scanning, inactive while scan hacking\r\n> Tag enemies on receiving Neuro-Link\r\n<B>> </><C>50%</> <B> increased scan hack time</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link, <C>6 s</> if scan hack\r\n> Devices + explosives of detected enemies are detected to allies\r\n> Immunity to enemy Neuro-Link while scanning, inactive while scan hacking\r\n> Tag enemies on receiving Neuro-Link\r\n<B>> </><C>50%</> <B> increased scan hack time</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> Can be disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1581,8 +1581,8 @@
           {
             "Namespace": "",
             "Key": "BB44592340A842DB4451F289EC7F3EF2",
-            "SourceString": "> Scan hack: Neuro-Link devices used while scanning have increased effectiveness\r\n> Can equip black market Neuo-Link devices\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n> <C>25%</> increased scan detection range\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Scan hack: Neuro-Link devices used while scanning have increased effectiveness\r\n> Can equip black market Neuo-Link devices\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n> <C>25%</> increased scan detection range\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Scan hack: Neuro-Link devices used while scanning have increased effectiveness\r\n> Can equip black market Neuo-Link devices\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Scan hack: Neuro-Link devices used while scanning have increased effectiveness\r\n> Can equip black market Neuo-Link devices\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2294,8 +2294,8 @@
           {
             "Namespace": "",
             "Key": "572C6D7C4A9158113E8B308ED4061852",
-            "SourceString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>",
-            "LocalizedString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
+            "SourceString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>",
+            "LocalizedString": "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack\r\n> Destroys visible or detected devices\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2317,8 +2317,8 @@
           {
             "Namespace": "",
             "Key": "0E27AEAA45471B74BF1263AE720A60D5",
-            "SourceString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>",
-            "LocalizedString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
+            "SourceString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>",
+            "LocalizedString": "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2363,8 +2363,8 @@
           {
             "Namespace": "",
             "Key": "D4216E3747F9754121EC098F436631DF",
-            "SourceString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>",
-            "LocalizedString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>25</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
+            "SourceString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>",
+            "LocalizedString": "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack\r\n> Desync: Scrambles radar, detections + targeting systems\r\n<B>> Requires</> <C>50</> <B>Core charge for scan hack</>\r\n<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

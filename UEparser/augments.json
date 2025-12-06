@@ -169,9 +169,9 @@
     "tooltip": [
       "> Enemies are detected to allies for <C>3 s</> on successful Neuro-Link, <C>6 s</> if scan hack",
       "> Devices + explosives of detected enemies are detected to allies",
-      "> <C>20%</> reduced hack time of next scan hack for each additional enemy affected by last Neuro-Link",
       "> Immunity to enemy Neuro-Link while scanning, inactive while scan hacking",
       "> Tag enemies on receiving Neuro-Link",
+      "<B>> </><C>50%</> <B> increased scan hack time</>",
       "<B>> </><C>1</> <B> reduced Shell detections</>",
       "<B>> Can be disabled</>"
     ],
@@ -665,7 +665,6 @@
       "> Can equip black market Neuo-Link devices",
       "> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation",
       "> <C>5</> Core charge returned for each additional enemy affected on successful scan hack",
-      "> <C>25%</> increased scan detection range",
       "<B>> Detected while scan hack active, overrides undetectable</>",
       "<B>></> <C>2 s</> <B>stun on receiving direct damage to head while scanning</>",
       "<B>></> <C>25%</> <B>reduced Core generation</>",
