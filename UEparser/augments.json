@@ -269,7 +269,7 @@
     "tooltip": [
       "> <C>0-100%</> increased aux power + aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
-      "<B>></> <C>0.25-1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>",
+      "<B>></> <C>0.25-4 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>> Can no longer manually activate Core</>"
     ],
     "foundations": {
@@ -772,7 +772,7 @@
       "> <C>85%</> reduced fire damage received, can no longer die from fire damage",
       "> <C>50%</> increased ground speed + jump height while burning",
       "> Ignite enemies within <C>3 m</> while burning",
-      "> Ignite nearby surface for <C>3 s</> on roll maneuvers while burning",
+      "> Ignite nearby surface for <C>3 s</> on roll maneuvers while burning, if enemy within <C>15 m</>",
       "> Snare immunity while burning",
       "<B>> Core activation no longer clears burning</>",
       "<B>> Ignited on roll maneuvers</>"
