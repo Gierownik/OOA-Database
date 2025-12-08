@@ -461,7 +461,7 @@
     "name": "Relocator",
     "type": "Standard",
     "tooltip": [
-      "> Relocate to device location on activation",
+      "> Relocate to device location on activation, removes tagged",
       "> Telefrag targets within <C>1 m</> on relocation",
       "> <C>2 s</> disable to enemies + devices within <C>3 m</> on relocation",
       "> Can attach to surfaces + Shells",
