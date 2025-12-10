@@ -73,7 +73,7 @@
     "name": "Duch",
     "tooltip": [
       ":: <D>Tactical Camouflage</>",
-      "> Reduces visibility, undetectable by proximity devices + targeting systems, <C>50</> additional temporary defense for <C>2 s</> after deactivation, <C>2 s</> cooldown",
+      "> Reduces visibility, undetectable by proximity devices + targeting systems, <C>2 s</> cooldown",
       "> <C>25%</> reduced loadout speed penalty while active",
       "> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics",
       "<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>",
