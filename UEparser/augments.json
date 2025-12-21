@@ -788,7 +788,7 @@
       "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate",
       "> Gain Overkill while vitals below <C>50%</> from enemy damage",
       "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity",
-      "<B>></> <C>75%</> <B>reduced vitals + defense restored from all sources while active</>",
+      "<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while active</>",
       "<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
       "<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>"
@@ -905,7 +905,7 @@
     "name": "Specialist",
     "tooltip": [
       "> Additional weapon mod slot",
-      "> <C>50%</> reduced sidearm or primary weapon handling speed penalties while only sidearms or primary weapons equipped, additional <C>50%</> for <C>5 s</> on visible kill",
+      "> <C>50%</> reduced sidearm or primary weapon handling speed penalties while only sidearms or primary weapons equipped, additional <C>25%</> for <C>5 s</> on visible kill",
       "> <C>25%</> increased sidearm or primary weapon dexterity while only sidearms or primary weapons equipped, additional <C>25%</> for <C>5 s</> on visible kill",
       "<B>> Can only equip</> <C>1</> <B>device</>"
     ],
