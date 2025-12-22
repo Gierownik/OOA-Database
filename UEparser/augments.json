@@ -360,7 +360,7 @@
   {
     "name": "Disengage",
     "tooltip": [
-      "> Automatically relocate to a previous location on death",
+      "> Automatically relocate to a previous location on receiving fatal damage",
       "> <C>50%</> vitals + defense restored on activation",
       "> Removes tagged + clears debuffs on activation",
       "<B>></> <C>50%</> <B>reduced max vitals + defense on activation</>",
@@ -785,13 +785,12 @@
   {
     "name": "Rage Core",
     "tooltip": [
-      "> Gain active Core while vitals below <C>50%</> from enemy damage + visible enemies, <C>10 s</> cooldown on deactivate",
-      "> Gain Overkill while vitals below <C>50%</> from enemy damage",
+      "> Gain Overkill + active Core if enemy damage received while below <C>50%</> vitals, restores <C>1</> vitals on receiving fatal damage, deactivates after <C>5 s</> if no visible enemies, <C>30 s</> cooldown",
       "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity",
       "<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while active</>",
       "<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
-      "<B>></> <C>5/s</> <B>vitals + defense damage while active with no visible enemies</>"
+      "<B>></> <C>5/s</> <B>vitals + defense damage while active</>"
     ],
     "foundations": {
       "type": "tech",
