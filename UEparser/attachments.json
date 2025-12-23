@@ -581,6 +581,7 @@
     "type": "Mod",
     "tooltip": [
       "> Disarm immunity",
+      "> <C>2 s</> disable to enemies on attempted pickup or Nano-wire attach",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
     "technician": "false",
@@ -1218,11 +1219,11 @@
     "name": "Frag Mag",
     "type": "Mod",
     "tooltip": [
-      "> Fragments rounds while aiming",
+      "> Fragments rounds into <C>4</> projectiles",
       "> <C>4</> fragments per shot",
       "> <C>25%</> of base damage per fragment",
-      "<B>></> <C>25%</> <B>reduced far damage range while active</>",
-      "<B>></> <C>0.25x</> <B>reduced headshot damage multiplier while active</>"
+      "<B>></> <C>25%</> <B>reduced far damage range</>",
+      "<B>></> <C>0.25x</> <B>reduced headshot damage multiplier</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1241,13 +1242,14 @@
     "tooltip": [
       "> <C>100%</> reduced damage falloff",
       "> <C>50%</> increased velocity + environment penetration",
-      "> <C>25%</> reduced recoil",
-      "<B>></> <C>0.25 s</> <B>spin up delay</>"
+      "> <C>25%</> reduced recoil, spread + spread gain",
+      "<B>></> <C>0.15 s</> <B>spin up delay</>"
     ],
     "technician": "false",
     "compatibility": [
       "Vigil",
-      "Helix"
+      "Helix",
+      "Double-Tap"
     ],
     "excludes": [],
     "foundations": {
