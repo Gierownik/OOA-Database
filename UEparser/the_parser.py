@@ -470,7 +470,7 @@ for skill_name, shell_data in skill_rows.items():
         aird = 0.5
     elif (shell_name == "Rhino"):
         air = 1
-        aird = 0.5
+        aird = 1
     else:
         defer = 0
         deferd = 0

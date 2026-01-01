@@ -125,7 +125,7 @@
       ":: <D>THERMAL NANO-MESH</>",
       "> <C>50%</> increased fire resistance, fire stat reduction immunity + <C>25%</> defense restored per enemy hit by Backdraft",
       "> <C>0-50%</> increased explosive resistance while hovering, scaling proportionally with speed from <C>0-12 m/s</>",
-      "> <C>0-100%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
+      "> <C>0-50%</> increased defense regeneration + no regeneration delay while hovering or during maneuvers, scaling proportionally with speed from <C>0-12 m/s</>"
     ],
     "stats": {
       "vitals": 100.0,
@@ -148,12 +148,12 @@
     "name": "Rhino",
     "tooltip": [
       ":: <D>RESILIENT MOMENTUM</>",
-      "> <C>25%</> increased knockdown + knockback resistance, increased knockdown force, <C>50%</> reduced fall damage",
-      "> <C>50%</> reduced movement speed penalties while defence above <C>50%</>",
+      "> Knockdown immunity while defence not depleted, <C>50%</> reduced movement speed penalties while defence above <C>50%</>",
+      "> <C>25%</> knockback resistance, <C>50%</> reduced fall damage",
       "> Bolster while Core active: Bleed + knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
       "<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>",
       ":: <D>CONCUSSIVE IMPULSE</>",
-      "> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>3 m</>, <C>5 s</> cooldown",
+      "> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>3 m</>, can knockdown on shoulder barge impact, <C>5 s</> cooldown",
       "> <C>50%</> of damage dealt by Shockwave restored to defense + max defense",
       "> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>",
       "<B>> Can be disabled</>",
@@ -168,9 +168,9 @@
       "defense_regen": 10.0,
       "defense_regen_delay": 3.0,
       "aux_regen": 25.0,
-      "speed": 6.5,
+      "speed": 6.0,
       "aerial_charges": 1,
-      "aerial_charges_regen": 0.5,
+      "aerial_charges_regen": 1,
       "core_speed": 0.7,
       "radar_profile": 25.0
     },
