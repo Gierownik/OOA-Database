@@ -1184,7 +1184,7 @@
       "> <C>50%</> increased damage",
       "> <C>25%</> increased velocity + environment penetration",
       "<B>></> <C>35%</> <B>reduced RPM</>",
-      "<B>></> <C>50</> <B>reduced ammo capacity</>"
+      "<B>></> <C>25</> <B>reduced ammo capacity</>"
     ],
     "technician": "false",
     "compatibility": [

@@ -490,7 +490,7 @@
   {
     "name": "Hardened",
     "tooltip": [
-      "> Activates on receiving vitals damage, restores max vitals after <C>5 s</> from last vitals damage taken, <C>10 s</> cooldown",
+      "> Activates on receiving vitals damage, deactivates + restores max vitals after <C>2 s</> from last vitals damage taken, <C>10 s</> cooldown",
       "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active",
       "<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>",
       "<B>> Can no longer restore max vitals while active</>",
@@ -785,7 +785,7 @@
   {
     "name": "Rage Core",
     "tooltip": [
-      "> Gain Overkill + active Core if enemy damage received while below <C>50%</> vitals, restores <C>1</> vitals on receiving fatal damage, deactivates after <C>5 s</> if no visible enemies, <C>30 s</> cooldown",
+      "> Gain Overkill + active Core if enemy damage received while below <C>50%</> vitals, restores <C>1</> vitals on receiving fatal damage, deactivates after <C>2 s</> if no visible enemies, <C>30 s</> cooldown",
       "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity",
       "<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while active</>",
       "<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
@@ -989,7 +989,7 @@
   {
     "name": "Threat Detection",
     "tooltip": [
-      "> Automatically detect enemies within <C>15 m</> if they have fired a weapon within <C>5 s</>",
+      "> Automatically detect enemies within <C>15 m</> if they have fired a weapon within <C>2 s</>",
       "> Automatically enemy devices within <C>15 m</>",
       "> Countermeasure: Automatically destroys unobstructed enemy device or explosive within <C>5 m</>, <C>30 s</> cooldown",
       "<B>></> <C>50%</> <B>increased radar profile</>",

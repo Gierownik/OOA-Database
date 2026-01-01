@@ -427,7 +427,7 @@
       "spread_ads": "0.5",
       "spread_gain": "0.15",
       "speed_penalty": "1.25",
-      "ammo_capacity": 100,
+      "ammo_capacity": 75,
       "reload_speed": "0.35"
     },
     "foundations": {
