@@ -66,8 +66,8 @@
   {
     "name": "Disable",
     "tooltip": [
-      "<B>> Disables: set augments/devices/projectiles, all forms of detections, radar, terminals, defense and ammo regeneration</>",
-      "<B>> Pauses active device/scan/tag/stim cooldowns for duration</>"
+      "<B>> Disables: set augments/devices/projectiles, all forms of detections, radar, defense and ammo regeneration</>",
+      "<B>> Pauses active device/scan/tag/stim cooldowns and objectives for duration</>"
     ],
     "enhancement": "Stun",
     "enh_tooltip": [
