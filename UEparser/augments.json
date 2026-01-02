@@ -215,8 +215,8 @@
   {
     "name": "Chain Reaction",
     "tooltip": [
-      "> Disable all unobstructed enemies within <C>25 m</> on receiving disable",
-      "> Disable all unobstructed enemies within <C>25 m</> of enemy on applying disable",
+      "> Disable all unobstructed enemies within <C>25 m</> on receiving disable for <C>50%</> of the duration",
+      "> Disable all unobstructed enemies within <C>25 m</> of enemy on applying disable for <C>50%</> of the duration",
       "> <C>5%</> increased direct damage dealt per unobstructed disabled enemy within <C>50 m</>, stacking up to <C>25%</>",
       "<B>></> <C>15%</> <B>increased direct damage received while disabled</>"
     ],
@@ -490,9 +490,9 @@
   {
     "name": "Hardened",
     "tooltip": [
-      "> Activates on receiving vitals damage, deactivates + restores max vitals after <C>2 s</> from last vitals damage taken, <C>10 s</> cooldown",
-      "> <C>25-75%</> reduced direct vitals damage received, scaling proportionally with reduced max vitals from <C>0-75%</> while active",
-      "<B>></> <C>100%</> <B>of vitals damage received reduces max vitals while active</>",
+      "> Activates on receiving vitals damage to body, deactivates + restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown",
+      "> <C>25-75%</> reduced direct vitals damage to body received, scaling proportionally with reduced max vitals from <C>0-75%</> while active",
+      "<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>",
       "<B>> Can no longer restore max vitals while active</>",
       "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>",
       "<B>></> <C>50%</> <B>increased burn damage received</>"
