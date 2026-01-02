@@ -318,7 +318,7 @@
       "category": "Shotguns",
       "firemode": "Chambered",
       "firerate": "200.0",
-      "damage_near": 36.0,
+      "damage_near": 34.0,
       "damage_far": 16.0,
       "range": "5.0 - 50.0",
       "head_mult": "1.25",
