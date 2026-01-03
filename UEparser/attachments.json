@@ -614,7 +614,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>25%</> increased rechamber speed",
-      "<B>></> <C>15%</> <B>increased aim time</>"
+      "<B>></> <C>25%</> <B>increased pellet spread</>"
     ],
     "technician": "false",
     "compatibility": [
