@@ -1110,7 +1110,7 @@
     "tooltip": [
       "> <C>15%</> reduced aim time",
       "> <C>50%</> reduced speed penalty",
-      "<B>></> <C>25%</> <B>increased recoil</>"
+      "<B>></> <C>25%</> <B>increased recoil + spread gain</>"
     ],
     "technician": "false",
     "compatibility": [
