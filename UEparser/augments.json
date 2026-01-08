@@ -94,8 +94,8 @@
   {
     "name": "Augmented Arms",
     "tooltip": [
-      "> Backup weapons primary attack power scales over charge period",
-      "> <C>0-50%</> increased backup weapon power, scaling proportionally while primary attack fully charged for <C>0-1 s</>",
+      "> <C>25%</> increased backup weapon charge speed",
+      "> <C>0-50%</> increased backup weapon power, scaling proportionally while primary attack fully charged for <C>0-0.5 s</>",
       "> <C>25%</> increased device throw velocity",
       "> <C>25%</> reduced firearm recoil + spread gain",
       "<B>> Additional attack charging drains aux power</>",
