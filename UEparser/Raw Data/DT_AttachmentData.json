@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_AttachmentData'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_AttachmentData.0"
+        "ObjectPath": "/Game/Blueprints/Data/STRUCT_AttachmentData"
       }
     },
     "Rows": {
@@ -22,7 +22,8 @@
           "ENUM_WeaponID::NewEnumerator59",
           "ENUM_WeaponID::NewEnumerator57"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 0.0
       },
       "LaserSight": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator48",
@@ -43,7 +44,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "Suppressor": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator49",
@@ -66,7 +68,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "Foregrip": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator50",
@@ -80,7 +83,8 @@
           "ENUM_WeaponID::NewEnumerator52",
           "ENUM_WeaponID::NewEnumerator56"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "SecureGrip": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator51",
@@ -104,7 +108,8 @@
           "ENUM_WeaponID::NewEnumerator59",
           "ENUM_WeaponID::NewEnumerator48"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "TacticalForeGrip": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator52",
@@ -113,7 +118,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator18"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "Auto-Bolt": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator53",
@@ -122,7 +128,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator23"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "HeavyBarrel": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator54",
@@ -141,7 +148,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "LongBarrel": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator55",
@@ -150,7 +158,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator19"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "HighCapacity": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator56",
@@ -166,7 +175,8 @@
           "ENUM_WeaponID::NewEnumerator56",
           "ENUM_WeaponID::NewEnumerator57"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "ExternalMag": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator57",
@@ -176,7 +186,8 @@
           "ENUM_WeaponID::NewEnumerator18",
           "ENUM_WeaponID::NewEnumerator48"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "SpeedLoader": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator58",
@@ -186,7 +197,8 @@
           "ENUM_WeaponID::NewEnumerator1",
           "ENUM_WeaponID::NewEnumerator19"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "AdaptiveChoke": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator59",
@@ -199,7 +211,8 @@
         ],
         "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
           "ENUM_AttachmentID::NewEnumerator77"
-        ]
+        ],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "LightTrigger": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator75",
@@ -212,7 +225,8 @@
         "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
           "ENUM_AttachmentID::NewEnumerator93",
           "ENUM_AttachmentID::NewEnumerator85"
-        ]
+        ],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "AutomaticTrigger": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator76",
@@ -221,7 +235,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator56"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "RifledBarrel": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator77",
@@ -230,14 +245,16 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [],
         "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
           "ENUM_AttachmentID::NewEnumerator59"
-        ]
+        ],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "CQBMount": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator78",
         "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
         "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "IronSights": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator73",
@@ -258,7 +275,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 0.0
       },
       "ReflexSight": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator61",
@@ -279,7 +297,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "2xSight": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator62",
@@ -300,7 +319,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "3xSight": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator63",
@@ -319,7 +339,8 @@
           "ENUM_WeaponID::NewEnumerator52",
           "ENUM_WeaponID::NewEnumerator56"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "4xSight": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator64",
@@ -334,7 +355,8 @@
           "ENUM_WeaponID::NewEnumerator52",
           "ENUM_WeaponID::NewEnumerator1"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "MarksmanSight": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator65",
@@ -345,7 +367,8 @@
           "ENUM_WeaponID::NewEnumerator47",
           "ENUM_WeaponID::NewEnumerator52"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "TargetPainter": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator79",
@@ -368,7 +391,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "2xTRGSight": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator81",
@@ -389,7 +413,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "4xTRGSight": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator82",
@@ -404,7 +429,8 @@
           "ENUM_WeaponID::NewEnumerator52",
           "ENUM_WeaponID::NewEnumerator1"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "PiercingAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator66",
@@ -427,7 +453,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "HeavyAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator67",
@@ -450,7 +477,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "ShredAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator68",
@@ -473,7 +501,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "IncendiaryAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator69",
@@ -496,7 +525,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "EMAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator70",
@@ -519,7 +549,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "CBAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator71",
@@ -542,7 +573,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "T-LockAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator72",
@@ -565,7 +597,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "StandardAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator74",
@@ -588,7 +621,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "TDAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator80",
@@ -611,7 +645,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "ContactCharge": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator83",
@@ -635,7 +670,8 @@
           "ENUM_WeaponID::NewEnumerator59",
           "ENUM_WeaponID::NewEnumerator48"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "BurstTrigger": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator85",
@@ -646,7 +682,8 @@
         ],
         "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
           "ENUM_AttachmentID::NewEnumerator75"
-        ]
+        ],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "ChemAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator84",
@@ -669,7 +706,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "StandardGrenade": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator86",
@@ -678,7 +716,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator48"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "ImpactGrenade": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator87",
@@ -687,7 +726,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator48"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "IncendiaryGrenade": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator88",
@@ -696,7 +736,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator48"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "ProximityGrenade": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator89",
@@ -705,7 +746,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator48"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "GhostfireAmmo": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator96",
@@ -728,7 +770,8 @@
           "ENUM_WeaponID::NewEnumerator57",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "Stabilizer": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator90",
@@ -740,7 +783,8 @@
           "ENUM_WeaponID::NewEnumerator47",
           "ENUM_WeaponID::NewEnumerator52"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "LightweightFrame": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator91",
@@ -764,7 +808,8 @@
           "ENUM_WeaponID::NewEnumerator59",
           "ENUM_WeaponID::NewEnumerator48"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "HVBarrel": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator92",
@@ -773,7 +818,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator48"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "WildfireTrigger": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator93",
@@ -784,7 +830,8 @@
         ],
         "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
           "ENUM_AttachmentID::NewEnumerator75"
-        ]
+        ],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "HeavyReceiver": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator94",
@@ -793,7 +840,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator46"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "HavokCycler": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator95",
@@ -803,7 +851,8 @@
           "ENUM_WeaponID::NewEnumerator17",
           "ENUM_WeaponID::NewEnumerator46"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "FragMag": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator97",
@@ -813,7 +862,8 @@
           "ENUM_WeaponID::NewEnumerator0",
           "ENUM_WeaponID::NewEnumerator47"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "VXAccelerator": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator98",
@@ -824,7 +874,8 @@
           "ENUM_WeaponID::NewEnumerator51",
           "ENUM_WeaponID::NewEnumerator59"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "CrippleGauge": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator99",
@@ -834,7 +885,8 @@
           "ENUM_WeaponID::NewEnumerator19",
           "ENUM_WeaponID::NewEnumerator18"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "Hammer-Head": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator100",
@@ -843,7 +895,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator41"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
       "BRRRTTrigger": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator101",
@@ -852,7 +905,8 @@
         "compatibility_36_7FE0C99C438BD2496CBB7FBF13856D3B": [
           "ENUM_WeaponID::NewEnumerator45"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": []
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       }
     }
   }

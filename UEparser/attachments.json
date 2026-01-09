@@ -559,7 +559,7 @@
     "tooltip": [
       "> <C>50%</> reduced horizontal recoil",
       "> <C>25%</> reduced aim time",
-      "<B>></> <C>0.15 m/s</> <B>increased speed penalty</>"
+      "<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -696,7 +696,7 @@
     "tooltip": [
       "> Increased ammo capacity",
       "<B>></> <C>15%</> <B>increased aim time</>",
-      "<B>></> <C>0.15 m/s</> <B>increased speed penalty</>"
+      "<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1034,7 +1034,7 @@
       "> <C>50-25</> damage with sidearms",
       "> <C>75-25</> damage with primary weapons",
       "> <C>100-25</> damage with heavy weapons",
-      "<B>></> <C>0.25 m/s</> <B>increased speed penalty</>"
+      "<B>></> <C>0.25 m/s</> <B>increased weapon speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1109,7 +1109,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>15%</> reduced aim time",
-      "> <C>50%</> reduced speed penalty",
+      "> <C>50%</> reduced weapon speed penalty",
       "<B>></> <C>25%</> <B>increased recoil + spread gain</>"
     ],
     "technician": "false",
@@ -1142,7 +1142,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>25%</> increased velocity",
-      "<B>></> <C>0.25 m/s</> <B>increased speed penalty</>"
+      "<B>></> <C>0.25 m/s</> <B>increased weapon speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
