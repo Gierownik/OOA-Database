@@ -6,6 +6,7 @@
       "> <C>25%</> increased explosive resistance",
       "> <C>25%</> reduced aux power drain from all sources",
       "> <C>25%</> reduced direct vitals damage received during maneuvers + while using backup weapons",
+      "<B>> Inactive while aux power below</> <C>50%</>",
       ":: <D>SURVIVAL INSTINCT</>",
       "> <C>50%</> increased snare resistance, snare immunity while Core active",
       "> While below <C>25%</> defense: <C>25%</> reduced aux power drain from all sources, <C>25%</> increased acceleration + gain an additional aerial maneuver charge",
@@ -84,6 +85,7 @@
       "> Firearm + backup weapon damage bypass all damage reductions for <C>2 s</> after camouflage deactivation",
       "> <C>0.25x</> additional headshot multiplier with firearms + <C>25%</> increased weapon accuracy for <C>2 s</> after camouflage deactivation",
       "> <C>25%</> increased backup weapon damage + dexterity for <C>2 s</> after camouflage deactivation",
+      "<B>> Can be disabled</>",
       ":: <D>DISRUPTIVE MEASURES</>",
       "> <C>25%</> reduced detectable range + scrambled radar profile while moving with camouflage active",
       "> Surge AOE on camouflage deactivate: Disable enemies + enemy devices within <C>3 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per enemy killed while camouflage inactive",
@@ -159,7 +161,8 @@
       ":: <D>REACTIVE CLADDING</>",
       "<C>100%</> of combined vitals damage received restored to defense during defense regeneration on exceeding <C>25</> total damage, <C>10 s</> cooldown",
       "> <C>25-0%</> reduced direct defense damage received, scaling proportionally with speed from <C>0-8 m/s</>, while not on cooldown",
-      "> <C>50%</> increased explosive resistance"
+      "> <C>50%</> increased explosive resistance",
+      "<B>></> <C>50%</> <B>increased disable duration</>"
     ],
     "stats": {
       "vitals": 150.0,
