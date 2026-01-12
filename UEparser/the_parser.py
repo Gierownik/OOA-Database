@@ -524,7 +524,6 @@ for entry in wep_cat["DisplayNameMap"]:
         spec_output.append({
             "name": spec,
             "tooltip": [
-                f"> <C>15%</> increased dexterity with {spec}",
                 f"> <C>25%</> reduced loadout speed penalty from {spec}",
                 f"> <C>25%</> reduced direct damage received from {spec}"
             ]
@@ -533,7 +532,6 @@ for entry in wep_cat["DisplayNameMap"]:
         spec_output.append({
             "name": spec,
             "tooltip": [
-                f"> <C>15%</> increased dexterity with {spec}",
                 f"> <C>10%</> increased ground speed while using {spec}",
                 f"> <C>25%</> increased aux power regeneration while using {spec}"
             ]
@@ -543,7 +541,6 @@ for entry in wep_cat["DisplayNameMap"]:
             "name": spec,
             "tooltip": [
                 "> <C>100%</> reduced device speed penalties",
-                "> <C>25%</> increased device duration + throw velocity",
                 "> <C>25%</> reduced device cooldowns"
             ]
     })
@@ -559,8 +556,7 @@ for entry in wep_cat["DisplayNameMap"]:
             "name": spec,
             "tooltip": [
                 f"> <C>15%</> increased dexterity with {spec}",
-                f"> <C>100%</> additional reserve ammo for {spec}",
-                f"> <C>100%</> additional reserve ammo for non loadout {spec}"
+                f"> <C>100%</> additional reserve ammo for {spec}"
             ]
     })
         
