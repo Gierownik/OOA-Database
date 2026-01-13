@@ -434,7 +434,7 @@
     "name": "Proximity Mine",
     "type": "Standard",
     "tooltip": [
-      "> Deals <C>125-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation",
+      "> Deals <C>125-50</> explosive damage, knockback to targets within <C>2-5 m</> on activation",
       "> Can attach to surfaces + Shells",
       "> Maximum Efficiency: <C>50%</> reduced activation delay",
       "<B>> Can be disabled</>"

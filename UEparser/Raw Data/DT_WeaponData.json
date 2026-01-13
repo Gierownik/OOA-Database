@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_WeaponData'",
-        "ObjectPath": "/Game/Blueprints/Data/STRUCT_WeaponData"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_WeaponData.0"
       }
     },
     "Rows": {
@@ -17,7 +17,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Fist'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Fist"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Fist.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator5",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator46",
@@ -69,7 +69,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_ThrowingKnife'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_ThrowingKnife"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_ThrowingKnife.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator0",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator46",
@@ -121,7 +121,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Sword'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Sword"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Sword.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator5",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator46",
@@ -173,7 +173,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Fist'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Fist"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Fist.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator5",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator46",
@@ -225,7 +225,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_BaronM9'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_BaronM9"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_BaronM9.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator47",
@@ -277,7 +277,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_JW500'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_JW500"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_JW500.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator47",
@@ -329,7 +329,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Macro10'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Macro10"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Macro10.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator47",
@@ -381,7 +381,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_GK18'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_GK18"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_GK18.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator47",
@@ -433,7 +433,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_TacS9'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_TacS9"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_TacS9.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator47",
@@ -485,7 +485,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Cerberus'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Cerberus"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Cerberus.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator47",
@@ -504,7 +504,7 @@
         "launchAngle_132_0BC82EC84C473C712FBFEF8AD323A265": 0.0,
         "damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE": {
           "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 40.0,
-          "DamageFar_31_9A92287545630DA083AAA18D6F6D52B2": 12.0,
+          "DamageFar_31_9A92287545630DA083AAA18D6F6D52B2": 10.0,
           "RangeNear_32_7051C33A45ED3E81881748AF79D60E71": 5.0,
           "RangeFar_33_9FC06C8A49BBBCDC074BDEBAF8F978BB": 50.0,
           "HeadMultiplier_18_6AC23285474D12C7B9B9C9B43C915FE8": 1.25,
@@ -537,7 +537,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Hunter870'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Hunter870"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Hunter870.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
@@ -555,8 +555,8 @@
         "projectile_106_A99689EF453B8C77EBEDC4B0BD7EBF3A": null,
         "launchAngle_132_0BC82EC84C473C712FBFEF8AD323A265": 0.0,
         "damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE": {
-          "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 34.0,
-          "DamageFar_31_9A92287545630DA083AAA18D6F6D52B2": 16.0,
+          "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 35.0,
+          "DamageFar_31_9A92287545630DA083AAA18D6F6D52B2": 15.0,
           "RangeNear_32_7051C33A45ED3E81881748AF79D60E71": 5.0,
           "RangeFar_33_9FC06C8A49BBBCDC074BDEBAF8F978BB": 50.0,
           "HeadMultiplier_18_6AC23285474D12C7B9B9C9B43C915FE8": 1.25,
@@ -589,7 +589,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_MPS5'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_MPS5"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_MPS5.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
@@ -641,7 +641,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Cobra74'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Cobra74"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Cobra74.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
@@ -693,7 +693,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_M249'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_M249"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_M249.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
@@ -745,7 +745,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_PrecisionMR'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_PrecisionMR"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_PrecisionMR.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
@@ -797,7 +797,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Rutger14'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Rutger14"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Rutger14.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
@@ -849,7 +849,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_GNSabre'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_GNSabre"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_GNSabre.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
@@ -901,7 +901,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_BR'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_BR"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_BR.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
@@ -953,12 +953,12 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_MAS12'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_MAS12"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_MAS12.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
         "specialisation_168_45CB73F443BFECF1A75A4ABAD13BEB27": "ENUM_Specialisation::NewEnumerator2",
-        "fireMode_27_09F1BA2744EAF4289A2295991B702E2A": "ENUM_FireMode::NewEnumerator0",
+        "fireMode_27_09F1BA2744EAF4289A2295991B702E2A": "ENUM_FireMode::NewEnumerator1",
         "burstCount_125_4B49DFE84C24E8AA5A63B7B6983618D1": 0,
         "burstDelay_152_D2A7BF0742680DCB3E9BE381C99B9BFC": 0.0,
         "spinsUp_111_565FD9604DBAB5812B665E89B3A0FD15": false,
@@ -971,8 +971,8 @@
         "projectile_106_A99689EF453B8C77EBEDC4B0BD7EBF3A": null,
         "launchAngle_132_0BC82EC84C473C712FBFEF8AD323A265": 0.0,
         "damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE": {
-          "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 24.0,
-          "DamageFar_31_9A92287545630DA083AAA18D6F6D52B2": 12.0,
+          "DamageNear_28_C0ECF144455E9C9F13D929A6E1A9FA6C": 20.0,
+          "DamageFar_31_9A92287545630DA083AAA18D6F6D52B2": 10.0,
           "RangeNear_32_7051C33A45ED3E81881748AF79D60E71": 5.0,
           "RangeFar_33_9FC06C8A49BBBCDC074BDEBAF8F978BB": 50.0,
           "HeadMultiplier_18_6AC23285474D12C7B9B9C9B43C915FE8": 1.25,
@@ -1005,7 +1005,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator0",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Thumper'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Thumper"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Thumper.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator6",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator48",
@@ -1022,7 +1022,7 @@
         "ammoType_97_2B58827F4C18F7B2652A41AA43A96E08": "ENUM_AmmoType::NewEnumerator23",
         "projectile_106_A99689EF453B8C77EBEDC4B0BD7EBF3A": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_GL_C'",
-          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_GL"
+          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_GL.20"
         },
         "launchAngle_132_0BC82EC84C473C712FBFEF8AD323A265": 5.0,
         "damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE": {
@@ -1060,7 +1060,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator19",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_Matrix202'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Matrix202"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_Matrix202.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator6",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator50",
@@ -1077,7 +1077,7 @@
         "ammoType_97_2B58827F4C18F7B2652A41AA43A96E08": "ENUM_AmmoType::NewEnumerator20",
         "projectile_106_A99689EF453B8C77EBEDC4B0BD7EBF3A": {
           "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Rocket_C'",
-          "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Rocket"
+          "ObjectPath": "OutOfAction/Content/Blueprints/Projectiles/BP_Projectile_Rocket.9"
         },
         "launchAngle_132_0BC82EC84C473C712FBFEF8AD323A265": 0.0,
         "damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE": {
@@ -1115,7 +1115,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator19",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_X61Hailstorm'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_X61Hailstorm"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_X61Hailstorm.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator50",
@@ -1167,7 +1167,7 @@
         "prerequisite_155_9461F6504C328E4B4AEEC9B45F7587A4": "ENUM_PerkID::NewEnumerator19",
         "HUDIcon_67_2EAF13D448187F7AD66C728A539F0535": {
           "ObjectName": "Texture2D'UI_M60'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_M60"
+          "ObjectPath": "OutOfAction/Content/UI/Prototype/Textures/UI_M60.0"
         },
         "weaponType_102_E4C578194AC51213999B4A84CEAB7C32": "ENUM_WeaponType::NewEnumerator1",
         "weaponClass_103_A033AA0D4A67345BE9F09089017236C0": "ENUM_WeaponClass::NewEnumerator50",

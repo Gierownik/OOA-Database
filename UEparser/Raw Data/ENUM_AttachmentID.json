@@ -181,8 +181,8 @@
           "Value": {
             "Namespace": "",
             "Key": "67C0B2C44A858DBC206E17A3EA690755",
-            "SourceString": "Auto-Bolt",
-            "LocalizedString": "Auto-Bolt"
+            "SourceString": "Quick Bolt",
+            "LocalizedString": "Quick Bolt"
           }
         },
         {
@@ -271,8 +271,8 @@
           "Value": {
             "Namespace": "",
             "Key": "D40A0B86418ED0D1961ED693C19B1CAC",
-            "SourceString": "Automatic Trigger",
-            "LocalizedString": "Automatic Trigger"
+            "SourceString": "Vortex Receiver",
+            "LocalizedString": "Vortex Receiver"
           }
         },
         {

@@ -613,7 +613,7 @@
     "name": "Tactical Foregrip",
     "type": "Mod",
     "tooltip": [
-      "> <C>25%</> increased rechamber speed",
+      "> <C>15%</> increased rechamber speed",
       "<B>></> <C>25%</> <B>increased pellet spread</>"
     ],
     "technician": "false",
@@ -627,10 +627,10 @@
     }
   },
   {
-    "name": "Auto-Bolt",
+    "name": "Quick Bolt",
     "type": "Mod",
     "tooltip": [
-      "> <C>25%</> increased rechamber speed",
+      "> <C>15%</> increased rechamber speed",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
     "technician": "false",
@@ -1007,13 +1007,13 @@
     }
   },
   {
-    "name": "Automatic Trigger",
+    "name": "Vortex Receiver",
     "type": "Mod",
     "tooltip": [
-      "> Converts to automatic",
-      "> <C>20%</> increased RPM",
-      "<B>></> <C>25%</> <B>reduced damage</>",
-      "<B>></> <C>50%</> <B>increased recoil + spread gain</>"
+      "> <C>25%</> increased RPM",
+      "<B>></> <C>50%</> <B>increased pellet spread</>",
+      "<B>></> <C>100%</> <B>increased recoil</>",
+      "<B>> reduced ammo capacity</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1021,7 +1021,7 @@
     ],
     "excludes": [],
     "foundations": {
-      "type": "hardware",
+      "type": "tech",
       "value": 35
     }
   },

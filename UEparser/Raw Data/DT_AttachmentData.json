@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_AttachmentData'",
-        "ObjectPath": "/Game/Blueprints/Data/STRUCT_AttachmentData"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_AttachmentData.0"
       }
     },
     "Rows": {
@@ -121,7 +121,7 @@
         "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
         "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
-      "Auto-Bolt": {
+      "QuickBolt": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator53",
         "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
         "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
@@ -228,7 +228,7 @@
         ],
         "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
       },
-      "AutomaticTrigger": {
+      "VortexReceiver": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator76",
         "prerequisite_31_9E031D3947A4AAB38FE902B8AC2E19FD": "ENUM_PerkID::NewEnumerator0",
         "type_23_AEC1445A44E4B924DED2AABCBB869556": "ENUM_AttachmentType::NewEnumerator2",
