@@ -1011,7 +1011,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>25%</> increased RPM",
-      "<B>></> <C>50%</> <B>increased pellet spread</>",
+      "<B>></> <C>20%</> <B>increased pellet spread per shot with automatic fire, up to</> <C>100%</>",
       "<B>></> <C>100%</> <B>increased recoil</>",
       "<B>> reduced ammo capacity</>"
     ],
