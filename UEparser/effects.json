@@ -123,7 +123,7 @@
   {
     "name": "Shroud",
     "tooltip": [
-      "> Immunity to: radar, detections, thermals, locks"
+      "> Immunity to: radar, detections, targeting optics, locks"
     ],
     "enhancement": "None",
     "enh_tooltip": []
@@ -132,7 +132,7 @@
     "name": "Snare",
     "tooltip": [
       "<B>> <C>50%</> reduced ground speed</>",
-      "<B>> <C>20 / 0.25s</> AUX drain</>"
+      "<B>> <C>80/s</> AUX drain</>"
     ],
     "enhancement": "Cripple",
     "enh_tooltip": [
