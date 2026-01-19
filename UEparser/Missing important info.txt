@@ -1,4 +1,4 @@
 Cerberus pellet spread: 6
 MK pellet spread: 3
-Typhon pellet spread: 2.5
+Typhon pellet spread: 3.5
 Friendly fire deals 50% of the damage
