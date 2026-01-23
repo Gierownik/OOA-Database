@@ -203,7 +203,7 @@
       "aim_time": "0.225",
       "spread_hip": "2.0",
       "spread_ads": "0.75",
-      "spread_gain": "0.3",
+      "spread_gain": "0.25",
       "speed_penalty": "0.3",
       "ammo_capacity": 30,
       "reload_speed": "1.0"
@@ -334,7 +334,7 @@
       "speed_penalty": "0.65",
       "ammo_capacity": 8,
       "reload_speed": "1.0",
-      "rechamber_duration": "0.65",
+      "rechamber_duration": "0.53",
       "one_by_one_reload": "true"
     },
     "foundations": {
@@ -461,7 +461,7 @@
       "spinup": "0.15s",
       "ammo_capacity": 5,
       "reload_speed": "0.65",
-      "rechamber_duration": "1.25"
+      "rechamber_duration": "1.1"
     },
     "foundations": {
       "type": "hardware",
