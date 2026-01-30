@@ -75,7 +75,7 @@
     "tooltip": [
       ":: <D>TACTICAL CAMOUFLAGE</>",
       "> Reduces visibility, undetectable by proximity devices + targeting systems, <C>2 s</> cooldown",
-      "> <C>25%</> reduced loadout speed penalty while active",
+      "> <C>25%</> reduced loadout speed penalty + tag duration while active",
       "> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics",
       "<B>></> <C>2 s</> <B>stun on taking direct damage while Deep Camouflage active</>",
       "<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>",

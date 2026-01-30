@@ -165,7 +165,7 @@
     "name": "Desync",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per addtional enemy, duration increased by <C>25%</> per addtional enemy if scan hack",
+      "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy, duration increased by <C>25%</> per additional enemy if scan hack",
       "> Desync: Scrambles radar, detections + targeting systems",
       "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
       "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"

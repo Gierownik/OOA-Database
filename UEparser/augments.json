@@ -992,7 +992,7 @@
     "name": "Threat Detection",
     "tooltip": [
       "> Automatically detect enemies within <C>15 m</> if they have fired a weapon within <C>2 s</>",
-      "> Automatically enemy devices within <C>15 m</>",
+      "> Automatically detect enemy devices within <C>15 m</>",
       "> Countermeasure: Automatically destroys unobstructed enemy device or explosive within <C>5 m</>, <C>30 s</> cooldown",
       "<B>></> <C>50%</> <B>increased radar profile</>",
       "<B>> Visible on radar while stationary</>",
@@ -1010,7 +1010,7 @@
       "> Relocate to enemy location on visible or detected kill from direct damage, removes tagged, <C>5 s</> cooldown",
       "> Disguise as enemy on activation, appearing as an ally on enemy HUD and radar",
       "<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while disguised</>",
-      "<B>> Disguise removed on dealing + receiving visible direct damage from enemies</>",
+      "<B>> Disguise removed on visible facing enemy within</> <C>5 m</><B>, dealing direct damage to visible enemy or receiving direct damage from enemy</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {

@@ -398,7 +398,7 @@
         "action_57_9ACD9FD14A212852B1FFB8BB602B1D47": "ENUM_DeviceAction::NewEnumerator0",
         "type_71_B5593B1E4585F61965634483AEF654CF": "ENUM_DeviceType::NewEnumerator0",
         "triggered_60_01E8E00C460DB929F1148DA9C2CC07B7": false,
-        "cooldown_11_D555013643FE6003564BDCBE2F66D6AD": 1.0,
+        "cooldown_11_D555013643FE6003564BDCBE2F66D6AD": 5.0,
         "duration_19_CADCF2D5460AE568CE1A9A8875DBE004": 120.0,
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
@@ -410,10 +410,10 @@
           "ObjectPath": "/Game/Characters/Animation/Test/Toss_Grenade_Montage"
         },
         "projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6": {
-          "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Rocket_C'",
+          "ObjectName": "BlueprintGeneratedClass'BP_Projectile_Anchor_C'",
           "ObjectPath": "/Game/Blueprints/Projectiles/BP_Projectile_Anchor"
         },
-        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 1.0,
+        "speedModifier_42_3066E3D040DBA54CFDD276B41E8CC316": 15.0,
         "reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1": true,
         "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
