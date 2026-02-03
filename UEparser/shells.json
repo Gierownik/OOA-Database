@@ -116,7 +116,7 @@
       "> Enhanced Dodge, Dive + climbing, Air Dive replaced with Air Dash: Launch rapidly in movement direction, can knockback + knockdown",
       "> Ground Slam maneuver: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive + fire damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, <C>10 s</> cooldown",
       "<B>> Deactivates if aux power fully depleted or Ground Slam impacts</>",
-      "<B>> Boosting drains aux power</>",
+      "<B>>  </><C>50%</> <B>reduced aux regeneration while hovering, boosting drains aux power</>",
       "<B>> Can be disabled</>",
       ":: <D>SCORCH HAZARD</>",
       "> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>3 m</> for <C>25</> fire damage, <C>5 s</> cooldown",
