@@ -1282,7 +1282,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>200%</> increased damage every <C>4th</> shot",
-      "<B>></> <C>200%</> <B>increased vertical recoil every</> <C>4th</> <B>shot</>",
+      "<B>></> <C>200%</> <B>increased vertical recoil + spread gain every</> <C>4th</> <B>shot</>",
       "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>25%</> <B>increased spread gain</>"
     ],

@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Specialisations",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'STRUCT_Specialisations'",
+        "ObjectPath": "/Game/Blueprints/Player/STRUCT_Specialisations"
+      }
+    },
+    "Rows": {
+      "Handguns": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator0",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 3,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 1,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "F9BF3CD74EFC3DF6236CDBB1C65B07AE",
+          "SourceString": "> <C>10%</> of direct damage dealt with handguns restored to aux power\r\n> <C>100%</> additional base reserve ammo for handguns",
+          "LocalizedString": "> <C>10%</> of direct damage dealt with handguns restored to aux power\r\n> <C>100%</> additional base reserve ammo for handguns"
+        }
+      },
+      "SmallArms": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator1",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 3,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 1,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "E064D8CC49F8A4E7AEDD3B82A9943207",
+          "SourceString": "> <C>5%</> reduced spread + spread gain with small arms per direct kill, up to <C>50%</>\r\n> <C>100%</> additional base reserve ammo for small arms",
+          "LocalizedString": "> <C>5%</> reduced spread + spread gain with small arms per direct kill, up to <C>50%</>\r\n> <C>100%</> additional base reserve ammo for small arms"
+        }
+      },
+      "Shotguns": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator2",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 3,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 1,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "1D9457FF4A90858EA69290A33786E92A",
+          "SourceString": "> <C>100%</> damage reduction bypass with shotguns to crippled, stunned or knocked down enemies\r\n> <C>100%</> additional base reserve ammo for shotguns",
+          "LocalizedString": "> <C>100%</> damage reduction bypass with shotguns to crippled, stunned or knocked down enemies\r\n> <C>100%</> additional base reserve ammo for shotguns"
+        }
+      },
+      "AssaultWeapons": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator3",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 3,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 1,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "B511D18947A3DCD1A314B1B7A7B1CBD0",
+          "SourceString": "> <C>50%</> reduced horizontal recoil on follow up shots with assault weapon when dealing direct torso damage\r\n> <C>100%</> additional base reserve ammo for assault weapons",
+          "LocalizedString": "> <C>50%</> reduced horizontal recoil on follow up shots with assault weapon when dealing direct torso damage\r\n> <C>100%</> additional base reserve ammo for assault weapons"
+        }
+      },
+      "SupportWeapons": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator4",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 2,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 1,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "9CC272F34E52DF17CD9E1F9ECB258DFB",
+          "SourceString": "> <C>200%</> increased reserve ammo regeneration to loadout support weapons for <C>10 s</> on kill\r\n> <C>100%</> additional base reserve ammo for support weapons",
+          "LocalizedString": "> <C>200%</> increased reserve ammo regeneration to loadout support weapons for <C>10 s</> on kill\r\n> <C>100%</> additional base reserve ammo for support weapons"
+        }
+      },
+      "PrecisionWeapons": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator5",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 2,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 1,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "A40A18AA48DB324FE687A4967448F8C0",
+          "SourceString": "> <C>0.25x</> additional limb damage multiplier with precision weapons to targets over <C>35 m</>\r\n> <C>100%</> additional base reserve ammo for precision weapons",
+          "LocalizedString": "> <C>0.25x</> additional limb damage multiplier with precision weapons to targets over <C>35 m</>\r\n> <C>100%</> additional base reserve ammo for precision weapons"
+        }
+      },
+      "HeavyWeapons": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator6",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 2,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 1,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "F4D2F6A347C3313DB9DFB6B7651F5D0C",
+          "SourceString": "> <C>25%</> reduced loadout speed penalty from heavy weapons\r\n> <C>25%</> reduced direct damage received from heavy weapons",
+          "LocalizedString": "> <C>25%</> reduced loadout speed penalty from heavy weapons\r\n> <C>25%</> reduced direct damage received from heavy weapons"
+        }
+      },
+      "MeleeWeapons": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator7",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 3,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 1,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "DD41D00F4D77A41264353C89ACF8F57A",
+          "SourceString": "> <C>15%</> increased ground speed with melee weapons\r\n> <C>25%</> increased aux power regeneration with melee weapons",
+          "LocalizedString": "> <C>15%</> increased ground speed with melee weapons\r\n> <C>25%</> increased aux power regeneration with melee weapons"
+        }
+      },
+      "Shells": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator9",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 5,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 4,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "5E3CFE1E40277B4D51BDD2997E4AC8E7",
+          "SourceString": "> Activates after killing an enemy: \r\n\r\n<D>BISON</>\r\n> <C>50%</> increased weapon accuracy, <C>25%</> increased speed + dexterity,  for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown\r\n\r\n<D>HYDRA</>\r\n> Gain an Adrenal Feedback stack every <C>20 s</>, stacking up to <C>5</> times\r\n\r\n<D>DRAGON</>\r\n> Backdraft + Ground Slam deal <C>25%</> increased fire damage + apply combust\r\n\r\n<D>RHINO</>\r\n> Shockwave gains <C>50%</> increased debuff duration, increased knockback force, applies stun + cripple\r\n\r\n<D>GHOST</>\r\n>Hip firing supressed firearms, throwing devices + interactions no longer deactivate camouflage",
+          "LocalizedString": "> Activates after killing an enemy: \r\n\r\n<D>BISON</>\r\n> <C>50%</> increased weapon accuracy, <C>25%</> increased speed + dexterity,  for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown\r\n\r\n<D>HYDRA</>\r\n> Gain an Adrenal Feedback stack every <C>20 s</>, stacking up to <C>5</> times\r\n\r\n<D>DRAGON</>\r\n> Backdraft + Ground Slam deal <C>25%</> increased fire damage + apply combust\r\n\r\n<D>RHINO</>\r\n> Shockwave gains <C>50%</> increased debuff duration, increased knockback force, applies stun + cripple\r\n\r\n<D>GHOST</>\r\n>Hip firing supressed firearms, throwing devices + interactions no longer deactivate camouflage"
+        }
+      },
+      "Devices": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator12",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 10,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 2,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "5A76A0274432600C1C0A0E8165CDE31C",
+          "SourceString": "> <C>25%</> reduced device cooldowns\r\n> <C>50%</> reduced device speed penalties",
+          "LocalizedString": "> <C>25%</> reduced device cooldowns\r\n> <C>50%</> reduced device speed penalties"
+        }
+      },
+      "Augments": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator13",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 10,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 3,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "0A6BDF544D43E36BD893DA88E3CD3A62",
+          "SourceString": "> <C>25%</> reduced augment cooldowns\r\n> All augments can be equipped into slots <C>3</> + <C>4</>",
+          "LocalizedString": "> <C>25%</> reduced augment cooldowns\r\n> All augments can be equipped into slots <C>3</> + <C>4</>"
+        }
+      },
+      "Attachments": {
+        "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator14",
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 10,
+        "cost_8_5B4836574A1EA39CC4B7C19094365F68": 2,
+        "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
+          "Namespace": "",
+          "Key": "EE71E785462F9D262A1079815EC8B3D8",
+          "SourceString": "> Additional weapon mod slot\r\n> <C>100%</> reduced attachment speed penalties",
+          "LocalizedString": "> Additional weapon mod slot\r\n> <C>100%</> reduced attachment speed penalties"
+        }
+      }
+    }
+  }
+]

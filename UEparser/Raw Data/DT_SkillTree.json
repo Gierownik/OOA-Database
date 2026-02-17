@@ -2156,8 +2156,8 @@
           {
             "Namespace": "",
             "Key": "A7B1623149DADA2ECAB8CC9D2EE77FBD",
-            "SourceString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>25-75</> vital damage to all enemies within <C>5 m</>, scaling proportionally with Core charge from <C>0-100</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> Core failure after</> <C>5 s</> <B>on Core activation, drain or attempted enemy disable while Core fully charged, Core can be vented by Core Activation or killing an enemy</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>",
-            "LocalizedString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>25-75</> vital damage to all enemies within <C>5 m</>, scaling proportionally with Core charge from <C>0-100</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> Core failure after</> <C>5 s</> <B>on Core activation, drain or attempted enemy disable while Core fully charged, Core can be vented by Core Activation or killing an enemy</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>"
+            "SourceString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback + knockdown to all enemies within <C>2-4 m</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> While Core fully charged: Core failure initiates after</> <C>30 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on Core Activation, Core charge drain, or enemy disable attempt. Failure can be vented by Core activation or visible enemy kill</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>",
+            "LocalizedString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback + knockdown to all enemies within <C>2-4 m</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> While Core fully charged: Core failure initiates after</> <C>30 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on Core Activation, Core charge drain, or enemy disable attempt. Failure can be vented by Core activation or visible enemy kill</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3858,8 +3858,8 @@
           {
             "Namespace": "",
             "Key": "CE61E2904C8BDDAD9E1A889ED96D545B",
-            "SourceString": "> <C>200%</> increased damage every <C>4th</> shot\r\n<B>></> <C>200%</> <B>increased vertical recoil every</> <C>4th</> <B>shot</>\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>",
-            "LocalizedString": "> <C>200%</> increased damage every <C>4th</> shot\r\n<B>></> <C>200%</> <B>increased vertical recoil every</> <C>4th</> <B>shot</>\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>"
+            "SourceString": "> <C>200%</> increased damage every <C>4th</> shot\r\n<B>></> <C>200%</> <B>increased vertical recoil + spread gain every</> <C>4th</> <B>shot</>\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>",
+            "LocalizedString": "> <C>200%</> increased damage every <C>4th</> shot\r\n<B>></> <C>200%</> <B>increased vertical recoil + spread gain every</> <C>4th</> <B>shot</>\r\n<B>></> <C>25%</> <B>reduced damage</>\r\n<B>></> <C>25%</> <B>increased spread gain</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

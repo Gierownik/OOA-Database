@@ -809,7 +809,7 @@
           "ENUM_WeaponID::NewEnumerator48"
         ],
         "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
-        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 5.0
+        "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 0.0
       },
       "HVBarrel": {
         "ID_14_5B30682B4B0B4EA97E7BAEA43DC1FE33": "ENUM_AttachmentID::NewEnumerator92",
