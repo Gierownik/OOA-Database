@@ -440,30 +440,63 @@ def parse_single_shell_spec(shell_name, shells_tooltip_text):
         "hardware": ""
     }
     
-    # Find the section for this specific shell
-    # Pattern: <D>shell_name</> ... until next <D> or end
-    pattern = rf'<D>{re.escape(shell_name)}<\/>(.*?)(?=<D>|$)'
-    match = re.search(pattern, shells_tooltip_text, re.DOTALL)
-    
-    if not match:
+    if not shells_tooltip_text:
         return spec_data
     
-    shell_section = match.group(1)
+    shell_section = None
     
-    # Now extract F1, F2, F3 from this section
-    # F1 is body, F2 is tech, F3 is hardware
-    f_pattern = r'<F([1-3])>>([^<]*)<\/>'
-    f_matches = re.findall(f_pattern, shell_section)
+    # Try to find the section for this specific shell
+    # First, try exact match with the shell name (case-insensitive)
+    pattern = rf'<D>{re.escape(shell_name)}<\/>(.*?)(?=<D>|$)'
+    match = re.search(pattern, shells_tooltip_text, re.DOTALL | re.IGNORECASE)
+    
+    if match:
+        shell_section = match.group(1)
+    else:
+        # If no exact match, try to find where shell_name appears in <D> tags
+        d_pattern = r'<D>([^<]+)<\/>'
+        d_matches = re.finditer(d_pattern, shells_tooltip_text)
+        for d_match in d_matches:
+            marker_name = d_match.group(1).strip()
+            # Check if this marker is the shell we're looking for
+            if marker_name.lower() == shell_name.lower() or marker_name.lower().endswith(shell_name.lower()):
+                # Found it, now find content until next <D> or end
+                start_pos = d_match.end()
+                next_d = shells_tooltip_text.find('<D>', start_pos)
+                if next_d == -1:
+                    shell_section = shells_tooltip_text[start_pos:]
+                else:
+                    shell_section = shells_tooltip_text[start_pos:next_d]
+                break
+    
+    if not shell_section:
+        return spec_data
+    
+    # Extract F1, F2, F3 sections
+    # Pattern: <F#>> text until <F or next section or end
+    f_pattern = r'<F([1-3])>>(.*?)(?=<F[1-3]>>|$)'
+    f_matches = re.findall(f_pattern, shell_section, re.DOTALL)
     
     for f_num, content in f_matches:
         f_num = int(f_num)
-        # Content might be like "Name: Description"
+        content = content.strip()
+        
+        # Extract name (text before first colon) and description (rest)
+        name = ""
+        desc = ""
+        
         if ':' in content:
-            name, desc = content.split(':', 1)
-            name = name.strip()
-            desc = desc.strip()
+            # Find the colon position
+            colon_idx = content.find(':')
+            name_part = content[:colon_idx].strip()
+            desc_part = content[colon_idx + 1:].strip()
+            
+            # Clean up the name part (remove tags)
+            name = re.sub(r'<[^>]*>', '', name_part).strip()
+            # For description, remove the closing </> and keep the rest
+            desc = re.sub(r'^[^<]*<\/>\s*', '', desc_part).strip()
         else:
-            name = content.strip()
+            name = re.sub(r'<[^>]*>', '', content).strip()
             desc = ""
         
         if f_num == 1:  # body
