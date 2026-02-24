@@ -28,6 +28,8 @@ with open(r"Raw Data\ENUM_FireMode.json", "r", encoding="utf-8") as f:
     weapon_mode = json.load(f)
 with open(r"Raw Data\DT_ProjectileData.json", "r", encoding="utf-8") as f:
     projectile_data = json.load(f)
+with open(r"Raw Data\DT_Specialisations.json", "r", encoding="utf-8") as f:
+    specialisation_data = json.load(f)
 #-----------------------------------------------------------------------------Tactical ForeGripper fix-----------------------------------------------
 
 for item in attachment_data:
@@ -427,6 +429,62 @@ with open("attachments.json", "w", encoding="utf-8") as out_file:
     json.dump(attachment_output, out_file, indent=2, ensure_ascii=False)
 print("Mod database shit workin")
 #-------------------------------------------------------------------Shellfish----------------------
+def parse_single_shell_spec(shell_name, shells_tooltip_text):
+    """Extract spec data for a single shell from the shells specialization tooltip"""
+    spec_data = {
+        "body_name": "",
+        "body": "",
+        "tech_name": "",
+        "tech": "",
+        "hardware_name": "",
+        "hardware": ""
+    }
+    
+    # Find the section for this specific shell
+    # Pattern: <D>shell_name</> ... until next <D> or end
+    pattern = rf'<D>{re.escape(shell_name)}<\/>(.*?)(?=<D>|$)'
+    match = re.search(pattern, shells_tooltip_text, re.DOTALL)
+    
+    if not match:
+        return spec_data
+    
+    shell_section = match.group(1)
+    
+    # Now extract F1, F2, F3 from this section
+    # F1 is body, F2 is tech, F3 is hardware
+    f_pattern = r'<F([1-3])>>([^<]*)<\/>'
+    f_matches = re.findall(f_pattern, shell_section)
+    
+    for f_num, content in f_matches:
+        f_num = int(f_num)
+        # Content might be like "Name: Description"
+        if ':' in content:
+            name, desc = content.split(':', 1)
+            name = name.strip()
+            desc = desc.strip()
+        else:
+            name = content.strip()
+            desc = ""
+        
+        if f_num == 1:  # body
+            spec_data["body_name"] = name
+            spec_data["body"] = desc
+        elif f_num == 2:  # tech
+            spec_data["tech_name"] = name
+            spec_data["tech"] = desc
+        elif f_num == 3:  # hardware
+            spec_data["hardware_name"] = name
+            spec_data["hardware"] = desc
+    
+    return spec_data
+
+# Get shells specialization tooltip for later use
+shells_spec_tooltip = ""
+if specialisation_data and len(specialisation_data) > 0:
+    spec_rows = specialisation_data[0].get("Rows", {})
+    if "Shells" in spec_rows:
+        shells_spec_tooltip = spec_rows["Shells"].get("tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1", {}).get("LocalizedString", "")
+
 shell_output = []
 
 for skill_name, shell_data in skill_rows.items():
@@ -487,6 +545,9 @@ for skill_name, shell_data in skill_rows.items():
     else:
         found_type = "other"
     req = shell_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
+    
+    # Parse spec data for this specific shell
+    spec_data = parse_single_shell_spec(shell_name, shells_spec_tooltip)
 
     shell_output.append({
         "name": shell_name,
@@ -506,60 +567,126 @@ for skill_name, shell_data in skill_rows.items():
         "foundations": {
             "type": found_type,
             "value": req
-        }
+        },
+        "spec": spec_data
     })
 
 with open("shells.json", "w", encoding="utf-8") as out_file:
     json.dump(shell_output, out_file, indent=2, ensure_ascii=False)
 print("Shell database shit workin n faked")
-#----------------------------------------------------------faking toolips baybeeeeee-------------------------------
+#----------------------------------------------------------Parsing specialisations properly-------------------------------
+def parse_shell_specs(tooltip_text):
+    """Parse shell specialization tooltips to extract foundation abilities"""
+    spec_data = {
+        "body_name": "",
+        "body": "",
+        "tech_name": "",
+        "tech": "",
+        "hardware_name": "",
+        "hardware": ""
+    }
+    
+    # Split by shell names marked with <D>...</>
+    shells_pattern = r'<D>([^<]+)<\/>'
+    shell_matches = list(re.finditer(shells_pattern, tooltip_text))
+    
+    if not shell_matches:
+        return spec_data
+    
+    # Get the full text and search for F1, F2, F3 patterns
+    f1_pattern = r'<F1>>([^:]+):\s*<\/>'
+    f2_pattern = r'<F2>>([^:]+):\s*<\/>'
+    f3_pattern = r'<F3>>([^:]+):\s*<\/>'
+    
+    # Find all F1, F2, F3 matches with their positions
+    f1_matches = list(re.finditer(f1_pattern, tooltip_text))
+    f2_matches = list(re.finditer(f2_pattern, tooltip_text))
+    f3_matches = list(re.finditer(f3_pattern, tooltip_text))
+    
+    # Extract content after each marker until the next marker
+    def extract_section(text, start_pattern, end_patterns):
+        """Extract text from a marker until the next marker"""
+        parts = []
+        for match in re.finditer(start_pattern, text):
+            start_pos = match.start()
+            # Find the next marker
+            next_pos = len(text)
+            for end_pattern in end_patterns:
+                for end_match in re.finditer(end_pattern, text[match.end():]):
+                    pos = match.end() + end_match.start()
+                    if pos > start_pos:
+                        next_pos = min(next_pos, pos)
+            
+            section = text[match.start():next_pos].strip()
+            parts.append(section)
+        return parts
+    
+    # Better approach: split content by foundation markers
+    # F1 is body, F2 is tech, F3 is hardware
+    
+    # Find all F1, F2, F3 sections with their content
+    all_f_pattern = r'<F[1-3]>>'
+    f_sections = re.split(all_f_pattern, tooltip_text)
+    
+    # Find which F number each section corresponds to
+    f_numbers = re.findall(r'<F([1-3])>>', tooltip_text)
+    
+    # Match F numbers with their content sections
+    foundation_map = {}
+    for i, f_num in enumerate(f_numbers):
+        if i + 1 < len(f_sections):  # +1 because split produces extra empty at start
+            content = f_sections[i + 1].strip()
+            foundation_map[int(f_num)] = content
+    
+    # Extract names and descriptions for each foundation
+    for f_num, content in foundation_map.items():
+        # Find the first name (text before first colon) if it exists
+        if ':' in content:
+            name_part, desc_part = content.split(':', 1)
+            name = name_part.strip().replace('</', '').strip()
+            desc = desc_part.strip()
+        else:
+            name = ""
+            desc = content
+        
+        if f_num == 1:  # body
+            spec_data["body_name"] = name
+            spec_data["body"] = desc
+        elif f_num == 2:  # tech
+            spec_data["tech_name"] = name
+            spec_data["tech"] = desc
+        elif f_num == 3:  # hardware
+            spec_data["hardware_name"] = name
+            spec_data["hardware"] = desc
+    
+    return spec_data
+
 spec_output = []
 
-for entry in wep_cat["DisplayNameMap"]:
-    key = entry["Key"]
-    spec = entry["Value"]["SourceString"]
-    if spec == "-":
-        continue
-    if spec == "Heavy Weapons":
-        spec_output.append({
-            "name": spec,
-            "tooltip": [
-                f"> <C>25%</> reduced loadout speed penalty from {spec}",
-                f"> <C>25%</> reduced direct damage received from {spec}"
-            ]
-    })
-    elif spec == "Melee Weapons":
-        spec_output.append({
-            "name": spec,
-            "tooltip": [
-                f"> <C>10%</> increased ground speed while using {spec}",
-                f"> <C>25%</> increased aux power regeneration while using {spec}"
-            ]
-    })
-    elif spec == "Devices":
-        spec_output.append({
-            "name": spec,
-            "tooltip": [
-                "> <C>100%</> reduced device speed penalties",
-                "> <C>25%</> reduced device cooldowns"
-            ]
-    })
-    elif spec == "Shells":
-        spec_output.append({
-            "name": spec,
-            "tooltip": [
-                "Check shell tooltips"
-            ]
-    })
-    else:
-        spec_output.append({
-            "name": spec,
-            "tooltip": [
-                f"> <C>15%</> increased dexterity with {spec}",
-                f"> <C>100%</> additional reserve ammo for {spec}"
-            ]
-    })
+if specialisation_data and len(specialisation_data) > 0:
+    spec_rows = specialisation_data[0].get("Rows", {})
+    
+    for spec_name, spec_data in spec_rows.items():
+        tooltip_obj = spec_data.get("tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1", {})
+        tooltip_text = tooltip_obj.get("LocalizedString", "")
+        
+        lines = [
+            line.strip()
+            for line in tooltip_text.strip().splitlines()
+            if line.strip()
+        ]
+        
+        entry = {
+            "name": spec_name,
+            "tooltip": lines
+        }
+        
+        # For shells, parse the spec data
+        if spec_name == "Shells":
+            entry["spec"] = parse_shell_specs(tooltip_text)
+        
+        spec_output.append(entry)
         
 with open("specialisations.json", "w", encoding="utf-8") as out_file:
     json.dump(spec_output, out_file, indent=2, ensure_ascii=False)
-print("Spectz database shit faked")
+print("Spectz database shit workin")

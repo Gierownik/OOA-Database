@@ -2,70 +2,112 @@
   {
     "name": "Handguns",
     "tooltip": [
-      "> <C>15%</> increased dexterity with Handguns",
-      "> <C>100%</> additional reserve ammo for Handguns"
+      "> <C>10%</> of direct damage dealt with handguns restored to aux power",
+      "> <C>100%</> additional base reserve ammo for handguns"
     ]
   },
   {
-    "name": "Small Arms",
+    "name": "SmallArms",
     "tooltip": [
-      "> <C>15%</> increased dexterity with Small Arms",
-      "> <C>100%</> additional reserve ammo for Small Arms"
+      "> <C>5%</> reduced spread + spread gain with small arms per direct kill, up to <C>50%</>",
+      "> <C>100%</> additional base reserve ammo for small arms"
     ]
   },
   {
     "name": "Shotguns",
     "tooltip": [
-      "> <C>15%</> increased dexterity with Shotguns",
-      "> <C>100%</> additional reserve ammo for Shotguns"
+      "> <C>100%</> damage reduction bypass with shotguns to crippled, stunned or knocked down enemies",
+      "> <C>100%</> additional base reserve ammo for shotguns"
     ]
   },
   {
-    "name": "Assault Weapons",
+    "name": "AssaultWeapons",
     "tooltip": [
-      "> <C>15%</> increased dexterity with Assault Weapons",
-      "> <C>100%</> additional reserve ammo for Assault Weapons"
+      "> <C>50%</> reduced horizontal recoil on follow up shots with assault weapon when dealing direct torso damage",
+      "> <C>100%</> additional base reserve ammo for assault weapons"
     ]
   },
   {
-    "name": "Support Weapons",
+    "name": "SupportWeapons",
     "tooltip": [
-      "> <C>15%</> increased dexterity with Support Weapons",
-      "> <C>100%</> additional reserve ammo for Support Weapons"
+      "> <C>200%</> increased reserve ammo regeneration to loadout support weapons for <C>10 s</> on kill",
+      "> <C>100%</> additional base reserve ammo for support weapons"
     ]
   },
   {
-    "name": "Precision Weapons",
+    "name": "PrecisionWeapons",
     "tooltip": [
-      "> <C>15%</> increased dexterity with Precision Weapons",
-      "> <C>100%</> additional reserve ammo for Precision Weapons"
+      "> <C>0.25x</> additional limb damage multiplier with precision weapons to targets over <C>35 m</>",
+      "> <C>100%</> additional base reserve ammo for precision weapons"
     ]
   },
   {
-    "name": "Heavy Weapons",
+    "name": "HeavyWeapons",
     "tooltip": [
-      "> <C>25%</> reduced loadout speed penalty from Heavy Weapons",
-      "> <C>25%</> reduced direct damage received from Heavy Weapons"
+      "> <C>25%</> reduced loadout speed penalty from heavy weapons",
+      "> <C>25%</> reduced direct damage received from heavy weapons"
     ]
   },
   {
-    "name": "Melee Weapons",
+    "name": "MeleeWeapons",
     "tooltip": [
-      "> <C>10%</> increased ground speed while using Melee Weapons",
-      "> <C>25%</> increased aux power regeneration while using Melee Weapons"
+      "> <C>15%</> increased ground speed with melee weapons",
+      "> <C>25%</> increased aux power regeneration with melee weapons"
     ]
   },
   {
     "name": "Shells",
     "tooltip": [
-      "Check shell tooltips"
-    ]
+      "<D>> Dominant foundation specific, activates after killing an enemy:</>",
+      "<D>BISON</>",
+      "<F1>> Combat Focus: </><C>50%</> increased weapon accuracy and <C>25%</> increased speed + dexterity for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown",
+      "<F2>> Flow State: </>Core activates without cost for <C>2.5 s</> on performing a wall dive or flip within <C>1 s</> of starting a climb, <C>15 s</> cooldown",
+      "<F3>> Locked In: </>Melee damage + firearm headshots gain <C>0-50%</> defense bypass proportional to remaining vitals, from <C>100-25%</>",
+      "<D>DRAGON</>",
+      "<F1>> Thermal Transfer: </><C>50%</> of defense gained from Backdraft or burn + explosive damage received is restored to vitals",
+      "<F2>> Superheated: </>Backdraft + Ground Slam gain <C>25%</> increased damage + range. Backdraft, Ground Slam + backup weapon damage applies combust",
+      "<F3>> Crossfeed: </>Aerial maneuvers + hover no longer drain aux power or consume charges for <C>5 s</> on receiving chemical heal",
+      "<D>GHOST</>",
+      "<F1>> Safety Measures: </>Gain <C>25</> temporary defense during Opportunity, clear burn on camouflage activation, <C>50%</> reduced explosive damage received while camouflage active",
+      "<F2>> Hidden Asset: </>Interacting + throwing devices no longer deactivates camouflage. Deep camouflage no longer stuns on taking damage, gains enhanced vision + undetectable while active",
+      "<F3>> Shadow Operative: </>Hip firing supressed firearms + attacking with backup weapons no longer deactivates camouflage",
+      "<D>HYDRA</>",
+      "<F1>> Overstimulated: </>Gain an Adrenal Feedback stack every <C>20 s</>, increases maximum stacks by <C>5</>",
+      "<F2>> Feedback Loop: </>All visible kills while Core active gain an Adrenal Feedback stack.  Reaching <C>5</> stacks fully restores defense + Core charge",
+      "<F3>> Post-Kill Clarity: </>Gain enhanced vision and firearms + backup weapons bypass all damage reductions for <C>5 s</> on kill, <C>10 s</> cooldown",
+      "<D>RHINO</>",
+      "<F1>> Power Relay: </><C>40 /s</> defense + aux power regeneration while disabled. Gain Overcharge during active Core if activated while disabled or Overcharged",
+      "<F2>> Force Trauma: </>Shockwave gains <C>50%</> increased range, debuff duration + knockback force, applies stun + cripple",
+      "<F3>> Reverberate: </>Backup weapon damage disables for <C>1 s</> + deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-100%</>. Overcharge for <C>2 s</> on dealing melee or body impact damage"
+    ],
+    "spec": {
+      "body_name": "Power Relay",
+      "body": "</><C>40 /s</> defense + aux power regeneration while disabled. Gain Overcharge during active Core if activated while disabled or Overcharged",
+      "tech_name": "Force Trauma",
+      "tech": "</>Shockwave gains <C>50%</> increased range, debuff duration + knockback force, applies stun + cripple",
+      "hardware_name": "Reverberate",
+      "hardware": "</>Backup weapon damage disables for <C>1 s</> + deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-100%</>. Overcharge for <C>2 s</> on dealing melee or body impact damage"
+    }
   },
   {
     "name": "Devices",
     "tooltip": [
-      "> <C>100%</> reduced device speed penalties",
-      "> <C>25%</> reduced device cooldowns"
+      "> <C>25%</> reduced device cooldowns",
+      "> <C>100%</> reduced device speed penalties"
+    ]
+  },
+  {
+    "name": "Augments",
+    "tooltip": [
+      "> <C>50%</> reduced augment cooldowns",
+      "> All augments can be equipped into slots <C>3</> + <C>4</>"
+    ]
+  },
+  {
+    "name": "Attachments",
+    "tooltip": [
+      "> Additional weapon mod slot",
+      "> <C>100%</> reduced attachment speed penalties"
     ]
   }
 ]
