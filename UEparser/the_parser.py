@@ -495,6 +495,8 @@ def parse_single_shell_spec(shell_name, shells_tooltip_text):
             name = re.sub(r'<[^>]*>', '', name_part).strip()
             # For description, remove the closing </> and keep the rest
             desc = re.sub(r'^[^<]*<\/>\s*', '', desc_part).strip()
+            # Remove <C> and </> tags from description
+            desc = re.sub(r'<C>|</>', '', desc)
         else:
             name = re.sub(r'<[^>]*>', '', content).strip()
             desc = ""
