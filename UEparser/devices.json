@@ -85,10 +85,9 @@
     "name": "Spike",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals if scan hack",
+      "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies",
       "> Destroys visible or detected devices",
-      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
-      "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
+      "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "true",
     "stats": {
@@ -112,9 +111,8 @@
     "name": "Combust",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy if scan hack",
-      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
-      "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
+      "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies",
+      "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",
     "stats": {
@@ -139,9 +137,8 @@
     "type": "Neuro-link",
     "tooltip": [
       "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>2.5 s</> to up to <C>6</> visible or detected enemies",
-      "> <C>300%</> of damage dealt restored to vitals, restores vitals to allies if scan hack",
-      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
-      "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
+      "> <C>300%</> of damage dealt restored to vitals",
+      "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "true",
     "stats": {
@@ -165,10 +162,9 @@
     "name": "Desync",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy, duration increased by <C>25%</> per additional enemy if scan hack",
+      "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy",
       "> Desync: Scrambles radar, detections + targeting systems",
-      "<B>> Requires</> <C>50</> <B>Core charge for scan hack</>",
-      "<B>> Detected + unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
+      "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",
     "stats": {
