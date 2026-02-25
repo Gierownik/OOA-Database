@@ -170,12 +170,11 @@
   {
     "name": "Backdoor",
     "tooltip": [
-      "> Enemies are detected to allies for <C>5 s</> on successful Neuro-Link",
-      "> Devices + explosives of detected enemies are detected to allies",
-      "> Immunity to enemy Neuro-Link while scanning, inactive while scan hacking",
+      "> Enemies are detected to allies for <C>5 s</> on successful Neuro-Link, <C>20 s</> cooldown",
+      "> Devices + explosives of visible or detected enemies are detected to allies",
       "> Tag enemies on receiving Neuro-Link",
-      "<B>> </><C>50%</> <B> increased scan hack time</>",
-      "<B>> </><C>1</> <B> reduced Shell detections</>",
+      "<B>> </><C>5 s</> <B>reduced scan duration</>",
+      "<B>> </><C>1</> <B>reduced Shell detections</>",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -327,7 +326,7 @@
     "tooltip": [
       "> <C>50%</> reduced detectable range",
       "> Shroud for <C>3s</> on kill, <C>6s</> without receiving damage from target",
-      "> Neuro-Mask: Shroud for <C>5s</> on detecting Neuro-Link scan hack, <C>30 s</> cooldown",
+      "> Devices + projectiles are undetectable",
       "<B>> Can be disabled</>"
     ],
     "foundations": {
@@ -451,7 +450,7 @@
     "name": "Fail-safe",
     "tooltip": [
       "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + disable immunity for <C>2.5 s</>, <C>30 s</> cooldown",
-      "> Devices can no longer be disabled",
+      "> Devices + projectiles can no longer be disabled",
       "<B>></> <C>25%</> <B>reduced defense + aux regeneration</>"
     ],
     "foundations": {
