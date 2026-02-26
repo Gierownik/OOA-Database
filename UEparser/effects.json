@@ -112,8 +112,8 @@
   {
     "name": "Reinforce",
     "tooltip": [
-      "> Defense penetration immunity",
-      "> Deflects projectiles",
+      "> Defense penetration + bullet effects immunity",
+      "> Deflects projectiles + devices",
       "> <C>50%</> reduced direct damage recieved",
       "<B>> Disables optical camouflage</>"
     ],
