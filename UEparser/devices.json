@@ -188,8 +188,6 @@
     "name": "Pathogen",
     "type": "Neuro-link",
     "tooltip": [
-      "> Applies <C>10 /s</> hemorrhage + Necrosis to up to <C>6</> visible or detected enemies",
-      "<B>> Can only be used while scanning</>",
       "> Applies <C>4 s</> necrosis to up to <C>6</> visible or detected enemies",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
