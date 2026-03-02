@@ -697,6 +697,24 @@
             "SourceString": "Studied",
             "LocalizedString": "Studied"
           }
+        },
+        {
+          "Key": "NewEnumerator77",
+          "Value": {
+            "Namespace": "",
+            "Key": "9229822E42AE4DBBB593FBA6FEF74E44",
+            "SourceString": "Redline",
+            "LocalizedString": "Redline"
+          }
+        },
+        {
+          "Key": "NewEnumerator78",
+          "Value": {
+            "Namespace": "",
+            "Key": "8F35D19F4F9DB2327A82B39F099C4D10",
+            "SourceString": "Slipstream",
+            "LocalizedString": "Slipstream"
+          }
         }
       ]
     },
@@ -778,7 +796,9 @@
       "ENUM_PerkID::NewEnumerator74": 74,
       "ENUM_PerkID::NewEnumerator75": 75,
       "ENUM_PerkID::NewEnumerator76": 76,
-      "ENUM_PerkID::ENUM_MAX": 77
+      "ENUM_PerkID::NewEnumerator77": 77,
+      "ENUM_PerkID::NewEnumerator78": 78,
+      "ENUM_PerkID::ENUM_MAX": 79
     },
     "CppForm": "Namespaced"
   }

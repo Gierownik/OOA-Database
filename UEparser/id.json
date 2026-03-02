@@ -82,7 +82,9 @@
         "Pyro-Psycho": 73,
         "Limpet": 74,
         "Volatile": 75,
-        "Studied": 76
+        "Studied": 76,
+        "Redline": 77,
+        "Slipstream": 78
     },
     "Devices": {
         "Overcharge": 2,

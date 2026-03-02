@@ -337,7 +337,7 @@
   {
     "name": "Damage Report",
     "tooltip": [
-      "> Detect enemies for <C>1.5 s</> on dealing direct damage",
+      "> Detect enemies for <C>0.75 s</> on dealing direct damage",
       "> Detect enemies within <C>15 m</> of killed enemy for <C>3 s</>, <C>10 s</> cooldown",
       "<B>></> <C>50%</> <B>reduced radar detection range</>",
       "<B>> Can be disabled</>"
@@ -791,12 +791,12 @@
       "> Gain Overkill + active Core if enemy damage received while below <C>50%</> vitals, restores <C>1</> vitals on receiving fatal damage, deactivates after <C>2 s</> if no visible enemies within <C>25 m</>, <C>30 s</> cooldown",
       "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity",
       "<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while active</>",
-      "<B>></> <C>75%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
+      "<B>></> <C>70%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
       "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
       "<B>></> <C>5/s</> <B>vitals + defense damage while active</>"
     ],
     "foundations": {
-      "type": "tech",
+      "type": "body",
       "value": 50
     }
   },
@@ -835,6 +835,22 @@
     "foundations": {
       "type": "body",
       "value": 25
+    }
+  },
+  {
+    "name": "Redline",
+    "tooltip": [
+      "> <C>8 m/s</> base ground speed",
+      "> Unaffected by all speed penalties + Core slowing effects",
+      "<B>></> <C>100%</> <B>increased direct damage received</>",
+      "<B>></> <C>100%</> <B>reduced effectiveness of damage reductions</>",
+      "<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources</>",
+      "<B>> Core can no longer be activated</>",
+      "<B>> Visible trails</>"
+    ],
+    "foundations": {
+      "type": "body",
+      "value": 50
     }
   },
   {
@@ -897,6 +913,23 @@
       "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
       "<B>></> <C>2 s</> <B>aerial maneuver charge regeneration delay on shift</>",
       "<B>> Can be disabled</>"
+    ],
+    "foundations": {
+      "type": "tech",
+      "value": 50
+    }
+  },
+  {
+    "name": "Slipstream",
+    "tooltip": [
+      "> <C>12 m/s</> base climb speed",
+      "> Unaffected by all speed penalties while climbing",
+      "> <C>40 /s</> aux power regeneration while climbing",
+      "> Surge: Activates on reaching <C>10 m/s</> while climbing, deactivates after <C>2 s</> if no longer climbing or below <C>10 m/s</>",
+      "> Gain Overcharge + knockdown enemies while Surge active, can telefrag on activation or detaching from climb",
+      "<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while Surge active</>",
+      "<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>",
+      "<B>></> <C>5 /s</> <B>vitals + max vitals damage while Surge active</>"
     ],
     "foundations": {
       "type": "tech",
