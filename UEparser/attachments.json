@@ -739,7 +739,8 @@
     "name": "Speed Loader",
     "type": "Mod",
     "tooltip": [
-      "> <C>50%</> increased reload speed"
+      "> <C>50%</> increased reload speed",
+      "<B>></> <C>25%</> <B>increased reload movement speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
