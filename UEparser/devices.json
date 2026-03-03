@@ -39,7 +39,7 @@
     ],
     "experimental": "false",
     "stats": {
-      "cooldown": 5.0,
+      "cooldown": 10.0,
       "duration": 120.0,
       "action": "Throw",
       "activation": "Activate",

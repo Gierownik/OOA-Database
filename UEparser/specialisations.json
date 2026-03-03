@@ -74,7 +74,7 @@
       "<D>HYDRA</>",
       "<F1>> Overstimulated: </>Gain an Adrenal Feedback stack every <C>20 s</>, increases maximum stacks by <C>5</>",
       "<F2>> Feedback Loop: </>All visible kills while Core active gain an Adrenal Feedback stack.  Reaching <C>5</> stacks fully restores defense + Core charge",
-      "<F3>> Post-Kill Clarity: </>Gain enhanced vision and firearms + backup weapons bypass all damage reductions for <C>5 s</> on kill, <C>10 s</> cooldown",
+      "<F3>> Post-Kill Clarity: </>Gain enhanced vision and firearms + backup weapons bypass all damage reductions for <C>5 s</> on kill, duration extended while dealing damage, <C>10 s</> cooldown",
       "<D>RHINO</>",
       "<F1>> Power Relay: </><C>40 /s</> defense + aux power regeneration while disabled. Gain Overcharge during active Core if activated while disabled or Overcharged",
       "<F2>> Force Trauma: </>Shockwave gains <C>50%</> increased range, debuff duration + knockback force, applies stun + cripple",

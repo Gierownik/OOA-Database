@@ -83,7 +83,7 @@
       "tech_name": "Feedback Loop",
       "tech": "All visible kills while Core active gain an Adrenal Feedback stack.  Reaching 5 stacks fully restores defense + Core charge",
       "hardware_name": "Post-Kill Clarity",
-      "hardware": "Gain enhanced vision and firearms + backup weapons bypass all damage reductions for 5 s on kill, 10 s cooldown"
+      "hardware": "Gain enhanced vision and firearms + backup weapons bypass all damage reductions for 5 s on kill, duration extended while dealing damage, 10 s cooldown"
     }
   },
   {

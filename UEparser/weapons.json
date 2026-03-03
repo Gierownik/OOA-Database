@@ -49,7 +49,7 @@
       "aim_time": "0.3",
       "spread_hip": "2.0",
       "spread_ads": "0.25",
-      "spread_gain": "0.25",
+      "spread_gain": "0.1",
       "speed_penalty": "0.25",
       "burst_count": 3,
       "burst_delay": "0.25",
@@ -288,7 +288,7 @@
       "firemode": "Semi-Automatic",
       "firerate": "125.0",
       "damage_near": 40.0,
-      "damage_far": 10.0,
+      "damage_far": 5.0,
       "range": "5.0 - 50.0",
       "head_mult": "1.25",
       "limb_mult": "0.75",
@@ -302,7 +302,7 @@
       "spread_gain": "0.5",
       "speed_penalty": "0.4",
       "ammo_capacity": 3,
-      "reload_speed": "0.6"
+      "reload_speed": "0.8"
     },
     "foundations": {
       "type": "hardware",
@@ -315,7 +315,6 @@
       "id": "A-TAC S20",
       "type": "Shotgun",
       "slot": "Primary",
-      "category": "Shotguns",
       "firemode": "Chambered",
       "firerate": "200.0",
       "damage_near": 35.0,
@@ -453,7 +452,7 @@
       "velocity": "850.0",
       "recoil_vert": 75.0,
       "recoil_hor": 25.0,
-      "aim_time": "0.4",
+      "aim_time": "0.45",
       "spread_hip": "6.0",
       "spread_ads": "0.75",
       "spread_gain": "2.0",
