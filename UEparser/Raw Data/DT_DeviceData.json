@@ -371,7 +371,7 @@
         "hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF": 0.0
       },
       "Shifter": {
-        "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator27",
+        "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator10",
         "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator17",
         "action_57_9ACD9FD14A212852B1FFB8BB602B1D47": "ENUM_DeviceAction::NewEnumerator2",
         "type_71_B5593B1E4585F61965634483AEF654CF": "ENUM_DeviceType::NewEnumerator1",
@@ -581,8 +581,8 @@
         "duration_19_CADCF2D5460AE568CE1A9A8875DBE004": 5.0,
         "bothHands_48_8C74298346FC711DE0ED86941AD8CCEE": false,
         "icon_14_D5BFFD9940B55872EAC6CAAE5C59E47A": {
-          "ObjectName": "Texture2D'UI_Knock'",
-          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Knock"
+          "ObjectName": "Texture2D'UI_Hyper'",
+          "ObjectPath": "/Game/UI/Prototype/Textures/UI_Hyper"
         },
         "montage_35_07CEA06A4310AAB1D70E42A2E3BF6276": {
           "ObjectName": "AnimMontage'Use_Jammer_Montage'",

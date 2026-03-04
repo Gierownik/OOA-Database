@@ -32,7 +32,7 @@
     "type": "Standard",
     "tooltip": [
       "> Can be used by Nano-wire to attach + pull towards location",
-      "> Restores aux power, aerial maneuver charges + clears snare on pull",
+      "> Restores <C>25</> aux power + an aerial maneuver charge on pull",
       "> Useable by allies",
       "> Can attach to surfaces + Shells",
       "> Maximum Efficiency: <C>4 s</> Overcharge on pull"
@@ -531,6 +531,32 @@
     "foundations": {
       "type": "tech",
       "value": 10
+    }
+  },
+  {
+    "name": "Hyper",
+    "type": "Enhancement",
+    "tooltip": [
+      "> On activate: Restores <C>100</> aux power + gain <C>4</> aerial maneuver charges",
+      "> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty",
+      "> Maximum Efficiency: <C>100%</> increased duration"
+    ],
+    "experimental": "false",
+    "stats": {
+      "cooldown": 45.0,
+      "duration": 5.0,
+      "action": "Activate",
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "speed_penalty": 0.2,
+      "hack_cost": 0.0,
+      "secondary_action": "false",
+      "can_be_disabled": "false"
+    },
+    "foundations": {
+      "type": "tech",
+      "value": 30
     }
   }
 ]

@@ -1650,8 +1650,8 @@
           {
             "Namespace": "",
             "Key": "7D71C3F844519C03EC2B54BF37C14EAE",
-            "SourceString": "> Removes snare on performing a maneuver, can maneuver while crippled\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges on Core activation\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>",
-            "LocalizedString": "> Removes snare on performing a maneuver, can maneuver while crippled\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges on Core activation\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
+            "SourceString": "> Removes snare on performing a maneuver, can maneuver while crippled\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges while Core active\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>",
+            "LocalizedString": "> Removes snare on performing a maneuver, can maneuver while crippled\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges while Core active\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1995,8 +1995,8 @@
           {
             "Namespace": "",
             "Key": "B28832CC4369994AC0C38584F25A0FD2",
-            "SourceString": "> Climb speed ramps up to Shells max maneuver speed\r\n> Unaffected by all speed penalties while climbing\r\n> <C>40 /s</> aux power regeneration while climbing\r\n> Surge: Activates on reaching <C>8 m/s</> while climbing, deactivates after <C>2 s</> if no longer climbing or below <C>8 m/s</>\r\n> Gain Overcharge + knockdown enemies while Surge active, can telefrag on activation or detaching from climb\r\n<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while Surge active</>\r\n<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>\r\n<B>></> <C>5 /s</> <B>vitals damage while Surge active</>",
-            "LocalizedString": "> Climb speed ramps up to Shells max maneuver speed\r\n> Unaffected by all speed penalties while climbing\r\n> <C>40 /s</> aux power regeneration while climbing\r\n> Surge: Activates on reaching <C>8 m/s</> while climbing, deactivates after <C>2 s</> if no longer climbing or below <C>8 m/s</>\r\n> Gain Overcharge + knockdown enemies while Surge active, can telefrag on activation or detaching from climb\r\n<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while Surge active</>\r\n<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>\r\n<B>></> <C>5 /s</> <B>vitals damage while Surge active</>"
+            "SourceString": "> Climb speed ramps up to Shells max maneuver speed\r\n> Unaffected by all speed penalties while climbing\r\n> <C>40 /s</> aux power regeneration while climbing\r\n> Surge: Activates on reaching <C>8 m/s</> while climbing, deactivates after <C>2 s</> if no longer climbing or below <C>8 m/s</>\r\n> Gain Overcharge + knockdown enemies while Surge active, can telefrag on activation or detaching from climb\r\n<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while Surge active</>\r\n<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>\r\n<B>></> <C>10 /s</> <B>defense damage while Surge active</>",
+            "LocalizedString": "> Climb speed ramps up to Shells max maneuver speed\r\n> Unaffected by all speed penalties while climbing\r\n> <C>40 /s</> aux power regeneration while climbing\r\n> Surge: Activates on reaching <C>8 m/s</> while climbing, deactivates after <C>2 s</> if no longer climbing or below <C>8 m/s</>\r\n> Gain Overcharge + knockdown enemies while Surge active, can telefrag on activation or detaching from climb\r\n<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while Surge active</>\r\n<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>\r\n<B>></> <C>10 /s</> <B>defense damage while Surge active</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2294,8 +2294,8 @@
           {
             "Namespace": "",
             "Key": "E223A85A439BA939B0A5FFB917E0D8B6",
-            "SourceString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores aux power, aerial maneuver charges + clears snare on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>4 s</> Overcharge on pull",
-            "LocalizedString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores aux power, aerial maneuver charges + clears snare on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>4 s</> Overcharge on pull"
+            "SourceString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores <C>25</> aux power + an aerial maneuver charge on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>4 s</> Overcharge on pull",
+            "LocalizedString": "> Can be used by Nano-wire to attach + pull towards location\r\n> Restores <C>25</> aux power + an aerial maneuver charge on pull\r\n> Useable by allies\r\n> Can attach to surfaces + Shells\r\n> Maximum Efficiency: <C>4 s</> Overcharge on pull"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2756,6 +2756,29 @@
             "Key": "E4FE31C94820B55B45DD91B8893D0F10",
             "SourceString": "> Creates multiple charged nano-particle clouds on activation\r\n> Clouds obscures vision + targeting systems\r\n> Detected + snare to enemies on contact \r\n> <C>5 s</> Overcharge to allies on contact\r\n> Maximum Efficiency: <C>100%</> increased duration\r\n<B>> Can be cleared with fire</>",
             "LocalizedString": "> Creates multiple charged nano-particle clouds on activation\r\n> Clouds obscures vision + targeting systems\r\n> Detected + snare to enemies on contact \r\n> <C>5 s</> Overcharge to allies on contact\r\n> Maximum Efficiency: <C>100%</> increased duration\r\n<B>> Can be cleared with fire</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Device'",
+          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+        }
+      },
+      "Hyper": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator36",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 30,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "B387EB2744203FCE5E265A8827F43ABB",
+            "SourceString": "> On activate: Restores <C>100</> aux power + gain <C>4</> aerial maneuver charges\r\n> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty\r\n> Maximum Efficiency: <C>100%</> increased duration",
+            "LocalizedString": "> On activate: Restores <C>100</> aux power + gain <C>4</> aerial maneuver charges\r\n> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty\r\n> Maximum Efficiency: <C>100%</> increased duration"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

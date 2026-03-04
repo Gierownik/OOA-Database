@@ -697,7 +697,7 @@
       "> Removes snare on performing a maneuver, can maneuver while crippled",
       "> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver",
       "> <C>100%</> reduced aux power drain from all sources while Core active",
-      "> Gain <C>4</> aerial maneuver charges on Core activation",
+      "> Gain <C>4</> aerial maneuver charges while Core active",
       "<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>",
       "<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
     ],
@@ -911,7 +911,7 @@
       "> Gain Overcharge + knockdown enemies while Surge active, can telefrag on activation or detaching from climb",
       "<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while Surge active</>",
       "<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>",
-      "<B>></> <C>5 /s</> <B>vitals damage while Surge active</>"
+      "<B>></> <C>10 /s</> <B>defense damage while Surge active</>"
     ],
     "foundations": {
       "type": "tech",
