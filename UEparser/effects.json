@@ -80,8 +80,9 @@
     "name": "Hyper",
     "tooltip": [
       "> Full AUX and Aerial charges refill",
-      "> <C>100%</> reduced AUX drain",
-      "> <C>25%</> increased Core speed"
+      "> <C>100%</> increased aux regeneration",
+      "> <C>100%</> reduced loadout speed penalty",
+      "> Snare immunity"
     ],
     "enhancement": "None",
     "enh_tooltip": []
