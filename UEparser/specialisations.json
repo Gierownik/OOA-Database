@@ -51,9 +51,20 @@
   {
     "name": "MeleeWeapons",
     "tooltip": [
-      "> <C>15%</> increased ground speed with melee weapons",
-      "> <C>25%</> increased aux power regeneration with melee weapons"
+      "> <C>25%</> reduced speed penalties with melee weapons",
+      "> <C>25%</> damage reduction bypass with melee weapons"
     ]
+  },
+  {
+    "name": "StealthWeapons",
+    "tooltip": [
+      "> <C>25%</> reduced aux drain from attacking with stealth weapons",
+      "> <C>25%</> increased stealth weapon ammo regeneration speed"
+    ]
+  },
+  {
+    "name": "NanotechWeapons",
+    "tooltip": []
   },
   {
     "name": "Shells",
@@ -78,7 +89,7 @@
       "<D>RHINO</>",
       "<F1>> Power Relay: </><C>40 /s</> defense + aux power regeneration while disabled. Gain Overcharge during active Core if activated while disabled or Overcharged",
       "<F2>> Force Trauma: </>Shockwave gains <C>50%</> increased range, debuff duration + knockback force, applies stun + cripple",
-      "<F3>> Reverberate: </>Backup weapon damage disables for <C>1 s</> + deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-100%</>. Overcharge for <C>2 s</> on dealing melee or body impact damage"
+      "<F3>> Reverberate: </>Backup weapon damage disables for <C>2 s</> + deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-50%</>. Overcharge for <C>2 s</> on dealing melee or body impact damage"
     ],
     "spec": {
       "body_name": "Power Relay",
@@ -86,7 +97,7 @@
       "tech_name": "Force Trauma",
       "tech": "</>Shockwave gains <C>50%</> increased range, debuff duration + knockback force, applies stun + cripple",
       "hardware_name": "Reverberate",
-      "hardware": "</>Backup weapon damage disables for <C>1 s</> + deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-100%</>. Overcharge for <C>2 s</> on dealing melee or body impact damage"
+      "hardware": "</>Backup weapon damage disables for <C>2 s</> + deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-50%</>. Overcharge for <C>2 s</> on dealing melee or body impact damage"
     }
   },
   {

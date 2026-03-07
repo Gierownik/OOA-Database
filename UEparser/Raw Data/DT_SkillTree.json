@@ -960,8 +960,8 @@
           {
             "Namespace": "",
             "Key": "438742C54A4D6773183A53BBA8EB0B37",
-            "SourceString": "> AOE impulse on Core activation or receiving fatal melee or body impact damage, reduces fatal damage by up to <C>100%</>, <C>30 s</> cooldown\r\n> Deals <C>25</> vital damage, <C>4 s</> disable + knockback to enemies within <C>5 m</>, knockdown if within <C>2.5 m</>\r\n> Deflects unattached devices + projectiles within <C>5 m</>\r\n<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>",
-            "LocalizedString": "> AOE impulse on Core activation or receiving fatal melee or body impact damage, reduces fatal damage by up to <C>100%</>, <C>30 s</> cooldown\r\n> Deals <C>25</> vital damage, <C>4 s</> disable + knockback to enemies within <C>5 m</>, knockdown if within <C>2.5 m</>\r\n> Deflects unattached devices + projectiles within <C>5 m</>\r\n<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>"
+            "SourceString": "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown\r\n> Deals <C>25</> vital damage, <C>4 s</> disable + knockback to enemies within <C>5 m</>, knockdown if within <C>2.5 m</>\r\n> Deflects unattached devices + projectiles within <C>5 m</>\r\n<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>",
+            "LocalizedString": "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown\r\n> Deals <C>25</> vital damage, <C>4 s</> disable + knockback to enemies within <C>5 m</>, knockdown if within <C>2.5 m</>\r\n> Deflects unattached devices + projectiles within <C>5 m</>\r\n<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>\r\n<B>></> <C>25%</> <B>reduced Core generation + duration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1098,8 +1098,8 @@
           {
             "Namespace": "",
             "Key": "FC56933E48A413BE2AEC11B5EDD898D8",
-            "SourceString": "> Reduces fatal damage by up to <C>100%</>. Relocate to a previous location if prevented\r\n> <C>50%</> vitals + defense restored on activation\r\n> Removes tagged + clears debuffs on activation\r\n<B>></> <C>50%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can no longer restore max vitals + max defense on activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Reduces fatal damage by up to <C>100%</>. Relocate to a previous location if prevented\r\n> <C>50%</> vitals + defense restored on activation\r\n> Removes tagged + clears debuffs on activation\r\n<B>></> <C>50%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can no longer restore max vitals + max defense on activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Can survive fatal damage. Relocate to a previous location if death prevented\r\n> <C>50%</> vitals + defense restored on activation\r\n> Removes tagged + clears debuffs on activation\r\n<B>></> <C>50%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can no longer restore max vitals + max defense on activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Can survive fatal damage. Relocate to a previous location if death prevented\r\n> <C>50%</> vitals + defense restored on activation\r\n> Removes tagged + clears debuffs on activation\r\n<B>></> <C>50%</> <B>reduced max vitals + defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can no longer restore max vitals + max defense on activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1213,8 +1213,8 @@
           {
             "Namespace": "",
             "Key": "D0FFE48E482CF021D5E1FE8F2B13CB54",
-            "SourceString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with melee damage to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced loadout + movement speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
-            "LocalizedString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with melee damage to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced loadout + movement speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
+            "SourceString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with melee damage to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
+            "LocalizedString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with melee damage to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1673,8 +1673,8 @@
           {
             "Namespace": "",
             "Key": "7140649847F2CC90288504A891061E81",
-            "SourceString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power + aerial maneuver regeneration for <C>10 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>",
-            "LocalizedString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>50%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power + aerial maneuver regeneration for <C>10 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown if used while not bleeding</>"
+            "SourceString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>100%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power + aerial maneuver regeneration for <C>10 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown</>",
+            "LocalizedString": "> <C>100%</> increased vitals restored by primary stim\r\n> <C>100%</> of vitals restored by primary stim restores max vitals\r\n> <C>100%</> increased aux power + aerial maneuver regeneration for <C>10 s</> on primary stim use\r\n<B>></> <C>100%</> <B>increased primary stim cooldown</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1765,8 +1765,8 @@
           {
             "Namespace": "",
             "Key": "79013A674F87E781F9AB95A2B90C2D8F",
-            "SourceString": "> Gain Overkill + active Core if enemy damage received while below <C>50%</> vitals, reduces fatal damage by up to <C>100%</>, deactivates after <C>2 s</> if no visible enemies within <C>25 m</>, <C>30 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>70%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active</>",
-            "LocalizedString": "> Gain Overkill + active Core if enemy damage received while below <C>50%</> vitals, reduces fatal damage by up to <C>100%</>, deactivates after <C>2 s</> if no visible enemies within <C>25 m</>, <C>30 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>70%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active</>"
+            "SourceString": "> Gain Overkill + activate Core if enemy damage received while below <C>50%</> vitals, can survive fatal damage on activation, deactivates after <C>2 s</> if no visible enemies within <C>25 m</>, <C>30 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>50%</> <B>reduced effectiveness of damage reductions</>\r\n<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>70%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active</>",
+            "LocalizedString": "> Gain Overkill + activate Core if enemy damage received while below <C>50%</> vitals, can survive fatal damage on activation, deactivates after <C>2 s</> if no visible enemies within <C>25 m</>, <C>30 s</> cooldown\r\n> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> increased body impact damage, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity\r\n<B>></> <C>50%</> <B>reduced effectiveness of damage reductions</>\r\n<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while active</>\r\n<B>></> <C>70%</> <B>active Core speed, Shell specific active Core bonuses disabled</>\r\n<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>\r\n<B>></> <C>5/s</> <B>vitals + defense damage while active</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1903,8 +1903,8 @@
           {
             "Namespace": "",
             "Key": "31B5CDCC403F40C1D94269B41ADFCFFE",
-            "SourceString": "> <C>100%</> of current weapon ammo capacity restored as reserve ammo + <C>5 s</> reduced device cooldowns on weapon pickup, picked up weapon is destroyed\r\n> <C>100%</> reduced primary stim cooldown if used while bleeding\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>50%</> <B>increased primary stim cooldown if used while not bleeding</>",
-            "LocalizedString": "> <C>100%</> of current weapon ammo capacity restored as reserve ammo + <C>5 s</> reduced device cooldowns on weapon pickup, picked up weapon is destroyed\r\n> <C>100%</> reduced primary stim cooldown if used while bleeding\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>50%</> <B>increased primary stim cooldown if used while not bleeding</>"
+            "SourceString": "> Deconstruct weapons if interact held while picking up, weapon is destroyed\r\n> <C>100%</> of equipped weapons ammo capacity restored as reserve ammo on deconstruct\r\n> <C>5 s</> reduced device cooldowns on deconstruct\r\n> <C>1 s</> reduced primary stim cooldown on deconstruct\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced weapon pickup speed</>",
+            "LocalizedString": "> Deconstruct weapons if interact held while picking up, weapon is destroyed\r\n> <C>100%</> of equipped weapons ammo capacity restored as reserve ammo on deconstruct\r\n> <C>5 s</> reduced device cooldowns on deconstruct\r\n> <C>1 s</> reduced primary stim cooldown on deconstruct\r\n<B>></> <C>50%</> <B>reduced reserve ammo</>\r\n<B>></> <C>25%</> <B>reduced weapon pickup speed</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2317,8 +2317,8 @@
           {
             "Namespace": "",
             "Key": "1069A4114A5D23C77CFED6B19967113C",
-            "SourceString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n> Maximum Efficiency: <C>100%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>",
-            "LocalizedString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n> Maximum Efficiency: <C>100%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>"
+            "SourceString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n> Maximum Efficiency: <C>50%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>",
+            "LocalizedString": "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n> Maximum Efficiency: <C>50%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2616,8 +2616,8 @@
           {
             "Namespace": "",
             "Key": "D0EF082C430C10ABC79592A632142240",
-            "SourceString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n> Maximum Efficiency: <C>100%</> increased duration",
-            "LocalizedString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n> Maximum Efficiency: <C>100%</> increased duration"
+            "SourceString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n> Maximum Efficiency: <C>50%</> increased duration",
+            "LocalizedString": "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>\r\n> Maximum Efficiency: <C>50%</> increased duration"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2731,8 +2731,8 @@
           {
             "Namespace": "",
             "Key": "78748CB24D3AA543FDF095A85338A68A",
-            "SourceString": "> While active: Undetectable by all equipment\r\n> Maximum Efficiency: <C>100%</> increased duration",
-            "LocalizedString": "> While active: Undetectable by all equipment\r\n> Maximum Efficiency: <C>100%</> increased duration"
+            "SourceString": "> While active: Undetectable by all equipment\r\n> Maximum Efficiency: <C>50%</> increased duration",
+            "LocalizedString": "> While active: Undetectable by all equipment\r\n> Maximum Efficiency: <C>50%</> increased duration"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2777,8 +2777,8 @@
           {
             "Namespace": "",
             "Key": "B387EB2744203FCE5E265A8827F43ABB",
-            "SourceString": "> On activate: Restores <C>100</> aux power + gain <C>4</> aerial maneuver charges\r\n> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty\r\n> Maximum Efficiency: <C>100%</> increased duration",
-            "LocalizedString": "> On activate: Restores <C>100</> aux power + gain <C>4</> aerial maneuver charges\r\n> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty\r\n> Maximum Efficiency: <C>100%</> increased duration"
+            "SourceString": "> On activate: Restores <C>100</> aux power + gain <C>4</> aerial maneuver charges\r\n> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty\r\n> Maximum Efficiency: <C>50%</> increased duration",
+            "LocalizedString": "> On activate: Restores <C>100</> aux power + gain <C>4</> aerial maneuver charges\r\n> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty\r\n> Maximum Efficiency: <C>50%</> increased duration"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

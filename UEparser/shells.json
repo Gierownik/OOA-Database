@@ -22,7 +22,7 @@
       "defense": 150.0,
       "defense_regen": 15.0,
       "defense_regen_delay": 3.0,
-      "aux_regen": 35.0,
+      "aux_regen": 30.0,
       "speed": 7.5,
       "aerial_charges": 1,
       "aerial_charges_regen": 0.5,
@@ -66,7 +66,7 @@
       "defense": 100.0,
       "defense_regen": 15.0,
       "defense_regen_delay": 2.0,
-      "aux_regen": 35.0,
+      "aux_regen": 30.0,
       "speed": 7.0,
       "aerial_charges": 1,
       "aerial_charges_regen": 0.5,
@@ -111,7 +111,7 @@
       "defense": 100.0,
       "defense_regen": 10.0,
       "defense_regen_delay": 2.0,
-      "aux_regen": 40.0,
+      "aux_regen": 35.0,
       "speed": 8.0,
       "aerial_charges": 2,
       "aerial_charges_regen": 0.5,
@@ -217,7 +217,7 @@
       "tech_name": "Force Trauma",
       "tech": "Shockwave gains 50% increased range, debuff duration + knockback force, applies stun + cripple",
       "hardware_name": "Reverberate",
-      "hardware": "Backup weapon damage disables for 1 s + deals 0-25% additional shock damage proportional to remaining defense, from 0-100%. Overcharge for 2 s on dealing melee or body impact damage"
+      "hardware": "Backup weapon damage disables for 2 s + deals 0-25% additional shock damage proportional to remaining defense, from 0-50%. Overcharge for 2 s on dealing melee or body impact damage"
     }
   }
 ]
