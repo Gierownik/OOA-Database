@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_Specialisation",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "9E14BB494B112036BC9A719E97A6772C",
+            "SourceString": "Handguns",
+            "LocalizedString": "Handguns"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "312FA432425B0F8B3F4344BEA4181590",
+            "SourceString": "Small Arms",
+            "LocalizedString": "Small Arms"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "D8C6C7CE4046AEBC02A17D8426F9D644",
+            "SourceString": "Shotguns",
+            "LocalizedString": "Shotguns"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "2799D4074C465CEE42C3E6B41D8E4971",
+            "SourceString": "Assault Weapons",
+            "LocalizedString": "Assault Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator4",
+          "Value": {
+            "Namespace": "",
+            "Key": "5AD58FF448A1498F9AEB3F923AA1DB06",
+            "SourceString": "Support Weapons",
+            "LocalizedString": "Support Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "75FF15DA47598A465F2AC09DE7CA37B3",
+            "SourceString": "Precision Weapons",
+            "LocalizedString": "Precision Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator6",
+          "Value": {
+            "Namespace": "",
+            "Key": "1AEC23944C3E4C348949ECB90C1AEFB4",
+            "SourceString": "Heavy Weapons",
+            "LocalizedString": "Heavy Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator7",
+          "Value": {
+            "Namespace": "",
+            "Key": "B3A2A7DE4833D9ABD47B5EB61BB6EC7C",
+            "SourceString": "Melee Weapons",
+            "LocalizedString": "Melee Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator8",
+          "Value": {
+            "Namespace": "",
+            "Key": "D5F8FF90441FC6DFA31B01B82A79E023",
+            "SourceString": "-",
+            "LocalizedString": "-"
+          }
+        },
+        {
+          "Key": "NewEnumerator9",
+          "Value": {
+            "Namespace": "",
+            "Key": "8DAB4AE14B6C6A3D3F3C65A99F27B57C",
+            "SourceString": "Shells",
+            "LocalizedString": "Shells"
+          }
+        },
+        {
+          "Key": "NewEnumerator12",
+          "Value": {
+            "Namespace": "",
+            "Key": "36C57C3D48BDDB9F6305BA8477B51D38",
+            "SourceString": "Devices",
+            "LocalizedString": "Devices"
+          }
+        },
+        {
+          "Key": "NewEnumerator13",
+          "Value": {
+            "Namespace": "",
+            "Key": "B877B8BB49B36A644F4DA28B9D8EC979",
+            "SourceString": "Augments",
+            "LocalizedString": "Augments"
+          }
+        },
+        {
+          "Key": "NewEnumerator14",
+          "Value": {
+            "Namespace": "",
+            "Key": "B5849C1E43EB1E01609B45BB28659EB4",
+            "SourceString": "Attachments",
+            "LocalizedString": "Attachments"
+          }
+        },
+        {
+          "Key": "NewEnumerator15",
+          "Value": {
+            "Namespace": "",
+            "Key": "1DADE59D4129D2771CEDA394F5CF69ED",
+            "SourceString": "Stealth Weapons",
+            "LocalizedString": "Stealth Weapons"
+          }
+        },
+        {
+          "Key": "NewEnumerator16",
+          "Value": {
+            "Namespace": "",
+            "Key": "F4B9CED14814B799D940E79FC09AC5DA",
+            "SourceString": "Nanotech Weapons",
+            "LocalizedString": "Nanotech Weapons"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_Specialisation::NewEnumerator8": 0,
+      "ENUM_Specialisation::NewEnumerator0": 1,
+      "ENUM_Specialisation::NewEnumerator1": 2,
+      "ENUM_Specialisation::NewEnumerator2": 3,
+      "ENUM_Specialisation::NewEnumerator3": 4,
+      "ENUM_Specialisation::NewEnumerator4": 5,
+      "ENUM_Specialisation::NewEnumerator5": 6,
+      "ENUM_Specialisation::NewEnumerator6": 7,
+      "ENUM_Specialisation::NewEnumerator7": 8,
+      "ENUM_Specialisation::NewEnumerator15": 9,
+      "ENUM_Specialisation::NewEnumerator16": 10,
+      "ENUM_Specialisation::NewEnumerator9": 11,
+      "ENUM_Specialisation::NewEnumerator12": 12,
+      "ENUM_Specialisation::NewEnumerator13": 13,
+      "ENUM_Specialisation::NewEnumerator14": 14,
+      "ENUM_Specialisation::ENUM_MAX": 15
+    },
+    "CppForm": "Namespaced"
+  }
+]

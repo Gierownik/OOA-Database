@@ -24,6 +24,8 @@ with open(r"Raw Data\ENUM_WeaponClass.json", "r", encoding="utf-8") as f:
     weapon_class = json.load(f)
 with open(r"Raw Data\ENUM_Category.json", "r", encoding="utf-8") as f:
     weapon_category = json.load(f)
+with open(r"Raw Data\ENUM_Specialisation.json", "r", encoding="utf-8") as f:
+    specialisation_enum_data = json.load(f)
 with open(r"Raw Data\ENUM_FireMode.json", "r", encoding="utf-8") as f:
     weapon_mode = json.load(f)
 with open(r"Raw Data\DT_ProjectileData.json", "r", encoding="utf-8") as f:
@@ -81,6 +83,13 @@ weapon_class_to_value = {
 weapon_category_to_value = {
     entry["Key"]: entry["Value"]["SourceString"]
     for entry in wep_cat["DisplayNameMap"]
+    if entry["Value"]["SourceString"] != "-"
+}
+
+# map specialisation enums to display strings (used as weapon category replacement)
+specialisation_to_value = {
+    entry["Key"]: entry["Value"]["SourceString"]
+    for entry in specialisation_enum_data[0]["Properties"]["DisplayNameMap"]
     if entry["Value"]["SourceString"] != "-"
 }
 
@@ -291,16 +300,26 @@ for skill_name, data in skill_rows.items():
     damage_section = weapon_stat.get("damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE", {})
 
     slot_enum = weapon_stat.get("weaponClass_103_A033AA0D4A67345BE9F09089017236C0", "")
-    cat_enum = weapon_stat.get("category_158_45CB73F443BFECF1A75A4ABAD13BEB27", "")
+    # use specialisation field as the "category" output
+    spec_enum = weapon_stat.get("specialisation_168_45CB73F443BFECF1A75A4ABAD13BEB27", "")
     fire_enum = weapon_stat.get("fireMode_27_09F1BA2744EAF4289A2295991B702E2A", "")
 
     slot_key = slot_enum.replace("ENUM_WeaponClass::", "")
-    cat_key = cat_enum.replace("ENUM_Category::", "")
     fire_key = fire_enum.replace("ENUM_FireMode::", "")
 
     slot_name = weapon_class_to_value.get(slot_key, slot_key)
-    cat_name = weapon_category_to_value.get(cat_key, cat_key)
     fire_name = weapon_mode_to_value.get(fire_key, fire_key)
+
+    # resolve category: prefer specialization lookup, but fall back to original category enum
+    cat_name = ""
+    if spec_enum:
+        spec_key = spec_enum.replace("ENUM_Specialisation::", "")
+        cat_name = specialisation_to_value.get(spec_key, "")
+    if not cat_name:
+        # fallback to the old category field
+        cat_enum = weapon_stat.get("category_158_45CB73F443BFECF1A75A4ABAD13BEB27", "")
+        cat_key = cat_enum.replace("ENUM_Category::", "")
+        cat_name = weapon_category_to_value.get(cat_key, cat_key)
 
     stats = {
         "id": weapon_stat.get("ID_164_1DF0FD0E430EA7E965B389963917762B", 0),
