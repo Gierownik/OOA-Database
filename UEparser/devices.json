@@ -385,7 +385,7 @@
       "duration": 60.0,
       "action": "Throw",
       "activation": "Activate",
-      "activation_delay": 0.75,
+      "activation_delay": 1.0,
       "velocity": 15.0,
       "speed_penalty": 0.15,
       "hack_cost": 0.0,

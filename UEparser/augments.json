@@ -245,7 +245,7 @@
     "tooltip": [
       "> <C>50%</> reduced firearm spread + recoil while ADS with iron sights",
       "> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>10 m</>",
-      "> <C>25%</> reduced firearm + backup weapon damage received within <C>10 m</> while using backup weapons or ADS with iron sights",
+      "> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</> while using backup weapons or ADS with iron sights",
       "<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>",
       "<B>></> <C>25%</> <B>increased firearm + backup weapon damage received beyond</> <C>10 m</> <B>while using backup weapons or ADS with iron sights</>"
     ],
