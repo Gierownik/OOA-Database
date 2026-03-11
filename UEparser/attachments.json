@@ -338,7 +338,7 @@
     "type": "Ammo",
     "tooltip": [
       "> Can lock onto + track painted enemies",
-      "> Additional explosive damage after <C>2 s</>",
+      "> Detonates after <C>2 s</>, dealing additional explosive damage to targets within <C>4 m</>",
       "> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock",
       "> <C>1.5x</> headshot mutliplier",
       "> <C>25</> penetration",
@@ -346,6 +346,7 @@
       "<B>></> <C>85%</> <B>reduced direct damage</>",
       "<B>></> <C>25%</> <B>reduced automatic + burst RPM</>",
       "<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>",
+      "<B>> Reduced tracking speed if used while airborne</>",
       "<B>> Can be disabled</>"
     ],
     "technician": "true",

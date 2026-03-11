@@ -163,7 +163,7 @@
     "type": "Neuro-link",
     "tooltip": [
       "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy",
-      "> Desync: Scrambles radar, detections + targeting systems",
+      "> Desync: Scrambles radar, reverses IFF for detections + targeting systems",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",

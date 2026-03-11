@@ -188,7 +188,7 @@
       ":: <D>CONCUSSIVE IMPULSE</>",
       "> Shockwave AOE on body impact or landing from <C>5 m</> with enemies in proximity: Deals <C>50-25</> shock damage and <C>2 s</> disable + snare to enemies within <C>3 m</>, can knockdown on shoulder barge impact, <C>5 s</> cooldown",
       "> <C>50%</> of damage dealt by Shockwave restored to defense + max defense",
-      "> <C>25%</> of direct damage received reflected as shock damage + <C>0.5 s</> disable if enemy within <C>3 m</> while defense above <C>0%</>",
+      "> <C>25%</> of direct damage received within <C>3 m</> reflected as shock damage + <C>0.5 s</> disable if defense not depleted",
       "<B>> Can be disabled</>",
       ":: <D>REACTIVE CLADDING</>",
       "<C>100%</> of combined vitals damage received restored to defense during defense regeneration on exceeding <C>25</> total damage, <C>10 s</> cooldown",
