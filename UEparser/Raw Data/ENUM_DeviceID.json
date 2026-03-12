@@ -238,6 +238,15 @@
             "SourceString": "Hyper",
             "LocalizedString": "Hyper"
           }
+        },
+        {
+          "Key": "NewEnumerator37",
+          "Value": {
+            "Namespace": "",
+            "Key": "32047A8E40B1B45C3CA45AAE3C998761",
+            "SourceString": "Tox grenade",
+            "LocalizedString": "Tox grenade"
+          }
         }
       ]
     },
@@ -268,7 +277,8 @@
       "ENUM_DeviceID::NewEnumerator34": 23,
       "ENUM_DeviceID::NewEnumerator35": 24,
       "ENUM_DeviceID::NewEnumerator36": 25,
-      "ENUM_DeviceID::ENUM_MAX": 26
+      "ENUM_DeviceID::NewEnumerator37": 26,
+      "ENUM_DeviceID::ENUM_MAX": 27
     },
     "CppForm": "Namespaced"
   }

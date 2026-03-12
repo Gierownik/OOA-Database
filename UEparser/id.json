@@ -111,7 +111,8 @@
         "Pathogen": 22,
         "Lockdown": 23,
         "Surge": 24,
-        "Hyper": 25
+        "Hyper": 25,
+        "Tox grenade": 26
     },
     "Weapons": {
         "Major": 2,

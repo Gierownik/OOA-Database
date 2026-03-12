@@ -626,7 +626,7 @@
       "slot": "Primary",
       "category": "Shotguns",
       "firemode": "Automatic",
-      "firerate": "240.0",
+      "firerate": "300.0",
       "damage_near": 20.0,
       "damage_far": 10.0,
       "range": "5.0 - 50.0",
