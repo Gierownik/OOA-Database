@@ -73,7 +73,7 @@
       "<D>BISON</>",
       "<F1>> Combat Focus: </><C>50%</> increased weapon accuracy and <C>25%</> increased speed + dexterity for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown",
       "<F2>> Flow State: </>Core activates without cost for <C>2.5 s</> on performing a wall dive or flip within <C>1 s</> of starting a climb, <C>15 s</> cooldown",
-      "<F3>> Locked In: </>Melee damage + firearm headshots gain <C>0-50%</> defense bypass proportional to remaining vitals, from <C>100-25%</>",
+      "<F3>> Locked In: </>Melee + firearm damage gains <C>0-50%</> defense bypass proportional to remaining vitals, from <C>100-25%</>",
       "<D>DRAGON</>",
       "<F1>> Thermal Transfer: </><C>50%</> of defense gained from Backdraft or burn + explosive damage received is restored to vitals",
       "<F2>> Superheated: </>Backdraft + Ground Slam gain <C>25%</> increased damage + range. Backdraft, Ground Slam + backup weapon damage applies combust",

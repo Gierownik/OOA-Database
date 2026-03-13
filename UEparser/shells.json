@@ -39,7 +39,7 @@
       "tech_name": "Flow State",
       "tech": "Core activates without cost for 2.5 s on performing a wall dive or flip within 1 s of starting a climb, 15 s cooldown",
       "hardware_name": "Locked In",
-      "hardware": "Melee damage + firearm headshots gain 0-50% defense bypass proportional to remaining vitals, from 100-25%"
+      "hardware": "Melee + firearm damage gains 0-50% defense bypass proportional to remaining vitals, from 100-25%"
     }
   },
   {

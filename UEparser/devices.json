@@ -509,9 +509,7 @@
     "type": "Standard",
     "tooltip": [
       "> Creates multiple charged nano-particle clouds on activation",
-      "> Clouds obscures vision + targeting systems",
-      "> Detects enemies on contact",
-      "> <C>5 s</> Overcharge to allies on contact",
+      "> Clouds obscure vision, detect enemies + apply <C>5 s</> Overcharge to allies on contact",
       "> Maximum Efficiency: <C>100%</> increased duration",
       "<B>> Can be cleared with fire</>"
     ],
