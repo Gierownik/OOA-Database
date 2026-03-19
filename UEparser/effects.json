@@ -105,7 +105,7 @@
       "> <C>100%</> reduced speed penalties and aux drain from all sources",
       "> <C>50%</> increased dexterity",
       "> Snare immunity",
-      "<B>> <C>0 - 100%</> increased direct damage recieved, scaling proportionally with duration active from <C>0 - 5 s</>"
+      "<B>> <C>100%</> increased direct damage recieved</>"
     ],
     "enhancement": "None",
     "enh_tooltip": []
