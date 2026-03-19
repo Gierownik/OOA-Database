@@ -44,7 +44,7 @@
     "duration": "2s",
     "tooltip": [
       "<B>> <C>100%</> reduced vitals restored from all sources</>",
-      "<B>> <C>10/s</> defense drain</>"
+      "<B>> <C>20/s</> defense drain</>"
     ],
     "enhancement": "Necrosis",
     "enh_tooltip": [
