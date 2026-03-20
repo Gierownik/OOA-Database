@@ -44,11 +44,11 @@
     "duration": "2s",
     "tooltip": [
       "<B>> <C>100%</> reduced vitals restored from all sources</>",
-      "<B>> <C>20/s</> defense drain</>"
+      "<B>> <C>20/s</> chemical damage to defense</>"
     ],
     "enhancement": "Necrosis",
     "enh_tooltip": [
-      "<B>> <C>50%</> of attempted vitals restoration drains vitals</>",
+      "<B>> <C>50%</> of attempted vitals restoration received as chemical damage to vitals</>",
       "<B>> Duration constantly refreshed while bleeding</>"
     ]
   },
