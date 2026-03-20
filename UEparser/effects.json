@@ -16,7 +16,7 @@
     "name": "Bleed",
     "tick": "0.5s",
     "tooltip": [
-      "<B>> Constant bleed damage, up to 10/s</>"
+      "<B>> Up to 10/s bleed damage</>"
     ],
     "enhancement": "Hemorrhage",
     "enh_tooltip": [
@@ -29,7 +29,7 @@
     "duration": "5s",
     "tick": "0.5s",
     "tooltip": [
-      "<B>> Constant fire damage and stat reduction, up to 20/s</>",
+      "<B>> Up to 20/s fire damage</>",
       "<B>> <C>50%</> decreased dexterity</>",
       "<B>> Burn ticks don't deplete while moving over 8m/s</>",
       "> <C>5</> burn ticks removed on roll"
@@ -44,11 +44,11 @@
     "duration": "2s",
     "tooltip": [
       "<B>> <C>100%</> reduced vitals restored from all sources</>",
-      "<B>> <C>20/s</> chemical damage to defense</>"
+      "<B>> <C>20/s</> chemical damage</>"
     ],
     "enhancement": "Necrosis",
     "enh_tooltip": [
-      "<B>> <C>50%</> of attempted vitals restoration received as chemical damage to vitals</>",
+      "<B>> <C>50%</> of attempted vitals restoration received as vital damage</>",
       "<B>> Duration constantly refreshed while bleeding</>"
     ]
   },
