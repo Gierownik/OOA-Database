@@ -29,7 +29,7 @@
     "duration": "5s",
     "tick": "0.5s",
     "tooltip": [
-      "<B>> Up to 20/s fire damage</>",
+      "<B>> Up to 20/s Burn damage</>",
       "<B>> <C>50%</> decreased dexterity</>",
       "<B>> Burn ticks don't deplete while moving over 8m/s</>",
       "> <C>5</> burn ticks removed on roll"
@@ -59,8 +59,8 @@
     ],
     "enhancement": "",
     "enh_tooltip": [
-      "<B>> <C>10 /s</> shock damage + stun while Core active</>",
-      "<B>><C>25</> shock damage + <C>4 s</> stun on relocation</>"
+      "<B>> <C>10 /s</> shock damage and Disable+ while Core active</>",
+      "<B>><C>25</> shock damage and 4s Disable+ on relocation</>"
     ]
   },
   {
@@ -113,8 +113,8 @@
   {
     "name": "Reinforce",
     "tooltip": [
-      "> Defense penetration + bullet effects immunity",
-      "> Deflects projectiles + devices",
+      "> Defense penetration and bullet effects immunity",
+      "> Deflects projectiles and devices",
       "> <C>50%</> reduced direct damage recieved",
       "<B>> Disables optical camouflage</>"
     ],
