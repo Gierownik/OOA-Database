@@ -6,7 +6,7 @@
       "> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge",
       "> Recover an aerial maneuver charge on starting a climb",
       "> <C>50%</> reduced fall damage",
-      "> <C>15%</> increased jump + climb speed",
+      "> <C>15%</> increased jump and climb speed",
       "<B>></> <C>25</> <B>reduced defense</>"
     ],
     "foundations": {
@@ -20,10 +20,10 @@
       "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>",
       "> <C>50%</> increased Stim use speed",
       "> <C>25%</> reduced direct damage to vitals while active",
-      "> <C>50%</> increased aux power + aerial maneuver regeneration while active",
+      "> <C>50%</> increased aux power and aerial maneuver regeneration while active",
       "> <C>15%</> increased ground speed while active",
       "<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>",
-      "<B>></> <C>4 s</> <B>snare +</> <C>25</> <B>vital damage received on activation while detox on cooldown</>",
+      "<B>></> <C>4 s</> <B>Snare+</> <C>25</> <B>vital damage received on activation while detox on cooldown</>",
       "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
     ],
     "foundations": {
@@ -35,8 +35,8 @@
     "name": "Adrenaline Rush",
     "tooltip": [
       "> Activates on visible kill, <C>5 s</> cooldown",
-      "> <C>50</> vitals + aux power restored on activate",
-      "> <C>25%</> increased ground speed + dexterity for <C>5 s</> on activate",
+      "> <C>50</> vitals and aux power restored on activate",
+      "> <C>25%</> increased ground speed and dexterity for <C>5 s</> on activate",
       "> <C>50%</> reduced aux power drain for <C>5 s</> on activate",
       "<B>></> <C>25</> <B>reduced vitals</>"
     ],
@@ -48,12 +48,12 @@
   {
     "name": "Advanced Recon",
     "tooltip": [
-      "> <C>25%</> increased radar + detection range from all sources",
-      "> <C>100%</> reduced scan + tag cooldown on ally killing tagged enemy",
+      "> <C>25%</> increased radar and detection range from all sources",
+      "> <C>100%</> reduced scan and tag cooldown on ally killing tagged enemy",
       "> <C>5 s</> increased scan duration",
       "> Detected enemies can be tagged",
       "<B>> </><C>1</> <B> reduced Shell detections</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -67,9 +67,9 @@
       "> Alternate aim stance: Fire a single sidearm with increased accuracy",
       "> <C>15%</> increased Core generation with sidearms",
       "<B>> Can no longer equip sidearm optics</>",
-      "<B>></> <C>50%</> <B>reduced sidearm maneuver + stance accuracy bonuses</>",
+      "<B>></> <C>50%</> <B>reduced sidearm maneuver and stance accuracy bonuses</>",
       "<B>></> <C>35%</> <B>reduced sidearm damage while not using alternate aim stance</>",
-      "<B>></> <C>25%</> <B>increased sidearm recoil, spread + spread gain while not using alternate aim stance</>",
+      "<B>></> <C>25%</> <B>increased sidearm recoil, spread and spread gain while not using alternate aim stance</>",
       "<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
     ],
     "foundations": {
@@ -81,11 +81,11 @@
     "name": "Armadillo",
     "tooltip": [
       "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown",
-      "> Deflect direct damage, clears burn + gains fire immunity while active",
+      "> Deflect direct damage, clears Burn and gains Burn immunity while active",
       "> Destroys attached devices on activate",
       "> Automatically roll on knockdown",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "body",
@@ -98,9 +98,9 @@
       "> <C>25%</> increased backup weapon charge speed",
       "> <C>0-50%</> increased backup weapon power, scaling proportionally while primary attack fully charged for <C>0-0.5 s</>",
       "> <C>25%</> increased device throw velocity",
-      "> <C>25%</> reduced firearm recoil + spread gain",
+      "> <C>25%</> reduced firearm recoil and spread gain",
       "<B>> Additional attack charging drains aux power</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "body",
@@ -110,12 +110,12 @@
   {
     "name": "Augmented Legs",
     "tooltip": [
-      "> <C>25%</> reduced loadout + movement speed penalties while on ground or climbing",
+      "> <C>25%</> reduced loadout and movement speed penalties while on ground or climbing",
       "> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched",
       "> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers",
       "<B>> Charging jump drains aux power</>",
-      "<B>> Snared while disabled</>",
-      "<B>> Can be disabled</>"
+      "<B>> Snared while Disabled</>",
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "body",
@@ -125,14 +125,14 @@
   {
     "name": "Augmented Nano-wire",
     "tooltip": [
-      "> Nano-wire can attach to held enemy weapons pulling you toward them, applies snare for <C>4 s</>",
+      "> Nano-wire can attach to held enemy weapons pulling you toward them, applies Snare for <C>4 s</>",
       "> Can disarm weapon during active Core or while enemy is knocked down, <C>10 s</> cooldown",
-      "> Nano-wire can pickup enemy devices + projectiles, ownership transfered if held for <C>1 s</>",
+      "> Nano-wire can pickup enemy devices and projectiles, ownership transfered if held for <C>1 s</>",
       "> <C>25%</> increased Nano-wire range",
-      "<B>> Attaches to enemy heads + no longer disarms with Tether equipped</>",
+      "<B>> Attaches to enemy heads and no longer disarms with Tether equipped</>",
       "<B>></> <C>100%</> <B>increased Nano-wire cooldown</>",
       "<B>></> <C>50</> <B>aux power drained on pull</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -142,11 +142,11 @@
   {
     "name": "Auto-Doc",
     "tooltip": [
-      "> Automatically clears bleed, <C>10 s</> cooldown",
-      "> <C>25</> vitals restored + bleed immunity for <C>2.5 s</> on activation, chemical heal",
+      "> Automatically clears Bleed, <C>10 s</> cooldown",
+      "> <C>25</> vitals restored and Bleed immunity for <C>2.5 s</> on activation, chemical heal",
       "> <C>5 /s</> max vitals regeneration",
       "<B>></> <C>25%</> <B>reduced aux regeneration</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "body",
@@ -156,9 +156,9 @@
   {
     "name": "Auxiliary Vitals",
     "tooltip": [
-      "> Chemical heals gain bleed immunity if used while not bleeding",
-      "> On receiving fatal bleed damage or Core activation: <C>25</> vitals restored + bleed immunity for <C>5 s</>, chemical heal, <C>10 s</> cooldown",
-      "> <C>2.5</> vitals + max vitals restored every <C>0.5 s</> while bleed immunity from chemical heals active",
+      "> Chemical heals gain Bleed immunity if used while not Bleeding",
+      "> On receiving fatal Bleed damage or Core activation: <C>25</> vitals restored and Bleed immunity for <C>5 s</>, chemical heal, <C>10 s</> cooldown",
+      "> <C>2.5</> vitals and max vitals restored every <C>0.5 s</> while Bleed immunity from chemical heals active",
       "<B>></> <C>25%</> <B>reduced defense restored from all sources</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
@@ -171,11 +171,11 @@
     "name": "Backdoor",
     "tooltip": [
       "> Enemies are detected to allies for <C>5-1 s</> on successful Neuro-Link proportional to amount from <C>1-5</>, <C>15 s</> cooldown",
-      "> Devices + explosives of visible or detected enemies are detected to allies",
+      "> Devices and explosives of visible or detected enemies are detected to allies",
       "> Tag enemies on receiving Neuro-Link",
       "<B>> </><C>5 s</> <B>reduced scan duration</>",
       "<B>> </><C>1</> <B>reduced Shell detections</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -185,16 +185,16 @@
   {
     "name": "Bloodsport",
     "tooltip": [
-      "> Bleeding enemies are detected while bleeding",
-      "> <C>100%</> of bleed damage dealt restored to vitals + max vitals while bleeding",
-      "> <C>25%</> of damage dealt with backup weapons + body impacts restored to vitals + max vitals while bleeding, addititonal <C>25%</> if target is bleeding",
-      "> <C>25</> vitals restored on visible enemy kill while bleeding, additional <C>50</> if target is bleeding",
-      "> <C>15%</> increased ground speed while bleeding with backup weapon equipped",
-      "> <C>50%</> reduced aux power drain while bleeding with backup weapon equipped",
-      "<B>> Primary stim no longer restores vitals + causes bleed if used while not bleeding</>",
-      "<B>></> <C>100%</> <B>reduced defense regeneration while bleeding</>",
-      "<B>></> <C>50%</> <B>increased bleed damage received</>",
-      "<B>> Core activation no longer clears bleed</>"
+      "> Bleeding enemies are detected while Bleeding",
+      "> <C>100%</> of Bleed damage dealt restored to vitals and max vitals while Bleeding",
+      "> <C>25%</> of damage dealt with backup weapons and body impacts restored to vitals and max vitals while Bleeding, addititonal <C>25%</> if target is Bleeding",
+      "> <C>25</> vitals restored on visible enemy kill while Bleeding, additional <C>50</> if target is Bleeding",
+      "> <C>15%</> increased ground speed while Bleeding with backup weapon equipped",
+      "> <C>50%</> reduced aux power drain while Bleeding with backup weapon equipped",
+      "<B>> Primary stim no longer restores vitals and causes Bleed if used while not Bleeding</>",
+      "<B>></> <C>100%</> <B>reduced defense regeneration while Bleeding</>",
+      "<B>></> <C>50%</> <B>increased Bleed damage received</>",
+      "<B>> Core activation no longer clears Bleed</>"
     ],
     "foundations": {
       "type": "body",
@@ -204,11 +204,11 @@
   {
     "name": "Caustic",
     "tooltip": [
-      "> Backup weapons deal chemical damage + apply corrode for <C>2 s</>",
-      "> <C>25%</> of vitals damage received reflected as chemical damage + <C>2 s</> snare to enemies within <C>3 m</>",
-      "> <C>100%</> chemical resistance, chemical stat reduction immunity",
+      "> Backup weapons apply Corrode for <C>2 s</>",
+      "> <C>25%</> of vitals damage received reflected as chemical damage and <C>2 s</> Snare to enemies within <C>3 m</>",
+      "> <C>100%</> Corrode resistance",
       "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
-      "<B>></> <C>25%</> <B>increased bleed damage received</>"
+      "<B>></> <C>25%</> <B>increased Bleed damage received</>"
     ],
     "foundations": {
       "type": "body",
@@ -218,10 +218,10 @@
   {
     "name": "Chain Reaction",
     "tooltip": [
-      "> Disable all unobstructed enemies within <C>25 m</> on receiving disable for <C>50%</> of the duration",
-      "> Disable all unobstructed enemies within <C>25 m</> of enemy on applying disable for <C>50%</> of the duration",
-      "> <C>5%</> increased direct damage dealt per unobstructed disabled enemy within <C>50 m</>, stacking up to <C>25%</>",
-      "<B>></> <C>15%</> <B>increased direct damage received while disabled</>"
+      "> Disable all unobstructed enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration",
+      "> Disable all unobstructed enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration",
+      "> <C>5%</> increased direct damage dealt per unobstructed Disabled enemy within <C>50 m</>, stacking up to <C>25%</>",
+      "<B>></> <C>15%</> <B>increased direct damage received while Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -231,8 +231,8 @@
   {
     "name": "Chemical Warfare",
     "tooltip": [
-      "> Explosive damage deals chemical damage + applies corrode for <C>2 s</>",
-      "> All sources of corrode cause necrosis: <C>50%</> of attempted vitals restoration drained from vitals, duration refreshed while bleeding",
+      "> Explosive damage applies Corrode for <C>2 s</>",
+      "> All sources of Corrode cause Corrode+: <C>50%</> of attempted vitals restoration drained from vitals, duration refreshed with active Bleed",
       "<B>></> <C>25%</> <B>reduced explosive damage</>"
     ],
     "foundations": {
@@ -243,11 +243,11 @@
   {
     "name": "Close Minded",
     "tooltip": [
-      "> <C>50%</> reduced firearm spread + recoil while ADS with iron sights",
-      "> <C>25%</> increased ground speed + Core generation while using backup weapons with enemies within <C>10 m</>",
-      "> <C>25%</> reduced firearm + backup weapon damage received within <C>5 m</> while using backup weapons or ADS with iron sights",
-      "<B>></> <C>25%</> <B>reduced speed while ADS + firearm far damage range</>",
-      "<B>></> <C>25%</> <B>increased firearm + backup weapon damage received beyond</> <C>10 m</> <B>while using backup weapons or ADS with iron sights</>"
+      "> <C>50%</> reduced firearm spread and recoil while ADS with iron sights",
+      "> <C>25%</> increased ground speed and Core generation while using backup weapons with enemies within <C>10 m</>",
+      "> <C>25%</> reduced firearm and backup weapon damage received within <C>5 m</> while using backup weapons or ADS with iron sights",
+      "<B>></> <C>25%</> <B>reduced speed while ADS and firearm far damage range</>",
+      "<B>></> <C>25%</> <B>increased firearm and backup weapon damage received beyond</> <C>10 m</> <B>while using backup weapons or ADS with iron sights</>"
     ],
     "foundations": {
       "type": "body",
@@ -260,7 +260,7 @@
       "> <C>1%</> of direct damage dealt converted to active Core duration",
       "> <C>25%</> increased Core generation",
       "<B>></> <C>100%</> <B>reduced Core generation during active Core</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -270,7 +270,7 @@
   {
     "name": "Core Decay",
     "tooltip": [
-      "> <C>0-100%</> increased aux power + aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
+      "> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
       "<B>></> <C>0.25-4 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>> Can no longer manually activate Core</>"
@@ -284,10 +284,10 @@
     "name": "Core Discharge",
     "tooltip": [
       "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown",
-      "> Deals <C>25</> vital damage, <C>4 s</> disable + knockback to enemies within <C>5 m</>, knockdown if within <C>2.5 m</>",
-      "> Deflects unattached devices + projectiles within <C>5 m</>",
+      "> Deals <C>25</> vital damage, <C>4 s</> Disable and knockback to enemies within <C>5 m</>, knockdown if within <C>2.5 m</>",
+      "> Deflects unattached devices and projectiles within <C>5 m</>",
       "<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>",
-      "<B>></> <C>25%</> <B>reduced Core generation + duration</>"
+      "<B>></> <C>25%</> <B>reduced Core generation and duration</>"
     ],
     "foundations": {
       "type": "tech",
@@ -297,8 +297,8 @@
   {
     "name": "Counterbalance",
     "tooltip": [
-      "> Removes flat vitals, defense + speed reductions from equipped augments",
-      "> Equipped augments can no longer be disabled",
+      "> Removes flat vitals, defense and speed reductions from equipped augments",
+      "> Equipped augments can no longer be Disabled",
       "<B>> </><C>25%</><B> increased augment cooldowns</>"
     ],
     "foundations": {
@@ -314,7 +314,7 @@
       "> Enemies that tag you are tagged",
       "> Visible disguised enemies within <C>15 m</> are revealed",
       "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -326,8 +326,8 @@
     "tooltip": [
       "> <C>50%</> reduced detectable range",
       "> Shroud for <C>3s</> on kill, <C>6s</> without receiving damage from target",
-      "> Devices + projectiles are undetectable",
-      "<B>> Can be disabled</>"
+      "> Devices and projectiles are undetectable",
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -340,7 +340,7 @@
       "> Detect enemies for <C>0.75 s</> on dealing direct damage",
       "> Detect enemies within <C>15 m</> of killed enemy for <C>3 s</>, <C>10 s</> cooldown",
       "<B>></> <C>50%</> <B>reduced radar detection range</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -351,9 +351,9 @@
     "name": "Dead Drop",
     "tooltip": [
       "> Aiming, quick melee or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown",
-      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity",
+      "> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, Snare immunity",
       "> Deactivates after <C>2 s</> if no longer falling",
-      "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>"
+      "<B>></> <C>100%</> <B>increased direct damage received while active</>"
     ],
     "foundations": {
       "type": "body",
@@ -364,14 +364,14 @@
     "name": "Disengage",
     "tooltip": [
       "> Can survive fatal damage. Relocate to a previous location if death prevented",
-      "> <C>50%</> vitals + defense restored on activation",
-      "> Removes tagged + clears debuffs on activation",
-      "<B>></> <C>50%</> <B>reduced max vitals + defense on activation</>",
+      "> <C>50%</> vitals and defense restored on activation",
+      "> Removes tagged and clears debuffs on activation",
+      "<B>></> <C>50%</> <B>reduced max vitals and defense on activation</>",
       "<B>></> <C>50%</> <B>reduced Core charge on activation</>",
       "<B>> Fatal explosive or telefrag damage prevents activation</>",
-      "<B>> Can no longer restore max vitals + max defense on activation</>",
+      "<B>> Can no longer restore max vitals and max defense on activation</>",
       "<B>> Can only activate once</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -382,10 +382,10 @@
     "name": "Dispersal",
     "tooltip": [
       "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown",
-      "> Seeker: Rolls toward + tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching or losing target",
+      "> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching or losing target",
       "<B>></> <C>25%</> <B>Increased device cooldowns</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "hardware",
@@ -397,7 +397,7 @@
     "tooltip": [
       "> <C>25%</> increased dexterity",
       "> Complete active reloads on roll maneuvers at any stage of the reload",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "body",
@@ -407,12 +407,12 @@
   {
     "name": "Enhanced Foundation",
     "tooltip": [
-      "> <C>0.35%</> reduced movement speed penalties + backup weapon damage received for each Body foundation upgrade",
-      "> <C>0.35%</> increased aux power regeneration + radar range for each Tech foundation upgrade",
-      "> <C>0.35%</> reduced firearm recoil + ADS spread for each Hardware foundation upgrade",
-      "<B>></> <C>0.25%</> <B>reduced knockback resistance + climb speed for each Body foundation upgrade</>",
-      "<B>></> <C>0.25%</> <B>increased detectable range + direct damage received while disabled for each Tech foundation upgrade</>",
-      "<B>></> <C>0.25%</> <B>reduced bleed immunity + device duration for each Hardware foundation upgrade</>"
+      "> <C>0.35%</> reduced movement speed penalties and backup weapon damage received for each Body foundation upgrade",
+      "> <C>0.35%</> increased aux power regeneration and radar range for each Tech foundation upgrade",
+      "> <C>0.35%</> reduced firearm recoil and ADS spread for each Hardware foundation upgrade",
+      "<B>></> <C>0.25%</> <B>reduced knockback resistance and climb speed for each Body foundation upgrade</>",
+      "<B>></> <C>0.25%</> <B>increased detectable range and direct damage received while Disabled for each Tech foundation upgrade</>",
+      "<B>></> <C>0.25%</> <B>reduced Bleed immunity and device duration for each Hardware foundation upgrade</>"
     ],
     "foundations": {
       "type": "body",
@@ -438,7 +438,7 @@
       "> <C>100%</> defense bypass with melee damage to weakened enemies",
       "> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity, <C>100%</> reduced speed penalties",
       "> <C>25%</> increased direct damage to knocked down enemies",
-      "<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>",
+      "<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>",
       "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
     ],
     "foundations": {
@@ -449,9 +449,9 @@
   {
     "name": "Fail-safe",
     "tooltip": [
-      "> When vitals drop below <C>25%</> or stunned: <C>20</> vitals restored every <C>0.5 s</> + disable immunity for <C>2.5 s</>, <C>30 s</> cooldown",
-      "> Devices + projectiles can no longer be disabled",
-      "<B>></> <C>25%</> <B>reduced defense + aux regeneration</>"
+      "> When vitals drop below <C>25%</> or receive Disable+: <C>20</> vitals restored every <C>0.5 s</> and Disable immunity for <C>2.5 s</>, <C>30 s</> cooldown",
+      "> Devices and projectiles can no longer be Disabled",
+      "<B>></> <C>25%</> <B>reduced defense and aux regeneration</>"
     ],
     "foundations": {
       "type": "tech",
@@ -462,11 +462,11 @@
     "name": "Gecko",
     "tooltip": [
       "> Gain Shroud while climbing, <C>0.5 s</> activation time",
-      "> Gain camouflage while stationary + climbing, any actions will deactivate, <C>4 s</> cooldown",
+      "> Gain camouflage while stationary and climbing, any actions will deactivate, <C>4 s</> cooldown",
       "> <C>100%</> reduced aux power drain from climbing",
       "> <C>100%</> reduced fall damage when landing into a climb",
-      "> <C>15%</> increased speed, jump speed + weapon accuracy while climbing",
-      "<B>> Can be disabled</>"
+      "> <C>15%</> increased speed, jump speed and weapon accuracy while climbing",
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "body",
@@ -477,12 +477,12 @@
     "name": "Hardcase",
     "tooltip": [
       "> <C>100%</> reduced bonus multiplier on headshots received while active",
-      "> <C>100%</> reduced defense penetration + bleeding from headshots received while active",
+      "> <C>100%</> reduced defense penetration and Bleed from headshots received while active",
       "> Reduces fatal headshot damage by up to <C>100%</>",
-      "> Immunity to Tether + Neuro-Link while active",
-      "<B>> Headshot damage received applies snare while active</>",
+      "> Immunity to Tether and Neuro-Link while active",
+      "<B>> Headshot damage received applies Snare while active</>",
       "<B>> Can no longer use Neuro-Link while active</>",
-      "<B>> </> <C>4 s</> <B>stun + destroyed on prevention of fatal headshot</>",
+      "<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
@@ -493,12 +493,12 @@
   {
     "name": "Hardened",
     "tooltip": [
-      "> Activates on receiving vitals damage to body, deactivates + restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown",
+      "> Activates on receiving vitals damage to body, deactivates and restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown",
       "> <C>25-75%</> reduced direct vitals damage to body received, scaling proportionally with reduced max vitals from <C>0-75%</> while active",
       "<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>",
       "<B>> Can no longer restore max vitals while active</>",
-      "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity + aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>",
-      "<B>></> <C>50%</> <B>increased fire damage received</>"
+      "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>",
+      "<B>></> <C>50%</> <B>increased Burn damage received</>"
     ],
     "foundations": {
       "type": "body",
@@ -521,7 +521,7 @@
     "name": "Heavy Ordnance",
     "tooltip": [
       "> <C>25%</> increased explosive far damage range",
-      "> <C>50%</> increased explosive bleed damage",
+      "> <C>50%</> increased explosive Bleed damage",
       "> All equipped or picked up weapons gain the Contact Charge mod with no slot cost",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
@@ -548,7 +548,7 @@
   {
     "name": "Hot Swap",
     "tooltip": [
-      "> Hot mag: Cycle through available ammo types with fire or aim while holding reload, gain <C>50%</> reduced spread + improved ammo for equipped weapon on changing ammo type, <C>10 s</> cooldown on drop, reload or activating on another weapon",
+      "> Hot mag: Cycle through available ammo types with fire or aim while holding reload, gain <C>50%</> reduced spread and improved ammo for equipped weapon on changing ammo type, <C>10 s</> cooldown on drop, reload or activating on another weapon",
       "> <C>100%</> reduced reload movement speed penalty, unaffected by Core slowing effects while reloading",
       "> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible",
       "<B>> </><C>25%</> <B>increased recoil while Hot mag active</>",
@@ -564,10 +564,10 @@
     "name": "Hunter Optics",
     "tooltip": [
       "> Target recognition overlay, replaces scan",
-      "> Highlights enemies + devices while active",
-      "<B>> Disables detections + radar while active</>",
+      "> Highlights enemies and devices while active",
+      "<B>> Disables detections and radar while active</>",
       "<B>> Unable to use weapon optics while active</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -578,7 +578,7 @@
     "name": "Inertial Buffer",
     "tooltip": [
       "> <C>50%</> reduced deceleration while airborne or during sliding maneuvers",
-      "> <C>35%</> reduced weapon spread + spread gain during sliding maneuvers",
+      "> <C>35%</> reduced weapon spread and spread gain during sliding maneuvers",
       "> <C>25%</> increased knockback resistance",
       "> Knockdown immunity during sliding maneuvers",
       "<B>></> <C>100%</> <B>reduced lateral control during sliding maneuvers</>",
@@ -593,9 +593,9 @@
     "name": "Kinetic Focus",
     "tooltip": [
       "> <C>0-35%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>",
-      "> <C>0-35%</> reduced weapon spread + spread gain, scaling proportionally with speed from <C>4-12 m/s</>",
+      "> <C>0-35%</> reduced weapon spread and spread gain, scaling proportionally with speed from <C>4-12 m/s</>",
       "> <C>0-35%</> increased knockback resistance, scaling proportionally with speed from <C>4-12 m/s</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "body",
@@ -607,8 +607,8 @@
     "tooltip": [
       "> <C>25</> vitals restored on roll maneuvers, chemical heal, <C>10 s</> cooldown",
       "> <C>25</> vitals restored on receiving body impact, chemical heal",
-      "> <C>2.5 s</> bleed immunity if activated while bleeding",
-      "<B>> Can be disabled</>"
+      "> <C>2.5 s</> Bleed immunity if activated while Bleeding",
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "hardware",
@@ -619,7 +619,7 @@
     "name": "Low Profile",
     "tooltip": [
       "> <C>50%</> reduced movement sound",
-      "> <C>50%</> reduced radar profile + tagged duration",
+      "> <C>50%</> reduced radar profile and tagged duration",
       "> <C>50%</> increased crouch speed",
       "<B>></> <C>25</> <B>reduced defense</>"
     ],
@@ -631,7 +631,7 @@
   {
     "name": "Maximum Efficiency",
     "tooltip": [
-      "> Improves standard + enhancement devices",
+      "> Improves standard and enhancement devices",
       "<B>></> <C>50%</> <B>Increased device cooldowns</>"
     ],
     "foundations": {
@@ -647,14 +647,14 @@
       "> <C>100%</> increased hack speed while dealing direct damage",
       "> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link or while scan hacking",
       "> <C>10%</> reduced aux power drain from all sources per detected enemy",
-      "<B>> Deactivates vitals + defense regeneration while scanning</>",
+      "<B>> Deactivates vitals and defense regeneration while scanning</>",
       "<B>> Unable to use weapon optics while scanning</>",
-      "<B>> </><C>50%</> <B>increased spread + spread gain while scanning</>",
+      "<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>",
       "<B>> </><C>50%</> <B>increased scan cooldown</>",
       "<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>",
       "<B>> </><C>1</> <B> reduced Shell detections</>",
       "<B>> </><C>5 s</> <B>reduced scan duration</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -665,8 +665,8 @@
     "name": "Overclocked",
     "tooltip": [
       "> Unaffected by Core slowing effects while Core active",
-      "<B>></> <C>10 /s</> <B>vitals + defense damage while Core active</>",
-      "<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while Core active</>",
+      "<B>></> <C>10 /s</> <B>vitals and defense damage while Core active</>",
+      "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources while Core active</>",
       "<B>></> <C>25%</> <B>reduced Core generation</>"
     ],
     "foundations": {
@@ -678,13 +678,13 @@
     "name": "Overseer",
     "tooltip": [
       "> Personal targeting drone, replaces scan",
-      "> Provides external camera view + paints visible enemies while active",
-      "> <C>35%</> reduced spread + spread gain while active",
+      "> Provides external camera view and paints visible enemies while active",
+      "> <C>35%</> reduced spread and spread gain while active",
       "<B>> Disrupts vision if drone takes damage while active</>",
       "<B>> Can no longer ADS</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
       "<B>> Can be destroyed</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -694,7 +694,7 @@
   {
     "name": "Perpetual Motion",
     "tooltip": [
-      "> Removes snare on performing a maneuver, can maneuver while crippled",
+      "> Removes Snare on performing a maneuver, can maneuver while crippled",
       "> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver",
       "> <C>100%</> reduced aux power drain from all sources while Core active",
       "> Gain <C>4</> aerial maneuver charges while Core active",
@@ -711,7 +711,7 @@
     "tooltip": [
       "> <C>100%</> increased vitals restored by primary stim",
       "> <C>100%</> of vitals restored by primary stim restores max vitals",
-      "> <C>100%</> increased aux power + aerial maneuver regeneration for <C>10 s</> on primary stim use",
+      "> <C>100%</> increased aux power and aerial maneuver regeneration for <C>10 s</> on primary stim use",
       "<B>></> <C>100%</> <B>increased primary stim cooldown</>"
     ],
     "foundations": {
@@ -723,9 +723,9 @@
     "name": "Professional",
     "tooltip": [
       "> <C>25%</> increased far damage with sidearms while using a single sidearm or akimbo alternate aim stance",
-      "> <C>25%</> reduced spread, spread gain, recoil + weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance",
+      "> <C>25%</> reduced spread, spread gain, recoil and weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance",
       "> Dispatch: <C>100%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>",
-      "> <C>25%</> increase quick melee dash speed + range while using sidearms",
+      "> <C>25%</> increase quick melee dash speed and range while using sidearms",
       "> <C>100%</> additional base sidearm reserve ammo",
       "> All equipped or picked up sidearms gain the Suppressor mod with no slot cost",
       "<B>> Can no longer equip primary weapons</>",
@@ -743,9 +743,9 @@
       "> <C>50%</> increased body impact damage",
       "> <C>100%</> of body impact damage received reflected",
       "> <C>25%</> of body impact damage dealt or reflected penetrates defense",
-      "> <C>5-10 /s</> bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>",
+      "> <C>5-10 /s</> Bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>",
       "<B>></> <C>25%</> <B>reduced body impact damage on deflections</>",
-      "<B>></> <C>50%</> <B>of body impact damage dealt or received reduces defense + max defense</>"
+      "<B>></> <C>50%</> <B>of body impact damage dealt or received reduces defense and max defense</>"
     ],
     "foundations": {
       "type": "body",
@@ -755,12 +755,12 @@
   {
     "name": "Pyro-Psycho",
     "tooltip": [
-      "> <C>85%</> reduced fire damage received, can no longer die from fire damage",
-      "> <C>50%</> increased ground speed + jump height while burning",
-      "> Ignite enemies within <C>3 m</> while burning",
-      "> Ignite nearby surface for <C>3 s</> on roll maneuvers while burning, if enemy within <C>15 m</>",
-      "> Snare immunity while burning",
-      "<B>> Core activation no longer clears burning</>",
+      "> <C>85%</> reduced Burn damage received, can no longer die from Burn damage",
+      "> <C>50%</> increased ground speed and jump height while Burning",
+      "> Ignite enemies within <C>3 m</> while Burning",
+      "> Ignite nearby surface for <C>3 s</> on roll maneuvers while Burning, if enemy within <C>15 m</>",
+      "> Snare immunity while Burning",
+      "<B>> Core activation no longer clears Burning</>",
       "<B>> Ignited on roll maneuvers</>"
     ],
     "foundations": {
@@ -771,13 +771,13 @@
   {
     "name": "Rage Core",
     "tooltip": [
-      "> Gain Overkill + activate Core if enemy damage received while below <C>50%</> vitals, can survive fatal damage on activation, deactivates after <C>2 s</> if no visible enemies within <C>25 m</>, <C>30 s</> cooldown",
-      "> Overkill: Melee attacks + body impacts bypass defense, <C>100%</> reduced speed penalties + aux drain from all sources, <C>50%</> increased dexterity, snare immunity",
+      "> Gain Overkill and activate Core if enemy damage received while below <C>50%</> vitals, can survive fatal damage on activation, deactivates after <C>2 s</> if no visible enemies within <C>25 m</>, <C>30 s</> cooldown",
+      "> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, Snare immunity",
       "<B>></> <C>50%</> <B>reduced effectiveness of damage reductions</>",
-      "<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while active</>",
-      "<B>></> <C>70%</> <B>active Core speed, Shell specific active Core bonuses disabled</>",
-      "<B>></> <C>0-100%</> <B>increased direct damage received while active, scaling proportionally with duration active from</> <C>0-5 s</>",
-      "<B>></> <C>5/s</> <B>vitals + defense damage while active</>"
+      "<B>></> <C>100%</> <B>reduced vitals and defense restored from all sources while active</>",
+      "<B>></> <C>100%</> <B>increased direct damage received while active</>",
+      "<B>></> <C>70%</> <B>active Core speed, Shell specific active Core bonuses Disabled</>",
+      "<B>></> <C>5/s</> <B>vitals and defense damage while active</>"
     ],
     "foundations": {
       "type": "body",
@@ -787,7 +787,7 @@
   {
     "name": "Reactive Core",
     "tooltip": [
-      "> <C>80%</> active + inactive Core speed",
+      "> <C>80%</> active and inactive Core speed",
       "> <C>25%</> increased Core generation from damage dealt while affected by Core",
       "<B>></> <C>25%</> <B>reduced Core generation from damage dealt while not affected by Core</>"
     ],
@@ -814,7 +814,7 @@
       "> <C>5 /s</> additional vitals regeneration while no damage received within <C>1 s</>",
       "> <C>25%</> increased vitals restored from all sources",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "body",
@@ -824,11 +824,11 @@
   {
     "name": "Redline",
     "tooltip": [
-      "> Unaffected by all speed penalties + Core slowing effects",
+      "> Unaffected by all speed penalties and Core slowing effects",
       "<B>></> <C>0-100%</> <B>increased direct damage received proportional to speed from</> <C>0-8 m/s</>",
       "<B>></> <C>100%</> <B>reduced effectiveness of damage reductions</>",
-      "<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources</>",
-      "<B>></> <C>50%</> <B>reduced Core duration + generation</>",
+      "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources</>",
+      "<B>></> <C>50%</> <B>reduced Core duration and generation</>",
       "<B>> Visible trails</>"
     ],
     "foundations": {
@@ -839,10 +839,10 @@
   {
     "name": "Renewal",
     "tooltip": [
-      "> <C>25</> vitals, defense, max vitals + max defense restored every <C>10 s</>",
+      "> <C>25</> vitals, defense, max vitals and max defense restored every <C>10 s</>",
       "> <C>100</> aux power restored every <C>10 s</>",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -867,7 +867,7 @@
   {
     "name": "Reversal",
     "tooltip": [
-      "> Overcharge on receiving disable: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received disable",
+      "> Overcharge on receiving Disable: Disable immunity, <C>10%</> increased ground and climb speed, Disable enemies and enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received Disable",
       "<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>"
     ],
     "foundations": {
@@ -878,7 +878,7 @@
   {
     "name": "Shell Shock",
     "tooltip": [
-      "> Explosive damage applies snare + disable for <C>2 s</>",
+      "> Explosive damage applies Snare and Disable for <C>2 s</>",
       "> <C>25%</> increased explosive far damage range",
       "<B>></> <C>25%</> <B>reduced explosive damage</>"
     ],
@@ -891,13 +891,13 @@
     "name": "Shifter",
     "tooltip": [
       "> Shift: Attempt to relocate horizontally up to <C>3 m</> in movement direction, can bypass obstructions, replaces quick melee",
-      "> <C>50</> vital damage + knockback to enemies within <C>1 m</> of relocation",
+      "> <C>50</> vital damage and knockback to enemies within <C>1 m</> of relocation",
       "> Removes tagged on relocation",
       "<B>> Requires aerial maneuver charge, drains </> <C>25</> <B>aux power on shift</>",
-      "<B>></> <C>25%</> <B>reduced vitals + defense restored from all sources</>",
+      "<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>",
       "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
-      "<B>> Aerial maneuver charge regeneration disabled for </><C>2 s</> <B>on shift</>",
-      "<B>> Can be disabled</>"
+      "<B>> Aerial maneuver charge regeneration Disabled for </><C>2 s</> <B>on shift</>",
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -911,8 +911,8 @@
       "> Unaffected by all speed penalties while climbing",
       "> <C>40 /s</> aux power regeneration while climbing",
       "> Surge: Activates on reaching <C>8 m/s</> while climbing, deactivates after <C>2 s</> if no longer climbing or below <C>8 m/s</>",
-      "> Gain Overcharge + knockdown enemies while Surge active, can telefrag on activation or detaching from climb",
-      "<B>></> <C>100%</> <B>reduced vitals + defense restored from all sources while Surge active</>",
+      "> Gain Overcharge and knockdown enemies while Surge active, can telefrag on activation or detaching from climb",
+      "<B>></> <C>100%</> <B>reduced vitals and defense restored from all sources while Surge active</>",
       "<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>",
       "<B>></> <C>10 /s</> <B>defense damage while Surge active</>"
     ],
@@ -938,10 +938,10 @@
     "name": "Studied",
     "tooltip": [
       "> Additional aerial maneuver charge while using backup weapons",
-      "> Unaffected by Core slowing effects while Core active + using backup weapons",
+      "> Unaffected by Core slowing effects while Core active and using backup weapons",
       "> <C>200%</> increased Core generation with backup weapons",
       "> <C>100%</> reduced backup weapon loadout speed penalty",
-      "<B>> Can only use backup weapons + enhancement devices</>",
+      "<B>> Can only use backup weapons and enhancement devices</>",
       "<B>></> <C>25%</> <B>reduced Core duration</>"
     ],
     "foundations": {
@@ -968,7 +968,7 @@
     "name": "Technician",
     "tooltip": [
       "> Can equip exotic ammo types",
-      "> <C>20 /s</> defense + max defense restored while using Nano-wire",
+      "> <C>20 /s</> defense and max defense restored while using Nano-wire",
       "<B>></> <C>50%</> <B>reduced reserve ammo</>",
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>"
     ],
@@ -984,10 +984,10 @@
       "> Unaffected by Core slowing effects while active",
       "> <C>50%</> reduced direct damage received while active",
       "> Knockback immunity while active",
-      "<B>></> <C>100%</> <B>reduced vitals + defense regeneration while active</>",
-      "<B>> Deactivates on body impacts + collision with ground</>",
+      "<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>",
+      "<B>> Deactivates on body impacts and collision with ground</>",
       "<B>> Not usable while hovering</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -997,10 +997,10 @@
   {
     "name": "Tether",
     "tooltip": [
-      "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> disable + snare every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>",
-      "> <C>50%</> of damage dealt by tether restored to vitals + max vitals",
+      "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> Disable and Snare every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>",
+      "> <C>50%</> of damage dealt by tether restored to vitals and max vitals",
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -1016,7 +1016,7 @@
       "<B>></> <C>50%</> <B>increased radar profile</>",
       "<B>> Visible on radar while stationary</>",
       "<B>> Disables scan</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -1028,9 +1028,9 @@
     "tooltip": [
       "> Relocate to enemy location on visible or detected kill from direct damage, removes tagged, <C>5 s</> cooldown",
       "> Disguise as enemy on activation, appearing as an ally on enemy HUD and radar",
-      "<B>></> <C>50%</> <B>reduced vitals + defense restored from all sources while disguised</>",
+      "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources while disguised</>",
       "<B>> Disguise removed on visible facing enemy within</> <C>5 m</><B>, dealing direct damage to visible enemy or receiving direct damage from enemy</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
@@ -1041,9 +1041,9 @@
     "name": "Unstable Core",
     "tooltip": [
       "> <C>100%</> Core generation on deploy",
-      "> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback + knockdown to all enemies within <C>2-4 m</>",
-      "> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>",
-      "<B>> While Core fully charged: Core failure initiates after</> <C>30 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on Core Activation, Core charge drain, or enemy disable attempt. Failure can be vented by Core activation or visible enemy kill</>",
+      "> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback and knockdown to all enemies within <C>2-4 m</>",
+      "> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
+      "<B>> While Core fully charged: Core failure initiates after</> <C>30 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on Core Activation, Core charge drain, or enemy Disable attempt. Failure can be vented by Core activation or visible enemy kill</>",
       "<B>></> <C>50%</> <B>reduced Core duration</>"
     ],
     "foundations": {
@@ -1056,7 +1056,7 @@
     "tooltip": [
       "> Receiving over <C>150</> vitals damage from an enemy marks them as a vendetta, persists through death until enemy killed by the vendetta owner",
       "> Vendettas are detected while within <C>45 m</>",
-      "> <C>25-50</> vitals, max vitals + Core charge restored on killing a vendetta, scaling proportionally with the vendetta damage from <C>150-300</>",
+      "> <C>25-50</> vitals, max vitals and Core charge restored on killing a vendetta, scaling proportionally with the vendetta damage from <C>150-300</>",
       "<B>></> <C>25%</> <B>increased direct damage received from vendettas</>"
     ],
     "foundations": {
@@ -1067,10 +1067,10 @@
   {
     "name": "Versatile",
     "tooltip": [
-      "> Can equip sidearm, backup + primary weapons in both sidearm + primary slots",
-      "> <C>15%</> reduced spread + spread gain with sidearms while multiple equipped",
-      "> <C>15%</> increased dexterity + Core generation with primary weapons while multiple equipped",
-      "> <C>15%</> increased melee damage + ground speed with backup weapons while multiple equipped",
+      "> Can equip sidearm, backup and primary weapons in both sidearm and primary slots",
+      "> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped",
+      "> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped",
+      "> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped",
       "> Can equip <C>2</> of the same device",
       "<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>",
       "<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>",

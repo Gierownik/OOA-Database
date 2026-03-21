@@ -4,7 +4,7 @@
     "type": "Ammo",
     "tooltip": [
       "> Standard ammunition",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity"
+      "> Hot mag: <C>25%</> additional environment penetration and velocity"
     ],
     "technician": "false",
     "compatibility": [
@@ -37,9 +37,9 @@
       "> <C>50%</> increased environment penetration",
       "> <C>25%</> of damage dealt penetrates defense",
       "> <C>25%</> increased velocity",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity",
+      "> Hot mag: <C>25%</> additional environment penetration and velocity",
       "<B>></> <C>25%</> <B>reduced damage on deflections</>",
-      "<B>></> <C>25%</> <B>reduced bleed damage</>"
+      "<B>></> <C>25%</> <B>reduced Bleed damage</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -69,9 +69,9 @@
     "name": "Heavy Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>0.25-2 s</> snare to enemies, scaling proportionally with damage dealt from <C>10-100</>",
+      "> <C>0.25-2 s</> Snare to enemies, scaling proportionally with damage dealt from <C>10-100</>",
       "> <C>100%</> increased near damage range",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity",
+      "> Hot mag: <C>25%</> additional environment penetration and velocity",
       "<B>></> <C>15%</> <B>reduced velocity</>"
     ],
     "technician": "false",
@@ -102,9 +102,9 @@
     "name": "Shred Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>50%</> increased bleed damage",
+      "> <C>50%</> increased Bleed damage",
       "> Bypasses limb damage reduction on targets with depleted defense",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity",
+      "> Hot mag: <C>25%</> additional environment penetration and velocity",
       "<B>></> <C>15%</> <B>reduced environment penetration</>"
     ],
     "technician": "false",
@@ -138,7 +138,7 @@
       "> Unaffected by Core slowing effects while Core active",
       "> Bypasses temporal damage reductions",
       "> <C>15%</> increased Core generation",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity",
+      "> Hot mag: <C>25%</> additional environment penetration and velocity",
       "<B>></> <C>25%</> <B>reduced far damage range</>"
     ],
     "technician": "false",
@@ -170,7 +170,7 @@
     "type": "Ammo",
     "tooltip": [
       "> <C>50%</> of headshot damage dealt as additional vital damage after <C>1 s</>",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity",
+      "> Hot mag: <C>25%</> additional environment penetration and velocity",
       "<B>></> <C>15%</> <B>reduced velocity</>",
       "<B>></> <C>25%</> <B>reduced far damage range</>"
     ],
@@ -202,12 +202,10 @@
     "name": "Chem Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>2 s</> corrode to enemies",
-      "> <C>15%</> of damage dealt penetrates defense",
-      "> <C>50%</> of damage dealt reduces enemy max vitals + defense",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity",
+      "> <C>2 s</> Corrode to enemies",
+      "> Hot mag: <C>25%</> additional environment penetration and velocity",
       "<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>",
-      "<B>></> <C>50%</> <B>reduced bleed damage</>"
+      "<B>></> <C>50%</> <B>reduced Bleed damage</>"
     ],
     "technician": "true",
     "compatibility": [
@@ -237,11 +235,11 @@
     "name": "EM Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>1-4 s</> disable to enemies, scaling proportionally with damage dealt from <C>50-200</>",
-      "> <C>25%</> increased damage to stunned enemies",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity",
-      "<B>></> <C>25%</> <B>reduced velocity + environment penetration</>",
-      "<B>></> <C>50%</> <B>reduced bleed damage</>"
+      "> <C>1-4 s</> Disable to enemies, scaling proportionally with damage dealt from <C>50-200</>",
+      "> <C>25%</> increased damage to enemies with Disable+",
+      "> Hot mag: <C>25%</> additional environment penetration and velocity",
+      "<B>></> <C>25%</> <B>reduced velocity and environment penetration</>",
+      "<B>></> <C>50%</> <B>reduced Bleed damage</>"
     ],
     "technician": "true",
     "compatibility": [
@@ -271,10 +269,10 @@
     "name": "Incendiary Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>50%</> of damage dealt as additional fire damage",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity",
+      "> <C>50%</> of damage dealt as additional Burn damage",
+      "> Hot mag: <C>25%</> additional environment penetration and velocity",
       "<B>></> <C>25%</> <B>reduced  damage</>",
-      "<B>></> <C>100%</> <B>reduced bleed damage</>"
+      "<B>></> <C>100%</> <B>reduced Bleed damage</>"
     ],
     "technician": "true",
     "compatibility": [
@@ -378,12 +376,12 @@
     "type": "Ammo",
     "tooltip": [
       "> <C>100%</> defense bypass",
-      "> <C>100%</> increased ricochets + reduced ricochet damage penalty",
-      "> <C>100%</> reduced damage to self + allies",
-      "> Hot mag: <C>25%</> additional environment penetration + velocity",
+      "> <C>100%</> increased ricochets and reduced ricochet damage penalty",
+      "> <C>100%</> reduced damage to self and allies",
+      "> Hot mag: <C>25%</> additional environment penetration and velocity",
       "<B>></> <C>50%</> <B>reduced damage</>",
       "<B>></> <C>100%</> <B>reduced environment penetration</>",
-      "<B>></> <C>100%</> <B>reduced bleed damage</>"
+      "<B>></> <C>100%</> <B>reduced Bleed damage</>"
     ],
     "technician": "true",
     "compatibility": [
@@ -417,7 +415,7 @@
       "> Explosive damage",
       "> Can knockback",
       "> Hot mag: <C>25%</> additional velocity",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -455,7 +453,7 @@
     "type": "Ammo",
     "tooltip": [
       "> Activates on impact, <C>0.75 s</> activation delay",
-      "> Fire damage, ignites surrounding area, <C>2 s</> snare",
+      "> Burn damage, ignites surrounding area, <C>2 s</> Snare",
       "> Hot mag: <C>25%</> additional velocity",
       "<B>></> <C>75%</> <B>reduced explosive damage</>"
     ],
@@ -474,11 +472,11 @@
     "type": "Ammo",
     "tooltip": [
       "> Proximity detection, <C>0.75 s</> activation delay",
-      "> Can attach to surfaces + Shells",
+      "> Can attach to surfaces and Shells",
       "> Explosive damage",
       "> Hot mag: <C>25%</> additional velocity",
       "<B>></> <C>25%</> <B>reduced explosive damage</>",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -494,9 +492,9 @@
     "name": "Laser Sight",
     "type": "Mod",
     "tooltip": [
-      "> <C>50%</> reduced hipfire + alternate aim spread",
-      "> <C>25%</> reduced hipfire + alternate aim spread gain",
-      "> <C>25%</> reduced akimbo spread + akimbo spread gain",
+      "> <C>50%</> reduced hipfire and alternate aim spread",
+      "> <C>25%</> reduced hipfire and alternate aim spread gain",
+      "> <C>25%</> reduced akimbo spread and akimbo spread gain",
       "<B>> Visible laser</>"
     ],
     "technician": "false",
@@ -582,7 +580,7 @@
     "type": "Mod",
     "tooltip": [
       "> Disarm immunity",
-      "> <C>2 s</> disable to enemies on attempted pickup or Nano-wire attach",
+      "> <C>2 s</> Disable to enemies on attempted pickup or Nano-wire attach",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
     "technician": "false",
@@ -936,7 +934,7 @@
     "name": "2x TRG Sight",
     "type": "Optic",
     "tooltip": [
-      "> Highlights enemies + devices",
+      "> Highlights enemies and devices",
       "> <C>35%</> reduced ADS spread",
       "<B>></> <C>25%</> <B>increased aim time</>"
     ],
@@ -966,7 +964,7 @@
     "name": "4x TRG Sight",
     "type": "Optic",
     "tooltip": [
-      "> Highlights enemies + devices",
+      "> Highlights enemies and devices",
       "> <C>85%</> reduced ADS spread",
       "> <C>50%</> increased ADS range",
       "<B>></> <C>25%</> <B>increased aim time</>"
@@ -992,7 +990,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>25%</> increased RPM",
-      "<B>></> <C>50%</> <B>increased recoil + spread gain</>"
+      "<B>></> <C>50%</> <B>increased recoil and spread gain</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1112,7 +1110,7 @@
     "tooltip": [
       "> <C>15%</> reduced aim time",
       "> <C>50%</> reduced weapon speed penalty",
-      "<B>></> <C>25%</> <B>increased recoil + spread gain</>"
+      "<B>></> <C>25%</> <B>increased recoil and spread gain</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1184,7 +1182,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>50%</> increased damage",
-      "> <C>25%</> increased velocity + environment penetration",
+      "> <C>25%</> increased velocity and environment penetration",
       "<B>></> <C>35%</> <B>reduced RPM</>",
       "<B>></> <C>25</> <B>reduced ammo capacity</>"
     ],
@@ -1243,8 +1241,8 @@
     "type": "Mod",
     "tooltip": [
       "> <C>100%</> reduced damage falloff",
-      "> <C>50%</> increased velocity + environment penetration",
-      "> <C>25%</> reduced recoil, spread + spread gain",
+      "> <C>50%</> increased velocity and environment penetration",
+      "> <C>25%</> reduced recoil, spread and spread gain",
       "<B>></> <C>0.15 s</> <B>spin up delay</>"
     ],
     "technician": "false",
@@ -1264,7 +1262,7 @@
     "type": "Mod",
     "tooltip": [
       "> AOE knockback on firing while targets within a <C>5 m</> frontal cone",
-      "> <C>2 s</> snare to enemies in range, cripple if within <C>2.5 m</>",
+      "> <C>2 s</> Snare to enemies in range, Snare+ if within <C>2.5 m</>",
       "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>50%</> <B>increased pellet spread</>"
     ],
@@ -1284,7 +1282,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>200%</> increased damage every <C>4th</> shot",
-      "<B>></> <C>200%</> <B>increased vertical recoil + spread gain every</> <C>4th</> <B>shot</>",
+      "<B>></> <C>200%</> <B>increased vertical recoil and spread gain every</> <C>4th</> <B>shot</>",
       "<B>></> <C>25%</> <B>reduced damage</>",
       "<B>></> <C>25%</> <B>increased spread gain</>"
     ],
@@ -1304,7 +1302,7 @@
     "tooltip": [
       "> <C>50%</> increased RPM",
       "> Entire magazine emptied on firing",
-      "<B>></> <C>50%</> <B>increased recoil, spread + spread gain</>",
+      "<B>></> <C>50%</> <B>increased recoil, spread and spread gain</>",
       "<B>></> <C>15%</> <B>reduced damage</>",
       "<B>> Firing can no longer be interrupted by other actions</>"
     ],

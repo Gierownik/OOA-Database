@@ -18,7 +18,7 @@
     "tooltip": [
       "<B>> Up to 10/s bleed damage</>"
     ],
-    "enhancement": "Hemorrhage",
+    "enhancement": "",
     "enh_tooltip": [
       "<B>> Absorbs one bleed clear, downgrades to bleed</>",
       "> <C>75%</> reduced bleed damage on downgrade"
@@ -34,7 +34,7 @@
       "<B>> Burn ticks don't deplete while moving over 8m/s</>",
       "> <C>5</> burn ticks removed on roll"
     ],
-    "enhancement": "Combust",
+    "enhancement": "",
     "enh_tooltip": [
       "<B>> <C>50%</> increased damage taken to defense</>"
     ]
@@ -46,7 +46,7 @@
       "<B>> <C>100%</> reduced vitals restored from all sources</>",
       "<B>> <C>20/s</> chemical damage</>"
     ],
-    "enhancement": "Necrosis",
+    "enhancement": "",
     "enh_tooltip": [
       "<B>> <C>50%</> of attempted vitals restoration received as vital damage</>",
       "<B>> Duration constantly refreshed while bleeding</>"
@@ -57,7 +57,7 @@
     "tooltip": [
       "<B>> Scrambles radar, detections and targeting systems</>"
     ],
-    "enhancement": "Feedback",
+    "enhancement": "",
     "enh_tooltip": [
       "<B>> <C>10 /s</> shock damage + stun while Core active</>",
       "<B>><C>25</> shock damage + <C>4 s</> stun on relocation</>"
@@ -69,7 +69,7 @@
       "<B>> Disables: set augments/devices/projectiles, all forms of detections, radar, defense and ammo regeneration, device activation</>",
       "<B>> Pauses active device/stim cooldowns and objectives for duration</>"
     ],
-    "enhancement": "Stun",
+    "enhancement": "",
     "enh_tooltip": [
       "<B>> Visual and audio distortion</>",
       "<B>> <C>100%</> increased weapon spread</>",
@@ -135,7 +135,7 @@
       "<B>> <C>50%</> reduced ground speed</>",
       "<B>> <C>80/s</> AUX drain</>"
     ],
-    "enhancement": "Cripple",
+    "enhancement": "",
     "enh_tooltip": [
       "<B>> Removes all aerial charges, maneuvers and the ability to climb</>",
       "<B>> Enviroment impacts deal damage</>"

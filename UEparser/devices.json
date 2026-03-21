@@ -5,9 +5,9 @@
     "tooltip": [
       "> Engages closest visible enemy within <C>25 m</> on activation",
       "> Deals <C>20-10</> ballistic damage, <C>600 rpm</>, <C>50</> round capacity",
-      "> Can attach to surfaces + Shells",
-      "> Maximum Efficiency: <C>25%</> increased range + ammo capacity",
-      "<B>> Can be disabled</>"
+      "> Can attach to surfaces and Shells",
+      "> Maximum Efficiency: <C>25%</> increased range and ammo capacity",
+      "<B>> Can be Disabled</>"
     ],
     "experimental": "true",
     "stats": {
@@ -31,10 +31,10 @@
     "name": "Anchor",
     "type": "Standard",
     "tooltip": [
-      "> Can be used by Nano-wire to attach + pull towards location",
-      "> Restores <C>25</> aux power + an aerial maneuver charge on pull",
+      "> Can be used by Nano-wire to attach and pull towards location",
+      "> Restores <C>25</> aux power and an aerial maneuver charge on pull",
       "> Useable by allies",
-      "> Can attach to surfaces + Shells",
+      "> Can attach to surfaces and Shells",
       "> Maximum Efficiency: <C>4 s</> Overcharge on pull"
     ],
     "experimental": "false",
@@ -59,9 +59,9 @@
     "name": "Bolster",
     "type": "Enhancement",
     "tooltip": [
-      "> While active: Bleed + knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
+      "> While active: Bleed and knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
       "> Maximum Efficiency: <C>50%</> increased duration",
-      "<B>> While active:</> <C>50%</> <B>reduced speed + vitals restored from all sources</>"
+      "<B>> While active:</> <C>50%</> <B>reduced speed and vitals restored from all sources</>"
     ],
     "experimental": "false",
     "stats": {
@@ -85,7 +85,7 @@
     "name": "Spike",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>25</> vital damage, <C>4 s</> disable + snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals",
+      "> Deals <C>25</> vital damage, <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals",
       "> Destroys visible or detected devices",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
@@ -111,7 +111,7 @@
     "name": "Combust",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>25</> fire damage + combust to up to <C>6</> visible or detected enemies",
+      "> Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",
@@ -162,8 +162,8 @@
     "name": "Desync",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>5</> vital damage, <C>6 s</> desync to visible + up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy",
-      "> Desync: Scrambles radar, reverses IFF for detections + targeting systems",
+      "> Deals <C>5</> vital damage, <C>6 s</> Desync to visible and up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy",
+      "> Desync: Scrambles radar, reverses IFF for detections and targeting systems",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",
@@ -188,7 +188,7 @@
     "name": "Pathogen",
     "type": "Neuro-link",
     "tooltip": [
-      "> Applies <C>4 s</> necrosis to up to <C>6</> visible or detected enemies",
+      "> Applies <C>4 s</> Corrode+ to up to <C>6</> visible or detected enemies",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",
@@ -214,7 +214,7 @@
     "type": "Standard",
     "tooltip": [
       "> Creates <C>16 m</> disruptive zone on activation",
-      "> Disable + snare to enemies within zone",
+      "> Disable and Snare to enemies within zone",
       "> Disables enemy devices within zone",
       "> Shroud to allies within zone",
       "> Can attach to surfaces",
@@ -242,9 +242,9 @@
     "name": "Detonator",
     "type": "Standard",
     "tooltip": [
-      "> Deals <C>125-50</> explosive damage + knockback to targets within <C>2-4 m</> on activation",
+      "> Deals <C>125-50</> explosive damage and knockback to targets within <C>2-4 m</> on activation",
       "> Maximum Efficiency: <C>50%</> reduced activation delay",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "experimental": "false",
     "stats": {
@@ -268,8 +268,8 @@
     "name": "Disrupter",
     "type": "Standard",
     "tooltip": [
-      "> <C>4 s</> stun, + snare to targets within <C>6 m</> on activation",
-      "> Can attach to surfaces + Shells",
+      "> <C>4 s</> Disable+, and Snare to targets within <C>6 m</> on activation",
+      "> Can attach to surfaces and Shells",
       "> Maximum Efficiency: <C>50%</> reduced activation delay"
     ],
     "experimental": "false",
@@ -294,9 +294,9 @@
     "name": "Firecracker",
     "type": "Standard",
     "tooltip": [
-      "> Deals <C>25-15</> explosive + <C>50-30</> fire damage to targets within <C>2-3 m</> + launches <C>10</> incendiary projectiles on impact",
-      "> Deals <C>100</> fire damage to targets within <C>5 m</> + launches <C>15</> incendiary projectiles on activation",
-      "> Incendiary projectile: Detonates after <C>1 s</>, igniting surface + dealing <C>5</> explosive + <C>5</> fire damage to targets within <C>2 m</>",
+      "> Deals <C>25-15</> explosive and <C>50-30</> Burn damage to targets within <C>2-3 m</> and launches <C>10</> incendiary projectiles on impact",
+      "> Deals <C>100</> Burn damage to targets within <C>5 m</> and launches <C>15</> incendiary projectiles on activation",
+      "> Incendiary projectile: Detonates after <C>1 s</>, igniting surface and dealing <C>5</> explosive and <C>5</> Burn damage to targets within <C>2 m</>",
       "> Maximum Efficiency: <C>100%</> increased duration"
     ],
     "experimental": "false",
@@ -321,11 +321,11 @@
     "name": "Laser Wire",
     "type": "Standard",
     "tooltip": [
-      "> Deals <C>75</> vital damage, <C>10 /s</> bleed + <C>4 s</> snare to enemies on activation",
+      "> Deals <C>75</> vital damage, <C>10 /s</> Bleed and <C>4 s</> Snare to enemies on activation",
       "> <C>2</> charges",
       "> Can attach to surfaces",
       "> Maximum Efficiency: Applies hemorrhage",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "experimental": "false",
     "stats": {
@@ -349,7 +349,7 @@
     "name": "Overcharge",
     "type": "Enhancement",
     "tooltip": [
-      "> While active: Disable immunity, <C>10%</> increased ground + climb speed, disable enemies + enemy devices within <C>3 m</> for <C>2 s</>",
+      "> While active: Disable immunity, <C>10%</> increased ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
       "> Maximum Efficiency: <C>50%</> increased duration"
     ],
     "experimental": "false",
@@ -375,9 +375,9 @@
     "type": "Standard",
     "tooltip": [
       "> Deals <C>125-50</> explosive damage, knockback to targets within <C>2-5 m</> on activation",
-      "> Can attach to surfaces + Shells",
+      "> Can attach to surfaces and Shells",
       "> Maximum Efficiency: <C>50%</> reduced activation delay",
-      "<B>> Can be disabled</>"
+      "<B>> Can be Disabled</>"
     ],
     "experimental": "false",
     "stats": {
@@ -403,10 +403,10 @@
     "tooltip": [
       "> Relocate to device location on activation, removes tagged",
       "> Telefrag targets within <C>1 m</> on relocation",
-      "> <C>2 s</> disable to enemies + devices within <C>3 m</> on relocation",
-      "> Can attach to surfaces + Shells",
-      "> Maximum Efficiency: <C>50</> vitals + max vitals restored on activation",
-      "<B>> Can be disabled</>"
+      "> <C>2 s</> Disable to enemies and devices within <C>3 m</> on relocation",
+      "> Can attach to surfaces and Shells",
+      "> Maximum Efficiency: <C>50</> vitals and max vitals restored on activation",
+      "<B>> Can be Disabled</>"
     ],
     "experimental": "true",
     "stats": {
@@ -431,7 +431,7 @@
     "type": "Enhancement",
     "tooltip": [
       "> <C>25</> vitals restored on activation, chemical heal",
-      "> <C>5 s</> bleed immunity if used while bleeding",
+      "> <C>5 s</> Bleed immunity if used while Bleeding",
       "> Maximum Efficiency: Becomes potent"
     ],
     "experimental": "false",
@@ -456,10 +456,10 @@
     "name": "Satchel Charge",
     "type": "Standard",
     "tooltip": [
-      "> Deals <C>150-50</> explosive damage, knockback + knockdown to targets within <C>2-5 m</> on activation",
-      "> Can attach to surfaces + Shells",
-      "> Maximum Efficiency: <C>50%</> of damage dealt as additional fire damage",
-      "<B>> Can be disabled</>"
+      "> Deals <C>150-50</> explosive damage, knockback and knockdown to targets within <C>2-5 m</> on activation",
+      "> Can attach to surfaces and Shells",
+      "> Maximum Efficiency: <C>50%</> of damage dealt as additional Burn damage",
+      "<B>> Can be Disabled</>"
     ],
     "experimental": "false",
     "stats": {
@@ -509,7 +509,7 @@
     "type": "Standard",
     "tooltip": [
       "> Creates multiple charged nano-particle clouds on activation",
-      "> Clouds obscure vision, detect enemies + apply <C>5 s</> Overcharge to allies on contact",
+      "> Clouds obscure vision, detect enemies and apply <C>5 s</> Overcharge to allies on contact",
       "> Maximum Efficiency: <C>100%</> increased duration",
       "<B>> Can be cleared with fire</>"
     ],
@@ -536,8 +536,8 @@
     "type": "Standard",
     "tooltip": [
       "> Creates toxic cloud on impact, spreading to nearby surfaces",
-      "> Cloud obscures vision, applies <C>2 s</> snare + corrode on contact",
-      "> Ignites on contact with fire, dealing explosive + fire damage to nearby targets",
+      "> Cloud obscures vision, applies <C>2 s</> Snare and Corrode on contact",
+      "> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets",
       "> Maximum Efficiency: <C>100%</> increased duration"
     ],
     "experimental": "false",
@@ -562,7 +562,7 @@
     "name": "Hyper",
     "type": "Enhancement",
     "tooltip": [
-      "> On activate: Restores <C>100</> aux power + gain <C>4</> aerial maneuver charges",
+      "> On activate: Restores <C>100</> aux power and gain <C>4</> aerial maneuver charges",
       "> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty",
       "> Maximum Efficiency: <C>50%</> increased duration"
     ],
