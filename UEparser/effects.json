@@ -7,7 +7,8 @@
       "> <C>0 s</> defense regen delay",
       "> <C>40 /s</> defense regeneration",
       "<B>> <C>50%</> reduced speed and vitals restored from all sources</>",
-      "<B>> Disables optical camouflage</>"
+      "<B>> Disables optical camouflage</>",
+      "<B>> Prevented by Burn</>"
     ],
     "enhancement": "None",
     "enh_tooltip": []
