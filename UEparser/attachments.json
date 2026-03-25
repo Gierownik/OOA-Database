@@ -204,7 +204,6 @@
     "tooltip": [
       "> <C>2 s</> Corrode to enemies",
       "> Hot mag: <C>25%</> additional environment penetration and velocity",
-      "<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>",
       "<B>></> <C>50%</> <B>reduced Bleed damage</>"
     ],
     "technician": "true",
@@ -721,7 +720,7 @@
       "> Converts to magazine reload",
       "> Increased ammo capacity",
       "<B>></> <C>15%</> <B>increased aim time</>",
-      "<B>></> <C>0.15 m/s</> <B>increased speed penalty</>"
+      "<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [

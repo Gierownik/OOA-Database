@@ -89,7 +89,7 @@
       "> Destroys visible or detected devices",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
-    "experimental": "true",
+    "experimental": "false",
     "stats": {
       "cooldown": 60.0,
       "duration": 0.0,
@@ -111,7 +111,7 @@
     "name": "Combust",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies",
+      "> Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",
@@ -137,10 +137,10 @@
     "type": "Neuro-link",
     "tooltip": [
       "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>2.5 s</> to up to <C>6</> visible or detected enemies",
-      "> <C>300%</> of damage dealt restored to vitals",
+      "> <C>200%</> of damage dealt restored to allies vitals and max vitals",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
-    "experimental": "true",
+    "experimental": "false",
     "stats": {
       "cooldown": 60.0,
       "duration": 0.0,
@@ -188,7 +188,7 @@
     "name": "Pathogen",
     "type": "Neuro-link",
     "tooltip": [
-      "> Applies <C>4 s</> Corrode+ to up to <C>6</> visible or detected enemies",
+      "> Applies <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",

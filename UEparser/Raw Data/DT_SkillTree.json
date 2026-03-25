@@ -592,8 +592,8 @@
           {
             "Namespace": "",
             "Key": "527E03574FB905F6F1DE9980ED5047E4",
-            "SourceString": "> <C>25%</> increased radar and detection range from all sources\r\n> <C>100%</> reduced scan and tag cooldown on ally killing tagged enemy\r\n> <C>5 s</> increased scan duration\r\n> Detected enemies can be tagged\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> <C>25%</> increased radar and detection range from all sources\r\n> <C>100%</> reduced scan and tag cooldown on ally killing tagged enemy\r\n> <C>5 s</> increased scan duration\r\n> Detected enemies can be tagged\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> <C>25%</> increased radar and detection range\r\n> <C>100%</> reduced scan and tag cooldown on ally killing tagged enemy\r\n> <C>5 s</> increased scan duration\r\n> Detected enemies can be tagged\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> <C>25%</> increased radar and detection range\r\n> <C>100%</> reduced scan and tag cooldown on ally killing tagged enemy\r\n> <C>5 s</> increased scan duration\r\n> Detected enemies can be tagged\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -776,8 +776,8 @@
           {
             "Namespace": "",
             "Key": "221DF40647E0AFA3663C31A69B0D264B",
-            "SourceString": "> Enemies are detected to allies for <C>5-1 s</> on successful Neuro-Link proportional to amount from <C>1-5</>, <C>15 s</> cooldown\r\n> Devices and explosives of visible or detected enemies are detected to allies\r\n> Tag enemies on receiving Neuro-Link\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> </><C>1</> <B>reduced Shell detections</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Enemies are detected to allies for <C>5-1 s</> on successful Neuro-Link proportional to amount from <C>1-5</>, <C>15 s</> cooldown\r\n> Devices and explosives of visible or detected enemies are detected to allies\r\n> Tag enemies on receiving Neuro-Link\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> </><C>1</> <B>reduced Shell detections</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Enemies are detected to allies for <C>5-1 s</> on successful Neuro-Link proportional to amount from <C>1-5</>, <C>15 s</> cooldown\r\n> Enemies are detected to allies for <C>2 s</> on receiving Neuro-Link\r\n> Devices and explosives of visible or detected enemies are detected to allies\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> </><C>1</> <B>reduced Shell detections</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Enemies are detected to allies for <C>5-1 s</> on successful Neuro-Link proportional to amount from <C>1-5</>, <C>15 s</> cooldown\r\n> Enemies are detected to allies for <C>2 s</> on receiving Neuro-Link\r\n> Devices and explosives of visible or detected enemies are detected to allies\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> </><C>1</> <B>reduced Shell detections</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1190,8 +1190,8 @@
           {
             "Namespace": "",
             "Key": "34A62C394D5A5E06C41A42AB6728E043",
-            "SourceString": "> Can equip experimental devices\r\n> <C>50%</> increased debuff durations from all sources other than experimental devices\r\n<B>></> <C>25</> <B>reduced defense</>",
-            "LocalizedString": "> Can equip experimental devices\r\n> <C>50%</> increased debuff durations from all sources other than experimental devices\r\n<B>></> <C>25</> <B>reduced defense</>"
+            "SourceString": "> Can equip experimental devices\r\n> <C>25%</> increased applied debuff duration\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> Can equip experimental devices\r\n> <C>25%</> increased applied debuff duration\r\n<B>></> <C>25</> <B>reduced defense</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1558,8 +1558,8 @@
           {
             "Namespace": "",
             "Key": "0F53D85242BB50298C798694013FEDFD",
-            "SourceString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>100%</> increased hack speed while dealing direct damage\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link or while scan hacking\r\n> <C>10%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals and defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>100%</> increased hack speed while dealing direct damage\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link or while scan hacking\r\n> <C>10%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals and defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link\r\n> <C>20%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals and defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link\r\n> <C>20%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals and defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1570,19 +1570,19 @@
       "Neuro-Hacker": {
         "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
         "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
-        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator68",
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
-        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 45,
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "BB44592340A842DB4451F289EC7F3EF2",
-            "SourceString": "> Scan hack: Neuro-Link devices used while scanning have increased effectiveness\r\n> Can equip black market Neuo-Link devices\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>Disable+ on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Scan hack: Neuro-Link devices used while scanning have increased effectiveness\r\n> Can equip black market Neuo-Link devices\r\n> <C>10%</> reduced Neuro-Link device cooldown for each additional enemy affected on activation\r\n> <C>5</> Core charge returned for each additional enemy affected on successful scan hack\r\n<B>> Detected while scan hack active, overrides undetectable</>\r\n<B>></> <C>2 s</> <B>Disable+ on receiving direct damage to head while scanning</>\r\n<B>></> <C>25%</> <B>reduced Core generation</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Can equip Neuro-Link devices\r\n<B>> Can only equip Neuro-Link devices</>\r\n<B>> </><C>50%</> <B>reduced radar detection range</>",
+            "LocalizedString": "> Can equip Neuro-Link devices\r\n<B>> Can only equip Neuro-Link devices</>\r\n<B>> </><C>50%</> <B>reduced radar detection range</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2041,8 +2041,8 @@
           {
             "Namespace": "",
             "Key": "7020ABEA486D352C52E676A85BD6FF66",
-            "SourceString": "> Additional aerial maneuver charge while using backup weapons\r\n> Unaffected by Core slowing effects while Core active and using backup weapons\r\n> <C>200%</> increased Core generation with backup weapons\r\n> <C>100%</> reduced backup weapon loadout speed penalty\r\n<B>> Can only use backup weapons and enhancement devices</>\r\n<B>></> <C>25%</> <B>reduced Core duration</>",
-            "LocalizedString": "> Additional aerial maneuver charge while using backup weapons\r\n> Unaffected by Core slowing effects while Core active and using backup weapons\r\n> <C>200%</> increased Core generation with backup weapons\r\n> <C>100%</> reduced backup weapon loadout speed penalty\r\n<B>> Can only use backup weapons and enhancement devices</>\r\n<B>></> <C>25%</> <B>reduced Core duration</>"
+            "SourceString": "> Additional aerial maneuver charge while using backup weapons\r\n> Unaffected by Core slowing effects while Core active and using backup weapons\r\n> <C>200%</> increased Core generation with backup weapons\r\n> <C>100%</> reduced backup weapon loadout speed penalty\r\n<B>> Can only equip backup weapons and enhancement devices</>\r\n<B>></> <C>25%</> <B>reduced Core duration</>",
+            "LocalizedString": "> Additional aerial maneuver charge while using backup weapons\r\n> Unaffected by Core slowing effects while Core active and using backup weapons\r\n> <C>200%</> increased Core generation with backup weapons\r\n> <C>100%</> reduced backup weapon loadout speed penalty\r\n<B>> Can only equip backup weapons and enhancement devices</>\r\n<B>></> <C>25%</> <B>reduced Core duration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2133,8 +2133,8 @@
           {
             "Namespace": "",
             "Key": "827DC73F457D05928F472C9449FE2BDE",
-            "SourceString": "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> Disable and Snare every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>\r\n> <C>50%</> of damage dealt by tether restored to vitals and max vitals\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> Disable and Snare every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>\r\n> <C>50%</> of damage dealt by tether restored to vitals and max vitals\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>\r\n> <C>1 s</> Disable and Snare on damage if active for longer than <C>0.5 s</>\r\n> <C>50%</> of damage dealt by tether restored to vitals and max vitals\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>\r\n> <C>1 s</> Disable and Snare on damage if active for longer than <C>0.5 s</>\r\n> <C>50%</> of damage dealt by tether restored to vitals and max vitals\r\n<B>></> <C>25%</> <B>reduced Nano-wire range</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2335,7 +2335,7 @@
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
         "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
-        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator68",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2358,13 +2358,13 @@
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
         "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
-        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator68",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "0E27AEAA45471B74BF1263AE720A60D5",
-            "SourceString": "> Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>",
-            "LocalizedString": "> Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
+            "SourceString": "> Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>",
+            "LocalizedString": "> Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2381,13 +2381,13 @@
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
         "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
-        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator68",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "3097FA4A4375793B54ACD0AF9F697D36",
-            "SourceString": "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>2.5 s</> to up to <C>6</> visible or detected enemies\r\n> <C>300%</> of damage dealt restored to vitals\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>",
-            "LocalizedString": "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>2.5 s</> to up to <C>6</> visible or detected enemies\r\n> <C>300%</> of damage dealt restored to vitals\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
+            "SourceString": "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>2.5 s</> to up to <C>6</> visible or detected enemies\r\n> <C>200%</> of damage dealt restored to allies vitals and max vitals\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>",
+            "LocalizedString": "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>2.5 s</> to up to <C>6</> visible or detected enemies\r\n> <C>200%</> of damage dealt restored to allies vitals and max vitals\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2404,7 +2404,7 @@
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
         "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
-        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator68",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -2450,13 +2450,13 @@
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
         "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 45,
-        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator68",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
             "Key": "DE611BFA4F0BEA71BCFD318CEDF91B92",
-            "SourceString": "> Applies <C>4 s</> Corrode+ to up to <C>6</> visible or detected enemies\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>",
-            "LocalizedString": "> Applies <C>4 s</> Corrode+ to up to <C>6</> visible or detected enemies\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
+            "SourceString": "> Applies <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>",
+            "LocalizedString": "> Applies <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2961,8 +2961,8 @@
           {
             "Namespace": "",
             "Key": "8B5332914364554A3D641AACB9D37B20",
-            "SourceString": "> <C>2 s</> Corrode to enemies\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced Bleed damage</>",
-            "LocalizedString": "> <C>2 s</> Corrode to enemies\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>15%</> <B>reduced damage to penetration immune enemies</>\r\n<B>></> <C>50%</> <B>reduced Bleed damage</>"
+            "SourceString": "> <C>2 s</> Corrode to enemies\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>50%</> <B>reduced Bleed damage</>",
+            "LocalizedString": "> <C>2 s</> Corrode to enemies\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>50%</> <B>reduced Bleed damage</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3398,8 +3398,8 @@
           {
             "Namespace": "",
             "Key": "E86B4EA74017A4A31BA66CB68F966343",
-            "SourceString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased speed penalty</>",
-            "LocalizedString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased speed penalty</>"
+            "SourceString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>",
+            "LocalizedString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

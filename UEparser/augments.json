@@ -48,7 +48,7 @@
   {
     "name": "Advanced Recon",
     "tooltip": [
-      "> <C>25%</> increased radar and detection range from all sources",
+      "> <C>25%</> increased radar and detection range",
       "> <C>100%</> reduced scan and tag cooldown on ally killing tagged enemy",
       "> <C>5 s</> increased scan duration",
       "> Detected enemies can be tagged",
@@ -171,8 +171,8 @@
     "name": "Backdoor",
     "tooltip": [
       "> Enemies are detected to allies for <C>5-1 s</> on successful Neuro-Link proportional to amount from <C>1-5</>, <C>15 s</> cooldown",
+      "> Enemies are detected to allies for <C>2 s</> on receiving Neuro-Link",
       "> Devices and explosives of visible or detected enemies are detected to allies",
-      "> Tag enemies on receiving Neuro-Link",
       "<B>> </><C>5 s</> <B>reduced scan duration</>",
       "<B>> </><C>1</> <B>reduced Shell detections</>",
       "<B>> Can be Disabled</>"
@@ -423,7 +423,7 @@
     "name": "Experimental",
     "tooltip": [
       "> Can equip experimental devices",
-      "> <C>50%</> increased debuff durations from all sources other than experimental devices",
+      "> <C>25%</> increased applied debuff duration",
       "<B>></> <C>25</> <B>reduced defense</>"
     ],
     "foundations": {
@@ -644,9 +644,8 @@
     "tooltip": [
       "> Actions no longer deactivate scan",
       "> <C>100%</> reduced scan movement speed penalty",
-      "> <C>100%</> increased hack speed while dealing direct damage",
-      "> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link or while scan hacking",
-      "> <C>10%</> reduced aux power drain from all sources per detected enemy",
+      "> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link",
+      "> <C>20%</> reduced aux power drain from all sources per detected enemy",
       "<B>> Deactivates vitals and defense regeneration while scanning</>",
       "<B>> Unable to use weapon optics while scanning</>",
       "<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>",
@@ -659,6 +658,18 @@
     "foundations": {
       "type": "tech",
       "value": 50
+    }
+  },
+  {
+    "name": "Neuro-Hacker",
+    "tooltip": [
+      "> Can equip Neuro-Link devices",
+      "<B>> Can only equip Neuro-Link devices</>",
+      "<B>> </><C>50%</> <B>reduced radar detection range</>"
+    ],
+    "foundations": {
+      "type": "tech",
+      "value": 20
     }
   },
   {
@@ -941,7 +952,7 @@
       "> Unaffected by Core slowing effects while Core active and using backup weapons",
       "> <C>200%</> increased Core generation with backup weapons",
       "> <C>100%</> reduced backup weapon loadout speed penalty",
-      "<B>> Can only use backup weapons and enhancement devices</>",
+      "<B>> Can only equip backup weapons and enhancement devices</>",
       "<B>></> <C>25%</> <B>reduced Core duration</>"
     ],
     "foundations": {
@@ -997,7 +1008,8 @@
   {
     "name": "Tether",
     "tooltip": [
-      "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage, <C>1 s</> Disable and Snare every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>",
+      "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>",
+      "> <C>1 s</> Disable and Snare on damage if active for longer than <C>0.5 s</>",
       "> <C>50%</> of damage dealt by tether restored to vitals and max vitals",
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
       "<B>> Can be Disabled</>"

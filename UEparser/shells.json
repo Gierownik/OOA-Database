@@ -82,7 +82,7 @@
       "body_name": "Overstimulated",
       "body": "Gain an Adrenal Feedback stack every 20 s, increases maximum stacks by 5",
       "tech_name": "Feedback Loop",
-      "tech": "All visible kills while Core active gain an Adrenal Feedback stack.  Reaching 5 stacks fully restores defense and Core charge",
+      "tech": "All visible kills while Core active gain an Adrenal Feedback stack. Reaching 5 stacks fully restores defense and Core charge",
       "hardware_name": "Post-Kill Clarity",
       "hardware": "Gain enhanced vision and firearms and backup weapons bypass all damage reductions for 5 s on kill, duration extended while dealing damage, 10 s cooldown"
     }
@@ -127,9 +127,9 @@
       "body_name": "Safety Measures",
       "body": "Gain 25 temporary defense during Opportunity, clear Burn on camouflage activation, 50% reduced explosive damage received while camouflage active",
       "tech_name": "Hidden Asset",
-      "tech": "Interacting and throwing devices no longer deactivates camouflage. Deep camouflage no longer stuns on taking damage, gains enhanced vision and undetectable while active",
+      "tech": "Interacting no longer deactivates camouflage. Deep camouflage no longer stuns on taking damage, is undetectable while active and gains enhanced vision",
       "hardware_name": "Shadow Operative",
-      "hardware": "Hip firing supressed firearms and attacking with backup weapons no longer deactivates camouflage"
+      "hardware": "Hip firing supressed firearms, attacking with backup weapons and throwing devices no longer deactivates camouflage"
     }
   },
   {
@@ -214,11 +214,11 @@
     },
     "spec": {
       "body_name": "Power Relay",
-      "body": "40 /s defense and aux power regeneration while Disabled. Gain Overcharge during active Core if activated while Disabled or Overcharged",
+      "body": "30 /s uninterruptible defense, max defense and aux power regeneration while Disabled. Gain Overcharge during active Core if activated while Disabled or Overcharged",
       "tech_name": "Force Trauma",
       "tech": "Shockwave gains 50% increased range, debuff duration and knockback force, applies Disable+ and Snare+",
       "hardware_name": "Reverberate",
-      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-50%. Overcharge for 2 s on dealing melee or body impact damage"
+      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-50%. Overcharge for 5 s on melee or body impact kill"
     }
   }
 ]

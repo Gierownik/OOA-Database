@@ -162,7 +162,7 @@
       },
       "Spike": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator3",
-        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator17",
+        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator68",
         "action_57_9ACD9FD14A212852B1FFB8BB602B1D47": "ENUM_DeviceAction::NewEnumerator2",
         "type_71_B5593B1E4585F61965634483AEF654CF": "ENUM_DeviceType::NewEnumerator2",
         "triggered_60_01E8E00C460DB929F1148DA9C2CC07B7": false,
@@ -419,7 +419,7 @@
       },
       "Combust": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator29",
-        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator0",
+        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator68",
         "action_57_9ACD9FD14A212852B1FFB8BB602B1D47": "ENUM_DeviceAction::NewEnumerator2",
         "type_71_B5593B1E4585F61965634483AEF654CF": "ENUM_DeviceType::NewEnumerator2",
         "triggered_60_01E8E00C460DB929F1148DA9C2CC07B7": false,
@@ -441,7 +441,7 @@
       },
       "Parasite": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator30",
-        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator17",
+        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator68",
         "action_57_9ACD9FD14A212852B1FFB8BB602B1D47": "ENUM_DeviceAction::NewEnumerator2",
         "type_71_B5593B1E4585F61965634483AEF654CF": "ENUM_DeviceType::NewEnumerator2",
         "triggered_60_01E8E00C460DB929F1148DA9C2CC07B7": false,
@@ -463,7 +463,7 @@
       },
       "Desync": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator31",
-        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator0",
+        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator68",
         "action_57_9ACD9FD14A212852B1FFB8BB602B1D47": "ENUM_DeviceAction::NewEnumerator2",
         "type_71_B5593B1E4585F61965634483AEF654CF": "ENUM_DeviceType::NewEnumerator2",
         "triggered_60_01E8E00C460DB929F1148DA9C2CC07B7": false,
@@ -507,7 +507,7 @@
       },
       "Pathogen": {
         "deviceID_39_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_DeviceID::NewEnumerator33",
-        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator0",
+        "prerequisite_53_24D5FE3F415F563676F578B7B2508B43": "ENUM_PerkID::NewEnumerator68",
         "action_57_9ACD9FD14A212852B1FFB8BB602B1D47": "ENUM_DeviceAction::NewEnumerator2",
         "type_71_B5593B1E4585F61965634483AEF654CF": "ENUM_DeviceType::NewEnumerator2",
         "triggered_60_01E8E00C460DB929F1148DA9C2CC07B7": false,
