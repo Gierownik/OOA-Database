@@ -232,8 +232,9 @@
     "name": "Chemical Warfare",
     "tooltip": [
       "> Explosive damage applies Corrode for <C>2 s</>",
-      "> All sources of Corrode cause Corrode+: <C>50%</> of attempted vitals restoration drained from vitals, duration refreshed with active Bleed",
-      "<B>></> <C>25%</> <B>reduced explosive damage</>"
+      "> <C>25%</> of chemical damage dealt to defense and max defense damages vitals and max vitals",
+      "<B>></> <C>25%</> <B>reduced explosive range</>",
+      "<B>></> <C>50%</> <B>reduced max defense damage dealt by chemical damage</>"
     ],
     "foundations": {
       "type": "hardware",
@@ -272,7 +273,7 @@
     "tooltip": [
       "> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
-      "<B>></> <C>0.25-4 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>",
+      "<B>></> <C>0-2.5 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>> Can no longer manually activate Core</>"
     ],
     "foundations": {
@@ -520,7 +521,6 @@
   {
     "name": "Heavy Ordnance",
     "tooltip": [
-      "> <C>25%</> increased explosive far damage range",
       "> <C>50%</> increased explosive Bleed damage",
       "> All equipped or picked up weapons gain the Contact Charge mod with no slot cost",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
@@ -650,7 +650,7 @@
       "<B>> Unable to use weapon optics while scanning</>",
       "<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>",
       "<B>> </><C>50%</> <B>increased scan cooldown</>",
-      "<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>",
+      "<B>> </><C>100-0%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>",
       "<B>> </><C>1</> <B> reduced Shell detections</>",
       "<B>> </><C>5 s</> <B>reduced scan duration</>",
       "<B>> Can be Disabled</>"
@@ -658,6 +658,19 @@
     "foundations": {
       "type": "tech",
       "value": 50
+    }
+  },
+  {
+    "name": "Necrosis",
+    "tooltip": [
+      "> All sources of Corrode apply Corrode+",
+      "> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active",
+      "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+      "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
+    ],
+    "foundations": {
+      "type": "body",
+      "value": 40
     }
   },
   {
@@ -890,8 +903,9 @@
     "name": "Shell Shock",
     "tooltip": [
       "> Explosive damage applies Snare and Disable for <C>2 s</>",
-      "> <C>25%</> increased explosive far damage range",
-      "<B>></> <C>25%</> <B>reduced explosive damage</>"
+      "> All attempted sources of Disable deal <C>200%</> of duration as shock damage to Overcharged targets",
+      "<B>></> <C>25%</> <B>reduced explosive range</>",
+      "<B>></> <C>50%</> <B>increased Disable duration</>"
     ],
     "foundations": {
       "type": "tech",

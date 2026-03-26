@@ -234,7 +234,7 @@
     "name": "EM Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>1-4 s</> Disable to enemies, scaling proportionally with damage dealt from <C>50-200</>",
+      "> <C>0.5-4 s</> Disable to enemies, scaling proportionally with damage dealt from <C>25-200</>",
       "> <C>25%</> increased damage to enemies with Disable+",
       "> Hot mag: <C>25%</> additional environment penetration and velocity",
       "<B>></> <C>25%</> <B>reduced velocity and environment penetration</>",
@@ -430,12 +430,13 @@
     "name": "Impact Grenade",
     "type": "Ammo",
     "tooltip": [
-      "> Detonates on impact",
+      "> Activates on impact, <C>1 s</> activation delay",
+      "> Detonates on Shell impact",
       "> Explosive damage",
       "> <C>25%</> increased velocity",
       "> Hot mag: <C>25%</> additional velocity",
-      "<B>></> <C>50%</> <B>reduced explosive damage</>",
-      "<B>></> <C>25%</> <B>reduced explosive damage radius</>"
+      "<B>></> <C>25%</> <B>reduced explosive damage</>",
+      "<B>></> <C>25%</> <B>reduced explosive damage range</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -454,7 +455,8 @@
       "> Activates on impact, <C>0.75 s</> activation delay",
       "> Burn damage, ignites surrounding area, <C>2 s</> Snare",
       "> Hot mag: <C>25%</> additional velocity",
-      "<B>></> <C>75%</> <B>reduced explosive damage</>"
+      "<B>></> <C>75%</> <B>reduced explosive damage</>",
+      "<B>></> <C>25%</> <B>reduced explosive damage range</"
     ],
     "technician": "true",
     "compatibility": [
@@ -473,6 +475,7 @@
       "> Proximity detection, <C>0.75 s</> activation delay",
       "> Can attach to surfaces and Shells",
       "> Explosive damage",
+      "> <C>25%</> increased explosive damage range",
       "> Hot mag: <C>25%</> additional velocity",
       "<B>></> <C>25%</> <B>reduced explosive damage</>",
       "<B>> Can be Disabled</>"

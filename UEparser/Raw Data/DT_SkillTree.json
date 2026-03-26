@@ -868,8 +868,8 @@
           {
             "Namespace": "",
             "Key": "2361301942DFDE29C4F943B272FCF0D6",
-            "SourceString": "> Explosive damage applies Corrode for <C>2 s</>\r\n> All sources of Corrode cause Corrode+: <C>50%</> of attempted vitals restoration drained from vitals, duration refreshed with active Bleed\r\n<B>></> <C>25%</> <B>reduced explosive damage</>",
-            "LocalizedString": "> Explosive damage applies Corrode for <C>2 s</>\r\n> All sources of Corrode cause Corrode+: <C>50%</> of attempted vitals restoration drained from vitals, duration refreshed with active Bleed\r\n<B>></> <C>25%</> <B>reduced explosive damage</>"
+            "SourceString": "> Explosive damage applies Corrode for <C>2 s</>\r\n> <C>25%</> of chemical damage dealt to defense and max defense damages vitals and max vitals\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>reduced max defense damage dealt by chemical damage</>",
+            "LocalizedString": "> Explosive damage applies Corrode for <C>2 s</>\r\n> <C>25%</> of chemical damage dealt to defense and max defense damages vitals and max vitals\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>reduced max defense damage dealt by chemical damage</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -937,8 +937,8 @@
           {
             "Namespace": "",
             "Key": "7205BED04C43D8863840CA99DD0D9419",
-            "SourceString": "> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n<B>></> <C>0.25-4 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>> Can no longer manually activate Core</>",
-            "LocalizedString": "> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n<B>></> <C>0.25-4 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>> Can no longer manually activate Core</>"
+            "SourceString": "> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n<B>></> <C>0-2.5 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>> Can no longer manually activate Core</>",
+            "LocalizedString": "> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n<B>></> <C>0-2.5 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>> Can no longer manually activate Core</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1351,8 +1351,8 @@
           {
             "Namespace": "",
             "Key": "07FA24204CDF0F49B51220A5BC89839E",
-            "SourceString": "> <C>25%</> increased explosive far damage range\r\n> <C>50%</> increased explosive Bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>25%</> increased explosive far damage range\r\n> <C>50%</> increased explosive Bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> <C>50%</> increased explosive Bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> <C>50%</> increased explosive Bleed damage\r\n> All equipped or picked up weapons gain the Contact Charge mod with no slot cost\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1558,13 +1558,36 @@
           {
             "Namespace": "",
             "Key": "0F53D85242BB50298C798694013FEDFD",
-            "SourceString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link\r\n> <C>20%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals and defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link\r\n> <C>20%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals and defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-25%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link\r\n> <C>20%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals and defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-0%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Actions no longer deactivate scan\r\n> <C>100%</> reduced scan movement speed penalty\r\n> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link\r\n> <C>20%</> reduced aux power drain from all sources per detected enemy\r\n<B>> Deactivates vitals and defense regeneration while scanning</>\r\n<B>> Unable to use weapon optics while scanning</>\r\n<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>\r\n<B>> </><C>50%</> <B>increased scan cooldown</>\r\n<B>> </><C>100-0%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>\r\n<B>> </><C>1</> <B> reduced Shell detections</>\r\n<B>> </><C>5 s</> <B>reduced scan duration</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_NetRun'",
           "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_NetRun"
+        }
+      },
+      "Necrosis": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator75",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "D8D79D8C4940A91B2555879E1101865F",
+            "SourceString": "> All sources of Corrode apply Corrode+\r\n> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
+            "LocalizedString": "> All sources of Corrode apply Corrode+\r\n> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Necrosis'",
+          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Necrosis"
         }
       },
       "Neuro-Hacker": {
@@ -1949,8 +1972,8 @@
           {
             "Namespace": "",
             "Key": "6CBCC7BB4E94F2BB25F91289863FEB83",
-            "SourceString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> <C>25%</> increased explosive far damage range\r\n<B>></> <C>25%</> <B>reduced explosive damage</>",
-            "LocalizedString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> <C>25%</> increased explosive far damage range\r\n<B>></> <C>25%</> <B>reduced explosive damage</>"
+            "SourceString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All attempted sources of Disable deal <C>200%</> of duration as shock damage to Overcharged targets\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>increased Disable duration</>",
+            "LocalizedString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All attempted sources of Disable deal <C>200%</> of duration as shock damage to Overcharged targets\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>increased Disable duration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2984,8 +3007,8 @@
           {
             "Namespace": "",
             "Key": "ABC2AA17485EA500E2153B8FA18646D2",
-            "SourceString": "> <C>1-4 s</> Disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to enemies with Disable+\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>25%</> <B>reduced velocity and environment penetration</>\r\n<B>></> <C>50%</> <B>reduced Bleed damage</>",
-            "LocalizedString": "> <C>1-4 s</> Disable to enemies, scaling proportionally with damage dealt from <C>50-200</>\r\n> <C>25%</> increased damage to enemies with Disable+\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>25%</> <B>reduced velocity and environment penetration</>\r\n<B>></> <C>50%</> <B>reduced Bleed damage</>"
+            "SourceString": "> <C>0.5-4 s</> Disable to enemies, scaling proportionally with damage dealt from <C>25-200</>\r\n> <C>25%</> increased damage to enemies with Disable+\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>25%</> <B>reduced velocity and environment penetration</>\r\n<B>></> <C>50%</> <B>reduced Bleed damage</>",
+            "LocalizedString": "> <C>0.5-4 s</> Disable to enemies, scaling proportionally with damage dealt from <C>25-200</>\r\n> <C>25%</> increased damage to enemies with Disable+\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>25%</> <B>reduced velocity and environment penetration</>\r\n<B>></> <C>50%</> <B>reduced Bleed damage</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3122,8 +3145,8 @@
           {
             "Namespace": "",
             "Key": "A723A65D45941CBB93BB42B45F4AD543",
-            "SourceString": "> Detonates on impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>",
-            "LocalizedString": "> Detonates on impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage radius</>"
+            "SourceString": "> Activates on impact, <C>1 s</> activation delay\r\n> Detonates on Shell impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>",
+            "LocalizedString": "> Activates on impact, <C>1 s</> activation delay\r\n> Detonates on Shell impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3145,8 +3168,8 @@
           {
             "Namespace": "",
             "Key": "FD25E9B04641A86540112E87E912F17A",
-            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Burn damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>75%</> <B>reduced explosive damage</>",
-            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Burn damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>75%</> <B>reduced explosive damage</>"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Burn damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>75%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Burn damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>75%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3168,8 +3191,8 @@
           {
             "Namespace": "",
             "Key": "06F24FB1450480DE005228B248EE18BC",
-            "SourceString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces and Shells\r\n> Explosive damage\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces and Shells\r\n> Explosive damage\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces and Shells\r\n> Explosive damage\r\n> <C>25%</> increased explosive damage range\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces and Shells\r\n> Explosive damage\r\n> <C>25%</> increased explosive damage range\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
