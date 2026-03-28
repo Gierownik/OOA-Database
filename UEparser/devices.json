@@ -536,7 +536,7 @@
     "type": "Standard",
     "tooltip": [
       "> Creates toxic cloud on impact, spreading to nearby surfaces",
-      "> Cloud obscures vision, applies <C>2 s</> Snare and Corrode on contact",
+      "> Cloud obscures vision, applies <C>2 s</> Snare and Corrode to enemies on contact",
       "> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets",
       "> Maximum Efficiency: <C>100%</> increased duration"
     ],

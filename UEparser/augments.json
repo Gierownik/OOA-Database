@@ -273,7 +273,8 @@
     "tooltip": [
       "> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
-      "<B>></> <C>0-2.5 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</> <B>, scaling proportionally with Core charge from</> <C>0-100</>",
+      "<B>></> <C>1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</>",
+      "<B>></> <C>100%</> <B>Core charge drained on deploy</>",
       "<B>> Can no longer manually activate Core</>"
     ],
     "foundations": {
@@ -664,7 +665,7 @@
     "name": "Necrosis",
     "tooltip": [
       "> All sources of Corrode apply Corrode+",
-      "> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active",
+      "> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active, obscures vision, applies <C>2 s</> Snare and Corrode to enemies on contact",
       "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
       "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
     ],
