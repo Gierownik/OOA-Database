@@ -218,9 +218,9 @@
   {
     "name": "Chain Reaction",
     "tooltip": [
-      "> Disable all unobstructed enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration",
-      "> Disable all unobstructed enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration",
-      "> <C>5%</> increased direct damage dealt per unobstructed Disabled enemy within <C>50 m</>, stacking up to <C>25%</>",
+      "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration",
+      "> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration",
+      "> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>",
       "<B>></> <C>15%</> <B>increased direct damage received while Disabled</>"
     ],
     "foundations": {
@@ -566,6 +566,7 @@
     "tooltip": [
       "> Target recognition overlay, replaces scan",
       "> Highlights enemies and devices while active",
+      "> Can tag camouflaged enemies",
       "<B>> Disables detections and radar while active</>",
       "<B>> Unable to use weapon optics while active</>",
       "<B>> Can be Disabled</>"
@@ -904,7 +905,7 @@
     "name": "Shell Shock",
     "tooltip": [
       "> Explosive damage applies Snare and Disable for <C>2 s</>",
-      "> All attempted sources of Disable deal <C>200%</> of duration as shock damage to Overcharged targets",
+      "> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration, does not stack",
       "<B>></> <C>25%</> <B>reduced explosive range</>",
       "<B>></> <C>50%</> <B>increased Disable duration</>"
     ],

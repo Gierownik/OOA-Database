@@ -845,8 +845,8 @@
           {
             "Namespace": "",
             "Key": "2F130C9449AF696DAAE800ABE505BE34",
-            "SourceString": "> Disable all unobstructed enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all unobstructed enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per unobstructed Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>15%</> <B>increased direct damage received while Disabled</>",
-            "LocalizedString": "> Disable all unobstructed enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all unobstructed enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per unobstructed Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>15%</> <B>increased direct damage received while Disabled</>"
+            "SourceString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>15%</> <B>increased direct damage received while Disabled</>",
+            "LocalizedString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>15%</> <B>increased direct damage received while Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1420,8 +1420,8 @@
           {
             "Namespace": "",
             "Key": "BBEB8E794A848E225209D7B91CC1722B",
-            "SourceString": "> Target recognition overlay, replaces scan\r\n> Highlights enemies and devices while active\r\n<B>> Disables detections and radar while active</>\r\n<B>> Unable to use weapon optics while active</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Target recognition overlay, replaces scan\r\n> Highlights enemies and devices while active\r\n<B>> Disables detections and radar while active</>\r\n<B>> Unable to use weapon optics while active</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Target recognition overlay, replaces scan\r\n> Highlights enemies and devices while active\r\n> Can tag camouflaged enemies\r\n<B>> Disables detections and radar while active</>\r\n<B>> Unable to use weapon optics while active</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Target recognition overlay, replaces scan\r\n> Highlights enemies and devices while active\r\n> Can tag camouflaged enemies\r\n<B>> Disables detections and radar while active</>\r\n<B>> Unable to use weapon optics while active</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1972,8 +1972,8 @@
           {
             "Namespace": "",
             "Key": "6CBCC7BB4E94F2BB25F91289863FEB83",
-            "SourceString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All attempted sources of Disable deal <C>200%</> of duration as shock damage to Overcharged targets\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>increased Disable duration</>",
-            "LocalizedString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All attempted sources of Disable deal <C>200%</> of duration as shock damage to Overcharged targets\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>increased Disable duration</>"
+            "SourceString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration, does not stack\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>increased Disable duration</>",
+            "LocalizedString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration, does not stack\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>increased Disable duration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3628,8 +3628,8 @@
           {
             "Namespace": "",
             "Key": "3608F1BA4334E67DC8C887B9285BCD21",
-            "SourceString": "> Highlights enemies and devices\r\n> <C>35%</> reduced ADS spread\r\n<B>></> <C>25%</> <B>increased aim time</>",
-            "LocalizedString": "> Highlights enemies and devices\r\n> <C>35%</> reduced ADS spread\r\n<B>></> <C>25%</> <B>increased aim time</>"
+            "SourceString": "> Highlights enemies and devices\r\n> Can tag camouflaged enemies while ADS\r\n> <C>35%</> reduced ADS spread\r\n<B>></> <C>25%</> <B>increased aim time</>",
+            "LocalizedString": "> Highlights enemies and devices\r\n> Can tag camouflaged enemies while ADS\r\n> <C>35%</> reduced ADS spread\r\n<B>></> <C>25%</> <B>increased aim time</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3651,8 +3651,8 @@
           {
             "Namespace": "",
             "Key": "D480143D4A76FEA3434EC9B1C75CF584",
-            "SourceString": "> Highlights enemies and devices\r\n> <C>85%</> reduced ADS spread\r\n> <C>50%</> increased ADS range\r\n<B>></> <C>25%</> <B>increased aim time</>",
-            "LocalizedString": "> Highlights enemies and devices\r\n> <C>85%</> reduced ADS spread\r\n> <C>50%</> increased ADS range\r\n<B>></> <C>25%</> <B>increased aim time</>"
+            "SourceString": "> Highlights enemies and devices\r\n> Can tag camouflaged enemies while ADS\r\n> <C>85%</> reduced ADS spread\r\n> <C>50%</> increased ADS range\r\n<B>></> <C>25%</> <B>increased aim time</>",
+            "LocalizedString": "> Highlights enemies and devices\r\n> Can tag camouflaged enemies while ADS\r\n> <C>85%</> reduced ADS spread\r\n> <C>50%</> increased ADS range\r\n<B>></> <C>25%</> <B>increased aim time</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
