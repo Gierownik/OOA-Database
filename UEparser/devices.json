@@ -85,7 +85,7 @@
     "name": "Spike",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>25</> vital damage, <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals",
+      "> Applies <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals",
       "> Destroys visible or detected devices",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
@@ -218,7 +218,7 @@
       "> Disables enemy devices within zone",
       "> Shroud to allies within zone",
       "> Can attach to surfaces",
-      "> Maximum Efficiency: <C>5</> vital damage every <C>0.5 s</> to enemies within Deadzone"
+      "> Maximum Efficiency: Disable+ to enemies within zone"
     ],
     "experimental": "true",
     "stats": {
@@ -406,6 +406,7 @@
       "> <C>2 s</> Disable to enemies and devices within <C>3 m</> on relocation",
       "> Can attach to surfaces and Shells",
       "> Maximum Efficiency: <C>50</> vitals and max vitals restored on activation",
+      "<B>></> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on activation while Restabilise on cooldown</>",
       "<B>> Can be Disabled</>"
     ],
     "experimental": "true",

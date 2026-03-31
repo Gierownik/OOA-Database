@@ -937,6 +937,7 @@
     "type": "Optic",
     "tooltip": [
       "> Highlights enemies and devices",
+      "> Can tag camouflaged enemies while ADS",
       "> <C>35%</> reduced ADS spread",
       "<B>></> <C>25%</> <B>increased aim time</>"
     ],
@@ -967,6 +968,7 @@
     "type": "Optic",
     "tooltip": [
       "> Highlights enemies and devices",
+      "> Can tag camouflaged enemies while ADS",
       "> <C>85%</> reduced ADS spread",
       "> <C>50%</> increased ADS range",
       "<B>></> <C>25%</> <B>increased aim time</>"
