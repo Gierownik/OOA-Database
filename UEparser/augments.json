@@ -751,10 +751,9 @@
   {
     "name": "Puncture",
     "tooltip": [
-      "> Backup weapons deal piercing damage",
+      "> <C>25%</> defense bypass with backup weapons and body impact damage",
       "> <C>50%</> increased body impact damage",
       "> <C>100%</> of body impact damage received reflected",
-      "> <C>25%</> of body impact damage dealt or reflected penetrates defense",
       "> <C>5-10 /s</> Bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>",
       "<B>></> <C>25%</> <B>reduced body impact damage on deflections</>",
       "<B>></> <C>50%</> <B>of body impact damage dealt or received reduces defense and max defense</>"
@@ -838,7 +837,7 @@
     "tooltip": [
       "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
-      "> <C>100%</> increased Core generation",
+      "> <C>200%</> increased Core generation",
       "<B>></> <C>0-100%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>></> <C>0-100%</> <B>reduced effectiveness of damage reductions, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>></> <C>0-100%</> <B>reduced vitals and defense restored from all sources, scaling proportionally with Core charge from</> <C>0-100</>",
@@ -882,7 +881,7 @@
   {
     "name": "Reversal",
     "tooltip": [
-      "> Overcharge on receiving Disable: Disable immunity, <C>10%</> increased ground and climb speed, Disable enemies and enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received Disable",
+      "> Overcharge on receiving Disable: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received Disable",
       "<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>"
     ],
     "foundations": {
@@ -1059,7 +1058,7 @@
     "tooltip": [
       "> <C>100%</> Core generation on deploy",
       "> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback and knockdown to all enemies within <C>2-4 m</>",
-      "> Overcharge while Core fully charged: Disable immunity, <C>10%</> increased ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
+      "> Overcharge while Core fully charged: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
       "<B>> While Core fully charged: Core failure initiates after</> <C>30 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on Core Activation, Core charge drain, or enemy Disable attempt. Failure can be vented by Core activation or visible enemy kill</>",
       "<B>></> <C>50%</> <B>reduced Core duration</>"
     ],

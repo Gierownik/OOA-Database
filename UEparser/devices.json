@@ -218,7 +218,7 @@
       "> Disables enemy devices within zone",
       "> Shroud to allies within zone",
       "> Can attach to surfaces",
-      "> Maximum Efficiency: Disable+ to enemies within zone"
+      "> Maximum Efficiency: Snare+ to enemies within zone"
     ],
     "experimental": "true",
     "stats": {
@@ -349,7 +349,7 @@
     "name": "Overcharge",
     "type": "Enhancement",
     "tooltip": [
-      "> While active: Disable immunity, <C>10%</> increased ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
+      "> While active: Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
       "> Maximum Efficiency: <C>50%</> increased duration"
     ],
     "experimental": "false",
