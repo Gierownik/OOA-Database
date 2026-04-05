@@ -3,9 +3,8 @@
     "name": "Bolster",
     "tooltip": [
       "> Bleed and knockdown immunity",
-      "> <C>200</> max defense",
       "> <C>0 s</> defense regen delay",
-      "> <C>40 /s</> defense regeneration",
+      "> <C>40 /s</> defense regeneration, can gain defense buffer",
       "<B>> <C>50%</> reduced speed and vitals restored from all sources</>",
       "<B>> Disables optical camouflage</>",
       "<B>> Prevented by Burn</>"
@@ -114,9 +113,8 @@
   {
     "name": "Reinforce",
     "tooltip": [
-      "> Defense penetration and bullet effects immunity",
-      "> Deflects projectiles and devices",
-      "> <C>50%</> reduced direct damage recieved",
+      "> Full body Hard Target for duration",
+      "> <C>50%</> reduced explosive damage recieved",
       "<B>> Disables optical camouflage</>"
     ],
     "enhancement": "None",
