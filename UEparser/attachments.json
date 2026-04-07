@@ -703,7 +703,6 @@
     "type": "Mod",
     "tooltip": [
       "> Converts to magazine reload",
-      "> Increased ammo capacity",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
     "technician": "false",
@@ -990,8 +989,7 @@
     ],
     "technician": "false",
     "compatibility": [
-      "Deckard",
-      "Warrant"
+      "Deckard"
     ],
     "excludes": [
       "Wildfire Trigger",
@@ -1070,9 +1068,7 @@
       "<B>></> <C>100%</> <B>increased spread gain</>"
     ],
     "technician": "false",
-    "compatibility": [
-      "Warrant"
-    ],
+    "compatibility": [],
     "excludes": [
       "Light Trigger"
     ],
