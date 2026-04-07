@@ -80,7 +80,7 @@
     },
     "spec": {
       "body_name": "Overstimulated",
-      "body": "Gain an Adrenal Feedback stack every 20 s, increases maximum stacks by 5",
+      "body": "Gain an Adrenal Feedback stack every 30 s, increases maximum stacks by 5",
       "tech_name": "Feedback Loop",
       "tech": "All visible kills while Core active gain an Adrenal Feedback stack. Reaching 5 stacks fully restores defense and Core charge",
       "hardware_name": "Post-Kill Clarity",

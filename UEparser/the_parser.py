@@ -218,11 +218,16 @@ for skill_name, data in skill_rows.items():
         secondary = "false"
 
     proj = device_stat.get("projectile_38_8314BA3E4A691B7C8FBBFA97A59FA3D6", 0)
+    integrity = 0
+    activation_delay = 0
+    velocity = 0
     if (proj != "null"):
         projectile_stat = projectile_stats.get(skill_name, {})
         activation_delay = projectile_stat.get("activateDelay_61_34257DE240DD8147F7AF659F2274ADB0",0)
 
         velocity = projectile_stat.get("velocity_5_9840E98F4ADCFA9D674713AF41DA77E3", 0)
+
+        integrity = projectile_stat.get("health_79_4894EED8412025650D159B9B0DB07572", 0)
 
         disble = projectile_stat.get("canBeDisabled_73_1459F3FC4E7DDBC4A6CE85AB203AE400", 0)
         if (disble == True):
@@ -261,6 +266,7 @@ for skill_name, data in skill_rows.items():
             "activation": activation,
             "activation_delay": activation_delay,
             "velocity": velocity / 100,
+            "integrity": integrity,
             "speed_penalty": speed_pen / 100,
             "hack_cost": hack_cost,
             "secondary_action": secondary,
@@ -435,6 +441,8 @@ for skill_name, data in skill_rows.items():
     
     req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
 
+    speed_pen = attachment_stat.get("speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2", 0)
+
     attachment_output.append({
         "name": attachment_name,
         "type": attachment_type,
@@ -442,6 +450,7 @@ for skill_name, data in skill_rows.items():
         "technician": technician,
         "compatibility": compatibility,
         "excludes": exclude,
+        "speed_penalty": speed_pen / 100,
         "foundations": {
             "type": found_type,
             "value": req

@@ -2,7 +2,7 @@
   {
     "name": "Handguns",
     "tooltip": [
-      "> <C>10%</> of direct damage dealt with handguns restored to aux power",
+      "> <C>25%</> of direct damage dealt with handguns restored to aux power",
       "> <C>100%</> additional base reserve ammo for handguns"
     ]
   },
@@ -83,7 +83,7 @@
       "<F2>> Hidden Asset: </>Interacting no longer deactivates camouflage. Deep camouflage no longer stuns on taking damage, is undetectable while active and gains enhanced vision",
       "<F3>> Shadow Operative: </>Hip firing supressed firearms, attacking with backup weapons and throwing devices no longer deactivates camouflage",
       "<D>HYDRA</>",
-      "<F1>> Overstimulated: </>Gain an Adrenal Feedback stack every <C>20 s</>, increases maximum stacks by <C>5</>",
+      "<F1>> Overstimulated: </>Gain an Adrenal Feedback stack every <C>30 s</>, increases maximum stacks by <C>5</>",
       "<F2>> Feedback Loop: </>All visible kills while Core active gain an Adrenal Feedback stack. Reaching <C>5</> stacks fully restores defense and Core charge",
       "<F3>> Post-Kill Clarity: </>Gain enhanced vision and firearms and backup weapons bypass all damage reductions for <C>5 s</> on kill, duration extended while dealing damage, <C>10 s</> cooldown",
       "<D>RHINO</>",
@@ -110,8 +110,7 @@
   {
     "name": "Augments",
     "tooltip": [
-      "> <C>50%</> reduced augment cooldowns",
-      "> All augments can be equipped into slots <C>3</> and <C>4</>"
+      "> <C>50%</> reduced augment cooldowns"
     ]
   },
   {

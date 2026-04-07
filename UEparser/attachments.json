@@ -25,6 +25,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 0
@@ -38,7 +39,7 @@
       "> <C>25%</> of damage dealt penetrates defense",
       "> <C>25%</> increased velocity",
       "> Hot mag: <C>25%</> additional environment penetration and velocity",
-      "<B>></> <C>25%</> <B>reduced damage on deflections</>",
+      "<B>></> <C>25%</> <B>reduced hard target damage </>",
       "<B>></> <C>25%</> <B>reduced Bleed damage</>"
     ],
     "technician": "false",
@@ -60,6 +61,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 20
@@ -93,6 +95,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -126,6 +129,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -160,6 +164,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 5
@@ -193,6 +198,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 35
@@ -225,6 +231,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 35
@@ -259,6 +266,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 45
@@ -292,6 +300,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 45
@@ -325,49 +334,10 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 25
-    }
-  },
-  {
-    "name": "T-Lock Ammo",
-    "type": "Ammo",
-    "tooltip": [
-      "> Can lock onto + track painted enemies",
-      "> Detonates after <C>2 s</>, dealing additional explosive damage to targets within <C>4 m</>",
-      "> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock",
-      "> <C>1.5x</> headshot mutliplier",
-      "> <C>25</> penetration",
-      "> <C>25%</> reduced recoil",
-      "<B>></> <C>85%</> <B>reduced direct damage</>",
-      "<B>></> <C>25%</> <B>reduced automatic + burst RPM</>",
-      "<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier + penetration</>",
-      "<B>> Reduced tracking speed if used while airborne</>",
-      "<B>> Can be disabled</>"
-    ],
-    "technician": "true",
-    "compatibility": [
-      "Major",
-      "Deckard",
-      "Geist",
-      "Cerberus",
-      "Master-Key",
-      "Icarus",
-      "Custodian",
-      "Vigil",
-      "Inhibitor",
-      "Sentinel",
-      "Helix",
-      "Nexus",
-      "Typhon",
-      "Omen",
-      "Double-Tap"
-    ],
-    "excludes": [],
-    "foundations": {
-      "type": "tech",
-      "value": 40
     }
   },
   {
@@ -401,6 +371,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 35
@@ -410,7 +381,7 @@
     "name": "Standard Grenade",
     "type": "Ammo",
     "tooltip": [
-      "> Activates on impact, <C>1 s</> activation delay",
+      "> Activates on impact, <C>0.75 s</> activation delay",
       "> Explosive damage",
       "> Can knockback",
       "> Hot mag: <C>25%</> additional velocity",
@@ -421,6 +392,7 @@
       "Warrant"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 35
@@ -430,12 +402,12 @@
     "name": "Impact Grenade",
     "type": "Ammo",
     "tooltip": [
-      "> Activates on impact, <C>1 s</> activation delay",
+      "> Activates on impact, <C>0.5 s</> activation delay",
       "> Detonates on Shell impact",
       "> Explosive damage",
       "> <C>25%</> increased velocity",
       "> Hot mag: <C>25%</> additional velocity",
-      "<B>></> <C>25%</> <B>reduced explosive damage</>",
+      "<B>></> <C>50%</> <B>reduced bleed damage</>",
       "<B>></> <C>25%</> <B>reduced explosive damage range</>"
     ],
     "technician": "false",
@@ -443,6 +415,7 @@
       "Warrant"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 45
@@ -455,14 +428,15 @@
       "> Activates on impact, <C>0.75 s</> activation delay",
       "> Burn damage, ignites surrounding area, <C>2 s</> Snare",
       "> Hot mag: <C>25%</> additional velocity",
-      "<B>></> <C>75%</> <B>reduced explosive damage</>",
-      "<B>></> <C>25%</> <B>reduced explosive damage range</"
+      "<B>></> <C>100%</> <B>reduced bleed damage</>",
+      "<B>></> <C>25%</> <B>reduced explosive damage</>"
     ],
     "technician": "true",
     "compatibility": [
       "Warrant"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 40
@@ -472,8 +446,8 @@
     "name": "Proximity Grenade",
     "type": "Ammo",
     "tooltip": [
-      "> Proximity detection, <C>0.75 s</> activation delay",
-      "> Can attach to surfaces and Shells",
+      "> Proximity detection, <C>0.5 s</> activation delay",
+      "> Can attach to surfaces and Shells, up to <C>4</> attached",
       "> Explosive damage",
       "> <C>25%</> increased explosive damage range",
       "> Hot mag: <C>25%</> additional velocity",
@@ -485,6 +459,7 @@
       "Warrant"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 35
@@ -516,6 +491,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 20
@@ -549,6 +525,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
       "value": 30
@@ -559,8 +536,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>50%</> reduced horizontal recoil",
-      "> <C>25%</> reduced aim time",
-      "<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
+      "> <C>25%</> reduced aim time"
     ],
     "technician": "false",
     "compatibility": [
@@ -572,6 +548,7 @@
       "Typhon"
     ],
     "excludes": [],
+    "speed_penalty": 0.2,
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -605,6 +582,7 @@
       "Warrant"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 10
@@ -622,6 +600,7 @@
       "Master-Key"
     ],
     "excludes": [],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
       "value": 30
@@ -639,6 +618,7 @@
       "Vigil"
     ],
     "excludes": [],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
       "value": 45
@@ -667,6 +647,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
       "value": 30
@@ -686,6 +667,7 @@
       "Cerberus"
     ],
     "excludes": [],
+    "speed_penalty": 0.15,
     "foundations": {
       "type": "hardware",
       "value": 40
@@ -696,8 +678,7 @@
     "type": "Mod",
     "tooltip": [
       "> Increased ammo capacity",
-      "<B>></> <C>15%</> <B>increased aim time</>",
-      "<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
+      "<B>></> <C>15%</> <B>increased aim time</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -711,6 +692,7 @@
       "Omen"
     ],
     "excludes": [],
+    "speed_penalty": 0.2,
     "foundations": {
       "type": "hardware",
       "value": 25
@@ -722,8 +704,7 @@
     "tooltip": [
       "> Converts to magazine reload",
       "> Increased ammo capacity",
-      "<B>></> <C>15%</> <B>increased aim time</>",
-      "<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
+      "<B>></> <C>15%</> <B>increased aim time</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -731,6 +712,7 @@
       "Warrant"
     ],
     "excludes": [],
+    "speed_penalty": 0.15,
     "foundations": {
       "type": "hardware",
       "value": 30
@@ -749,6 +731,7 @@
       "Cerberus"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 35
@@ -770,6 +753,7 @@
     "excludes": [
       "Rifled Barrel"
     ],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 30
@@ -798,6 +782,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.0,
     "foundations": {
       "type": "hardware",
       "value": 0
@@ -819,6 +804,7 @@
       "Nexus"
     ],
     "excludes": [],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
       "value": 25
@@ -847,6 +833,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 25
@@ -875,6 +862,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 20
@@ -903,6 +891,7 @@
       "Typhon"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 15
@@ -927,6 +916,7 @@
       "Deckard"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 30
@@ -958,6 +948,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 25
@@ -984,6 +975,7 @@
       "Deckard"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 30
@@ -1005,6 +997,7 @@
       "Wildfire Trigger",
       "Burst Trigger"
     ],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
       "value": 40
@@ -1024,6 +1017,7 @@
       "Typhon"
     ],
     "excludes": [],
+    "speed_penalty": 0.15,
     "foundations": {
       "type": "tech",
       "value": 35
@@ -1037,8 +1031,7 @@
       "> Deals explosive damage to targets within <C>2-4 m</>",
       "> <C>50-25</> damage with sidearms",
       "> <C>75-25</> damage with primary weapons",
-      "> <C>100-25</> damage with heavy weapons",
-      "<B>></> <C>0.25 m/s</> <B>increased weapon speed penalty</>"
+      "> <C>100-25</> damage with heavy weapons"
     ],
     "technician": "false",
     "compatibility": [
@@ -1060,6 +1053,7 @@
       "Warrant"
     ],
     "excludes": [],
+    "speed_penalty": 0.25,
     "foundations": {
       "type": "hardware",
       "value": 30
@@ -1070,7 +1064,7 @@
     "type": "Mod",
     "tooltip": [
       "> Converts to 2 round burst",
-      "> <C>300%</> increased RPM",
+      "> <C>400%</> increased RPM",
       "<B>></> <C>100%</> <B>increased recoil</>",
       "<B>></> <C>100%</> <B>increased hipfire spread</>",
       "<B>></> <C>100%</> <B>increased spread gain</>"
@@ -1082,6 +1076,7 @@
     "excludes": [
       "Light Trigger"
     ],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
       "value": 45
@@ -1103,6 +1098,7 @@
       "Nexus"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 45
@@ -1136,26 +1132,10 @@
       "Warrant"
     ],
     "excludes": [],
+    "speed_penalty": 0.0,
     "foundations": {
       "type": "hardware",
       "value": 25
-    }
-  },
-  {
-    "name": "HV Barrel",
-    "type": "Mod",
-    "tooltip": [
-      "> <C>25%</> increased velocity",
-      "<B>></> <C>0.25 m/s</> <B>increased weapon speed penalty</>"
-    ],
-    "technician": "false",
-    "compatibility": [
-      "Warrant"
-    ],
-    "excludes": [],
-    "foundations": {
-      "type": "hardware",
-      "value": 40
     }
   },
   {
@@ -1176,6 +1156,7 @@
     "excludes": [
       "Light Trigger"
     ],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 40
@@ -1195,6 +1176,7 @@
       "Inhibitor"
     ],
     "excludes": [],
+    "speed_penalty": 0.15,
     "foundations": {
       "type": "hardware",
       "value": 40
@@ -1214,6 +1196,7 @@
       "Inhibitor"
     ],
     "excludes": [],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
       "value": 45
@@ -1235,6 +1218,7 @@
       "Sentinel"
     ],
     "excludes": [],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
       "value": 25
@@ -1256,6 +1240,7 @@
       "Double-Tap"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 40
@@ -1276,6 +1261,7 @@
       "Master-Key"
     ],
     "excludes": [],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
       "value": 50
@@ -1295,6 +1281,7 @@
       "Custodian"
     ],
     "excludes": [],
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
       "value": 45
@@ -1315,6 +1302,7 @@
       "Geist"
     ],
     "excludes": [],
+    "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
       "value": 30

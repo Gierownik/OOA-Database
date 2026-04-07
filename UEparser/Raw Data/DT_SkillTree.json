@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Skill'",
-        "ObjectPath": "/Game/Blueprints/Data/SkillTree/STRUCT_Skill"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/SkillTree/STRUCT_Skill.0"
       }
     },
     "Rows": {
@@ -30,7 +30,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Shell'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Shell"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
         }
       },
       "Hydra": {
@@ -53,7 +53,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Shell'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Shell"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
         }
       },
       "Ghost": {
@@ -76,7 +76,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Shell'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Shell"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
         }
       },
       "Dragon": {
@@ -99,7 +99,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Shell'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Shell"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
         }
       },
       "Rhino": {
@@ -122,7 +122,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Shell'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Shell"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
         }
       },
       "Fists": {
@@ -138,7 +138,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Fist'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Fist"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Fist.0"
         }
       },
       "TTK": {
@@ -154,7 +154,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Backup'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Backup"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Backup.0"
         }
       },
       "Akanami": {
@@ -170,7 +170,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Backup'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Backup"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Backup.0"
         }
       },
       "Dusters": {
@@ -186,7 +186,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Fist'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Fist"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Fist.0"
         }
       },
       "Major": {
@@ -202,7 +202,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
         }
       },
       "Deckard": {
@@ -218,7 +218,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
         }
       },
       "Geist": {
@@ -234,7 +234,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
         }
       },
       "Double-Tap": {
@@ -250,7 +250,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
         }
       },
       "Omen": {
@@ -266,7 +266,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
         }
       },
       "Cerberus": {
@@ -282,7 +282,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
         }
       },
       "Master-Key": {
@@ -298,7 +298,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Icarus": {
@@ -314,7 +314,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Custodian": {
@@ -330,7 +330,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Inhibitor": {
@@ -346,7 +346,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Vigil": {
@@ -362,7 +362,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Sentinel": {
@@ -378,7 +378,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Helix": {
@@ -394,7 +394,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Nexus": {
@@ -410,7 +410,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Typhon": {
@@ -426,7 +426,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Warrant": {
@@ -442,7 +442,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gun2"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
         }
       },
       "Blackout": {
@@ -458,7 +458,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeavWeap'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
         }
       },
       "Umibozu": {
@@ -474,7 +474,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeavWeap'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
         }
       },
       "Hole-Punch": {
@@ -490,7 +490,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeavWeap'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
         }
       },
       "Talon": {
@@ -506,7 +506,7 @@
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeavWeap'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
         }
       },
       "Acrobatics": {
@@ -529,7 +529,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Acro'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Acro"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Acro.0"
         }
       },
       "Addict": {
@@ -546,13 +546,13 @@
           {
             "Namespace": "",
             "Key": "9DB6701F4AD0A236972EE0B55D628B94",
-            "SourceString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased aux power and aerial maneuver regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>4 s</> <B>Snare+</> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
-            "LocalizedString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased Stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased aux power and aerial maneuver regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>4 s</> <B>Snare+</> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
+            "SourceString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased aux power and aerial maneuver regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>4 s</> <B>Snare+</> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+            "LocalizedString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased aux power and aerial maneuver regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>4 s</> <B>Snare+</> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Addict'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Addict"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Addict.0"
         }
       },
       "AdrenalineRush": {
@@ -575,7 +575,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_AdrenRush'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_AdrenRush"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AdrenRush.0"
         }
       },
       "AdvancedRecon": {
@@ -598,7 +598,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_AdvRecon'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_AdvRecon"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AdvRecon.0"
         }
       },
       "Akimbo": {
@@ -621,7 +621,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Akimbo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Akimbo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Akimbo.0"
         }
       },
       "Armadillo": {
@@ -638,13 +638,13 @@
           {
             "Namespace": "",
             "Key": "031467254F3AC292F010E2A71189DFB1",
-            "SourceString": "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown\r\n> Deflect direct damage, clears Burn and gains Burn immunity while active\r\n> Destroys attached devices on activate\r\n> Automatically roll on knockdown\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown\r\n> Deflect direct damage, clears Burn and gains Burn immunity while active\r\n> Destroys attached devices on activate\r\n> Automatically roll on knockdown\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown\r\n> Deflects direct damage, clears Burn and gains Burn immunity while active\r\n> Destroys attached devices on activate\r\n> Automatically roll on knockdown\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown\r\n> Deflects direct damage, clears Burn and gains Burn immunity while active\r\n> Destroys attached devices on activate\r\n> Automatically roll on knockdown\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Armadillo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Armadillo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Armadillo.0"
         }
       },
       "AugmentedArms": {
@@ -667,7 +667,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_AugArms'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_AugArms"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AugArms.0"
         }
       },
       "AugmentedLegs": {
@@ -690,7 +690,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_AugLegs'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_AugLegs"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AugLegs.0"
         }
       },
       "AugmentedNano-wire": {
@@ -713,7 +713,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_AdvNano'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_AdvNano"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AdvNano.0"
         }
       },
       "Auto-Doc": {
@@ -736,7 +736,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_AutoDoc'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_AutoDoc"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AutoDoc.0"
         }
       },
       "AuxiliaryVitals": {
@@ -759,7 +759,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_AuxVit'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_AuxVit"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AuxVit.0"
         }
       },
       "Backdoor": {
@@ -782,7 +782,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Backdoor'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Backdoor"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Backdoor.0"
         }
       },
       "Bloodsport": {
@@ -805,7 +805,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Bloodsport'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Bloodsport"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Bloodsport.0"
         }
       },
       "Caustic": {
@@ -828,7 +828,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Caustic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Caustic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Caustic.0"
         }
       },
       "ChainReaction": {
@@ -851,7 +851,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_ChainReact'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_ChainReact"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ChainReact.0"
         }
       },
       "ChemicalWarfare": {
@@ -874,7 +874,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_ChemWar'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_ChemWar"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ChemWar.0"
         }
       },
       "CloseMinded": {
@@ -897,7 +897,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_CloseMind'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_CloseMind"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CloseMind.0"
         }
       },
       "CombatCore": {
@@ -920,7 +920,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_CombatCore'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_CombatCore"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CombatCore.0"
         }
       },
       "CoreDecay": {
@@ -943,7 +943,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_CoreDecay'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_CoreDecay"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CoreDecay.0"
         }
       },
       "CoreDischarge": {
@@ -966,7 +966,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_CoreDischarge'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_CoreDischarge"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CoreDischarge.0"
         }
       },
       "Counterbalance": {
@@ -989,7 +989,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_CounterBal'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_CounterBal"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CounterBal.0"
         }
       },
       "CounterIntelligence": {
@@ -1012,7 +1012,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_CountIntel'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_CountIntel"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CountIntel.0"
         }
       },
       "Covert": {
@@ -1035,7 +1035,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Covert'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Covert"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Covert.0"
         }
       },
       "DamageReport": {
@@ -1058,7 +1058,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_DamReport'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_DamReport"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_DamReport.0"
         }
       },
       "DeadDrop": {
@@ -1075,13 +1075,13 @@
           {
             "Namespace": "",
             "Key": "ACD4A2DB4CCF2451A64427A46F62ED6B",
-            "SourceString": "> Aiming, quick melee or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, Snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>",
-            "LocalizedString": "> Aiming, quick melee or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, Snare immunity\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>"
+            "SourceString": "> Aiming, quick melee or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>",
+            "LocalizedString": "> Aiming, quick melee or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy\r\n> Deactivates after <C>2 s</> if no longer falling\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Deaddrop'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Deaddrop"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Deaddrop.0"
         }
       },
       "Disengage": {
@@ -1104,7 +1104,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Disengage'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Disengage"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Disengage.0"
         }
       },
       "Dispersal": {
@@ -1127,7 +1127,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Dispersal'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Dispersal"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Dispersal.0"
         }
       },
       "EnhancedDexterity": {
@@ -1150,7 +1150,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_EnhDex'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_EnhDex"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_EnhDex.0"
         }
       },
       "EnhancedFoundation": {
@@ -1173,7 +1173,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_EnhFound'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_EnhFound"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_EnhFound.0"
         }
       },
       "Experimental": {
@@ -1196,7 +1196,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Experimental'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Experimental"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Experimental.0"
         }
       },
       "ExploitWeakness": {
@@ -1219,7 +1219,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Exploit'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Exploit"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Exploit.0"
         }
       },
       "Fail-safe": {
@@ -1242,7 +1242,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Failsafe'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Failsafe"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Failsafe.0"
         }
       },
       "Gecko": {
@@ -1265,7 +1265,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gecko'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Gecko"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gecko.0"
         }
       },
       "Hardcase": {
@@ -1282,13 +1282,13 @@
           {
             "Namespace": "",
             "Key": "99F2D4AB459D437DF20FDA8A8559D3B3",
-            "SourceString": "> <C>100%</> reduced bonus multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration and Bleed from headshots received while active\r\n> Reduces fatal headshot damage by up to <C>100%</>\r\n> Immunity to Tether and Neuro-Link while active\r\n<B>> Headshot damage received applies Snare while active</>\r\n<B>> Can no longer use Neuro-Link while active</>\r\n<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> <C>100%</> reduced bonus multiplier on headshots received while active\r\n> <C>100%</> reduced defense penetration and Bleed from headshots received while active\r\n> Reduces fatal headshot damage by up to <C>100%</>\r\n> Immunity to Tether and Neuro-Link while active\r\n<B>> Headshot damage received applies Snare while active</>\r\n<B>> Can no longer use Neuro-Link while active</>\r\n<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> Deflects headshots while active\r\n> Reduces fatal headshot damage by up to <C>100%</>\r\n> Immunity to Tether and Neuro-Link while active\r\n<B>> Headshot damage received applies Snare while active</>\r\n<B>> Can no longer use Neuro-Link while active</>\r\n<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> Deflects headshots while active\r\n> Reduces fatal headshot damage by up to <C>100%</>\r\n> Immunity to Tether and Neuro-Link while active\r\n<B>> Headshot damage received applies Snare while active</>\r\n<B>> Can no longer use Neuro-Link while active</>\r\n<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Hardcase'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Hardcase"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Hardcase.0"
         }
       },
       "Hardened": {
@@ -1311,7 +1311,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Hardened'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Hardened"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Hardened.0"
         }
       },
       "Headhunter": {
@@ -1334,7 +1334,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeadHunt'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_HeadHunt"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeadHunt.0"
         }
       },
       "HeavyOrdnance": {
@@ -1357,7 +1357,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeavOrd'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_HeavOrd"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavOrd.0"
         }
       },
       "HeavyWeapons": {
@@ -1380,7 +1380,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeavWeap'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
         }
       },
       "HotSwap": {
@@ -1403,7 +1403,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Hotswap'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Hotswap"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Hotswap.0"
         }
       },
       "HunterOptics": {
@@ -1426,7 +1426,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HuntOptics'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_HuntOptics"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HuntOptics.0"
         }
       },
       "InertialBuffer": {
@@ -1449,7 +1449,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_InertBuff'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_InertBuff"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_InertBuff.0"
         }
       },
       "KineticFocus": {
@@ -1472,7 +1472,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_KinFocus'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_KinFocus"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_KinFocus.0"
         }
       },
       "KineticInjectors": {
@@ -1495,7 +1495,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_KinInject'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_KinInject"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_KinInject.0"
         }
       },
       "LowProfile": {
@@ -1518,7 +1518,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_LowPro'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_LowPro"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_LowPro.0"
         }
       },
       "MaximumEfficiency": {
@@ -1541,7 +1541,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_MaxEff'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_MaxEff"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_MaxEff.0"
         }
       },
       "NetRunner": {
@@ -1564,7 +1564,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_NetRun'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_NetRun"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_NetRun.0"
         }
       },
       "Necrosis": {
@@ -1587,7 +1587,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Necrosis'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Necrosis"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Necrosis.0"
         }
       },
       "Neuro-Hacker": {
@@ -1610,7 +1610,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_NeuroHack'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_NeuroHack"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_NeuroHack.0"
         }
       },
       "Overclocked": {
@@ -1633,7 +1633,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Overclocked'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Overclocked"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Overclocked.0"
         }
       },
       "Overseer": {
@@ -1656,7 +1656,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Overseer'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Overseer"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Overseer.0"
         }
       },
       "PerpetualMotion": {
@@ -1679,7 +1679,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_PerpMotion'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_PerpMotion"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_PerpMotion.0"
         }
       },
       "PotentStimulants": {
@@ -1702,7 +1702,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_PotentStim'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_PotentStim"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_PotentStim.0"
         }
       },
       "Professional": {
@@ -1725,7 +1725,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Prof'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Prof"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Prof.0"
         }
       },
       "Puncture": {
@@ -1742,13 +1742,13 @@
           {
             "Namespace": "",
             "Key": "4C793BB6432CE261C1C494A90C2BEBE1",
-            "SourceString": "> <C>25%</> defense bypass with backup weapons and body impact damage\r\n> <C>50%</> increased body impact damage\r\n> <C>100%</> of body impact damage received reflected\r\n> <C>5-10 /s</> Bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body impact damage on deflections</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt or received reduces defense and max defense</>",
-            "LocalizedString": "> <C>25%</> defense bypass with backup weapons and body impact damage\r\n> <C>50%</> increased body impact damage\r\n> <C>100%</> of body impact damage received reflected\r\n> <C>5-10 /s</> Bleed to enemies that deal or receive body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>25%</> <B>reduced body impact damage on deflections</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt or received reduces defense and max defense</>"
+            "SourceString": "> <C>25%</> defense bypass with backup weapons and body impact damage\r\n> <C>50%</> increased body impact damage\r\n> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>",
+            "LocalizedString": "> <C>25%</> defense bypass with backup weapons and body impact damage\r\n> <C>50%</> increased body impact damage\r\n> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, proportional to impact speed from <C>4-12 m/s</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Puncture'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Puncture"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Puncture.0"
         }
       },
       "Pyro-Psycho": {
@@ -1771,7 +1771,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Pyro'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Pyro"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Pyro.0"
         }
       },
       "RageCore": {
@@ -1788,13 +1788,13 @@
           {
             "Namespace": "",
             "Key": "79013A674F87E781F9AB95A2B90C2D8F",
-            "SourceString": "> Gain Overkill and activate Core if enemy damage received while below <C>50%</> vitals, can survive fatal damage on activation, deactivates after <C>2 s</> if no visible enemies within <C>25 m</>, <C>30 s</> cooldown\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, Snare immunity\r\n<B>></> <C>50%</> <B>reduced effectiveness of damage reductions</>\r\n<B>></> <C>100%</> <B>reduced vitals and defense restored from all sources while active</>\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>\r\n<B>></> <C>70%</> <B>active Core speed, Shell specific active Core bonuses Disabled</>\r\n<B>></> <C>5/s</> <B>vitals and defense damage while active</>",
-            "LocalizedString": "> Gain Overkill and activate Core if enemy damage received while below <C>50%</> vitals, can survive fatal damage on activation, deactivates after <C>2 s</> if no visible enemies within <C>25 m</>, <C>30 s</> cooldown\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, Snare immunity\r\n<B>></> <C>50%</> <B>reduced effectiveness of damage reductions</>\r\n<B>></> <C>100%</> <B>reduced vitals and defense restored from all sources while active</>\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>\r\n<B>></> <C>70%</> <B>active Core speed, Shell specific active Core bonuses Disabled</>\r\n<B>></> <C>5/s</> <B>vitals and defense damage while active</>"
+            "SourceString": "> Gain Overkill while Core active\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy\r\n> <C>5%</> of damage received from enemies converted to Core charge\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>",
+            "LocalizedString": "> Gain Overkill while Core active\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy\r\n> <C>5%</> of damage received from enemies converted to Core charge\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_RageCore'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_RageCore"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_RageCore.0"
         }
       },
       "ReactiveCore": {
@@ -1817,7 +1817,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_ReacCore'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_ReacCore"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ReacCore.0"
         }
       },
       "ReactiveDermis": {
@@ -1840,7 +1840,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_ReacDerm'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_ReacDerm"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ReacDerm.0"
         }
       },
       "Recovery": {
@@ -1863,7 +1863,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Recovery'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Recovery"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Recovery.0"
         }
       },
       "Redline": {
@@ -1880,13 +1880,13 @@
           {
             "Namespace": "",
             "Key": "65C906AC48401E49478C8382F2D55D47",
-            "SourceString": "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>200%</> increased Core generation\r\n<B>></> <C>0-100%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>0-100%</> <B>reduced effectiveness of damage reductions, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>0-100%</> <B>reduced vitals and defense restored from all sources, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>",
-            "LocalizedString": "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>200%</> increased Core generation\r\n<B>></> <C>0-100%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>0-100%</> <B>reduced effectiveness of damage reductions, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>0-100%</> <B>reduced vitals and defense restored from all sources, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>"
+            "SourceString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>",
+            "LocalizedString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Redline'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Redline"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Redline.0"
         }
       },
       "Renewal": {
@@ -1909,7 +1909,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Renew'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Renew"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Renew.0"
         }
       },
       "Resourceful": {
@@ -1932,7 +1932,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Resourceful'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Resourceful"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Resourceful.0"
         }
       },
       "Reversal": {
@@ -1955,7 +1955,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Reversal'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Reversal"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Reversal.0"
         }
       },
       "ShellShock": {
@@ -1978,7 +1978,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_ShellShock'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_ShellShock"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ShellShock.0"
         }
       },
       "Shifter": {
@@ -2001,7 +2001,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Shifter'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Shifter"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shifter.0"
         }
       },
       "Slipstream": {
@@ -2024,7 +2024,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Slipstream'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Slipstream"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Slipstream.0"
         }
       },
       "Specialist": {
@@ -2047,7 +2047,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Specialist'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Specialist"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Specialist.0"
         }
       },
       "Studied": {
@@ -2070,7 +2070,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Studied'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Studied"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Studied.0"
         }
       },
       "Surplus": {
@@ -2093,7 +2093,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Surplus'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Surplus"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Surplus.0"
         }
       },
       "Technician": {
@@ -2116,7 +2116,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Tech'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Tech"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Tech.0"
         }
       },
       "TemporalSuspension": {
@@ -2139,7 +2139,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_TempSus'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_TempSus"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_TempSus.0"
         }
       },
       "Tether": {
@@ -2162,7 +2162,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Tether'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Tether"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Tether.0"
         }
       },
       "ThreatDetection": {
@@ -2185,7 +2185,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_ThreatDet'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_ThreatDet"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ThreatDet.0"
         }
       },
       "Transference": {
@@ -2208,7 +2208,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Transfer'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Transfer"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Transfer.0"
         }
       },
       "UnstableCore": {
@@ -2225,13 +2225,13 @@
           {
             "Namespace": "",
             "Key": "A7B1623149DADA2ECAB8CC9D2EE77FBD",
-            "SourceString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback and knockdown to all enemies within <C>2-4 m</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> While Core fully charged: Core failure initiates after</> <C>30 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on Core Activation, Core charge drain, or enemy Disable attempt. Failure can be vented by Core activation or visible enemy kill</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>",
-            "LocalizedString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback and knockdown to all enemies within <C>2-4 m</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> While Core fully charged: Core failure initiates after</> <C>30 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on Core Activation, Core charge drain, or enemy Disable attempt. Failure can be vented by Core activation or visible enemy kill</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>"
+            "SourceString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback and knockdown to all enemies within <C>2-4 m</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> While Core fully charged: Core failure initiates after</> <C>60 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on any Core charge drain or enemy Disable attempt. Failure can be vented by Core activation or visible enemy kill</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>",
+            "LocalizedString": "> <C>100%</> Core generation on deploy\r\n> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback and knockdown to all enemies within <C>2-4 m</>\r\n> Overcharge while Core fully charged: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>\r\n<B>> While Core fully charged: Core failure initiates after</> <C>60 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on any Core charge drain or enemy Disable attempt. Failure can be vented by Core activation or visible enemy kill</>\r\n<B>></> <C>50%</> <B>reduced Core duration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Unstable'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Unstable"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Unstable.0"
         }
       },
       "Vendetta": {
@@ -2254,7 +2254,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Vendetta'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Vendetta"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Vendetta.0"
         }
       },
       "Versatile": {
@@ -2277,7 +2277,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Versatile'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Versatile"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Versatile.0"
         }
       },
       "AAPTurret": {
@@ -2300,7 +2300,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Anchor": {
@@ -2323,7 +2323,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Bolster": {
@@ -2346,7 +2346,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Spike": {
@@ -2369,7 +2369,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Combust": {
@@ -2392,7 +2392,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Parasite": {
@@ -2415,7 +2415,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Desync": {
@@ -2438,7 +2438,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Cascade": {
@@ -2461,7 +2461,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Pathogen": {
@@ -2484,7 +2484,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Lockdown": {
@@ -2507,7 +2507,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Deadzone": {
@@ -2530,7 +2530,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Detonator": {
@@ -2553,7 +2553,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Disrupter": {
@@ -2576,7 +2576,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Firecracker": {
@@ -2599,7 +2599,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "LaserWire": {
@@ -2622,7 +2622,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Overcharge": {
@@ -2645,7 +2645,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "ProximityMine": {
@@ -2668,7 +2668,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Relocator": {
@@ -2691,7 +2691,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "ReserveStim": {
@@ -2714,7 +2714,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "SatchelCharge": {
@@ -2737,7 +2737,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Shroud": {
@@ -2760,7 +2760,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Tempest": {
@@ -2783,7 +2783,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "ToxGrenade": {
@@ -2806,7 +2806,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "Hyper": {
@@ -2829,7 +2829,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Device'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Device"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
         }
       },
       "StandardAmmo": {
@@ -2852,7 +2852,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "PiercingAmmo": {
@@ -2869,13 +2869,13 @@
           {
             "Namespace": "",
             "Key": "2A1973E248CE7F418A7CD5803F5658E0",
-            "SourceString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>25%</> <B>reduced damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced Bleed damage</>",
-            "LocalizedString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>25%</> <B>reduced damage on deflections</>\r\n<B>></> <C>25%</> <B>reduced Bleed damage</>"
+            "SourceString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>25%</> <B>reduced hard target damage </>\r\n<B>></> <C>25%</> <B>reduced Bleed damage</>",
+            "LocalizedString": "> <C>50%</> increased environment penetration\r\n> <C>25%</> of damage dealt penetrates defense\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional environment penetration and velocity\r\n<B>></> <C>25%</> <B>reduced hard target damage </>\r\n<B>></> <C>25%</> <B>reduced Bleed damage</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "HeavyAmmo": {
@@ -2898,7 +2898,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "ShredAmmo": {
@@ -2921,7 +2921,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "TDAmmo": {
@@ -2944,7 +2944,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "CBAmmo": {
@@ -2967,7 +2967,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "ChemAmmo": {
@@ -2990,7 +2990,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "EMAmmo": {
@@ -3013,7 +3013,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "IncendiaryAmmo": {
@@ -3036,7 +3036,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "TargetPainter": {
@@ -3059,7 +3059,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Optic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Optic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
         }
       },
       "T-LockAmmo": {
@@ -3082,7 +3082,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "GhostfireAmmo": {
@@ -3105,7 +3105,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "StandardGrenade": {
@@ -3122,13 +3122,13 @@
           {
             "Namespace": "",
             "Key": "CCA7DBDD48578433D7C6FE9C69C079E3",
-            "SourceString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Activates on impact, <C>1 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Explosive damage\r\n> Can knockback\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "ImpactGrenade": {
@@ -3145,13 +3145,13 @@
           {
             "Namespace": "",
             "Key": "A723A65D45941CBB93BB42B45F4AD543",
-            "SourceString": "> Activates on impact, <C>1 s</> activation delay\r\n> Detonates on Shell impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>",
-            "LocalizedString": "> Activates on impact, <C>1 s</> activation delay\r\n> Detonates on Shell impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>"
+            "SourceString": "> Activates on impact, <C>0.5 s</> activation delay\r\n> Detonates on Shell impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced bleed damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>",
+            "LocalizedString": "> Activates on impact, <C>0.5 s</> activation delay\r\n> Detonates on Shell impact\r\n> Explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced bleed damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "IncendiaryGrenade": {
@@ -3168,13 +3168,13 @@
           {
             "Namespace": "",
             "Key": "FD25E9B04641A86540112E87E912F17A",
-            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Burn damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>75%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</",
-            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Burn damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>75%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Burn damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>100%</> <B>reduced bleed damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage</>",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Burn damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>100%</> <B>reduced bleed damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "ProximityGrenade": {
@@ -3191,13 +3191,13 @@
           {
             "Namespace": "",
             "Key": "06F24FB1450480DE005228B248EE18BC",
-            "SourceString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces and Shells\r\n> Explosive damage\r\n> <C>25%</> increased explosive damage range\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Proximity detection, <C>0.75 s</> activation delay\r\n> Can attach to surfaces and Shells\r\n> Explosive damage\r\n> <C>25%</> increased explosive damage range\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces and Shells, up to <C>4</> attached\r\n> Explosive damage\r\n> <C>25%</> increased explosive damage range\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Proximity detection, <C>0.5 s</> activation delay\r\n> Can attach to surfaces and Shells, up to <C>4</> attached\r\n> Explosive damage\r\n> <C>25%</> increased explosive damage range\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Ammo'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
         }
       },
       "LaserSight": {
@@ -3220,7 +3220,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "Suppressor": {
@@ -3243,7 +3243,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "Foregrip": {
@@ -3260,13 +3260,13 @@
           {
             "Namespace": "",
             "Key": "B80C425C43D44E7BB2ECB7AC1164BA0F",
-            "SourceString": "> <C>50%</> reduced horizontal recoil\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>",
-            "LocalizedString": "> <C>50%</> reduced horizontal recoil\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
+            "SourceString": "> <C>50%</> reduced horizontal recoil\r\n> <C>25%</> reduced aim time",
+            "LocalizedString": "> <C>50%</> reduced horizontal recoil\r\n> <C>25%</> reduced aim time"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "SecureGrip": {
@@ -3289,7 +3289,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "TacticalForegrip": {
@@ -3312,7 +3312,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "QuickBolt": {
@@ -3335,7 +3335,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "HeavyBarrel": {
@@ -3358,7 +3358,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "LongBarrel": {
@@ -3381,7 +3381,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "HighCapacity": {
@@ -3398,13 +3398,13 @@
           {
             "Namespace": "",
             "Key": "A52BE29B4509CF37B4BC2B93886C814B",
-            "SourceString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>",
-            "LocalizedString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
+            "SourceString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>",
+            "LocalizedString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "ExternalMag": {
@@ -3421,13 +3421,13 @@
           {
             "Namespace": "",
             "Key": "E86B4EA74017A4A31BA66CB68F966343",
-            "SourceString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>",
-            "LocalizedString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>\r\n<B>></> <C>0.15 m/s</> <B>increased weapon speed penalty</>"
+            "SourceString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>",
+            "LocalizedString": "> Converts to magazine reload\r\n> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "SpeedLoader": {
@@ -3450,7 +3450,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "AdaptiveChoke": {
@@ -3473,7 +3473,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "IronSights": {
@@ -3496,7 +3496,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Optic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Optic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
         }
       },
       "MarksmanSight": {
@@ -3519,7 +3519,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Optic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Optic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
         }
       },
       "ReflexSight": {
@@ -3542,7 +3542,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Optic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Optic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
         }
       },
       "2xSight": {
@@ -3565,7 +3565,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Optic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Optic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
         }
       },
       "3xSight": {
@@ -3588,7 +3588,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Optic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Optic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
         }
       },
       "4xSight": {
@@ -3611,7 +3611,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Optic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Optic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
         }
       },
       "2xTRGSight": {
@@ -3634,7 +3634,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Optic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Optic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
         }
       },
       "4xTRGSight": {
@@ -3657,7 +3657,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Optic'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Optic"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
         }
       },
       "LightTrigger": {
@@ -3680,7 +3680,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "VortexReceiver": {
@@ -3703,7 +3703,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "ContactCharge": {
@@ -3720,13 +3720,13 @@
           {
             "Namespace": "",
             "Key": "5EFB60F04C77AF3B197266AA80FB30BF",
-            "SourceString": "> Detonates on drop or disarm\r\n> Deals explosive damage to targets within <C>2-4 m</>\r\n> <C>50-25</> damage with sidearms\r\n> <C>75-25</> damage with primary weapons\r\n> <C>100-25</> damage with heavy weapons\r\n<B>></> <C>0.25 m/s</> <B>increased weapon speed penalty</>",
-            "LocalizedString": "> Detonates on drop or disarm\r\n> Deals explosive damage to targets within <C>2-4 m</>\r\n> <C>50-25</> damage with sidearms\r\n> <C>75-25</> damage with primary weapons\r\n> <C>100-25</> damage with heavy weapons\r\n<B>></> <C>0.25 m/s</> <B>increased weapon speed penalty</>"
+            "SourceString": "> Detonates on drop or disarm\r\n> Deals explosive damage to targets within <C>2-4 m</>\r\n> <C>50-25</> damage with sidearms\r\n> <C>75-25</> damage with primary weapons\r\n> <C>100-25</> damage with heavy weapons",
+            "LocalizedString": "> Detonates on drop or disarm\r\n> Deals explosive damage to targets within <C>2-4 m</>\r\n> <C>50-25</> damage with sidearms\r\n> <C>75-25</> damage with primary weapons\r\n> <C>100-25</> damage with heavy weapons"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "BurstTrigger": {
@@ -3743,13 +3743,13 @@
           {
             "Namespace": "",
             "Key": "FA9799FB44182E084B6625B05158BA81",
-            "SourceString": "> Converts to 2 round burst\r\n> <C>300%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>",
-            "LocalizedString": "> Converts to 2 round burst\r\n> <C>300%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>"
+            "SourceString": "> Converts to 2 round burst\r\n> <C>400%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>",
+            "LocalizedString": "> Converts to 2 round burst\r\n> <C>400%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "Stabilizer": {
@@ -3772,7 +3772,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "LightweightFrame": {
@@ -3795,7 +3795,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "HVBarrel": {
@@ -3804,7 +3804,7 @@
         "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
-        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator92",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
         "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
@@ -3812,13 +3812,13 @@
           {
             "Namespace": "",
             "Key": "CE579E4946BEB09163369BA9A734B08F",
-            "SourceString": "> <C>25%</> increased velocity\r\n<B>></> <C>0.25 m/s</> <B>increased weapon speed penalty</>",
-            "LocalizedString": "> <C>25%</> increased velocity\r\n<B>></> <C>0.25 m/s</> <B>increased weapon speed penalty</>"
+            "SourceString": "> <C>25%</> increased velocity",
+            "LocalizedString": "> <C>25%</> increased velocity"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "WildfireTrigger": {
@@ -3841,7 +3841,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "HeavyReceiver": {
@@ -3864,7 +3864,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "HavokCycler": {
@@ -3887,7 +3887,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "FragMag": {
@@ -3910,7 +3910,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "VXAccelerator": {
@@ -3933,7 +3933,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "CrippleGauge": {
@@ -3956,7 +3956,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "Hammer-Head": {
@@ -3979,7 +3979,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       },
       "BRRRTTrigger": {
@@ -4002,7 +4002,7 @@
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Mod'",
-          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Mod"
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
         }
       }
     }
