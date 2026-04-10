@@ -660,7 +660,7 @@
       "slot": "Primary",
       "category": "Support Weapons",
       "firemode": "Semi-Automatic",
-      "firerate": "100.0",
+      "firerate": "75.0",
       "damage_near": 0.0,
       "damage_far": 0.0,
       "range": "0.0 - 0.0",

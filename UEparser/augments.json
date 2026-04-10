@@ -781,6 +781,7 @@
     "tooltip": [
       "> Gain Overkill while Core active",
       "> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy",
+      "> <C>15%</> of damage received from enemies within the last <C>10 s</> restored to vitals and max vitals on Core activation",
       "> <C>5%</> of damage received from enemies converted to Core charge",
       "<B>></> <C>100%</> <B>increased direct damage received while active</>"
     ],
@@ -830,7 +831,7 @@
     "name": "Redline",
     "tooltip": [
       "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
-      "> <C>0-50%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
+      "> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>100%</> increased Core generation",
       "<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>></> <C>1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</>",
