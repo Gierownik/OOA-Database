@@ -1058,27 +1058,6 @@
     }
   },
   {
-    "name": "Burst Trigger",
-    "type": "Mod",
-    "tooltip": [
-      "> Converts to 2 round burst",
-      "> <C>400%</> increased RPM",
-      "<B>></> <C>100%</> <B>increased recoil</>",
-      "<B>></> <C>100%</> <B>increased hipfire spread</>",
-      "<B>></> <C>100%</> <B>increased spread gain</>"
-    ],
-    "technician": "false",
-    "compatibility": [],
-    "excludes": [
-      "Light Trigger"
-    ],
-    "speed_penalty": 0.1,
-    "foundations": {
-      "type": "hardware",
-      "value": 45
-    }
-  },
-  {
     "name": "Stabilizer",
     "type": "Mod",
     "tooltip": [

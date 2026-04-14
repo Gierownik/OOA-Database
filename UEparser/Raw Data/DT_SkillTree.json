@@ -1788,8 +1788,8 @@
           {
             "Namespace": "",
             "Key": "79013A674F87E781F9AB95A2B90C2D8F",
-            "SourceString": "> Gain Overkill while Core active\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy\r\n> <C>15%</> of damage received from enemies within the last <C>10 s</> restored to vitals and max vitals on Core activation\r\n> <C>5%</> of damage received from enemies converted to Core charge\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>",
-            "LocalizedString": "> Gain Overkill while Core active\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy\r\n> <C>15%</> of damage received from enemies within the last <C>10 s</> restored to vitals and max vitals on Core activation\r\n> <C>5%</> of damage received from enemies converted to Core charge\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>"
+            "SourceString": "> Gain Overkill while Core active\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy\r\n> <C>25%</> of damage received from enemies within the last <C>10 s</>, up to <C>50</>, restored to vitals and max vitals on Core activation\r\n> <C>5%</> of damage received from enemies converted to Core charge\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>",
+            "LocalizedString": "> Gain Overkill while Core active\r\n> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy\r\n> <C>25%</> of damage received from enemies within the last <C>10 s</>, up to <C>50</>, restored to vitals and max vitals on Core activation\r\n> <C>5%</> of damage received from enemies converted to Core charge\r\n<B>></> <C>100%</> <B>increased direct damage received while active</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1880,8 +1880,8 @@
           {
             "Namespace": "",
             "Key": "65C906AC48401E49478C8382F2D55D47",
-            "SourceString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>",
-            "LocalizedString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>"
+            "SourceString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>",
+            "LocalizedString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3735,9 +3735,9 @@
         "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
-        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator85",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
-        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 45,
+        "Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D": 0,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
