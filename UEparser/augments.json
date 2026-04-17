@@ -63,13 +63,14 @@
   {
     "name": "Akimbo",
     "tooltip": [
-      "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming",
-      "> Alternate aim stance: Fire a single sidearm with increased accuracy",
-      "> <C>15%</> increased Core generation with sidearms",
+      "> Dual wield sidearms",
+      "> <C>100%</> increased sidearm ammo capacity",
+      "> <C>50%</> increased RPM while not using alternate aim stance",
+      "> <C>25%</> increased Core generation with sidearms",
       "<B>> Can no longer equip sidearm optics</>",
-      "<B>></> <C>50%</> <B>reduced sidearm maneuver and stance accuracy bonuses</>",
-      "<B>></> <C>35%</> <B>reduced sidearm damage while not using alternate aim stance</>",
-      "<B>></> <C>25%</> <B>increased sidearm recoil, spread and spread gain while not using alternate aim stance</>",
+      "<B>></> <C>0-25%</> <B>reduced sidearm damage while not using alternate aim stance</>",
+      "<B>></> <C>25%</> <B>increased sidearm recoil while not using alternate aim stance</>",
+      "<B>></> <C>50%</> <B>increased spread and spread gain while not aiming</>",
       "<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
     ],
     "foundations": {
@@ -690,7 +691,7 @@
     "tooltip": [
       "> Personal targeting drone, replaces scan",
       "> Provides external camera view and paints visible enemies while active",
-      "> <C>35%</> reduced spread and spread gain while active",
+      "> <C>25%</> reduced spread and spread gain while active",
       "<B>> Disrupts vision if drone takes damage while active</>",
       "<B>> Can no longer ADS</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
@@ -818,8 +819,8 @@
     "name": "Recovery",
     "tooltip": [
       "> <C>5 /s</> additional vitals regeneration while no damage received within <C>1 s</>",
-      "> <C>25%</> increased vitals restored from all sources",
-      "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+      "> <C>25%</> increased vitals restored from all other sources",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
       "<B>> Can be Disabled</>"
     ],
     "foundations": {
@@ -986,7 +987,7 @@
   {
     "name": "Temporal Suspension",
     "tooltip": [
-      "> Gain aerial suspension while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
+      "> Gain aerial suspension while aiming during diving or rolling maneuvers, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
       "> Unaffected by Core slowing effects while active",
       "> <C>50%</> reduced direct damage received while active",
       "> Knockback immunity while active",

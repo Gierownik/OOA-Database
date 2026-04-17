@@ -615,8 +615,8 @@
           {
             "Namespace": "",
             "Key": "1A64533145A598717FD6819AADABD8D2",
-            "SourceString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>50%</> <B>reduced sidearm maneuver and stance accuracy bonuses</>\r\n<B>></> <C>35%</> <B>reduced sidearm damage while not using alternate aim stance</>\r\n<B>></> <C>25%</> <B>increased sidearm recoil, spread and spread gain while not using alternate aim stance</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>",
-            "LocalizedString": "> Dual wield sidearms: Fire simultaneously while aiming, sequentially while not aiming\r\n> Alternate aim stance: Fire a single sidearm with increased accuracy\r\n> <C>15%</> increased Core generation with sidearms\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>50%</> <B>reduced sidearm maneuver and stance accuracy bonuses</>\r\n<B>></> <C>35%</> <B>reduced sidearm damage while not using alternate aim stance</>\r\n<B>></> <C>25%</> <B>increased sidearm recoil, spread and spread gain while not using alternate aim stance</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
+            "SourceString": "> Dual wield sidearms\r\n> <C>100%</> increased sidearm ammo capacity\r\n> <C>50%</> increased RPM while not using alternate aim stance\r\n> <C>25%</> increased Core generation with sidearms\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>0-25%</> <B>reduced sidearm damage while not using alternate aim stance</>\r\n<B>></> <C>25%</> <B>increased sidearm recoil while not using alternate aim stance</>\r\n<B>></> <C>50%</> <B>increased spread and spread gain while not aiming</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>",
+            "LocalizedString": "> Dual wield sidearms\r\n> <C>100%</> increased sidearm ammo capacity\r\n> <C>50%</> increased RPM while not using alternate aim stance\r\n> <C>25%</> increased Core generation with sidearms\r\n<B>> Can no longer equip sidearm optics</>\r\n<B>></> <C>0-25%</> <B>reduced sidearm damage while not using alternate aim stance</>\r\n<B>></> <C>25%</> <B>increased sidearm recoil while not using alternate aim stance</>\r\n<B>></> <C>50%</> <B>increased spread and spread gain while not aiming</>\r\n<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1650,8 +1650,8 @@
           {
             "Namespace": "",
             "Key": "B5777D1146E194CAB903309CB906A46D",
-            "SourceString": "> Personal targeting drone, replaces scan\r\n> Provides external camera view and paints visible enemies while active\r\n> <C>35%</> reduced spread and spread gain while active\r\n<B>> Disrupts vision if drone takes damage while active</>\r\n<B>> Can no longer ADS</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be destroyed</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Personal targeting drone, replaces scan\r\n> Provides external camera view and paints visible enemies while active\r\n> <C>35%</> reduced spread and spread gain while active\r\n<B>> Disrupts vision if drone takes damage while active</>\r\n<B>> Can no longer ADS</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be destroyed</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Personal targeting drone, replaces scan\r\n> Provides external camera view and paints visible enemies while active\r\n> <C>25%</> reduced spread and spread gain while active\r\n<B>> Disrupts vision if drone takes damage while active</>\r\n<B>> Can no longer ADS</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be destroyed</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Personal targeting drone, replaces scan\r\n> Provides external camera view and paints visible enemies while active\r\n> <C>25%</> reduced spread and spread gain while active\r\n<B>> Disrupts vision if drone takes damage while active</>\r\n<B>> Can no longer ADS</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be destroyed</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1857,8 +1857,8 @@
           {
             "Namespace": "",
             "Key": "047531F34AD6FDD88E5E8E84DAC9EC94",
-            "SourceString": "> <C>5 /s</> additional vitals regeneration while no damage received within <C>1 s</>\r\n> <C>25%</> increased vitals restored from all sources\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> <C>5 /s</> additional vitals regeneration while no damage received within <C>1 s</>\r\n> <C>25%</> increased vitals restored from all sources\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> <C>5 /s</> additional vitals regeneration while no damage received within <C>1 s</>\r\n> <C>25%</> increased vitals restored from all other sources\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> <C>5 /s</> additional vitals regeneration while no damage received within <C>1 s</>\r\n> <C>25%</> increased vitals restored from all other sources\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2133,8 +2133,8 @@
           {
             "Namespace": "",
             "Key": "D9E7C6634552674B1EC99F905AD0634F",
-            "SourceString": "> Gain aerial suspension while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>\r\n<B>> Deactivates on body impacts and collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Gain aerial suspension while aiming for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>\r\n<B>> Deactivates on body impacts and collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Gain aerial suspension while aiming during diving or rolling maneuvers, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>\r\n<B>> Deactivates on body impacts and collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Gain aerial suspension while aiming during diving or rolling maneuvers, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>50%</> reduced direct damage received while active\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>\r\n<B>> Deactivates on body impacts and collision with ground</>\r\n<B>> Not usable while hovering</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

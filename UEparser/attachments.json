@@ -644,7 +644,10 @@
       "Helix",
       "Nexus",
       "Omen",
-      "Double-Tap"
+      "Double-Tap",
+      "Master-Key",
+      "Cerberus",
+      "Typhon"
     ],
     "excludes": [],
     "speed_penalty": 0.1,
