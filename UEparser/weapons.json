@@ -521,7 +521,7 @@
       "slot": "Primary",
       "category": "Precision Weapons",
       "firemode": "Semi-Automatic",
-      "firerate": "220.0",
+      "firerate": "175.0",
       "damage_near": 135.0,
       "damage_far": 100.0,
       "range": "5.0 - 50.0",

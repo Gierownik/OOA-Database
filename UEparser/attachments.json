@@ -1122,10 +1122,9 @@
     "tooltip": [
       "> Converts to automatic",
       "> <C>200%</> increased RPM",
-      "> <C>50%</> reduced recoil",
       "<B>></> <C>0.5 s</> <B>spin up delay</>",
       "<B>></> <C>20%</> <B>reduced damage</>",
-      "<B>></> <C>50%</> <B>increased spread gain</>"
+      "<B>></> <C>100%</> <B>increased spread gain</>"
     ],
     "technician": "false",
     "compatibility": [
