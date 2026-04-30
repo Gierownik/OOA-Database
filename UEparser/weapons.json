@@ -138,7 +138,7 @@
       "slot": "Sidearm",
       "category": "Handguns",
       "firemode": "Semi-Automatic",
-      "firerate": "400.0",
+      "firerate": "350.0",
       "damage_near": 80.0,
       "damage_far": 30.0,
       "range": "5.0 - 50.0",

@@ -467,9 +467,9 @@
     "tooltip": [
       "> Deflects headshots while active",
       "> Reduces fatal headshot damage by up to <C>100%</>",
-      "> Immunity to Tether and Neuro-Link while active",
-      "<B>> Headshot damage received applies Snare while active</>",
-      "<B>> Can no longer use Neuro-Link while active</>",
+      "> Immunity to Tether and Neuro-Link devices while active",
+      "<B>> Can no longer ADS while active</>",
+      "<B>> Can no longer use Neuro-Link devices while active</>",
       "<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
@@ -949,6 +949,7 @@
       "> <C>200%</> increased Core generation with backup weapons",
       "> <C>100%</> reduced backup weapon loadout speed penalty",
       "<B>> Can only equip backup weapons and enhancement devices</>",
+      "<B>></> <C>50%</> <B>reduced Core regeneration</>",
       "<B>></> <C>25%</> <B>reduced Core duration</>"
     ],
     "foundations": {

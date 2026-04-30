@@ -75,7 +75,7 @@
       "<F2>> Flow State: </>Core activates without cost for <C>2.5 s</> on performing a wall dive or flip within <C>1 s</> of starting a climb, <C>15 s</> cooldown",
       "<F3>> Locked In: </>Melee and firearm damage gains <C>0-50%</> defense bypass proportional to remaining vitals, from <C>100-25%</>",
       "<D>DRAGON</>",
-      "<F1>> Thermal Transfer: </><C>50%</> of defense gained from Backdraft or Burn and explosive damage received is restored to vitals",
+      "<F1>> Thermal Transfer: </><C>50%</> of defense gained from Backdraft and Ground Slam, and <C>50%</> of damage received from Burn and explosives is restored to vitals",
       "<F2>> Superheated: </>Backdraft and Ground Slam gain <C>25%</> increased damage and range. Backdraft, Ground Slam and backup weapon damage applies Burn+",
       "<F3>> Crossfeed: </>Aerial maneuvers and hover no longer drain aux power or consume charges for <C>5 s</> on receiving chemical heal",
       "<D>GHOST</>",
