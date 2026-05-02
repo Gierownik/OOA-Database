@@ -486,7 +486,7 @@
       "<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>",
       "<B>> Can no longer restore max vitals while active</>",
       "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>",
-      "<B>></> <C>50%</> <B>increased Burn damage received</>"
+      "<B>></> <C>100%</> <B>increased Burn damage received</>"
     ],
     "foundations": {
       "type": "body",
@@ -988,13 +988,12 @@
   {
     "name": "Temporal Suspension",
     "tooltip": [
-      "> Gain aerial suspension while aiming during diving or rolling maneuvers, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
+      "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
       "> Unaffected by Core slowing effects while active",
-      "> <C>50%</> reduced direct damage received while active",
+      "> <C>25-50%</> reduced direct damage received while active, scaling proportionally with activation speed from <C>5-10 m/s</>",
       "> Knockback immunity while active",
       "<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>",
       "<B>> Deactivates on body impacts and collision with ground</>",
-      "<B>> Not usable while hovering</>",
       "<B>> Can be Disabled</>"
     ],
     "foundations": {

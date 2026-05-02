@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_AmmoUse",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "2884007E4642C82DDBEBB38F98FA0573",
+            "SourceString": "Standard",
+            "LocalizedString": "Standard"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "292952904F7529B2D294BD95C653C6BC",
+            "SourceString": "Regenerate",
+            "LocalizedString": "Regenerate"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "186642334C98A7E5B7B1B38E5C0335FA",
+            "SourceString": "None",
+            "LocalizedString": "None"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_AmmoUse::NewEnumerator2": 0,
+      "ENUM_AmmoUse::NewEnumerator0": 1,
+      "ENUM_AmmoUse::NewEnumerator1": 2,
+      "ENUM_AmmoUse::ENUM_MAX": 3
+    },
+    "CppForm": "Namespaced"
+  }
+]
