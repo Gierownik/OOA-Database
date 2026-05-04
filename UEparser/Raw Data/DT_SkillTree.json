@@ -1765,8 +1765,8 @@
           {
             "Namespace": "",
             "Key": "32FAD5534607BCE84D8AE6A50724F35C",
-            "SourceString": "> <C>85%</> reduced Burn damage received, can no longer die from Burn damage \r\n> <C>50%</> increased ground speed and jump height while Burning\r\n> Ignite enemies within <C>3 m</> while Burning\r\n> Ignite nearby surface for <C>3 s</> on roll maneuvers while Burning, if enemy within <C>15 m</>\r\n> Snare immunity while Burning\r\n<B>> Core activation no longer clears Burning</>\r\n<B>> Ignited on roll maneuvers</>",
-            "LocalizedString": "> <C>85%</> reduced Burn damage received, can no longer die from Burn damage \r\n> <C>50%</> increased ground speed and jump height while Burning\r\n> Ignite enemies within <C>3 m</> while Burning\r\n> Ignite nearby surface for <C>3 s</> on roll maneuvers while Burning, if enemy within <C>15 m</>\r\n> Snare immunity while Burning\r\n<B>> Core activation no longer clears Burning</>\r\n<B>> Ignited on roll maneuvers</>"
+            "SourceString": "> <C>85%</> reduced Burn damage received, Burn and Burn+ no longer reduce dexterity or increase defense damage received, can no longer die from Burn damage \r\n> Snare immunity and <C>50%</> increased ground speed and jump height while Burning\r\n> Ignite nearby surface for <C>3 s</> on roll maneuvers if enemy within <C>15 m</> and apply Burn to enemies within <C>3 m</> while Burning, Burn+ if Burning+\r\n<B>> Core activation no longer clears Burning</>\r\n<B>> Burn on roll maneuvers</>",
+            "LocalizedString": "> <C>85%</> reduced Burn damage received, Burn and Burn+ no longer reduce dexterity or increase defense damage received, can no longer die from Burn damage \r\n> Snare immunity and <C>50%</> increased ground speed and jump height while Burning\r\n> Ignite nearby surface for <C>3 s</> on roll maneuvers if enemy within <C>15 m</> and apply Burn to enemies within <C>3 m</> while Burning, Burn+ if Burning+\r\n<B>> Core activation no longer clears Burning</>\r\n<B>> Burn on roll maneuvers</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

@@ -764,13 +764,11 @@
   {
     "name": "Pyro-Psycho",
     "tooltip": [
-      "> <C>85%</> reduced Burn damage received, can no longer die from Burn damage",
-      "> <C>50%</> increased ground speed and jump height while Burning",
-      "> Ignite enemies within <C>3 m</> while Burning",
-      "> Ignite nearby surface for <C>3 s</> on roll maneuvers while Burning, if enemy within <C>15 m</>",
-      "> Snare immunity while Burning",
+      "> <C>85%</> reduced Burn damage received, Burn and Burn+ no longer reduce dexterity or increase defense damage received, can no longer die from Burn damage",
+      "> Snare immunity and <C>50%</> increased ground speed and jump height while Burning",
+      "> Ignite nearby surface for <C>3 s</> on roll maneuvers if enemy within <C>15 m</> and apply Burn to enemies within <C>3 m</> while Burning, Burn+ if Burning+",
       "<B>> Core activation no longer clears Burning</>",
-      "<B>> Ignited on roll maneuvers</>"
+      "<B>> Burn on roll maneuvers</>"
     ],
     "foundations": {
       "type": "body",
