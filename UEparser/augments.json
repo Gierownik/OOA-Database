@@ -568,8 +568,7 @@
       "> <C>50%</> reduced deceleration while airborne or during sliding maneuvers",
       "> <C>35%</> reduced weapon spread and spread gain during sliding maneuvers",
       "> <C>25%</> increased knockback resistance",
-      "> Knockdown immunity during sliding maneuvers",
-      "<B>></> <C>100%</> <B>reduced lateral control during sliding maneuvers</>",
+      "> Knockdown immunity and increased lateral control during sliding maneuvers",
       "<B>></> <C>25%</> <B>reduced defense regeneration</>"
     ],
     "foundations": {

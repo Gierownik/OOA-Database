@@ -186,7 +186,7 @@
       "> Bolster while Core active: Bleed and knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
       "<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>",
       ":: <D>CONCUSSIVE IMPULSE</>",
-      "> Shockwave AOE on body impact, Core activation or landing from <C>5 m</> with enemies in proximity: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown, reduced by <C>1 s</> on dealing melee or body impact damage",
+      "> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage",
       "> <C>50%</> of damage dealt by Shockwave restored to defense and max defense",
       "> <C>10%</> of direct damage received stored and released as additional damage on next Shockwave, up to <C>50</>",
       ":: <D>REACTIVE CLADDING</>",
