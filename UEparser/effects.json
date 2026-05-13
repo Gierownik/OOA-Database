@@ -4,7 +4,7 @@
     "tooltip": [
       "> Highlights visible enemies and objects",
       "> Displays all enemies on radar",
-      "<B>> Monochromatic vision</>"
+      "<B>> Muted vision</>"
     ],
     "enhancement": "None",
     "enh_tooltip": []
