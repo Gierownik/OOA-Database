@@ -1,5 +1,15 @@
 [
   {
+    "name": "Amplify",
+    "tooltip": [
+      "> Highlights visible enemies and objects",
+      "> Displays all enemies on radar",
+      "<B>> Monochromatic vision</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
+  {
     "name": "Bolster",
     "tooltip": [
       "> Bleed and knockdown immunity",
