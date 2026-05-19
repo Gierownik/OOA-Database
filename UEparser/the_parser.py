@@ -349,7 +349,7 @@ for skill_name, data in skill_rows.items():
         "spread_gain": f"{weapon_stat.get('spreadGain_135_D194D65F441D7033F8F0E89B097BD9ED', 0)}",
         "speed_penalty": f"{weapon_stat.get('speedModifier_75_CA08E44842050D047DB75CA31280BE88', 0) / 100}",
         # newly requested multipliers
-        "speed_ads_mult": weapon_stat.get("aimSpeedMultiplier_87_2D9A1046487407EC7D2765B92FA36E99", 0),
+        "handling_speed_mult": weapon_stat.get("aimSpeedMultiplier_87_2D9A1046487407EC7D2765B92FA36E99", 0),
         "damage_taken_mult": weapon_stat.get("damageTakenMultiplier_174_973F1C734F9B3451884B79AFB76F24C4", 0),
         "chase_speed_mult": weapon_stat.get("chaseSpeedMultiplier_176_AA4E135A4BD2058B4EE869A9FBBB4855", 0)
     }
