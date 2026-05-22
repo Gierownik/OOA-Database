@@ -502,8 +502,7 @@
     "type": "Mod",
     "tooltip": [
       "> Removes radar profile from firing",
-      "> Tracers no longer visible to enemies while using non-exotic ammo types",
-      "> <C>50%</> reduced vertical recoil",
+      "> <C>35%</> reduced vertical recoil",
       "<B>></> <C>15%</> <B>reduced velocity</>"
     ],
     "technician": "false",
@@ -535,8 +534,9 @@
     "name": "Foregrip",
     "type": "Mod",
     "tooltip": [
-      "> <C>50%</> reduced horizontal recoil",
-      "> <C>25%</> reduced aim time"
+      "> <C>35%</> reduced horizontal recoil",
+      "> <C>25%</> reduced aim time",
+      "<B>></> <C>25%</> <B>reduced speed while aiming</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -629,7 +629,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>25%</> reduced vertical recoil",
-      "> <C>50%</> reduced spread gain",
+      "> <C>35%</> reduced spread gain",
       "<B>></> <C>15%</> <B>increased aim time</>"
     ],
     "technician": "false",
@@ -1269,10 +1269,10 @@
     "type": "Mod",
     "tooltip": [
       "> <C>50%</> increased RPM",
-      "> Entire magazine emptied on firing",
-      "<B>></> <C>50%</> <B>increased recoil, spread and spread gain</>",
-      "<B>></> <C>15%</> <B>reduced damage</>",
-      "<B>> Firing can no longer be interrupted by other actions</>"
+      "> Converts to <C>10</> round burst",
+      "<B>></> <C>100%</> <B>increased recoil</>",
+      "<B>></> <C>50%</> <B>increased spread and spread gain</>",
+      "<B>> Burst cannot be interrupted</>"
     ],
     "technician": "false",
     "compatibility": [

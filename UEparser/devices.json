@@ -35,8 +35,8 @@
       "> Can be used by Nano-wire to attach and pull towards location",
       "> Restores <C>25</> aux power and an aerial maneuver charge on pull",
       "> Useable by allies",
-      "> Can attach to surfaces and Shells",
-      "> Maximum Efficiency: <C>4 s</> Overcharge on pull"
+      "> Can attach to surfaces",
+      "> Maximum Efficiency: Unaffected by Core slowing effects for <C>2 s</> on pull"
     ],
     "experimental": "false",
     "stats": {
@@ -45,7 +45,7 @@
       "action": "Throw",
       "activation": "Activate",
       "activation_delay": 0.0,
-      "velocity": 25.0,
+      "velocity": 20.0,
       "integrity": 100.0,
       "speed_penalty": 0.15,
       "hack_cost": 0.0,
@@ -168,7 +168,7 @@
     "name": "Desync",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>5</> vital damage, <C>6 s</> Desync to visible and up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy",
+      "> Deals <C>5</> vital damage, <C>6 s</> Desync to visible and up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy, applies Desync+ to disabled targets",
       "> Desync: Scrambles radar, reverses IFF for detections and targeting systems",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
@@ -529,7 +529,7 @@
     "type": "Standard",
     "tooltip": [
       "> Creates multiple charged nano-particle clouds on activation",
-      "> Clouds obscure vision, detect enemies and apply <C>5 s</> Overcharge to allies on contact",
+      "> Clouds obscure vision, detect enemies and Overcharge allies while in contact. Overcharge continues for <C>2 s</> on leaving cloud",
       "> Maximum Efficiency: <C>100%</> increased duration",
       "<B>> Can be cleared with fire</>"
     ],

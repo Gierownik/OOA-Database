@@ -3,7 +3,7 @@
     "name": "Amplify",
     "tooltip": [
       "> Highlights visible enemies and objects",
-      "> Displays all enemies on radar",
+      "> Infinite radar range",
       "<B>> Muted vision</>"
     ],
     "enhancement": "None",
@@ -70,7 +70,7 @@
     "enhancement": "",
     "enh_tooltip": [
       "<B>> <C>10 /s</> shock damage and Disable+ while Core active</>",
-      "<B>><C>25</> shock damage and 4s Disable+ on relocation</>"
+      "<B>><C>25</> shock damage and 4s Disable+ on relocation and Core activation</>"
     ]
   },
   {

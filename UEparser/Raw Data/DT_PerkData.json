@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_PerkData'",
-        "ObjectPath": "/Game/Blueprints/Data/STRUCT_PerkData"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_PerkData.0"
       }
     },
     "Rows": {

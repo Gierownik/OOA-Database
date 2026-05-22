@@ -79,25 +79,25 @@
       "<F2>> Superheated: </>Backdraft and Ground Slam gain <C>25%</> increased damage and range. Backdraft, Ground Slam and backup weapon damage applies Burn+",
       "<F3>> Crossfeed: </>Aerial maneuvers and hover no longer drain aux power or consume charges for <C>5 s</> on receiving chemical heal",
       "<D>GHOST</>",
-      "<F1>> Safety Measures: </>Gain <C>25</> temporary defense during Opportunity, Burn no longer prevents camouflage and is removed on activation, <C>50%</> reduced explosive damage received while camouflage active",
-      "<F2>> Hidden Asset: </>Interacting no longer deactivates camouflage. Deep camouflage no longer stuns on taking damage, is undetectable while active and gains enhanced vision",
-      "<F3>> Shadow Operative: </>Hip firing supressed firearms, attacking with backup weapons and throwing devices no longer deactivates camouflage",
+      "<F1>> Safety Measures: </>Gain <C>50</> temporary defense during Opportunity, Burn no longer prevents camouflage and is removed on activation, <C>50%</> reduced explosive damage received while camouflage active",
+      "<F2>> Hidden Asset: </>Gain improved camouflage while Amplify active, reduces Tactical Camouflage cooldown by <C>1 s</>, Nano-wire use and throwing devices no longer deactivates camouflage, create a trail of up to <C>5</> Tempest clouds and gain Shroud on Core activation",
+      "<F3>> Interference: </>Increases Opportunity duration by <C>1 s</>, firearm and backup weapon kills while Opportunity is active refresh its duration and apply <C>4 s</> Desync+ to unobstructed enemies within <C>25 m</> of target",
       "<D>HYDRA</>",
-      "<F1>> Overstimulated: </>Gain an Adrenal Feedback stack every <C>30 s</>, increases maximum stacks by <C>5</>",
-      "<F2>> Feedback Loop: </>All visible kills while Core active gain an Adrenal Feedback stack. Reaching <C>5</> stacks fully restores defense and Core charge",
-      "<F3>> Post-Kill Clarity: </>Gain enhanced vision and firearms and backup weapons bypass all damage reductions for <C>5 s</> on kill, duration extended while dealing damage, <C>10 s</> cooldown",
+      "<F1>> Overstimulated: </>Gain an Adrenal Feedback stack and restore <C>25</> vitals every <C>20 s</>, increases maximum stacks by <C>5</>",
+      "<F2>> Feedback Loop: </>Reaching <C>5</> Adrenal Feedback stacks fully charges Core while inactive, stacks no longer reset and gain <C>1</> stack on Core activation, visible enemy kills during active Core consume a stack to increase its duration by up to <C>5 s</>, Core speed by <C>10%</> and restore <C>25</> vitals and max vitals, stacks reset on Core deactivation",
+      "<F3>> Post-Kill Clarity: </>Gain Amplify and firearms and backup weapons bypass all damage reductions for <C>5 s</> on kill, Amplify enhances vision and displays all enemies on radar, duration extended while dealing damage, <C>15 s</> cooldown",
       "<D>RHINO</>",
-      "<F1>> Power Relay: </><C>30 /s</> uninterruptible defense, max defense and aux power regeneration while Disabled. Gain Overcharge during active Core if activated while Disabled or Overcharged",
-      "<F2>> Force Trauma: </>Shockwave gains <C>50%</> increased range, debuff duration and knockback force, applies Disable+ and Snare+",
-      "<F3>> Reverberate: </>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-50%</>. Overcharge for <C>5 s</> on melee or body impact kill"
+      "<F1>> Force Trauma: </>Shockwave gains <C>50%</> increased range, debuff duration and knockback force, applies Disable+ and Snare+",
+      "<F2>> Power Relay: </><C>30 /s</> uninterruptible defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain <C>5%</> additional Core speed for each unobstructed enemy or ally within <C>15 m</> while Core active",
+      "<F3>> Reverberate: </>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-50%</>. Overcharge for <C>5 s</> on firearm or backup weapon kill within <C>4 m</>"
     ],
     "spec": {
-      "body_name": "Power Relay",
-      "body": "</><C>30 /s</> uninterruptible defense, max defense and aux power regeneration while Disabled. Gain Overcharge during active Core if activated while Disabled or Overcharged",
-      "tech_name": "Force Trauma",
-      "tech": "</>Shockwave gains <C>50%</> increased range, debuff duration and knockback force, applies Disable+ and Snare+",
+      "body_name": "Force Trauma",
+      "body": "</>Shockwave gains <C>50%</> increased range, debuff duration and knockback force, applies Disable+ and Snare+",
+      "tech_name": "Power Relay",
+      "tech": "</><C>30 /s</> uninterruptible defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain <C>5%</> additional Core speed for each unobstructed enemy or ally within <C>15 m</> while Core active",
       "hardware_name": "Reverberate",
-      "hardware": "</>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-50%</>. Overcharge for <C>5 s</> on melee or body impact kill"
+      "hardware": "</>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-50%</>. Overcharge for <C>5 s</> on firearm or backup weapon kill within <C>4 m</>"
     }
   },
   {

@@ -80,31 +80,30 @@
     },
     "spec": {
       "body_name": "Overstimulated",
-      "body": "Gain an Adrenal Feedback stack every 30 s, increases maximum stacks by 5",
+      "body": "Gain an Adrenal Feedback stack and restore 25 vitals every 20 s, increases maximum stacks by 5",
       "tech_name": "Feedback Loop",
-      "tech": "All visible kills while Core active gain an Adrenal Feedback stack. Reaching 5 stacks fully restores defense and Core charge",
+      "tech": "Reaching 5 Adrenal Feedback stacks fully charges Core while inactive, stacks no longer reset and gain 1 stack on Core activation, visible enemy kills during active Core consume a stack to increase its duration by up to 5 s, Core speed by 10% and restore 25 vitals and max vitals, stacks reset on Core deactivation",
       "hardware_name": "Post-Kill Clarity",
-      "hardware": "Gain enhanced vision and firearms and backup weapons bypass all damage reductions for 5 s on kill, duration extended while dealing damage, 10 s cooldown"
+      "hardware": "Gain Amplify and firearms and backup weapons bypass all damage reductions for 5 s on kill, Amplify enhances vision and displays all enemies on radar, duration extended while dealing damage, 15 s cooldown"
     }
   },
   {
     "name": "Ghost",
     "tooltip": [
       ":: <D>TACTICAL CAMOUFLAGE</>",
-      "> Reduces visibility, undetectable by proximity devices and targeting systems, <C>2 s</> cooldown",
-      "> <C>25%</> reduced loadout speed penalty and tag duration while active",
-      "> Deep Camouflage: Activates <C>2 s</> after being stationary or crouched, <C>50%</> reduced visibility and undetectable by targeting optics",
-      "<B>></> <C>2 s</> <B>Disable+ on taking direct damage while Deep Camouflage active</>",
+      "> Reduces visibility, undetectable by proximity devices and targeting systems, <C>3 s</> cooldown",
+      "> <C>25%</> reduced loadout speed penalty and tag duration, and <C>25%</> increased jump speed while active",
+      "> Gain Amplify while moving over <C>4 m/s</> if camouflage active for over <C>10 s</>, reduced by <C>2 s</> per visible kill while camouflage inactive: Enhances vision and displays all enemies on radar",
       "<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>",
-      "<B>> Deactivates on interactions, offensive actions and Burning</>",
+      "<B>> Deactivates on Nano-wire use, offensive actions, throwing devices and Burning</>",
       "<B>> Can be Disabled</>",
       ":: <D>HEIGHTENED PROFICIENCY</>",
       "> Opportunity: Active for <C>2 s</> after camouflage deactivation, firearm and backup weapon damage bypass all damage reductions, <C>25%</> increased ground and climb speed, <C>10 s</> cooldown",
       "> Visible kills reduce Opportunity cooldown by <C>2 s</>, fully reset cooldown while Opportunity is active",
       "> <C>25%</> increased firearm accuracy, dexterity and melee damage for <C>10 s</> on visible kill",
       ":: <D>DISRUPTIVE MEASURES</>",
-      "> <C>25%</> reduced detectable range and scrambled radar profile while moving with camouflage active",
-      "> Surge AOE on camouflage deactivate: Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>, Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per visible enemy killed while camouflage inactive",
+      "> <C>25%</> reduced detectable range, scrambled radar profile while moving with camouflage active, and Shroud on camouflage activate: undetectable by all equipment for <C>2 s</> per visible enemy killed while camouflage inactive",
+      "> Disable enemies and enemy devices within <C>3 m</> for <C>2 s</> during sliding and rolling maneuvers, or on camouflage deactivate.",
       "> Neuro-link 'Spike' on Core activation: Applies <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown"
     ],
     "stats": {
@@ -125,22 +124,22 @@
     },
     "spec": {
       "body_name": "Safety Measures",
-      "body": "Gain 25 temporary defense during Opportunity, Burn no longer prevents camouflage and is removed on activation, 50% reduced explosive damage received while camouflage active",
+      "body": "Gain 50 temporary defense during Opportunity, Burn no longer prevents camouflage and is removed on activation, 50% reduced explosive damage received while camouflage active",
       "tech_name": "Hidden Asset",
-      "tech": "Interacting no longer deactivates camouflage. Deep camouflage no longer stuns on taking damage, is undetectable while active and gains enhanced vision",
-      "hardware_name": "Shadow Operative",
-      "hardware": "Hip firing supressed firearms, attacking with backup weapons and throwing devices no longer deactivates camouflage"
+      "tech": "Gain improved camouflage while Amplify active, reduces Tactical Camouflage cooldown by 1 s, Nano-wire use and throwing devices no longer deactivates camouflage, create a trail of up to 5 Tempest clouds and gain Shroud on Core activation",
+      "hardware_name": "Interference",
+      "hardware": "Increases Opportunity duration by 1 s, firearm and backup weapon kills while Opportunity is active refresh its duration and apply 4 s Desync+ to unobstructed enemies within 25 m of target"
     }
   },
   {
     "name": "Dragon",
     "tooltip": [
       ":: <D>DRIFTER JUMP-PACK</>",
-      "> Hover: Can be activated while in air, <C>8 m/s</> hover speed up to <C>12 m/s</> while boosting, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, body impacts while boosting can knockback, recovers an aerial maneuver charge on activation, Ignites surrounding area for <C>3 s</> on death if active, <C>4 s</> cooldown",
-      "> Enhanced Dodge, Dive and climbing, Air Dive replaced with Air Dash: Launch rapidly in movement direction, can knockback and knockdown",
-      "> Ground Slam maneuver: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, enemies within <C>2 m</> can be knocked down, <C>10 s</> cooldown",
-      "<B>> Deactivates if aux power fully depleted or Ground Slam impacts</>",
-      "<B>>  </><C>50%</> <B>reduced aux regeneration while hovering, boosting drains aux power</>",
+      "> Hover: Can be activated while in air, <C>8 m/s</> hover speed, up to <C>12 m/s</> while boosting, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, body impacts while boosting can knockback, recovers an aerial maneuver charge on activation, ignites surrounding area for <C>5 s</> on death if active, <C>4 s</> cooldown",
+      "> <C>100%</> reduced airborne accuracy penalty and enhanced Dodge, Dive, and climb maneuvers",
+      "> Air Dash: Aerial maneuver, launch rapidly in held direction while airborne, replaces Air Dive, can knockback and knockdown, and Ground Slam: Aerial maneuver, launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, can knockdown enemies within <C>2 m</>, ignites surrounding area for <C>5 s</> on death if active, <C>10 s</> cooldown",
+      "<B>> </><C>50%</> <B>reduced aux regeneration and can no longer ADS while hovering</>",
+      "<B>> Receive</> <C>25</> <B>vital damage on Ground slam impact</>",
       "<B>> Can be Disabled</>",
       ":: <D>SCORCH HAZARD</>",
       "> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, recovers an aerial maneuver charge, <C>5 s</> cooldown",
@@ -150,7 +149,8 @@
       ":: <D>THERMAL NANO-MESH</>",
       "> <C>50%</> increased Burn resistance, Burn stat reduction immunity",
       "> <C>25%</> defense restored per enemy hit by Backdraft and Ground Slam, restarts defense regeneration, can gain up to <C>50</> defense buffer",
-      "> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling proportionally with speed from <C>0-10 m/s</>"
+      "> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling proportionally with speed from <C>0-10 m/s</>",
+      "<B>> </><C>25%</> <B>increased direct defense damage received while hovering</>"
     ],
     "stats": {
       "vitals": 100.0,
@@ -212,12 +212,12 @@
       "value": 15
     },
     "spec": {
-      "body_name": "Power Relay",
-      "body": "30 /s uninterruptible defense, max defense and aux power regeneration while Disabled. Gain Overcharge during active Core if activated while Disabled or Overcharged",
-      "tech_name": "Force Trauma",
-      "tech": "Shockwave gains 50% increased range, debuff duration and knockback force, applies Disable+ and Snare+",
+      "body_name": "Force Trauma",
+      "body": "Shockwave gains 50% increased range, debuff duration and knockback force, applies Disable+ and Snare+",
+      "tech_name": "Power Relay",
+      "tech": "30 /s uninterruptible defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain 5% additional Core speed for each unobstructed enemy or ally within 15 m while Core active",
       "hardware_name": "Reverberate",
-      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-50%. Overcharge for 5 s on melee or body impact kill"
+      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-50%. Overcharge for 5 s on firearm or backup weapon kill within 4 m"
     }
   }
 ]

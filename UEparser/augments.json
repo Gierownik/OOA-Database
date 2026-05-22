@@ -126,7 +126,7 @@
   {
     "name": "Augmented Nano-wire",
     "tooltip": [
-      "> Nano-wire can attach to held enemy weapons pulling you toward them, applies Snare for <C>4 s</>",
+      "> Nano-wire can attach to held enemy weapons pulling you toward them, applies Snare for <C>2 s</>",
       "> Can disarm weapon during active Core or while enemy is knocked down, <C>10 s</> cooldown",
       "> Nano-wire can pickup enemy devices and projectiles, ownership transfered if held for <C>1 s</>",
       "> <C>25%</> increased Nano-wire range",
@@ -245,11 +245,11 @@
   {
     "name": "Close Minded",
     "tooltip": [
-      "> <C>50%</> reduced firearm spread and recoil while ADS with iron sights",
-      "> <C>25%</> increased ground speed and Core generation while using backup weapons with enemies within <C>10 m</>",
-      "> <C>25%</> reduced firearm and backup weapon damage received within <C>5 m</> while using backup weapons or ADS with iron sights",
-      "<B>></> <C>25%</> <B>reduced speed while ADS and firearm far damage range</>",
-      "<B>></> <C>25%</> <B>increased firearm and backup weapon damage received beyond</> <C>10 m</> <B>while using backup weapons or ADS with iron sights</>"
+      "> <C>50%</> reduced firearm spread while aiming with iron sights equipped",
+      "> <C>25%</> increased ground speed while using backup weapons with enemies within <C>10 m</>",
+      "> <C>25%</> reduced firearm and backup weapon damage received within <C>5 m</> while using backup weapons or aiming with iron sights equipped",
+      "<B>></> <C>25%</> <B>reduced firearm far damage</>",
+      "<B>></> <C>25%</> <B>increased firearm and backup weapon damage received beyond</> <C>10 m</> <B>while using backup weapons or aiming with iron sights equipped</>"
     ],
     "foundations": {
       "type": "body",
@@ -398,10 +398,10 @@
     "tooltip": [
       "> <C>0.35%</> reduced movement speed penalties and backup weapon damage received for each Body foundation upgrade",
       "> <C>0.35%</> increased aux power regeneration and radar range for each Tech foundation upgrade",
-      "> <C>0.35%</> reduced firearm recoil and ADS spread for each Hardware foundation upgrade",
-      "<B>></> <C>0.25%</> <B>reduced knockback resistance and climb speed for each Body foundation upgrade</>",
+      "> <C>0.35%</> reduced firearm ADS spread and increased device throw velocity for each Hardware foundation upgrade",
+      "<B>></> <C>0.25%</> <B>reduced knockback resistance and increased body impact damage received for each Body foundation upgrade</>",
       "<B>></> <C>0.25%</> <B>increased detectable range and direct damage received while Disabled for each Tech foundation upgrade</>",
-      "<B>></> <C>0.25%</> <B>reduced Bleed immunity and device duration for each Hardware foundation upgrade</>"
+      "<B>></> <C>0.25%</> <B>reduced reserve ammo and device duration for each Hardware foundation upgrade</>"
     ],
     "foundations": {
       "type": "body",
@@ -607,7 +607,8 @@
     "tooltip": [
       "> <C>50%</> reduced movement sound",
       "> <C>50%</> reduced radar profile and tagged duration",
-      "> <C>50%</> increased crouch speed",
+      "> <C>50%</> increased slide and crouch speed",
+      "> Undetectable by proximity devices and targeting systems during sliding maneuvers",
       "<B>></> <C>25</> <B>reduced defense</>"
     ],
     "foundations": {
@@ -856,12 +857,11 @@
   {
     "name": "Resourceful",
     "tooltip": [
-      "> Deconstruct weapons if interact held while picking up, weapon is destroyed",
+      "> Deconstruct weapons if Nano-wire held while picking up, weapon is destroyed",
       "> <C>100%</> of equipped weapons ammo capacity restored as reserve ammo on deconstruct",
-      "> <C>5 s</> reduced device cooldowns on deconstruct",
+      "> <C>5 s</> reduced standard device cooldowns on deconstruct",
       "> <C>1 s</> reduced primary stim cooldown on deconstruct",
-      "<B>></> <C>50%</> <B>reduced reserve ammo</>",
-      "<B>></> <C>25%</> <B>reduced weapon pickup speed</>"
+      "<B>></> <C>25%</> <B>reduced reserve ammo</>"
     ],
     "foundations": {
       "type": "hardware",
@@ -943,7 +943,7 @@
     "tooltip": [
       "> Additional aerial maneuver charge while using backup weapons",
       "> Unaffected by Core slowing effects while Core active and using backup weapons",
-      "> <C>200%</> increased Core generation with backup weapons",
+      "> <C>100%</> increased Core generation with backup weapons",
       "> <C>100%</> reduced backup weapon loadout speed penalty",
       "<B>> Can only equip backup weapons and enhancement devices</>",
       "<B>></> <C>50%</> <B>reduced Core regeneration</>",
@@ -959,8 +959,8 @@
     "tooltip": [
       "> Additional weapon mod slot",
       "> <C>200%</> additional base reserve ammo",
-      "> <C>100%</> additional thrown weapon ammo",
-      "> <C>50%</> reduced device cooldowns on kill",
+      "> <C>100%</> additional stealth weapon ammo",
+      "> <C>50%</> reduced standard device cooldowns on kill",
       "<B>></> <C>25%</> <B>Increased device cooldowns</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
@@ -973,7 +973,7 @@
     "name": "Technician",
     "tooltip": [
       "> Can equip exotic ammo types",
-      "> <C>20 /s</> defense and max defense restored while using Nano-wire",
+      "> <C>20 /s</> defense and max defense restored while Nano-wire held and unconnected",
       "<B>></> <C>50%</> <B>reduced reserve ammo</>",
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>"
     ],
