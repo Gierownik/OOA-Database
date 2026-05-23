@@ -502,7 +502,7 @@
     "type": "Mod",
     "tooltip": [
       "> Removes radar profile from firing",
-      "> <C>35%</> reduced vertical recoil",
+      "> <C>25%</> reduced vertical recoil",
       "<B>></> <C>15%</> <B>reduced velocity</>"
     ],
     "technician": "false",
@@ -534,7 +534,7 @@
     "name": "Foregrip",
     "type": "Mod",
     "tooltip": [
-      "> <C>35%</> reduced horizontal recoil",
+      "> <C>25%</> reduced horizontal recoil",
       "> <C>25%</> reduced aim time",
       "<B>></> <C>25%</> <B>reduced speed while aiming</>"
     ],
@@ -1064,7 +1064,7 @@
     "name": "Stabilizer",
     "type": "Mod",
     "tooltip": [
-      "> <C>75%</> reduced recoil while ADS",
+      "> <C>50%</> reduced recoil while ADS",
       "> <C>15%</> reduced aim time",
       "<B>></> <C>50%</> <B>reduced speed while ADS</>"
     ],
