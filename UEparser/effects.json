@@ -69,8 +69,7 @@
     ],
     "enhancement": "",
     "enh_tooltip": [
-      "<B>> <C>10 /s</> shock damage and Disable+ while Core active</>",
-      "<B>><C>25</> shock damage and 4s Disable+ on relocation and Core activation</>"
+      "<B>><C>50</> shock damage and 2s Disable+ on active Core and relocation</>"
     ]
   },
   {

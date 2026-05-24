@@ -37,7 +37,7 @@
       "body_name": "Combat Focus",
       "body": "50% increased weapon accuracy and 25% increased speed and dexterity for 5 s on receiving direct vitals damage, 10 s cooldown",
       "tech_name": "Flow State",
-      "tech": "Core activates without cost for 2.5 s on performing a wall dive or flip within 1 s of starting a climb, 15 s cooldown",
+      "tech": "Core activates without cost for 2.5 s on performing a wall dive or flip within 1 s of starting a climb, 30 s cooldown",
       "hardware_name": "Locked In",
       "hardware": "Melee and firearm damage gains 0-50% defense bypass proportional to remaining vitals, from 100-25%"
     }
