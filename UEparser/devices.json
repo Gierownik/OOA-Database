@@ -61,7 +61,7 @@
     "name": "Bolster",
     "type": "Enhancement",
     "tooltip": [
-      "> While active: Bleed and knockdown immunity, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
+      "> While active: Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
       "> Maximum Efficiency: <C>50%</> increased duration",
       "<B>> While active:</> <C>50%</> <B>reduced speed and vitals restored from all sources</>"
     ],

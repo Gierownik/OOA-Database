@@ -181,9 +181,9 @@
     "name": "Rhino",
     "tooltip": [
       ":: <D>RESILIENT MOMENTUM</>",
-      "> Knockdown immunity and <C>100%</> reduced movement speed penalties while defence not depleted",
+      "> Knockdown immunity and <C>100%</> reduced movement speed penalties while grounded and defense not depleted",
       "> <C>25%</> knockback resistance and <C>50%</> reduced fall damage",
-      "> Bolster while Core active: Bleed and knockdown immunity, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
+      "> Bolster while Core active: Bleed immunity, knockdown immunity while grounded, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
       "<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>",
       ":: <D>CONCUSSIVE IMPULSE</>",
       "> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage",

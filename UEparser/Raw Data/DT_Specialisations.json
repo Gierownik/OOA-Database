@@ -130,7 +130,7 @@
       },
       "Devices": {
         "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator12",
-        "requirement_5_2BC85A2C49C56FE65013249274402E66": 10,
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 5,
         "cost_8_5B4836574A1EA39CC4B7C19094365F68": 2,
         "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
           "Namespace": "",
@@ -141,7 +141,7 @@
       },
       "Augments": {
         "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator13",
-        "requirement_5_2BC85A2C49C56FE65013249274402E66": 10,
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 5,
         "cost_8_5B4836574A1EA39CC4B7C19094365F68": 3,
         "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
           "Namespace": "",
@@ -152,7 +152,7 @@
       },
       "Attachments": {
         "specialisation_2_DA6730784120960E927A01BD3BF39AF5": "ENUM_Specialisation::NewEnumerator14",
-        "requirement_5_2BC85A2C49C56FE65013249274402E66": 10,
+        "requirement_5_2BC85A2C49C56FE65013249274402E66": 5,
         "cost_8_5B4836574A1EA39CC4B7C19094365F68": 2,
         "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
           "Namespace": "",

@@ -69,7 +69,8 @@
     ],
     "enhancement": "",
     "enh_tooltip": [
-      "<B>><C>50</> shock damage and 2s Disable+ on active Core and relocation</>"
+      "<B>> <C>50</> shock damage and 2s Disable+ on active Core and relocation</>",
+      "<B>> Core activation no longer clears Desync</>"
     ]
   },
   {
