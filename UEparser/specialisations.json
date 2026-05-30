@@ -72,7 +72,7 @@
       "<D>> Dominant foundation specific, activates after killing an enemy:</>",
       "<D>BISON</>",
       "<F1>> Combat Focus: </><C>50%</> increased weapon accuracy and <C>25%</> increased speed and dexterity for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown",
-      "<F2>> Flow State: </>Core activates without cost for <C>2.5 s</> on performing a wall dive or flip within <C>1 s</> of starting a climb, <C>30 s</> cooldown",
+      "<F2>> Flow State: </>Core activates without cost for <C>2.5 s</> on performing a wall dive or flip within <C>1 s</> of starting a climb, <C>20 s</> cooldown",
       "<F3>> Locked In: </>Melee and firearm damage gains <C>0-50%</> defense bypass proportional to remaining vitals, from <C>100-25%</>",
       "<D>DRAGON</>",
       "<F1>> Thermal Transfer: </><C>50%</> of defense gained from Backdraft and Ground Slam, and <C>50%</> of damage received from Burn and explosives is restored to vitals",
