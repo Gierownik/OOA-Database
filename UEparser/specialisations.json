@@ -88,14 +88,14 @@
       "<F3>> Post-Kill Clarity: </>Gain Amplify and firearms and backup weapons bypass all damage reductions for <C>5 s</> on kill, Amplify enhances vision and displays all enemies on radar, duration extended while dealing damage, <C>15 s</> cooldown",
       "<D>RHINO</>",
       "<F1>> Force Trauma: </>Shockwave gains <C>50%</> increased range, debuff duration and knockback force, applies Disable+ and Snare+",
-      "<F2>> Power Relay: </><C>30 /s</> uninterruptible defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain <C>5%</> additional Core speed for each unobstructed enemy or ally within <C>15 m</> while Core active",
+      "<F2>> Power Relay: </><C>30 /s</> defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain <C>5%</> additional Core speed for each unobstructed enemy or ally within <C>15 m</> while Core active",
       "<F3>> Reverberate: </>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-50%</>. Overcharge for <C>5 s</> on firearm or backup weapon kill within <C>4 m</>"
     ],
     "spec": {
       "body_name": "Force Trauma",
       "body": "</>Shockwave gains <C>50%</> increased range, debuff duration and knockback force, applies Disable+ and Snare+",
       "tech_name": "Power Relay",
-      "tech": "</><C>30 /s</> uninterruptible defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain <C>5%</> additional Core speed for each unobstructed enemy or ally within <C>15 m</> while Core active",
+      "tech": "</><C>30 /s</> defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain <C>5%</> additional Core speed for each unobstructed enemy or ally within <C>15 m</> while Core active",
       "hardware_name": "Reverberate",
       "hardware": "</>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-50%</>. Overcharge for <C>5 s</> on firearm or backup weapon kill within <C>4 m</>"
     }

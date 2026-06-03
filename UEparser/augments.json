@@ -929,9 +929,9 @@
     "name": "Specialist",
     "tooltip": [
       "> Additional weapon mod slot",
-      "> <C>50%</> reduced sidearm or primary weapon handling speed penalties while only sidearms or primary weapons equipped, additional <C>25%</> for <C>5 s</> on visible kill",
-      "> <C>25%</> increased sidearm or primary weapon dexterity while only sidearms or primary weapons equipped, additional <C>25%</> for <C>5 s</> on visible kill",
-      "<B>> Can only equip</> <C>1</> <B>device</>"
+      "> <C>25%</> reduced sidearm or primary weapon handling speed penalties while only sidearms or primary weapons equipped, additional <C>25%</> for <C>10 s</> on visible kill",
+      "> <C>25%</> increased sidearm or primary weapon dexterity while only sidearms or primary weapons equipped, additional <C>25%</> for <C>10 s</> on visible kill",
+      "<B>></> <C>50%</> <B>Increased device cooldowns</>"
     ],
     "foundations": {
       "type": "body",

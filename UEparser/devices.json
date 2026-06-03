@@ -80,7 +80,7 @@
       "can_be_disabled": "false"
     },
     "foundations": {
-      "type": "hardware",
+      "type": "body",
       "value": 45
     }
   },
@@ -240,7 +240,7 @@
       "speed_penalty": 0.25,
       "hack_cost": 0.0,
       "secondary_action": "true",
-      "can_be_disabled": "false"
+      "can_be_disabled": "true"
     },
     "foundations": {
       "type": "tech",
@@ -603,8 +603,8 @@
       "can_be_disabled": "false"
     },
     "foundations": {
-      "type": "tech",
-      "value": 30
+      "type": "body",
+      "value": 25
     }
   }
 ]

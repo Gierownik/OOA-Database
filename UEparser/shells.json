@@ -215,7 +215,7 @@
       "body_name": "Force Trauma",
       "body": "Shockwave gains 50% increased range, debuff duration and knockback force, applies Disable+ and Snare+",
       "tech_name": "Power Relay",
-      "tech": "30 /s uninterruptible defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain 5% additional Core speed for each unobstructed enemy or ally within 15 m while Core active",
+      "tech": "30 /s defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain 5% additional Core speed for each unobstructed enemy or ally within 15 m while Core active",
       "hardware_name": "Reverberate",
       "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-50%. Overcharge for 5 s on firearm or backup weapon kill within 4 m"
     }
