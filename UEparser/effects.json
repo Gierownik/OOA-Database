@@ -134,7 +134,7 @@
     "tooltip": [
       "> 100% reduced fall damage",
       "> 25% reduced gravity",
-      "<B>> Canceled on aerial maneuver or hover</>"
+      "<B>> Ends on aerial maneuver or hover</>"
     ],
     "enhancement": "None",
     "enh_tooltip": []
