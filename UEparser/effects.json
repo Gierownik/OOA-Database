@@ -129,6 +129,16 @@
     "enhancement": "None",
     "enh_tooltip": []
   },
+   {
+    "name": "Safe-fall",
+    "tooltip": [
+      "> 100% reduced fall damage",
+      "> 25% reduced gravity",
+      "<B>> Canceled on aerial maneuver or hover</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
   {
     "name": "Shroud",
     "tooltip": [
