@@ -133,8 +133,8 @@
     "name": "Safe-fall",
     "tooltip": [
       "> 100% reduced fall damage",
-      "> 25% reduced gravity",
-      "<B>> Ends on aerial maneuver or hover</>"
+      "> 50% reduced gravity and direct damage received",
+      "<B>> Ends on aerial maneuver, nano-wire grab or hover</>"
     ],
     "enhancement": "None",
     "enh_tooltip": []
