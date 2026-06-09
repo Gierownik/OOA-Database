@@ -92,7 +92,7 @@
       "> 100% reduced fall damage",
       "> 50 - 0% reduced gravity proportional to look direction from horizontal to down",
       "> 50% reduced direct damage received",
-      "<B>> 200% increased tick rate while climbing, grounded, suspended, hovering or nano-wire grab</>"
+      "<B>> 200% increased tick rate while climbing, grounded, suspended or hovering</>"
     ],
     "enhancement": "None",
     "enh_tooltip": []
