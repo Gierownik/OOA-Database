@@ -98,7 +98,7 @@
       "<B>> Deactivates on Nano-wire use, offensive actions, throwing devices and Burning</>",
       "<B>> Can be Disabled</>",
       ":: <D>HEIGHTENED PROFICIENCY</>",
-      "> Opportunity: Active for <C>2 s</> after camouflage deactivation, firearm and backup weapon damage bypass all damage reductions, <C>25%</> increased ground and climb speed, <C>10 s</> cooldown",
+      "> Opportunity: Active for <C>2 s</> after camouflage deactivation, gain Amplify, firearm and backup weapon damage bypass all damage reductions, <C>25%</> increased ground and climb speed, <C>10 s</> cooldown",
       "> Visible kills reduce Opportunity cooldown by <C>2 s</>, fully reset cooldown while Opportunity is active",
       "> <C>25%</> increased firearm accuracy, dexterity and melee damage for <C>10 s</> on visible kill",
       ":: <D>DISRUPTIVE MEASURES</>",
@@ -124,11 +124,11 @@
     },
     "spec": {
       "body_name": "Safety Measures",
-      "body": "Gain 50 temporary defense during Opportunity, Burn no longer prevents camouflage and is removed on activation, 50% reduced explosive damage received while camouflage active",
+      "body": "Gain 50 temporary defense during Opportunity, 50% reduced explosive damage received while camouflage active, debuffs cleared on camouflage activation, 15 s cooldown",
       "tech_name": "Hidden Asset",
       "tech": "Gain improved camouflage while Amplify active, reduces Tactical Camouflage cooldown by 1 s, Nano-wire use and throwing devices no longer deactivates camouflage, create a trail of up to 5 Tempest clouds and gain Shroud on Core activation",
       "hardware_name": "Interference",
-      "hardware": "Increases Opportunity duration by 1 s, firearm and backup weapon kills while Opportunity is active refresh its duration and apply 4 s Desync+ to unobstructed enemies within 25 m of target"
+      "hardware": "Increases Opportunity duration by 1 s, firearm and backup weapon kills while Opportunity is active refresh its duration and apply 4 s Desync+ to enemies within 25 m of target"
     }
   },
   {
