@@ -86,6 +86,17 @@
       "<B>> <C>50%</> reduced turn speed</>"
     ]
   },
+     {
+    "name": "Drop Shield",
+    "tooltip": [
+      "> 100% reduced fall damage",
+      "> 50 - 0% reduced gravity proportional to look direction from horizontal to down",
+      "> 50% reduced direct damage received",
+      "<B>> 200% increased tick rate while climbing, grounded, suspended, hovering or nano-wire grab</>"
+    ],
+    "enhancement": "None",
+    "enh_tooltip": []
+  },
   {
     "name": "Hyper",
     "tooltip": [
@@ -125,16 +136,6 @@
       "> Full body deflection for duration",
       "> <C>50%</> reduced explosive damage recieved",
       "<B>> Disables optical camouflage</>"
-    ],
-    "enhancement": "None",
-    "enh_tooltip": []
-  },
-   {
-    "name": "Safe-fall",
-    "tooltip": [
-      "> 100% reduced fall damage",
-      "> 50% reduced gravity and direct damage received",
-      "<B>> Ends on aerial maneuver, nano-wire grab or hover</>"
     ],
     "enhancement": "None",
     "enh_tooltip": []
