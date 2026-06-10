@@ -469,9 +469,8 @@
     "name": "Laser Sight",
     "type": "Mod",
     "tooltip": [
-      "> <C>50%</> reduced hipfire and alternate aim spread",
-      "> <C>25%</> reduced hipfire and alternate aim spread gain",
-      "> <C>25%</> reduced akimbo spread and akimbo spread gain",
+      "> <C>35%</> reduced hipfire spread and spread gain",
+      "> <C>25%</> reduced alternate aim spread and spread gain",
       "<B>> Visible laser</>"
     ],
     "technician": "false",
@@ -536,7 +535,7 @@
     "tooltip": [
       "> <C>25%</> reduced horizontal recoil",
       "> <C>25%</> reduced aim time",
-      "<B>></> <C>25%</> <B>reduced speed while aiming</>"
+      "<B>></> <C>15%</> <B>reduced speed while aiming</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -547,7 +546,9 @@
       "Nexus",
       "Typhon"
     ],
-    "excludes": [],
+    "excludes": [
+      "Angled Grip"
+    ],
     "speed_penalty": 0.2,
     "foundations": {
       "type": "hardware",
@@ -599,7 +600,9 @@
     "compatibility": [
       "Master-Key"
     ],
-    "excludes": [],
+    "excludes": [
+      "Angled Grip"
+    ],
     "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
@@ -1283,6 +1286,33 @@
     "foundations": {
       "type": "tech",
       "value": 30
+    }
+  },
+  {
+    "name": "Angled Grip",
+    "type": "Mod",
+    "tooltip": [
+      "> <C>35%</> reduced alternate aim spread and spread gain",
+      "> <C>15%</> reduced aim time",
+      "<B>></> <C>15%</> <B>reduced speed while aiming</>"
+    ],
+    "technician": "false",
+    "compatibility": [
+      "Master-Key",
+      "Icarus",
+      "Custodian",
+      "Inhibitor",
+      "Nexus",
+      "Typhon"
+    ],
+    "excludes": [
+      "Foregrip",
+      "Tactical Foregrip"
+    ],
+    "speed_penalty": 0.1,
+    "foundations": {
+      "type": "hardware",
+      "value": 35
     }
   }
 ]

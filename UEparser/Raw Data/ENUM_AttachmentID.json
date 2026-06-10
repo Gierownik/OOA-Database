@@ -499,6 +499,15 @@
             "SourceString": "BRRRT Trigger",
             "LocalizedString": "BRRRT Trigger"
           }
+        },
+        {
+          "Key": "NewEnumerator102",
+          "Value": {
+            "Namespace": "",
+            "Key": "82A863864A629BA449B58683D2FB12E4",
+            "SourceString": "Angled Grip",
+            "LocalizedString": "Angled Grip"
+          }
         }
       ]
     },
@@ -558,7 +567,8 @@
       "ENUM_AttachmentID::NewEnumerator99": 52,
       "ENUM_AttachmentID::NewEnumerator100": 53,
       "ENUM_AttachmentID::NewEnumerator101": 54,
-      "ENUM_AttachmentID::ENUM_MAX": 55
+      "ENUM_AttachmentID::NewEnumerator102": 55,
+      "ENUM_AttachmentID::ENUM_MAX": 56
     },
     "CppForm": "Namespaced"
   }

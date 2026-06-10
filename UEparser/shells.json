@@ -137,7 +137,7 @@
       ":: <D>DRIFTER JUMP-PACK</>",
       "> Hover: Can be activated while in air, <C>8 m/s</> hover speed, up to <C>12 m/s</> while boosting, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, body impacts while boosting can knockback, recovers an aerial maneuver charge on activation, ignites surrounding area for <C>5 s</> on death if active, <C>4 s</> cooldown",
       "> <C>100%</> reduced airborne accuracy penalty and enhanced Dodge, Dive, and climb maneuvers",
-      "> Air Dash: Aerial maneuver, launch rapidly in held direction while airborne, replaces Air Dive, can knockback and knockdown, and Ground Slam: Aerial maneuver, launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, can knockdown enemies within <C>2 m</>, ignites surrounding area for <C>5 s</> on death if active, <C>10 s</> cooldown",
+      "> Air Dash: Aerial maneuver, launch rapidly in held direction while airborne, replaces Air Dive, can knockback and knockdown, and Ground Slam: Aerial maneuver, launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, can knockdown enemies within <C>1 m</>, ignites surrounding area for <C>5 s</> on death if active, <C>10 s</> cooldown",
       "<B>> </><C>50%</> <B>reduced aux regeneration and can no longer ADS while hovering</>",
       "<B>> Receive</> <C>25</> <B>vital damage on Ground slam impact</>",
       "<B>> Can be Disabled</>",

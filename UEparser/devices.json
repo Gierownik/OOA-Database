@@ -307,7 +307,7 @@
     "tooltip": [
       "> Deals <C>25-15</> explosive and <C>50-30</> Burn damage to targets within <C>2-3 m</> and launches <C>10</> incendiary projectiles on impact",
       "> Deals <C>100</> Burn damage to targets within <C>5 m</> and launches <C>15</> incendiary projectiles on activation",
-      "> Incendiary projectile: Detonates after <C>1 s</>, igniting surface and dealing <C>5</> explosive and <C>5</> Burn damage to targets within <C>2 m</>",
+      "> Incendiary projectile: Detonates after <C>1 s</>, igniting surface and dealing <C>10</> explosive and <C>10</> Burn damage to targets within <C>2 m</>",
       "> Maximum Efficiency: <C>100%</> increased duration"
     ],
     "experimental": "false",
