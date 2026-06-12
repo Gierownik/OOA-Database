@@ -76,7 +76,7 @@
   {
     "name": "Disable",
     "tooltip": [
-      "<B>> Disables: set augments/devices/projectiles, all forms of detections, radar, defense and ammo regeneration, device activation</>",
+      "<B>> Disables: set augments/devices/projectiles, detections, paints, radar, defense and ammo regeneration, device activation</>",
       "<B>> Pauses active device/stim cooldowns and objectives for duration</>"
     ],
     "enhancement": "",
