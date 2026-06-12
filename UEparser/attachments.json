@@ -310,10 +310,12 @@
     "name": "Target Painter",
     "type": "Optic",
     "tooltip": [
-      "> Paints visible enemies while aiming",
-      "<B>> Unable to use primary aim stance</>",
-      "<B>></> <C>25%</> <B>increased aim time</>",
-      "<B>></> <C>25%</> <B>increased spread</>"
+      "> Paints visible enemies",
+      "> <C>35%</> reduced hipfire spread and spread gain on painted targets",
+      "> <C>25%</> reduced alternate aim spread and spread gain on painted targets",
+      "<B>></> <C>15%</> <B>reduced speed while firing</>",
+      "<B>> Can no longer ADS</>",
+      "<B>> Can be disabled</>"
     ],
     "technician": "false",
     "compatibility": [

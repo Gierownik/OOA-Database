@@ -691,7 +691,9 @@
     "tooltip": [
       "> Personal targeting drone, replaces scan",
       "> Provides external camera view and paints visible enemies while active",
-      "> <C>25%</> reduced spread and spread gain while active",
+      "> <C>25%</> increased target painting detection zone",
+      "> <C>35%</> reduced hipfire spread and spread gain on painted targets",
+      "> <C>25%</> reduced alternate aim spread and spread gain on painted targets",
       "<B>> Disrupts vision if drone takes damage while active</>",
       "<B>> Can no longer ADS</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
