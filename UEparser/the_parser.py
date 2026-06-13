@@ -583,19 +583,19 @@ for skill_name, shell_data in skill_rows.items():
 
     if (shell_name == "Bison"):
         air = 1
-        aird = 0.5
+        aird = 0.6
     elif (shell_name == "Hydra"):
         air = 1
-        aird = 0.5
+        aird = 0.7
     elif (shell_name == "Dragon"):
         air = 2
-        aird = 0.5
+        aird = 0.6
     elif (shell_name == "Ghost"):
         air = 2
-        aird = 0.5
+        aird = 0.6
     elif (shell_name == "Rhino"):
         air = 1
-        aird = 1
+        aird = 0.8
     else:
         defer = 0
         deferd = 0
