@@ -171,8 +171,9 @@
   {
     "name": "Backdoor",
     "tooltip": [
-      "> Enemies are detected to allies for <C>5-1 s</> on successful Neuro-Link proportional to amount from <C>1-5</>, <C>15 s</> cooldown",
-      "> Enemies are detected to allies for <C>2 s</> on receiving Neuro-Link",
+      "> Enemies are detected to allies for <C>5-1 s</> on successful Neuro-Link, proportional to amount effected from <C>1-5</>, <C>15 s</> cooldown",
+      "> On receiving Neuro-Link detect the sender to allies for <C>2 s</>",
+      "> Enemies within <C>30 m</> are detected while enemy head attached to Nano-wire",
       "> Devices and explosives of visible or detected enemies are detected to allies",
       "<B>> </><C>5 s</> <B>reduced scan duration</>",
       "<B>> </><C>1</> <B>reduced Shell detections</>",
@@ -498,6 +499,7 @@
     "tooltip": [
       "> <C>0.25x</> additional headshot damage multiplier",
       "> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost",
+      "> <C>25</> vitals and defense, and <C>5</> Core charge restored on head pickup, head is destroyed",
       "<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
     ],
     "foundations": {
@@ -510,6 +512,7 @@
     "tooltip": [
       "> <C>50%</> increased explosive Bleed damage",
       "> All equipped or picked up weapons gain the Contact Charge mod with no slot cost",
+      "> Heads thrown with Nano-wire detonate, dealing <C>75-25</> explosive damage",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
@@ -523,8 +526,8 @@
       "> Can equip and pickup heavy weapons, replaces backup slot",
       "> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped",
       "> Disarm immunity while heavy weapon equipped",
-      "<B>> Unable to use dive, prone or roll maneuvers while heavy weapon equipped</>",
-      "<B>> Dropped on knockdown or forced roll</>",
+      "<B>> Unable to dive or prone while heavy weapon equipped</>",
+      "<B>> Heavy weapons are dropped on rolling maneuvers</>",
       "<B>> Heavy weapons can only be fired while aiming</>"
     ],
     "foundations": {
@@ -767,7 +770,7 @@
     "name": "Pyro-Psycho",
     "tooltip": [
       "> <C>85%</> reduced Burn damage received, Burn and Burn+ no longer reduce dexterity or increase defense damage received, can no longer die from Burn damage",
-      "> Snare immunity and <C>50%</> increased ground speed and jump height while Burning",
+      "> Snare immunity and <C>50%</> increased ground and jump speed while Burning",
       "> Ignite nearby surface for <C>3 s</> on roll maneuvers if enemy within <C>15 m</> and apply Burn to enemies within <C>3 m</> while Burning, Burn+ if Burning+",
       "<B>> Core activation no longer clears Burning</>",
       "<B>> Burn on roll maneuvers</>"
@@ -1003,9 +1006,9 @@
   {
     "name": "Tether",
     "tooltip": [
-      "> Nano-wire can tether to enemy heads dealing <C>15</> vital damage every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>",
+      "> Nano-wire can tether to enemy or picked up heads, dealing <C>15</> vital damage to enemies within <C>5m</> every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>",
       "> <C>1 s</> Disable and Snare on damage if active for longer than <C>0.5 s</>",
-      "> <C>50%</> of damage dealt by tether restored to vitals and max vitals",
+      "> <C>50%</> of damage dealt by Tether restored to vitals and max vitals",
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
       "<B>> Can be Disabled</>"
     ],
@@ -1051,7 +1054,7 @@
       "> <C>100%</> Core generation on deploy",
       "> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback and knockdown to all enemies within <C>2-4 m</>",
       "> Overcharge while Core fully charged: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
-      "<B>> While Core fully charged: Core failure initiates after</> <C>60 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on any Core charge drain or enemy Disable attempt. Failure can be vented by Core activation or visible enemy kill</>",
+      "<B>> While Core fully charged: Core failure initiates after</> <C>60 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on any Core charge drain or enemy Disable attempt. Failure can be vented by manual Core activation or visible enemy kill</>",
       "<B>></> <C>50%</> <B>reduced Core duration, Shell specific Core bonuses disabled</>"
     ],
     "foundations": {

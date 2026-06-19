@@ -384,6 +384,7 @@
     "type": "Ammo",
     "tooltip": [
       "> Activates on impact, <C>0.75 s</> activation delay",
+      "> Detonates on Shell impact",
       "> Explosive damage",
       "> Can knockback",
       "> Hot mag: <C>25%</> additional velocity",
@@ -404,12 +405,13 @@
     "name": "Impact Grenade",
     "type": "Ammo",
     "tooltip": [
-      "> Activates on impact, <C>0.5 s</> activation delay",
+      "> Activates on impact, <C>0.25 s</> activation delay",
       "> Detonates on Shell impact",
-      "> Explosive damage",
+      "> Impact and explosive damage",
       "> <C>25%</> increased velocity",
       "> Hot mag: <C>25%</> additional velocity",
       "<B>></> <C>50%</> <B>reduced bleed damage</>",
+      "<B>></> <C>25%</> <B>reduced explosive damage</>",
       "<B>></> <C>25%</> <B>reduced explosive damage range</>"
     ],
     "technician": "false",
@@ -428,7 +430,8 @@
     "type": "Ammo",
     "tooltip": [
       "> Activates on impact, <C>0.75 s</> activation delay",
-      "> Burn damage, ignites surrounding area, <C>2 s</> Snare",
+      "> Detonates on Shell impact",
+      "> Burn and explosive damage, ignites surrounding area, <C>2 s</> Snare",
       "> Hot mag: <C>25%</> additional velocity",
       "<B>></> <C>100%</> <B>reduced bleed damage</>",
       "<B>></> <C>25%</> <B>reduced explosive damage</>"

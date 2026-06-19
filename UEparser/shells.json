@@ -27,7 +27,7 @@
       "aerial_charges": 1,
       "aerial_charges_regen": 0.6,
       "core_speed": 0.8,
-      "radar_profile": 15.0
+      "radar_profile": 20.0
     },
     "foundations": {
       "type": "body",
@@ -111,7 +111,7 @@
       "defense": 100.0,
       "defense_regen": 10.0,
       "defense_regen_delay": 3.0,
-      "aux_regen": 35.0,
+      "aux_regen": 30.0,
       "speed": 8.0,
       "aerial_charges": 2,
       "aerial_charges_regen": 0.6,
@@ -135,14 +135,16 @@
     "name": "Dragon",
     "tooltip": [
       ":: <D>DRIFTER JUMP-PACK</>",
-      "> Hover: Can be activated while in air, <C>8 m/s</> hover speed, up to <C>12 m/s</> while boosting, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, body impacts while boosting can knockback, recovers an aerial maneuver charge on activation, ignites surrounding area for <C>5 s</> on death if active, <C>4 s</> cooldown",
-      "> <C>100%</> reduced airborne accuracy penalty and enhanced Dodge, Dive, and climb maneuvers",
-      "> Air Dash: Aerial maneuver, launch rapidly in held direction while airborne, replaces Air Dive, can knockback and knockdown, and Ground Slam: Aerial maneuver, launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, can knockdown enemies within <C>1 m</>, ignites surrounding area for <C>5 s</> on death if active, <C>10 s</> cooldown",
-      "<B>> </><C>50%</> <B>reduced aux regeneration and can no longer ADS while hovering</>",
-      "<B>> Receive</> <C>25</> <B>vital damage on Ground slam impact</>",
+      "> Additional aerial maneuvers:",
+      "Boost: Can be activated and held while airborne, gain rapid vertical lift and increased air control, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, can knockback, can cancel Dive, replaces Air Jump",
+      "Air Dash: Launch rapidly in held direction while airborne, can knockback and knockdown, replaces Air Dive",
+      "Ground Slam: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, <C>10 s</> cooldown",
+      "> Enhances standard maneuvers and climing, <C>100%</> reduced airborne accuracy penalty",
+      "> Ignites surrounding area for <C>5 s</> on death during maneuvers",
+      "<B>> Can no longer ADS while Boost active",
       "<B>> Can be Disabled</>",
       ":: <D>SCORCH HAZARD</>",
-      "> Backdraft AOE on drifter pack activation while enemies in proximity or body impact while boosting: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, recovers an aerial maneuver charge, <C>5 s</> cooldown",
+      "> Backdraft AOE on maneuver activation while enemies in proximity or body impact while Boost active: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, <C>5 s</> cooldown",
       "> Backup weapons deal an additional <C>25%</> of damage dealt as Burn damage",
       "> Neuro-link 'Combust' on Core activation: Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown",
       "<B>> Can be Disabled</>",
@@ -150,7 +152,7 @@
       "> <C>50%</> increased Burn resistance, Burn stat reduction immunity",
       "> <C>25%</> defense restored per enemy hit by Backdraft and Ground Slam, restarts defense regeneration, can gain up to <C>50</> defense buffer",
       "> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling proportionally with speed from <C>0-10 m/s</>",
-      "<B>> </><C>25%</> <B>increased direct defense damage received while hovering</>"
+      "<B>> </><C>25%</> <B>increased direct defense damage received while Boosting</>"
     ],
     "stats": {
       "vitals": 100.0,
@@ -158,7 +160,7 @@
       "defense_regen": 10.0,
       "defense_regen_delay": 3.5,
       "aux_regen": 30.0,
-      "speed": 6.5,
+      "speed": 7.0,
       "aerial_charges": 2,
       "aerial_charges_regen": 0.6,
       "core_speed": 0.75,
@@ -174,7 +176,7 @@
       "tech_name": "Superheated",
       "tech": "Backdraft and Ground Slam gain 25% increased damage and range. Backdraft, Ground Slam and backup weapon damage applies Burn+",
       "hardware_name": "Crossfeed",
-      "hardware": "Aerial maneuvers and hover no longer drain aux power or consume charges for 5 s on receiving chemical heal"
+      "hardware": "Aerial maneuvers and hover no longer drain aux power or consume charges for 5 s on receiving chemical heal, 10 s cooldown"
     }
   },
   {
@@ -182,17 +184,17 @@
     "tooltip": [
       ":: <D>RESILIENT MOMENTUM</>",
       "> Knockdown immunity and <C>100%</> reduced movement speed penalties while grounded and defense not depleted",
-      "> <C>25%</> knockback resistance and <C>50%</> reduced fall damage",
+      "> <C>25%</> knockback resistance, <C>50%</> reduced fall damage and body impacts can knockdown airborne enemies",
       "> Bolster while Core active: Bleed immunity, knockdown immunity while grounded, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration",
       "<B>></> <C>50%</> <B>reduced vitals restored from all sources while Core active</>",
       ":: <D>CONCUSSIVE IMPULSE</>",
-      "> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage",
+      "> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage, reset on Core activation",
       "> <C>50%</> of damage dealt by Shockwave restored to defense and max defense",
       "> <C>10%</> of direct damage received stored and released as additional damage on next Shockwave, up to <C>50</>",
       ":: <D>REACTIVE CLADDING</>",
       "> <C>100%</> of combined vitals damage received restored to defense during defense regeneration on exceeding <C>25</> total damage, <C>10 s</> cooldown",
-      "> <C>25%</> reduced direct defense damage received and <C>25%</> increased movement speed for <C>10 s</> on dealing body impact damage",
-      "> <C>50%</> increased explosive resistance",
+      "> <C>25%</> reduced direct defense damage received and <C>25%</> increased movement speed for <C>10 s</> on dealing body impact damage or receiving explosive damage",
+      "> <C>50%</> increased explosive resistance,",
       "<B>></> <C>50%</> <B>increased Disable duration</>"
     ],
     "stats": {
@@ -200,7 +202,7 @@
       "defense": 200.0,
       "defense_regen": 10.0,
       "defense_regen_delay": 4.0,
-      "aux_regen": 25.0,
+      "aux_regen": 30.0,
       "speed": 6.0,
       "aerial_charges": 1,
       "aerial_charges_regen": 0.8,
