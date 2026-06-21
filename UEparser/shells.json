@@ -160,7 +160,7 @@
       "defense_regen_delay": 3.5,
       "aux_regen": 30.0,
       "speed": 7.0,
-      "aerial_charges": 2,
+      "aerial_charges": 3,
       "aerial_charges_regen": 0.6,
       "core_speed": 0.75,
       "radar_profile": 20.0

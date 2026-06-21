@@ -588,7 +588,7 @@ for skill_name, shell_data in skill_rows.items():
         air = 1
         aird = 0.7
     elif (shell_name == "Dragon"):
-        air = 2
+        air = 3
         aird = 0.6
     elif (shell_name == "Ghost"):
         air = 2
