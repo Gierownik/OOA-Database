@@ -136,12 +136,12 @@
     "tooltip": [
       ":: <D>DRIFTER JUMP-PACK</>",
       "> Additional aerial maneuvers:",
-      "Boost: Can be activated and held while airborne, gain rapid vertical lift and increased air control, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, can knockback, can cancel Dive, replaces Air Jump",
+      "Boost: Can be activated and held while airborne, recovers <C>25</> aux power on activation, gain rapid vertical lift and increased air control, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, can knockback, can cancel Dive, replaces Air Jump",
       "Air Dash: Launch rapidly in held direction while airborne, can knockback and knockdown, replaces Air Dive",
       "Ground Slam: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, <C>10 s</> cooldown",
-      "> Enhances standard maneuvers and climing, <C>100%</> reduced airborne accuracy penalty",
+      "> Enhances standard maneuvers and climbing, <C>100%</> reduced airborne accuracy penalty",
       "> Ignites surrounding area for <C>5 s</> on death during maneuvers",
-      "<B>> Can no longer ADS while Boost active",
+      "<B>> Can no longer ADS while Boost active</>",
       "<B>> Can be Disabled</>",
       ":: <D>SCORCH HAZARD</>",
       "> Backdraft AOE on maneuver activation while enemies in proximity or body impact while Boost active: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, <C>5 s</> cooldown",
@@ -151,8 +151,7 @@
       ":: <D>THERMAL NANO-MESH</>",
       "> <C>50%</> increased Burn resistance, Burn stat reduction immunity",
       "> <C>25%</> defense restored per enemy hit by Backdraft and Ground Slam, restarts defense regeneration, can gain up to <C>50</> defense buffer",
-      "> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling proportionally with speed from <C>0-10 m/s</>",
-      "<B>> </><C>25%</> <B>increased direct defense damage received while Boosting</>"
+      "> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling proportionally with speed from <C>0-10 m/s</>"
     ],
     "stats": {
       "vitals": 100.0,

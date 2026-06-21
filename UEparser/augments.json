@@ -1006,7 +1006,7 @@
   {
     "name": "Tether",
     "tooltip": [
-      "> Nano-wire can tether to enemy or picked up heads, dealing <C>15</> vital damage to enemies within <C>5m</> every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>",
+      "> Nano-wire can tether to enemies or detached heads, dealing <C>15</> vital damage to enemies within <C>6m</> every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>, detached heads are suspended in place while attached",
       "> <C>1 s</> Disable and Snare on damage if active for longer than <C>0.5 s</>",
       "> <C>50%</> of damage dealt by Tether restored to vitals and max vitals",
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
