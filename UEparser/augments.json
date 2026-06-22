@@ -1037,7 +1037,7 @@
     "name": "Transference",
     "tooltip": [
       "> Relocate to enemy location on visible or detected kill from direct damage, removes tagged, <C>5 s</> cooldown",
-      "> Disguise as enemy on activation, appearing as an ally on enemy HUD and radar",
+      "> Disguise as enemy on kill relocation or on Nano-wiring an enemy head for <C>2 s</>, appearing as an ally on enemy HUD and radar",
       "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources while disguised</>",
       "<B>> Disguise removed on visible facing enemy within</> <C>5 m</><B>, dealing direct damage to visible enemy or receiving direct damage from enemy</>",
       "<B>></> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on activation while Restabilise on cooldown</>",
