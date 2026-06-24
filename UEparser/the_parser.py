@@ -580,27 +580,15 @@ for skill_name, shell_data in skill_rows.items():
     deferd = shell_stat.get("defenseRegenDelay_55_4D0286454885F8FE3EC7268ADAA557FC", 0)
     defer = shell_stat.get("defenseRegen_54_3BC9699C4964EDA0EF71848E0F0112BB", 0) * 10
     aux = shell_stat.get("auxRegen_57_DDA62B734D987A358730EDB51DCB79E3", 0) * 10
-
-    if (shell_name == "Bison"):
-        air = 1
-        aird = 0.6
-    elif (shell_name == "Hydra"):
-        air = 1
-        aird = 0.7
-    elif (shell_name == "Dragon"):
-        air = 3
-        aird = 0.6
-    elif (shell_name == "Ghost"):
-        air = 2
-        aird = 0.6
-    elif (shell_name == "Rhino"):
-        air = 1
-        aird = 0.8
+    speed_cap = shell_stat.get("speedCap_62_5951048C47267412290BE7BB73136138", 0) / 100
+    am_charge_delay = shell_stat.get("AMChargeDelay_64_ECC6C5184D9037AC3AF66086E108AE70", 0)
+    if shell_name == "Dragon":
+        airc = 3
+    elif shell_name == "Ghost":
+        airc = 2
     else:
-        defer = 0
-        deferd = 0
-        aux = 0
-        air = 0
+        airc = 1
+
 
     found = shell_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
     if (found == "ENUM_Foundation::NewEnumerator0"):
@@ -626,8 +614,9 @@ for skill_name, shell_data in skill_rows.items():
             "defense_regen_delay": deferd,
             "aux_regen": aux,
             "speed": 8 - (sped / 100),
-            "aerial_charges": air,
-            "aerial_charges_regen": aird,
+            "speed_cap": speed_cap,
+            "aerial_charges": airc,
+            "aerial_charges_regen": am_charge_delay,
             "core_speed": core,
             "radar_profile": rdr / 100     
         },
