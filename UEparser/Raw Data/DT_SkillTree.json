@@ -1017,8 +1017,8 @@
           {
             "Namespace": "",
             "Key": "2F130C9449AF696DAAE800ABE505BE34",
-            "SourceString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>15%</> <B>increased direct damage received while Disabled</>",
-            "LocalizedString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>15%</> <B>increased direct damage received while Disabled</>"
+            "SourceString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>25%</> <B>increased direct damage received while Disabled or Overcharged</>",
+            "LocalizedString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>25%</> <B>increased direct damage received while Disabled or Overcharged</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1530,8 +1530,8 @@
           {
             "Namespace": "",
             "Key": "99F2D4AB459D437DF20FDA8A8559D3B3",
-            "SourceString": "> Deflects headshots while active\r\n> Reduces fatal headshot damage by up to <C>100%</>\r\n> Immunity to Tether and Neuro-Link devices while active\r\n<B>> Can no longer ADS while active</>\r\n<B>> Can no longer use Neuro-Link devices while active</>\r\n<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
-            "LocalizedString": "> Deflects headshots while active\r\n> Reduces fatal headshot damage by up to <C>100%</>\r\n> Immunity to Tether and Neuro-Link devices while active\r\n<B>> Can no longer ADS while active</>\r\n<B>> Can no longer use Neuro-Link devices while active</>\r\n<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+            "SourceString": "> Deflects headshots while active\r\n> Reduces fatal headshot damage by up to <C>100%</>\r\n> Immunity to Tether and Neuro-Link devices while active\r\n<B>> Can no longer ADS while active</>\r\n<B>> Can no longer use Neuro-Link devices while active</>\r\n<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap</>",
+            "LocalizedString": "> Deflects headshots while active\r\n> Reduces fatal headshot damage by up to <C>100%</>\r\n> Immunity to Tether and Neuro-Link devices while active\r\n<B>> Can no longer ADS while active</>\r\n<B>> Can no longer use Neuro-Link devices while active</>\r\n<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1638,8 +1638,8 @@
           {
             "Namespace": "",
             "Key": "C1C67BA840F759B876D9629AB3C268B1",
-            "SourceString": "> Can equip and pickup heavy weapons, replaces backup slot\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons are dropped on rolling maneuvers</>\r\n<B>> Heavy weapons can only be fired while aiming</>",
-            "LocalizedString": "> Can equip and pickup heavy weapons, replaces backup slot\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons are dropped on rolling maneuvers</>\r\n<B>> Heavy weapons can only be fired while aiming</>"
+            "SourceString": "> Can equip and pickup heavy weapons\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons can only be fired while aiming are dropped on knockdown and unequipped on rolling maneuvers</>\r\n<B>></> <C>0.5 m/s</> <B>reduced movement speed cap</>",
+            "LocalizedString": "> Can equip and pickup heavy weapons\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons can only be fired while aiming are dropped on knockdown and unequipped on rolling maneuvers</>\r\n<B>></> <C>0.5 m/s</> <B>reduced movement speed cap</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2232,8 +2232,8 @@
           {
             "Namespace": "",
             "Key": "65C906AC48401E49478C8382F2D55D47",
-            "SourceString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>",
-            "LocalizedString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>"
+            "SourceString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-25%</> <B>increased damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>",
+            "LocalizedString": "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>\r\n> <C>100%</> increased Core generation\r\n<B>></> <C>0-25%</> <B>increased damage received, scaling proportionally with Core charge from</> <C>0-100</>\r\n<B>></> <C>100%</> <B>Core charge drained on deploy</>\r\n<B>> Visible trails</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2340,8 +2340,8 @@
           {
             "Namespace": "",
             "Key": "6CBCC7BB4E94F2BB25F91289863FEB83",
-            "SourceString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>increased Disable duration</>",
-            "LocalizedString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>50%</> <B>increased Disable duration</>"
+            "SourceString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>35%</> <B>reduced defense restored from all sources</>",
+            "LocalizedString": "> Explosive damage applies Snare and Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>35%</> <B>reduced defense restored from all sources</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2691,8 +2691,8 @@
           {
             "Namespace": "",
             "Key": "C096261F4EDA287B25B186852E6F7A65",
-            "SourceString": "> Can equip sidearm, backup and primary weapons in both sidearm and primary slots\r\n> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>",
-            "LocalizedString": "> Can equip sidearm, backup and primary weapons in both sidearm and primary slots\r\n> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>"
+            "SourceString": "> Can equip sidearm, backup, heavy and primary weapons in both sidearm and primary slots\r\n> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> Can equip sidearm, backup, heavy and primary weapons in both sidearm and primary slots\r\n> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

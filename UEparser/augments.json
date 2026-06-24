@@ -223,7 +223,7 @@
       "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration",
       "> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration",
       "> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>",
-      "<B>></> <C>15%</> <B>increased direct damage received while Disabled</>"
+      "<B>></> <C>25%</> <B>increased direct damage received while Disabled or Overcharged</>"
     ],
     "foundations": {
       "type": "tech",
@@ -472,7 +472,7 @@
       "<B>> Can no longer ADS while active</>",
       "<B>> Can no longer use Neuro-Link devices while active</>",
       "<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>",
-      "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+      "<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap</>"
     ],
     "foundations": {
       "type": "body",
@@ -523,12 +523,12 @@
   {
     "name": "Heavy Weapons",
     "tooltip": [
-      "> Can equip and pickup heavy weapons, replaces backup slot",
+      "> Can equip and pickup heavy weapons",
       "> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped",
       "> Disarm immunity while heavy weapon equipped",
       "<B>> Unable to dive or prone while heavy weapon equipped</>",
-      "<B>> Heavy weapons are dropped on rolling maneuvers</>",
-      "<B>> Heavy weapons can only be fired while aiming</>"
+      "<B>> Heavy weapons can only be fired while aiming are dropped on knockdown and unequipped on rolling maneuvers</>",
+      "<B>></> <C>0.5 m/s</> <B>reduced movement speed cap</>"
     ],
     "foundations": {
       "type": "hardware",
@@ -837,7 +837,7 @@
       "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>100%</> increased Core generation",
-      "<B>></> <C>0-50%</> <B>increased direct damage received, scaling proportionally with Core charge from</> <C>0-100</>",
+      "<B>></> <C>0-25%</> <B>increased damage received, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>></> <C>100%</> <B>Core charge drained on deploy</>",
       "<B>> Visible trails</>"
     ],
@@ -890,7 +890,7 @@
       "> Explosive damage applies Snare and Disable for <C>2 s</>",
       "> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration",
       "<B>></> <C>25%</> <B>reduced explosive range</>",
-      "<B>></> <C>50%</> <B>increased Disable duration</>"
+      "<B>></> <C>35%</> <B>reduced defense restored from all sources</>"
     ],
     "foundations": {
       "type": "tech",
@@ -1078,7 +1078,7 @@
   {
     "name": "Versatile",
     "tooltip": [
-      "> Can equip sidearm, backup and primary weapons in both sidearm and primary slots",
+      "> Can equip sidearm, backup, heavy and primary weapons in both sidearm and primary slots",
       "> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped",
       "> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped",
       "> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped",
