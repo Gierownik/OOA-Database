@@ -63,7 +63,7 @@
     },
     "foundations": {
       "type": "body",
-      "value": 5
+      "value": 0
     }
   },
   {
@@ -95,7 +95,7 @@
     },
     "foundations": {
       "type": "body",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -127,7 +127,7 @@
     },
     "foundations": {
       "type": "body",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -197,7 +197,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -233,7 +233,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 0
     }
   },
   {
@@ -270,7 +270,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 5
+      "value": 0
     }
   },
   {
@@ -304,7 +304,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -338,7 +338,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -374,7 +374,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -408,7 +408,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -442,7 +442,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -476,7 +476,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -512,7 +512,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -546,7 +546,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -583,7 +583,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -617,7 +617,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -651,7 +651,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -688,7 +688,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -723,7 +723,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -758,7 +758,7 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 40
+      "value": 0
     }
   }
 ]

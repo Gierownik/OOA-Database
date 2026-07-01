@@ -1,0 +1,1269 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Codex",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'STRUCT_Codex'",
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_Codex.0"
+      }
+    },
+    "Rows": {
+      "AirDash": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "77E0F14C4792C83E65C3B98C96E1B0E6",
+          "SourceString": "Air Dash",
+          "LocalizedString": "Air Dash"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'AirDash'",
+          "ObjectPath": "OutOfAction/Content/Movies/AirDash.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "DA68058A48E16BEE0BBEE8BBC7867E31",
+            "SourceString": "> While airborne, tap <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While airborne, tap <C>MANEUVER</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "ED9FCA1D47FFDEDBDBF97BBE5C630215",
+            "SourceString": "> <C>Dragon Shell</>\r\n> <C>Aerial maneuver charge</>",
+            "LocalizedString": "> <C>Dragon Shell</>\r\n> <C>Aerial maneuver charge</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "FB8850B943EF9B7B78BB59A012D343E4",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "AirDiveProne": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "E47A5CEC4428CC3783DBA796AC057215",
+          "SourceString": "Air Dive - Prone",
+          "LocalizedString": "Air Dive - Prone"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'AirDiveProne'",
+          "ObjectPath": "OutOfAction/Content/Movies/AirDiveProne.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "5CD0CF5D4FC8C8D4AE47A6A00578E41B",
+            "SourceString": "> While airborne, hold <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While airborne, hold <C>MANEUVER</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "5F471D9742D6524EF867038F4A48F6AE",
+            "SourceString": "> <C>Aerial maneuver charge</>\r\n",
+            "LocalizedString": "> <C>Aerial maneuver charge</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "4DD082074A2C97FFDDD533A6D5F2D237",
+            "SourceString": "> Increased firearm accuracy\r\n",
+            "LocalizedString": "> Increased firearm accuracy\r\n"
+          }
+        ]
+      },
+      "AirDiveRoll": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "0E65FEE7491CC7F4692F33BA72CABBA4",
+          "SourceString": "Air Dive - Roll",
+          "LocalizedString": "Air Dive - Roll"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'AirDiveRoll'",
+          "ObjectPath": "OutOfAction/Content/Movies/AirDiveRoll.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "2235BE8942AEE1E601BE0CBE5E5451B3",
+            "SourceString": "> While airborne, tap or hold <C>MANEUVER</> \r\n> Before landing, release <C>MANEUVER</>",
+            "LocalizedString": "> While airborne, tap or hold <C>MANEUVER</> \r\n> Before landing, release <C>MANEUVER</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "5F3F15DC465E2C6F614B078B9A18A28C",
+            "SourceString": "> <C>Aerial maneuver charge</>\r\n",
+            "LocalizedString": "> <C>Aerial maneuver charge</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "0E9C7B64447DE4DB60AED28F76E1EF8D",
+            "SourceString": "> Increased firearm accuracy while diving\r\n> Reduced headshot damage received while rolling",
+            "LocalizedString": "> Increased firearm accuracy while diving\r\n> Reduced headshot damage received while rolling"
+          }
+        ]
+      },
+      "AirDodge": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "E69AA09046DB0B5FA2581088669EDBAE",
+          "SourceString": "Air Dodge",
+          "LocalizedString": "Air Dodge"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'AirDodge'",
+          "ObjectPath": "OutOfAction/Content/Movies/AirDodge.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "7EC5B9EA4DC65945FB4AAF941DD1D620",
+            "SourceString": "> While airbone and holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n",
+            "LocalizedString": "> While airbone and holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "AE2312DB43FEB1C8E6B91AA919E684BB",
+            "SourceString": "> <C>Aerial maneuver charge</>\r\n",
+            "LocalizedString": "> <C>Aerial maneuver charge</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "07EF88D140119AFBBF5D8BBB421DF50D",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "AirJump": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "4DD70D1F481415636AFEBBBE5341B7DA",
+          "SourceString": "Air Jump",
+          "LocalizedString": "Air Jump"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'AirJump'",
+          "ObjectPath": "OutOfAction/Content/Movies/AirJump.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "7266AC5449A4B383406A1D8FD9E5458D",
+            "SourceString": "> While airborne, tap <C>JUMP</>\r\n",
+            "LocalizedString": "> While airborne, tap <C>JUMP</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "D7C9773F4748BBF43AB2BEA6A70F89C9",
+            "SourceString": "> <C>Aerial maneuver charge</>\r\n",
+            "LocalizedString": "> <C>Aerial maneuver charge</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "386046AA412A681DD4A346A570523ADB",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "AirLunge": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "BD5C1DD3438D4761F411F59CB0F9D6E1",
+          "SourceString": "Air Lunge",
+          "LocalizedString": "Air Lunge"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'AirLunge'",
+          "ObjectPath": "OutOfAction/Content/Movies/AirLunge.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "EB89C2884D6EDF9744F0BA8A34F14DF9",
+            "SourceString": "> While airborne, hold <C>QUICK MELEE</>\r\n",
+            "LocalizedString": "> While airborne, hold <C>QUICK MELEE</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "D7C9773F4748BBF43AB2BEA6A70F89C9",
+            "SourceString": "> <C>Aerial maneuver charge</>\r\n",
+            "LocalizedString": "> <C>Aerial maneuver charge</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "386046AA412A681DD4A346A570523ADB",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "Boost": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "0A3C87074DA0BC31E3E85FBB352C7F52",
+          "SourceString": "Boost",
+          "LocalizedString": "Boost"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'Boost'",
+          "ObjectPath": "OutOfAction/Content/Movies/Boost.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "9B0314C745A56A515A0687906AB41F8B",
+            "SourceString": "> While airborne, tap or hold <C>JUMP</>\r\n",
+            "LocalizedString": "> While airborne, tap or hold <C>JUMP</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "1CE074B1478CC9D84087F495E00190B9",
+            "SourceString": "> <C>Dragon Shell</>\r\n> <C>Aerial maneuver charge</>",
+            "LocalizedString": "> <C>Dragon Shell</>\r\n> <C>Aerial maneuver charge</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "D3569226479C1E64E6FC8194C58B554D",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "DiveBoost": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "187F03174EA92787C1C76391AAE19B73",
+          "SourceString": "Dive - Boost",
+          "LocalizedString": "Dive - Boost"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DiveBoost'",
+          "ObjectPath": "OutOfAction/Content/Movies/DiveBoost.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "2C6E3E93455927BF27CAE3907CEFC366",
+            "SourceString": "> While holding any movement input, tap or hold <C>MANEUVER</>\r\n> Before landing, tap or hold <C>JUMP</>",
+            "LocalizedString": "> While holding any movement input, tap or hold <C>MANEUVER</>\r\n> Before landing, tap or hold <C>JUMP</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "1CE074B1478CC9D84087F495E00190B9",
+            "SourceString": "> <C>Dragon Shell</>\r\n> <C>Aerial maneuver charge</>",
+            "LocalizedString": "> <C>Dragon Shell</>\r\n> <C>Aerial maneuver charge</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "8C12F5C047B3A8F3B2A250A1F54C5B99",
+            "SourceString": "> Increased firearm accuracy while diving\r\n",
+            "LocalizedString": "> Increased firearm accuracy while diving\r\n"
+          }
+        ]
+      },
+      "DiveClimb": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "7D5A98C449B3F9C3B15490A0CCA85F00",
+          "SourceString": "Dive - Climb",
+          "LocalizedString": "Dive - Climb"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DiveClimb'",
+          "ObjectPath": "OutOfAction/Content/Movies/DiveClimb.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "40AB1B6D4BF4B03493EB87A0954A81C7",
+            "SourceString": "> While facing a surface and holding <C>MOVE FORWARD</>, tap or hold <C>MANEUVER</>\r\n> While airborne and ascending, or aiming upward, continue holding <C>MOVE FORWARD</>",
+            "LocalizedString": "> While facing a surface and holding <C>MOVE FORWARD</>, tap or hold <C>MANEUVER</>\r\n> While airborne and ascending, or aiming upward, continue holding <C>MOVE FORWARD</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "EBD7406641DE90583EBB768CC0FB4FC0",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "44DECC8D44468F330DBB16B9AD98038E",
+            "SourceString": "> Increased firearm accuracy while diving\r\n",
+            "LocalizedString": "> Increased firearm accuracy while diving\r\n"
+          }
+        ]
+      },
+      "DiveProne": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "6DDCDD054CB9C4D8E2D4F486FD6FB750",
+          "SourceString": "Dive - Prone",
+          "LocalizedString": "Dive - Prone"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DiveProne'",
+          "ObjectPath": "OutOfAction/Content/Movies/DiveProne.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "10035B2443415D2CB627CF901F3D7295",
+            "SourceString": "> While holding any movement input, hold <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While holding any movement input, hold <C>MANEUVER</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "EBD7406641DE90583EBB768CC0FB4FC0",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "37B62DF540D5A3C44154B68958DEACA5",
+            "SourceString": "> Increased firearm accuracy\r\n",
+            "LocalizedString": "> Increased firearm accuracy\r\n"
+          }
+        ]
+      },
+      "DiveRoll": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "C0B04FC243A1C40C8BF8DCBFDC848EFB",
+          "SourceString": "Dive - Roll",
+          "LocalizedString": "Dive - Roll"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DiveRoll'",
+          "ObjectPath": "OutOfAction/Content/Movies/DiveRoll.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "686B59CE4720DB026DE99AAE6DF32B29",
+            "SourceString": "> While holding any movement input, tap or hold <C>MANEUVER</> \r\n> Before landing, release <C>MANEUVER</>",
+            "LocalizedString": "> While holding any movement input, tap or hold <C>MANEUVER</> \r\n> Before landing, release <C>MANEUVER</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "1CAB0CD345014A9B7DE8D0B600FA7563",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "76112AE546201B078927B585000FCEEB",
+            "SourceString": "> Increased firearm accuracy while diving\r\n> Reduced headshot damage received while rolling",
+            "LocalizedString": "> Increased firearm accuracy while diving\r\n> Reduced headshot damage received while rolling"
+          }
+        ]
+      },
+      "DiveSomersault": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "24E7830544A0CDB14D0A66BC482E7BE6",
+          "SourceString": "Dive - Somersault",
+          "LocalizedString": "Dive - Somersault"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DiveSomersault'",
+          "ObjectPath": "OutOfAction/Content/Movies/DiveSomersault.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "9C1BD1544E926D61A9C827B0C63C9907",
+            "SourceString": "> While holding any movement input, tap or hold <C>MANEUVER</> \r\n> While airborne, release and tap <C>MANEUVER</>",
+            "LocalizedString": "> While holding any movement input, tap or hold <C>MANEUVER</> \r\n> While airborne, release and tap <C>MANEUVER</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "2C53CE15471EAECA788ADD88B79AC7EE",
+            "SourceString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>\r\n",
+            "LocalizedString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "7FA5A22D49665A9EBD5B50976D19A9AE",
+            "SourceString": "> Increased firearm accuracy while diving\r\n> Reduced headshot damage received while somersaulting",
+            "LocalizedString": "> Increased firearm accuracy while diving\r\n> Reduced headshot damage received while somersaulting"
+          }
+        ]
+      },
+      "DiveWallRun": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "D88F19CF480CFFBB403114A34B152224",
+          "SourceString": "Dive - Wall Run",
+          "LocalizedString": "Dive - Wall Run"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DiveWallRun'",
+          "ObjectPath": "OutOfAction/Content/Movies/DiveWallRun.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "120046EF44CEC414D2C7BBB5D46AC4B7",
+            "SourceString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>MANEUVER</>\r\n> While airborne and nearby a surface tap <C>MOVE LEFT</> or <C>MOVE RIGHT</>",
+            "LocalizedString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>MANEUVER</>\r\n> While airborne and nearby a surface tap <C>MOVE LEFT</> or <C>MOVE RIGHT</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "EBD7406641DE90583EBB768CC0FB4FC0",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "44DECC8D44468F330DBB16B9AD98038E",
+            "SourceString": "> Increased firearm accuracy while diving\r\n",
+            "LocalizedString": "> Increased firearm accuracy while diving\r\n"
+          }
+        ]
+      },
+      "Dodge": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "4B459D7F42D135EF21BB8F9C65541832",
+          "SourceString": "Dodge",
+          "LocalizedString": "Dodge"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'Dodge'",
+          "ObjectPath": "OutOfAction/Content/Movies/Dodge.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "499BA77A4405F0FAB0B3E7B3DDAD0033",
+            "SourceString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n",
+            "LocalizedString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "A39E3FE64EA442FEDDD6CC965EFB8EFC",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "0143DAC04342BD37B640F9B0D905EEFC",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "DodgeDive": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "162177904C87C5D7F268188E6C70AFFF",
+          "SourceString": "Dodge - Dive",
+          "LocalizedString": "Dodge - Dive"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DodgeDive'",
+          "ObjectPath": "OutOfAction/Content/Movies/DodgeDive.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "D4217A7A4A3CF955097319914C253BA0",
+            "SourceString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n> While dodging, hold <C>MANEUVER</>",
+            "LocalizedString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n> While dodging, hold <C>MANEUVER</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "3CADE92A440CDD93C7FE9C9E7971F135",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "0ECD387A46A6AEBA2D1382A864032C20",
+            "SourceString": "> Increased firearm accuracy while diving\r\n",
+            "LocalizedString": "> Increased firearm accuracy while diving\r\n"
+          }
+        ]
+      },
+      "DodgeJump": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "974EA5DB4CEE5AFE816CB89203F086E2",
+          "SourceString": "Dodge - Jump",
+          "LocalizedString": "Dodge - Jump"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DodgeJump'",
+          "ObjectPath": "OutOfAction/Content/Movies/DodgeJump.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "72E9BB1B45715CDEFF34E68E70A2188B",
+            "SourceString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n> While dodging, hold <C>JUMP</>",
+            "LocalizedString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n> While dodging, hold <C>JUMP</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "3CADE92A440CDD93C7FE9C9E7971F135",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "2C65E4DC4F30FB15957EDBBCEBE0ED98",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "DodgeRoll": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "601259EF4780D0D72DEA2CB973A32B00",
+          "SourceString": "Dodge - Roll",
+          "LocalizedString": "Dodge - Roll"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DodgeRoll'",
+          "ObjectPath": "OutOfAction/Content/Movies/DodgeRoll.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "E23F10054628B19FAB9B3ABACB3407CB",
+            "SourceString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n> While dodging, keep holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, then release and hold <C>CROUCH</>",
+            "LocalizedString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n> While dodging, keep holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, then release and hold <C>CROUCH</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "0314E6704EB612D0460E71869E700039",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "1322C6E2455FDB638B44468DE4FC3262",
+            "SourceString": "> Reduced headshot damage received while rolling\r\n",
+            "LocalizedString": "> Reduced headshot damage received while rolling\r\n"
+          }
+        ]
+      },
+      "DodgeSlide": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "F33E68A548DDB83ADE4F43B0128D7776",
+          "SourceString": "Dodge - Slide",
+          "LocalizedString": "Dodge - Slide"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'DodgeSlide'",
+          "ObjectPath": "OutOfAction/Content/Movies/DodgeSlide.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "BA7B9F2244BE8068B17D7782E3A687F4",
+            "SourceString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n> While dodging, release <C>CROUCH</> and movement input, then tap or hold <C>CROUCH</>",
+            "LocalizedString": "> While holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n> While dodging, release <C>CROUCH</> and movement input, then tap or hold <C>CROUCH</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "19BACB2A4BE8604ABD66FF8FEFAAC432",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "1533006E463B9388562E7AA57997B87C",
+            "SourceString": "> Increased firearm accuracy while sliding\r\n",
+            "LocalizedString": "> Increased firearm accuracy while sliding\r\n"
+          }
+        ]
+      },
+      "FreeSlide": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "64C441E841A9CB2D070A02912427BF41",
+          "SourceString": "Free Slide",
+          "LocalizedString": "Free Slide"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'SlideFree'",
+          "ObjectPath": "OutOfAction/Content/Movies/SlideFree.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "E47895984480CEA93FB00B924A1851A5",
+            "SourceString": "> While moving with no movement input held, tap or hold <C>CROUCH</>\r\n",
+            "LocalizedString": "> While moving with no movement input held, tap or hold <C>CROUCH</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E93E83046DF9D27524A108FEDEA14D6",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "ADD4FBFB4702F949F4E59587546E63FE",
+            "SourceString": "> Increased firearm accuracy\r\n",
+            "LocalizedString": "> Increased firearm accuracy\r\n"
+          }
+        ]
+      },
+      "GroundSlam": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "9615522D449D55BF93A167B2AEDF5EEE",
+          "SourceString": "Ground Slam",
+          "LocalizedString": "Ground Slam"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'GroundSlam'",
+          "ObjectPath": "OutOfAction/Content/Movies/GroundSlam.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "1B6444124A3CDBB6255BB39EC333A158",
+            "SourceString": "> While airborne, tap or hold <C>CROUCH</>\r\n",
+            "LocalizedString": "> While airborne, tap or hold <C>CROUCH</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "199A382944B8CB430EF703963E4EA096",
+            "SourceString": "> <C>Dragon Shell</>\r\n> <C>Aerial maneuver charge</>",
+            "LocalizedString": "> <C>Dragon Shell</>\r\n> <C>Aerial maneuver charge</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "6FB3C66C4315CBABCF40EEA14767F2C0",
+            "SourceString": "> Increased firearm accuracy while sliding\r\n",
+            "LocalizedString": "> Increased firearm accuracy while sliding\r\n"
+          }
+        ]
+      },
+      "Lunge": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "6D427C954961E47CA92EA188402AD5B7",
+          "SourceString": "Lunge",
+          "LocalizedString": "Lunge"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'Lunge'",
+          "ObjectPath": "OutOfAction/Content/Movies/Lunge.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "CC2D42FB488D20BFA800818345DD0593",
+            "SourceString": "> Hold <C>QUICK MELEE</>\r\n",
+            "LocalizedString": "> Hold <C>QUICK MELEE</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "D3D9BF794F59A1D6601F14996345C673",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "740B3694420BEC24A9EF37827873BCA6",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "NanoWirePull": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "EA7A3D8940447B9D7D2759B592949609",
+          "SourceString": "Nano-wire Pull",
+          "LocalizedString": "Nano-wire Pull"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'NanoWirePull'",
+          "ObjectPath": "OutOfAction/Content/Movies/NanoWirePull.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "0EC7075D48E89B8EC95B1FB94A54C242",
+            "SourceString": "> While a valid interaction point is targeted, tap <C>INTERACT</>\r\n",
+            "LocalizedString": "> While a valid interaction point is targeted, tap <C>INTERACT</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "99E858D741896DE350F0FE8599028681",
+            "SourceString": "> Anchor device or Augmented Nano-wire augment\r\n",
+            "LocalizedString": "> Anchor device or Augmented Nano-wire augment\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "740B3694420BEC24A9EF37827873BCA6",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "ProneDrop": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "50F0E13A47F71A1B75D649BB31A5A622",
+          "SourceString": "Prone Drop",
+          "LocalizedString": "Prone Drop"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'ProneDrop'",
+          "ObjectPath": "OutOfAction/Content/Movies/ProneDrop.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "2E186B894136E2AEB7B76D8429F021A4",
+            "SourceString": "> With no movement input held, hold <C>MANEUVER</>\r\n",
+            "LocalizedString": "> With no movement input held, hold <C>MANEUVER</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "88E1293C46F9A4777076F28CDE736F1A",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "A07D86B048771930BD81A5B3D31549FD",
+            "SourceString": "> Increased firearm accuracy\r\n",
+            "LocalizedString": "> Increased firearm accuracy\r\n"
+          }
+        ]
+      },
+      "RollJump": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "40DA929541F312ED665711A6FE7A4749",
+          "SourceString": "Roll - Jump",
+          "LocalizedString": "Roll - Jump"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'RollJump'",
+          "ObjectPath": "OutOfAction/Content/Movies/RollJump.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "894AC49340074D42F417D9B7F5D32337",
+            "SourceString": "> While rolling, hold <C>JUMP</>\r\n",
+            "LocalizedString": "> While rolling, hold <C>JUMP</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3CADE92A440CDD93C7FE9C9E7971F135",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3045C31D4F8E5FE074A6D482409229D5",
+            "SourceString": "> Reduced headshot damage received while rolling\r\n",
+            "LocalizedString": "> Reduced headshot damage received while rolling\r\n"
+          }
+        ]
+      },
+      "Slide": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "494EB57F4E6E7A8CF109A686BA5F9B46",
+          "SourceString": "Slide",
+          "LocalizedString": "Slide"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'Slide'",
+          "ObjectPath": "OutOfAction/Content/Movies/Slide.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "C43DBF734E999796B1BB3E8C54142AAF",
+            "SourceString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>CROUCH</>\r\n",
+            "LocalizedString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>CROUCH</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E93E83046DF9D27524A108FEDEA14D6",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "ADD4FBFB4702F949F4E59587546E63FE",
+            "SourceString": "> Increased firearm accuracy\r\n",
+            "LocalizedString": "> Increased firearm accuracy\r\n"
+          }
+        ]
+      },
+      "SlideDive": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "26CA889B466EE880DFA2EA9A3FA9B060",
+          "SourceString": "Slide - Dive",
+          "LocalizedString": "Slide - Dive"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'SlideDive'",
+          "ObjectPath": "OutOfAction/Content/Movies/SlideDive.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "9CA75DAB42D9EC936A293D9FD9162703",
+            "SourceString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>CROUCH</>\r\n> While sliding, hold <C>MANEUVER</>",
+            "LocalizedString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>CROUCH</>\r\n> While sliding, hold <C>MANEUVER</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "91C30AF2498CB8F3A83A5D8D916A5BA0",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "AD1D9B5D409DE296B3D7339D64A57CC4",
+            "SourceString": "> Increased firearm accuracy\r\n",
+            "LocalizedString": "> Increased firearm accuracy\r\n"
+          }
+        ]
+      },
+      "SlideDodge": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "6D60DC52432C5D11B40EB79494B29B3D",
+          "SourceString": "Slide - Dodge",
+          "LocalizedString": "Slide - Dodge"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'SlideDodge'",
+          "ObjectPath": "OutOfAction/Content/Movies/SlideDodge.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "8F030F63456BCB770D387592E5439D3F",
+            "SourceString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>CROUCH</>\r\n> While sliding, release and hold <C>CROUCH</> while holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>.",
+            "LocalizedString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>CROUCH</>\r\n> While sliding, release and hold <C>CROUCH</> while holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>."
+          },
+          {
+            "Namespace": "",
+            "Key": "BA4507BA4BEFD8595508C88404F7184F",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "78EFB47D4319C075461947A90BB90960",
+            "SourceString": "> Increased firearm accuracy while sliding\r\n",
+            "LocalizedString": "> Increased firearm accuracy while sliding\r\n"
+          }
+        ]
+      },
+      "SlideRoll": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "F60EF33B4C64EC749DC2E5A35CF30053",
+          "SourceString": "Slide - Roll",
+          "LocalizedString": "Slide - Roll"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'SlideRoll'",
+          "ObjectPath": "OutOfAction/Content/Movies/SlideRoll.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "503C329C484924BFDD07F3866933299F",
+            "SourceString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>CROUCH</>\r\n> While sliding, release and hold <C>CROUCH</>",
+            "LocalizedString": "> While holding <C>MOVE FORWARD</> or <C>MOVE BACK</>, tap or hold <C>CROUCH</>\r\n> While sliding, release and hold <C>CROUCH</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "9D83CB9F4BEEBF9D54CA86B7FC74EB12",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "87211461497495A5E71D9CB579FDADAD",
+            "SourceString": "> Increased firearm accuracy while sliding\r\n> Reduced headshot damage received while rolling",
+            "LocalizedString": "> Increased firearm accuracy while sliding\r\n> Reduced headshot damage received while rolling"
+          }
+        ]
+      },
+      "Somersault": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "299888A445D98F0E8D977C9355FC1171",
+          "SourceString": "Somersault",
+          "LocalizedString": "Somersault"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'Somersault'",
+          "ObjectPath": "OutOfAction/Content/Movies/Somersault.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "03BE7EAE43E3A04FCEE3EDA58B3959F2",
+            "SourceString": "> While airborne and moving, tap <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While airborne and moving, tap <C>MANEUVER</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "9CF16F2F47A6641D2F14EA877BE2271C",
+            "SourceString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>",
+            "LocalizedString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "F3689CEC460FF25741CB878CF9260992",
+            "SourceString": "> Reduced headshot damage received while somersaulting\r\n",
+            "LocalizedString": "> Reduced headshot damage received while somersaulting\r\n"
+          }
+        ]
+      },
+      "SomersaultProne": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "5670E1644E9F89B94D300D9FE397F0D7",
+          "SourceString": "Somersault - Prone",
+          "LocalizedString": "Somersault - Prone"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'SomersaultProne'",
+          "ObjectPath": "OutOfAction/Content/Movies/SomersaultProne.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "53D7032948AF1094AD30998DB19DF361",
+            "SourceString": "> While airborne and moving, hold <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While airborne and moving, hold <C>MANEUVER</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "E91150F74C432EFA52D7109CCA18714C",
+            "SourceString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>",
+            "LocalizedString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>"
+          },
+          {
+            "Namespace": "",
+            "Key": "C0F600DF4AFCA9F14A76C79EC0D4AAD0",
+            "SourceString": "> Reduced headshot damage received while somersaulting\r\n> Increased firearm accuracy while prone",
+            "LocalizedString": "> Reduced headshot damage received while somersaulting\r\n> Increased firearm accuracy while prone"
+          }
+        ]
+      },
+      "Strafe": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "CAE0D81A4CC08D540F50C3951B8856C8",
+          "SourceString": "Strafe",
+          "LocalizedString": "Strafe"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'Strafe'",
+          "ObjectPath": "OutOfAction/Content/Movies/Strafe.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "06F9ABDC42F0473814C80BAEC3139B52",
+            "SourceString": "> While scanning or carrying an object with Nano-wire, tap <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While scanning or carrying an object with Nano-wire, tap <C>MANEUVER</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "91C30AF2498CB8F3A83A5D8D916A5BA0",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "A2F7B2844CC81E9EB90EA1B818B590E7",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "WallClimbRun": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "048B948842C998300CCDAAB356DCC0B4",
+          "SourceString": "Wall Climb / Run",
+          "LocalizedString": "Wall Climb / Run"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'WallClimbRun'",
+          "ObjectPath": "OutOfAction/Content/Movies/WallClimbRun.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "9722BEB44268F8D357C289B1F99129E1",
+            "SourceString": "> While wall latched, hold any movement input while facing toward or along the surface\r\n",
+            "LocalizedString": "> While wall latched, hold any movement input while facing toward or along the surface\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E8DC543488CC00E59BB658694B9A438",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "36CD040D46C50D03C95F5AB31D046391",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "WallDive": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "E1FAF7E44151D5F9A7892496AC1FC4C4",
+          "SourceString": "Wall Dive",
+          "LocalizedString": "Wall Dive"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'WallDive'",
+          "ObjectPath": "OutOfAction/Content/Movies/WallDive.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "18C605B040D55A8486C0DBA97B675861",
+            "SourceString": "> While wall latched, hold <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While wall latched, hold <C>MANEUVER</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E8DC543488CC00E59BB658694B9A438",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "4EFF607D4EE9FE7CAE396FB742B4673C",
+            "SourceString": "> Increased firearm accuracy while diving\r\n",
+            "LocalizedString": "> Increased firearm accuracy while diving\r\n"
+          }
+        ]
+      },
+      "WallFlip": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "338F5B2E4B5F30A128141DA68BB50235",
+          "SourceString": "Wall Flip",
+          "LocalizedString": "Wall Flip"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'WallFlip'",
+          "ObjectPath": "OutOfAction/Content/Movies/WallFlip.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "EF2839A449103E0FA3ACE29E91E80F19",
+            "SourceString": "> While wall latched, tap <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While wall latched, tap <C>MANEUVER</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E8DC543488CC00E59BB658694B9A438",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "C328177441A15AB28F74B1A99007385F",
+            "SourceString": "> Reduced headshot damage received while flipping\r\n",
+            "LocalizedString": "> Reduced headshot damage received while flipping\r\n"
+          }
+        ]
+      },
+      "WallJump": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "D100C1024753080A6CBFEB93CC4D8B73",
+          "SourceString": "Wall Jump",
+          "LocalizedString": "Wall Jump"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'WallJump'",
+          "ObjectPath": "OutOfAction/Content/Movies/WallJump.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "3E13041F4774DF0EE80037BA2D2BEC51",
+            "SourceString": "> While wall latched, tap <C>JUMP</>\r\n",
+            "LocalizedString": "> While wall latched, tap <C>JUMP</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E8DC543488CC00E59BB658694B9A438",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "BB8483E147BE0780F19914852125DAF2",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "WallKick": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "125D5FFD40BA3C5365A57487AC3A2842",
+          "SourceString": "Wall Kick",
+          "LocalizedString": "Wall Kick"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'WallKick'",
+          "ObjectPath": "OutOfAction/Content/Movies/WallKick.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "5CDAA2F54F481150A0BC0D996825CE1D",
+            "SourceString": "> While airborne and next to a surface, hold <C>MOVE LEFT</> or <C>MOVE RIGHT</> and tap or hold <C>CROUCH</>\r\n",
+            "LocalizedString": "> While airborne and next to a surface, hold <C>MOVE LEFT</> or <C>MOVE RIGHT</> and tap or hold <C>CROUCH</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E8DC543488CC00E59BB658694B9A438",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "BBE0D9124AAF09D468A7F8AD24ED2214",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "WallLatch": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "5CAFEDE24D391F90A1AC4387935E92A9",
+          "SourceString": "Wall Latch",
+          "LocalizedString": "Wall Latch"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'WallLatch'",
+          "ObjectPath": "OutOfAction/Content/Movies/WallLatch.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "7C405601407ABA9F2E478ABF7ECCC15F",
+            "SourceString": "> While airborne and ascending, or aiming upward, face a nearby surface and hold <C>MOVE FORWARD</>\r\n",
+            "LocalizedString": "> While airborne and ascending, or aiming upward, face a nearby surface and hold <C>MOVE FORWARD</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E8DC543488CC00E59BB658694B9A438",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "2A4F69334CAFB9330D8D7586A799EE1C",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "WallSideLatch": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "B8BB58AB4DEA80A8982C00BFCEDB2576",
+          "SourceString": "Wall Side Latch",
+          "LocalizedString": "Wall Side Latch"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'WallSideLatch'",
+          "ObjectPath": "OutOfAction/Content/Movies/WallSideLatch.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "5F7365A248ACE14C50826AAFF81CE331",
+            "SourceString": "> While airborne and nearby a surface, tap <C>MOVE LEFT</> or <C>MOVE RIGHT</>\r\n",
+            "LocalizedString": "> While airborne and nearby a surface, tap <C>MOVE LEFT</> or <C>MOVE RIGHT</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E8DC543488CC00E59BB658694B9A438",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "2ACB24AB4183AF66CD4CAF8ABF3F8A54",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      }
+    }
+  }
+]

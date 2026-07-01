@@ -11,7 +11,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -28,7 +28,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 50
+      "value": 0
     }
   },
   {
@@ -42,7 +42,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -57,7 +57,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 10
+      "value": 0
     }
   },
   {
@@ -75,7 +75,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -90,7 +90,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -105,7 +105,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -120,7 +120,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -137,7 +137,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -151,7 +151,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -165,7 +165,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -181,7 +181,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -200,7 +200,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -214,7 +214,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -227,7 +227,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -240,7 +240,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -254,7 +254,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -267,7 +267,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -281,7 +281,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -293,7 +293,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -308,7 +308,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -321,7 +321,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -334,7 +334,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -347,7 +347,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -365,7 +365,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -379,7 +379,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -391,18 +391,18 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 25
+      "value": 0
     }
   },
   {
     "name": "Enhanced Foundation",
     "tooltip": [
-      "> <C>0.35%</> reduced movement speed penalties and backup weapon damage received for each Body foundation upgrade",
-      "> <C>0.35%</> increased aux power regeneration and radar range for each Tech foundation upgrade",
-      "> <C>0.35%</> reduced firearm ADS spread and increased device throw velocity for each Hardware foundation upgrade",
-      "<B>></> <C>0.25%</> <B>reduced knockback resistance and increased body impact damage received for each Body foundation upgrade</>",
-      "<B>></> <C>0.25%</> <B>increased detectable range and direct damage received while Disabled for each Tech foundation upgrade</>",
-      "<B>></> <C>0.25%</> <B>reduced reserve ammo and device duration for each Hardware foundation upgrade</>"
+      "> <C>8%</> reduced movement speed penalties and backup weapon damage received for each Body foundation upgrade",
+      "> <C>8%</> increased aux power regeneration and radar range for each Tech foundation upgrade",
+      "> <C>8%</> reduced firearm ADS spread and increased device throw velocity for each Hardware foundation upgrade",
+      "<B>></> <C>6%</> <B>reduced knockback resistance and increased body impact damage received for each Body foundation upgrade</>",
+      "<B>></> <C>6%</> <B>increased detectable range and direct damage received while Disabled for each Tech foundation upgrade</>",
+      "<B>></> <C>6%</> <B>reduced reserve ammo and device duration for each Hardware foundation upgrade</>"
     ],
     "foundations": {
       "type": "body",
@@ -418,7 +418,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -433,7 +433,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -445,7 +445,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -460,7 +460,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -476,7 +476,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -491,7 +491,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -504,7 +504,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -517,7 +517,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -532,7 +532,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -547,7 +547,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -562,7 +562,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -576,7 +576,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -589,7 +589,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -602,7 +602,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -616,7 +616,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -627,7 +627,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -648,7 +648,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 50
+      "value": 0
     }
   },
   {
@@ -661,7 +661,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -673,7 +673,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -686,7 +686,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 50
+      "value": 0
     }
   },
   {
@@ -705,7 +705,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -720,7 +720,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -733,7 +733,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -742,7 +742,7 @@
       "> <C>25%</> increased far damage with sidearms while using a single sidearm or akimbo alternate aim stance",
       "> <C>25%</> reduced spread, spread gain, recoil and weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance",
       "> Dispatch: <C>100%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>",
-      "> <C>25%</> increase quick melee dash speed and range while using sidearms",
+      "> <C>25%</> increased lunge speed and range while using sidearms",
       "> <C>100%</> additional base sidearm reserve ammo",
       "> All equipped or picked up sidearms gain the Suppressor mod with no slot cost",
       "<B>> Can no longer equip primary weapons</>",
@@ -750,7 +750,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -763,7 +763,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -777,7 +777,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -791,7 +791,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 50
+      "value": 0
     }
   },
   {
@@ -803,7 +803,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 10
+      "value": 0
     }
   },
   {
@@ -815,7 +815,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -828,7 +828,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -843,7 +843,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 50
+      "value": 0
     }
   },
   {
@@ -856,7 +856,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -870,7 +870,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -881,7 +881,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -894,7 +894,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -910,7 +910,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 50
+      "value": 0
     }
   },
   {
@@ -927,7 +927,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 50
+      "value": 0
     }
   },
   {
@@ -940,7 +940,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -956,7 +956,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -971,7 +971,7 @@
     ],
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -984,7 +984,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -1000,7 +1000,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -1014,7 +1014,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -1030,7 +1030,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -1045,7 +1045,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -1059,7 +1059,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -1072,7 +1072,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -1089,7 +1089,7 @@
     ],
     "foundations": {
       "type": "body",
-      "value": 50
+      "value": 0
     }
   }
 ]

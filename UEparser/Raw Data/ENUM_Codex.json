@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "ENUM_Codex",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "1B30177F41CC0E15E2F115B150EF6721",
+            "SourceString": "Movement",
+            "LocalizedString": "Movement"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "4E55E8EE4263604B4348BAA275314B4E",
+            "SourceString": "Matrix",
+            "LocalizedString": "Matrix"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "ENUM_Codex::NewEnumerator0": 0,
+      "ENUM_Codex::NewEnumerator1": 1,
+      "ENUM_Codex::ENUM_MAX": 2
+    },
+    "CppForm": "Namespaced"
+  }
+]

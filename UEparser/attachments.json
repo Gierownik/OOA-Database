@@ -64,7 +64,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -98,7 +98,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 0
     }
   },
   {
@@ -132,7 +132,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -167,7 +167,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 5
+      "value": 0
     }
   },
   {
@@ -201,7 +201,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -234,7 +234,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -269,7 +269,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -303,7 +303,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -339,7 +339,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -376,7 +376,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -398,7 +398,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -422,7 +422,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -444,7 +444,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -467,7 +467,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -498,7 +498,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -531,7 +531,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -557,7 +557,7 @@
     "speed_penalty": 0.2,
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -591,7 +591,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 10
+      "value": 0
     }
   },
   {
@@ -611,7 +611,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -629,7 +629,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -661,7 +661,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -681,7 +681,7 @@
     "speed_penalty": 0.15,
     "foundations": {
       "type": "hardware",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -706,7 +706,7 @@
     "speed_penalty": 0.2,
     "foundations": {
       "type": "hardware",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -725,7 +725,7 @@
     "speed_penalty": 0.15,
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -744,7 +744,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -766,7 +766,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -817,7 +817,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -846,7 +846,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -875,7 +875,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 20
+      "value": 0
     }
   },
   {
@@ -904,7 +904,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 15
+      "value": 0
     }
   },
   {
@@ -929,7 +929,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -961,7 +961,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -988,7 +988,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -1009,7 +1009,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -1029,7 +1029,7 @@
     "speed_penalty": 0.15,
     "foundations": {
       "type": "tech",
-      "value": 35
+      "value": 0
     }
   },
   {
@@ -1065,7 +1065,7 @@
     "speed_penalty": 0.25,
     "foundations": {
       "type": "hardware",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -1087,7 +1087,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -1121,7 +1121,7 @@
     "speed_penalty": 0.0,
     "foundations": {
       "type": "hardware",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -1144,7 +1144,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -1164,7 +1164,7 @@
     "speed_penalty": 0.15,
     "foundations": {
       "type": "hardware",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -1184,7 +1184,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -1206,7 +1206,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
-      "value": 25
+      "value": 0
     }
   },
   {
@@ -1228,7 +1228,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 40
+      "value": 0
     }
   },
   {
@@ -1249,7 +1249,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
-      "value": 50
+      "value": 0
     }
   },
   {
@@ -1269,7 +1269,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
-      "value": 45
+      "value": 0
     }
   },
   {
@@ -1290,7 +1290,7 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "value": 30
+      "value": 0
     }
   },
   {
@@ -1317,7 +1317,7 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
-      "value": 35
+      "value": 0
     }
   }
 ]
