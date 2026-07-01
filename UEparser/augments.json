@@ -126,7 +126,7 @@
   {
     "name": "Augmented Nano-wire",
     "tooltip": [
-      "> Nano-wire can attach to held enemy weapons pulling you toward them, applies Snare for <C>2 s</>",
+      "> Nano-wire can attach to enemies, pulling you toward them",
       "> Can disarm weapon during active Core or while enemy is knocked down, <C>10 s</> cooldown",
       "> Nano-wire can pickup enemy devices and projectiles, ownership transfered if held for <C>1 s</>",
       "> <C>25%</> increased Nano-wire range",
@@ -302,6 +302,7 @@
       "> Enemies detecting you within <C>30 m</> are detected",
       "> Enemies interacting with objectives within <C>30 m</> are detected",
       "> Enemies that tag you are tagged",
+      "> Unobstructed enemies within <C>15 m</> of your decapitated head are detected to allies",
       "> Visible disguised enemies within <C>15 m</> are revealed",
       "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
       "<B>> Can be Disabled</>"
@@ -839,6 +840,7 @@
       "> <C>100%</> increased Core generation",
       "<B>></> <C>0-25%</> <B>increased damage received, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>></> <C>100%</> <B>Core charge drained on deploy</>",
+      "<B>></> <C>25%</> <B>reduced Core duration</>",
       "<B>> Visible trails</>"
     ],
     "foundations": {
@@ -1007,7 +1009,7 @@
     "name": "Tether",
     "tooltip": [
       "> Nano-wire can tether to enemies or detached heads, dealing <C>15</> vital damage to enemies within <C>6m</> every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>, detached heads are suspended in place while attached",
-      "> <C>1 s</> Disable and Snare on damage if active for longer than <C>0.5 s</>",
+      "> Applies <C>1 s</> Disable on damage if active for longer than <C>0.5 s</>",
       "> <C>50%</> of damage dealt by Tether restored to vitals and max vitals",
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
       "<B>> Can be Disabled</>"

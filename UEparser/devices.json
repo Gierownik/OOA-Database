@@ -165,11 +165,10 @@
     }
   },
   {
-    "name": "Desync",
+    "name": "Glitch",
     "type": "Neuro-link",
     "tooltip": [
-      "> Deals <C>5</> vital damage, <C>6 s</> Desync to visible and up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy, applies Desync+ to disabled targets",
-      "> Desync: Scrambles radar, reverses IFF for detections and targeting systems",
+      "> Deals <C>5</> vital damage, <C>6 s</> Desync to visible and up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy, applies Desync+ to enemies with Core active",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",
@@ -195,7 +194,7 @@
     "name": "Pathogen",
     "type": "Neuro-link",
     "tooltip": [
-      "> Applies <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies",
+      "> Applies <C>1/s</> Bleed and <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",

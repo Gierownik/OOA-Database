@@ -54,7 +54,7 @@
     "duration": "2s",
     "tooltip": [
       "<B>> <C>100%</> reduced vitals restored from all sources</>",
-      "<B>> <C>20/s</> chemical damage</>"
+      "<B>> <C>10/s</> chemical damage</>"
     ],
     "enhancement": "",
     "enh_tooltip": [
