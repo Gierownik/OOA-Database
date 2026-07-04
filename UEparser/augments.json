@@ -499,7 +499,7 @@
     "name": "Headhunter",
     "tooltip": [
       "> <C>0.25x</> additional headshot damage multiplier",
-      "> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost",
+      "> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost",
       "> <C>25</> vitals and defense, and <C>5</> Core charge restored on head pickup, head is destroyed",
       "<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
     ],
@@ -528,8 +528,8 @@
       "> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped",
       "> Disarm immunity while heavy weapon equipped",
       "<B>> Unable to dive or prone while heavy weapon equipped</>",
-      "<B>> Heavy weapons can only be fired while aiming are dropped on knockdown and unequipped on rolling maneuvers</>",
-      "<B>></> <C>0.5 m/s</> <B>reduced movement speed cap</>"
+      "<B>> Heavy weapons can only be fired while aiming, are dropped on knockdown and unequipped on rolling maneuvers</>",
+      "<B>></> <C>1 m/s</> <B>reduced movement speed cap</>"
     ],
     "foundations": {
       "type": "hardware",
@@ -656,7 +656,7 @@
     "name": "Necrosis",
     "tooltip": [
       "> All sources of Corrode apply Corrode+",
-      "> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active, obscures vision, applies <C>2 s</> Snare and Corrode to enemies on contact",
+      "> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active, obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact",
       "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
       "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
     ],

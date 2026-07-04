@@ -38,9 +38,9 @@
       "body_name": "Combat Focus",
       "body": "50% increased weapon accuracy and 25% increased speed and dexterity for 5 s on receiving direct vitals damage, 10 s cooldown",
       "tech_name": "Flow State",
-      "tech": "Core activates without cost for 2.5 s on performing a wall dive or flip within 1 s of starting a climb, 20 s cooldown",
+      "tech": "Core activates without cost for 2 s on performing a wall dive or flip within 1 s of starting a climb, 20 s cooldown",
       "hardware_name": "Locked In",
-      "hardware": "Melee and firearm damage gains 0-50% defense bypass proportional to remaining vitals, from 100-25%"
+      "hardware": "Melee and firearm damage gains 0-35% defense bypass proportional to remaining vitals, from 100-25%"
     }
   },
   {
@@ -84,7 +84,7 @@
       "body_name": "Overstimulated",
       "body": "Gain an Adrenal Feedback stack and restore 25 vitals every 20 s, increases maximum stacks by 5",
       "tech_name": "Feedback Loop",
-      "tech": "Reaching 5 Adrenal Feedback stacks fully charges Core while inactive, stacks no longer reset and gain 1 stack on Core activation, visible enemy kills during active Core consume a stack to increase its duration by up to 5 s, Core speed by 10% and restore 25 vitals and max vitals, stacks reset on Core deactivation",
+      "tech": "Adrenal Feedback stacks no longer reset and gain up to 5 stacks on Core activation, visible enemy kills during active Core consume a stack to refresh its duration, increase Core speed by 10% and restore 25 vitals and max vitals, stacks reset on Core deactivation",
       "hardware_name": "Post-Kill Clarity",
       "hardware": "Gain Amplify and firearms and backup weapons bypass all damage reductions for 5 s on kill, Amplify enhances vision and displays all enemies on radar, duration extended while dealing damage, 15 s cooldown"
     }
@@ -223,7 +223,7 @@
       "tech_name": "Power Relay",
       "tech": "30 /s defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain 5% additional Core speed for each unobstructed enemy or ally within 15 m while Core active",
       "hardware_name": "Reverberate",
-      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-50%. Overcharge for 5 s on firearm or backup weapon kill within 4 m"
+      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-50%. Overcharge for 5 s on firearm or backup weapon kill within 5 m"
     }
   }
 ]

@@ -1584,8 +1584,8 @@
           {
             "Namespace": "",
             "Key": "8426F2EC42DD0C04D63D65AD7EAC08FF",
-            "SourceString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost\r\n> <C>25</> vitals and defense, and <C>5</> Core charge restored on head pickup, head is destroyed\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>",
-            "LocalizedString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or extend active Core for <C>2.5 s</> with no charge cost\r\n> <C>25</> vitals and defense, and <C>5</> Core charge restored on head pickup, head is destroyed\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
+            "SourceString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost\r\n> <C>25</> vitals and defense, and <C>5</> Core charge restored on head pickup, head is destroyed\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>",
+            "LocalizedString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost\r\n> <C>25</> vitals and defense, and <C>5</> Core charge restored on head pickup, head is destroyed\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1638,8 +1638,8 @@
           {
             "Namespace": "",
             "Key": "C1C67BA840F759B876D9629AB3C268B1",
-            "SourceString": "> Can equip and pickup heavy weapons\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons can only be fired while aiming are dropped on knockdown and unequipped on rolling maneuvers</>\r\n<B>></> <C>0.5 m/s</> <B>reduced movement speed cap</>",
-            "LocalizedString": "> Can equip and pickup heavy weapons\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons can only be fired while aiming are dropped on knockdown and unequipped on rolling maneuvers</>\r\n<B>></> <C>0.5 m/s</> <B>reduced movement speed cap</>"
+            "SourceString": "> Can equip and pickup heavy weapons\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons can only be fired while aiming, are dropped on knockdown and unequipped on rolling maneuvers</>\r\n<B>></> <C>1 m/s</> <B>reduced movement speed cap</>",
+            "LocalizedString": "> Can equip and pickup heavy weapons\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons can only be fired while aiming, are dropped on knockdown and unequipped on rolling maneuvers</>\r\n<B>></> <C>1 m/s</> <B>reduced movement speed cap</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1881,8 +1881,8 @@
           {
             "Namespace": "",
             "Key": "D8D79D8C4940A91B2555879E1101865F",
-            "SourceString": "> All sources of Corrode apply Corrode+\r\n> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active, obscures vision, applies <C>2 s</> Snare and Corrode to enemies on contact\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
-            "LocalizedString": "> All sources of Corrode apply Corrode+\r\n> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active, obscures vision, applies <C>2 s</> Snare and Corrode to enemies on contact\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
+            "SourceString": "> All sources of Corrode apply Corrode+\r\n> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active, obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
+            "LocalizedString": "> All sources of Corrode apply Corrode+\r\n> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active, obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2934,8 +2934,8 @@
           {
             "Namespace": "",
             "Key": "DE611BFA4F0BEA71BCFD318CEDF91B92",
-            "SourceString": "> Applies <C>1/s</> Bleed and <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>",
-            "LocalizedString": "> Applies <C>1/s</> Bleed and <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
+            "SourceString": "> Applies <C>1/s</> Bleed and <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies, bypasses and clears Bleed immunity\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>",
+            "LocalizedString": "> Applies <C>1/s</> Bleed and <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies, bypasses and clears Bleed immunity\r\n<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3312,8 +3312,8 @@
           {
             "Namespace": "",
             "Key": "13B699CF429DF7AFA694F786AA34F8D2",
-            "SourceString": "> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> Cloud obscures vision, applies <C>2 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration",
-            "LocalizedString": "> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> Cloud obscures vision, applies <C>2 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration"
+            "SourceString": "> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration",
+            "LocalizedString": "> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

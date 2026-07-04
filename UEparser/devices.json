@@ -194,7 +194,7 @@
     "name": "Pathogen",
     "type": "Neuro-link",
     "tooltip": [
-      "> Applies <C>1/s</> Bleed and <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies",
+      "> Applies <C>1/s</> Bleed and <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies, bypasses and clears Bleed immunity",
       "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
     ],
     "experimental": "false",
@@ -556,7 +556,7 @@
     "type": "Standard",
     "tooltip": [
       "> Creates toxic cloud on impact, spreading to nearby surfaces",
-      "> Cloud obscures vision, applies <C>2 s</> Snare and Corrode to enemies on contact",
+      "> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact",
       "> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets",
       "> Maximum Efficiency: <C>100%</> increased duration"
     ],
