@@ -473,7 +473,7 @@
     "name": "Satchel Charge",
     "type": "Standard",
     "tooltip": [
-      "> Deals <C>150-50</> explosive damage, knockback and knockdown to targets within <C>2-5 m</> on activation",
+      "> Deals <C>150-75</> explosive damage, knockback and knockdown to targets within <C>2-5 m</> on activation",
       "> Can attach to surfaces and Shells",
       "> Maximum Efficiency: <C>50%</> of damage dealt as additional Burn damage",
       "<B>> Can be Disabled</>"

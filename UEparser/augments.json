@@ -81,8 +81,9 @@
   {
     "name": "Armadillo",
     "tooltip": [
-      "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown",
-      "> Deflects direct damage, clears Burn and gains Burn immunity while active",
+      "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown, hard target",
+      "> Deflects direct damage while active, reducing damage by <C>50%</>",
+      "> Clears Burn and gains Burn immunity while active",
       "> Destroys attached devices on activate",
       "> Automatically roll on knockdown while grounded",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
@@ -171,7 +172,7 @@
   {
     "name": "Backdoor",
     "tooltip": [
-      "> Enemies are detected to allies for <C>5-1 s</> on successful Neuro-Link, proportional to amount effected from <C>1-5</>, <C>15 s</> cooldown",
+      "> Enemies are detected to allies within <C>100 m</> for <C>5-1 s</> on successful Neuro-Link, proportional to amount effected from <C>1-5</>, <C>15 s</> cooldown",
       "> On receiving Neuro-Link detect the sender to allies for <C>2 s</>",
       "> Enemies within <C>30 m</> are detected while enemy head attached to Nano-wire",
       "> Devices and explosives of visible or detected enemies are detected to allies",
@@ -187,7 +188,7 @@
   {
     "name": "Bloodsport",
     "tooltip": [
-      "> Bleeding enemies are detected while Bleeding",
+      "> Bleeding enemies within <C>100 m</> are detected while Bleeding",
       "> <C>100%</> of Bleed damage dealt restored to vitals and max vitals while Bleeding",
       "> <C>25%</> of damage dealt with backup weapons and body impacts restored to vitals and max vitals while Bleeding, addititonal <C>25%</> if target is Bleeding",
       "> <C>25</> vitals restored on visible enemy kill while Bleeding, additional <C>50</> if target is Bleeding",
@@ -328,7 +329,7 @@
   {
     "name": "Damage Report",
     "tooltip": [
-      "> Detect enemies for <C>0.75 s</> on dealing direct damage",
+      "> Detect enemies within <C>100 m</> for <C>0.75 s</> on dealing direct damage",
       "> Detect enemies within <C>15 m</> of killed enemy for <C>3 s</>, <C>10 s</> cooldown",
       "<B>></> <C>50%</> <B>reduced radar detection range</>",
       "<B>> Can be Disabled</>"
@@ -467,12 +468,11 @@
   {
     "name": "Hardcase",
     "tooltip": [
-      "> Deflects headshots while active",
-      "> Reduces fatal headshot damage by up to <C>100%</>",
+      "> Deflects headshots while active, reducing damage by <C>50%</>, hard target",
       "> Immunity to Tether and Neuro-Link devices while active",
       "<B>> Can no longer ADS while active</>",
       "<B>> Can no longer use Neuro-Link devices while active</>",
-      "<B>> </> <C>4 s</> <B>Disable+ and destroyed on prevention of fatal headshot</>",
+      "<B>> </> <C>4 s</> <B>Disable+ and destroyed on receiving</> <C>150</> <B>damage</>",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap</>"
     ],
     "foundations": {
@@ -500,7 +500,7 @@
     "tooltip": [
       "> <C>0.25x</> additional headshot damage multiplier",
       "> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost",
-      "> <C>25</> vitals and defense, and <C>5</> Core charge restored on head pickup, head is destroyed",
+      "> <C>25</> vitals and defense, and <C>10</> Core charge restored on head pickup if Nano-wire held, head is destroyed",
       "<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
     ],
     "foundations": {
@@ -693,7 +693,7 @@
   {
     "name": "Overseer",
     "tooltip": [
-      "> Personal targeting drone, replaces scan",
+      "> Personal targeting drone, replaces scan, hard target",
       "> Provides external camera view and paints visible enemies while active",
       "> <C>25%</> increased target painting detection zone",
       "> <C>35%</> reduced hipfire spread and spread gain on painted targets",
@@ -742,8 +742,8 @@
     "tooltip": [
       "> <C>25%</> increased far damage with sidearms while using a single sidearm or akimbo alternate aim stance",
       "> <C>25%</> reduced spread, spread gain, recoil and weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance",
-      "> Dispatch: <C>100%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>",
-      "> <C>25%</> increased lunge speed and range while using sidearms",
+      "> Dispatch: <C>50%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>",
+      "> <C>25%</> increased lunge speed and duration while using sidearms",
       "> <C>100%</> additional base sidearm reserve ammo",
       "> All equipped or picked up sidearms gain the Suppressor mod with no slot cost",
       "<B>> Can no longer equip primary weapons</>",
@@ -865,9 +865,10 @@
     "name": "Resourceful",
     "tooltip": [
       "> Deconstruct weapons if Nano-wire held while picking up, weapon is destroyed",
+      "> Deconstruct heads if Nano-wire held while picking up, head is destroyed",
       "> <C>100%</> of equipped weapons ammo capacity restored as reserve ammo on deconstruct",
-      "> <C>5 s</> reduced standard device cooldowns on deconstruct",
-      "> <C>1 s</> reduced primary stim cooldown on deconstruct",
+      "> <C>5 s</> reduced active standard device cooldowns on deconstruct",
+      "> <C>1 s</> reduced active primary stim cooldown on deconstruct",
       "<B>></> <C>25%</> <B>reduced reserve ammo</>"
     ],
     "foundations": {
@@ -967,7 +968,7 @@
       "> Additional weapon mod slot",
       "> <C>200%</> additional base reserve ammo",
       "> <C>100%</> additional stealth weapon ammo",
-      "> <C>50%</> reduced standard device cooldowns on kill",
+      "> <C>50%</> reduced active standard device cooldowns on kill",
       "<B>></> <C>25%</> <B>Increased device cooldowns</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
@@ -1022,8 +1023,8 @@
   {
     "name": "Threat Detection",
     "tooltip": [
-      "> Automatically detect enemies within <C>15 m</> if they have fired a weapon within <C>2 s</>",
-      "> Automatically detect enemy devices within <C>15 m</>",
+      "> Detect enemies within <C>15 m</> if they have fired a weapon within <C>2 s</>",
+      "> Detect enemy devices within <C>15 m</>",
       "> Countermeasure: Automatically destroys unobstructed enemy device or explosive within <C>5 m</>, <C>30 s</> cooldown",
       "<B>></> <C>50%</> <B>increased radar profile</>",
       "<B>> Visible on radar while stationary</>",
