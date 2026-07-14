@@ -49,6 +49,17 @@
       "<B>> <C>25%</> increased direct defense damage received</>"
     ]
   },
+    {
+    "name": "Cauterize",
+    "tick": "0.5s",
+    "tooltip": [
+      "<B>> When Bleed + Burn applied",
+      "<B>> <C>100%</> increased Bleed damage</>",
+      "> Clears Bleed after 1 tick"
+    ],
+    "enhancement": "",
+    "enh_tooltip": []
+  },
   {
     "name": "Corrode",
     "duration": "2s",
@@ -159,5 +170,16 @@
       "<B>> Removes all aerial charges, maneuvers and the ability to climb</>",
       "<B>> Enviroment impacts deal damage</>"
     ]
+  },
+  {
+    "name": "Volatile",
+    "tick": "0.5s",
+    "tooltip": [
+      "<B>> When Corrode + Burn applied",
+      "<B>> Enhances Burn into Burn+",
+      "> Clears Corrode after 1 tick"
+    ],
+    "enhancement": "",
+    "enh_tooltip": []
   }
 ]

@@ -278,8 +278,7 @@
     "tooltip": [
       "> <C>50%</> of damage dealt as additional Burn damage",
       "> Hot mag: <C>25%</> additional environment penetration and velocity",
-      "<B>></> <C>25%</> <B>reduced  damage</>",
-      "<B>></> <C>100%</> <B>reduced Bleed damage</>"
+      "<B>></> <C>25%</> <B>reduced  damage</>"
     ],
     "technician": "true",
     "compatibility": [
@@ -433,7 +432,6 @@
       "> Detonates on Shell impact",
       "> Burn and explosive damage, ignites surrounding area, <C>2 s</> Snare",
       "> Hot mag: <C>25%</> additional velocity",
-      "<B>></> <C>100%</> <B>reduced bleed damage</>",
       "<B>></> <C>25%</> <B>reduced explosive damage</>"
     ],
     "technician": "true",

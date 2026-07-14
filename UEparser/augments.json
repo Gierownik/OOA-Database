@@ -890,7 +890,7 @@
   {
     "name": "Shell Shock",
     "tooltip": [
-      "> Explosive damage applies Snare and Disable for <C>2 s</>",
+      "> Explosive damage applies Disable for <C>2 s</>",
       "> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration",
       "<B>></> <C>25%</> <B>reduced explosive range</>",
       "<B>></> <C>35%</> <B>reduced defense restored from all sources</>"
@@ -953,7 +953,7 @@
       "> Unaffected by Core slowing effects while Core active and using backup weapons",
       "> <C>100%</> increased Core generation with backup weapons",
       "> <C>100%</> reduced backup weapon loadout speed penalty",
-      "<B>> Can only equip backup weapons and enhancement devices</>",
+      "<B>> Can no longer equip primary weapons</>",
       "<B>></> <C>50%</> <B>reduced Core regeneration</>",
       "<B>></> <C>25%</> <B>reduced Core duration</>"
     ],
@@ -1055,7 +1055,7 @@
     "name": "Unstable Core",
     "tooltip": [
       "> <C>100%</> Core generation on deploy",
-      "> Core detonation on death or failure, deals <C>50-25</> vital damage, knockback and knockdown to all enemies within <C>2-4 m</>",
+      "> Core detonation on death or failure, applies <C>2 s</> Disable+ and knockback to enemies within <C>4 m</>",
       "> Overcharge while Core fully charged: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
       "<B>> While Core fully charged: Core failure initiates after</> <C>60 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on any Core charge drain or enemy Disable attempt. Failure can be vented by manual Core activation or visible enemy kill</>",
       "<B>></> <C>50%</> <B>reduced Core duration, Shell specific Core bonuses disabled</>"
