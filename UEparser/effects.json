@@ -174,7 +174,7 @@
     "name": "Volatile",
     "tick": "0.5s",
     "tooltip": [
-      "<B>> Enhances Burn into Burn+",
+      "<B>> Enhances Burn into Burn+ </>",
       "> Clears Corrode after 1 tick"
     ],
     "enhancement": "When Corrode + Burn applied",
