@@ -40,7 +40,7 @@
     "tick": "0.5s",
     "tooltip": [
       "<B>> Up to 20/s Burn damage</>",
-      "<B>> <C>50%</> decreased dexterity</>",
+      "<B>> <C>50%</> reduced effectiveness of dexterity increases</>",
       "<B>> Burn ticks don't deplete while moving over 8m/s</>",
       "> <C>5</> burn ticks removed on roll"
     ],
