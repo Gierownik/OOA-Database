@@ -54,7 +54,7 @@
     "tick": "0.5s",
     "tooltip": [
       "<B>> <C>100%</> increased Bleed damage</>",
-      "> Clears Bleed after 1 tick"
+      "> Clears Bleed after 2 ticks"
     ],
     "enhancement": "When Bleed + Burn applied",
     "enh_tooltip": []
