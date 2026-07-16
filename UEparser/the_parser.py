@@ -104,6 +104,17 @@ attachment_stats = attachment_data[0]["Rows"]
 weapon_stats = weapon_data[0]["Rows"]
 shell_stats = shell_data[0]["Rows"]
 skill_rows = skilltree_data[0]["Rows"]
+
+
+def build_foundations(row, found_type):
+    tier_value = row.get("Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0) or 0
+    foundation_value = int(round(tier_value / 16.66))
+    return {
+        "type": found_type,
+        "tier": tier_value,
+        "value": foundation_value,
+    }
+
 #---------------------------------------------------permks----------------------------------------------------
 perk_output = []
 
@@ -132,15 +143,10 @@ for skill_name, skill_data in skill_rows.items():
             found_type = "hardware"
         else:
             found_type = "other"
-        req = skill_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
-
         perk_output.append({
             "name": perk_name,
             "tooltip": lines,
-            "foundations": {
-                "type": found_type,
-                "value": req
-            }
+            "foundations": build_foundations(skill_data, found_type)
         })
 
 
@@ -207,8 +213,6 @@ for skill_name, data in skill_rows.items():
     else:
         experimental = "false"
     
-    req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
-
     hack_cost = device_stat.get("hackCost_72_4777439447B8D0EC1F9F58AB05AB0DCF", 0)
 
     scndry = device_stat.get("reuseable_62_5CCDC7FD4AF14869FB954EA041F0D5C1", 0)
@@ -272,10 +276,7 @@ for skill_name, data in skill_rows.items():
             "secondary_action": secondary,
             "can_be_disabled": disable
         },
-        "foundations": {
-            "type": found_type,
-            "value": req
-        }
+        "foundations": build_foundations(data, found_type)
     })
 
 with open("devices.json", "w", encoding="utf-8") as out_file:
@@ -300,8 +301,6 @@ for skill_name, data in skill_rows.items():
         found_type = "hardware"
     else:
         found_type = "other"
-    req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
-
     weapon_stat = weapon_stats.get(skill_name, {})
     damage_section = weapon_stat.get("damage_51_4503C2744F2DD64F4FC8FFADCC5F09EE", {})
 
@@ -372,10 +371,7 @@ for skill_name, data in skill_rows.items():
     weapon_output.append({
         "name": weapon_name,
         "stats": stats,
-        "foundations": {
-            "type": found_type,
-            "value": req
-        }
+        "foundations": build_foundations(data, found_type)
     })
 
 with open("weapons.json", "w", encoding="utf-8") as out_file:
@@ -439,8 +435,6 @@ for skill_name, data in skill_rows.items():
     else:
         technician = "false"
     
-    req = data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
-
     speed_pen = attachment_stat.get("speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2", 0)
 
     attachment_output.append({
@@ -451,10 +445,7 @@ for skill_name, data in skill_rows.items():
         "compatibility": compatibility,
         "excludes": exclude,
         "speed_penalty": speed_pen / 100,
-        "foundations": {
-            "type": found_type,
-            "value": req
-        }
+        "foundations": build_foundations(data, found_type)
     })
 
 with open("attachments.json", "w", encoding="utf-8") as out_file:
@@ -599,8 +590,6 @@ for skill_name, shell_data in skill_rows.items():
         found_type = "hardware"
     else:
         found_type = "other"
-    req = shell_data.get("Requirement_59_D88055FA43F71EEE4E6C4A8D07FC1C9D", 0)
-    
     # Parse spec data for this specific shell
     spec_data = parse_single_shell_spec(shell_name, shells_spec_tooltip)
 
@@ -620,10 +609,7 @@ for skill_name, shell_data in skill_rows.items():
             "core_speed": core,
             "radar_profile": rdr / 100     
         },
-        "foundations": {
-            "type": found_type,
-            "value": req
-        },
+        "foundations": build_foundations(shell_data, found_type),
         "spec": spec_data
     })
 

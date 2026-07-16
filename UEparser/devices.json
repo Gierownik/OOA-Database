@@ -25,7 +25,8 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 0
+      "tier": 45,
+      "value": 3
     }
   },
   {
@@ -54,6 +55,7 @@
     },
     "foundations": {
       "type": "tech",
+      "tier": 0,
       "value": 0
     }
   },
@@ -81,7 +83,8 @@
     },
     "foundations": {
       "type": "body",
-      "value": 0
+      "tier": 45,
+      "value": 3
     }
   },
   {
@@ -108,7 +111,8 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 0
+      "tier": 40,
+      "value": 2
     }
   },
   {
@@ -134,7 +138,8 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 0
+      "tier": 20,
+      "value": 1
     }
   },
   {
@@ -161,7 +166,8 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 0
+      "tier": 40,
+      "value": 2
     }
   },
   {
@@ -187,7 +193,8 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 0
+      "tier": 25,
+      "value": 2
     }
   },
   {
@@ -213,7 +220,8 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 0
+      "tier": 45,
+      "value": 3
     }
   },
   {
@@ -243,7 +251,8 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 0
+      "tier": 50,
+      "value": 3
     }
   },
   {
@@ -270,6 +279,7 @@
     },
     "foundations": {
       "type": "hardware",
+      "tier": 5,
       "value": 0
     }
   },
@@ -297,6 +307,7 @@
     },
     "foundations": {
       "type": "tech",
+      "tier": 0,
       "value": 0
     }
   },
@@ -325,7 +336,8 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 0
+      "tier": 15,
+      "value": 1
     }
   },
   {
@@ -354,7 +366,8 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 0
+      "tier": 10,
+      "value": 1
     }
   },
   {
@@ -380,6 +393,7 @@
     },
     "foundations": {
       "type": "tech",
+      "tier": 0,
       "value": 0
     }
   },
@@ -408,7 +422,8 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 0
+      "tier": 10,
+      "value": 1
     }
   },
   {
@@ -439,7 +454,8 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 0
+      "tier": 40,
+      "value": 2
     }
   },
   {
@@ -466,6 +482,7 @@
     },
     "foundations": {
       "type": "hardware",
+      "tier": 5,
       "value": 0
     }
   },
@@ -494,7 +511,8 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 0
+      "tier": 20,
+      "value": 1
     }
   },
   {
@@ -520,7 +538,8 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 0
+      "tier": 15,
+      "value": 1
     }
   },
   {
@@ -548,7 +567,8 @@
     },
     "foundations": {
       "type": "tech",
-      "value": 0
+      "tier": 10,
+      "value": 1
     }
   },
   {
@@ -576,7 +596,8 @@
     },
     "foundations": {
       "type": "hardware",
-      "value": 0
+      "tier": 35,
+      "value": 2
     }
   },
   {
@@ -603,7 +624,8 @@
     },
     "foundations": {
       "type": "body",
-      "value": 0
+      "tier": 25,
+      "value": 2
     }
   }
 ]

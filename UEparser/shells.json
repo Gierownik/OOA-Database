@@ -32,6 +32,7 @@
     },
     "foundations": {
       "type": "body",
+      "tier": 0,
       "value": 0
     },
     "spec": {
@@ -78,7 +79,8 @@
     },
     "foundations": {
       "type": "body",
-      "value": 0
+      "tier": 10,
+      "value": 1
     },
     "spec": {
       "body_name": "Overstimulated",
@@ -123,7 +125,8 @@
     },
     "foundations": {
       "type": "body",
-      "value": 0
+      "tier": 20,
+      "value": 1
     },
     "spec": {
       "body_name": "Safety Measures",
@@ -171,7 +174,8 @@
     },
     "foundations": {
       "type": "body",
-      "value": 0
+      "tier": 10,
+      "value": 1
     },
     "spec": {
       "body_name": "Thermal Transfer",
@@ -215,7 +219,8 @@
     },
     "foundations": {
       "type": "body",
-      "value": 0
+      "tier": 15,
+      "value": 1
     },
     "spec": {
       "body_name": "Force Trauma",
