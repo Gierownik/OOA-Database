@@ -318,7 +318,7 @@
     "name": "Target Painter",
     "type": "Optic",
     "tooltip": [
-      "> Paints visible enemies",
+      "> Paints visible enemies within <C>25 m</>",
       "> <C>35%</> reduced hipfire spread and spread gain on painted targets",
       "> <C>25%</> reduced alternate aim spread and spread gain on painted targets",
       "<B>></> <C>15%</> <B>reduced speed while firing</>",
