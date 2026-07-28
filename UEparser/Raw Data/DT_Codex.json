@@ -125,8 +125,8 @@
           {
             "Namespace": "",
             "Key": "7EC5B9EA4DC65945FB4AAF941DD1D620",
-            "SourceString": "> While airbone and holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n",
-            "LocalizedString": "> While airbone and holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n"
+            "SourceString": "> While airborne and holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n",
+            "LocalizedString": "> While airborne and holding <C>MOVE LEFT</> or <C>MOVE RIGHT</>, tap or hold <C>CROUCH</>\r\n"
           },
           {
             "Namespace": "",
