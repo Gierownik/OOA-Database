@@ -103,7 +103,7 @@
   {
     "name": "Augmented Arms",
     "tooltip": [
-      "> <C>25%</> increased backup weapon charge speed",
+      "> <C>25%</> increased backup weapon windup speed",
       "> <C>100%</> increased backup weapon combo point generation",
       "> <C>25%</> increased firearm and device throw velocity",
       "> <C>25%</> reduced firearm recoil and spread gain",
@@ -338,9 +338,10 @@
     "name": "Covert",
     "tooltip": [
       "> <C>50%</> reduced detectable range",
-      "> Shroud for <C>3s</> on kill, <C>6s</> without receiving damage from target",
+      "> Gain <G>Shroud</> for <C>3s</> on kill, <C>6s</> without receiving damage from target",
       "> Devices and projectiles are undetectable",
-      "<B>> Can be Disabled</>"
+      "<B>> Can be Disabled</>",
+      "<G>*Shroud:</> Undetectable by all equipment"
     ],
     "foundations": {
       "type": "tech",
@@ -365,10 +366,9 @@
   {
     "name": "Dead Drop",
     "tooltip": [
-      "> Aiming, quick melee or charging backup weapon after recent climb activates Overkill, <C>5 s</> cooldown",
-      "> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy",
+      "> Aiming, quick melee or charging backup weapon after recent climb activates <G>Overkill</>, <C>5 s</> cooldown",
       "> Deactivates after <C>2 s</> if no longer falling",
-      "<B>></> <C>100%</> <B>increased direct damage received while active</>"
+      "<G>*Overkill:</> Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, backup weapon windup speed and firearm accuracy. <C>100%</> <B>increased direct damage received while active</>"
     ],
     "foundations": {
       "type": "body",
@@ -484,12 +484,13 @@
   {
     "name": "Gecko",
     "tooltip": [
-      "> Gain Shroud while climbing, <C>0.5 s</> activation time",
+      "> Gain <G>Shroud</> while climbing, <C>0.5 s</> activation time",
       "> Gain camouflage while stationary and climbing, any actions will deactivate, <C>4 s</> cooldown",
       "> <C>100%</> reduced aux power drain from climbing",
       "> <C>100%</> reduced fall damage when landing into a climb",
       "> <C>15%</> increased speed, jump speed and weapon accuracy while climbing",
-      "<B>> Can be Disabled</>"
+      "<B>> Can be Disabled</>",
+      "<G>*Shroud:</> Undetectable by all equipment"
     ],
     "foundations": {
       "type": "body",
@@ -565,6 +566,7 @@
       "> Disarm immunity while heavy weapon equipped",
       "<B>> Unable to dive or prone while heavy weapon equipped</>",
       "<B>> Heavy weapons can only be fired while aiming, are dropped on knockdown and unequipped on rolling maneuvers</>",
+      "<B>></> <C>50%</> <B>increased aux power drain from all sources while airborne</>",
       "<B>></> <C>1 m/s</> <B>reduced movement speed cap</>"
     ],
     "foundations": {
@@ -838,11 +840,10 @@
   {
     "name": "Rage Core",
     "tooltip": [
-      "> Gain Overkill while Core active",
-      "> Overkill: Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity and firearm accuracy",
+      "> Gain <G>Overkill</> while Core active",
       "> <C>25%</> of damage received from enemies within the last <C>10 s</>, up to <C>50</>, restored to vitals and max vitals on Core activation",
       "> <C>5%</> of damage received from enemies converted to Core charge",
-      "<B>></> <C>100%</> <B>increased direct damage received while active</>"
+      "<G>*Overkill:</> Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, backup weapon windup speed and firearm accuracy. <C>100%</> <B>increased direct damage received while active</>"
     ],
     "foundations": {
       "type": "body",
@@ -893,8 +894,8 @@
   {
     "name": "Redline",
     "tooltip": [
-      "> <C>0-50%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
-      "> <C>0-50%</> increased dexterity, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
+      "> <C>0-50%</> reduced speed penalties and airborne deceleration, scaling proportionally with Core charge from <C>0-100</>",
+      "> <C>0-50%</> increased dexterity, acceleration, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
       "> <C>100%</> increased Core generation",
       "<B>></> <C>0-25%</> <B>increased damage received, scaling proportionally with Core charge from</> <C>0-100</>",
       "<B>></> <C>100%</> <B>Core charge drained on deploy</>",
@@ -926,9 +927,9 @@
     "tooltip": [
       "> Deconstruct weapons if Nano-wire held while picking up, weapon is destroyed",
       "> Deconstruct heads if Nano-wire held while picking up, head is destroyed",
-      "> <C>100%</> of equipped weapons ammo capacity restored as reserve ammo on deconstruct",
-      "> <C>5 s</> reduced active standard device cooldowns on deconstruct",
-      "> <C>1 s</> reduced active primary stim cooldown on deconstruct",
+      "> <C>50%</> of equipped weapons ammo restored on deconstruct",
+      "> <C>100%</> reduced active primary stim cooldown on deconstruct",
+      "> <C>25%</> reduced active standard device cooldowns on deconstruct",
       "<B>></> <C>25%</> <B>reduced reserve ammo</>"
     ],
     "foundations": {
@@ -940,8 +941,9 @@
   {
     "name": "Reversal",
     "tooltip": [
-      "> Overcharge on receiving Disable: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>4 m</> for <C>2 s</>, active for duration of received Disable",
-      "<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>"
+      "> Gain <G>Overcharge</> on receiving Disable, active for duration of received Disable",
+      "<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>",
+      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>"
     ],
     "foundations": {
       "type": "tech",
@@ -955,7 +957,7 @@
       "> Explosive damage applies Disable for <C>2 s</>",
       "> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration",
       "<B>></> <C>25%</> <B>reduced explosive range</>",
-      "<B>></> <C>35%</> <B>reduced defense restored from all sources</>"
+      "<B>></> <C>25%</> <B>reduced defense restored from all sources</>"
     ],
     "foundations": {
       "type": "tech",
@@ -987,10 +989,11 @@
       "> Unaffected by all speed penalties while climbing",
       "> <C>40 /s</> aux power regeneration while climbing",
       "> Surge: Activates on reaching <C>8 m/s</> while climbing, deactivates after <C>2 s</> if no longer climbing or below <C>8 m/s</>",
-      "> Gain Overcharge and knockdown enemies while Surge active, can telefrag on activation or detaching from climb",
+      "> Gain <G>Overcharge</> and knockdown enemies while Surge active, can telefrag on activation or detaching from climb",
       "<B>></> <C>100%</> <B>reduced vitals and defense restored from all sources while Surge active</>",
       "<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>",
-      "<B>></> <C>10 /s</> <B>defense damage while Surge active</>"
+      "<B>></> <C>10 /s</> <B>defense damage while Surge active</>",
+      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>"
     ],
     "foundations": {
       "type": "tech",
@@ -1129,9 +1132,10 @@
     "tooltip": [
       "> <C>100%</> Core generation on deploy",
       "> Core detonation on death or failure, applies <C>2 s</> Disable+ and knockback to enemies within <C>4 m</>",
-      "> Overcharge while Core fully charged: Disable immunity, <C>15%</> increased dexterity, ground and climb speed, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
+      "> Gain <G>Overcharge</> while Core fully charged",
       "<B>> While Core fully charged: Core failure initiates after</> <C>60 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on any Core charge drain or enemy Disable attempt. Failure can be vented by manual Core activation or visible enemy kill</>",
-      "<B>></> <C>50%</> <B>reduced Core duration, Shell specific Core bonuses disabled</>"
+      "<B>></> <C>50%</> <B>reduced Core duration, Shell specific Core bonuses disabled</>",
+      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>"
     ],
     "foundations": {
       "type": "tech",

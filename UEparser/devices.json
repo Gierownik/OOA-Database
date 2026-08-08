@@ -60,6 +60,33 @@
     }
   },
   {
+    "name": "Amplify",
+    "type": "Enhancement",
+    "tooltip": [
+      "> While active: Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar",
+      "> Maximum Efficiency: <C>50%</> increased duration"
+    ],
+    "experimental": "false",
+    "stats": {
+      "cooldown": 60.0,
+      "duration": 5.0,
+      "action": "Activate",
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "integrity": 0,
+      "speed_penalty": 0.25,
+      "hack_cost": 0.0,
+      "secondary_action": "false",
+      "can_be_disabled": "false"
+    },
+    "foundations": {
+      "type": "body",
+      "tier": 45,
+      "value": 3
+    }
+  },
+  {
     "name": "Bolster",
     "type": "Enhancement",
     "tooltip": [
@@ -231,13 +258,14 @@
       "> Creates <C>16 m</> disruptive zone on activation",
       "> Disable and Snare to enemies within zone",
       "> Disables enemy devices within zone",
-      "> Shroud to allies within zone",
+      "> <G>Shroud</> to allies within zone",
       "> Can attach to surfaces",
-      "> Maximum Efficiency: Snare+ to enemies within zone"
+      "> Maximum Efficiency: Snare+ to enemies within zone",
+      "<G>*Shroud:</> Undetectable by all equipment"
     ],
     "experimental": "true",
     "stats": {
-      "cooldown": 45.0,
+      "cooldown": 60.0,
       "duration": 30.0,
       "action": "Throw",
       "activation": "Activate",
@@ -341,6 +369,64 @@
     }
   },
   {
+    "name": "Hyper",
+    "type": "Enhancement",
+    "tooltip": [
+      "> On activate: Restores <C>100</> aux power and gain <C>4</> aerial maneuver charges",
+      "> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty",
+      "> Maximum Efficiency: <C>50%</> increased duration"
+    ],
+    "experimental": "false",
+    "stats": {
+      "cooldown": 45.0,
+      "duration": 5.0,
+      "action": "Activate",
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "integrity": 0,
+      "speed_penalty": 0.2,
+      "hack_cost": 0.0,
+      "secondary_action": "false",
+      "can_be_disabled": "false"
+    },
+    "foundations": {
+      "type": "body",
+      "tier": 25,
+      "value": 2
+    }
+  },
+  {
+    "name": "Killswitch",
+    "type": "Enhancement",
+    "tooltip": [
+      "> While active: Gain <G>Overkill</>",
+      "> Duration refreshed on unobstructed enemy kill",
+      "> Maximum Efficiency: <C>25</> vitals restored on deactivation per unobstructed enemy killed",
+      "<B>> Death on deactivate if no unobstructed enemies are killed while active</>",
+      "<G>*Overkill:</> Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, backup weapon windup speed and firearm accuracy. <C>100%</> <B>increased direct damage received while active</>"
+    ],
+    "experimental": "true",
+    "stats": {
+      "cooldown": 60.0,
+      "duration": 5.0,
+      "action": "Activate",
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "integrity": 0,
+      "speed_penalty": 0.2,
+      "hack_cost": 0.0,
+      "secondary_action": "false",
+      "can_be_disabled": "false"
+    },
+    "foundations": {
+      "type": "body",
+      "tier": 50,
+      "value": 3
+    }
+  },
+  {
     "name": "Laser Wire",
     "type": "Standard",
     "tooltip": [
@@ -374,7 +460,7 @@
     "name": "Overcharge",
     "type": "Enhancement",
     "tooltip": [
-      "> While active: Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</> for <C>2 s</>",
+      "> While active: Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>",
       "> Maximum Efficiency: <C>50%</> increased duration"
     ],
     "experimental": "false",
@@ -543,13 +629,42 @@
     }
   },
   {
+    "name": "Surge",
+    "type": "Enhancement",
+    "tooltip": [
+      "> On activate: Gain up to <C>5</> temporary backup weapon combo points",
+      "> While active: <C>50%</> increased acceleration and knockback resistance",
+      "> Maximum Efficiency: <C>50%</> increased duration"
+    ],
+    "experimental": "false",
+    "stats": {
+      "cooldown": 45.0,
+      "duration": 5.0,
+      "action": "Activate",
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "integrity": 0,
+      "speed_penalty": 0.15,
+      "hack_cost": 0.0,
+      "secondary_action": "false",
+      "can_be_disabled": "false"
+    },
+    "foundations": {
+      "type": "body",
+      "tier": 10,
+      "value": 1
+    }
+  },
+  {
     "name": "Tempest",
     "type": "Standard",
     "tooltip": [
       "> Creates multiple charged nano-particle clouds on activation",
-      "> Clouds obscure vision, detect enemies and Overcharge allies while in contact. Overcharge continues for <C>2 s</> on leaving cloud",
+      "> Clouds obscure vision, detect enemies and <G>Overcharge</> allies while in contact. <G>Overcharge</> continues for <C>2 s</> on leaving cloud",
       "> Maximum Efficiency: <C>100%</> increased duration",
-      "<B>> Can be cleared with fire</>"
+      "<B>> Can be cleared with fire</>",
+      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>"
     ],
     "experimental": "false",
     "stats": {
@@ -597,34 +712,6 @@
     "foundations": {
       "type": "hardware",
       "tier": 35,
-      "value": 2
-    }
-  },
-  {
-    "name": "Hyper",
-    "type": "Enhancement",
-    "tooltip": [
-      "> On activate: Restores <C>100</> aux power and gain <C>4</> aerial maneuver charges",
-      "> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty",
-      "> Maximum Efficiency: <C>50%</> increased duration"
-    ],
-    "experimental": "false",
-    "stats": {
-      "cooldown": 45.0,
-      "duration": 5.0,
-      "action": "Activate",
-      "activation": "None",
-      "activation_delay": 0,
-      "velocity": 0.0,
-      "integrity": 0,
-      "speed_penalty": 0.2,
-      "hack_cost": 0.0,
-      "secondary_action": "false",
-      "can_be_disabled": "false"
-    },
-    "foundations": {
-      "type": "body",
-      "tier": 25,
       "value": 2
     }
   }

@@ -247,6 +247,24 @@
             "SourceString": "Tox grenade",
             "LocalizedString": "Tox grenade"
           }
+        },
+        {
+          "Key": "NewEnumerator38",
+          "Value": {
+            "Namespace": "",
+            "Key": "D79A1DAF41CDA393F75095B44195852A",
+            "SourceString": "Killswitch",
+            "LocalizedString": "Killswitch"
+          }
+        },
+        {
+          "Key": "NewEnumerator39",
+          "Value": {
+            "Namespace": "",
+            "Key": "0B9F344F4B15F9D0C71AE2A763479D99",
+            "SourceString": "Amplify",
+            "LocalizedString": "Amplify"
+          }
         }
       ]
     },
@@ -278,7 +296,9 @@
       "ENUM_DeviceID::NewEnumerator35": 24,
       "ENUM_DeviceID::NewEnumerator36": 25,
       "ENUM_DeviceID::NewEnumerator37": 26,
-      "ENUM_DeviceID::ENUM_MAX": 27
+      "ENUM_DeviceID::NewEnumerator38": 27,
+      "ENUM_DeviceID::NewEnumerator39": 28,
+      "ENUM_DeviceID::ENUM_MAX": 29
     },
     "CppForm": "Namespaced"
   }

@@ -112,7 +112,9 @@
         "Lockdown": 23,
         "Surge": 24,
         "Hyper": 25,
-        "Tox grenade": 26
+        "Tox grenade": 26,
+        "Killswitch": 27,
+        "Amplify": 28
     },
     "Weapons": {
         "Major": 2,
@@ -161,7 +163,7 @@
         "TD Ammo": 35,
         "Chem Ammo": 36,
         "Standard Grenade": 38,
-        "Impact Grenade": 39,
+        "HV Grenade": 39,
         "Incendiary Grenade": 40,
         "Proximity Grenade": 41,
         "Ghostfire Ammo": 49
