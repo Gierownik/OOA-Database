@@ -124,7 +124,7 @@
     "tooltip": [
       "> Disable immunity",
       "> <C>15%</> increased ground speed, climb speed and dexterity",
-      "> Disable enemy players, devices and projectiles within <C>3 m</> for <C>2 s</>"
+      "> Disable enemy players, devices and projectiles within <C>3 m</>"
     ],
     "enhancement": "None",
     "enh_tooltip": []
