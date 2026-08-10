@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Codex'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_Codex.0"
+        "ObjectPath": "/Game/Blueprints/Data/STRUCT_Codex"
       }
     },
     "Rows": {
@@ -20,7 +20,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'AirDash'",
-          "ObjectPath": "OutOfAction/Content/Movies/AirDash.0"
+          "ObjectPath": "/Game/Movies/AirDash"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -53,7 +53,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'AirDiveProne'",
-          "ObjectPath": "OutOfAction/Content/Movies/AirDiveProne.0"
+          "ObjectPath": "/Game/Movies/AirDiveProne"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -86,7 +86,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'AirDiveRoll'",
-          "ObjectPath": "OutOfAction/Content/Movies/AirDiveRoll.0"
+          "ObjectPath": "/Game/Movies/AirDiveRoll"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -119,7 +119,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'AirDodge'",
-          "ObjectPath": "OutOfAction/Content/Movies/AirDodge.0"
+          "ObjectPath": "/Game/Movies/AirDodge"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -152,7 +152,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'AirJump'",
-          "ObjectPath": "OutOfAction/Content/Movies/AirJump.0"
+          "ObjectPath": "/Game/Movies/AirJump"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -185,7 +185,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'AirLunge'",
-          "ObjectPath": "OutOfAction/Content/Movies/AirLunge.0"
+          "ObjectPath": "/Game/Movies/AirLunge"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -218,7 +218,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'Boost'",
-          "ObjectPath": "OutOfAction/Content/Movies/Boost.0"
+          "ObjectPath": "/Game/Movies/Boost"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -251,7 +251,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DiveBoost'",
-          "ObjectPath": "OutOfAction/Content/Movies/DiveBoost.0"
+          "ObjectPath": "/Game/Movies/DiveBoost"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -284,7 +284,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DiveClimb'",
-          "ObjectPath": "OutOfAction/Content/Movies/DiveClimb.0"
+          "ObjectPath": "/Game/Movies/DiveClimb"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -317,7 +317,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DiveProne'",
-          "ObjectPath": "OutOfAction/Content/Movies/DiveProne.0"
+          "ObjectPath": "/Game/Movies/DiveProne"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -350,7 +350,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DiveRoll'",
-          "ObjectPath": "OutOfAction/Content/Movies/DiveRoll.0"
+          "ObjectPath": "/Game/Movies/DiveRoll"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -383,7 +383,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DiveSomersault'",
-          "ObjectPath": "OutOfAction/Content/Movies/DiveSomersault.0"
+          "ObjectPath": "/Game/Movies/DiveSomersault"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -416,7 +416,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DiveWallRun'",
-          "ObjectPath": "OutOfAction/Content/Movies/DiveWallRun.0"
+          "ObjectPath": "/Game/Movies/DiveWallRun"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -449,7 +449,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'Dodge'",
-          "ObjectPath": "OutOfAction/Content/Movies/Dodge.0"
+          "ObjectPath": "/Game/Movies/Dodge"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -482,7 +482,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DodgeDive'",
-          "ObjectPath": "OutOfAction/Content/Movies/DodgeDive.0"
+          "ObjectPath": "/Game/Movies/DodgeDive"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -515,7 +515,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DodgeJump'",
-          "ObjectPath": "OutOfAction/Content/Movies/DodgeJump.0"
+          "ObjectPath": "/Game/Movies/DodgeJump"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -548,7 +548,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DodgeRoll'",
-          "ObjectPath": "OutOfAction/Content/Movies/DodgeRoll.0"
+          "ObjectPath": "/Game/Movies/DodgeRoll"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -581,7 +581,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'DodgeSlide'",
-          "ObjectPath": "OutOfAction/Content/Movies/DodgeSlide.0"
+          "ObjectPath": "/Game/Movies/DodgeSlide"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -614,7 +614,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'SlideFree'",
-          "ObjectPath": "OutOfAction/Content/Movies/SlideFree.0"
+          "ObjectPath": "/Game/Movies/SlideFree"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -647,7 +647,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'GroundSlam'",
-          "ObjectPath": "OutOfAction/Content/Movies/GroundSlam.0"
+          "ObjectPath": "/Game/Movies/GroundSlam"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -680,7 +680,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'Lunge'",
-          "ObjectPath": "OutOfAction/Content/Movies/Lunge.0"
+          "ObjectPath": "/Game/Movies/Lunge"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -713,7 +713,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'NanoWirePull'",
-          "ObjectPath": "OutOfAction/Content/Movies/NanoWirePull.0"
+          "ObjectPath": "/Game/Movies/NanoWirePull"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -746,7 +746,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'ProneDrop'",
-          "ObjectPath": "OutOfAction/Content/Movies/ProneDrop.0"
+          "ObjectPath": "/Game/Movies/ProneDrop"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -779,7 +779,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'RollJump'",
-          "ObjectPath": "OutOfAction/Content/Movies/RollJump.0"
+          "ObjectPath": "/Game/Movies/RollJump"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -812,7 +812,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'Slide'",
-          "ObjectPath": "OutOfAction/Content/Movies/Slide.0"
+          "ObjectPath": "/Game/Movies/Slide"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -845,7 +845,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'SlideDive'",
-          "ObjectPath": "OutOfAction/Content/Movies/SlideDive.0"
+          "ObjectPath": "/Game/Movies/SlideDive"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -878,7 +878,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'SlideDodge'",
-          "ObjectPath": "OutOfAction/Content/Movies/SlideDodge.0"
+          "ObjectPath": "/Game/Movies/SlideDodge"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -911,7 +911,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'SlideRoll'",
-          "ObjectPath": "OutOfAction/Content/Movies/SlideRoll.0"
+          "ObjectPath": "/Game/Movies/SlideRoll"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -944,7 +944,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'Somersault'",
-          "ObjectPath": "OutOfAction/Content/Movies/Somersault.0"
+          "ObjectPath": "/Game/Movies/Somersault"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -977,7 +977,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'SomersaultProne'",
-          "ObjectPath": "OutOfAction/Content/Movies/SomersaultProne.0"
+          "ObjectPath": "/Game/Movies/SomersaultProne"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -1010,7 +1010,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'Strafe'",
-          "ObjectPath": "OutOfAction/Content/Movies/Strafe.0"
+          "ObjectPath": "/Game/Movies/Strafe"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -1043,7 +1043,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'WallClimbRun'",
-          "ObjectPath": "OutOfAction/Content/Movies/WallClimbRun.0"
+          "ObjectPath": "/Game/Movies/WallClimbRun"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -1076,7 +1076,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'WallDive'",
-          "ObjectPath": "OutOfAction/Content/Movies/WallDive.0"
+          "ObjectPath": "/Game/Movies/WallDive"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -1109,7 +1109,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'WallFlip'",
-          "ObjectPath": "OutOfAction/Content/Movies/WallFlip.0"
+          "ObjectPath": "/Game/Movies/WallFlip"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -1142,7 +1142,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'WallJump'",
-          "ObjectPath": "OutOfAction/Content/Movies/WallJump.0"
+          "ObjectPath": "/Game/Movies/WallJump"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -1175,7 +1175,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'WallKick'",
-          "ObjectPath": "OutOfAction/Content/Movies/WallKick.0"
+          "ObjectPath": "/Game/Movies/WallKick"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -1208,7 +1208,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'WallLatch'",
-          "ObjectPath": "OutOfAction/Content/Movies/WallLatch.0"
+          "ObjectPath": "/Game/Movies/WallLatch"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
@@ -1241,7 +1241,7 @@
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'WallSideLatch'",
-          "ObjectPath": "OutOfAction/Content/Movies/WallSideLatch.0"
+          "ObjectPath": "/Game/Movies/WallSideLatch"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {

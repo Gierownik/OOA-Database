@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_ShellData'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_ShellData.0"
+        "ObjectPath": "/Game/Blueprints/Data/STRUCT_ShellData"
       }
     },
     "Rows": {

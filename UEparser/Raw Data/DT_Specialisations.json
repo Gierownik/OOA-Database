@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_Specialisations'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Player/STRUCT_Specialisations.0"
+        "ObjectPath": "/Game/Blueprints/Player/STRUCT_Specialisations"
       }
     },
     "Rows": {

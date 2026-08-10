@@ -508,6 +508,15 @@
             "SourceString": "Angled Grip",
             "LocalizedString": "Angled Grip"
           }
+        },
+        {
+          "Key": "NewEnumerator103",
+          "Value": {
+            "Namespace": "",
+            "Key": "D36BFBF14EB0A08CF5DED0BAB0011375",
+            "SourceString": "Deadbolt Receiver",
+            "LocalizedString": "Deadbolt Receiver"
+          }
         }
       ]
     },
@@ -568,7 +577,8 @@
       "ENUM_AttachmentID::NewEnumerator100": 53,
       "ENUM_AttachmentID::NewEnumerator101": 54,
       "ENUM_AttachmentID::NewEnumerator102": 55,
-      "ENUM_AttachmentID::ENUM_MAX": 56
+      "ENUM_AttachmentID::NewEnumerator103": 56,
+      "ENUM_AttachmentID::ENUM_MAX": 57
     },
     "CppForm": "Namespaced"
   }

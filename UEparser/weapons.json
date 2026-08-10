@@ -377,6 +377,7 @@
       "handling_speed_mult": 0.7,
       "damage_taken_mult": 1.0,
       "chase_speed_mult": 1.0,
+      "spinup": "0.5s",
       "ammo_capacity": 8,
       "reload_speed": "1.0",
       "rechamber_duration": "0.53",
@@ -519,7 +520,7 @@
       "handling_speed_mult": 0.65,
       "damage_taken_mult": 1.0,
       "chase_speed_mult": 1.0,
-      "spinup": "0.25s",
+      "spinup": "1.0s",
       "ammo_capacity": 5,
       "reload_speed": "0.65",
       "rechamber_duration": "1.1"
