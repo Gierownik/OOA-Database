@@ -15,10 +15,10 @@
     "tooltip": [
       "> Bleed and knockdown immunity",
       "> <C>0 s</> defense regen delay",
-      "> <C>40 /s</> defense regeneration, can gain defense buffer",
+      "> <C>30 /s</> defense regeneration, can gain defense buffer",
       "<B>> <C>50%</> reduced speed and vitals restored from all sources</>",
       "<B>> Disables optical camouflage</>",
-      "<B>> Prevented by Burn</>"
+      "<B>> Prevented by Burn, Corrode, Disable</>"
     ],
     "enhancement": "None",
     "enh_tooltip": []
