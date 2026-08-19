@@ -132,8 +132,8 @@
           {
             "Namespace": "",
             "Key": "0244F96740F9337D4C451CBD59B5AAA9",
-            "SourceString": ":: <D>RESILIENT MOMENTUM</>\r\n> Knockdown immunity and <C>100%</> reduced movement speed penalties while grounded and defense not depleted\r\n> <C>25%</> knockback resistance, <C>50%</> reduced fall damage and body impacts can knockdown airborne enemies\r\n> Gain <G>Bolster</> while Core active\r\n\r\n:: <D>CONCUSSIVE IMPULSE</>\r\n> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage, reset on Core activation\r\n> <C>50%</> of damage dealt by Shockwave restored to defense and max defense\r\n> <C>5%</> of direct damage received stored and released as additional damage on next Shockwave, up to <C>50</>\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>REACTIVE CLADDING</>\r\n> <C>100%</> of combined vitals damage received restored to defense during defense regeneration on exceeding <C>25</> total damage, <C>10 s</> cooldown\r\n> <C>25%</> reduced direct defense damage received and <C>25%</> increased movement speed for <C>10 s</> on dealing body impact damage or receiving explosive damage\r\n> <C>50%</> increased explosive resistance\r\n\r\n<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration. <C>50%</> <B>reduced speed and vitals restored from all sources</>",
-            "LocalizedString": ":: <D>RESILIENT MOMENTUM</>\r\n> Knockdown immunity and <C>100%</> reduced movement speed penalties while grounded and defense not depleted\r\n> <C>25%</> knockback resistance, <C>50%</> reduced fall damage and body impacts can knockdown airborne enemies\r\n> Gain <G>Bolster</> while Core active\r\n\r\n:: <D>CONCUSSIVE IMPULSE</>\r\n> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage, reset on Core activation\r\n> <C>50%</> of damage dealt by Shockwave restored to defense and max defense\r\n> <C>5%</> of direct damage received stored and released as additional damage on next Shockwave, up to <C>50</>\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>REACTIVE CLADDING</>\r\n> <C>100%</> of combined vitals damage received restored to defense during defense regeneration on exceeding <C>25</> total damage, <C>10 s</> cooldown\r\n> <C>25%</> reduced direct defense damage received and <C>25%</> increased movement speed for <C>10 s</> on dealing body impact damage or receiving explosive damage\r\n> <C>50%</> increased explosive resistance\r\n\r\n<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration. <C>50%</> <B>reduced speed and vitals restored from all sources</>"
+            "SourceString": ":: <D>RESILIENT MOMENTUM</>\r\n> Knockdown immunity and <C>100%</> reduced movement speed penalties while grounded and defense not depleted\r\n> <C>25%</> knockback resistance, <C>50%</> reduced fall damage and body impacts can knockdown airborne enemies\r\n> Gain <G>Bolster</> while Core active\r\n\r\n:: <D>CONCUSSIVE IMPULSE</>\r\n> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage, reset on Core activation\r\n> <C>50%</> of damage dealt by Shockwave restored to defense and max defense\r\n> <C>5%</> of direct damage received stored and released as additional damage on next Shockwave, up to <C>50</>\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>REACTIVE CLADDING</>\r\n> <C>100%</> of combined vitals damage received restored to defense during defense regeneration on exceeding <C>25</> total damage, <C>10 s</> cooldown\r\n> <C>25%</> reduced direct defense damage received and <C>25%</> increased movement speed for <C>10 s</> on dealing body impact damage or receiving explosive damage\r\n> <C>50%</> increased explosive resistance\r\n\r\n<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration. <C>50%</> <B>reduced speed and vitals restored from all sources</>",
+            "LocalizedString": ":: <D>RESILIENT MOMENTUM</>\r\n> Knockdown immunity and <C>100%</> reduced movement speed penalties while grounded and defense not depleted\r\n> <C>25%</> knockback resistance, <C>50%</> reduced fall damage and body impacts can knockdown airborne enemies\r\n> Gain <G>Bolster</> while Core active\r\n\r\n:: <D>CONCUSSIVE IMPULSE</>\r\n> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage, reset on Core activation\r\n> <C>50%</> of damage dealt by Shockwave restored to defense and max defense\r\n> <C>5%</> of direct damage received stored and released as additional damage on next Shockwave, up to <C>50</>\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>REACTIVE CLADDING</>\r\n> <C>100%</> of combined vitals damage received restored to defense during defense regeneration on exceeding <C>25</> total damage, <C>10 s</> cooldown\r\n> <C>25%</> reduced direct defense damage received and <C>25%</> increased movement speed for <C>10 s</> on dealing body impact damage or receiving explosive damage\r\n> <C>50%</> increased explosive resistance\r\n\r\n<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration. <C>50%</> <B>reduced speed and vitals restored from all sources</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1584,8 +1584,8 @@
           {
             "Namespace": "",
             "Key": "8426F2EC42DD0C04D63D65AD7EAC08FF",
-            "SourceString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost\r\n> <C>25</> vitals and defense, and <C>10</> Core charge restored on head pickup if Nano-wire held, head is destroyed\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>",
-            "LocalizedString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost\r\n> <C>25</> vitals and defense, and <C>10</> Core charge restored on head pickup if Nano-wire held, head is destroyed\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
+            "SourceString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost\r\n> <C>25</> vitals and defense restored on head pickup if Nano-wire held, instantly harvests Core, head is destroyed\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>",
+            "LocalizedString": "> <C>0.25x</> additional headshot damage multiplier\r\n> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost\r\n> <C>25</> vitals and defense restored on head pickup if Nano-wire held, instantly harvests Core, head is destroyed\r\n<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1989,8 +1989,8 @@
           {
             "Namespace": "",
             "Key": "7D71C3F844519C03EC2B54BF37C14EAE",
-            "SourceString": "> Removes Snare on performing a maneuver, can maneuver while crippled\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges while Core active\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>",
-            "LocalizedString": "> Removes Snare on performing a maneuver, can maneuver while crippled\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges while Core active\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
+            "SourceString": "> Removes Snare on performing a maneuver, can maneuver while Snared+\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges while Core active\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>",
+            "LocalizedString": "> Removes Snare on performing a maneuver, can maneuver while Snared+\r\n> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver\r\n> <C>100%</> reduced aux power drain from all sources while Core active\r\n> Gain <C>4</> aerial maneuver charges while Core active\r\n<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>\r\n<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2799,8 +2799,8 @@
           {
             "Namespace": "",
             "Key": "1069A4114A5D23C77CFED6B19967113C",
-            "SourceString": "> While active: Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n> Maximum Efficiency: <C>50%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed and vitals restored from all sources</>",
-            "LocalizedString": "> While active: Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>40 /s</> defense regeneration\r\n> Maximum Efficiency: <C>50%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed and vitals restored from all sources</>"
+            "SourceString": "> While active: Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration\r\n> Maximum Efficiency: <C>50%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed and vitals restored from all sources</>",
+            "LocalizedString": "> While active: Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration\r\n> Maximum Efficiency: <C>50%</> increased duration\r\n<B>> While active:</> <C>50%</> <B>reduced speed and vitals restored from all sources</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3420,8 +3420,8 @@
           {
             "Namespace": "",
             "Key": "13B699CF429DF7AFA694F786AA34F8D2",
-            "SourceString": "> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration",
-            "LocalizedString": "> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration"
+            "SourceString": "> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> <C>25</> chemical damage to enemies within <C>3 m</>\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration",
+            "LocalizedString": "> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> <C>25</> chemical damage to enemies within <C>3 m</>\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3798,8 +3798,8 @@
           {
             "Namespace": "",
             "Key": "A723A65D45941CBB93BB42B45F4AD543",
-            "SourceString": "> Activates on impact, <C>0.25 s</> activation delay\r\n> Detonates on Shell impact\r\n> Impact and explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>50%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced bleed damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>",
-            "LocalizedString": "> Activates on impact, <C>0.25 s</> activation delay\r\n> Detonates on Shell impact\r\n> Impact and explosive damage\r\n> <C>25%</> increased velocity\r\n> Hot mag: <C>50%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced bleed damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>"
+            "SourceString": "> Activates on impact, <C>0.25 s</> activation delay\r\n> Detonates on Shell impact\r\n> Impact and explosive damage\r\n> <C>50%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced bleed damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>",
+            "LocalizedString": "> Activates on impact, <C>0.25 s</> activation delay\r\n> Detonates on Shell impact\r\n> Impact and explosive damage\r\n> <C>50%</> increased velocity\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced bleed damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage</>\r\n<B>></> <C>25%</> <B>reduced explosive damage range</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3825,8 +3825,35 @@
           {
             "Namespace": "",
             "Key": "FD25E9B04641A86540112E87E912F17A",
-            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Detonates on Shell impact\r\n> Burn and explosive damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>",
-            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Detonates on Shell impact\r\n> Burn and explosive damage, ignites surrounding area, <C>2 s</> Snare\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>25%</> <B>reduced explosive damage</>"
+            "SourceString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Detonates on Shell impact\r\n> Burn and explosive damage, ignites surrounding area\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced explosive damage</>",
+            "LocalizedString": "> Activates on impact, <C>0.75 s</> activation delay\r\n> Detonates on Shell impact\r\n> Burn and explosive damage, ignites surrounding area\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>50%</> <B>reduced explosive damage</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Ammo'",
+          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Ammo"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "ChemGrenade": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator4",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator104",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 45,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator23",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "CABA1C3E4A9A91BE3A4467A5D20FB544",
+            "SourceString": "> Activates on impact, <C>0.5 s</> activation delay\r\n> Detonates on Shell impact\r\n> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> <C>25</> chemical damage to enemies within <C>3 m</>\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>100%</> <B>reduced bleed and explosive damage</>",
+            "LocalizedString": "> Activates on impact, <C>0.5 s</> activation delay\r\n> Detonates on Shell impact\r\n> Creates toxic cloud on impact, spreading to nearby surfaces\r\n> <C>25</> chemical damage to enemies within <C>3 m</>\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Hot mag: <C>25%</> additional velocity\r\n<B>></> <C>100%</> <B>reduced bleed and explosive damage</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4797,8 +4824,8 @@
           {
             "Namespace": "",
             "Key": "F79E150E4C4BE5A53650C3933E3EBCBA",
-            "SourceString": "> <C>50%</> increased RPM\r\n> Converts to <C>5</> round burst, <C>0.25 s</>interval\r\n<B>></> <C>50%</> <B>increased recoil and spread gain</>",
-            "LocalizedString": "> <C>50%</> increased RPM\r\n> Converts to <C>5</> round burst, <C>0.25 s</>interval\r\n<B>></> <C>50%</> <B>increased recoil and spread gain</>"
+            "SourceString": "> <C>50%</> increased RPM\r\n> <C>25%</> increased damage\r\n> Converts to <C>5</> round burst, <C>0.25 s</>interval\r\n<B>></> <C>50%</> <B>increased recoil and spread gain</>",
+            "LocalizedString": "> <C>50%</> increased RPM\r\n> <C>25%</> increased damage\r\n> Converts to <C>5</> round burst, <C>0.25 s</>interval\r\n<B>></> <C>50%</> <B>increased recoil and spread gain</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

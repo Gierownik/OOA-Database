@@ -419,8 +419,8 @@
       "> Activates on impact, <C>0.25 s</> activation delay",
       "> Detonates on Shell impact",
       "> Impact and explosive damage",
-      "> <C>25%</> increased velocity",
-      "> Hot mag: <C>50%</> additional velocity",
+      "> <C>50%</> increased velocity",
+      "> Hot mag: <C>25%</> additional velocity",
       "<B>></> <C>50%</> <B>reduced bleed damage</>",
       "<B>></> <C>25%</> <B>reduced explosive damage</>",
       "<B>></> <C>25%</> <B>reduced explosive damage range</>"
@@ -443,9 +443,9 @@
     "tooltip": [
       "> Activates on impact, <C>0.75 s</> activation delay",
       "> Detonates on Shell impact",
-      "> Burn and explosive damage, ignites surrounding area, <C>2 s</> Snare",
+      "> Burn and explosive damage, ignites surrounding area",
       "> Hot mag: <C>25%</> additional velocity",
-      "<B>></> <C>25%</> <B>reduced explosive damage</>"
+      "<B>></> <C>50%</> <B>reduced explosive damage</>"
     ],
     "technician": "true",
     "compatibility": [
@@ -457,6 +457,31 @@
       "type": "hardware",
       "tier": 40,
       "value": 2
+    }
+  },
+  {
+    "name": "Chem Grenade",
+    "type": "Ammo",
+    "tooltip": [
+      "> Activates on impact, <C>0.5 s</> activation delay",
+      "> Detonates on Shell impact",
+      "> Creates toxic cloud on impact, spreading to nearby surfaces",
+      "> <C>25</> chemical damage to enemies within <C>3 m</>",
+      "> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact",
+      "> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets",
+      "> Hot mag: <C>25%</> additional velocity",
+      "<B>></> <C>100%</> <B>reduced bleed and explosive damage</>"
+    ],
+    "technician": "true",
+    "compatibility": [
+      "Warrant"
+    ],
+    "excludes": [],
+    "speed_penalty": 0.05,
+    "foundations": {
+      "type": "hardware",
+      "tier": 45,
+      "value": 3
     }
   },
   {
@@ -1320,6 +1345,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>50%</> increased RPM",
+      "> <C>25%</> increased damage",
       "> Converts to <C>5</> round burst, <C>0.25 s</>interval",
       "<B>></> <C>50%</> <B>increased recoil and spread gain</>"
     ],

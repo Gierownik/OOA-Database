@@ -166,7 +166,8 @@
         "HV Grenade": 39,
         "Incendiary Grenade": 40,
         "Proximity Grenade": 41,
-        "Ghostfire Ammo": 49
+        "Ghostfire Ammo": 49,
+        "Chem Grenade": 57
     },
     "Mods": {
         "Adaptive Choke": 13,

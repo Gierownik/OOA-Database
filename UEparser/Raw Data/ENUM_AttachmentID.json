@@ -517,6 +517,15 @@
             "SourceString": "Deadbolt Receiver",
             "LocalizedString": "Deadbolt Receiver"
           }
+        },
+        {
+          "Key": "NewEnumerator104",
+          "Value": {
+            "Namespace": "",
+            "Key": "8F6020AE453BD91FB0488AA42D99D621",
+            "SourceString": "Chem Grenade",
+            "LocalizedString": "Chem Grenade"
+          }
         }
       ]
     },
@@ -578,7 +587,8 @@
       "ENUM_AttachmentID::NewEnumerator101": 54,
       "ENUM_AttachmentID::NewEnumerator102": 55,
       "ENUM_AttachmentID::NewEnumerator103": 56,
-      "ENUM_AttachmentID::ENUM_MAX": 57
+      "ENUM_AttachmentID::NewEnumerator104": 57,
+      "ENUM_AttachmentID::ENUM_MAX": 58
     },
     "CppForm": "Namespaced"
   }

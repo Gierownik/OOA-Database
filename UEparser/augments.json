@@ -535,7 +535,7 @@
     "tooltip": [
       "> <C>0.25x</> additional headshot damage multiplier",
       "> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost",
-      "> <C>25</> vitals and defense, and <C>10</> Core charge restored on head pickup if Nano-wire held, head is destroyed",
+      "> <C>25</> vitals and defense restored on head pickup if Nano-wire held, instantly harvests Core, head is destroyed",
       "<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
     ],
     "foundations": {
@@ -763,7 +763,7 @@
   {
     "name": "Perpetual Motion",
     "tooltip": [
-      "> Removes Snare on performing a maneuver, can maneuver while crippled",
+      "> Removes Snare on performing a maneuver, can maneuver while Snared+",
       "> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver",
       "> <C>100%</> reduced aux power drain from all sources while Core active",
       "> Gain <C>4</> aerial maneuver charges while Core active",
