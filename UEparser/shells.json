@@ -230,7 +230,7 @@
       "tech_name": "Power Relay",
       "tech": "30 /s defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain 5% additional Core speed for each unobstructed enemy or ally within 15 m while Core active",
       "hardware_name": "Reverberate",
-      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-75%. <G>Overcharge for 5 s on firearm or backup weapon kill within 5 m\r\n\r\n<G>*Amplify: Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar\r\n<G>*Overcharge: Disable immunity, 15% increased ground, climb speed and dexterity, Disable enemies and enemy devices within 3 m\r\n<G>*Shroud: Undetectable by all equipment"
+      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-75%. <G>Overcharge for 5 s on firearm or backup weapon kill within 5 m"
     }
   }
 ]
