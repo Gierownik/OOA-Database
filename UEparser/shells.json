@@ -3,7 +3,7 @@
     "name": "Bison",
     "tooltip": [
       ":: <D>KINETIC RESISTANCE</>",
-      "> <C>25%</> reduced direct vitals damage received and knockback immunity during maneuvers",
+      "> <C>25%</> reduced direct vitals damage received and <C>50%</> knockback resistance during maneuvers",
       "> <C>25%</> reduced aux power drain from all sources",
       "> <C>50%</> increased Snare resistance, Snare immunity while Core active",
       ":: <D>SURVIVAL INSTINCT</>",
