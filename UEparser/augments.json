@@ -793,7 +793,7 @@
   {
     "name": "Professional",
     "tooltip": [
-      "> <C>25%</> increased far damage with sidearms while using a single sidearm or akimbo alternate aim stance",
+      "> <C>25%</> increased velocity and far damage with sidearms while using a single sidearm or akimbo alternate aim stance",
       "> <C>25%</> reduced spread, spread gain, recoil and weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance",
       "> Dispatch: <C>50%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>",
       "> <C>25%</> increased lunge speed and duration while using sidearms",

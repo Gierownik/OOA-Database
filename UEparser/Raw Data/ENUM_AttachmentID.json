@@ -526,6 +526,24 @@
             "SourceString": "Chem Grenade",
             "LocalizedString": "Chem Grenade"
           }
+        },
+        {
+          "Key": "NewEnumerator105",
+          "Value": {
+            "Namespace": "",
+            "Key": "79FEC59240E229C07D3B99A96FADAB9A",
+            "SourceString": "Arc Salvo",
+            "LocalizedString": "Arc Salvo"
+          }
+        },
+        {
+          "Key": "NewEnumerator106",
+          "Value": {
+            "Namespace": "",
+            "Key": "D1C4226F4B57EFED13C1BD82CFE9BAA5",
+            "SourceString": "Scout Receiver",
+            "LocalizedString": "Scout Receiver"
+          }
         }
       ]
     },
@@ -588,7 +606,9 @@
       "ENUM_AttachmentID::NewEnumerator102": 55,
       "ENUM_AttachmentID::NewEnumerator103": 56,
       "ENUM_AttachmentID::NewEnumerator104": 57,
-      "ENUM_AttachmentID::ENUM_MAX": 58
+      "ENUM_AttachmentID::NewEnumerator105": 58,
+      "ENUM_AttachmentID::NewEnumerator106": 59,
+      "ENUM_AttachmentID::ENUM_MAX": 60
     },
     "CppForm": "Namespaced"
   }

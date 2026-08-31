@@ -475,7 +475,14 @@
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
         "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "7376740E41932C04C90A07901892D9D6",
+            "SourceString": "> <C>15%</> additional damage for each consecutive hit",
+            "LocalizedString": "> <C>15%</> additional damage for each consecutive hit"
+          }
+        ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
@@ -575,7 +582,14 @@
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
         "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator19",
-        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "F632D9354989D3DE07E11FBA5C5868A4",
+            "SourceString": "> Paints and deals Shock damage to airborne targets",
+            "LocalizedString": "> Paints and deals Shock damage to airborne targets"
+          }
+        ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeavWeap'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
@@ -2043,8 +2057,8 @@
           {
             "Namespace": "",
             "Key": "AAF39FA44774776AE6576B9F9E583095",
-            "SourceString": "> <C>25%</> increased far damage with sidearms while using a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, spread gain, recoil and weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>50%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>\r\n> <C>25%</> increased lunge speed and duration while using sidearms\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>",
-            "LocalizedString": "> <C>25%</> increased far damage with sidearms while using a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, spread gain, recoil and weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>50%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>\r\n> <C>25%</> increased lunge speed and duration while using sidearms\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>"
+            "SourceString": "> <C>25%</> increased velocity and far damage with sidearms while using a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, spread gain, recoil and weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>50%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>\r\n> <C>25%</> increased lunge speed and duration while using sidearms\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>",
+            "LocalizedString": "> <C>25%</> increased velocity and far damage with sidearms while using a single sidearm or akimbo alternate aim stance\r\n> <C>25%</> reduced spread, spread gain, recoil and weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance\r\n> Dispatch: <C>50%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>\r\n> <C>25%</> increased lunge speed and duration while using sidearms\r\n> <C>100%</> additional base sidearm reserve ammo\r\n> All equipped or picked up sidearms gain the Suppressor mod with no slot cost\r\n<B>> Can no longer equip primary weapons</>\r\n<B>></> <C>25</> <B>Reduced defense</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3690,8 +3704,8 @@
           {
             "Namespace": "",
             "Key": "A539BB11445687476CE068A8784681FA",
-            "SourceString": "> Paints visible enemies within <C>25 m</>\r\n> <C>35%</> reduced hipfire spread and spread gain on painted targets\r\n> <C>25%</> reduced alternate aim spread and spread gain on painted targets\r\n<B>></> <C>15%</> <B>reduced speed while firing</>\r\n<B>> Can no longer ADS</>\r\n<B>> Can be disabled</>",
-            "LocalizedString": "> Paints visible enemies within <C>25 m</>\r\n> <C>35%</> reduced hipfire spread and spread gain on painted targets\r\n> <C>25%</> reduced alternate aim spread and spread gain on painted targets\r\n<B>></> <C>15%</> <B>reduced speed while firing</>\r\n<B>> Can no longer ADS</>\r\n<B>> Can be disabled</>"
+            "SourceString": "> Paints visible enemies within <C>25 m</>\r\n> <C>35%</> reduced hipfire spread and spread gain on painted targets\r\n> <C>25%</> reduced alternate aim spread and spread gain on painted targets\r\n<B>></> <C>15%</> <B>increased aiming and firing handling speed penalties</>\r\n<B>> Can no longer ADS</>\r\n<B>> Can be disabled</>",
+            "LocalizedString": "> Paints visible enemies within <C>25 m</>\r\n> <C>35%</> reduced hipfire spread and spread gain on painted targets\r\n> <C>25%</> reduced alternate aim spread and spread gain on painted targets\r\n<B>></> <C>15%</> <B>increased aiming and firing handling speed penalties</>\r\n<B>> Can no longer ADS</>\r\n<B>> Can be disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3960,8 +3974,8 @@
           {
             "Namespace": "",
             "Key": "B80C425C43D44E7BB2ECB7AC1164BA0F",
-            "SourceString": "> <C>25%</> reduced horizontal recoil\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>15%</> <B>reduced speed while aiming</>",
-            "LocalizedString": "> <C>25%</> reduced horizontal recoil\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>15%</> <B>reduced speed while aiming</>"
+            "SourceString": "> <C>25%</> reduced horizontal recoil\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>15%</> <B>increased aiming handling speed penalty</>",
+            "LocalizedString": "> <C>25%</> reduced horizontal recoil\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>15%</> <B>increased aiming handling speed penalty</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4014,8 +4028,8 @@
           {
             "Namespace": "",
             "Key": "4892B7FE485CD28D8529949B42AA70C8",
-            "SourceString": "> <C>15%</> increased rechamber speed\r\n<B>></> <C>25%</> <B>increased pellet spread</>",
-            "LocalizedString": "> <C>15%</> increased rechamber speed\r\n<B>></> <C>25%</> <B>increased pellet spread</>"
+            "SourceString": "> <C>15%</> increased rechamber speed\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>25%</> <B>increased aiming and firing handling speed penalties</>\r\n<B>></> <C>25%</> <B>increased spread gain, hipfire and alternate aim spread</>",
+            "LocalizedString": "> <C>15%</> increased rechamber speed\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>25%</> <B>increased aiming and firing handling speed penalties</>\r\n<B>></> <C>25%</> <B>increased spread gain, hipfire and alternate aim spread</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4095,8 +4109,8 @@
           {
             "Namespace": "",
             "Key": "88E82B1643CE2253CA926F8C96370F49",
-            "SourceString": "> <C>50%</> increased velocity\r\n> <C>25%</> reduced pellet spread\r\n<B>></> <C>25%</> <B>increased aim time</>\r\n<B>></> <C>25%</> <B>increased hipfire spread</>",
-            "LocalizedString": "> <C>50%</> increased velocity\r\n> <C>25%</> reduced pellet spread\r\n<B>></> <C>25%</> <B>increased aim time</>\r\n<B>></> <C>25%</> <B>increased hipfire spread</>"
+            "SourceString": "> <C>50%</> increased velocity\r\n> <C>25%</> reduced pellet spread\r\n<B>></> <C>25%</> <B>increased aim time</>\r\n<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>",
+            "LocalizedString": "> <C>50%</> increased velocity\r\n> <C>25%</> reduced pellet spread\r\n<B>></> <C>25%</> <B>increased aim time</>\r\n<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4122,8 +4136,8 @@
           {
             "Namespace": "",
             "Key": "A52BE29B4509CF37B4BC2B93886C814B",
-            "SourceString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>",
-            "LocalizedString": "> Increased ammo capacity\r\n<B>></> <C>15%</> <B>increased aim time</>"
+            "SourceString": "> Increased ammo capacity\r\n<B>></> <C>25%</> <B>increased reload handling speed penalty</>",
+            "LocalizedString": "> Increased ammo capacity\r\n<B>></> <C>25%</> <B>increased reload handling speed penalty</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4149,8 +4163,8 @@
           {
             "Namespace": "",
             "Key": "E86B4EA74017A4A31BA66CB68F966343",
-            "SourceString": "> Converts to magazine reload\r\n<B>></> <C>15%</> <B>increased aim time</>",
-            "LocalizedString": "> Converts to magazine reload\r\n<B>></> <C>15%</> <B>increased aim time</>"
+            "SourceString": "> Converts to magazine reload\r\n> <C>2</> increased ammo capacity</>\r\n<B>></> <C>25%</> <B>increased handling speed penalties</>\r\n<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>",
+            "LocalizedString": "> Converts to magazine reload\r\n> <C>2</> increased ammo capacity</>\r\n<B>></> <C>25%</> <B>increased handling speed penalties</>\r\n<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4176,8 +4190,8 @@
           {
             "Namespace": "",
             "Key": "EF07182B46CF4B96DFADF7A0712D2C49",
-            "SourceString": "> <C>50%</> increased reload speed\r\n<B>></> <C>25%</> <B>increased reload movement speed penalty</>",
-            "LocalizedString": "> <C>50%</> increased reload speed\r\n<B>></> <C>25%</> <B>increased reload movement speed penalty</>"
+            "SourceString": "> <C>50%</> increased reload speed\r\n<B>></> <C>25%</> <B>increased reload handling speed penalty</>",
+            "LocalizedString": "> <C>50%</> increased reload speed\r\n<B>></> <C>25%</> <B>increased reload handling speed penalty</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4527,8 +4541,8 @@
           {
             "Namespace": "",
             "Key": "FA9799FB44182E084B6625B05158BA81",
-            "SourceString": "> Converts to 2 round burst\r\n> <C>400%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>",
-            "LocalizedString": "> Converts to 2 round burst\r\n> <C>400%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>"
+            "SourceString": "> Converts to 2 round burst\r\n> <C>400%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire and alternate aim spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>",
+            "LocalizedString": "> Converts to 2 round burst\r\n> <C>400%</> increased RPM\r\n<B>></> <C>100%</> <B>increased recoil</>\r\n<B>></> <C>100%</> <B>increased hipfire and alternate aim spread</>\r\n<B>></> <C>100%</> <B>increased spread gain</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4554,8 +4568,8 @@
           {
             "Namespace": "",
             "Key": "0840D7B44A593B871CDE3693597DEDCC",
-            "SourceString": "> <C>50%</> reduced recoil while ADS\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>50%</> <B>reduced speed while ADS</>",
-            "LocalizedString": "> <C>50%</> reduced recoil while ADS\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>50%</> <B>reduced speed while ADS</>"
+            "SourceString": "> <C>50%</> reduced recoil while ADS\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>50%</> <B>increased ADS handling speed penalty</>",
+            "LocalizedString": "> <C>50%</> reduced recoil while ADS\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>50%</> <B>increased ADS handling speed penalty</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4662,8 +4676,8 @@
           {
             "Namespace": "",
             "Key": "9C3ACAF3497BDBAFF2EB8BB1DF64731F",
-            "SourceString": "> <C>50%</> increased damage\r\n> <C>25%</> increased velocity and penetration\r\n<B>></> <C>35%</> <B>reduced RPM</>\r\n<B>></> <C>25</> <B>reduced ammo capacity</>",
-            "LocalizedString": "> <C>50%</> increased damage\r\n> <C>25%</> increased velocity and penetration\r\n<B>></> <C>35%</> <B>reduced RPM</>\r\n<B>></> <C>25</> <B>reduced ammo capacity</>"
+            "SourceString": "> <C>0.15x</> additional headshot damage multiplier\r\n> <C>50%</> increased damage\r\n> <C>25%</> increased velocity and penetration\r\n<B>></> <C>35%</> <B>reduced RPM</>\r\n<B>></> <C>25</> <B>reduced ammo capacity</>",
+            "LocalizedString": "> <C>0.15x</> additional headshot damage multiplier\r\n> <C>50%</> increased damage\r\n> <C>25%</> increased velocity and penetration\r\n<B>></> <C>35%</> <B>reduced RPM</>\r\n<B>></> <C>25</> <B>reduced ammo capacity</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4716,8 +4730,8 @@
           {
             "Namespace": "",
             "Key": "5F959FBB4BC0F079D5CFF5AEC245AF85",
-            "SourceString": "> Fragments rounds into <C>4</> projectiles\r\n> <C>4</> fragments per shot\r\n> <C>25%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier</>",
-            "LocalizedString": "> Fragments rounds into <C>4</> projectiles\r\n> <C>4</> fragments per shot\r\n> <C>25%</> of base damage per fragment\r\n<B>></> <C>25%</> <B>reduced far damage range</>\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier</>"
+            "SourceString": "> Fragments rounds into <C>4</> projectiles\r\n> <C>4</> fragments per shot\r\n> <C>25%</> of base damage per fragment\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier</>",
+            "LocalizedString": "> Fragments rounds into <C>4</> projectiles\r\n> <C>4</> fragments per shot\r\n> <C>25%</> of base damage per fragment\r\n<B>></> <C>0.25x</> <B>reduced headshot damage multiplier</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4743,8 +4757,8 @@
           {
             "Namespace": "",
             "Key": "1DAEAA2C456A8DD75D697ABD9E79643C",
-            "SourceString": "> <C>0-50%</> increased damage, velocity and penetration, proportional to spin up time\r\n<B>></> <C>0-1s</> <B>spin up time</>\r\n<B>></> <C>50%</> <B>reduced speed while firing</>",
-            "LocalizedString": "> <C>0-50%</> increased damage, velocity and penetration, proportional to spin up time\r\n<B>></> <C>0-1s</> <B>spin up time</>\r\n<B>></> <C>50%</> <B>reduced speed while firing</>"
+            "SourceString": "> <C>0-50%</> increased damage, velocity and penetration, proportional to spin up time\r\n<B>></> <C>0-1s</> <B>spin up time</>\r\n<B>></> <C>50%</> <B>increased firing handling speed penalty</>",
+            "LocalizedString": "> <C>0-50%</> increased damage, velocity and penetration, proportional to spin up time\r\n<B>></> <C>0-1s</> <B>spin up time</>\r\n<B>></> <C>50%</> <B>increased firing handling speed penalty</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4824,8 +4838,8 @@
           {
             "Namespace": "",
             "Key": "F79E150E4C4BE5A53650C3933E3EBCBA",
-            "SourceString": "> <C>50%</> increased RPM\r\n> <C>25%</> increased damage\r\n> Converts to <C>5</> round burst, <C>0.25 s</>interval\r\n<B>></> <C>50%</> <B>increased recoil and spread gain</>",
-            "LocalizedString": "> <C>50%</> increased RPM\r\n> <C>25%</> increased damage\r\n> Converts to <C>5</> round burst, <C>0.25 s</>interval\r\n<B>></> <C>50%</> <B>increased recoil and spread gain</>"
+            "SourceString": "> <C>50%</> increased RPM\r\n> <C>25%</> increased damage\r\n> Converts to <C>5</> round burst, <C>0.25 s</>interval\r\n<B>></> <C>50%</> <B>increased spread gain</>\r\n<B>></> <C>50%</> <B>increased hipfire and alternate aim spread</>",
+            "LocalizedString": "> <C>50%</> increased RPM\r\n> <C>25%</> increased damage\r\n> Converts to <C>5</> round burst, <C>0.25 s</>interval\r\n<B>></> <C>50%</> <B>increased spread gain</>\r\n<B>></> <C>50%</> <B>increased hipfire and alternate aim spread</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4851,8 +4865,8 @@
           {
             "Namespace": "",
             "Key": "34482D8044DC529E3ABEF1A6E9158984",
-            "SourceString": "> <C>35%</> reduced alternate aim spread and spread gain\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>15%</> <B>reduced speed while aiming</>",
-            "LocalizedString": "> <C>35%</> reduced alternate aim spread and spread gain\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>15%</> <B>reduced speed while aiming</>"
+            "SourceString": "> <C>35%</> reduced alternate aim spread and spread gain\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>15%</> <B>increased aiming handling speed penalty</>",
+            "LocalizedString": "> <C>35%</> reduced alternate aim spread and spread gain\r\n> <C>15%</> reduced aim time\r\n<B>></> <C>15%</> <B>increased aiming handling speed penalty</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4878,8 +4892,62 @@
           {
             "Namespace": "",
             "Key": "B5BB2A3A44D474A8B50BA5B88C7BBAC6",
-            "SourceString": "> <C>0-85%</> reduced pellet spread, proportional to spin up time\r\n> <C>0-85%</> increases far damage and velocity, proportional to spin up time\r\n<B>></> <C>0-0.5s</> <B>spin up time</>\r\n<B>></> <C>25-0%</> <B>reduced near damage, proportional to spin up time</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>",
-            "LocalizedString": "> <C>0-85%</> reduced pellet spread, proportional to spin up time\r\n> <C>0-85%</> increases far damage and velocity, proportional to spin up time\r\n<B>></> <C>0-0.5s</> <B>spin up time</>\r\n<B>></> <C>25-0%</> <B>reduced near damage, proportional to spin up time</>\r\n<B>></> <C>100%</> <B>increased hipfire spread</>"
+            "SourceString": "> <C>0-85%</> reduced pellet spread, proportional to spin up time\r\n> <C>0-85%</> increases far damage and velocity, proportional to spin up time\r\n<B>></> <C>0-0.5s</> <B>spin up time</>\r\n<B>></> <C>25-0%</> <B>reduced near damage, proportional to spin up time</>\r\n<B>></> <C>100%</> <B>increased hipfire and alternate aim spread</>",
+            "LocalizedString": "> <C>0-85%</> reduced pellet spread, proportional to spin up time\r\n> <C>0-85%</> increases far damage and velocity, proportional to spin up time\r\n<B>></> <C>0-0.5s</> <B>spin up time</>\r\n<B>></> <C>25-0%</> <B>reduced near damage, proportional to spin up time</>\r\n<B>></> <C>100%</> <B>increased hipfire and alternate aim spread</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Mod'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "ArcSalvo": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator4",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator105",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 50,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "078137FD4A57A9A99A2383953731D27A",
+            "SourceString": "> <C>50</> shock damage and <C>2 s</> disable if full burst hits target while ADS\r\n<B>> Disables consecutive hit damage multiplier</>\r\n<B>></> <C>20</> <B>reduced ammo capacity</>",
+            "LocalizedString": "> <C>50</> shock damage and <C>2 s</> disable if full burst hits target while ADS\r\n<B>> Disables consecutive hit damage multiplier</>\r\n<B>></> <C>20</> <B>reduced ammo capacity</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Mod'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "ScoutReceiver": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator4",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator106",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 45,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "E2615B474537E9B17CB9D99E869A6B17",
+            "SourceString": "> Can equip CQB optics\r\n> <C>50%</> reduced spread gain\r\n> <C>25%</> reduced hipfire and alternate aim spread\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>\r\n<B>></> <C>15%</> <B>reduced damage, velocity and penetration</>",
+            "LocalizedString": "> Can equip CQB optics\r\n> <C>50%</> reduced spread gain\r\n> <C>25%</> reduced hipfire and alternate aim spread\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>\r\n<B>></> <C>15%</> <B>reduced damage, velocity and penetration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

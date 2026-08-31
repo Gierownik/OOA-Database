@@ -37,7 +37,7 @@
   {
     "name": "PrecisionWeapons",
     "tooltip": [
-      "> <C>0.25x</> additional limb damage multiplier with precision weapons to targets over <C>35 m</>",
+      "> <C>0.25x</> additional limb damage multiplier with precision weapons to targets over <C>25 m</>",
       "> <C>100%</> additional base reserve ammo for precision weapons"
     ]
   },

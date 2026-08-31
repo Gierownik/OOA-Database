@@ -321,7 +321,7 @@
       "> Paints visible enemies within <C>25 m</>",
       "> <C>35%</> reduced hipfire spread and spread gain on painted targets",
       "> <C>25%</> reduced alternate aim spread and spread gain on painted targets",
-      "<B>></> <C>15%</> <B>reduced speed while firing</>",
+      "<B>></> <C>15%</> <B>increased aiming and firing handling speed penalties</>",
       "<B>> Can no longer ADS</>",
       "<B>> Can be disabled</>"
     ],
@@ -334,9 +334,7 @@
       "Master-Key",
       "Icarus",
       "Custodian",
-      "Vigil",
       "Inhibitor",
-      "Sentinel",
       "Helix",
       "Nexus",
       "Typhon",
@@ -430,7 +428,7 @@
       "Warrant"
     ],
     "excludes": [],
-    "speed_penalty": 0.05,
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
       "tier": 45,
@@ -452,7 +450,7 @@
       "Warrant"
     ],
     "excludes": [],
-    "speed_penalty": 0.05,
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
       "tier": 40,
@@ -501,7 +499,7 @@
       "Warrant"
     ],
     "excludes": [],
-    "speed_penalty": 0.05,
+    "speed_penalty": 0.1,
     "foundations": {
       "type": "hardware",
       "tier": 35,
@@ -580,7 +578,7 @@
     "tooltip": [
       "> <C>25%</> reduced horizontal recoil",
       "> <C>25%</> reduced aim time",
-      "<B>></> <C>15%</> <B>reduced speed while aiming</>"
+      "<B>></> <C>15%</> <B>increased aiming handling speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -594,7 +592,7 @@
     "excludes": [
       "Angled Grip"
     ],
-    "speed_penalty": 0.2,
+    "speed_penalty": 0.15,
     "foundations": {
       "type": "hardware",
       "tier": 15,
@@ -641,7 +639,9 @@
     "type": "Mod",
     "tooltip": [
       "> <C>15%</> increased rechamber speed",
-      "<B>></> <C>25%</> <B>increased pellet spread</>"
+      "> <C>15%</> reduced aim time",
+      "<B>></> <C>25%</> <B>increased aiming and firing handling speed penalties</>",
+      "<B>></> <C>25%</> <B>increased spread gain, hipfire and alternate aim spread</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -716,7 +716,7 @@
       "> <C>50%</> increased velocity",
       "> <C>25%</> reduced pellet spread",
       "<B>></> <C>25%</> <B>increased aim time</>",
-      "<B>></> <C>25%</> <B>increased hipfire spread</>"
+      "<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -735,7 +735,7 @@
     "type": "Mod",
     "tooltip": [
       "> Increased ammo capacity",
-      "<B>></> <C>15%</> <B>increased aim time</>"
+      "<B>></> <C>25%</> <B>increased reload handling speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -749,7 +749,7 @@
       "Omen"
     ],
     "excludes": [],
-    "speed_penalty": 0.2,
+    "speed_penalty": 0.25,
     "foundations": {
       "type": "hardware",
       "tier": 25,
@@ -761,7 +761,9 @@
     "type": "Mod",
     "tooltip": [
       "> Converts to magazine reload",
-      "<B>></> <C>15%</> <B>increased aim time</>"
+      "> <C>2</> increased ammo capacity</>",
+      "<B>></> <C>25%</> <B>increased handling speed penalties</>",
+      "<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -769,7 +771,7 @@
       "Warrant"
     ],
     "excludes": [],
-    "speed_penalty": 0.15,
+    "speed_penalty": 0.2,
     "foundations": {
       "type": "hardware",
       "tier": 30,
@@ -781,7 +783,7 @@
     "type": "Mod",
     "tooltip": [
       "> <C>50%</> increased reload speed",
-      "<B>></> <C>25%</> <B>increased reload movement speed penalty</>"
+      "<B>></> <C>25%</> <B>increased reload handling speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1136,7 +1138,7 @@
     "tooltip": [
       "> <C>50%</> reduced recoil while ADS",
       "> <C>15%</> reduced aim time",
-      "<B>></> <C>50%</> <B>reduced speed while ADS</>"
+      "<B>></> <C>50%</> <B>increased ADS handling speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1146,7 +1148,7 @@
       "Nexus"
     ],
     "excludes": [],
-    "speed_penalty": 0.05,
+    "speed_penalty": 0.15,
     "foundations": {
       "type": "tech",
       "tier": 45,
@@ -1216,6 +1218,7 @@
     "name": "Heavy Receiver",
     "type": "Mod",
     "tooltip": [
+      "> <C>0.15x</> additional headshot damage multiplier",
       "> <C>50%</> increased damage",
       "> <C>25%</> increased velocity and penetration",
       "<B>></> <C>35%</> <B>reduced RPM</>",
@@ -1226,7 +1229,7 @@
       "Inhibitor"
     ],
     "excludes": [],
-    "speed_penalty": 0.15,
+    "speed_penalty": 0.2,
     "foundations": {
       "type": "hardware",
       "tier": 40,
@@ -1261,7 +1264,6 @@
       "> Fragments rounds into <C>4</> projectiles",
       "> <C>4</> fragments per shot",
       "> <C>25%</> of base damage per fragment",
-      "<B>></> <C>25%</> <B>reduced far damage range</>",
       "<B>></> <C>0.25x</> <B>reduced headshot damage multiplier</>"
     ],
     "technician": "false",
@@ -1283,14 +1285,16 @@
     "tooltip": [
       "> <C>0-50%</> increased damage, velocity and penetration, proportional to spin up time",
       "<B>></> <C>0-1s</> <B>spin up time</>",
-      "<B>></> <C>50%</> <B>reduced speed while firing</>"
+      "<B>></> <C>50%</> <B>increased firing handling speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
       "Vigil"
     ],
-    "excludes": [],
-    "speed_penalty": 0.1,
+    "excludes": [
+      "Scout Receiver"
+    ],
+    "speed_penalty": 0.2,
     "foundations": {
       "type": "tech",
       "tier": 40,
@@ -1312,7 +1316,7 @@
       "Master-Key"
     ],
     "excludes": [],
-    "speed_penalty": 0.1,
+    "speed_penalty": 0.15,
     "foundations": {
       "type": "tech",
       "tier": 50,
@@ -1347,7 +1351,8 @@
       "> <C>50%</> increased RPM",
       "> <C>25%</> increased damage",
       "> Converts to <C>5</> round burst, <C>0.25 s</>interval",
-      "<B>></> <C>50%</> <B>increased recoil and spread gain</>"
+      "<B>></> <C>50%</> <B>increased spread gain</>",
+      "<B>></> <C>50%</> <B>increased hipfire and alternate aim spread</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1367,7 +1372,7 @@
     "tooltip": [
       "> <C>35%</> reduced alternate aim spread and spread gain",
       "> <C>15%</> reduced aim time",
-      "<B>></> <C>15%</> <B>reduced speed while aiming</>"
+      "<B>></> <C>15%</> <B>increased aiming handling speed penalty</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1397,7 +1402,7 @@
       "> <C>0-85%</> increases far damage and velocity, proportional to spin up time",
       "<B>></> <C>0-0.5s</> <B>spin up time</>",
       "<B>></> <C>25-0%</> <B>reduced near damage, proportional to spin up time</>",
-      "<B>></> <C>100%</> <B>increased hipfire spread</>"
+      "<B>></> <C>100%</> <B>increased hipfire and alternate aim spread</>"
     ],
     "technician": "false",
     "compatibility": [
@@ -1411,6 +1416,52 @@
       "type": "tech",
       "tier": 30,
       "value": 2
+    }
+  },
+  {
+    "name": "Arc Salvo",
+    "type": "Mod",
+    "tooltip": [
+      "> <C>50</> shock damage and <C>2 s</> disable if full burst hits target while ADS",
+      "<B>> Disables consecutive hit damage multiplier</>",
+      "<B>></> <C>20</> <B>reduced ammo capacity</>"
+    ],
+    "technician": "false",
+    "compatibility": [
+      "Helix"
+    ],
+    "excludes": [],
+    "speed_penalty": 0.15,
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    }
+  },
+  {
+    "name": "Scout Receiver",
+    "type": "Mod",
+    "tooltip": [
+      "> Can equip CQB optics",
+      "> <C>50%</> reduced spread gain",
+      "> <C>25%</> reduced hipfire and alternate aim spread",
+      "> <C>25%</> reduced aim time",
+      "<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>",
+      "<B>></> <C>15%</> <B>reduced damage, velocity and penetration</>"
+    ],
+    "technician": "false",
+    "compatibility": [
+      "Vigil",
+      "Sentinel"
+    ],
+    "excludes": [
+      "VX Accelerator"
+    ],
+    "speed_penalty": 0.0,
+    "foundations": {
+      "type": "hardware",
+      "tier": 45,
+      "value": 3
     }
   }
 ]

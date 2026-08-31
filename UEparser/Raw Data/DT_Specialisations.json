@@ -72,8 +72,8 @@
         "tooltip_12_E31F2C80494C0F9A87B2FCB22710F9C1": {
           "Namespace": "",
           "Key": "A40A18AA48DB324FE687A4967448F8C0",
-          "SourceString": "> <C>0.25x</> additional limb damage multiplier with precision weapons to targets over <C>35 m</>\r\n> <C>100%</> additional base reserve ammo for precision weapons",
-          "LocalizedString": "> <C>0.25x</> additional limb damage multiplier with precision weapons to targets over <C>35 m</>\r\n> <C>100%</> additional base reserve ammo for precision weapons"
+          "SourceString": "> <C>0.25x</> additional limb damage multiplier with precision weapons to targets over <C>25 m</>\r\n> <C>100%</> additional base reserve ammo for precision weapons",
+          "LocalizedString": "> <C>0.25x</> additional limb damage multiplier with precision weapons to targets over <C>25 m</>\r\n> <C>100%</> additional base reserve ammo for precision weapons"
         }
       },
       "HeavyWeapons": {
