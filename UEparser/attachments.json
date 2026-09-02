@@ -761,7 +761,7 @@
     "type": "Mod",
     "tooltip": [
       "> Converts to magazine reload",
-      "> <C>2</> increased ammo capacity</>",
+      "> <C>2</> increased ammo capacity",
       "<B>></> <C>25%</> <B>increased handling speed penalties</>",
       "<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>"
     ],
@@ -1422,7 +1422,7 @@
     "name": "Arc Salvo",
     "type": "Mod",
     "tooltip": [
-      "> <C>50</> shock damage and <C>2 s</> disable if full burst hits target while ADS",
+      "> <C>75</> shock damage and <C>2 s</> disable if full burst hits target while ADS",
       "<B>> Disables consecutive hit damage multiplier</>",
       "<B>></> <C>20</> <B>reduced ammo capacity</>"
     ],
@@ -1447,7 +1447,7 @@
       "> <C>25%</> reduced hipfire and alternate aim spread",
       "> <C>25%</> reduced aim time",
       "<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>",
-      "<B>></> <C>15%</> <B>reduced damage, velocity and penetration</>"
+      "<B>></> <C>15%</> <B>reduced far damage, velocity and penetration</>"
     ],
     "technician": "false",
     "compatibility": [

@@ -479,8 +479,8 @@
           {
             "Namespace": "",
             "Key": "7376740E41932C04C90A07901892D9D6",
-            "SourceString": "> <C>15%</> additional damage for each consecutive hit",
-            "LocalizedString": "> <C>15%</> additional damage for each consecutive hit"
+            "SourceString": "> <C>15%</> additional damage for each consecutive hit within burst",
+            "LocalizedString": "> <C>15%</> additional damage for each consecutive hit within burst"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -502,7 +502,14 @@
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
         "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 30,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "EA82FE624FF691222A7B2BB2E3F3FD15",
+            "SourceString": "> <C>35%</> increased damage while ADS\r\n> <C>25%</> reduced horizontal recoil while ADS\r\n<B>> </><C>25%</> <B>reduced RPM while ADS</>\r\n<B>> </><C>25%</> <B>increased vertical recoil while ADS</>",
+            "LocalizedString": "> <C>35%</> increased damage while ADS\r\n> <C>25%</> reduced horizontal recoil while ADS\r\n<B>> </><C>25%</> <B>reduced RPM while ADS</>\r\n<B>> </><C>25%</> <B>increased vertical recoil while ADS</>"
+          }
+        ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
@@ -4163,8 +4170,8 @@
           {
             "Namespace": "",
             "Key": "E86B4EA74017A4A31BA66CB68F966343",
-            "SourceString": "> Converts to magazine reload\r\n> <C>2</> increased ammo capacity</>\r\n<B>></> <C>25%</> <B>increased handling speed penalties</>\r\n<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>",
-            "LocalizedString": "> Converts to magazine reload\r\n> <C>2</> increased ammo capacity</>\r\n<B>></> <C>25%</> <B>increased handling speed penalties</>\r\n<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>"
+            "SourceString": "> Converts to magazine reload\r\n> <C>2</> increased ammo capacity\r\n<B>></> <C>25%</> <B>increased handling speed penalties</>\r\n<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>",
+            "LocalizedString": "> Converts to magazine reload\r\n> <C>2</> increased ammo capacity\r\n<B>></> <C>25%</> <B>increased handling speed penalties</>\r\n<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4919,8 +4926,8 @@
           {
             "Namespace": "",
             "Key": "078137FD4A57A9A99A2383953731D27A",
-            "SourceString": "> <C>50</> shock damage and <C>2 s</> disable if full burst hits target while ADS\r\n<B>> Disables consecutive hit damage multiplier</>\r\n<B>></> <C>20</> <B>reduced ammo capacity</>",
-            "LocalizedString": "> <C>50</> shock damage and <C>2 s</> disable if full burst hits target while ADS\r\n<B>> Disables consecutive hit damage multiplier</>\r\n<B>></> <C>20</> <B>reduced ammo capacity</>"
+            "SourceString": "> <C>75</> shock damage and <C>2 s</> disable if full burst hits target while ADS\r\n<B>> Disables consecutive hit damage multiplier</>\r\n<B>></> <C>20</> <B>reduced ammo capacity</>",
+            "LocalizedString": "> <C>75</> shock damage and <C>2 s</> disable if full burst hits target while ADS\r\n<B>> Disables consecutive hit damage multiplier</>\r\n<B>></> <C>20</> <B>reduced ammo capacity</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4946,8 +4953,8 @@
           {
             "Namespace": "",
             "Key": "E2615B474537E9B17CB9D99E869A6B17",
-            "SourceString": "> Can equip CQB optics\r\n> <C>50%</> reduced spread gain\r\n> <C>25%</> reduced hipfire and alternate aim spread\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>\r\n<B>></> <C>15%</> <B>reduced damage, velocity and penetration</>",
-            "LocalizedString": "> Can equip CQB optics\r\n> <C>50%</> reduced spread gain\r\n> <C>25%</> reduced hipfire and alternate aim spread\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>\r\n<B>></> <C>15%</> <B>reduced damage, velocity and penetration</>"
+            "SourceString": "> Can equip CQB optics\r\n> <C>50%</> reduced spread gain\r\n> <C>25%</> reduced hipfire and alternate aim spread\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>\r\n<B>></> <C>15%</> <B>reduced far damage, velocity and penetration</>",
+            "LocalizedString": "> Can equip CQB optics\r\n> <C>50%</> reduced spread gain\r\n> <C>25%</> reduced hipfire and alternate aim spread\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>\r\n<B>></> <C>15%</> <B>reduced far damage, velocity and penetration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
