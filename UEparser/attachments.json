@@ -286,7 +286,7 @@
     "tooltip": [
       "> <C>50%</> of damage dealt as additional Burn damage",
       "> Hot mag: <C>25%</> additional penetration and velocity",
-      "<B>></> <C>25%</> <B>reduced  damage</>"
+      "<B>></> <C>15%</> <B>reduced  damage</>"
     ],
     "technician": "true",
     "compatibility": [
@@ -354,7 +354,8 @@
     "type": "Ammo",
     "tooltip": [
       "> <C>100%</> defense bypass",
-      "> <C>100%</> increased ricochets and reduced ricochet damage penalty",
+      "> <C>200%</> increased ricochet amount",
+      "> <C>100%</> reduced ricochet damage penalty",
       "> <C>100%</> reduced damage to self and allies",
       "> Hot mag: <C>25%</> additional penetration and velocity",
       "<B>></> <C>50%</> <B>reduced damage</>",
@@ -1461,6 +1462,28 @@
     "foundations": {
       "type": "hardware",
       "tier": 45,
+      "value": 3
+    }
+  },
+  {
+    "name": "Double Whammy",
+    "type": "Mod",
+    "tooltip": [
+      "> Fires both barrels simultaneously",
+      "> Converts to semi-automatic, <C>300</> rpm",
+      "> Locks on to <C>2</> visible enemies within <C>25 m</> while Core active",
+      "<B>></> <C>35%</> <B>reduced damage</>",
+      "<B>></> <C>15%</> <B>reduced velocity and penetration</>"
+    ],
+    "technician": "false",
+    "compatibility": [
+      "Double-Tap"
+    ],
+    "excludes": [],
+    "speed_penalty": 0.1,
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
       "value": 3
     }
   }

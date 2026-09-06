@@ -544,6 +544,15 @@
             "SourceString": "Scout Receiver",
             "LocalizedString": "Scout Receiver"
           }
+        },
+        {
+          "Key": "NewEnumerator107",
+          "Value": {
+            "Namespace": "",
+            "Key": "6ABD15F94AE780EA60AC48AB399EC8B0",
+            "SourceString": "Double Whammy",
+            "LocalizedString": "Double Whammy"
+          }
         }
       ]
     },
@@ -608,7 +617,8 @@
       "ENUM_AttachmentID::NewEnumerator104": 57,
       "ENUM_AttachmentID::NewEnumerator105": 58,
       "ENUM_AttachmentID::NewEnumerator106": 59,
-      "ENUM_AttachmentID::ENUM_MAX": 60
+      "ENUM_AttachmentID::NewEnumerator107": 60,
+      "ENUM_AttachmentID::ENUM_MAX": 61
     },
     "CppForm": "Namespaced"
   }

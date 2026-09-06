@@ -3684,8 +3684,8 @@
           {
             "Namespace": "",
             "Key": "9D82EAD440FE62C827AC82B127E7DA0E",
-            "SourceString": "> <C>50%</> of damage dealt as additional Burn damage\r\n> Hot mag: <C>25%</> additional penetration and velocity\r\n<B>></> <C>25%</> <B>reduced  damage</>",
-            "LocalizedString": "> <C>50%</> of damage dealt as additional Burn damage\r\n> Hot mag: <C>25%</> additional penetration and velocity\r\n<B>></> <C>25%</> <B>reduced  damage</>"
+            "SourceString": "> <C>50%</> of damage dealt as additional Burn damage\r\n> Hot mag: <C>25%</> additional penetration and velocity\r\n<B>></> <C>15%</> <B>reduced  damage</>",
+            "LocalizedString": "> <C>50%</> of damage dealt as additional Burn damage\r\n> Hot mag: <C>25%</> additional penetration and velocity\r\n<B>></> <C>15%</> <B>reduced  damage</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3765,8 +3765,8 @@
           {
             "Namespace": "",
             "Key": "C9FF65B840A96D3F29DF3AAB73A13F37",
-            "SourceString": "> <C>100%</> defense bypass\r\n> <C>100%</> increased ricochets and reduced ricochet damage penalty\r\n> <C>100%</> reduced damage to self and allies\r\n> Hot mag: <C>25%</> additional penetration and velocity\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>100%</> <B>reduced penetration</>\r\n<B>></> <C>100%</> <B>reduced Bleed damage</>",
-            "LocalizedString": "> <C>100%</> defense bypass\r\n> <C>100%</> increased ricochets and reduced ricochet damage penalty\r\n> <C>100%</> reduced damage to self and allies\r\n> Hot mag: <C>25%</> additional penetration and velocity\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>100%</> <B>reduced penetration</>\r\n<B>></> <C>100%</> <B>reduced Bleed damage</>"
+            "SourceString": "> <C>100%</> defense bypass\r\n> <C>200%</> increased ricochet amount\r\n> <C>100%</> reduced ricochet damage penalty\r\n> <C>100%</> reduced damage to self and allies\r\n> Hot mag: <C>25%</> additional penetration and velocity\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>100%</> <B>reduced penetration</>\r\n<B>></> <C>100%</> <B>reduced Bleed damage</>",
+            "LocalizedString": "> <C>100%</> defense bypass\r\n> <C>200%</> increased ricochet amount\r\n> <C>100%</> reduced ricochet damage penalty\r\n> <C>100%</> reduced damage to self and allies\r\n> Hot mag: <C>25%</> additional penetration and velocity\r\n<B>></> <C>50%</> <B>reduced damage</>\r\n<B>></> <C>100%</> <B>reduced penetration</>\r\n<B>></> <C>100%</> <B>reduced Bleed damage</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -4955,6 +4955,33 @@
             "Key": "E2615B474537E9B17CB9D99E869A6B17",
             "SourceString": "> Can equip CQB optics\r\n> <C>50%</> reduced spread gain\r\n> <C>25%</> reduced hipfire and alternate aim spread\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>\r\n<B>></> <C>15%</> <B>reduced far damage, velocity and penetration</>",
             "LocalizedString": "> Can equip CQB optics\r\n> <C>50%</> reduced spread gain\r\n> <C>25%</> reduced hipfire and alternate aim spread\r\n> <C>25%</> reduced aim time\r\n<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>\r\n<B>></> <C>15%</> <B>reduced far damage, velocity and penetration</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Mod'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "DoubleWhammy": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator4",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator107",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 50,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "1F8210B84FCE1ED6250E93AA48AB488C",
+            "SourceString": "> Fires both barrels simultaneously\r\n> Converts to semi-automatic, <C>300</> rpm\r\n> Locks on to <C>2</> visible enemies within <C>25 m</> while Core active\r\n<B>></> <C>35%</> <B>reduced damage</>\r\n<B>></> <C>15%</> <B>reduced velocity and penetration</>",
+            "LocalizedString": "> Fires both barrels simultaneously\r\n> Converts to semi-automatic, <C>300</> rpm\r\n> Locks on to <C>2</> visible enemies within <C>25 m</> while Core active\r\n<B>></> <C>35%</> <B>reduced damage</>\r\n<B>></> <C>15%</> <B>reduced velocity and penetration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
