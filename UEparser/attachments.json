@@ -1471,7 +1471,7 @@
     "tooltip": [
       "> Fires both barrels simultaneously",
       "> Converts to semi-automatic, <C>300</> rpm",
-      "> Locks on to <C>2</> visible enemies within <C>25 m</> while Core active",
+      "> Locks on if <C>2</> visible enemies within <C>25 m</> while Core active",
       "<B>></> <C>35%</> <B>reduced damage</>",
       "<B>></> <C>15%</> <B>reduced velocity and penetration</>"
     ],
