@@ -37,7 +37,7 @@
       "> Restores <C>25</> aux power and an aerial maneuver charge on pull",
       "> Useable by allies",
       "> Can attach to surfaces",
-      "> Maximum Efficiency: Unaffected by Core slowing effects for <C>2 s</> on pull"
+      "> Maximum Efficiency: Unaffected by Core slowing effects and <C>50%</> increased firearm accuracy while attached"
     ],
     "experimental": "false",
     "stats": {

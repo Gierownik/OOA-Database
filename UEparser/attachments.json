@@ -1444,9 +1444,9 @@
     "type": "Mod",
     "tooltip": [
       "> Can equip CQB optics",
-      "> <C>50%</> reduced spread gain",
+      "> <C>50%</> reduced spread gain with CQB optics",
+      "> <C>25%</> reduced ADS time with CQB optics",
       "> <C>25%</> reduced hipfire and alternate aim spread",
-      "> <C>25%</> reduced aim time",
       "<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>",
       "<B>></> <C>15%</> <B>reduced far damage, velocity and penetration</>"
     ],

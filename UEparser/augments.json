@@ -135,8 +135,8 @@
   {
     "name": "Augmented Nano-wire",
     "tooltip": [
-      "> Nano-wire can attach to enemies, pulling you toward them",
-      "> Can disarm weapon during active Core or while enemy is knocked down, <C>10 s</> cooldown",
+      "> Nano-wire can attach to allies and enemies, pulling you toward them",
+      "> Can disarm enemy weapons during active Core or while enemy is knocked down on detaching wire, <C>10 s</> cooldown",
       "> Nano-wire can pickup enemy devices and projectiles, ownership transfered if held for <C>1 s</>",
       "> <C>25%</> increased Nano-wire range",
       "<B>> Attaches to enemy heads and no longer disarms with Tether equipped</>",
