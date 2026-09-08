@@ -135,13 +135,12 @@
   {
     "name": "Augmented Nano-wire",
     "tooltip": [
-      "> Nano-wire can attach to allies and enemies, pulling you toward them",
-      "> Can disarm enemy weapons during active Core or while enemy is knocked down on detaching wire, <C>10 s</> cooldown",
+      "> Nano-wire can attach to allies and enemies, pulling you toward them, <C>5 s</> cooldown",
+      "> Can disarm enemy weapons during active Core or while enemy is knocked down on detaching wire",
       "> Nano-wire can pickup enemy devices and projectiles, ownership transfered if held for <C>1 s</>",
       "> <C>25%</> increased Nano-wire range",
       "<B>> Attaches to enemy heads and no longer disarms with Tether equipped</>",
-      "<B>></> <C>100%</> <B>increased Nano-wire cooldown</>",
-      "<B>></> <C>50</> <B>aux power drained on pull</>",
+      "<B>> Drains aux power while attached</>",
       "<B>> Can be Disabled</>"
     ],
     "foundations": {
@@ -250,7 +249,7 @@
     "name": "Chemical Warfare",
     "tooltip": [
       "> Explosive damage applies Corrode for <C>2 s</>",
-      "> <C>25%</> of chemical damage dealt to defense and max defense damages vitals and max vitals",
+      "> <C>50%</> of chemical damage dealt to defense and max defense damages vitals and max vitals",
       "<B>></> <C>25%</> <B>reduced explosive range</>",
       "<B>></> <C>50%</> <B>reduced max defense damage dealt by chemical damage</>"
     ],

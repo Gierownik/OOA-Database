@@ -65,7 +65,7 @@
     "duration": "2s",
     "tooltip": [
       "<B>> <C>100%</> reduced vitals restored from all sources</>",
-      "<B>> <C>10/s</> chemical damage</>"
+      "<B>> <C>10%</> max defense chemical damage per second</>"
     ],
     "enhancement": "",
     "enh_tooltip": [
@@ -154,7 +154,7 @@
   {
     "name": "Shroud",
     "tooltip": [
-      "> Immunity to: radar, detections, targeting optics, locks"
+      "> Undetectable by all equipment"
     ],
     "enhancement": "None",
     "enh_tooltip": []
