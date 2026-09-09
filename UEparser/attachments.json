@@ -513,6 +513,7 @@
     "tooltip": [
       "> <C>35%</> reduced hipfire spread and spread gain",
       "> <C>25%</> reduced alternate aim spread and spread gain",
+      "<B>> Deactivates if camouflaged</>",
       "<B>> Visible laser</>"
     ],
     "technician": "false",
@@ -531,7 +532,9 @@
       "Omen",
       "Double-Tap"
     ],
-    "excludes": [],
+    "excludes": [
+      "CTEC-Light"
+    ],
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
@@ -1485,6 +1488,44 @@
       "type": "tech",
       "tier": 50,
       "value": 3
+    }
+  },
+  {
+    "name": "CTEC-Light",
+    "type": "Mod",
+    "tooltip": [
+      "> Reveals camouflaged enemies within <C>20 m</>",
+      "<B>></> <C>15%</> <B>increased aim time</>",
+      "<B>> Deactivates if camouflaged</>",
+      "<B>> Can be disabled</>"
+    ],
+    "technician": "false",
+    "compatibility": [
+      "Major",
+      "Deckard",
+      "Geist",
+      "Cerberus",
+      "Master-Key",
+      "Icarus",
+      "Custodian",
+      "Vigil",
+      "Inhibitor",
+      "Sentinel",
+      "Helix",
+      "Nexus",
+      "Typhon",
+      "Omen",
+      "Double-Tap",
+      "Warrant"
+    ],
+    "excludes": [
+      "Laser Sight"
+    ],
+    "speed_penalty": 0.2,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
     }
   }
 ]
