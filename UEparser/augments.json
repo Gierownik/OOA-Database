@@ -337,7 +337,7 @@
     "name": "Covert",
     "tooltip": [
       "> <C>50%</> reduced detectable range",
-      "> Gain <G>Shroud</> for <C>3s</> on kill, <C>6s</> without receiving damage from target",
+      "> Gain <G>Shroud</> for <C>3s</> on kill, <C>6s</> if not received damage from the target.",
       "> Devices and projectiles are undetectable",
       "<B>> Can be Disabled</>",
       "<G>*Shroud:</> Undetectable by all equipment"
@@ -1066,7 +1066,7 @@
     "tooltip": [
       "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
       "> Unaffected by Core slowing effects while active",
-      "> <C>25-50%</> reduced direct damage received while active, scaling proportionally with activation speed from <C>5-10 m/s</>",
+      "> <C>25-50%</> reduced direct defense damage received while active, scaling proportionally with activation speed from <C>5-10 m/s</>",
       "> Knockback immunity while active",
       "<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>",
       "<B>> Deactivates on body impacts and collision with ground</>",

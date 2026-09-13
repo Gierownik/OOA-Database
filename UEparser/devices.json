@@ -433,7 +433,7 @@
       "> Deals <C>75</> vital damage, <C>10 /s</> Bleed and <C>4 s</> Snare to enemies on activation",
       "> <C>2</> charges",
       "> Can attach to surfaces",
-      "> Maximum Efficiency: Applies hemorrhage",
+      "> Maximum Efficiency: Applies Bleed+",
       "<B>> Can be Disabled</>"
     ],
     "experimental": "false",
