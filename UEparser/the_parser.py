@@ -115,6 +115,63 @@ def build_foundations(row, found_type):
         "value": foundation_value,
     }
 
+
+matrix_type_fields = {
+    "ENUM_SkillType::NewEnumerator0": ("shell", "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992", shell_id_to_name),
+    "ENUM_SkillType::NewEnumerator1": ("perk", "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4", perk_id_to_name),
+    "ENUM_SkillType::NewEnumerator2": ("weapon", "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E", weapon_id_to_name),
+    "ENUM_SkillType::NewEnumerator3": ("device", "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B", device_id_to_name),
+    "ENUM_SkillType::NewEnumerator4": ("attachment", "AttachmentID_37_E6AEC497440716B81674448A0826E94C", attachment_id_to_name),
+}
+
+matrix_output = []
+
+for skill_name, skill_data in skill_rows.items():
+    skill_type = skill_data.get("Type_5_4C8CB5D9479537F68D8B4894590CF639", "")
+    type_name, id_field, id_to_name = matrix_type_fields.get(
+        skill_type,
+        ("other", "", {}),
+    )
+    enum_value = skill_data.get(id_field, "")
+    id_match = re.search(r"NewEnumerator(\d+)$", enum_value)
+    item_id = int(id_match.group(1)) if id_match else None
+    tooltip_entries = skill_data.get(
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E",
+        [],
+    )
+    tooltip_text = tooltip_entries[-1].get("LocalizedString", "") if tooltip_entries else ""
+    icon = skill_data.get("Icon_62_E4BD900A429389A105BE2091DD2B42DF", {})
+    icon_name = re.search(r"'([^']+)'", icon.get("ObjectName", ""))
+    foundation = skill_data.get("Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B", "")
+    found_type = {
+        "ENUM_Foundation::NewEnumerator0": "body",
+        "ENUM_Foundation::NewEnumerator1": "tech",
+        "ENUM_Foundation::NewEnumerator2": "hardware",
+    }.get(foundation, "other")
+
+    matrix_output.append({
+        "key": skill_name,
+        "name": id_to_name.get(enum_value, skill_name),
+        "type": type_name,
+        "id": item_id,
+        "tooltip": [line.strip() for line in tooltip_text.strip().splitlines() if line.strip()],
+        "prerequisite": perk_id_to_name.get(
+            skill_data.get("Prerequisite_46_1618947F4F88562C70609FAE0671C5E9", "")
+        ),
+        "foundations": build_foundations(skill_data, found_type),
+        "icon": {
+            "name": icon_name.group(1) if icon_name else "",
+            "path": icon.get("ObjectPath", ""),
+        },
+        "position": {
+            "x": skill_data.get("coords_65_908FEC1143831CC22A5ED9A297D0B67A", {}).get("X", 0),
+            "y": skill_data.get("coords_65_908FEC1143831CC22A5ED9A297D0B67A", {}).get("Y", 0),
+        },
+    })
+
+with open("matrix.json", "w", encoding="utf-8") as out_file:
+    json.dump(matrix_output, out_file, indent=2, ensure_ascii=False)
+
 #---------------------------------------------------permks----------------------------------------------------
 perk_output = []
 
@@ -495,6 +552,8 @@ def parse_single_shell_spec(shell_name, shells_tooltip_text):
     if not shell_section:
         return spec_data
     
+    shell_section = re.split(r"(?:\r?\n){2}<G>\*[^:]+:", shell_section, maxsplit=1)[0]
+
     # Extract F1, F2, F3 sections
     # Pattern: <F#>> text until <F or next section or end
     f_pattern = r'<F([1-3])>>(.*?)(?=<F[1-3]>>|$)'

@@ -1,0 +1,5035 @@
+[
+  {
+    "key": "Bison",
+    "name": "Bison",
+    "type": "shell",
+    "id": 0,
+    "tooltip": [
+      ":: <D>KINETIC RESISTANCE</>",
+      "> <C>25%</> reduced direct vitals damage received and <C>50%</> knockback resistance during maneuvers",
+      "> <C>25%</> reduced aux power drain from all sources",
+      "> <C>50%</> increased Snare resistance, Snare immunity while Core active",
+      ":: <D>SURVIVAL INSTINCT</>",
+      "> <C>10%</> of direct damage dealt restored as aux power",
+      "> While below <C>25%</> defense: <C>25%</> increased acceleration, aux power regeneration, and aerial maneuver regeneration",
+      "> While below <C>50%</> vitals: <C>25%</> increased Core regeneration, defense, and vitals restored from all sources",
+      "<B>> Can be Disabled</>",
+      ":: <D>CORE OVERDRIVE</>",
+      "> <C>25%</> increased Core generation",
+      "> <C>25%</> increased dexterity and unaffected by loadout or movement speed penalties while Core active",
+      "> <C>0-25%</> Reduced Core activation cost scaling proportionally with remaining vitals from <C>100-50%</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Shell",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Hydra",
+    "name": "Hydra",
+    "type": "shell",
+    "id": 1,
+    "tooltip": [
+      ":: <D>ADRENAL FEEDBACK</>",
+      "> <C>5%</> increased speed, dexterity, weapon accuracy and melee damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times",
+      "> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness",
+      "> Neuro-link 'Parasite' on Core activation: Deals <C>5</> vitals damage every <C>0.5 s</> to up to <C>6</> visible or detected enemies, <C>200%</> of damage dealt restored to vitals and max vitals, increased by <C>10%</> for each Adrenal Feedback stack on activation",
+      "<B>> Core activation resets Adrenal Feedback stacks</>",
+      "<B>> Can be Disabled</>",
+      ":: <D>REGENETICS</>",
+      "> <C>5 /s</> additional vitals regeneration, increased by <C>0.5 /s</> for each Adrenal Feedback stack",
+      "> <C>25%</> of combined direct head and limb vitals damage received restored after <C>5 s</> of last direct damage, increased by <C>5%</> for each Adrenal Feedback stack",
+      "> Defense regeneration restores max defense while Core is active",
+      "<B>></> <C>10%</> <B>increased debuff duration and damage received for each Adrenal Feedback stack</>",
+      "<B>></> <C>5%</> <B>reduced defense regeneration for each Adrenal Feedback stack</>",
+      ":: <D>ADAPTIVE RECOVERY</>",
+      "> Vitals restored by Adrenal Feedback, Regenetics and Adaptive Recovery increases and restores max vitals up to <C>200</> vitals",
+      "> <C>50</> vitals restored on Core activation, <C>10 s</> cooldown",
+      "> <C>25</> vitals restored on defense depletion, <C>10 s</> cooldown"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Shell",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Ghost",
+    "name": "Ghost",
+    "type": "shell",
+    "id": 5,
+    "tooltip": [
+      ":: <D>TACTICAL CAMOUFLAGE</>",
+      "> Reduces visibility, undetectable by proximity devices and targeting systems, <C>3 s</> cooldown",
+      "> <C>25%</> reduced loadout speed penalty and tag duration, and <C>25%</> increased jump speed while active",
+      "> Gain <G>Amplify</> while moving over <C>4 m/s</> if camouflage active for over <C>10 s</>, reduced by <C>2 s</> per visible kill while camouflage inactive",
+      "<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>",
+      "<B>> Deactivates on Nano-wire use, offensive actions, throwing devices and Burning</>",
+      "<B>> Can be Disabled</>",
+      ":: <D>HEIGHTENED PROFICIENCY</>",
+      "> Opportunity: Active for <C>2 s</> after camouflage deactivation, gain <G>Amplify</> and <C>25%</> increased ground and climb speed, <C>10 s</> cooldown",
+      "> Visible kills reduce Opportunity cooldown by <C>2 s</>, fully reset cooldown while Opportunity is active",
+      "> <C>25%</> increased firearm accuracy, dexterity, melee and stealth weapon damage for <C>10 s</> on visible kill",
+      ":: <D>DISRUPTIVE MEASURES</>",
+      "> <C>25%</> reduced detectable range, scrambled radar profile while moving with camouflage active, and <G>Shroud</> on camouflage activate for <C>2 s</> per visible enemy killed while camouflage inactive",
+      "> Disable enemies and enemy devices within <C>3 m</> for <C>2 s</> during sliding and rolling maneuvers, or on camouflage deactivate.",
+      "> Neuro-link 'Spike' on Core activation: Applies <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown",
+      "<G>*Amplify:</> Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar",
+      "<G>*Shroud:</> Undetectable by all equipment"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Shell",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Dragon",
+    "name": "Dragon",
+    "type": "shell",
+    "id": 4,
+    "tooltip": [
+      ":: <D>DRIFTER JUMP-PACK</>",
+      "> Additional aerial maneuvers:",
+      "Boost: Can be activated and held while airborne, recovers <C>25</> aux power on activation, gain rapid vertical lift and increased air control, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, can knockback, can cancel Dive, replaces Air Jump",
+      "Air Dash: Launch rapidly in held direction while airborne, can knockback and knockdown, replaces Air Dive",
+      "Ground Slam: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, <C>10 s</> cooldown",
+      "> Enhanced ground and climbing maneuvers",
+      "> <C>100%</> reduced airborne accuracy penalty",
+      "<B>> Can no longer ADS while Boost active</>",
+      "<B>> Can be Disabled</>",
+      ":: <D>SCORCH HAZARD</>",
+      "> Backdraft AOE on maneuver activation while enemies in proximity or body impact while Boost active: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, <C>1 m/s</> increased movement speed cap while on cooldown, <C>5 s</> cooldown",
+      "> Ignites surrounding area for <C>5 s</> on death during maneuvers",
+      "> Neuro-link 'Combust' on Core activation: Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown",
+      "<B>> Can be Disabled</>",
+      ":: <D>THERMAL NANO-MESH</>",
+      "> <C>50%</> increased Burn resistance, Burn stat reduction immunity",
+      "> <C>25%</> defense restored per enemy hit by Backdraft and Ground Slam, restarts defense regeneration, can gain up to <C>50</> defense buffer",
+      "> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling proportionally with speed from <C>0-10 m/s</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Shell",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Rhino",
+    "name": "Rhino",
+    "type": "shell",
+    "id": 2,
+    "tooltip": [
+      ":: <D>RESILIENT MOMENTUM</>",
+      ">  <C>0-100%</> reduced movement speed penalties, proportional to defense from <C>0-100%</>, and knockdown immunity while grounded and defense not depleted",
+      "> <C>25%</> knockback resistance, <C>50%</> reduced fall damage and body impacts can knockdown airborne enemies",
+      "> Gain <G>Bolster</> while Core active",
+      ":: <D>CONCUSSIVE IMPULSE</>",
+      "> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage, reset on Core activation",
+      "> <C>50%</> of Shockwave damage dealt by Shockwave restored to defense and max defense",
+      "> <C>5%</> of direct damage received stored and released as additional damage on next Shockwave, up to <C>50</>",
+      "<B>> Can be Disabled</>",
+      ":: <D>REACTIVE CLADDING</>",
+      "> <C>100%</> of combined vitals damage received restored to defense during defense regeneration on exceeding <C>25</> total damage, <C>10 s</> cooldown",
+      "> <C>50%</> increased explosive resistance, <C>25%</> reduced direct defense damage received and <C>25%</> increased movement speed for <C>10 s</> on dealing body impact damage or receiving explosive damage",
+      "> <C>10%</> of damage dealt with melee and body impacts restored to defense and max defense",
+      "<B>></> <C>0-50%</> <B>reduced backup weapon damage dealt, proportional to defense from</> <C>100-0%</>",
+      "<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration. <C>50%</> <B>reduced speed and vitals restored from all sources</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Shell",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shell.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Fists",
+    "name": "Fists",
+    "type": "weapon",
+    "id": 61,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Fist",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Fist.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "TTK",
+    "name": "TTK",
+    "type": "weapon",
+    "id": 28,
+    "tooltip": [
+      "> Unaffected by Core slowing effects while Core active and bypasses temporal damage reductions when thrown",
+      "> <C>25%</> increased damage to enemies from behind or before receiving damage from the enemy",
+      "> <C>25%</> reduced direct damage received while equipped"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 5,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Backup",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Backup.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Akanami",
+    "name": "Akanami",
+    "type": "weapon",
+    "id": 55,
+    "tooltip": [
+      "> <C>25%</> reduced direct damage received while equipped",
+      "> <C>25%</> increased ground speed if unobstructed enemy within <C>15 m</> while equipped"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Backup",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Backup.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Dusters",
+    "name": "Dusters",
+    "type": "weapon",
+    "id": 60,
+    "tooltip": [
+      "> <C>50%</> defense and damage reduction bypass",
+      "> <C>25%</> reduced direct damage received while equipped",
+      "> <C>25%</> increased ground speed if unobstructed enemy within <C>10 m</> while equipped"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Fist",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Fist.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Major",
+    "name": "Major",
+    "type": "weapon",
+    "id": 0,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Gun",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Deckard",
+    "name": "Deckard",
+    "type": "weapon",
+    "id": 1,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Geist",
+    "name": "Geist",
+    "type": "weapon",
+    "id": 45,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Gun",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Double-Tap",
+    "name": "Double-Tap",
+    "type": "weapon",
+    "id": 59,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 5,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Gun",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Omen",
+    "name": "Omen",
+    "type": "weapon",
+    "id": 57,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Cerberus",
+    "name": "Cerberus",
+    "type": "weapon",
+    "id": 19,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Master-Key",
+    "name": "Master-Key",
+    "type": "weapon",
+    "id": 18,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Icarus",
+    "name": "Icarus",
+    "type": "weapon",
+    "id": 17,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Custodian",
+    "name": "Custodian",
+    "type": "weapon",
+    "id": 41,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Inhibitor",
+    "name": "Inhibitor",
+    "type": "weapon",
+    "id": 46,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Vigil",
+    "name": "Vigil",
+    "type": "weapon",
+    "id": 23,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Sentinel",
+    "name": "Sentinel",
+    "type": "weapon",
+    "id": 47,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Helix",
+    "name": "Helix",
+    "type": "weapon",
+    "id": 51,
+    "tooltip": [
+      "> <C>15%</> additional damage for each consecutive hit within burst"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Nexus",
+    "name": "Nexus",
+    "type": "weapon",
+    "id": 52,
+    "tooltip": [
+      "> <C>35%</> increased damage while ADS",
+      "> <C>25%</> reduced horizontal recoil while ADS",
+      "<B>> </><C>25%</> <B>reduced RPM while ADS</>",
+      "<B>> </><C>25%</> <B>increased vertical recoil while ADS</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Typhon",
+    "name": "Typhon",
+    "type": "weapon",
+    "id": 56,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Warrant",
+    "name": "Warrant",
+    "type": "weapon",
+    "id": 48,
+    "tooltip": [],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gun2",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Blackout",
+    "name": "Blackout",
+    "type": "weapon",
+    "id": 54,
+    "tooltip": [],
+    "prerequisite": "Heavy Weapons",
+    "foundations": {
+      "type": "hardware",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_HeavWeap",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Umibozu",
+    "name": "Umibozu",
+    "type": "weapon",
+    "id": 53,
+    "tooltip": [
+      "> Paints and deals Shock damage to airborne targets"
+    ],
+    "prerequisite": "Heavy Weapons",
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_HeavWeap",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Hole-Punch",
+    "name": "Hole-Punch",
+    "type": "weapon",
+    "id": 15,
+    "tooltip": [],
+    "prerequisite": "Heavy Weapons",
+    "foundations": {
+      "type": "hardware",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_HeavWeap",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Talon",
+    "name": "Talon",
+    "type": "weapon",
+    "id": 15,
+    "tooltip": [],
+    "prerequisite": "Heavy Weapons",
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_HeavWeap",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Acrobatics",
+    "name": "Acrobatics",
+    "type": "perk",
+    "id": 27,
+    "tooltip": [
+      "> Additional aerial maneuver charge",
+      "> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge",
+      "> Recover an aerial maneuver charge on starting a climb",
+      "> <C>50%</> reduced fall damage",
+      "> <C>15%</> increased jump and climb speed",
+      "<B>></> <C>25</> <B>reduced defense</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Acro",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Acro.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Addict",
+    "name": "Addict",
+    "type": "perk",
+    "id": 30,
+    "tooltip": [
+      "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>",
+      "> <C>50%</> increased stim use speed",
+      "> <C>25%</> reduced direct damage to vitals while active",
+      "> <C>50%</> increased aux power and aerial maneuver regeneration while active",
+      "> <C>15%</> increased ground speed while active",
+      "<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>",
+      "<B>></> <C>4 s</> <B>Snare+</> <C>25</> <B>vital damage received on activation while detox on cooldown</>",
+      "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Addict",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Addict.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "AdrenalineRush",
+    "name": "Adrenaline Rush",
+    "type": "perk",
+    "id": 10,
+    "tooltip": [
+      "> Activates on visible kill, <C>5 s</> cooldown",
+      "> <C>50</> vitals and aux power restored on activate",
+      "> <C>25%</> increased ground speed and dexterity for <C>5 s</> on activate",
+      "> <C>50%</> reduced aux power drain for <C>5 s</> on activate",
+      "<B>></> <C>25</> <B>reduced vitals</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_AdrenRush",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AdrenRush.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "AdvancedRecon",
+    "name": "Advanced Recon",
+    "type": "perk",
+    "id": 3,
+    "tooltip": [
+      "> <C>25%</> increased radar and detection range",
+      "> <C>100%</> reduced scan and tag cooldown on ally killing tagged enemy",
+      "> <C>5 s</> increased scan duration",
+      "> Additional tag charge, detected enemies can be tagged",
+      "<B>> </><C>1</> <B> reduced Shell detections</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_AdvRecon",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AdvRecon.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Akimbo",
+    "name": "Akimbo",
+    "type": "perk",
+    "id": 16,
+    "tooltip": [
+      "> Dual wield sidearms",
+      "> <C>100%</> increased sidearm ammo capacity",
+      "> <C>50%</> increased RPM while not using alternate aim stance",
+      "> <C>25%</> increased Core generation with sidearms",
+      "<B>> Can no longer equip sidearm optics</>",
+      "<B>></> <C>0-25%</> <B>reduced sidearm damage while not using alternate aim stance</>",
+      "<B>></> <C>25%</> <B>increased sidearm recoil while not using alternate aim stance</>",
+      "<B>></> <C>50%</> <B>increased spread and spread gain while not aiming</>",
+      "<B>></> <C>50%</> <B>reduced primary weapon reserve ammo</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Akimbo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Akimbo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Armadillo",
+    "name": "Armadillo",
+    "type": "perk",
+    "id": 26,
+    "tooltip": [
+      "> Retractable Nano-plating, activates on roll maneuvers, <C>5 s</> cooldown, hard target",
+      "> Deflects direct damage while active, reducing damage by <C>50%</>",
+      "> Clears Burn and gains Burn immunity while active",
+      "> Destroys attached devices on activate",
+      "> Automatically roll on knockdown while grounded",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Armadillo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Armadillo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "AugmentedArms",
+    "name": "Augmented Arms",
+    "type": "perk",
+    "id": 6,
+    "tooltip": [
+      "> <C>25%</> increased backup weapon windup speed",
+      "> <C>100%</> increased backup weapon combo point generation",
+      "> <C>25%</> increased firearm and device throw velocity",
+      "> <C>25%</> reduced firearm recoil and spread gain",
+      "<B>></> <C>25%</> <B>reduced aux power regeneration</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_AugArms",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AugArms.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "AugmentedLegs",
+    "name": "Augmented Legs",
+    "type": "perk",
+    "id": 7,
+    "tooltip": [
+      "> <C>25%</> reduced loadout and movement speed penalties while on ground or climbing",
+      "> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched",
+      "> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers",
+      "<B>> Charging jump drains aux power</>",
+      "<B>> Snared while Disabled</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_AugLegs",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AugLegs.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "AugmentedNano-wire",
+    "name": "Augmented Nano-wire",
+    "type": "perk",
+    "id": 24,
+    "tooltip": [
+      "> Nano-wire can attach to allies and enemies, pulling you toward them, <C>5 s</> cooldown",
+      "> Can disarm enemy weapons during active Core or while enemy is knocked down on detaching wire",
+      "> Nano-wire can pickup enemy devices and projectiles, ownership transfered if held for <C>1 s</>",
+      "> <C>25%</> increased Nano-wire range",
+      "<B>> Attaches to enemy heads and no longer disarms with Tether equipped</>",
+      "<B>> Drains aux power while attached</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_AdvNano",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AdvNano.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Auto-Doc",
+    "name": "Auto-Doc",
+    "type": "perk",
+    "id": 13,
+    "tooltip": [
+      "> Automatically clears Bleed, <C>10 s</> cooldown",
+      "> <C>25</> vitals restored and Bleed immunity for <C>2.5 s</> on activation, chemical heal",
+      "> <C>5 /s</> max vitals regeneration",
+      "<B>></> <C>25%</> <B>reduced aux power regeneration</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_AutoDoc",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AutoDoc.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "AuxiliaryVitals",
+    "name": "Auxiliary Vitals",
+    "type": "perk",
+    "id": 15,
+    "tooltip": [
+      "> Chemical heals gain Bleed immunity if used while not Bleeding",
+      "> On receiving fatal Bleed damage or Core activation: <C>25</> vitals restored and Bleed immunity for <C>5 s</>, chemical heal, <C>10 s</> cooldown",
+      "> <C>2.5</> vitals and max vitals restored every <C>0.5 s</> while Bleed immunity from chemical heals active",
+      "<B>></> <C>25%</> <B>reduced defense restored from all sources</>",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_AuxVit",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_AuxVit.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Backdoor",
+    "name": "Backdoor",
+    "type": "perk",
+    "id": 70,
+    "tooltip": [
+      "> Enemies are detected to allies within <C>100 m</> for <C>5-1 s</> on successful Neuro-Link, proportional to amount effected from <C>1-5</>, <C>15 s</> cooldown",
+      "> On receiving Neuro-Link detect the sender to allies for <C>2 s</>",
+      "> Enemies within <C>30 m</> are detected while enemy head attached to Nano-wire",
+      "> Devices and explosives of visible or detected enemies are detected to allies",
+      "<B>> </><C>5 s</> <B>reduced scan duration</>",
+      "<B>> </><C>1</> <B>reduced Shell detections</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Backdoor",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Backdoor.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Bloodsport",
+    "name": "Bloodsport",
+    "type": "perk",
+    "id": 32,
+    "tooltip": [
+      "> Bleeding enemies within <C>100 m</> are detected while Bleeding",
+      "> <C>100%</> of Bleed damage dealt restored to vitals and max vitals while Bleeding",
+      "> <C>25%</> of damage dealt with backup weapons and body impacts restored to vitals and max vitals while Bleeding, addititonal <C>25%</> if target is Bleeding",
+      "> <C>25</> vitals restored on visible enemy kill while Bleeding, additional <C>50</> if target is Bleeding",
+      "> <C>15%</> increased ground speed while Bleeding with backup weapon equipped",
+      "> <C>50%</> reduced aux power drain while Bleeding with backup weapon equipped",
+      "<B>> Primary stim no longer restores vitals and causes Bleed if used while not Bleeding</>",
+      "<B>></> <C>100%</> <B>reduced defense regeneration while Bleeding</>",
+      "<B>></> <C>50%</> <B>increased Bleed damage received</>",
+      "<B>> Core activation no longer clears Bleed</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Bloodsport",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Bloodsport.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Caustic",
+    "name": "Caustic",
+    "type": "perk",
+    "id": 48,
+    "tooltip": [
+      "> Backup weapons apply Corrode for <C>2 s</>",
+      "> <C>25%</> of vitals damage received reflected as chemical damage and <C>2 s</> Snare to enemies within <C>3 m</>",
+      "> <C>100%</> Corrode resistance",
+      "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+      "<B>></> <C>25%</> <B>increased Bleed damage received</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Caustic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Caustic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ChainReaction",
+    "name": "Chain Reaction",
+    "type": "perk",
+    "id": 60,
+    "tooltip": [
+      "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration",
+      "> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration",
+      "> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>",
+      "<B>></> <C>25%</> <B>increased direct damage received while Disabled or Overcharged</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_ChainReact",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ChainReact.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ChemicalWarfare",
+    "name": "Chemical Warfare",
+    "type": "perk",
+    "id": 58,
+    "tooltip": [
+      "> Explosive damage applies Corrode for <C>2 s</>",
+      "> <C>50%</> of chemical damage dealt to defense and max defense damages vitals and max vitals",
+      "<B>></> <C>25%</> <B>reduced explosive range</>",
+      "<B>></> <C>50%</> <B>reduced max defense damage dealt by chemical damage</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_ChemWar",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ChemWar.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "CloseMinded",
+    "name": "Close Minded",
+    "type": "perk",
+    "id": 67,
+    "tooltip": [
+      "> <C>50%</> reduced firearm spread while aiming with iron sights equipped",
+      "> <C>25%</> increased ground speed while using backup weapons with enemies within <C>10 m</>",
+      "> <C>25%</> reduced firearm and backup weapon damage received within <C>5 m</> while using backup weapons or aiming with iron sights equipped",
+      "<B>></> <C>25%</> <B>reduced firearm far damage</>",
+      "<B>></> <C>25%</> <B>increased firearm and backup weapon damage received beyond</> <C>10 m</> <B>while using backup weapons or aiming with iron sights equipped</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_CloseMind",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CloseMind.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "CombatCore",
+    "name": "Combat Core",
+    "type": "perk",
+    "id": 11,
+    "tooltip": [
+      "> <C>1%</> of direct damage dealt converted to active Core duration",
+      "> <C>25%</> increased Core generation",
+      "<B>></> <C>100%</> <B>reduced Core generation during active Core</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_CombatCore",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CombatCore.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "CoreDecay",
+    "name": "CoreDecay",
+    "type": "perk",
+    "id": 0,
+    "tooltip": [
+      "> <C>0-100%</> increased aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
+      "> <C>0-100%</> reduced speed penalties, scaling proportionally with Core charge from <C>0-100</>",
+      "<B>></> <C>1 /s</> <B>Core charge drain if no charge gained within</> <C>5 s</>",
+      "<B>></> <C>100%</> <B>Core charge drained on deploy</>",
+      "<B>> Can no longer manually activate Core</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_CoreDecay",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CoreDecay.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "CoreDischarge",
+    "name": "Core Discharge",
+    "type": "perk",
+    "id": 63,
+    "tooltip": [
+      "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown",
+      "> Deals <C>25</> vital damage, <C>4 s</> Disable and knockback to enemies within <C>5 m</>, knockdown if within <C>2.5 m</>",
+      "> Deflects unattached devices and projectiles within <C>5 m</>",
+      "<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>",
+      "<B>></> <C>25%</> <B>reduced Core generation and duration</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_CoreDischarge",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CoreDischarge.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Counterbalance",
+    "name": "Counterbalance",
+    "type": "perk",
+    "id": 57,
+    "tooltip": [
+      "> Removes flat vitals, defense and speed reductions from equipped augments",
+      "> Equipped augments can no longer be Disabled",
+      "<B>> </><C>25%</><B> increased augment cooldowns</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_CounterBal",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CounterBal.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "CounterIntelligence",
+    "name": "Counter Intelligence",
+    "type": "perk",
+    "id": 29,
+    "tooltip": [
+      "> Enemies detecting you within <C>30 m</> are detected",
+      "> Enemies interacting with objectives within <C>30 m</> are detected",
+      "> Enemies that tag you are tagged",
+      "> Unobstructed enemies within <C>15 m</> of your decapitated head are detected to allies",
+      "> Visible disguised enemies within <C>15 m</> are revealed",
+      "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_CountIntel",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_CountIntel.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Covert",
+    "name": "Covert",
+    "type": "perk",
+    "id": 1,
+    "tooltip": [
+      "> <C>50%</> reduced detectable range",
+      "> Gain <G>Shroud</> for <C>3s</> on kill, <C>6s</> if not received damage from the target.",
+      "> Devices and projectiles are undetectable",
+      "<B>> Can be Disabled</>",
+      "<G>*Shroud:</> Undetectable by all equipment"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Covert",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Covert.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "DamageReport",
+    "name": "Damage Report",
+    "type": "perk",
+    "id": 8,
+    "tooltip": [
+      "> Detect enemies within <C>100 m</> for <C>0.75 s</> on dealing direct damage",
+      "> Detect enemies within <C>15 m</> of killed enemy for <C>3 s</>, <C>10 s</> cooldown",
+      "<B>></> <C>50%</> <B>reduced radar detection range</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_DamReport",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_DamReport.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "DeadDrop",
+    "name": "Dead Drop",
+    "type": "perk",
+    "id": 64,
+    "tooltip": [
+      "> Aiming, quick melee or charging backup weapon after recent climb activates <G>Overkill</>, <C>5 s</> cooldown",
+      "> Deactivates after <C>2 s</> if no longer falling",
+      "<G>*Overkill:</> Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, backup weapon windup speed and firearm accuracy. <C>100%</> <B>increased direct damage received while active</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Deaddrop",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Deaddrop.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Disengage",
+    "name": "Disengage",
+    "type": "perk",
+    "id": 34,
+    "tooltip": [
+      "> Can survive fatal damage. Relocate to a previous location if death prevented",
+      "> <C>50%</> vitals and defense restored on activation",
+      "> Removes tagged and clears debuffs on activation",
+      "<B>></> <C>50%</> <B>reduced max vitals and defense on activation</>",
+      "<B>></> <C>50%</> <B>reduced Core charge on activation</>",
+      "<B>> Fatal explosive or telefrag damage prevents activation</>",
+      "<B>> Can no longer restore max vitals and max defense on activation</>",
+      "<B>> Can only activate once</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Disengage",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Disengage.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Dispersal",
+    "name": "Dispersal",
+    "type": "perk",
+    "id": 41,
+    "tooltip": [
+      "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown",
+      "> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching or losing target",
+      "<B>></> <C>25%</> <B>Increased device cooldowns</>",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Dispersal",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Dispersal.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "EnhancedDexterity",
+    "name": "Enhanced Dexterity",
+    "type": "perk",
+    "id": 4,
+    "tooltip": [
+      "> <C>25%</> increased dexterity",
+      "> Complete active reloads on roll maneuvers at any stage of the reload",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_EnhDex",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_EnhDex.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "EnhancedFoundation",
+    "name": "Enhanced Foundation",
+    "type": "perk",
+    "id": 62,
+    "tooltip": [
+      "> <C>8%</> reduced movement speed penalties and backup weapon damage received for each Body foundation upgrade",
+      "> <C>8%</> increased aux power regeneration and radar range for each Tech foundation upgrade",
+      "> <C>8%</> reduced firearm ADS spread and increased firearm and device throw velocity for each Hardware foundation upgrade",
+      "<B>></> <C>6%</> <B>reduced knockback resistance and increased body impact damage received for each Body foundation upgrade</>",
+      "<B>></> <C>6%</> <B>increased detectable range and direct damage received while Disabled for each Tech foundation upgrade</>",
+      "<B>></> <C>6%</> <B>reduced reserve ammo and device duration for each Hardware foundation upgrade</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_EnhFound",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_EnhFound.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Experimental",
+    "name": "Experimental",
+    "type": "perk",
+    "id": 17,
+    "tooltip": [
+      "> Can equip experimental devices",
+      "> <C>25%</> increased applied debuff duration",
+      "<B>></> <C>25</> <B>reduced defense</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Experimental",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Experimental.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ExploitWeakness",
+    "name": "Exploit Weakness",
+    "type": "perk",
+    "id": 38,
+    "tooltip": [
+      "> Enemies with defense below <C>50%</> are considered weakened",
+      "> <C>100%</> defense bypass with melee damage to weakened enemies",
+      "> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity while grounded, <C>100%</> reduced speed penalties",
+      "> <C>25%</> increased direct damage to knocked down enemies",
+      "<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>",
+      "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Exploit",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Exploit.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Fail-safe",
+    "name": "Fail-safe",
+    "type": "perk",
+    "id": 22,
+    "tooltip": [
+      "> When vitals drop below <C>25%</> or receive Disable+: <C>20</> vitals restored every <C>0.5 s</> and Disable immunity for <C>2.5 s</>, <C>30 s</> cooldown",
+      "> Devices and projectiles can no longer be Disabled",
+      "<B>></> <C>25%</> <B>reduced defense and aux power regeneration</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Failsafe",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Failsafe.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Gecko",
+    "name": "Gecko",
+    "type": "perk",
+    "id": 56,
+    "tooltip": [
+      "> Gain <G>Shroud</> while climbing, <C>0.5 s</> activation time",
+      "> Gain camouflage while stationary and climbing, any actions will deactivate, <C>4 s</> cooldown",
+      "> <C>100%</> reduced aux power drain from climbing",
+      "> <C>100%</> reduced fall damage when landing into a climb",
+      "> <C>15%</> increased speed, jump speed and weapon accuracy while climbing",
+      "<B>> Can be Disabled</>",
+      "<G>*Shroud:</> Undetectable by all equipment"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Gecko",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gecko.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Hardcase",
+    "name": "Hardcase",
+    "type": "perk",
+    "id": 28,
+    "tooltip": [
+      "> Deflects headshots while active, reducing damage by <C>50%</>, hard target",
+      "> Immunity to Tether and Neuro-Link devices while active",
+      "<B>> Can no longer ADS while active</>",
+      "<B>> Can no longer use Neuro-Link devices while active</>",
+      "<B>> </> <C>4 s</> <B>Disable+ and destroyed on receiving</> <C>150</> <B>damage</>",
+      "<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Hardcase",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Hardcase.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Hardened",
+    "name": "Hardened",
+    "type": "perk",
+    "id": 46,
+    "tooltip": [
+      "> Activates on receiving vitals damage to body, deactivates and restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown",
+      "> <C>25-75%</> reduced direct vitals damage to body received, scaling proportionally with reduced max vitals from <C>0-75%</> while active",
+      "<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>",
+      "<B>> Can no longer restore max vitals while active</>",
+      "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>",
+      "<B>></> <C>100%</> <B>increased Burn damage received</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Hardened",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Hardened.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Headhunter",
+    "name": "Headhunter",
+    "type": "perk",
+    "id": 37,
+    "tooltip": [
+      "> <C>0.25x</> additional headshot damage multiplier",
+      "> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost",
+      "> <C>25</> vitals and defense restored on head pickup if Nano-wire held, instantly harvests Core, head is destroyed",
+      "<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_HeadHunt",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeadHunt.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HeavyOrdnance",
+    "name": "Heavy Ordnance",
+    "type": "perk",
+    "id": 33,
+    "tooltip": [
+      "> <C>50%</> increased explosive Bleed damage",
+      "> All equipped or picked up weapons gain the Contact Charge mod with no slot cost",
+      "> Heads thrown with Nano-wire detonate, dealing <C>75-25</> explosive damage",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_HeavOrd",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavOrd.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HeavyWeapons",
+    "name": "Heavy Weapons",
+    "type": "perk",
+    "id": 19,
+    "tooltip": [
+      "> Can equip and pickup heavy weapons",
+      "> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped",
+      "> Disarm immunity while heavy weapon equipped",
+      "<B>> Unable to dive or prone while heavy weapon equipped</>",
+      "<B>> Heavy weapons can only be fired while aiming, are dropped on knockdown and unequipped on rolling maneuvers</>",
+      "<B>></> <C>50%</> <B>increased aux power drain from all sources while airborne</>",
+      "<B>></> <C>1 m/s</> <B>reduced movement speed cap</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_HeavWeap",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HotSwap",
+    "name": "Hot Swap",
+    "type": "perk",
+    "id": 65,
+    "tooltip": [
+      "> Hot mag: Cycle through available ammo types with fire or aim while holding reload, gain <C>50%</> reduced spread and improved ammo for equipped weapon on changing ammo type, <C>10 s</> cooldown on drop, reload or activating on another weapon",
+      "> <C>100%</> reduced reload movement speed penalty, unaffected by Core slowing effects while reloading",
+      "> All equipped or picked-up weapons gain the External Mag mod with no slot cost, if compatible",
+      "<B>> </><C>25%</> <B>increased recoil while Hot mag active</>",
+      "<B>> Cycling ammo empties current magazine into reserve</>",
+      "<B>> Can only be active on a single weapon</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Hotswap",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Hotswap.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HunterOptics",
+    "name": "Hunter Optics",
+    "type": "perk",
+    "id": 39,
+    "tooltip": [
+      "> Target recognition overlay, replaces scan",
+      "> Highlights enemies and devices while active",
+      "> Can tag camouflaged enemies",
+      "<B>> Disables detections and radar while active</>",
+      "<B>> Unable to use weapon optics while active</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_HuntOptics",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HuntOptics.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "InertialBuffer",
+    "name": "Inertial Buffer",
+    "type": "perk",
+    "id": 59,
+    "tooltip": [
+      "> <C>50%</> reduced deceleration while airborne or during sliding maneuvers",
+      "> <C>35%</> reduced weapon spread and spread gain during sliding maneuvers",
+      "> <C>25%</> increased knockback resistance",
+      "> Knockdown immunity and increased lateral control during sliding maneuvers",
+      "<B>></> <C>25%</> <B>reduced defense regeneration</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_InertBuff",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_InertBuff.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "KineticFocus",
+    "name": "Kinetic Focus",
+    "type": "perk",
+    "id": 20,
+    "tooltip": [
+      "> <C>0-35%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>",
+      "> <C>0-35%</> reduced weapon spread and spread gain, scaling proportionally with speed from <C>4-12 m/s</>",
+      "> <C>0-35%</> increased knockback resistance, scaling proportionally with speed from <C>4-12 m/s</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_KinFocus",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_KinFocus.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "KineticInjectors",
+    "name": "Kinetic Injectors",
+    "type": "perk",
+    "id": 43,
+    "tooltip": [
+      "> <C>25</> vitals restored on roll maneuvers, chemical heal, <C>10 s</> cooldown",
+      "> <C>25</> vitals restored on receiving body impact, chemical heal",
+      "> <C>2.5 s</> Bleed immunity if activated while Bleeding",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_KinInject",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_KinInject.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "LowProfile",
+    "name": "Low Profile",
+    "type": "perk",
+    "id": 9,
+    "tooltip": [
+      "> <C>50%</> reduced movement sound",
+      "> <C>50%</> reduced radar profile and tagged duration",
+      "> <C>50%</> increased slide and crouch speed",
+      "> Undetectable by proximity devices and targeting systems during sliding maneuvers",
+      "<B>></> <C>25</> <B>reduced defense</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_LowPro",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_LowPro.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "MaximumEfficiency",
+    "name": "Maximum Efficiency",
+    "type": "perk",
+    "id": 54,
+    "tooltip": [
+      "> Improves standard and enhancement devices",
+      "<B>></> <C>50%</> <B>Increased device cooldowns</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_MaxEff",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_MaxEff.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "NetRunner",
+    "name": "Net Runner",
+    "type": "perk",
+    "id": 69,
+    "tooltip": [
+      "> Actions no longer deactivate scan",
+      "> <C>100%</> reduced scan movement speed penalty",
+      "> <C>50%</> increased ground speed for <C>2 s</> on successful Neuro-Link",
+      "> <C>20%</> reduced aux power drain from all sources per detected enemy",
+      "<B>> Deactivates vitals and defense regeneration while scanning</>",
+      "<B>> Unable to use weapon optics while scanning</>",
+      "<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>",
+      "<B>> </><C>50%</> <B>increased scan cooldown</>",
+      "<B>> </><C>100-0%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>",
+      "<B>> </><C>1</> <B> reduced Shell detections</>",
+      "<B>> </><C>5 s</> <B>reduced scan duration</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_NetRun",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_NetRun.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Necrosis",
+    "name": "Necrosis",
+    "type": "perk",
+    "id": 75,
+    "tooltip": [
+      "> All sources of Corrode apply Corrode+",
+      "> Creates <C>5 s</> Tox cloud on enemy killed with Corrode active, obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact",
+      "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+      "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Necrosis",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Necrosis.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Neuro-Hacker",
+    "name": "Neuro-Hacker",
+    "type": "perk",
+    "id": 68,
+    "tooltip": [
+      "> Can equip Neuro-Link devices",
+      "<B>> Can only equip Neuro-Link devices</>",
+      "<B>> </><C>50%</> <B>reduced radar detection range</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_NeuroHack",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_NeuroHack.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Overclocked",
+    "name": "Overclocked",
+    "type": "perk",
+    "id": 36,
+    "tooltip": [
+      "> Unaffected by Core slowing effects while Core active",
+      "<B>></> <C>10 /s</> <B>vitals and defense damage while Core active</>",
+      "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources while Core active</>",
+      "<B>></> <C>25%</> <B>reduced Core generation</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Overclocked",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Overclocked.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Overseer",
+    "name": "Overseer",
+    "type": "perk",
+    "id": 47,
+    "tooltip": [
+      "> Personal targeting drone, replaces scan, hard target",
+      "> Provides external camera view and paints visible enemies within <C>50 m</> while active",
+      "> <C>25%</> increased target painting detection zone",
+      "> <C>35%</> reduced hipfire spread and spread gain on painted targets",
+      "> <C>25%</> reduced alternate aim spread and spread gain on painted targets",
+      "<B>> Disrupts vision if drone takes damage while active</>",
+      "<B>> Can no longer ADS</>",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+      "<B>> Can be destroyed</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Overseer",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Overseer.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "PerpetualMotion",
+    "name": "Perpetual Motion",
+    "type": "perk",
+    "id": 52,
+    "tooltip": [
+      "> Removes Snare on performing a maneuver, can maneuver while Snared+",
+      "> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver",
+      "> <C>100%</> reduced aux power drain from all sources while Core active",
+      "> Gain <C>4</> aerial maneuver charges while Core active",
+      "<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>",
+      "<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_PerpMotion",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_PerpMotion.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "PotentStimulants",
+    "name": "Potent Stimulants",
+    "type": "perk",
+    "id": 14,
+    "tooltip": [
+      "> <C>100%</> increased vitals restored by primary stim",
+      "> <C>100%</> of vitals restored by primary stim restores max vitals",
+      "> <C>100%</> increased aux power and aerial maneuver regeneration for <C>10 s</> on primary stim use",
+      "<B>></> <C>100%</> <B>increased primary stim cooldown</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_PotentStim",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_PotentStim.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Professional",
+    "name": "Professional",
+    "type": "perk",
+    "id": 50,
+    "tooltip": [
+      "> <C>25%</> increased velocity and far damage with sidearms while using a single sidearm or akimbo alternate aim stance",
+      "> <C>25%</> reduced spread, spread gain, recoil and weapon handling speed penalties with sidearms while using a single sidearm or akimbo alternate aim stance",
+      "> Dispatch: <C>50%</> increased quick melee damage for <C>2 s</> after dealing damage with sidearms, ignores enemy defense if below <C>25%</>",
+      "> <C>25%</> increased lunge speed and duration while using sidearms",
+      "> <C>100%</> additional base sidearm reserve ammo",
+      "> All equipped or picked up sidearms gain the Suppressor mod with no slot cost",
+      "<B>> Can no longer equip primary weapons</>",
+      "<B>></> <C>25</> <B>Reduced defense</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Prof",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Prof.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Puncture",
+    "name": "Puncture",
+    "type": "perk",
+    "id": 49,
+    "tooltip": [
+      "> <C>25%</> defense bypass with backup weapons and body impact damage",
+      "> <C>50%</> increased body impact damage",
+      "> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, proportional to impact speed from <C>4-12 m/s</>",
+      "<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Puncture",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Puncture.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Pyro-Psycho",
+    "name": "Pyro-Psycho",
+    "type": "perk",
+    "id": 73,
+    "tooltip": [
+      "> <C>85%</> reduced Burn damage received, can no longer die from Burn damage",
+      "> Snare immunity and <C>50%</> increased ground and jump speed while Burning",
+      "> Ignite nearby surface for <C>3 s</> on roll maneuvers if enemy within <C>15 m</> and apply Burn to enemies within <C>3 m</> while Burning, Burn+ if Burning+",
+      "<B>> Core activation no longer clears Burning</>",
+      "<B>> Burn on roll maneuvers</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Pyro",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Pyro.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "RageCore",
+    "name": "Rage Core",
+    "type": "perk",
+    "id": 66,
+    "tooltip": [
+      "> Gain <G>Overkill</> while Core active",
+      "> <C>25%</> of damage received from enemies within the last <C>10 s</>, up to <C>50</>, restored to vitals and max vitals on Core activation",
+      "> <C>5%</> of damage received from enemies converted to Core charge",
+      "<G>*Overkill:</> Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, backup weapon windup speed and firearm accuracy. <C>100%</> <B>increased direct damage received while active</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_RageCore",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_RageCore.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ReactiveCore",
+    "name": "Reactive Core",
+    "type": "perk",
+    "id": 12,
+    "tooltip": [
+      "> <C>80%</> active and inactive Core speed",
+      "> <C>25%</> increased Core generation from damage dealt while affected by Core",
+      "<B>></> <C>25%</> <B>reduced Core generation from damage dealt while not affected by Core</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_ReacCore",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ReacCore.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ReactiveDermis",
+    "name": "Reactive Dermis",
+    "type": "perk",
+    "id": 53,
+    "tooltip": [
+      "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</>",
+      "> <C>10 s</> immunity to a debuff on end or removal",
+      "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_ReacDerm",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ReacDerm.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Recovery",
+    "name": "Recovery",
+    "type": "perk",
+    "id": 5,
+    "tooltip": [
+      "> <C>5 /s</> additional vitals regeneration while no damage received within <C>1 s</>",
+      "> <C>25%</> increased vitals restored from all other sources",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Recovery",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Recovery.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Redline",
+    "name": "Redline",
+    "type": "perk",
+    "id": 77,
+    "tooltip": [
+      "> <C>0-50%</> reduced speed penalties and airborne deceleration, scaling proportionally with Core charge from <C>0-100</>",
+      "> <C>0-50%</> increased dexterity, acceleration, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
+      "> <C>100%</> increased Core generation",
+      "<B>></> <C>0-25%</> <B>increased damage received, scaling proportionally with Core charge from</> <C>0-100</>",
+      "<B>></> <C>100%</> <B>Core charge drained on deploy</>",
+      "<B>></> <C>25%</> <B>reduced Core duration</>",
+      "<B>> Visible trails</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Redline",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Redline.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Renewal",
+    "name": "Renewal",
+    "type": "perk",
+    "id": 55,
+    "tooltip": [
+      "> <C>25</> vitals, defense, max vitals and max defense restored every <C>10 s</>",
+      "> <C>100</> aux power restored every <C>10 s</>",
+      "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Renew",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Renew.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Resourceful",
+    "name": "Resourceful",
+    "type": "perk",
+    "id": 21,
+    "tooltip": [
+      "> Deconstruct weapons if Nano-wire held while picking up, weapon is destroyed",
+      "> Deconstruct heads if Nano-wire held while picking up, head is destroyed",
+      "> <C>50%</> of equipped weapons ammo restored on deconstruct",
+      "> <C>100%</> reduced active primary stim cooldown on deconstruct",
+      "> <C>25%</> reduced active standard device cooldowns on deconstruct",
+      "<B>></> <C>25%</> <B>reduced reserve ammo</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Resourceful",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Resourceful.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Reversal",
+    "name": "Reversal",
+    "type": "perk",
+    "id": 45,
+    "tooltip": [
+      "> Gain <G>Overcharge</> on receiving Disable, active for duration of received Disable",
+      "<B>></> <C>25%</> <B>increased direct damage taken while Overcharge active</>",
+      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Reversal",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Reversal.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ShellShock",
+    "name": "Shell Shock",
+    "type": "perk",
+    "id": 71,
+    "tooltip": [
+      "> Explosive damage applies Disable for <C>2 s</>",
+      "> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration",
+      "<B>></> <C>25%</> <B>reduced explosive range</>",
+      "<B>></> <C>25%</> <B>reduced defense restored from all sources</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_ShellShock",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ShellShock.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Shifter",
+    "name": "Shifter",
+    "type": "perk",
+    "id": 35,
+    "tooltip": [
+      "> Shift: Attempt to relocate horizontally up to <C>3 m</> in movement direction, can bypass obstructions, replaces quick melee",
+      "> <C>50</> vital damage and knockback to enemies within <C>1 m</> of relocation",
+      "> Removes tagged on relocation",
+      "<B>> Requires aerial maneuver charge while in air</>",
+      "<B>></> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on activation while Restabilise on cooldown</>",
+      "<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Shifter",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Shifter.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Slipstream",
+    "name": "Slipstream",
+    "type": "perk",
+    "id": 78,
+    "tooltip": [
+      "> Climb speed ramps up to Shells max maneuver speed",
+      "> Unaffected by all speed penalties while climbing",
+      "> <C>40 /s</> aux power regeneration while climbing",
+      "> Surge: Activates on reaching <C>8 m/s</> while climbing, deactivates after <C>2 s</> if no longer climbing or below <C>8 m/s</>",
+      "> Gain <G>Overcharge</> and knockdown enemies while Surge active, can telefrag on activation or detaching from climb",
+      "<B>></> <C>100%</> <B>reduced vitals and defense restored from all sources while Surge active</>",
+      "<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>",
+      "<B>></> <C>10 /s</> <B>defense damage while Surge active</>",
+      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Slipstream",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Slipstream.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Specialist",
+    "name": "Specialist",
+    "type": "perk",
+    "id": 18,
+    "tooltip": [
+      "> Additional weapon mod slot",
+      "> <C>25%</> reduced sidearm or primary weapon handling speed penalties while only sidearms or primary weapons equipped, additional <C>25%</> for <C>10 s</> on visible kill",
+      "> <C>25%</> increased sidearm or primary weapon dexterity while only sidearms or primary weapons equipped, additional <C>25%</> for <C>10 s</> on visible kill",
+      "<B>></> <C>50%</> <B>Increased device cooldowns</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Specialist",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Specialist.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Studied",
+    "name": "Studied",
+    "type": "perk",
+    "id": 76,
+    "tooltip": [
+      "> Additional aerial maneuver charge while using backup weapons",
+      "> Unaffected by Core slowing effects while Core active and using backup weapons",
+      "> <C>100%</> increased Core generation with backup weapons",
+      "> <C>100%</> reduced backup weapon loadout speed penalty",
+      "<B>> Can no longer equip primary weapons</>",
+      "<B>></> <C>50%</> <B>reduced Core regeneration</>",
+      "<B>></> <C>25%</> <B>reduced Core duration</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Studied",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Studied.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Surplus",
+    "name": "Surplus",
+    "type": "perk",
+    "id": 25,
+    "tooltip": [
+      "> Additional weapon mod slot",
+      "> <C>200%</> additional base reserve ammo",
+      "> <C>100%</> additional stealth weapon ammo",
+      "> <C>50%</> reduced active standard device cooldowns on kill",
+      "<B>></> <C>25%</> <B>Increased device cooldowns</>",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Surplus",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Surplus.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Technician",
+    "name": "Technician",
+    "type": "perk",
+    "id": 23,
+    "tooltip": [
+      "> Can equip exotic ammo types",
+      "> <C>20 /s</> defense and max defense restored while Nano-wire held and unconnected",
+      "<B>></> <C>50%</> <B>reduced reserve ammo</>",
+      "<B>></> <C>25%</> <B>reduced Nano-wire range</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Tech",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Tech.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "TemporalSuspension",
+    "name": "Temporal Suspension",
+    "type": "perk",
+    "id": 51,
+    "tooltip": [
+      "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
+      "> Unaffected by Core slowing effects while active",
+      "> <C>25-50%</> reduced direct defense damage received while active, scaling proportionally with activation speed from <C>5-10 m/s</>",
+      "> Knockback immunity while active",
+      "<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>",
+      "<B>> Deactivates on body impacts and collision with ground</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_TempSus",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_TempSus.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Tether",
+    "name": "Tether",
+    "type": "perk",
+    "id": 44,
+    "tooltip": [
+      "> Nano-wire can tether to enemies or detached heads, dealing <C>15</> vital damage to enemies within <C>6m</> every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>, detached heads are suspended in place while attached",
+      "> Applies <C>1 s</> Disable on damage if active for longer than <C>0.5 s</>",
+      "> <C>50%</> of damage dealt by Tether restored to vitals and max vitals",
+      "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Tether",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Tether.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ThreatDetection",
+    "name": "Threat Detection",
+    "type": "perk",
+    "id": 2,
+    "tooltip": [
+      "> Detect enemies within <C>15 m</> if they have fired a weapon within <C>2 s</>",
+      "> Detect enemy devices within <C>15 m</>",
+      "> Countermeasure: Automatically destroys unobstructed enemy device or explosive within <C>5 m</>, <C>30 s</> cooldown",
+      "<B>></> <C>50%</> <B>increased radar profile</>",
+      "<B>> Visible on radar while stationary</>",
+      "<B>> Disables scan</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_ThreatDet",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_ThreatDet.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Transference",
+    "name": "Transference",
+    "type": "perk",
+    "id": 40,
+    "tooltip": [
+      "> Relocate to enemy location on visible or detected kill from direct damage, removes tagged, <C>5 s</> cooldown",
+      "> Disguise as enemy on kill relocation or on Nano-wiring an enemy head for <C>2 s</>, appearing as an ally on enemy HUD and radar",
+      "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources while disguised</>",
+      "<B>> Disguise removed on visible facing enemy within</> <C>5 m</><B>, dealing direct damage to visible enemy or receiving direct damage from enemy</>",
+      "<B>></> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on activation while Restabilise on cooldown</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Transfer",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Transfer.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "UnstableCore",
+    "name": "Unstable Core",
+    "type": "perk",
+    "id": 31,
+    "tooltip": [
+      "> <C>100%</> Core generation on deploy",
+      "> Core detonation on death or failure, applies <C>2 s</> Disable+ and knockback to enemies within <C>4 m</>",
+      "> Gain <G>Overcharge</> while Core fully charged",
+      "<B>> While Core fully charged: Core failure initiates after</> <C>60 s</><B>, restored by</> <C>10 s</> <B>per visible enemy kill. Failure also initiates on any Core charge drain or enemy Disable attempt. Failure can be vented by manual Core activation or visible enemy kill</>",
+      "<B>></> <C>50%</> <B>reduced Core duration, Shell specific Core bonuses disabled</>",
+      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Unstable",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Unstable.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Vendetta",
+    "name": "Vendetta",
+    "type": "perk",
+    "id": 42,
+    "tooltip": [
+      "> Receiving over <C>150</> vitals damage from an enemy marks them as a vendetta, persists through death until enemy killed by the vendetta owner",
+      "> Vendettas are detected while within <C>45 m</>",
+      "> <C>25-50</> vitals, max vitals and Core charge restored on killing a vendetta, scaling proportionally with the vendetta damage from <C>150-300</>",
+      "<B>></> <C>25%</> <B>increased direct damage received from vendettas</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Vendetta",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Vendetta.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Versatile",
+    "name": "Versatile",
+    "type": "perk",
+    "id": 61,
+    "tooltip": [
+      "> Can equip sidearm, backup, heavy and primary weapons in both sidearm and primary slots",
+      "> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped",
+      "> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped",
+      "> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped",
+      "> Can equip <C>2</> of the same device",
+      "<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>",
+      "<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>",
+      "<B>></> <C>25</> <B>reduced defense</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Versatile",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Versatile.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "AAPTurret",
+    "name": "AAP Turret",
+    "type": "device",
+    "id": 17,
+    "tooltip": [
+      "> Engages closest visible enemy within <C>25 m</> on activation",
+      "> Deals <C>20-10</> ballistic damage, <C>600 rpm</>, <C>50</> round capacity",
+      "> Can attach to surfaces and Shells",
+      "> Maximum Efficiency: <C>25%</> increased range and ammo capacity",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": "Experimental",
+    "foundations": {
+      "type": "hardware",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Anchor",
+    "name": "Anchor",
+    "type": "device",
+    "id": 28,
+    "tooltip": [
+      "> Can be used by Nano-wire to attach and pull towards location",
+      "> Restores <C>25</> aux power and an aerial maneuver charge on pull",
+      "> Useable by allies",
+      "> Can attach to surfaces",
+      "> Maximum Efficiency: Unaffected by Core slowing effects and <C>50%</> increased firearm accuracy while attached"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Amplify",
+    "name": "Amplify",
+    "type": "device",
+    "id": 39,
+    "tooltip": [
+      "> While active: Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar",
+      "> Maximum Efficiency: <C>50%</> increased duration"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Bolster",
+    "name": "Bolster",
+    "type": "device",
+    "id": 23,
+    "tooltip": [
+      "> While active: Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration",
+      "> Maximum Efficiency: <C>50%</> increased duration",
+      "<B>> While active:</> <C>50%</> <B>reduced speed and vitals restored from all sources</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Spike",
+    "name": "Spike",
+    "type": "device",
+    "id": 3,
+    "tooltip": [
+      "> Applies <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals",
+      "> Destroys visible or detected devices",
+      "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
+    ],
+    "prerequisite": "Neuro-Hacker",
+    "foundations": {
+      "type": "tech",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Combust",
+    "name": "Combust",
+    "type": "device",
+    "id": 29,
+    "tooltip": [
+      "> Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy",
+      "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
+    ],
+    "prerequisite": "Neuro-Hacker",
+    "foundations": {
+      "type": "tech",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Parasite",
+    "name": "Parasite",
+    "type": "device",
+    "id": 30,
+    "tooltip": [
+      "> Deals <C>5</> vitals damage every <C>0.5 s</> for <C>2.5 s</> to up to <C>6</> visible or detected enemies",
+      "> <C>200%</> of damage dealt restored to allies vitals and max vitals",
+      "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
+    ],
+    "prerequisite": "Neuro-Hacker",
+    "foundations": {
+      "type": "tech",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Glitch",
+    "name": "Glitch",
+    "type": "device",
+    "id": 31,
+    "tooltip": [
+      "> Deals <C>5</> vital damage, <C>6 s</> Desync to visible and up to <C>6</> detected enemies, damage increased by <C>5</> per additional enemy, applies Desync+ to enemies with Core active",
+      "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
+    ],
+    "prerequisite": "Neuro-Hacker",
+    "foundations": {
+      "type": "tech",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Cascade",
+    "name": "Cascade",
+    "type": "device",
+    "id": 10,
+    "tooltip": [
+      "> Initiates <C>8 s</> Core detonation to up to <C>6</> visible or detected enemies",
+      "<B>> Can only be used while scanning</>",
+      "<B>> Requires</> <C>100</> <B>Core charge for scan hack</>",
+      "<B>> Detected and unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
+    ],
+    "prerequisite": "Neuro-Hacker",
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Pathogen",
+    "name": "Pathogen",
+    "type": "device",
+    "id": 33,
+    "tooltip": [
+      "> Applies <C>1/s</> Bleed and <C>2 s</> Corrode+ to up to <C>6</> visible or detected enemies, bypasses and clears Bleed immunity",
+      "<B>> Unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful Neuro-Link</>"
+    ],
+    "prerequisite": "Neuro-Hacker",
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Lockdown",
+    "name": "Lockdown",
+    "type": "device",
+    "id": 10,
+    "tooltip": [
+      "> Disarms and applies <C>4 s</> Disable+ and Snare+ to up to <C>6</> visible or detected enemies",
+      "<B>> Can only be used while scanning</>",
+      "<B>> Requires</> <C>100</> <B>Core charge for scan hack</>",
+      "<B>> Detected and unable to use Neuro-Link devices for</> <C>2 s</> <B>on successful hack</>"
+    ],
+    "prerequisite": "Neuro-Hacker",
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Deadzone",
+    "name": "Deadzone",
+    "type": "device",
+    "id": 20,
+    "tooltip": [
+      "> Creates <C>16 m</> disruptive zone on activation",
+      "> Disable and Snare to enemies within zone",
+      "> Disables enemy devices within zone",
+      "> <G>Shroud</> to allies within zone",
+      "> Can attach to surfaces",
+      "> Maximum Efficiency: Snare+ to enemies within zone",
+      "<G>*Shroud:</> Undetectable by all equipment"
+    ],
+    "prerequisite": "Experimental",
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Detonator",
+    "name": "Detonator",
+    "type": "device",
+    "id": 13,
+    "tooltip": [
+      "> Deals <C>125-50</> explosive damage and knockback to targets within <C>2-4 m</> on activation",
+      "> Maximum Efficiency: <C>50%</> reduced activation delay",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 5,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Disrupter",
+    "name": "Disrupter",
+    "type": "device",
+    "id": 12,
+    "tooltip": [
+      "> <C>4 s</> Disable+, and Snare to targets within <C>6 m</> on activation",
+      "> Can attach to surfaces and Shells",
+      "> Maximum Efficiency: <C>50%</> reduced activation delay"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Firecracker",
+    "name": "Firecracker",
+    "type": "device",
+    "id": 15,
+    "tooltip": [
+      "> On impact: Deals <C>25-15</> explosive and <C>50-30</> Burn damage to targets within <C>2-3 m</> and launches <C>10</> incendiary projectiles",
+      "> On airborne activation: Deals <C>100</> Burn damage to targets within <C>5 m</>",
+      "> Incendiary projectile: Detonates after <C>1 s</>, igniting surface and dealing <C>10</> explosive and <C>10</> Burn damage to targets within <C>2 m</>",
+      "> Maximum Efficiency: <C>100%</> increased duration"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Hyper",
+    "name": "Hyper",
+    "type": "device",
+    "id": 36,
+    "tooltip": [
+      "> On activate: Restores <C>100</> aux power and gain <C>4</> aerial maneuver charges",
+      "> While active: Snare immunity, <C>100%</> increased aux power regeneration, <C>100%</> reduced loadout speed penalty",
+      "> Maximum Efficiency: <C>50%</> increased duration"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Killswitch",
+    "name": "Killswitch",
+    "type": "device",
+    "id": 38,
+    "tooltip": [
+      "> While active: Gain <G>Overkill</>",
+      "> Duration refreshed on unobstructed enemy kill",
+      "> Maximum Efficiency: <C>25</> vitals restored on deactivation per unobstructed enemy killed",
+      "<B>> Death on deactivate if no unobstructed enemies are killed while active</>",
+      "<G>*Overkill:</> Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, backup weapon windup speed and firearm accuracy. <C>100%</> <B>increased direct damage received while active</>"
+    ],
+    "prerequisite": "Experimental",
+    "foundations": {
+      "type": "body",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "LaserWire",
+    "name": "Laser Wire",
+    "type": "device",
+    "id": 1,
+    "tooltip": [
+      "> Deals <C>75</> vital damage, <C>10 /s</> Bleed and <C>4 s</> Snare to enemies on activation",
+      "> <C>2</> charges",
+      "> Can attach to surfaces",
+      "> Maximum Efficiency: Applies Bleed+",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Overcharge",
+    "name": "Overcharge",
+    "type": "device",
+    "id": 0,
+    "tooltip": [
+      "> While active: Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>",
+      "> Maximum Efficiency: <C>50%</> increased duration"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ProximityMine",
+    "name": "Proximity Mine",
+    "type": "device",
+    "id": 14,
+    "tooltip": [
+      "> Deals <C>125-50</> explosive damage, knockback to targets within <C>2-5 m</> on activation",
+      "> Can attach to surfaces and Shells",
+      "> Maximum Efficiency: <C>50%</> reduced activation delay",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Relocator",
+    "name": "Relocator",
+    "type": "device",
+    "id": 16,
+    "tooltip": [
+      "> Relocate to device location on activation, removes tagged",
+      "> Telefrag targets within <C>1 m</> on relocation",
+      "> <C>2 s</> Disable to enemies and devices within <C>3 m</> on relocation",
+      "> Can attach to surfaces and Shells",
+      "> Maximum Efficiency: <C>50</> vitals and max vitals restored on activation",
+      "<B>></> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on activation while Restabilise on cooldown</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": "Experimental",
+    "foundations": {
+      "type": "tech",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ReserveStim",
+    "name": "Reserve Stim",
+    "type": "device",
+    "id": 25,
+    "tooltip": [
+      "> <C>25</> vitals restored on activation, chemical heal",
+      "> <C>5 s</> Bleed immunity if used while Bleeding",
+      "> Maximum Efficiency: Becomes potent"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 5,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "SatchelCharge",
+    "name": "Satchel Charge",
+    "type": "device",
+    "id": 22,
+    "tooltip": [
+      "> Deals <C>150-75</> explosive damage, knockback and knockdown to targets within <C>2-5 m</> on activation",
+      "> Can attach to surfaces and Shells",
+      "> Maximum Efficiency: <C>50%</> of damage dealt as additional Burn damage",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Shroud",
+    "name": "Shroud",
+    "type": "device",
+    "id": 24,
+    "tooltip": [
+      "> While active: Undetectable by all equipment",
+      "> Maximum Efficiency: <C>50%</> increased duration"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Surge",
+    "name": "Surge",
+    "type": "device",
+    "id": 35,
+    "tooltip": [
+      "> On activate: Gain up to <C>5</> temporary backup weapon combo points",
+      "> While active: <C>50%</> increased acceleration and knockback resistance",
+      "> Maximum Efficiency: <C>50%</> increased duration"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "body",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Tempest",
+    "name": "Tempest",
+    "type": "device",
+    "id": 26,
+    "tooltip": [
+      "> Creates multiple charged nano-particle clouds on activation",
+      "> Clouds obscure vision, detect enemies and <G>Overcharge</> allies while in contact. <G>Overcharge</> continues for <C>2 s</> on leaving cloud",
+      "> Maximum Efficiency: <C>100%</> increased duration",
+      "<B>> Can be cleared with fire</>",
+      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ToxGrenade",
+    "name": "Tox grenade",
+    "type": "device",
+    "id": 37,
+    "tooltip": [
+      "> Creates toxic cloud on impact or airbone activation, spreading to nearby surfaces",
+      "> <C>25</> chemical damage to enemies within <C>3 m</>",
+      "> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact",
+      "> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets",
+      "> Maximum Efficiency: <C>100%</> increased duration"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Device",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "StandardAmmo",
+    "name": "Standard Ammo",
+    "type": "attachment",
+    "id": 74,
+    "tooltip": [
+      "> Standard ammunition",
+      "> Hot mag: <C>25%</> additional penetration and velocity"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "PiercingAmmo",
+    "name": "Piercing Ammo",
+    "type": "attachment",
+    "id": 66,
+    "tooltip": [
+      "> <C>50%</> increased environment penetration",
+      "> <C>25%</> of damage dealt penetrates defense",
+      "> <C>25%</> increased velocity",
+      "> Hot mag: <C>25%</> additional penetration and velocity",
+      "<B>></> <C>25%</> <B>reduced hard target damage </>",
+      "<B>></> <C>25%</> <B>reduced Bleed damage</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HeavyAmmo",
+    "name": "Heavy Ammo",
+    "type": "attachment",
+    "id": 67,
+    "tooltip": [
+      "> <C>0.25-2 s</> Snare to enemies, scaling proportionally with damage dealt from <C>10-100</>",
+      "> <C>100%</> increased near damage range",
+      "> Hot mag: <C>25%</> additional penetration and velocity",
+      "<B>></> <C>15%</> <B>reduced velocity</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ShredAmmo",
+    "name": "Shred Ammo",
+    "type": "attachment",
+    "id": 68,
+    "tooltip": [
+      "> <C>50%</> increased Bleed damage",
+      "> Bypasses limb damage reduction on targets with depleted defense",
+      "> Hot mag: <C>25%</> additional penetration and velocity",
+      "<B>></> <C>15%</> <B>reduced penetration</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "TDAmmo",
+    "name": "TD Ammo",
+    "type": "attachment",
+    "id": 80,
+    "tooltip": [
+      "> Unaffected by Core slowing effects while Core active",
+      "> Bypasses temporal damage reductions",
+      "> <C>15%</> increased Core generation",
+      "> Hot mag: <C>25%</> additional penetration and velocity",
+      "<B>></> <C>25%</> <B>reduced far damage range</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 5,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "CBAmmo",
+    "name": "CB Ammo",
+    "type": "attachment",
+    "id": 71,
+    "tooltip": [
+      "> <C>50%</> of headshot damage dealt as additional vital damage after <C>1 s</>",
+      "> Hot mag: <C>25%</> additional penetration and velocity",
+      "<B>></> <C>15%</> <B>reduced velocity</>",
+      "<B>></> <C>25%</> <B>reduced far damage range</>"
+    ],
+    "prerequisite": "Technician",
+    "foundations": {
+      "type": "tech",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ChemAmmo",
+    "name": "Chem Ammo",
+    "type": "attachment",
+    "id": 84,
+    "tooltip": [
+      "> <C>2 s</> Corrode to enemies",
+      "> Hot mag: <C>25%</> additional penetration and velocity",
+      "<B>></> <C>50%</> <B>reduced Bleed damage</>"
+    ],
+    "prerequisite": "Technician",
+    "foundations": {
+      "type": "tech",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "EMAmmo",
+    "name": "EM Ammo",
+    "type": "attachment",
+    "id": 70,
+    "tooltip": [
+      "> <C>0.5-4 s</> Disable to enemies, scaling proportionally with damage dealt from <C>25-200</>",
+      "> <C>25%</> increased damage to enemies with Disable+",
+      "> Hot mag: <C>25%</> additional penetration and velocity",
+      "<B>></> <C>25%</> <B>reduced velocity and penetration</>",
+      "<B>></> <C>50%</> <B>reduced Bleed damage</>"
+    ],
+    "prerequisite": "Technician",
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "IncendiaryAmmo",
+    "name": "Incendiary Ammo",
+    "type": "attachment",
+    "id": 69,
+    "tooltip": [
+      "> <C>50%</> of damage dealt as additional Burn damage",
+      "> Hot mag: <C>25%</> additional penetration and velocity",
+      "<B>></> <C>15%</> <B>reduced  damage</>"
+    ],
+    "prerequisite": "Technician",
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "TargetPainter",
+    "name": "Target Painter",
+    "type": "attachment",
+    "id": 79,
+    "tooltip": [
+      "> Paints visible enemies within <C>25 m</>",
+      "> <C>35%</> reduced hipfire spread and spread gain on painted targets",
+      "> <C>25%</> reduced alternate aim spread and spread gain on painted targets",
+      "<B>></> <C>15%</> <B>increased aiming and firing handling speed penalties</>",
+      "<B>> Can no longer ADS</>",
+      "<B>> Can be disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Optic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "T-LockAmmo",
+    "name": "T-LockAmmo",
+    "type": "attachment",
+    "id": 5,
+    "tooltip": [
+      "> Can lock onto and track painted enemies",
+      "> Detonates after <C>2 s</>, dealing additional explosive damage to targets within <C>4 m</>",
+      "> <C>25 m/s</> velocity with lock, <C>250 m/s</> without lock",
+      "> <C>1.5x</> headshot mutliplier",
+      "> <C>25</> penetration",
+      "> <C>25%</> reduced recoil",
+      "<B>></> <C>85%</> <B>reduced direct damage</>",
+      "<B>></> <C>25%</> <B>reduced automatic and burst RPM</>",
+      "<B>> Overrides weapon modifiers to velocity, damage range, headshot multiplier and penetration</>",
+      "<B>> Reduced tracking speed if used while airborne</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "GhostfireAmmo",
+    "name": "Ghostfire Ammo",
+    "type": "attachment",
+    "id": 96,
+    "tooltip": [
+      "> <C>100%</> defense bypass",
+      "> <C>200%</> increased ricochet amount",
+      "> <C>100%</> reduced ricochet damage penalty",
+      "> <C>100%</> reduced damage to self and allies",
+      "> Hot mag: <C>25%</> additional penetration and velocity",
+      "<B>></> <C>50%</> <B>reduced damage</>",
+      "<B>></> <C>100%</> <B>reduced penetration</>",
+      "<B>></> <C>100%</> <B>reduced Bleed damage</>"
+    ],
+    "prerequisite": "Technician",
+    "foundations": {
+      "type": "tech",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "StandardGrenade",
+    "name": "Standard Grenade",
+    "type": "attachment",
+    "id": 86,
+    "tooltip": [
+      "> Activates on impact, <C>0.75 s</> activation delay",
+      "> Detonates on Shell impact",
+      "> Explosive damage",
+      "> Can knockback",
+      "> Hot mag: <C>25%</> additional velocity",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HVGrenade",
+    "name": "HV Grenade",
+    "type": "attachment",
+    "id": 87,
+    "tooltip": [
+      "> Activates on impact, <C>0.25 s</> activation delay",
+      "> Detonates on Shell impact",
+      "> Impact and explosive damage",
+      "> <C>50%</> increased velocity",
+      "> Hot mag: <C>25%</> additional velocity",
+      "<B>></> <C>50%</> <B>reduced bleed damage</>",
+      "<B>></> <C>25%</> <B>reduced explosive damage</>",
+      "<B>></> <C>25%</> <B>reduced explosive damage range</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "IncendiaryGrenade",
+    "name": "Incendiary Grenade",
+    "type": "attachment",
+    "id": 88,
+    "tooltip": [
+      "> Activates on impact, <C>0.75 s</> activation delay",
+      "> Detonates on Shell impact",
+      "> Burn and explosive damage, ignites surrounding area",
+      "> Hot mag: <C>25%</> additional velocity",
+      "<B>></> <C>50%</> <B>reduced explosive damage</>"
+    ],
+    "prerequisite": "Technician",
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ChemGrenade",
+    "name": "Chem Grenade",
+    "type": "attachment",
+    "id": 104,
+    "tooltip": [
+      "> Activates on impact, <C>0.5 s</> activation delay",
+      "> Detonates on Shell impact",
+      "> Creates toxic cloud on impact, spreading to nearby surfaces",
+      "> <C>25</> chemical damage to enemies within <C>3 m</>",
+      "> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact",
+      "> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets",
+      "> Hot mag: <C>25%</> additional velocity",
+      "<B>></> <C>100%</> <B>reduced bleed and explosive damage</>"
+    ],
+    "prerequisite": "Technician",
+    "foundations": {
+      "type": "hardware",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ProximityGrenade",
+    "name": "Proximity Grenade",
+    "type": "attachment",
+    "id": 89,
+    "tooltip": [
+      "> Proximity detection, <C>0.5 s</> activation delay",
+      "> Can attach to surfaces and Shells, up to <C>4</> attached",
+      "> Explosive damage",
+      "> <C>25%</> increased explosive damage range",
+      "> Hot mag: <C>25%</> additional velocity",
+      "<B>></> <C>25%</> <B>reduced explosive damage</>",
+      "<B>> Can be Disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Ammo",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Ammo.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "LaserSight",
+    "name": "Laser Sight",
+    "type": "attachment",
+    "id": 48,
+    "tooltip": [
+      "> <C>35%</> reduced hipfire spread and spread gain",
+      "> <C>25%</> reduced alternate aim spread and spread gain",
+      "<B>> Deactivates if camouflaged</>",
+      "<B>> Visible laser</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Suppressor",
+    "name": "Suppressor",
+    "type": "attachment",
+    "id": 49,
+    "tooltip": [
+      "> Removes radar profile from firing",
+      "> <C>25%</> reduced vertical recoil",
+      "<B>></> <C>15%</> <B>reduced velocity</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Foregrip",
+    "name": "Foregrip",
+    "type": "attachment",
+    "id": 50,
+    "tooltip": [
+      "> <C>25%</> reduced horizontal recoil",
+      "> <C>25%</> reduced aim time",
+      "<B>></> <C>15%</> <B>increased aiming handling speed penalty</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "SecureGrip",
+    "name": "Secure Grip",
+    "type": "attachment",
+    "id": 51,
+    "tooltip": [
+      "> Disarm immunity",
+      "> <C>2 s</> Disable to enemies on attempted pickup or Nano-wire attach",
+      "<B>></> <C>15%</> <B>increased aim time</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 10,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "TacticalForegrip",
+    "name": "Tactical Foregrip",
+    "type": "attachment",
+    "id": 52,
+    "tooltip": [
+      "> <C>15%</> increased rechamber speed",
+      "> <C>15%</> reduced aim time",
+      "<B>></> <C>25%</> <B>increased aiming and firing handling speed penalties</>",
+      "<B>></> <C>25%</> <B>increased spread gain, hipfire and alternate aim spread</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "QuickBolt",
+    "name": "Quick Bolt",
+    "type": "attachment",
+    "id": 53,
+    "tooltip": [
+      "> <C>15%</> increased rechamber speed",
+      "<B>></> <C>15%</> <B>increased aim time</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HeavyBarrel",
+    "name": "Heavy Barrel",
+    "type": "attachment",
+    "id": 54,
+    "tooltip": [
+      "> <C>25%</> reduced vertical recoil",
+      "> <C>35%</> reduced spread gain",
+      "<B>></> <C>15%</> <B>increased aim time</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "LongBarrel",
+    "name": "Long Barrel",
+    "type": "attachment",
+    "id": 55,
+    "tooltip": [
+      "> <C>50%</> increased velocity",
+      "> <C>25%</> reduced pellet spread",
+      "<B>></> <C>25%</> <B>increased aim time</>",
+      "<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HighCapacity",
+    "name": "High Capacity",
+    "type": "attachment",
+    "id": 56,
+    "tooltip": [
+      "> Increased ammo capacity",
+      "<B>></> <C>25%</> <B>increased reload handling speed penalty</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ExternalMag",
+    "name": "External Mag",
+    "type": "attachment",
+    "id": 57,
+    "tooltip": [
+      "> Converts to magazine reload",
+      "> <C>2</> increased ammo capacity",
+      "<B>></> <C>25%</> <B>increased handling speed penalties</>",
+      "<B>></> <C>25%</> <B>increased hipfire and alternate aim spread</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "SpeedLoader",
+    "name": "Speed Loader",
+    "type": "attachment",
+    "id": 58,
+    "tooltip": [
+      "> <C>50%</> increased reload speed",
+      "<B>></> <C>25%</> <B>increased reload handling speed penalty</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "AdaptiveChoke",
+    "name": "Adaptive Choke",
+    "type": "attachment",
+    "id": 59,
+    "tooltip": [
+      "> <C>25%</> reduced pellet spread while ADS or akimbo alternate aim stance",
+      "<B>></> <C>15%</> <B>increased aim time</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "IronSights",
+    "name": "Iron Sights",
+    "type": "attachment",
+    "id": 73,
+    "tooltip": [
+      "> Iron sights"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Optic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "MarksmanSight",
+    "name": "Marksman Sight",
+    "type": "attachment",
+    "id": 65,
+    "tooltip": [
+      "> <C>0.15x</> additional headshot damage multiplier",
+      "> <C>100%</> reduced ADS spread",
+      "> <C>100%</> increased ADS range",
+      "<B>></> <C>15%</> <B>increased aim time</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Optic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ReflexSight",
+    "name": "Reflex Sight",
+    "type": "attachment",
+    "id": 61,
+    "tooltip": [
+      "> <C>25%</> reduced ADS spread"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Optic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "2xSight",
+    "name": "2x Sight",
+    "type": "attachment",
+    "id": 62,
+    "tooltip": [
+      "> <C>35%</> reduced ADS spread"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 20,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Optic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "3xSight",
+    "name": "3x Sight",
+    "type": "attachment",
+    "id": 63,
+    "tooltip": [
+      "> <C>65%</> reduced ADS spread",
+      "> <C>25%</> increased ADS range",
+      "<B>></> <C>15%</> <B>increased aim time</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 15,
+      "value": 1
+    },
+    "icon": {
+      "name": "UI_M_Optic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "4xSight",
+    "name": "4x Sight",
+    "type": "attachment",
+    "id": 64,
+    "tooltip": [
+      "> <C>85%</> reduced ADS spread",
+      "> <C>50%</> increased ADS range",
+      "<B>></> <C>15%</> <B>increased aim time</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Optic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "2xTRGSight",
+    "name": "2x TRG Sight",
+    "type": "attachment",
+    "id": 81,
+    "tooltip": [
+      "> Highlights enemies and devices",
+      "> Can tag camouflaged enemies while ADS",
+      "> <C>35%</> reduced ADS spread",
+      "<B>></> <C>25%</> <B>increased aim time</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Optic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "4xTRGSight",
+    "name": "4x TRG Sight",
+    "type": "attachment",
+    "id": 82,
+    "tooltip": [
+      "> Highlights enemies and devices",
+      "> Can tag camouflaged enemies while ADS",
+      "> <C>85%</> reduced ADS spread",
+      "> <C>50%</> increased ADS range",
+      "<B>></> <C>25%</> <B>increased aim time</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Optic",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Optic.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "LightTrigger",
+    "name": "Light Trigger",
+    "type": "attachment",
+    "id": 75,
+    "tooltip": [
+      "> <C>25%</> increased RPM",
+      "<B>></> <C>50%</> <B>increased recoil and spread gain</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "VortexReceiver",
+    "name": "Vortex Receiver",
+    "type": "attachment",
+    "id": 76,
+    "tooltip": [
+      "> <C>25%</> increased RPM",
+      "<B>></> <C>20%</> <B>increased pellet spread per shot with automatic fire, up to</> <C>100%</>",
+      "<B>></> <C>100%</> <B>increased recoil</>",
+      "<B>> reduced ammo capacity</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ContactCharge",
+    "name": "Contact charge",
+    "type": "attachment",
+    "id": 83,
+    "tooltip": [
+      "> Detonates on drop or disarm",
+      "> Deals explosive damage to targets within <C>2-4 m</>",
+      "> <C>50-25</> damage with sidearms",
+      "> <C>75-25</> damage with primary weapons",
+      "> <C>100-25</> damage with heavy weapons"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "BurstTrigger",
+    "name": "BurstTrigger",
+    "type": "attachment",
+    "id": 5,
+    "tooltip": [
+      "> Converts to 2 round burst",
+      "> <C>400%</> increased RPM",
+      "<B>></> <C>100%</> <B>increased recoil</>",
+      "<B>></> <C>100%</> <B>increased hipfire and alternate aim spread</>",
+      "<B>></> <C>100%</> <B>increased spread gain</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 0,
+      "value": 0
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Stabilizer",
+    "name": "Stabilizer",
+    "type": "attachment",
+    "id": 90,
+    "tooltip": [
+      "> <C>50%</> reduced recoil while ADS",
+      "> <C>15%</> reduced aim time",
+      "<B>></> <C>50%</> <B>increased ADS handling speed penalty</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "LightweightFrame",
+    "name": "Lightweight Frame",
+    "type": "attachment",
+    "id": 91,
+    "tooltip": [
+      "> <C>15%</> reduced aim time",
+      "> <C>50%</> reduced weapon speed penalty",
+      "<B>></> <C>25%</> <B>increased recoil and spread gain</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HVBarrel",
+    "name": "HVBarrel",
+    "type": "attachment",
+    "id": 5,
+    "tooltip": [
+      "> <C>25%</> increased velocity"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "WildfireTrigger",
+    "name": "Wildfire Trigger",
+    "type": "attachment",
+    "id": 93,
+    "tooltip": [
+      "> Converts to automatic",
+      "> <C>200%</> increased RPM",
+      "<B>></> <C>0.5 s</> <B>spin up delay</>",
+      "<B>></> <C>20%</> <B>reduced damage</>",
+      "<B>></> <C>100%</> <B>increased spread gain</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HeavyReceiver",
+    "name": "Heavy Receiver",
+    "type": "attachment",
+    "id": 94,
+    "tooltip": [
+      "> <C>0.15x</> additional headshot damage multiplier",
+      "> <C>50%</> increased damage",
+      "> <C>25%</> increased velocity and penetration",
+      "<B>></> <C>35%</> <B>reduced RPM</>",
+      "<B>></> <C>25</> <B>reduced ammo capacity</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "HavokCycler",
+    "name": "Havok Cycler",
+    "type": "attachment",
+    "id": 95,
+    "tooltip": [
+      "> <C>0-100%</> increased RPM, scaling proportionally to rounds fired from <C>0-20%</> capacity",
+      "<B>></> <C>50%</> <B>increased spread gain</>",
+      "<B>></> <C>35%</> <B>reduced RPM</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "FragMag",
+    "name": "Frag Mag",
+    "type": "attachment",
+    "id": 97,
+    "tooltip": [
+      "> Fragments rounds into <C>4</> projectiles",
+      "> <C>4</> fragments per shot",
+      "> <C>25%</> of base damage per fragment",
+      "<B>></> <C>0.25x</> <B>reduced headshot damage multiplier</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 25,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "VXAccelerator",
+    "name": "VX Accelerator",
+    "type": "attachment",
+    "id": 98,
+    "tooltip": [
+      "> <C>0-50%</> increased damage, velocity and penetration, proportional to spin up time",
+      "<B>></> <C>0-1s</> <B>spin up time</>",
+      "<B>></> <C>50%</> <B>increased firing handling speed penalty</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 40,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "CrippleGauge",
+    "name": "Cripple Gauge",
+    "type": "attachment",
+    "id": 99,
+    "tooltip": [
+      "> AOE knockback on firing while targets within a <C>5 m</> frontal cone",
+      "> <C>2 s</> Snare to enemies in range, Snare+ if within <C>2.5 m</>",
+      "<B>></> <C>25%</> <B>reduced damage</>",
+      "<B>></> <C>50%</> <B>increased pellet spread</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "Hammer-Head",
+    "name": "Hammer-Head",
+    "type": "attachment",
+    "id": 100,
+    "tooltip": [
+      "> <C>200%</> increased damage every <C>4th</> shot",
+      "<B>></> <C>200%</> <B>increased vertical recoil and spread gain every</> <C>4th</> <B>shot</>",
+      "<B>></> <C>25%</> <B>reduced damage</>",
+      "<B>></> <C>25%</> <B>increased spread gain</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "BRRRTTrigger",
+    "name": "BRRRT Trigger",
+    "type": "attachment",
+    "id": 101,
+    "tooltip": [
+      "> <C>50%</> increased RPM",
+      "> <C>25%</> increased damage",
+      "> Converts to <C>5</> round burst, <C>0.25 s</>interval",
+      "<B>></> <C>50%</> <B>increased spread gain</>",
+      "<B>></> <C>50%</> <B>increased hipfire and alternate aim spread</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "AngledGrip",
+    "name": "Angled Grip",
+    "type": "attachment",
+    "id": 102,
+    "tooltip": [
+      "> <C>35%</> reduced alternate aim spread and spread gain",
+      "> <C>15%</> reduced aim time",
+      "<B>></> <C>15%</> <B>increased aiming handling speed penalty</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 35,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "DeadboltReceiver",
+    "name": "Deadbolt Receiver",
+    "type": "attachment",
+    "id": 103,
+    "tooltip": [
+      "> <C>0-85%</> reduced pellet spread, proportional to spin up time",
+      "> <C>0-85%</> increases far damage and velocity, proportional to spin up time",
+      "<B>></> <C>0-0.5s</> <B>spin up time</>",
+      "<B>></> <C>25-0%</> <B>reduced near damage, proportional to spin up time</>",
+      "<B>></> <C>100%</> <B>increased hipfire and alternate aim spread</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ArcSalvo",
+    "name": "Arc Salvo",
+    "type": "attachment",
+    "id": 105,
+    "tooltip": [
+      "> <C>75</> shock damage and <C>2 s</> disable if full burst hits target while ADS",
+      "<B>> Disables consecutive hit damage multiplier</>",
+      "<B>></> <C>20</> <B>reduced ammo capacity</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "ScoutReceiver",
+    "name": "Scout Receiver",
+    "type": "attachment",
+    "id": 106,
+    "tooltip": [
+      "> Can equip CQB optics",
+      "> <C>50%</> reduced spread gain with CQB optics",
+      "> <C>25%</> reduced ADS time with CQB optics",
+      "> <C>25%</> reduced hipfire and alternate aim spread",
+      "<B>></> <C>0.15x</> <B>reduced headshot damage multiplier</>",
+      "<B>></> <C>15%</> <B>reduced far damage, velocity and penetration</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "hardware",
+      "tier": 45,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "DoubleWhammy",
+    "name": "Double Whammy",
+    "type": "attachment",
+    "id": 107,
+    "tooltip": [
+      "> Fires both barrels simultaneously",
+      "> Converts to semi-automatic, <C>300</> rpm",
+      "> Locks on if <C>2</> visible enemies within <C>25 m</> while Core active",
+      "<B>></> <C>35%</> <B>reduced damage</>",
+      "<B>></> <C>15%</> <B>reduced velocity and penetration</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 50,
+      "value": 3
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  {
+    "key": "CTEC-Light",
+    "name": "CTEC-Light",
+    "type": "attachment",
+    "id": 78,
+    "tooltip": [
+      "> Reveals camouflaged enemies within <C>20 m</>",
+      "<B>></> <C>15%</> <B>increased aim time</>",
+      "<B>> Deactivates if camouflaged</>",
+      "<B>> Can be disabled</>"
+    ],
+    "prerequisite": null,
+    "foundations": {
+      "type": "tech",
+      "tier": 30,
+      "value": 2
+    },
+    "icon": {
+      "name": "UI_M_Mod",
+      "path": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Mod.0"
+    },
+    "position": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  }
+]
