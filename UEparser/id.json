@@ -84,7 +84,9 @@
         "Necrosis": 75,
         "Studied": 76,
         "Redline": 77,
-        "Slipstream": 78
+        "Slipstream": 78,
+        "Subversion Neuro-Mesh": 79,
+        "Ballistic Reflex": 80
     },
     "Devices": {
         "Overcharge": 2,
@@ -114,7 +116,9 @@
         "Hyper": 25,
         "Tox grenade": 26,
         "Killswitch": 27,
-        "Amplify": 28
+        "Amplify": 28,
+        "Seeker Mine": 29,
+        "Trip Mine": 30
     },
     "Weapons": {
         "Major": 2,
@@ -205,6 +209,7 @@
         "Deadbolt Receiver": 56,
         "Arc Salvo": 58,
         "Scout Receiver": 59,
-        "Double Whammy": 60
+        "Double Whammy": 60,
+        "Burst Override": 61
     }
 }

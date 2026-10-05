@@ -128,8 +128,8 @@
     ],
     "foundations": {
       "type": "body",
-      "tier": 15,
-      "value": 1
+      "tier": 5,
+      "value": 0
     }
   },
   {
@@ -139,8 +139,9 @@
       "> Can disarm enemy weapons during active Core or while enemy is knocked down on detaching wire",
       "> Nano-wire can pickup enemy devices and projectiles, ownership transfered if held for <C>1 s</>",
       "> <C>25%</> increased Nano-wire range",
-      "<B>> Attaches to enemy heads and no longer disarms with Tether equipped</>",
-      "<B>> Drains aux power while attached</>",
+      "<B>> Can no longer disarm with Tether equipped</>",
+      "<B>></> <C>50</> <B>aux power drained on pull</>",
+      "<B>></> <C>50%</> <B>reduced aux power regeneration while attached</>",
       "<B>> Can be Disabled</>"
     ],
     "foundations": {
@@ -182,7 +183,7 @@
   {
     "name": "Backdoor",
     "tooltip": [
-      "> Enemies are detected to allies within <C>100 m</> for <C>5-1 s</> on successful Neuro-Link, proportional to amount effected from <C>1-5</>, <C>15 s</> cooldown",
+      "> Enemies are detected to allies within <C>100 m</> for <C>5-1 s</> on successful Neuro-Link, scaling with amount effected from <C>1-5</>, <C>15 s</> cooldown",
       "> On receiving Neuro-Link detect the sender to allies for <C>2 s</>",
       "> Enemies within <C>30 m</> are detected while enemy head attached to Nano-wire",
       "> Devices and explosives of visible or detected enemies are detected to allies",
@@ -197,6 +198,18 @@
     }
   },
   {
+    "name": "Ballistic Reflex",
+    "tooltip": [
+      "> <C>65%</> reduced firearm and projectile damage for <C>0.15 s</> on receiving firearm or projectile damage, does not refresh while active",
+      "<B>> </><C>25%</> <B>increased firearm and projectile damage received while inactive</>"
+    ],
+    "foundations": {
+      "type": "body",
+      "tier": 15,
+      "value": 1
+    }
+  },
+  {
     "name": "Bloodsport",
     "tooltip": [
       "> Bleeding enemies within <C>100 m</> are detected while Bleeding",
@@ -204,7 +217,7 @@
       "> <C>25%</> of damage dealt with backup weapons and body impacts restored to vitals and max vitals while Bleeding, addititonal <C>25%</> if target is Bleeding",
       "> <C>25</> vitals restored on visible enemy kill while Bleeding, additional <C>50</> if target is Bleeding",
       "> <C>15%</> increased ground speed while Bleeding with backup weapon equipped",
-      "> <C>50%</> reduced aux power drain while Bleeding with backup weapon equipped",
+      "> <C>50%</> reduced aux power drain and regneration penalties while Bleeding",
       "<B>> Primary stim no longer restores vitals and causes Bleed if used while not Bleeding</>",
       "<B>></> <C>100%</> <B>reduced defense regeneration while Bleeding</>",
       "<B>></> <C>50%</> <B>increased Bleed damage received</>",
@@ -264,7 +277,7 @@
     "tooltip": [
       "> <C>50%</> reduced firearm spread while aiming with iron sights equipped",
       "> <C>25%</> increased ground speed while using backup weapons with enemies within <C>10 m</>",
-      "> <C>25%</> reduced firearm and backup weapon damage received within <C>5 m</> while using backup weapons or aiming with iron sights equipped",
+      "> <C>25%</> reduced firearm and backup weapon damage received within <C>10 m</> while using backup weapons or aiming with iron sights equipped",
       "<B>></> <C>25%</> <B>reduced firearm far damage</>",
       "<B>></> <C>25%</> <B>increased firearm and backup weapon damage received beyond</> <C>10 m</> <B>while using backup weapons or aiming with iron sights equipped</>"
     ],
@@ -292,10 +305,10 @@
     "name": "Core Discharge",
     "tooltip": [
       "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown",
-      "> Deals <C>25</> vital damage, <C>4 s</> Disable and knockback to enemies within <C>5 m</>, knockdown if within <C>2.5 m</>",
+      "> Deals <C>25</> vital damage, <C>4 s</> Disable+ and knockback to enemies within <C>5 m</>, Snare+ if within <C>2.5 m</>",
       "> Deflects unattached devices and projectiles within <C>5 m</>",
       "<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>",
-      "<B>></> <C>25%</> <B>reduced Core generation and duration</>"
+      "<B>></> <C>25%</> <B>reduced Core duration</>"
     ],
     "foundations": {
       "type": "tech",
@@ -344,7 +357,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "tier": 35,
+      "tier": 25,
       "value": 2
     }
   },
@@ -397,8 +410,8 @@
   {
     "name": "Dispersal",
     "tooltip": [
-      "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>10 s</> cooldown",
-      "> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching or losing target",
+      "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>15 s</> cooldown",
+      "> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target",
       "<B>></> <C>25%</> <B>Increased device cooldowns</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
       "<B>> Can be Disabled</>"
@@ -488,6 +501,7 @@
       "> <C>100%</> reduced aux power drain from climbing",
       "> <C>100%</> reduced fall damage when landing into a climb",
       "> <C>15%</> increased speed, jump speed and weapon accuracy while climbing",
+      "<B>></> <C>50%</> <B>defense regeneration and damage received bypasses defense while camouflage active</",
       "<B>> Can be Disabled</>",
       "<G>*Shroud:</> Undetectable by all equipment"
     ],
@@ -504,8 +518,8 @@
       "> Immunity to Tether and Neuro-Link devices while active",
       "<B>> Can no longer ADS while active</>",
       "<B>> Can no longer use Neuro-Link devices while active</>",
-      "<B>> </> <C>4 s</> <B>Disable+ and destroyed on receiving</> <C>150</> <B>damage</>",
-      "<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap</>"
+      "<B>> Destroyed on receiving</> <C>150</> <B>damage</>",
+      "<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap while active</>"
     ],
     "foundations": {
       "type": "body",
@@ -517,10 +531,10 @@
     "name": "Hardened",
     "tooltip": [
       "> Activates on receiving vitals damage to body, deactivates and restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown",
-      "> <C>25-75%</> reduced direct vitals damage to body received, scaling proportionally with reduced max vitals from <C>0-75%</> while active",
+      "> <C>25-75%</> reduced direct vitals damage to body received, scaling with reduced max vitals from <C>0-75%</> while active",
       "<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>",
       "<B>> Can no longer restore max vitals while active</>",
-      "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling proportionally with reduced max vitals from</> <C>0-75%</> <B>while active</>",
+      "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling with reduced max vitals from</> <C>0-75%</> <B>while active</>",
       "<B>></> <C>100%</> <B>increased Burn damage received</>"
     ],
     "foundations": {
@@ -532,10 +546,11 @@
   {
     "name": "Headhunter",
     "tooltip": [
-      "> <C>0.25x</> additional headshot damage multiplier",
       "> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost",
-      "> <C>25</> vitals and defense restored on head pickup if Nano-wire held, instantly harvests Core, head is destroyed",
-      "<B>></> <C>25%</> <B>reduced direct body damage dealt</>"
+      "> <C>10-20%</> increased headshot damage, scaling with headshot damage multiplier from <C>1.75-1.25x</>",
+      "> <C>200%</> increased head harvesting speed, <C>50</> vitals and defense restored on harvest",
+      "<B>></> <C>15%</> <B>reduced direct torso damage dealt</>",
+      "<B>></> <C>25%</> <B>reduced direct limb damage dealt</>"
     ],
     "foundations": {
       "type": "body",
@@ -565,8 +580,8 @@
       "> Disarm immunity while heavy weapon equipped",
       "<B>> Unable to dive or prone while heavy weapon equipped</>",
       "<B>> Heavy weapons can only be fired while aiming, are dropped on knockdown and unequipped on rolling maneuvers</>",
-      "<B>></> <C>50%</> <B>increased aux power drain from all sources while airborne</>",
-      "<B>></> <C>1 m/s</> <B>reduced movement speed cap</>"
+      "<B>></> <C>50%</> <B>increased aux power drain from all sources while not grounded</>",
+      "<B>></> <C>1 m/s</> <B>reduced movement speed cap while heavy weapon equipped</>"
     ],
     "foundations": {
       "type": "hardware",
@@ -624,9 +639,9 @@
   {
     "name": "Kinetic Focus",
     "tooltip": [
-      "> <C>0-35%</> reduced direct vitals damage received, scaling proportionally with speed from <C>4-12 m/s</>",
-      "> <C>0-35%</> reduced weapon spread and spread gain, scaling proportionally with speed from <C>4-12 m/s</>",
-      "> <C>0-35%</> increased knockback resistance, scaling proportionally with speed from <C>4-12 m/s</>",
+      "> <C>0-35%</> reduced direct vitals damage received, scaling with speed from <C>4-12 m/s</>",
+      "> <C>0-35%</> reduced weapon spread and spread gain, scaling with speed from <C>4-12 m/s</>",
+      "> <C>0-35%</> increased knockback resistance, scaling with speed from <C>4-12 m/s</>",
       "<B>> Can be Disabled</>"
     ],
     "foundations": {
@@ -645,8 +660,8 @@
     ],
     "foundations": {
       "type": "hardware",
-      "tier": 25,
-      "value": 2
+      "tier": 45,
+      "value": 3
     }
   },
   {
@@ -687,14 +702,14 @@
       "<B>> Unable to use weapon optics while scanning</>",
       "<B>> </><C>50%</> <B>increased spread and spread gain while scanning</>",
       "<B>> </><C>50%</> <B>increased scan cooldown</>",
-      "<B>> </><C>100-0%</> <B>reduced scan detection range, proportional to speed from</> <C>0-8 m/s</>",
+      "<B>> </><C>100-0%</> <B>reduced scan detection range, scaling with speed from</> <C>0-8 m/s</>",
       "<B>> </><C>1</> <B> reduced Shell detections</>",
       "<B>> </><C>5 s</> <B>reduced scan duration</>",
       "<B>> Can be Disabled</>"
     ],
     "foundations": {
       "type": "tech",
-      "tier": 50,
+      "tier": 45,
       "value": 3
     }
   },
@@ -729,9 +744,9 @@
     "name": "Overclocked",
     "tooltip": [
       "> Unaffected by Core slowing effects while Core active",
-      "<B>></> <C>10 /s</> <B>vitals and defense damage while Core active</>",
+      "<B>></> <C>5 /s</> <B>vitals, max vitals, defense and max defense damage while Core active</>",
       "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources while Core active</>",
-      "<B>></> <C>25%</> <B>reduced Core generation</>"
+      "<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Core active</>"
     ],
     "foundations": {
       "type": "tech",
@@ -755,8 +770,8 @@
     ],
     "foundations": {
       "type": "tech",
-      "tier": 45,
-      "value": 3
+      "tier": 30,
+      "value": 2
     }
   },
   {
@@ -766,7 +781,7 @@
       "> <C>100%</> increased aux power regeneration for <C>2 s</> after performing a maneuver",
       "> <C>100%</> reduced aux power drain from all sources while Core active",
       "> Gain <C>4</> aerial maneuver charges while Core active",
-      "<B>></> <C>0-25%</> <B>increased direct damage received, scaling proportionally with speed from</> <C>0-12 m/s</>",
+      "<B>></> <C>0-25%</> <B>increased direct damage received, scaling with speed from</> <C>0-12 m/s</>",
       "<B>></> <C>50%</> <B>reduced aux power regeneration while not performed a maneuver for</> <C>2 s</>"
     ],
     "foundations": {
@@ -812,7 +827,7 @@
     "tooltip": [
       "> <C>25%</> defense bypass with backup weapons and body impact damage",
       "> <C>50%</> increased body impact damage",
-      "> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, proportional to impact speed from <C>4-12 m/s</>",
+      "> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, scaling with impact speed from <C>4-12 m/s</>",
       "<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>"
     ],
     "foundations": {
@@ -866,8 +881,8 @@
   {
     "name": "Reactive Dermis",
     "tooltip": [
-      "> <C>0-25%</> reduced direct damage received, scaling proportionally with damage from <C>50-200</>",
-      "> <C>10 s</> immunity to a debuff on end or removal",
+      "> <C>0-25%</> reduced direct damage received, scaling with damage from <C>50-200</>",
+      "> <C>5 s</> immunity to a debuff on end or removal",
       "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
@@ -881,7 +896,8 @@
     "tooltip": [
       "> <C>5 /s</> additional vitals regeneration while no damage received within <C>1 s</>",
       "> <C>25%</> increased vitals restored from all other sources",
-      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+      "<B>></> <C>25%</> <B>increased aux power drain from all sources</>",
+      "<B>></> <C>0.25 m/s</> <B>reduced ground speed</>",
       "<B>> Can be Disabled</>"
     ],
     "foundations": {
@@ -893,13 +909,15 @@
   {
     "name": "Redline",
     "tooltip": [
-      "> <C>0-50%</> reduced speed penalties and airborne deceleration, scaling proportionally with Core charge from <C>0-100</>",
-      "> <C>0-50%</> increased dexterity, acceleration, aux power and aerial maneuver charge regeneration, scaling proportionally with Core charge from <C>0-100</>",
-      "> <C>100%</> increased Core generation",
-      "<B>></> <C>0-25%</> <B>increased damage received, scaling proportionally with Core charge from</> <C>0-100</>",
-      "<B>></> <C>100%</> <B>Core charge drained on deploy</>",
-      "<B>></> <C>25%</> <B>reduced Core duration</>",
-      "<B>> Visible trails</>"
+      "> Replaces Core activation, <C>25</> Core charge required to activate, can be toggled or held, <C>5 s</> cooldown",
+      "> <C>50%</> increased ground speed, acceleration, aux power and aerial maneuver charge regeneration while active",
+      "> <C>50%</> reduced speed penalties and ground deceleration while active",
+      "> <C>1 m/s</> increased movement speed cap while active",
+      "<B>></> <C>50%</> <B>increased damage received while active</>",
+      "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources and effectiveness of damage reductions while active</>",
+      "<B>></> <C>7.5 /s</> <B>Core charge drain while active, deactivates if Core charge depleted</>",
+      "<B>> Can no longer manually activate Core</>",
+      "<B>> Visible trails while active</>"
     ],
     "foundations": {
       "type": "body",
@@ -917,8 +935,8 @@
     ],
     "foundations": {
       "type": "tech",
-      "tier": 30,
-      "value": 2
+      "tier": 5,
+      "value": 0
     }
   },
   {
@@ -1006,7 +1024,8 @@
       "> Additional weapon mod slot",
       "> <C>25%</> reduced sidearm or primary weapon handling speed penalties while only sidearms or primary weapons equipped, additional <C>25%</> for <C>10 s</> on visible kill",
       "> <C>25%</> increased sidearm or primary weapon dexterity while only sidearms or primary weapons equipped, additional <C>25%</> for <C>10 s</> on visible kill",
-      "<B>></> <C>50%</> <B>Increased device cooldowns</>"
+      "<B>></> <C>25%</> <B>Increased device cooldowns</>",
+      "<B>></> <C>25</> <B>reduced defense</>"
     ],
     "foundations": {
       "type": "body",
@@ -1032,19 +1051,20 @@
     }
   },
   {
-    "name": "Surplus",
+    "name": "Subversion Neuro-Mesh",
     "tooltip": [
-      "> Additional weapon mod slot",
-      "> <C>200%</> additional base reserve ammo",
-      "> <C>100%</> additional stealth weapon ammo",
-      "> <C>50%</> reduced active standard device cooldowns on kill",
-      "<B>></> <C>25%</> <B>Increased device cooldowns</>",
-      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+      "> Applies Desync+ to enemies within <C>10 m</>",
+      "> Deal <C>2 /s</> vital damage per enemy in range to all affected enemies",
+      "> Immunity to Desync and Neuro-Link devices",
+      "> <C>100%</> increased range while scanning",
+      "<B>></> <C>50%</> <B>of damage dealt to affected enemies received as vital damage, increased to</> <C>100%</> <B>while scanning</>",
+      "<B>> Disables detections and radar</>",
+      "<B>> Can be Disabled</>"
     ],
     "foundations": {
-      "type": "hardware",
-      "tier": 20,
-      "value": 1
+      "type": "tech",
+      "tier": 50,
+      "value": 3
     }
   },
   {
@@ -1064,9 +1084,9 @@
   {
     "name": "Temporal Suspension",
     "tooltip": [
-      "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling proportionally with duration from <C>0-5 s</>",
+      "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling with duration from <C>0-5 s</>",
       "> Unaffected by Core slowing effects while active",
-      "> <C>25-50%</> reduced direct defense damage received while active, scaling proportionally with activation speed from <C>5-10 m/s</>",
+      "> <C>25-50%</> reduced direct defense damage received while active, scaling with activation speed from <C>5-10 m/s</>",
       "> Knockback immunity while active",
       "<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>",
       "<B>> Deactivates on body impacts and collision with ground</>",
@@ -1081,7 +1101,8 @@
   {
     "name": "Tether",
     "tooltip": [
-      "> Nano-wire can tether to enemies or detached heads, dealing <C>15</> vital damage to enemies within <C>6m</> every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>, detached heads are suspended in place while attached",
+      "> Nano-wire can attach to enemy heads",
+      "> While attached to enemy or decapitated head: Deal <C>15</> vital damage to enemies within <C>6m</> every <C>0.5 s</>, ramping up to <C>0.25 s</> over <C>2 s</>, damage to decapitated head is reduced to <C>5</>",
       "> Applies <C>1 s</> Disable on damage if active for longer than <C>0.5 s</>",
       "> <C>50%</> of damage dealt by Tether restored to vitals and max vitals",
       "<B>></> <C>25%</> <B>reduced Nano-wire range</>",
@@ -1122,8 +1143,8 @@
     ],
     "foundations": {
       "type": "tech",
-      "tier": 45,
-      "value": 3
+      "tier": 25,
+      "value": 2
     }
   },
   {
@@ -1146,8 +1167,8 @@
     "name": "Vendetta",
     "tooltip": [
       "> Receiving over <C>150</> vitals damage from an enemy marks them as a vendetta, persists through death until enemy killed by the vendetta owner",
-      "> Vendettas are detected while within <C>45 m</>",
-      "> <C>25-50</> vitals, max vitals and Core charge restored on killing a vendetta, scaling proportionally with the vendetta damage from <C>150-300</>",
+      "> Vendettas are detected while within <C>30 m</>",
+      "> <C>25-50</> vitals, max vitals and Core charge restored on killing a vendetta, scaling with the vendetta damage from <C>150-300</>",
       "<B>></> <C>25%</> <B>increased direct damage received from vendettas</>"
     ],
     "foundations": {

@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_PerkData'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_PerkData.0"
+        "ObjectPath": "/Game/Blueprints/Data/STRUCT_PerkData"
       }
     },
     "Rows": {
@@ -49,7 +49,7 @@
       "Recovery": {
         "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator5",
         "icon_32_D5BFFD9940B55872EAC6CAAE5C59E47A": null,
-        "speedModifier_38_8A0249B84A69DFF2562D20B5C3DC5BB1": 50.0,
+        "speedModifier_38_8A0249B84A69DFF2562D20B5C3DC5BB1": 25.0,
         "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
         "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
         "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
@@ -186,8 +186,8 @@
         "icon_32_D5BFFD9940B55872EAC6CAAE5C59E47A": null,
         "speedModifier_38_8A0249B84A69DFF2562D20B5C3DC5BB1": 0.0,
         "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
-        "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
-        "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.5,
+        "armourModifier_48_69828A75466B3467037FDBAD6C657390": -25.0,
+        "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.25,
         "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": false
       },
       "HeavyWeapons": {
@@ -647,7 +647,7 @@
         "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
         "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
         "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
-        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": true
+        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": false
       },
       "CoreDecay": {
         "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator72",
@@ -656,7 +656,7 @@
         "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
         "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
         "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
-        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": true
+        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": false
       },
       "Pyro-Psycho": {
         "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator73",
@@ -665,7 +665,7 @@
         "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
         "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
         "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
-        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": true
+        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": false
       },
       "Limpet": {
         "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator0",
@@ -683,7 +683,7 @@
         "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
         "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
         "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
-        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": true
+        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": false
       },
       "Studied": {
         "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator76",
@@ -692,7 +692,7 @@
         "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
         "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
         "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
-        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": true
+        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": false
       },
       "Redline": {
         "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator77",
@@ -701,16 +701,34 @@
         "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
         "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
         "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
-        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": true
+        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": false
       },
       "Slipstream": {
-        "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator77",
+        "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator78",
+        "icon_32_D5BFFD9940B55872EAC6CAAE5C59E47A": null,
+        "speedModifier_38_8A0249B84A69DFF2562D20B5C3DC5BB1": 0.0,
+        "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
+        "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
+        "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
+        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": false
+      },
+      "SubversionNeuro-Mesh": {
+        "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator79",
         "icon_32_D5BFFD9940B55872EAC6CAAE5C59E47A": null,
         "speedModifier_38_8A0249B84A69DFF2562D20B5C3DC5BB1": 0.0,
         "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
         "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
         "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
         "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": true
+      },
+      "BallisticReflex": {
+        "perkID_33_8FEA47EF47D2DD62A1FA9995794BE7A3": "ENUM_PerkID::NewEnumerator80",
+        "icon_32_D5BFFD9940B55872EAC6CAAE5C59E47A": null,
+        "speedModifier_38_8A0249B84A69DFF2562D20B5C3DC5BB1": 0.0,
+        "healthModifier_41_FEBCB0E04F0A2CEA7A669386ED8A879D": 0.0,
+        "armourModifier_48_69828A75466B3467037FDBAD6C657390": 0.0,
+        "deviceCDmult_54_20774CFA40E294E94831D7985515EB57": 1.0,
+        "canBeDisabled_52_BC73C72B4D5C89EE306D7C8CC13043BB": false
       }
     }
   }

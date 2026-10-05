@@ -4,7 +4,7 @@
     "tooltip": [
       ":: <D>KINETIC RESISTANCE</>",
       "> <C>25%</> reduced direct vitals damage received and <C>50%</> knockback resistance during maneuvers",
-      "> <C>25%</> reduced aux power drain from all sources",
+      "> While above <C>50%</> aux power: <C>25%</> reduced aux power drain from all sources",
       "> <C>50%</> increased Snare resistance, Snare immunity while Core active",
       ":: <D>SURVIVAL INSTINCT</>",
       "> <C>10%</> of direct damage dealt restored as aux power",
@@ -14,7 +14,7 @@
       ":: <D>CORE OVERDRIVE</>",
       "> <C>25%</> increased Core generation",
       "> <C>25%</> increased dexterity and unaffected by loadout or movement speed penalties while Core active",
-      "> <C>0-25%</> Reduced Core activation cost scaling proportionally with remaining vitals from <C>100-50%</>",
+      "> <C>0-25%</> reduced Core activation cost, scaling with remaining vitals from <C>100-50%</>",
       "<B>> Can be Disabled</>"
     ],
     "stats": {
@@ -24,7 +24,7 @@
       "defense_regen_delay": 4.0,
       "aux_regen": 30.0,
       "speed": 7.5,
-      "speed_cap": 11.0,
+      "speed_cap": 10.0,
       "aerial_charges": 1,
       "aerial_charges_regen": 0.6,
       "core_speed": 0.8,
@@ -39,16 +39,16 @@
       "body_name": "Combat Focus",
       "body": "50% increased weapon accuracy and 25% increased speed and dexterity for 5 s on receiving direct vitals damage, 10 s cooldown",
       "tech_name": "Flow State",
-      "tech": "Core activates without cost for 2 s on performing a wall dive or flip within 1 s of starting a climb, 20 s cooldown",
+      "tech": "Core activates without cost for 2 s on performing a wall dive or flip within 1 s of starting a climb, unaugmented Core, 20 s cooldown",
       "hardware_name": "Locked In",
-      "hardware": "Melee and firearm damage gains 0-35% defense bypass proportional to remaining vitals, from 100-25%"
+      "hardware": "Melee and firearm damage gains 0-35% defense bypass, scaling with remaining vitals from 100-25%"
     }
   },
   {
     "name": "Hydra",
     "tooltip": [
       ":: <D>ADRENAL FEEDBACK</>",
-      "> <C>5%</> increased speed, dexterity, weapon accuracy and melee damage on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times",
+      "> <C>5%</> increased speed, dexterity, weapon accuracy and melee damage and <C>0.25 m/s</> increased movement speed cap on killing an enemy during maneuvers or within <C>4 m</>, stacking up to <C>5</> times",
       "> <C>25%</> of visible damage dealt during maneuvers restored to vitals, increased by <C>5%</> for each Adrenal Feedback stack, non-maneuver backup weapon damage dealt within <C>4m</> restored to vitals with <C>50%</> effectiveness",
       "> Neuro-link 'Parasite' on Core activation: Deals <C>5</> vitals damage every <C>0.5 s</> to up to <C>6</> visible or detected enemies, <C>200%</> of damage dealt restored to vitals and max vitals, increased by <C>10%</> for each Adrenal Feedback stack on activation",
       "<B>> Core activation resets Adrenal Feedback stacks</>",
@@ -71,7 +71,7 @@
       "defense_regen_delay": 3.5,
       "aux_regen": 30.0,
       "speed": 7.0,
-      "speed_cap": 11.0,
+      "speed_cap": 9.0,
       "aerial_charges": 1,
       "aerial_charges_regen": 0.7,
       "core_speed": 0.7,
@@ -98,7 +98,7 @@
       "> Reduces visibility, undetectable by proximity devices and targeting systems, <C>3 s</> cooldown",
       "> <C>25%</> reduced loadout speed penalty and tag duration, and <C>25%</> increased jump speed while active",
       "> Gain <G>Amplify</> while moving over <C>4 m/s</> if camouflage active for over <C>10 s</>, reduced by <C>2 s</> per visible kill while camouflage inactive",
-      "<B>></> <C>50%</> <B>defense regeneration, damage received bypasses defense while active</>",
+      "<B>></> <C>50%</> <B>defense regeneration and damage received bypasses defense while active</>",
       "<B>> Deactivates on Nano-wire use, offensive actions, throwing devices and Burning</>",
       "<B>> Can be Disabled</>",
       ":: <D>HEIGHTENED PROFICIENCY</>",
@@ -119,11 +119,11 @@
       "defense_regen_delay": 3.0,
       "aux_regen": 30.0,
       "speed": 8.0,
-      "speed_cap": 12.0,
+      "speed_cap": 10.0,
       "aerial_charges": 2,
       "aerial_charges_regen": 0.6,
       "core_speed": 0.8,
-      "radar_profile": 10.0
+      "radar_profile": 15.0
     },
     "foundations": {
       "type": "body",
@@ -132,9 +132,9 @@
     },
     "spec": {
       "body_name": "Safety Measures",
-      "body": "Gain 50 temporary defense during Opportunity, 50% reduced explosive damage received while camouflage active, all debuffs cleared on camouflage activation, 2.5 s debuff immunity if a debuff is cleared, 15 s cooldown",
+      "body": "Gain 50 temporary defense during Opportunity, 50% reduced explosive damage received and 1 m/s increased movement speed cap while camouflage active, all debuffs cleared on camouflage activation, 2.5 s debuff immunity if a debuff is cleared, 15 s cooldown",
       "tech_name": "Hidden Asset",
-      "tech": "Gain improved camouflage while <G>Amplify active, reduces Tactical Camouflage cooldown by 1 s, Nano-wire use and throwing devices no longer deactivates camouflage, create a trail of up to 5 Tempest clouds and gain <G>Shroud on Core activation",
+      "tech": "Reduces Tactical Camouflage cooldown by 1 s, 25% reduced camouflage visibility while <G>Amplify active, Nano-wire use and throwing devices no longer deactivates camouflage, create a trail of up to 5 Tempest clouds and gain <G>Shroud on Core activation",
       "hardware_name": "Interference",
       "hardware": "Increases Opportunity duration by 1 s, firearm and backup weapon kills while Opportunity is active refresh its duration and apply 4 s Desync+ to enemies within 25 m of target"
     }
@@ -150,7 +150,7 @@
       "> Enhanced ground and climbing maneuvers",
       "> <C>100%</> reduced airborne accuracy penalty",
       "<B>> Can no longer ADS while Boost active</>",
-      "<B>> Can be Disabled</>",
+      "<B>> Can be Disabled,</> <C>1 m/s</> <B>reduced movement speed cap if Disabled</>",
       ":: <D>SCORCH HAZARD</>",
       "> Backdraft AOE on maneuver activation while enemies in proximity or body impact while Boost active: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, <C>1 m/s</> increased movement speed cap while on cooldown, <C>5 s</> cooldown",
       "> Ignites surrounding area for <C>5 s</> on death during maneuvers",
@@ -158,8 +158,8 @@
       "<B>> Can be Disabled</>",
       ":: <D>THERMAL NANO-MESH</>",
       "> <C>50%</> increased Burn resistance, Burn stat reduction immunity",
-      "> <C>25%</> defense restored per enemy hit by Backdraft and Ground Slam, restarts defense regeneration, can gain up to <C>50</> defense buffer",
-      "> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling proportionally with speed from <C>0-10 m/s</>"
+      "> <C>25</> defense restored per enemy hit by Backdraft and Ground Slam, can gain up to <C>50</> defense buffer",
+      "> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling with speed from <C>0-12 m/s</>"
     ],
     "stats": {
       "vitals": 100.0,
@@ -192,20 +192,21 @@
     "name": "Rhino",
     "tooltip": [
       ":: <D>RESILIENT MOMENTUM</>",
-      ">  <C>0-100%</> reduced movement speed penalties, proportional to defense from <C>0-100%</>, and knockdown immunity while grounded and defense not depleted",
-      "> <C>25%</> knockback resistance, <C>50%</> reduced fall damage and body impacts can knockdown airborne enemies",
+      ">  <C>0-100%</> reduced movement speed penalties, scaling with defense from <C>0-100%</>, and knockdown immunity while grounded and defense not depleted",
+      "> <C>25%</> knockback resistance, <C>50%</> reduced fall damage and gain <C>0.25 m/s</> additional ground speed every <C>0.5 s</> while moving",
       "> Gain <G>Bolster</> while Core active",
+      "<B>> Additional ground speed resets on body impact, receiving damage, aiming or attacking</>",
       ":: <D>CONCUSSIVE IMPULSE</>",
       "> Shockwave AOE on body impact, Core activation or landing from <C>5 m</>: Deals <C>50</> shock damage and <C>2 s</> Disable and Snare to enemies within <C>3 m</>, <C>10 s</> cooldown if enemy hit, reduced by <C>1 s</> on dealing melee or body impact damage, reset on Core activation",
-      "> <C>50%</> of Shockwave damage dealt by Shockwave restored to defense and max defense",
+      "> <C>50%</> of damage dealt by Shockwave restored to defense and max defense",
       "> <C>5%</> of direct damage received stored and released as additional damage on next Shockwave, up to <C>50</>",
       "<B>> Can be Disabled</>",
       ":: <D>REACTIVE CLADDING</>",
       "> <C>100%</> of combined vitals damage received restored to defense during defense regeneration on exceeding <C>25</> total damage, <C>10 s</> cooldown",
       "> <C>50%</> increased explosive resistance, <C>25%</> reduced direct defense damage received and <C>25%</> increased movement speed for <C>10 s</> on dealing body impact damage or receiving explosive damage",
       "> <C>10%</> of damage dealt with melee and body impacts restored to defense and max defense",
-      "<B>></> <C>0-50%</> <B>reduced backup weapon damage dealt, proportional to defense from</> <C>100-0%</>",
-      "<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration. <C>50%</> <B>reduced speed and vitals restored from all sources</>"
+      "<B>></> <C>0-50%</> <B>reduced backup weapon damage dealt, scaling with defense from</> <C>100-0%</>",
+      "<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration. <C>50%</> <B>reduced speed, aux power regeneration and vitals restored from all sources</>"
     ],
     "stats": {
       "vitals": 150.0,
@@ -214,7 +215,7 @@
       "defense_regen_delay": 4.0,
       "aux_regen": 30.0,
       "speed": 6.0,
-      "speed_cap": 10.0,
+      "speed_cap": 9.0,
       "aerial_charges": 1,
       "aerial_charges_regen": 0.8,
       "core_speed": 0.7,
@@ -231,7 +232,7 @@
       "tech_name": "Power Relay",
       "tech": "30 /s defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain 5% additional Core speed for each unobstructed enemy or ally within 15 m while Core active",
       "hardware_name": "Reverberate",
-      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage proportional to remaining defense, from 0-75%. <G>Overcharge for 5 s on firearm or backup weapon kill within 5 m"
+      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage, scaling with remaining defense from 0-75%. <G>Overcharge for 5 s on firearm, explosive or backup weapon kill within 10 m"
     }
   }
 ]

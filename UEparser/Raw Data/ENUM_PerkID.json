@@ -715,6 +715,24 @@
             "SourceString": "Slipstream",
             "LocalizedString": "Slipstream"
           }
+        },
+        {
+          "Key": "NewEnumerator79",
+          "Value": {
+            "Namespace": "",
+            "Key": "100400A747FC32852B5F3587A1A83713",
+            "SourceString": "Subversion Neuro-Mesh",
+            "LocalizedString": "Subversion Neuro-Mesh"
+          }
+        },
+        {
+          "Key": "NewEnumerator80",
+          "Value": {
+            "Namespace": "",
+            "Key": "57BE02D3428FDBD9D1434E9B444DCB43",
+            "SourceString": "Ballistic Reflex",
+            "LocalizedString": "Ballistic Reflex"
+          }
         }
       ]
     },
@@ -798,7 +816,9 @@
       "ENUM_PerkID::NewEnumerator76": 76,
       "ENUM_PerkID::NewEnumerator77": 77,
       "ENUM_PerkID::NewEnumerator78": 78,
-      "ENUM_PerkID::ENUM_MAX": 79
+      "ENUM_PerkID::NewEnumerator79": 79,
+      "ENUM_PerkID::NewEnumerator80": 80,
+      "ENUM_PerkID::ENUM_MAX": 81
     },
     "CppForm": "Namespaced"
   }

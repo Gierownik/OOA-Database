@@ -51,14 +51,14 @@
   {
     "name": "MeleeWeapons",
     "tooltip": [
-      "> <C>25%</> reduced speed penalties with melee weapons",
+      "> <C>50%</> reduced aux regeneration penalties with melee weapons",
       "> <C>25%</> damage reduction bypass with melee weapons"
     ]
   },
   {
     "name": "StealthWeapons",
     "tooltip": [
-      "> <C>25%</> reduced aux drain from attacking with stealth weapons",
+      "> <C>50%</> reduced aux regeneration penalties with stealth weapons",
       "> <C>25%</> increased stealth weapon ammo regeneration speed"
     ]
   },
@@ -72,15 +72,15 @@
       "<D>> Dominant foundation specific, activates after killing an enemy:</>",
       "<D>BISON</>",
       "<F1>> Combat Focus: </><C>50%</> increased weapon accuracy and <C>25%</> increased speed and dexterity for <C>5 s</> on receiving direct vitals damage, <C>10 s</> cooldown",
-      "<F2>> Flow State: </>Core activates without cost for <C>2 s</> on performing a wall dive or flip within <C>1 s</> of starting a climb, <C>20 s</> cooldown",
-      "<F3>> Locked In: </>Melee and firearm damage gains <C>0-35%</> defense bypass proportional to remaining vitals, from <C>100-25%</>",
+      "<F2>> Flow State: </>Core activates without cost for <C>2 s</> on performing a wall dive or flip within <C>1 s</> of starting a climb, unaugmented Core, <C>20 s</> cooldown",
+      "<F3>> Locked In: </>Melee and firearm damage gains <C>0-35%</> defense bypass, scaling with remaining vitals from <C>100-25%</>",
       "<D>DRAGON</>",
       "<F1>> Thermal Transfer: </><C>50%</> of defense gained from Backdraft and Ground Slam, and <C>50%</> of damage received from Burn and explosives is restored to vitals",
       "<F2>> Superheated: </>Backdraft and Ground Slam apply Burn+ and gain <C>25%</> increased damage and range, backup weapons deal an additional <C>25%</> of damage dealt as Burn damage",
       "<F3>> Crossfeed: </>Aerial maneuvers and hover no longer drain aux power or consume charges for <C>5 s</> on receiving chemical heal, <C>10 s</> cooldown",
       "<D>GHOST</>",
-      "<F1>> Safety Measures: </>Gain <C>50</> temporary defense during Opportunity, <C>50%</> reduced explosive damage received while camouflage active, all debuffs cleared on camouflage activation, <C>2.5 s</> debuff immunity if a debuff is cleared, <C>15 s</> cooldown",
-      "<F2>> Hidden Asset: </>Gain improved camouflage while <G>Amplify</> active, reduces Tactical Camouflage cooldown by <C>1 s</>, Nano-wire use and throwing devices no longer deactivates camouflage, create a trail of up to <C>5</> Tempest clouds and gain <G>Shroud</> on Core activation",
+      "<F1>> Safety Measures: </>Gain <C>50</> temporary defense during Opportunity, <C>50%</> reduced explosive damage received and <C>1 m/s</> increased movement speed cap while camouflage active, all debuffs cleared on camouflage activation, <C>2.5 s</> debuff immunity if a debuff is cleared, <C>15 s</> cooldown",
+      "<F2>> Hidden Asset: </>Reduces Tactical Camouflage cooldown by <C>1 s</>, <C>25%</> reduced camouflage visibility while <G>Amplify</> active, Nano-wire use and throwing devices no longer deactivates camouflage, create a trail of up to <C>5</> Tempest clouds and gain <G>Shroud</> on Core activation",
       "<F3>> Interference: </>Increases Opportunity duration by <C>1 s</>, firearm and backup weapon kills while Opportunity is active refresh its duration and apply <C>4 s</> Desync+ to enemies within <C>25 m</> of target",
       "<D>HYDRA</>",
       "<F1>> Overstimulated: </>Gain an Adrenal Feedback stack and restore <C>25</> vitals every <C>20 s</>, increases maximum stacks by <C>5</>",
@@ -89,7 +89,7 @@
       "<D>RHINO</>",
       "<F1>> Force Trauma: </>Shockwave gains <C>50%</> increased range, debuff duration and knockback force, applies Disable+ and Snare+",
       "<F2>> Power Relay: </><C>30 /s</> defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain <C>5%</> additional Core speed for each unobstructed enemy or ally within <C>15 m</> while Core active",
-      "<F3>> Reverberate: </>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-75%</>. <G>Overcharge</> for <C>5 s</> on firearm or backup weapon kill within <C>5 m</>",
+      "<F3>> Reverberate: </>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage, scaling with remaining defense from <C>0-75%</>. <G>Overcharge</> for <C>5 s</> on firearm, explosive or backup weapon kill within <C>10 m</>",
       "<G>*Amplify:</> Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar",
       "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>",
       "<G>*Shroud:</> Undetectable by all equipment"
@@ -100,7 +100,7 @@
       "tech_name": "Power Relay",
       "tech": "</><C>30 /s</> defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain <C>5%</> additional Core speed for each unobstructed enemy or ally within <C>15 m</> while Core active",
       "hardware_name": "Reverberate",
-      "hardware": "</>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage proportional to remaining defense, from <C>0-75%</>. <G>Overcharge</> for <C>5 s</> on firearm or backup weapon kill within <C>5 m</>\r\n\r\n<G>*Amplify:</> Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar\r\n<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>\r\n<G>*Shroud:</> Undetectable by all equipment"
+      "hardware": "</>Backup weapon damage applies Disable for <C>2 s</> and deals <C>0-25%</> additional shock damage, scaling with remaining defense from <C>0-75%</>. <G>Overcharge</> for <C>5 s</> on firearm, explosive or backup weapon kill within <C>10 m</>\r\n\r\n<G>*Amplify:</> Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar\r\n<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>\r\n<G>*Shroud:</> Undetectable by all equipment"
     }
   },
   {

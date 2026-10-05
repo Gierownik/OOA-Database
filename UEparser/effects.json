@@ -27,7 +27,8 @@
     "name": "Bleed",
     "tick": "0.5s",
     "tooltip": [
-      "<B>> Up to 10/s bleed damage</>"
+      "<B>> Up to 10/s bleed damage</>",
+      "<B>> 25% reduced aux power regeneration</>"
     ],
     "enhancement": "",
     "enh_tooltip": [

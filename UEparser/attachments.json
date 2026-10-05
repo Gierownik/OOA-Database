@@ -4,6 +4,7 @@
     "type": "Ammo",
     "tooltip": [
       "> Standard ammunition",
+      "> <C>50%</> additional base reserve ammo",
       "> Hot mag: <C>25%</> additional penetration and velocity"
     ],
     "technician": "false",
@@ -73,7 +74,7 @@
     "name": "Heavy Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>0.25-2 s</> Snare to enemies, scaling proportionally with damage dealt from <C>10-100</>",
+      "> <C>0.25-2 s</> Snare to enemies, scaling with damage dealt from <C>10-100</>",
       "> <C>100%</> increased near damage range",
       "> Hot mag: <C>25%</> additional penetration and velocity",
       "<B>></> <C>15%</> <B>reduced velocity</>"
@@ -179,10 +180,9 @@
     "name": "CB Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>50%</> of headshot damage dealt as additional vital damage after <C>1 s</>",
+      "> <C>15</> additional vital damage over <C>1 s</> on headshot, followed by <C>100%</> of accumulated headshot damage, up to <C>50</>",
       "> Hot mag: <C>25%</> additional penetration and velocity",
-      "<B>></> <C>15%</> <B>reduced velocity</>",
-      "<B>></> <C>25%</> <B>reduced far damage range</>"
+      "<B>></> <C>15%</> <B>reduced velocity</>"
     ],
     "technician": "true",
     "compatibility": [
@@ -248,7 +248,7 @@
     "name": "EM Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>0.5-4 s</> Disable to enemies, scaling proportionally with damage dealt from <C>25-200</>",
+      "> <C>0.5-4 s</> Disable to enemies, scaling with damage dealt from <C>25-200</>",
       "> <C>25%</> increased damage to enemies with Disable+",
       "> Hot mag: <C>25%</> additional penetration and velocity",
       "<B>></> <C>25%</> <B>reduced velocity and penetration</>",
@@ -353,9 +353,8 @@
     "name": "Ghostfire Ammo",
     "type": "Ammo",
     "tooltip": [
-      "> <C>100%</> defense bypass",
-      "> <C>200%</> increased ricochet amount",
-      "> <C>100%</> reduced ricochet damage penalty",
+      "> <C>100%</> defense bypass and vitals damage reduction bypass",
+      "> <C>100%</> increased ricochet amount and reduced ricochet damage penalty",
       "> <C>100%</> reduced damage to self and allies",
       "> Hot mag: <C>25%</> additional penetration and velocity",
       "<B>></> <C>50%</> <B>reduced damage</>",
@@ -407,8 +406,8 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "hardware",
-      "tier": 35,
-      "value": 2
+      "tier": 0,
+      "value": 0
     }
   },
   {
@@ -807,13 +806,13 @@
     "type": "Mod",
     "tooltip": [
       "> <C>25%</> reduced pellet spread while ADS or akimbo alternate aim stance",
-      "<B>></> <C>15%</> <B>increased aim time</>"
+      "<B>></> <C>15%</> <B>increased aim time</>",
+      "<B>></> <C>15%</> <B>reduced RPM</>"
     ],
     "technician": "false",
     "compatibility": [
       "Master-Key",
-      "Cerberus",
-      "Typhon"
+      "Cerberus"
     ],
     "excludes": [
       "Rifled Barrel",
@@ -1083,15 +1082,17 @@
     "type": "Mod",
     "tooltip": [
       "> <C>25%</> increased RPM",
-      "<B>></> <C>20%</> <B>increased pellet spread per shot with automatic fire, up to</> <C>100%</>",
+      "<B>></> <C>10%</> <B>increased pellet spread per shot with automatic fire, up to</> <C>100%</>",
       "<B>></> <C>100%</> <B>increased recoil</>",
-      "<B>> reduced ammo capacity</>"
+      "<B>></> <C>4</> <B>reduced ammo capacity</>"
     ],
     "technician": "false",
     "compatibility": [
       "Typhon"
     ],
-    "excludes": [],
+    "excludes": [
+      "Rifled Barrel"
+    ],
     "speed_penalty": 0.15,
     "foundations": {
       "type": "tech",
@@ -1244,7 +1245,7 @@
     "name": "Havok Cycler",
     "type": "Mod",
     "tooltip": [
-      "> <C>0-100%</> increased RPM, scaling proportionally to rounds fired from <C>0-20%</> capacity",
+      "> <C>0-100%</> increased RPM while firing for <C>0-0.75s</>",
       "<B>></> <C>50%</> <B>increased spread gain</>",
       "<B>></> <C>35%</> <B>reduced RPM</>"
     ],
@@ -1279,15 +1280,15 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
-      "tier": 25,
-      "value": 2
+      "tier": 15,
+      "value": 1
     }
   },
   {
     "name": "VX Accelerator",
     "type": "Mod",
     "tooltip": [
-      "> <C>0-50%</> increased damage, velocity and penetration, proportional to spin up time",
+      "> <C>0-50%</> increased damage, velocity and penetration, scaling with spin up time",
       "<B>></> <C>0-1s</> <B>spin up time</>",
       "<B>></> <C>50%</> <B>increased firing handling speed penalty</>"
     ],
@@ -1402,10 +1403,10 @@
     "name": "Deadbolt Receiver",
     "type": "Mod",
     "tooltip": [
-      "> <C>0-85%</> reduced pellet spread, proportional to spin up time",
-      "> <C>0-85%</> increases far damage and velocity, proportional to spin up time",
+      "> <C>0-85%</> reduced pellet spread, scaling with spin up time",
+      "> <C>0-100%</> increased far damage and velocity, scaling with spin up time",
       "<B>></> <C>0-0.5s</> <B>spin up time</>",
-      "<B>></> <C>25-0%</> <B>reduced near damage, proportional to spin up time</>",
+      "<B>></> <C>25-0%</> <B>reduced near damage, scaling with spin up time</>",
       "<B>></> <C>100%</> <B>increased hipfire and alternate aim spread</>"
     ],
     "technician": "false",
@@ -1413,7 +1414,8 @@
       "Master-Key"
     ],
     "excludes": [
-      "Adaptive Choke"
+      "Adaptive Choke",
+      "Rifled Barrel"
     ],
     "speed_penalty": 0.15,
     "foundations": {
@@ -1426,7 +1428,7 @@
     "name": "Arc Salvo",
     "type": "Mod",
     "tooltip": [
-      "> <C>75</> shock damage and <C>2 s</> disable if full burst hits target while ADS",
+      "> <C>75</> shock damage and <C>4 s</> disable if full burst hits target while ADS",
       "<B>> Disables consecutive hit damage multiplier</>",
       "<B>></> <C>20</> <B>reduced ammo capacity</>"
     ],
@@ -1434,7 +1436,9 @@
     "compatibility": [
       "Helix"
     ],
-    "excludes": [],
+    "excludes": [
+      "Burst Override"
+    ],
     "speed_penalty": 0.15,
     "foundations": {
       "type": "tech",
@@ -1464,7 +1468,7 @@
     "speed_penalty": 0.0,
     "foundations": {
       "type": "hardware",
-      "tier": 45,
+      "tier": 50,
       "value": 3
     }
   },
@@ -1524,8 +1528,60 @@
     "speed_penalty": 0.2,
     "foundations": {
       "type": "tech",
-      "tier": 30,
-      "value": 2
+      "tier": 5,
+      "value": 0
+    }
+  },
+  {
+    "name": "Burst Override",
+    "type": "Mod",
+    "tooltip": [
+      "> Converts to automatic, <C>1200</> RPM",
+      "<B>> Disables consecutive hit damage multiplier</>",
+      "<B>></> <C>0-50%</> <B>reduced RPM while firing for</><C>0-0.5s</>",
+      "<B>></> <C>50%</> <B>increased recoil and spread gain</>"
+    ],
+    "technician": "false",
+    "compatibility": [
+      "Helix"
+    ],
+    "excludes": [
+      "Arc Salvo"
+    ],
+    "speed_penalty": 0.1,
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
+    }
+  },
+  {
+    "name": "Rifled Barrel",
+    "type": "Mod",
+    "tooltip": [
+      "> Converts to slugs",
+      "> <C>0.25x</> additional headshot damage multiplier",
+      "> <C>25%</> increased velocity and penetration",
+      "<B>></> <C>25-35%</> <B>reduced damage</>",
+      "<B>></> <C>50%</> <B>increased hipfire and alternate aim spread</>",
+      "<B>></> <C>50%</> <B>increased spread gain</>"
+    ],
+    "technician": "false",
+    "compatibility": [
+      "Master-Key",
+      "Typhon"
+    ],
+    "excludes": [
+      "Adaptive Choke",
+      "Deadbolt Receiver",
+      "Cripple Gauge",
+      "Vortex Receiver"
+    ],
+    "speed_penalty": 0.05,
+    "foundations": {
+      "type": "hardware",
+      "tier": 50,
+      "value": 3
     }
   }
 ]

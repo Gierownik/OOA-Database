@@ -265,6 +265,24 @@
             "SourceString": "Amplify",
             "LocalizedString": "Amplify"
           }
+        },
+        {
+          "Key": "NewEnumerator40",
+          "Value": {
+            "Namespace": "",
+            "Key": "043C8A5A43A3D00C57EE22A33BC876F3",
+            "SourceString": "Seeker Mine",
+            "LocalizedString": "Seeker Mine"
+          }
+        },
+        {
+          "Key": "NewEnumerator41",
+          "Value": {
+            "Namespace": "",
+            "Key": "6B94F81A46EA9948F421A3B58CE890BB",
+            "SourceString": "Trip Mine",
+            "LocalizedString": "Trip Mine"
+          }
         }
       ]
     },
@@ -298,7 +316,9 @@
       "ENUM_DeviceID::NewEnumerator37": 26,
       "ENUM_DeviceID::NewEnumerator38": 27,
       "ENUM_DeviceID::NewEnumerator39": 28,
-      "ENUM_DeviceID::ENUM_MAX": 29
+      "ENUM_DeviceID::NewEnumerator40": 29,
+      "ENUM_DeviceID::NewEnumerator41": 30,
+      "ENUM_DeviceID::ENUM_MAX": 31
     },
     "CppForm": "Namespaced"
   }
