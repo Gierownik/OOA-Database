@@ -1320,7 +1320,9 @@
       "Cerberus",
       "Master-Key"
     ],
-    "excludes": [],
+    "excludes": [
+      "Rifled Barrel"
+    ],
     "speed_penalty": 0.15,
     "foundations": {
       "type": "tech",

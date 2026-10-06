@@ -2308,8 +2308,8 @@
           {
             "Namespace": "",
             "Key": "65C906AC48401E49478C8382F2D55D47",
-            "SourceString": "> Replaces Core activation, <C>25</> Core charge required to activate, can be toggled or held, <C>5 s</> cooldown\r\n> <C>50%</> increased ground speed, acceleration, aux power and aerial maneuver charge regeneration while active\r\n> <C>50%</> reduced speed penalties and ground deceleration while active\r\n> <C>1 m/s</> increased movement speed cap while active\r\n<B>></> <C>50%</> <B>increased damage received while active</>\r\n<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources and effectiveness of damage reductions while active</>\r\n<B>></> <C>7.5 /s</> <B>Core charge drain while active, deactivates if Core charge depleted</>\r\n<B>> Can no longer manually activate Core</>\r\n<B>> Visible trails while active</>",
-            "LocalizedString": "> Replaces Core activation, <C>25</> Core charge required to activate, can be toggled or held, <C>5 s</> cooldown\r\n> <C>50%</> increased ground speed, acceleration, aux power and aerial maneuver charge regeneration while active\r\n> <C>50%</> reduced speed penalties and ground deceleration while active\r\n> <C>1 m/s</> increased movement speed cap while active\r\n<B>></> <C>50%</> <B>increased damage received while active</>\r\n<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources and effectiveness of damage reductions while active</>\r\n<B>></> <C>7.5 /s</> <B>Core charge drain while active, deactivates if Core charge depleted</>\r\n<B>> Can no longer manually activate Core</>\r\n<B>> Visible trails while active</>"
+            "SourceString": "> Replaces Core activation, <C>25</> Core charge required to activate, can be toggled or held, <C>5 s</> cooldown\r\n> <C>50%</> increased ground speed, acceleration, aux power and aerial maneuver charge regeneration while active\r\n> <C>50%</> reduced speed penalties and ground deceleration while active\r\n> <C>1 m/s</> increased movement speed cap while active\r\n<B>></> <C>50%</> <B>increased damage received while active</>\r\n<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources and effectiveness of damage reductions while active</>\r\n<B>></> <C>5 /s</> <B>Core charge drain while active, deactivates if Core charge depleted</>\r\n<B>> Can no longer manually activate Core</>\r\n<B>> Visible trails while active</>",
+            "LocalizedString": "> Replaces Core activation, <C>25</> Core charge required to activate, can be toggled or held, <C>5 s</> cooldown\r\n> <C>50%</> increased ground speed, acceleration, aux power and aerial maneuver charge regeneration while active\r\n> <C>50%</> reduced speed penalties and ground deceleration while active\r\n> <C>1 m/s</> increased movement speed cap while active\r\n<B>></> <C>50%</> <B>increased damage received while active</>\r\n<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources and effectiveness of damage reductions while active</>\r\n<B>></> <C>5 /s</> <B>Core charge drain while active, deactivates if Core charge depleted</>\r\n<B>> Can no longer manually activate Core</>\r\n<B>> Visible trails while active</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2551,13 +2551,40 @@
           {
             "Namespace": "",
             "Key": "930242CA4C1F15BD03C79C991834AC7F",
-            "SourceString": "> Applies Desync+ to enemies within <C>10 m</>\r\n> Deal <C>2 /s</> vital damage per enemy in range to all affected enemies\r\n> Immunity to Desync and Neuro-Link devices\r\n> <C>100%</> increased range while scanning\r\n<B>></> <C>50%</> <B>of damage dealt to affected enemies received as vital damage, increased to</> <C>100%</> <B>while scanning</>\r\n<B>> Disables detections and radar</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Applies Desync+ to enemies within <C>10 m</>\r\n> Deal <C>2 /s</> vital damage per enemy in range to all affected enemies\r\n> Immunity to Desync and Neuro-Link devices\r\n> <C>100%</> increased range while scanning\r\n<B>></> <C>50%</> <B>of damage dealt to affected enemies received as vital damage, increased to</> <C>100%</> <B>while scanning</>\r\n<B>> Disables detections and radar</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Deal <C>2 /s</> vital damage per enemy to all enemies within <C>10 m</>, increased to <C>15 m</> while scanning\r\n> Applies Desync+ to enemies with Desync or in range for longer than <C>2 s</>\r\n> Immunity to Desync and Neuro-Link devices\r\n<B>></> <C>100%</> <B>of damage dealt to affected enemies is received as vital damage</>\r\n<B>></> <C>100%</> <B>reduced vitals regeneration while enemies in range</>\r\n<B>> Disables detections and radar</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Deal <C>2 /s</> vital damage per enemy to all enemies within <C>10 m</>, increased to <C>15 m</> while scanning\r\n> Applies Desync+ to enemies with Desync or in range for longer than <C>2 s</>\r\n> Immunity to Desync and Neuro-Link devices\r\n<B>></> <C>100%</> <B>of damage dealt to affected enemies is received as vital damage</>\r\n<B>></> <C>100%</> <B>reduced vitals regeneration while enemies in range</>\r\n<B>> Disables detections and radar</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Subversion'",
           "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Subversion"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Surplus": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator25",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "71C8D5C14F35B261E90B5EB77EDCEBC3",
+            "SourceString": "> Additional weapon mod slot\r\n> <C>200%</> additional base reserve ammo\r\n> <C>100%</> additional stealth weapon ammo\r\n> <C>50%</> reduced active standard device cooldowns on kill\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
+            "LocalizedString": "> Additional weapon mod slot\r\n> <C>200%</> additional base reserve ammo\r\n> <C>100%</> additional stealth weapon ammo\r\n> <C>50%</> reduced active standard device cooldowns on kill\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Surplus'",
+          "ObjectPath": "/Game/OutOfAction/UI/Textures/Matrix/UI_M_Surplus"
         },
         "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
           "X": 0.0,
@@ -3334,8 +3361,8 @@
           {
             "Namespace": "",
             "Key": "58843F31475FAFC64935B0A8C9926A48",
-            "SourceString": "> Launches <C>4</> Seekers on activation\r\n> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target\r\n> Can attach to surfaces\r\n> Maximum Efficiency: <C>2</> additional Seekers\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Launches <C>4</> Seekers on activation\r\n> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target\r\n> Can attach to surfaces\r\n> Maximum Efficiency: <C>2</> additional Seekers\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Launches <C>4</> Seekers on activation\r\n> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target\r\n> Can attach to surfaces\r\n> Maximum Efficiency: <C>1</> additional Seeker\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Launches <C>4</> Seekers on activation\r\n> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target\r\n> Can attach to surfaces\r\n> Maximum Efficiency: <C>1</> additional Seeker\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {

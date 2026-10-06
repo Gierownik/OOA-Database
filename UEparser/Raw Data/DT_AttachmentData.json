@@ -914,7 +914,9 @@
           "ENUM_WeaponID::NewEnumerator19",
           "ENUM_WeaponID::NewEnumerator18"
         ],
-        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [],
+        "excludeList_43_3E6DA3624973B648616BB8AC7146A5D8": [
+          "ENUM_AttachmentID::NewEnumerator77"
+        ],
         "speedModifier_46_0CFFE17D4E001B59751D92BAF7F64FD2": 15.0
       },
       "Hammer-Head": {

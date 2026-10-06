@@ -520,7 +520,7 @@
       "> Launches <C>4</> Seekers on activation",
       "> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target",
       "> Can attach to surfaces",
-      "> Maximum Efficiency: <C>2</> additional Seekers",
+      "> Maximum Efficiency: <C>1</> additional Seeker",
       "<B>> Can be Disabled</>"
     ],
     "experimental": "false",

@@ -915,7 +915,7 @@
       "> <C>1 m/s</> increased movement speed cap while active",
       "<B>></> <C>50%</> <B>increased damage received while active</>",
       "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources and effectiveness of damage reductions while active</>",
-      "<B>></> <C>7.5 /s</> <B>Core charge drain while active, deactivates if Core charge depleted</>",
+      "<B>></> <C>5 /s</> <B>Core charge drain while active, deactivates if Core charge depleted</>",
       "<B>> Can no longer manually activate Core</>",
       "<B>> Visible trails while active</>"
     ],
@@ -1053,11 +1053,11 @@
   {
     "name": "Subversion Neuro-Mesh",
     "tooltip": [
-      "> Applies Desync+ to enemies within <C>10 m</>",
-      "> Deal <C>2 /s</> vital damage per enemy in range to all affected enemies",
+      "> Deal <C>2 /s</> vital damage per enemy to all enemies within <C>10 m</>, increased to <C>15 m</> while scanning",
+      "> Applies Desync+ to enemies with Desync or in range for longer than <C>2 s</>",
       "> Immunity to Desync and Neuro-Link devices",
-      "> <C>100%</> increased range while scanning",
-      "<B>></> <C>50%</> <B>of damage dealt to affected enemies received as vital damage, increased to</> <C>100%</> <B>while scanning</>",
+      "<B>></> <C>100%</> <B>of damage dealt to affected enemies is received as vital damage</>",
+      "<B>></> <C>100%</> <B>reduced vitals regeneration while enemies in range</>",
       "<B>> Disables detections and radar</>",
       "<B>> Can be Disabled</>"
     ],
@@ -1065,6 +1065,22 @@
       "type": "tech",
       "tier": 50,
       "value": 3
+    }
+  },
+  {
+    "name": "Surplus",
+    "tooltip": [
+      "> Additional weapon mod slot",
+      "> <C>200%</> additional base reserve ammo",
+      "> <C>100%</> additional stealth weapon ammo",
+      "> <C>50%</> reduced active standard device cooldowns on kill",
+      "<B>></> <C>25%</> <B>Increased device cooldowns</>",
+      "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
+    ],
+    "foundations": {
+      "type": "hardware",
+      "tier": 20,
+      "value": 1
     }
   },
   {
