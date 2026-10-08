@@ -664,7 +664,7 @@
     "type": "Enhancement",
     "tooltip": [
       "> On activate: Gain up to <C>5</> temporary backup weapon combo points",
-      "> While active: <C>50%</> increased acceleration and knockback resistance",
+      "> While active: <C>50%</> increased acceleration and knockback resistance, <C>50%</> reduced ground deceleration",
       "> Maximum Efficiency: <C>50%</> increased duration"
     ],
     "experimental": "false",
