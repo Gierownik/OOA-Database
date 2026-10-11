@@ -200,7 +200,8 @@
   {
     "name": "Ballistic Reflex",
     "tooltip": [
-      "> <C>65%</> reduced firearm and projectile damage for <C>0.15 s</> on receiving firearm or projectile damage, does not refresh while active",
+      "> Activates for <C>1 s</> on receiving firearm or projectile damage, duration does not refresh",
+      "> <C>50-0%</> reduced firearm and projectile damage scaling with damage from <C>25-100</>, diminishing over active duration",
       "<B>> </><C>25%</> <B>increased firearm and projectile damage received while inactive</>"
     ],
     "foundations": {
@@ -501,7 +502,7 @@
       "> <C>100%</> reduced aux power drain from climbing",
       "> <C>100%</> reduced fall damage when landing into a climb",
       "> <C>15%</> increased speed, jump speed and weapon accuracy while climbing",
-      "<B>></> <C>50%</> <B>defense regeneration and damage received bypasses defense while camouflage active</",
+      "<B>></> <C>50%</> <B>reduced defense regeneration and damage received bypasses defense while camouflage active</>",
       "<B>> Can be Disabled</>",
       "<G>*Shroud:</> Undetectable by all equipment"
     ],
@@ -1053,12 +1054,13 @@
   {
     "name": "Subversion Neuro-Mesh",
     "tooltip": [
-      "> Deal <C>2 /s</> vital damage per enemy to all enemies within <C>10 m</>, increased to <C>15 m</> while scanning",
-      "> Applies Desync+ to enemies with Desync or in range for longer than <C>2 s</>",
+      "> AOE neural disruption, <C>15 m</> range, replaces scan",
+      "> Deal <C>2 /s</> vital damage, per enemy, to unobstructed enemies in range while active",
+      "> Applies Desync+ to unobstructed enemies in range for longer than <C>2 s</>",
       "> Immunity to Desync and Neuro-Link devices",
-      "<B>></> <C>100%</> <B>of damage dealt to affected enemies is received as vital damage</>",
-      "<B>></> <C>100%</> <B>reduced vitals regeneration while enemies in range</>",
-      "<B>> Disables detections and radar</>",
+      "<B>></> <C>2 /s</> <B>vital damage received while active, reduced to</> <C>1 /s</> <B>with unobstructed enemies in range</>",
+      "<B>></> <C>100%</> <B>reduced vitals restored from all sources while active</>",
+      "<B>> Disables detections and radar while active</>",
       "<B>> Can be Disabled</>"
     ],
     "foundations": {
