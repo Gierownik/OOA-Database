@@ -222,7 +222,7 @@
       "<B>> Primary stim no longer restores vitals and causes Bleed if used while not Bleeding</>",
       "<B>></> <C>100%</> <B>reduced defense regeneration while Bleeding</>",
       "<B>></> <C>50%</> <B>increased Bleed damage received</>",
-      "<B>> Core activation no longer clears Bleed</>"
+      "<B>> Core activation and Burn no longer clear Bleed</>"
     ],
     "foundations": {
       "type": "body",
