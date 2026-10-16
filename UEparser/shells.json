@@ -185,7 +185,7 @@
       "tech_name": "Superheated",
       "tech": "Backdraft and Ground Slam apply Burn+ and gain 25% increased damage and range, backup weapons deal an additional 25% of damage dealt as Burn damage",
       "hardware_name": "Crossfeed",
-      "hardware": "Aerial maneuvers and hover no longer drain aux power or consume charges for 5 s on receiving chemical heal, 10 s cooldown"
+      "hardware": "Aerial maneuvers no longer drain aux power or consume charges for 5 s on receiving chemical heal, 10 s cooldown"
     }
   },
   {
@@ -228,11 +228,11 @@
     },
     "spec": {
       "body_name": "Force Trauma",
-      "body": "Shockwave gains 50% increased range, debuff duration and knockback force, applies Disable+ and Snare+",
+      "body": "Shockwave gains 50% increased range, debuff duration and knockback force, ground speed gained from Resilient Momentum is no longer lost on receiving damage",
       "tech_name": "Power Relay",
       "tech": "30 /s defense, max defense and aux power regeneration while Disabled or Nano-wire connected and gain 5% additional Core speed for each unobstructed enemy or ally within 15 m while Core active",
       "hardware_name": "Reverberate",
-      "hardware": "Backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage, scaling with remaining defense from 0-75%. <G>Overcharge for 5 s on firearm, explosive or backup weapon kill within 10 m"
+      "hardware": "Gain <G>Overcharge for 5 s on firearm, explosive or backup weapon kill within 15 m, backup weapon damage applies Disable for 2 s and deals 0-25% additional shock damage, scaling with remaining defense from 0-75%"
     }
   }
 ]

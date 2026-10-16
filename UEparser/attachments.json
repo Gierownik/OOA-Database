@@ -1288,8 +1288,9 @@
     "name": "VX Accelerator",
     "type": "Mod",
     "tooltip": [
-      "> <C>0-50%</> increased damage, velocity and penetration, scaling with spin up time",
+      "> <C>0-100%</> increased damage, velocity and penetration, scaling with spin up time",
       "<B>></> <C>0-1s</> <B>spin up time</>",
+      "<B>></> <C>25-0%</> <B>reduced damage, velocity and penetration, scaling with spin up time</>",
       "<B>></> <C>50%</> <B>increased firing handling speed penalty</>"
     ],
     "technician": "false",
