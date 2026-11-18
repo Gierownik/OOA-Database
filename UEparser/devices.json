@@ -407,7 +407,7 @@
       "<B>> Death on deactivate if no unobstructed enemies are killed while active</>",
       "<G>*Overkill:</> Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, backup weapon windup speed and firearm accuracy. <C>100%</> <B>increased direct damage received while active</>"
     ],
-    "experimental": "true",
+    "experimental": "false",
     "stats": {
       "cooldown": 60.0,
       "duration": 5.0,
@@ -557,7 +557,7 @@
     ],
     "experimental": "true",
     "stats": {
-      "cooldown": 30.0,
+      "cooldown": 45.0,
       "duration": 60.0,
       "action": "Throw",
       "activation": "Activate",
@@ -655,7 +655,7 @@
     },
     "foundations": {
       "type": "tech",
-      "tier": 15,
+      "tier": 10,
       "value": 1
     }
   },
@@ -721,9 +721,9 @@
     "name": "Tox grenade",
     "type": "Standard",
     "tooltip": [
-      "> Creates toxic cloud on impact or airbone activation, spreading to nearby surfaces",
+      "> Creates tox cloud on impact or airbone activation, spreading to nearby surfaces",
       "> <C>25</> chemical damage to enemies within <C>3 m</>",
-      "> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact",
+      "> Tox clouds obscure vision, apply <C>4 s</> Snare and Corrode to enemies and restart ally defense regeneration while in contact",
       "> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets",
       "> Maximum Efficiency: <C>100%</> increased duration"
     ],
@@ -745,6 +745,64 @@
       "type": "hardware",
       "tier": 35,
       "value": 2
+    }
+  },
+  {
+    "name": "Blindspot",
+    "type": "Standard",
+    "tooltip": [
+      "> Obscures vision and detections, applies <C>4 s</> Desync to enemies while in contact",
+      "> Immunity to all forms of detection while in contact",
+      "> Maximum Efficiency: Applies Desync+",
+      "<B>> Disables vision and muffles hearing while in contact</>",
+      "<B>> Disables radar and detections while in contact</>"
+    ],
+    "experimental": "false",
+    "stats": {
+      "cooldown": 30.0,
+      "duration": 10.0,
+      "action": "Throw",
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "integrity": 0,
+      "speed_penalty": 0.15,
+      "hack_cost": 0,
+      "secondary_action": "false",
+      "can_be_disabled": "false"
+    },
+    "foundations": {
+      "type": "tech",
+      "tier": 20,
+      "value": 1
+    }
+  },
+  {
+    "name": "ERU",
+    "type": "Enhancement",
+    "tooltip": [
+      "> <C>50</> defense and max defense restored on activation, restarts defense regeneration",
+      "> <C>2 s</> Burn and Corrode immunity on activation",
+      "> Maximum Efficiency: Can gain up to <C>50</> defense buffer"
+    ],
+    "experimental": "false",
+    "stats": {
+      "cooldown": 45.0,
+      "duration": 0.0,
+      "action": "Activate",
+      "activation": "None",
+      "activation_delay": 0,
+      "velocity": 0.0,
+      "integrity": 0,
+      "speed_penalty": 0.4,
+      "hack_cost": 0,
+      "secondary_action": "false",
+      "can_be_disabled": "false"
+    },
+    "foundations": {
+      "type": "tech",
+      "tier": 45,
+      "value": 3
     }
   }
 ]

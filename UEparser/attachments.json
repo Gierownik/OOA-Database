@@ -310,8 +310,8 @@
     "speed_penalty": 0.05,
     "foundations": {
       "type": "tech",
-      "tier": 45,
-      "value": 3
+      "tier": 40,
+      "value": 2
     }
   },
   {
@@ -1327,7 +1327,7 @@
     "speed_penalty": 0.15,
     "foundations": {
       "type": "tech",
-      "tier": 50,
+      "tier": 45,
       "value": 3
     }
   },
@@ -1554,8 +1554,8 @@
     "speed_penalty": 0.1,
     "foundations": {
       "type": "tech",
-      "tier": 45,
-      "value": 3
+      "tier": 40,
+      "value": 2
     }
   },
   {

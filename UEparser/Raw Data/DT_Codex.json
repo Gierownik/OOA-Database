@@ -92,8 +92,8 @@
           {
             "Namespace": "",
             "Key": "2235BE8942AEE1E601BE0CBE5E5451B3",
-            "SourceString": "> While airborne, tap or hold <C>MANEUVER</> \r\n> Before landing, release <C>MANEUVER</>",
-            "LocalizedString": "> While airborne, tap or hold <C>MANEUVER</> \r\n> Before landing, release <C>MANEUVER</>"
+            "SourceString": "> While airborne, hold <C>MANEUVER</> \r\n> Before landing, release <C>MANEUVER</>",
+            "LocalizedString": "> While airborne, hold <C>MANEUVER</> \r\n> Before landing, release <C>MANEUVER</>"
           },
           {
             "Namespace": "",
@@ -236,6 +236,39 @@
           {
             "Namespace": "",
             "Key": "D3569226479C1E64E6FC8194C58B554D",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          }
+        ]
+      },
+      "BoostKick": {
+        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
+        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
+          "Namespace": "",
+          "Key": "125D5FFD40BA3C5365A57487AC3A2842",
+          "SourceString": "Boost Kick",
+          "LocalizedString": "Boost Kick"
+        },
+        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
+          "ObjectName": "FileMediaSource'WallKick'",
+          "ObjectPath": "OutOfAction/Content/Movies/WallKick.0"
+        },
+        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
+          {
+            "Namespace": "",
+            "Key": "5CDAA2F54F481150A0BC0D996825CE1D",
+            "SourceString": "> While airborne and next to a surface, hold <C>MOVE LEFT</> or <C>MOVE RIGHT</> and tap or hold <C>CROUCH</>\r\n",
+            "LocalizedString": "> While airborne and next to a surface, hold <C>MOVE LEFT</> or <C>MOVE RIGHT</> and tap or hold <C>CROUCH</>\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "3E8DC543488CC00E59BB658694B9A438",
+            "SourceString": "\r\n",
+            "LocalizedString": "\r\n"
+          },
+          {
+            "Namespace": "",
+            "Key": "BBE0D9124AAF09D468A7F8AD24ED2214",
             "SourceString": "\r\n",
             "LocalizedString": "\r\n"
           }
@@ -395,8 +428,8 @@
           {
             "Namespace": "",
             "Key": "2C53CE15471EAECA788ADD88B79AC7EE",
-            "SourceString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>\r\n",
-            "LocalizedString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>\r\n"
+            "SourceString": "> <C>Aerial maneuver charge</>\r\n",
+            "LocalizedString": "> <C>Aerial maneuver charge</>\r\n"
           },
           {
             "Namespace": "",
@@ -956,8 +989,8 @@
           {
             "Namespace": "",
             "Key": "9CF16F2F47A6641D2F14EA877BE2271C",
-            "SourceString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>",
-            "LocalizedString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>"
+            "SourceString": "> <C>Aerial maneuver charge</>",
+            "LocalizedString": "> <C>Aerial maneuver charge</>"
           },
           {
             "Namespace": "",
@@ -967,13 +1000,13 @@
           }
         ]
       },
-      "SomersaultProne": {
+      "SomersaultDive": {
         "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
         "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
           "Namespace": "",
           "Key": "5670E1644E9F89B94D300D9FE397F0D7",
-          "SourceString": "Somersault - Prone",
-          "LocalizedString": "Somersault - Prone"
+          "SourceString": "Somersault - Dive",
+          "LocalizedString": "Somersault - Dive"
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
           "ObjectName": "FileMediaSource'SomersaultProne'",
@@ -983,20 +1016,20 @@
           {
             "Namespace": "",
             "Key": "53D7032948AF1094AD30998DB19DF361",
-            "SourceString": "> While airborne and moving, hold <C>MANEUVER</>\r\n",
-            "LocalizedString": "> While airborne and moving, hold <C>MANEUVER</>\r\n"
+            "SourceString": "> While somersaulting, hold <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While somersaulting, hold <C>MANEUVER</>\r\n"
           },
           {
             "Namespace": "",
             "Key": "E91150F74C432EFA52D7109CCA18714C",
-            "SourceString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>",
-            "LocalizedString": "> <C>Acrobatics augment</>\r\n> <C>Aerial maneuver charge</>"
+            "SourceString": "> <C>Aerial maneuver charge</>",
+            "LocalizedString": "> <C>Aerial maneuver charge</>"
           },
           {
             "Namespace": "",
             "Key": "C0F600DF4AFCA9F14A76C79EC0D4AAD0",
-            "SourceString": "> Reduced headshot damage received while somersaulting\r\n> Increased firearm accuracy while prone",
-            "LocalizedString": "> Reduced headshot damage received while somersaulting\r\n> Increased firearm accuracy while prone"
+            "SourceString": "> Reduced headshot damage received while somersaulting\r\n> Increased firearm accuracy while diving",
+            "LocalizedString": "> Reduced headshot damage received while somersaulting\r\n> Increased firearm accuracy while diving"
           }
         ]
       },
@@ -1099,39 +1132,6 @@
           }
         ]
       },
-      "WallFlip": {
-        "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
-        "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
-          "Namespace": "",
-          "Key": "338F5B2E4B5F30A128141DA68BB50235",
-          "SourceString": "Wall Flip",
-          "LocalizedString": "Wall Flip"
-        },
-        "clip_12_150498BC49E4196A85637FBFF38E9C88": {
-          "ObjectName": "FileMediaSource'WallFlip'",
-          "ObjectPath": "OutOfAction/Content/Movies/WallFlip.0"
-        },
-        "details_16_4B025EF744B0612A776CA79F1E2C930E": [
-          {
-            "Namespace": "",
-            "Key": "EF2839A449103E0FA3ACE29E91E80F19",
-            "SourceString": "> While wall latched, tap <C>MANEUVER</>\r\n",
-            "LocalizedString": "> While wall latched, tap <C>MANEUVER</>\r\n"
-          },
-          {
-            "Namespace": "",
-            "Key": "3E8DC543488CC00E59BB658694B9A438",
-            "SourceString": "\r\n",
-            "LocalizedString": "\r\n"
-          },
-          {
-            "Namespace": "",
-            "Key": "C328177441A15AB28F74B1A99007385F",
-            "SourceString": "> Reduced headshot damage received while flipping\r\n",
-            "LocalizedString": "> Reduced headshot damage received while flipping\r\n"
-          }
-        ]
-      },
       "WallJump": {
         "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
         "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
@@ -1165,24 +1165,24 @@
           }
         ]
       },
-      "WallKick": {
+      "WallSomersault": {
         "type_19_33E1CFC14AA258BE3669DB8920098811": "ENUM_Codex::NewEnumerator0",
         "title_8_FADE0F3A4D8C70F6684BB09ACB75B3D8": {
           "Namespace": "",
-          "Key": "125D5FFD40BA3C5365A57487AC3A2842",
-          "SourceString": "Wall Kick",
-          "LocalizedString": "Wall Kick"
+          "Key": "338F5B2E4B5F30A128141DA68BB50235",
+          "SourceString": "Wall Somersault",
+          "LocalizedString": "Wall Somersault"
         },
         "clip_12_150498BC49E4196A85637FBFF38E9C88": {
-          "ObjectName": "FileMediaSource'WallKick'",
-          "ObjectPath": "OutOfAction/Content/Movies/WallKick.0"
+          "ObjectName": "FileMediaSource'WallFlip'",
+          "ObjectPath": "OutOfAction/Content/Movies/WallFlip.0"
         },
         "details_16_4B025EF744B0612A776CA79F1E2C930E": [
           {
             "Namespace": "",
-            "Key": "5CDAA2F54F481150A0BC0D996825CE1D",
-            "SourceString": "> While airborne and next to a surface, hold <C>MOVE LEFT</> or <C>MOVE RIGHT</> and tap or hold <C>CROUCH</>\r\n",
-            "LocalizedString": "> While airborne and next to a surface, hold <C>MOVE LEFT</> or <C>MOVE RIGHT</> and tap or hold <C>CROUCH</>\r\n"
+            "Key": "EF2839A449103E0FA3ACE29E91E80F19",
+            "SourceString": "> While wall latched, tap <C>MANEUVER</>\r\n",
+            "LocalizedString": "> While wall latched, tap <C>MANEUVER</>\r\n"
           },
           {
             "Namespace": "",
@@ -1192,9 +1192,9 @@
           },
           {
             "Namespace": "",
-            "Key": "BBE0D9124AAF09D468A7F8AD24ED2214",
-            "SourceString": "\r\n",
-            "LocalizedString": "\r\n"
+            "Key": "C328177441A15AB28F74B1A99007385F",
+            "SourceString": "> Reduced headshot damage received while somersaulting\r\n",
+            "LocalizedString": "> Reduced headshot damage received while somersaulting\r\n"
           }
         ]
       },

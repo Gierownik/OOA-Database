@@ -25,7 +25,7 @@
         "Akimbo": 16,
         "Experimental": 17,
         "Specialist": 18,
-        "Heavy Weapons": 19,
+        "Vanguard": 19,
         "Kinetic Focus": 20,
         "Resourceful": 21,
         "Fail-safe": 22,
@@ -86,7 +86,18 @@
         "Redline": 77,
         "Slipstream": 78,
         "Subversion Neuro-Mesh": 79,
-        "Ballistic Reflex": 80
+        "Ballistic Reflex": 80,
+        "Serrated": 81,
+        "Boost Plating": 82,
+        "Meditation": 83,
+        "Nanobolic Coating": 84,
+        "Hornets Nest": 85,
+        "Overpressure": 86,
+        "Catalyst": 87,
+        "Enforcer": 88,
+        "System Purge": 89,
+        "Super-Spreader": 90,
+        "Gun Fu": 91
     },
     "Devices": {
         "Overcharge": 2,
@@ -118,7 +129,10 @@
         "Killswitch": 27,
         "Amplify": 28,
         "Seeker Mine": 29,
-        "Trip Mine": 30
+        "Trip Mine": 30,
+        "Blindspot": 31,
+        "ERU": 32,
+        "Syphon": 33
     },
     "Weapons": {
         "Major": 2,

@@ -78,8 +78,8 @@
           {
             "Namespace": "",
             "Key": "00475715494F08DCB1DF068F27E3568B",
-            "SourceString": ":: <D>TACTICAL CAMOUFLAGE</>\r\n> Reduces visibility, undetectable by proximity devices and targeting systems, <C>3 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty and tag duration, and <C>25%</> increased jump speed while active\r\n> Gain <G>Amplify</> while moving over <C>4 m/s</> if camouflage active for over <C>10 s</>, reduced by <C>2 s</> per visible kill while camouflage inactive\r\n<B>></> <C>50%</> <B>reduced defense regeneration and damage received bypasses defense while active</>\r\n<B>> Deactivates on Nano-wire use, offensive actions, throwing devices and Burning</>\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>HEIGHTENED PROFICIENCY</>\r\n> Opportunity: Active for <C>2 s</> after camouflage deactivation, gain <G>Amplify</> and <C>25%</> increased ground and climb speed, <C>10 s</> cooldown\r\n> Visible kills reduce Opportunity cooldown by <C>2 s</>, fully reset cooldown while Opportunity is active\r\n> <C>25%</> increased firearm accuracy, dexterity, melee and stealth weapon damage for <C>10 s</> on visible kill\r\n\r\n:: <D>DISRUPTIVE MEASURES</>\r\n> <C>25%</> reduced detectable range, scrambled radar profile while moving with camouflage active, and <G>Shroud</> on camouflage activate for <C>2 s</> per visible enemy killed while camouflage inactive\r\n> Disable enemies and enemy devices within <C>3 m</> for <C>2 s</> during sliding and rolling maneuvers, or on camouflage deactivate. \r\n> Neuro-link 'Spike' on Core activation: Applies <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown\r\n\r\n<G>*Amplify:</> Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar\r\n<G>*Shroud:</> Undetectable by all equipment",
-            "LocalizedString": ":: <D>TACTICAL CAMOUFLAGE</>\r\n> Reduces visibility, undetectable by proximity devices and targeting systems, <C>3 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty and tag duration, and <C>25%</> increased jump speed while active\r\n> Gain <G>Amplify</> while moving over <C>4 m/s</> if camouflage active for over <C>10 s</>, reduced by <C>2 s</> per visible kill while camouflage inactive\r\n<B>></> <C>50%</> <B>reduced defense regeneration and damage received bypasses defense while active</>\r\n<B>> Deactivates on Nano-wire use, offensive actions, throwing devices and Burning</>\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>HEIGHTENED PROFICIENCY</>\r\n> Opportunity: Active for <C>2 s</> after camouflage deactivation, gain <G>Amplify</> and <C>25%</> increased ground and climb speed, <C>10 s</> cooldown\r\n> Visible kills reduce Opportunity cooldown by <C>2 s</>, fully reset cooldown while Opportunity is active\r\n> <C>25%</> increased firearm accuracy, dexterity, melee and stealth weapon damage for <C>10 s</> on visible kill\r\n\r\n:: <D>DISRUPTIVE MEASURES</>\r\n> <C>25%</> reduced detectable range, scrambled radar profile while moving with camouflage active, and <G>Shroud</> on camouflage activate for <C>2 s</> per visible enemy killed while camouflage inactive\r\n> Disable enemies and enemy devices within <C>3 m</> for <C>2 s</> during sliding and rolling maneuvers, or on camouflage deactivate. \r\n> Neuro-link 'Spike' on Core activation: Applies <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown\r\n\r\n<G>*Amplify:</> Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar\r\n<G>*Shroud:</> Undetectable by all equipment"
+            "SourceString": ":: <D>TACTICAL CAMOUFLAGE</>\r\n> Reduces visibility, undetectable by proximity devices and targeting systems, <C>3 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty and tag duration, and <C>25%</> increased jump speed while active\r\n> Gain <G>Amplify</> while moving over <C>4 m/s</> if camouflage active for over <C>10 s</>, reduced by <C>2 s</> per visible kill while camouflage inactive\r\n<B>></> <C>50%</> <B>reduced defense regeneration and damage received bypasses defense while active</>\r\n<B>> Deactivates on Nano-wire use, offensive actions, throwing devices, Burning and Corroding</>\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>HEIGHTENED PROFICIENCY</>\r\n> Opportunity: Active for <C>2 s</> after camouflage deactivation, gain <G>Amplify</> and <C>25%</> increased ground and climb speed, <C>10 s</> cooldown\r\n> Visible kills reduce Opportunity cooldown by <C>2 s</>, fully reset cooldown while Opportunity is active\r\n> <C>25%</> increased firearm accuracy, dexterity, melee and stealth weapon damage for <C>10 s</> on visible kill\r\n\r\n:: <D>DISRUPTIVE MEASURES</>\r\n> <C>25%</> reduced detectable range, scrambled radar profile while moving with camouflage active, and <G>Shroud</> on camouflage activate for <C>2 s</> per visible enemy killed while camouflage inactive\r\n> Disable enemies and enemy devices within <C>3 m</> for <C>2 s</> during sliding and rolling maneuvers, or on camouflage deactivate. \r\n> Neuro-link 'Spike' on Core activation: Applies <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown\r\n\r\n<G>*Amplify:</> Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar\r\n<G>*Shroud:</> Undetectable by all equipment",
+            "LocalizedString": ":: <D>TACTICAL CAMOUFLAGE</>\r\n> Reduces visibility, undetectable by proximity devices and targeting systems, <C>3 s</> cooldown\r\n> <C>25%</> reduced loadout speed penalty and tag duration, and <C>25%</> increased jump speed while active\r\n> Gain <G>Amplify</> while moving over <C>4 m/s</> if camouflage active for over <C>10 s</>, reduced by <C>2 s</> per visible kill while camouflage inactive\r\n<B>></> <C>50%</> <B>reduced defense regeneration and damage received bypasses defense while active</>\r\n<B>> Deactivates on Nano-wire use, offensive actions, throwing devices, Burning and Corroding</>\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>HEIGHTENED PROFICIENCY</>\r\n> Opportunity: Active for <C>2 s</> after camouflage deactivation, gain <G>Amplify</> and <C>25%</> increased ground and climb speed, <C>10 s</> cooldown\r\n> Visible kills reduce Opportunity cooldown by <C>2 s</>, fully reset cooldown while Opportunity is active\r\n> <C>25%</> increased firearm accuracy, dexterity, melee and stealth weapon damage for <C>10 s</> on visible kill\r\n\r\n:: <D>DISRUPTIVE MEASURES</>\r\n> <C>25%</> reduced detectable range, scrambled radar profile while moving with camouflage active, and <G>Shroud</> on camouflage activate for <C>2 s</> per visible enemy killed while camouflage inactive\r\n> Disable enemies and enemy devices within <C>3 m</> for <C>2 s</> during sliding and rolling maneuvers, or on camouflage deactivate. \r\n> Neuro-link 'Spike' on Core activation: Applies <C>4 s</> Disable and Snare to up to <C>6</> visible or detected enemies, executes if target below <C>25%</> vitals, destroys visible or detected devices, <C>10 s</> cooldown\r\n\r\n<G>*Amplify:</> Firearm and backup weapon damage bypass all damage reductions, enhances vision and displays all enemies on radar\r\n<G>*Shroud:</> Undetectable by all equipment"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -105,8 +105,8 @@
           {
             "Namespace": "",
             "Key": "293CDDD44B45B6C1B63D1BA0E12B9E74",
-            "SourceString": ":: <D>DRIFTER JUMP-PACK</>\r\n> Additional aerial maneuvers:\r\nBoost: Can be activated and held while airborne, recovers <C>25</> aux power on activation, gain rapid vertical lift and increased air control, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, can knockback, can cancel Dive, replaces Air Jump\r\nAir Dash: Launch rapidly in held direction while airborne, can knockback and knockdown, replaces Air Dive\r\nGround Slam: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, <C>10 s</> cooldown\r\n> Enhanced ground and climbing maneuvers\r\n> <C>100%</> reduced airborne accuracy penalty\r\n<B>> Can no longer ADS while Boost active</>\r\n<B>> Can be Disabled,</> <C>1 m/s</> <B>reduced movement speed cap if Disabled</>\r\n\r\n:: <D>SCORCH HAZARD</>\r\n> Backdraft AOE on maneuver activation while enemies in proximity or body impact while Boost active: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, <C>1 m/s</> increased movement speed cap while on cooldown, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>5 s</> on death during maneuvers\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>THERMAL NANO-MESH</>\r\n> <C>50%</> increased Burn resistance, Burn stat reduction immunity\r\n> <C>25</> defense restored per enemy hit by Backdraft and Ground Slam, can gain up to <C>50</> defense buffer\r\n> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling with speed from <C>0-12 m/s</>",
-            "LocalizedString": ":: <D>DRIFTER JUMP-PACK</>\r\n> Additional aerial maneuvers:\r\nBoost: Can be activated and held while airborne, recovers <C>25</> aux power on activation, gain rapid vertical lift and increased air control, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, can knockback, can cancel Dive, replaces Air Jump\r\nAir Dash: Launch rapidly in held direction while airborne, can knockback and knockdown, replaces Air Dive\r\nGround Slam: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, <C>10 s</> cooldown\r\n> Enhanced ground and climbing maneuvers\r\n> <C>100%</> reduced airborne accuracy penalty\r\n<B>> Can no longer ADS while Boost active</>\r\n<B>> Can be Disabled,</> <C>1 m/s</> <B>reduced movement speed cap if Disabled</>\r\n\r\n:: <D>SCORCH HAZARD</>\r\n> Backdraft AOE on maneuver activation while enemies in proximity or body impact while Boost active: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, <C>1 m/s</> increased movement speed cap while on cooldown, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>5 s</> on death during maneuvers\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>THERMAL NANO-MESH</>\r\n> <C>50%</> increased Burn resistance, Burn stat reduction immunity\r\n> <C>25</> defense restored per enemy hit by Backdraft and Ground Slam, can gain up to <C>50</> defense buffer\r\n> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling with speed from <C>0-12 m/s</>"
+            "SourceString": ":: <D>DRIFTER JUMP-PACK</>\r\n> Additional aerial maneuvers:\r\nBoost: Can be activated and held while airborne, recovers <C>25</> aux power on activation, gain rapid vertical lift and increased air control, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, can knockback, can cancel Dive, replaces Air Jump\r\nAir Dash: Launch rapidly in held direction while airborne, can knockback and knockdown, replaces Air Dive\r\nGround Slam: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, <C>10 s</> cooldown\r\n> Enhanced ground and climbing maneuvers\r\n> <C>100%</> reduced airborne accuracy penalty\r\n<B>> Can no longer ADS while Boost active</>\r\n<B>> Can be Disabled,</> <C>1 m/s</> <B>reduced movement speed cap if Disabled</>\r\n\r\n:: <D>SCORCH HAZARD</>\r\n> Backdraft AOE on Boost and Air Dash activation while enemies in proximity or body impact while Boost active: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, <C>1 m/s</> increased movement speed cap while on cooldown, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>5 s</> on death during maneuvers\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>THERMAL NANO-MESH</>\r\n> <C>50%</> increased Burn resistance, Burn stat reduction immunity\r\n> <C>25</> defense restored per enemy hit by Backdraft and Ground Slam, can gain up to <C>50</> defense buffer\r\n> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling with speed from <C>0-12 m/s</>",
+            "LocalizedString": ":: <D>DRIFTER JUMP-PACK</>\r\n> Additional aerial maneuvers:\r\nBoost: Can be activated and held while airborne, recovers <C>25</> aux power on activation, gain rapid vertical lift and increased air control, unaffected by loadout speed penalties, <C>50%</> reduced movement speed penalties, can knockback, can cancel Dive, replaces Air Jump\r\nAir Dash: Launch rapidly in held direction while airborne, can knockback and knockdown, replaces Air Dive\r\nGround Slam: Launch downward to ground while above <C>5 m</>, deals <C>50-25</> explosive and Burn damage damage within <C>2-4 m</>, <C>10 s</> cooldown\r\n> Enhanced ground and climbing maneuvers\r\n> <C>100%</> reduced airborne accuracy penalty\r\n<B>> Can no longer ADS while Boost active</>\r\n<B>> Can be Disabled,</> <C>1 m/s</> <B>reduced movement speed cap if Disabled</>\r\n\r\n:: <D>SCORCH HAZARD</>\r\n> Backdraft AOE on Boost and Air Dash activation while enemies in proximity or body impact while Boost active: Ignites enemies within <C>3 m</> for <C>25</> Burn damage, <C>1 m/s</> increased movement speed cap while on cooldown, <C>5 s</> cooldown\r\n> Ignites surrounding area for <C>5 s</> on death during maneuvers\r\n> Neuro-link 'Combust' on Core activation: Deals <C>25</> Burn damage and Burn+ to up to <C>6</> visible or detected enemies, damage increased by <C>25%</> per addtional enemy, <C>10 s</> cooldown\r\n<B>> Can be Disabled</>\r\n\r\n:: <D>THERMAL NANO-MESH</>\r\n> <C>50%</> increased Burn resistance, Burn stat reduction immunity\r\n> <C>25</> defense restored per enemy hit by Backdraft and Ground Slam, can gain up to <C>50</> defense buffer\r\n> <C>0-50%</> increased explosive resistance and defense regeneration during maneuvers, scaling with speed from <C>0-12 m/s</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -213,8 +213,8 @@
           {
             "Namespace": "",
             "Key": "EDBCE0A34989C00DE7874EB6087F0F5C",
-            "SourceString": "> <C>25%</> increased ground speed if unobstructed enemies within <C>15 m</> while equipped\r\n> <C>25%</> reduced direct damage received while equipped\r\n> <C>25%</> reduced ground deceleration while equipped\r\n> <C>1 m/s</> increased movement speed cap while equipped",
-            "LocalizedString": "> <C>25%</> increased ground speed if unobstructed enemies within <C>15 m</> while equipped\r\n> <C>25%</> reduced direct damage received while equipped\r\n> <C>25%</> reduced ground deceleration while equipped\r\n> <C>1 m/s</> increased movement speed cap while equipped"
+            "SourceString": "> <C>25%</> increased ground speed if unobstructed enemies within <C>15 m</> while equipped\r\n> <C>25%</> reduced direct defense damage received while equipped\r\n> <C>25%</> reduced ground deceleration while equipped\r\n> <C>1 m/s</> increased movement speed cap while equipped",
+            "LocalizedString": "> <C>25%</> increased ground speed if unobstructed enemies within <C>15 m</> while equipped\r\n> <C>25%</> reduced direct defense damage received while equipped\r\n> <C>25%</> reduced ground deceleration while equipped\r\n> <C>1 m/s</> increased movement speed cap while equipped"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -240,8 +240,8 @@
           {
             "Namespace": "",
             "Key": "29F2D4B94D2CA9D221E5A699E59FD74F",
-            "SourceString": "> <C>50%</> defense and damage reduction bypass\r\n> <C>25%</> reduced direct damage received while equipped\r\n> <C>25%</> reduced ground deceleration while equipped\r\n> <C>1 m/s</> increased movement speed cap while equipped",
-            "LocalizedString": "> <C>50%</> defense and damage reduction bypass\r\n> <C>25%</> reduced direct damage received while equipped\r\n> <C>25%</> reduced ground deceleration while equipped\r\n> <C>1 m/s</> increased movement speed cap while equipped"
+            "SourceString": "> <C>50%</> defense and damage reduction bypass\r\n> <C>25%</> reduced direct defense damage received while equipped\r\n> <C>25%</> reduced ground deceleration while equipped\r\n> <C>1 m/s</> increased movement speed cap while equipped",
+            "LocalizedString": "> <C>50%</> defense and damage reduction bypass\r\n> <C>25%</> reduced direct defense damage received while equipped\r\n> <C>25%</> reduced ground deceleration while equipped\r\n> <C>1 m/s</> increased movement speed cap while equipped"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -597,7 +597,14 @@
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
         "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 50,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator19",
-        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "2167141C4764BD28DDE002A3E9B27741",
+            "SourceString": "> Creates <C>5 s</> Blindspot on detonation while using alternate aim stance\r\n> Disarm immunity, can knockdown on throw\r\n<B>> </><C>25%</> <B>reduced explosive damage while using alternate aim stance</>\r\n<B>> </><C>25%</> <B>reduced explosive range while using alternate aim stance</>\r\n<B>> Can only be fired while aiming</>\r\n<B>> Dropped on knockdown</>\r\n<B>> Unable to prone</>",
+            "LocalizedString": "> Creates <C>5 s</> Blindspot on detonation while using alternate aim stance\r\n> Disarm immunity, can knockdown on throw\r\n<B>> </><C>25%</> <B>reduced explosive damage while using alternate aim stance</>\r\n<B>> </><C>25%</> <B>reduced explosive range while using alternate aim stance</>\r\n<B>> Can only be fired while aiming</>\r\n<B>> Dropped on knockdown</>\r\n<B>> Unable to prone</>"
+          }
+        ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeavWeap'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
@@ -621,8 +628,8 @@
           {
             "Namespace": "",
             "Key": "F632D9354989D3DE07E11FBA5C5868A4",
-            "SourceString": "> Paints and deals Shock damage to airborne targets",
-            "LocalizedString": "> Paints and deals Shock damage to airborne targets"
+            "SourceString": "> Paints and deals Shock damage to airborne targets\r\n> Fires multiple projectiles while using altername aim stance\r\n> Disarm immunity, can knockdown on throw\r\n<B>> </><C>25%</> <B>reduced damage while using alternate aim stance</>\r\n<B>> </><C>0.5x</> <B>reduced headshot multiplier while using alternate aim stance</>\r\n<B>> </><C>50%</> <B>reduced RPM while using alternate aim stance</>\r\n<B>> Can only be fired while aiming</>\r\n<B>> Dropped on knockdown</>\r\n<B>> Unable to prone</>",
+            "LocalizedString": "> Paints and deals Shock damage to airborne targets\r\n> Fires multiple projectiles while using altername aim stance\r\n> Disarm immunity, can knockdown on throw\r\n<B>> </><C>25%</> <B>reduced damage while using alternate aim stance</>\r\n<B>> </><C>0.5x</> <B>reduced headshot multiplier while using alternate aim stance</>\r\n<B>> </><C>50%</> <B>reduced RPM while using alternate aim stance</>\r\n<B>> Can only be fired while aiming</>\r\n<B>> Dropped on knockdown</>\r\n<B>> Unable to prone</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -688,8 +695,8 @@
           {
             "Namespace": "",
             "Key": "26446D2447152C2431D14D811B3C67EF",
-            "SourceString": "> Additional aerial maneuver charge\r\n> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge\r\n> Recover an aerial maneuver charge on starting a climb\r\n> <C>50%</> reduced fall damage\r\n> <C>15%</> increased jump and climb speed\r\n<B>></> <C>25</> <B>reduced defense</>",
-            "LocalizedString": "> Additional aerial maneuver charge\r\n> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge\r\n> Recover an aerial maneuver charge on starting a climb\r\n> <C>50%</> reduced fall damage\r\n> <C>15%</> increased jump and climb speed\r\n<B>></> <C>25</> <B>reduced defense</>"
+            "SourceString": "> Additional aerial maneuver charge\r\n> Recover an aerial maneuver charge on starting a climb\r\n> <C>100%</> reduced aerial maneuver aux power drain\r\n> <C>50%</> reduced fall damage\r\n> <C>15%</> increased jump and climb speed\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> Additional aerial maneuver charge\r\n> Recover an aerial maneuver charge on starting a climb\r\n> <C>100%</> reduced aerial maneuver aux power drain\r\n> <C>50%</> reduced fall damage\r\n> <C>15%</> increased jump and climb speed\r\n<B>></> <C>25</> <B>reduced defense</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -715,8 +722,8 @@
           {
             "Namespace": "",
             "Key": "9DB6701F4AD0A236972EE0B55D628B94",
-            "SourceString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased aux power and aerial maneuver regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>4 s</> <B>Snare+</> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
-            "LocalizedString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased aux power and aerial maneuver regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>4 s</> <B>Snare+</> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
+            "SourceString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased aux power and aerial maneuver regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>4 s</> <B>Snare and</> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+            "LocalizedString": "> Activates on receiving chemical heal, <C>50%</> of the heal amount converted to duration, up to <C>15 s</>\r\n> <C>50%</> increased stim use speed\r\n> <C>25%</> reduced direct damage to vitals while active\r\n> <C>50%</> increased aux power and aerial maneuver regeneration while active\r\n> <C>15%</> increased ground speed while active\r\n<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>\r\n<B>></> <C>4 s</> <B>Snare and</> <C>25</> <B>vital damage received on activation while detox on cooldown</>\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -877,8 +884,8 @@
           {
             "Namespace": "",
             "Key": "97A222E54F033A144D0A248003835A8A",
-            "SourceString": "> <C>25%</> reduced loadout and movement speed penalties while on ground or climbing\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while Disabled</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> <C>25%</> reduced loadout and movement speed penalties while on ground or climbing\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while Disabled</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> <C>25%</> reduced loadout and movement speed penalties while on ground or climbing\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n> Boost kick can knockdown enemies\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while Disabled</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> <C>25%</> reduced loadout and movement speed penalties while on ground or climbing\r\n> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched\r\n> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers\r\n> Boost kick can knockdown enemies\r\n<B>> Charging jump drains aux power</>\r\n<B>> Snared while Disabled</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -952,7 +959,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
@@ -1066,8 +1073,8 @@
           {
             "Namespace": "",
             "Key": "D74C8554420E6405BC7FBF90078A13C9",
-            "SourceString": "> Backup weapons apply Corrode for <C>2 s</> \r\n> <C>25%</> of vitals damage received reflected as chemical damage and <C>2 s</> Snare to enemies within <C>3 m</>\r\n> <C>100%</> Corrode resistance\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>increased Bleed damage received</>",
-            "LocalizedString": "> Backup weapons apply Corrode for <C>2 s</> \r\n> <C>25%</> of vitals damage received reflected as chemical damage and <C>2 s</> Snare to enemies within <C>3 m</>\r\n> <C>100%</> Corrode resistance\r\n<B>></> <C>25%</> <B>reduced vitals restored from all sources</>\r\n<B>></> <C>25%</> <B>increased Bleed damage received</>"
+            "SourceString": "> Body impacts, melee and stealth weapons apply Corrode for <C>2 s</> \r\n> <C>25%</> of vitals damage received reflected as chemical damage, applying <C>2 s</> Corrode and Snare to enemies within <C>3 m</>\r\n> Corrode immunity\r\n<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources</>\r\n<B>></> <C>25%</> <B>increased Bleed damage received</>",
+            "LocalizedString": "> Body impacts, melee and stealth weapons apply Corrode for <C>2 s</> \r\n> <C>25%</> of vitals damage received reflected as chemical damage, applying <C>2 s</> Corrode and Snare to enemies within <C>3 m</>\r\n> Corrode immunity\r\n<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources</>\r\n<B>></> <C>25%</> <B>increased Bleed damage received</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1249,7 +1256,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 5,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
@@ -1276,7 +1283,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
@@ -1417,8 +1424,8 @@
           {
             "Namespace": "",
             "Key": "70D0666D4FB052AD8EE19B9492C4B845",
-            "SourceString": "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>15 s</> cooldown\r\n> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>15 s</> cooldown\r\n> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Launch <C>4</> Seekers on roll maneuvers if targetable enemies within <C>25 m</>, <C>15 s</> cooldown\r\n> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Launch <C>4</> Seekers on roll maneuvers if targetable enemies within <C>25 m</>, <C>15 s</> cooldown\r\n> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target\r\n<B>></> <C>25%</> <B>Increased device cooldowns</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1525,8 +1532,8 @@
           {
             "Namespace": "",
             "Key": "D0FFE48E482CF021D5E1FE8F2B13CB54",
-            "SourceString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with melee damage to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity while grounded, <C>100%</> reduced speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
-            "LocalizedString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with melee damage to weakened enemies\r\n> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity while grounded, <C>100%</> reduced speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
+            "SourceString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with melee damage to weakened enemies\r\n> Unstoppable if unobstructed, weakened enemies within <C>15 m</>: Knockdown immunity while grounded, <C>100%</> reduced speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>",
+            "LocalizedString": "> Enemies with defense below <C>50%</> are considered weakened\r\n> <C>100%</> defense bypass with melee damage to weakened enemies\r\n> Unstoppable if unobstructed, weakened enemies within <C>15 m</>: Knockdown immunity while grounded, <C>100%</> reduced speed penalties\r\n> <C>25%</> increased direct damage to knocked down enemies\r\n<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>\r\n<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1606,8 +1613,8 @@
           {
             "Namespace": "",
             "Key": "99F2D4AB459D437DF20FDA8A8559D3B3",
-            "SourceString": "> Deflects headshots while active, reducing damage by <C>50%</>, hard target\r\n> Immunity to Tether and Neuro-Link devices while active\r\n<B>> Can no longer ADS while active</>\r\n<B>> Can no longer use Neuro-Link devices while active</>\r\n<B>> Destroyed on receiving</> <C>150</> <B>damage</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap while active</>",
-            "LocalizedString": "> Deflects headshots while active, reducing damage by <C>50%</>, hard target\r\n> Immunity to Tether and Neuro-Link devices while active\r\n<B>> Can no longer ADS while active</>\r\n<B>> Can no longer use Neuro-Link devices while active</>\r\n<B>> Destroyed on receiving</> <C>150</> <B>damage</>\r\n<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap while active</>"
+            "SourceString": "> Deflects headshots, reducing damage by <C>50%</>, hard target\r\n> Tether, Desync and Neuro-Link device immunity\r\n> Decapitation and Core syphon immunity\r\n<B>> Staggered for </><C>0.25-0.5 s</> <B>on receiving headshot damage</>\r\n<B>> Can no longer ADS</>\r\n<B>> Can no longer use Neuro-Link devices</>\r\n<B>></> <C>0.5 m/s</> <B>reduced movement speed cap</>",
+            "LocalizedString": "> Deflects headshots, reducing damage by <C>50%</>, hard target\r\n> Tether, Desync and Neuro-Link device immunity\r\n> Decapitation and Core syphon immunity\r\n<B>> Staggered for </><C>0.25-0.5 s</> <B>on receiving headshot damage</>\r\n<B>> Can no longer ADS</>\r\n<B>> Can no longer use Neuro-Link devices</>\r\n<B>></> <C>0.5 m/s</> <B>reduced movement speed cap</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1633,8 +1640,8 @@
           {
             "Namespace": "",
             "Key": "D19F7CC649C5A99F8BB730B42FCBF9C6",
-            "SourceString": "> Activates on receiving vitals damage to body, deactivates and restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage to body received, scaling with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling with reduced max vitals from</> <C>0-75%</> <B>while active</>\r\n<B>></> <C>100%</> <B>increased Burn damage received</>",
-            "LocalizedString": "> Activates on receiving vitals damage to body, deactivates and restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown\r\n> <C>25-75%</> reduced direct vitals damage to body received, scaling with reduced max vitals from <C>0-75%</> while active\r\n<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-50%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling with reduced max vitals from</> <C>0-75%</> <B>while active</>\r\n<B>></> <C>100%</> <B>increased Burn damage received</>"
+            "SourceString": "> Activates on receiving vitals damage to body, deactivates and restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown\r\n> <C>25-50%</> reduced direct vitals damage to body received and knockback, scaling with reduced max vitals from <C>0-50%</> while active\r\n> Bleed immunity while active\r\n<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-25%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling with reduced max vitals from</> <C>0-50%</> <B>while active</>\r\n<B>></> <C>100%</> <B>increased Burn damage received</>",
+            "LocalizedString": "> Activates on receiving vitals damage to body, deactivates and restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown\r\n> <C>25-50%</> reduced direct vitals damage to body received and knockback, scaling with reduced max vitals from <C>0-50%</> while active\r\n> Bleed immunity while active\r\n<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>\r\n<B>> Can no longer restore max vitals while active</>\r\n<B>></> <C>0-25%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling with reduced max vitals from</> <C>0-50%</> <B>while active</>\r\n<B>></> <C>100%</> <B>increased Burn damage received</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1700,27 +1707,27 @@
           "Y": 0.0
         }
       },
-      "HeavyWeapons": {
+      "HornetsNest": {
         "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
         "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
-        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator19",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator85",
         "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
-        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 35,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
-            "Key": "C1C67BA840F759B876D9629AB3C268B1",
-            "SourceString": "> Can equip and pickup heavy weapons\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons can only be fired while aiming, are dropped on knockdown and unequipped on rolling maneuvers</>\r\n<B>></> <C>50%</> <B>increased aux power drain from all sources while not grounded</>\r\n<B>></> <C>1 m/s</> <B>reduced movement speed cap while heavy weapon equipped</>",
-            "LocalizedString": "> Can equip and pickup heavy weapons\r\n> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped\r\n> Disarm immunity while heavy weapon equipped\r\n<B>> Unable to dive or prone while heavy weapon equipped</>\r\n<B>> Heavy weapons can only be fired while aiming, are dropped on knockdown and unequipped on rolling maneuvers</>\r\n<B>></> <C>50%</> <B>increased aux power drain from all sources while not grounded</>\r\n<B>></> <C>1 m/s</> <B>reduced movement speed cap while heavy weapon equipped</>"
+            "Key": "2F5DCC0F4ECF9092A8107F8C9F6CE258",
+            "SourceString": "> Launch a Hornet on roll maneuvers, while melee or stealth weapon equipped, to all targetable enemies within <C>25 m</>, <C>5 s</> cooldown\r\n> Hornet: Tracks targets, deals <C>25</> damage and <C>2 s</> Snare, <C>50%</> defense bypass\r\n<B>></> <C>25%</> <B>increased device cooldowns</>\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> Launch a Hornet on roll maneuvers, while melee or stealth weapon equipped, to all targetable enemies within <C>25 m</>, <C>5 s</> cooldown\r\n> Hornet: Tracks targets, deals <C>25</> damage and <C>2 s</> Snare, <C>50%</> defense bypass\r\n<B>></> <C>25%</> <B>increased device cooldowns</>\r\n<B>></> <C>25</> <B>reduced defense</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
-          "ObjectName": "Texture2D'UI_M_HeavWeap'",
-          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
+          "ObjectName": "Texture2D'UI_M_Placeholder'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Placeholder.0"
         },
         "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
           "X": 0.0,
@@ -1903,13 +1910,67 @@
           {
             "Namespace": "",
             "Key": "7B33CE124DF4B6AC164ABE9679A52BB0",
-            "SourceString": "> Improves standard and enhancement devices\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>",
-            "LocalizedString": "> Improves standard and enhancement devices\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>"
+            "SourceString": "> Improves standard and enhancement devices\r\n> Reload <C>15%</> of equipped weapons capacity on roll maneuvers\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>\r\n<B>></> <C>25%</> <B>reduced ammo regeneration</>",
+            "LocalizedString": "> Improves standard and enhancement devices\r\n> Reload <C>15%</> of equipped weapons capacity on roll maneuvers\r\n<B>></> <C>50%</> <B>Increased device cooldowns</>\r\n<B>></> <C>25%</> <B>reduced ammo regeneration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_MaxEff'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_MaxEff.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Meditation": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator83",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "91620D8F43015FE37CCBBAA5A9689EB7",
+            "SourceString": "> Active if not received damage for <C>5 s</>\r\n> Gain <C>1</> backup weapon combo point every <C>5 s</> while active\r\n> <C>10%</> reduced firearm spread, spread gain and recoil every <C>5 s</>, up to <C>50%</> while active\r\n> <C>10%</> reduced aux power drain every <C>5 s</>, up to <C>50%</> while active\r\n<B>></> <C>50%</> <B>increased aux power drain while inactive</>\r\n<B>> Can no longer gain backup weapon combo points from attacks</>",
+            "LocalizedString": "> Active if not received damage for <C>5 s</>\r\n> Gain <C>1</> backup weapon combo point every <C>5 s</> while active\r\n> <C>10%</> reduced firearm spread, spread gain and recoil every <C>5 s</>, up to <C>50%</> while active\r\n> <C>10%</> reduced aux power drain every <C>5 s</>, up to <C>50%</> while active\r\n<B>></> <C>50%</> <B>increased aux power drain while inactive</>\r\n<B>> Can no longer gain backup weapon combo points from attacks</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Placeholder'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Placeholder.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "NanobolicCoating": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator84",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 35,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "F366A2C44A0B8B03952A78979EF64949",
+            "SourceString": "> Tox clouds apply <G>Bolster</> to allies on contact, continues for <C>5 s</> on leaving cloud\r\n> <C>15%</> defense regeneration restored to max defense\r\n<B>></> <C>50%</> <B>increased Corrode damage and duration received</>\r\n\r\n<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration. <C>50%</> <B>reduced speed, aux power regeneration and vitals restored from all sources</>",
+            "LocalizedString": "> Tox clouds apply <G>Bolster</> to allies on contact, continues for <C>5 s</> on leaving cloud\r\n> <C>15%</> defense regeneration restored to max defense\r\n<B>></> <C>50%</> <B>increased Corrode damage and duration received</>\r\n\r\n<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration. <C>50%</> <B>reduced speed, aux power regeneration and vitals restored from all sources</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Placeholder'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Placeholder.0"
         },
         "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
           "X": 0.0,
@@ -2038,8 +2099,8 @@
           {
             "Namespace": "",
             "Key": "B5777D1146E194CAB903309CB906A46D",
-            "SourceString": "> Personal targeting drone, replaces scan, hard target\r\n> Provides external camera view and paints visible enemies within <C>50 m</> while active\r\n> <C>25%</> increased target painting detection zone\r\n> <C>35%</> reduced hipfire spread and spread gain on painted targets\r\n> <C>25%</> reduced alternate aim spread and spread gain on painted targets\r\n<B>> Disrupts vision if drone takes damage while active</>\r\n<B>> Can no longer ADS</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be destroyed</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Personal targeting drone, replaces scan, hard target\r\n> Provides external camera view and paints visible enemies within <C>50 m</> while active\r\n> <C>25%</> increased target painting detection zone\r\n> <C>35%</> reduced hipfire spread and spread gain on painted targets\r\n> <C>25%</> reduced alternate aim spread and spread gain on painted targets\r\n<B>> Disrupts vision if drone takes damage while active</>\r\n<B>> Can no longer ADS</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can be destroyed</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Personal targeting drone, replaces scan, hard target\r\n> Provides external camera view and paints visible enemies within <C>50 m</> while active\r\n> <C>25%</> increased target painting detection zone\r\n> <C>35%</> reduced hipfire spread and spread gain on painted targets\r\n> <C>25%</> reduced alternate aim spread and spread gain on painted targets\r\n<B>> Staggered for </><C>0.25-0.5 s</> <B>on drone receiving damage while active</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can no longer ADS</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Personal targeting drone, replaces scan, hard target\r\n> Provides external camera view and paints visible enemies within <C>50 m</> while active\r\n> <C>25%</> increased target painting detection zone\r\n> <C>35%</> reduced hipfire spread and spread gain on painted targets\r\n> <C>25%</> reduced alternate aim spread and spread gain on painted targets\r\n<B>> Staggered for </><C>0.25-0.5 s</> <B>on drone receiving damage while active</>\r\n<B>></> <C>0.5 m/s</> <B>reduced ground speed</>\r\n<B>> Can no longer ADS</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2146,8 +2207,8 @@
           {
             "Namespace": "",
             "Key": "4C793BB6432CE261C1C494A90C2BEBE1",
-            "SourceString": "> <C>25%</> defense bypass with backup weapons and body impact damage\r\n> <C>50%</> increased body impact damage\r\n> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, scaling with impact speed from <C>4-12 m/s</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>",
-            "LocalizedString": "> <C>25%</> defense bypass with backup weapons and body impact damage\r\n> <C>50%</> increased body impact damage\r\n> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, scaling with impact speed from <C>4-12 m/s</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>"
+            "SourceString": "> <C>25%</> defense bypass with backup weapons and body impact damage\r\n> <C>50%</> increased body impact damage\r\n> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, scaling with impact speed from <C>4-12 m/s</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>\r\n<B>></> <C>25%</> <B>reduced hard target damage </>",
+            "LocalizedString": "> <C>25%</> defense bypass with backup weapons and body impact damage\r\n> <C>50%</> increased body impact damage\r\n> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, scaling with impact speed from <C>4-12 m/s</>\r\n<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>\r\n<B>></> <C>25%</> <B>reduced hard target damage </>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2383,7 +2444,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
@@ -2396,6 +2457,33 @@
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Reversal'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Reversal.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Serrated": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator81",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "2B8249B845063153C7A83E9161D28132",
+            "SourceString": "> Melee and stealth weapons apply Bleed+ on dealing damage to vitals\r\n> <C>50%</> increased bleed damage with melee and stealth weapons\r\n<B>></> <C>100%</> <B>increased aux power drain from melee and stealth weapon attacks</>\r\n<B>></> <C>50%</> <B>reduced hard target damage </>",
+            "LocalizedString": "> Melee and stealth weapons apply Bleed+ on dealing damage to vitals\r\n> <C>50%</> increased bleed damage with melee and stealth weapons\r\n<B>></> <C>100%</> <B>increased aux power drain from melee and stealth weapon attacks</>\r\n<B>></> <C>50%</> <B>reduced hard target damage </>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Placeholder'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Placeholder.0"
         },
         "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
           "X": 0.0,
@@ -2416,8 +2504,8 @@
           {
             "Namespace": "",
             "Key": "6CBCC7BB4E94F2BB25F91289863FEB83",
-            "SourceString": "> Explosive damage applies Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>",
-            "LocalizedString": "> Explosive damage applies Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>"
+            "SourceString": "> Explosive and body impact damage applies Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>25%</> <B>increased shock damage received</>\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>",
+            "LocalizedString": "> Explosive and body impact damage applies Disable for <C>2 s</>\r\n> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration\r\n<B>></> <C>25%</> <B>reduced explosive range</>\r\n<B>></> <C>25%</> <B>increased shock damage received</>\r\n<B>></> <C>25%</> <B>reduced defense restored from all sources</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2551,13 +2639,40 @@
           {
             "Namespace": "",
             "Key": "930242CA4C1F15BD03C79C991834AC7F",
-            "SourceString": "> AOE neural disruption, <C>15 m</> range, replaces scan\r\n> Deal <C>2 /s</> vital damage, per enemy, to unobstructed enemies in range while active\r\n> Applies Desync+ to unobstructed enemies in range for longer than <C>2 s</>\r\n> Immunity to Desync and Neuro-Link devices\r\n<B>></> <C>2 /s</> <B>vital damage received while active, reduced to</> <C>1 /s</> <B>with unobstructed enemies in range</>\r\n<B>></> <C>100%</> <B>reduced vitals restored from all sources while active</>\r\n<B>> Disables detections and radar while active</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> AOE neural disruption, <C>15 m</> range, replaces scan\r\n> Deal <C>2 /s</> vital damage, per enemy, to unobstructed enemies in range while active\r\n> Applies Desync+ to unobstructed enemies in range for longer than <C>2 s</>\r\n> Immunity to Desync and Neuro-Link devices\r\n<B>></> <C>2 /s</> <B>vital damage received while active, reduced to</> <C>1 /s</> <B>with unobstructed enemies in range</>\r\n<B>></> <C>100%</> <B>reduced vitals restored from all sources while active</>\r\n<B>> Disables detections and radar while active</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> AOE neural disruption, <C>15 m</> range, replaces scan\r\n> Deal <C>3 /s</> vital damage, per enemy, to unobstructed enemies in range while active, up to <C>15 /s</>\r\n> Applies Desync+ to unobstructed enemies in range\r\n> Desync and Neuro-Link device immunity to unobstructed allies in range\r\n<B>></> <C>100%</> <B>reduced Core generation and defense restored from all sources while active</>\r\n<B>> Disables detections and radar while active</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> AOE neural disruption, <C>15 m</> range, replaces scan\r\n> Deal <C>3 /s</> vital damage, per enemy, to unobstructed enemies in range while active, up to <C>15 /s</>\r\n> Applies Desync+ to unobstructed enemies in range\r\n> Desync and Neuro-Link device immunity to unobstructed allies in range\r\n<B>></> <C>100%</> <B>reduced Core generation and defense restored from all sources while active</>\r\n<B>> Disables detections and radar while active</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Subversion'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Subversion.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Super-Spreader": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator90",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "D4527A6D478DD3BF0E7C7C93FAB58D5B",
+            "SourceString": "> Applies <C>4 s</> Corrode to all unobstructed enemies within <C>25 m</> of an enemy killed with Corrode active\r\n> Create a trail of Tox clouds while Corroding\r\n> Snare immunity while Corroding\r\n<B>></> <C>50%</> <B>increased Corrode duration received</>\r\n<B>> All sources of Corrode received apply Corrode+</>",
+            "LocalizedString": "> Applies <C>4 s</> Corrode to all unobstructed enemies within <C>25 m</> of an enemy killed with Corrode active\r\n> Create a trail of Tox clouds while Corroding\r\n> Snare immunity while Corroding\r\n<B>></> <C>50%</> <B>increased Corrode duration received</>\r\n<B>> All sources of Corrode received apply Corrode+</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Placeholder'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Placeholder.0"
         },
         "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
           "X": 0.0,
@@ -2632,8 +2747,8 @@
           {
             "Namespace": "",
             "Key": "D9E7C6634552674B1EC99F905AD0634F",
-            "SourceString": "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>25-50%</> reduced direct defense damage received while active, scaling with activation speed from <C>5-10 m/s</>\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>\r\n<B>> Deactivates on body impacts and collision with ground</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling with duration from <C>0-5 s</>\r\n> Unaffected by Core slowing effects while active\r\n> <C>25-50%</> reduced direct defense damage received while active, scaling with activation speed from <C>5-10 m/s</>\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>\r\n<B>> Deactivates on body impacts and collision with ground</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>3 s</>, momentum restored when aim released, <C>5 s</> cooldown\r\n> Unaffected by Core slowing effects while active\r\n> <C>25-50%</> reduced direct defense damage received while active, scaling with activation speed from <C>5-10 m/s</>\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>\r\n<B>> Deactivates on body impacts and collision with ground</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>3 s</>, momentum restored when aim released, <C>5 s</> cooldown\r\n> Unaffected by Core slowing effects while active\r\n> <C>25-50%</> reduced direct defense damage received while active, scaling with activation speed from <C>5-10 m/s</>\r\n> Knockback immunity while active\r\n<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>\r\n<B>> Deactivates on body impacts and collision with ground</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2653,7 +2768,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 35,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
@@ -2747,6 +2862,33 @@
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Unstable'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Unstable.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Vanguard": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator19",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "C1C67BA840F759B876D9629AB3C268B1",
+            "SourceString": "> Can equip and pickup heavy weapons\r\n> <C>15-25%</> of equipped weapons ammo restored on visible kill.\r\n> Leap maneuver: Launch in movement direction, can knockback, replaces dive while grounded\r\n<B>></> <C>25%</> <B>reduced defense and aux power regeneration</>\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> Can equip and pickup heavy weapons\r\n> <C>15-25%</> of equipped weapons ammo restored on visible kill.\r\n> Leap maneuver: Launch in movement direction, can knockback, replaces dive while grounded\r\n<B>></> <C>25%</> <B>reduced defense and aux power regeneration</>\r\n<B>></> <C>25</> <B>reduced defense</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_HeavWeap'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeavWeap.0"
         },
         "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
           "X": 0.0,
@@ -3248,7 +3390,7 @@
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator0",
         "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 50,
-        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator17",
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
             "Namespace": "",
@@ -3463,7 +3605,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator24",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 15,
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 10,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
@@ -3550,8 +3692,62 @@
           {
             "Namespace": "",
             "Key": "13B699CF429DF7AFA694F786AA34F8D2",
-            "SourceString": "> Creates toxic cloud on impact or airbone activation, spreading to nearby surfaces\r\n> <C>25</> chemical damage to enemies within <C>3 m</>\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration",
-            "LocalizedString": "> Creates toxic cloud on impact or airbone activation, spreading to nearby surfaces\r\n> <C>25</> chemical damage to enemies within <C>3 m</>\r\n> Cloud obscures vision, applies <C>4 s</> Snare and Corrode to enemies on contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration"
+            "SourceString": "> Creates tox cloud on impact or airbone activation, spreading to nearby surfaces\r\n> <C>25</> chemical damage to enemies within <C>3 m</>\r\n> Tox clouds obscure vision, apply <C>4 s</> Snare and Corrode to enemies and restart ally defense regeneration while in contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration",
+            "LocalizedString": "> Creates tox cloud on impact or airbone activation, spreading to nearby surfaces\r\n> <C>25</> chemical damage to enemies within <C>3 m</>\r\n> Tox clouds obscure vision, apply <C>4 s</> Snare and Corrode to enemies and restart ally defense regeneration while in contact\r\n> Ignites on contact with fire, dealing explosive and Burn damage to nearby targets\r\n> Maximum Efficiency: <C>100%</> increased duration"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Device'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Blindspot": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator42",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 20,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "8B98F5C34DE6E9571FDAEDB0C7C31CBF",
+            "SourceString": "> Obscures vision and detections, applies <C>4 s</> Desync to enemies while in contact\r\n> Immunity to all forms of detection while in contact\r\n> Maximum Efficiency: Applies Desync+\r\n<B>> Disables vision and muffles hearing while in contact</>\r\n<B>> Disables radar and detections while in contact</>",
+            "LocalizedString": "> Obscures vision and detections, applies <C>4 s</> Desync to enemies while in contact\r\n> Immunity to all forms of detection while in contact\r\n> Maximum Efficiency: Applies Desync+\r\n<B>> Disables vision and muffles hearing while in contact</>\r\n<B>> Disables radar and detections while in contact</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Device'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Device.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "ERU": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator3",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator0",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator43",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 45,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "7B562D684D5A01DEC730D2B8F1D306EC",
+            "SourceString": "> <C>50</> defense and max defense restored on activation, restarts defense regeneration\r\n> <C>2 s</> Burn and Corrode immunity on activation\r\n> Maximum Efficiency: Can gain up to <C>50</> defense buffer",
+            "LocalizedString": "> <C>50</> defense and max defense restored on activation, restarts defense regeneration\r\n> <C>2 s</> Burn and Corrode immunity on activation\r\n> Maximum Efficiency: Can gain up to <C>50</> defense buffer"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -3787,7 +3983,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator69",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 45,
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator23",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
@@ -4894,7 +5090,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator99",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 50,
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 45,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {
@@ -5137,7 +5333,7 @@
         "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
         "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator108",
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
-        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 45,
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 40,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
         "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
           {

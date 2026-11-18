@@ -3,8 +3,8 @@
     "name": "Acrobatics",
     "tooltip": [
       "> Additional aerial maneuver charge",
-      "> Somersault manuever: Aerial roll while jumping, falling or diving, requires aerial maneuver charge",
       "> Recover an aerial maneuver charge on starting a climb",
+      "> <C>100%</> reduced aerial maneuver aux power drain",
       "> <C>50%</> reduced fall damage",
       "> <C>15%</> increased jump and climb speed",
       "<B>></> <C>25</> <B>reduced defense</>"
@@ -24,7 +24,7 @@
       "> <C>50%</> increased aux power and aerial maneuver regeneration while active",
       "> <C>15%</> increased ground speed while active",
       "<B>> Detox cooldown on activation, increasing by</> <C>25%</> <B>of duration for each activation, up to</> <C>30 s</>",
-      "<B>></> <C>4 s</> <B>Snare+</> <C>25</> <B>vital damage received on activation while detox on cooldown</>",
+      "<B>></> <C>4 s</> <B>Snare and</> <C>25</> <B>vital damage received on activation while detox on cooldown</>",
       "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>"
     ],
     "foundations": {
@@ -122,6 +122,7 @@
       "> <C>25%</> reduced loadout and movement speed penalties while on ground or climbing",
       "> <C>25-150%</> increased jump speed, charged by holding jump while sliding, rolling, climbing or crouched",
       "> <C>100%</> reduced fall damage when landing on feet, slide or roll maneuvers",
+      "> Boost kick can knockdown enemies",
       "<B>> Charging jump drains aux power</>",
       "<B>> Snared while Disabled</>",
       "<B>> Can be Disabled</>"
@@ -176,7 +177,7 @@
     ],
     "foundations": {
       "type": "body",
-      "tier": 20,
+      "tier": 15,
       "value": 1
     }
   },
@@ -233,10 +234,10 @@
   {
     "name": "Caustic",
     "tooltip": [
-      "> Backup weapons apply Corrode for <C>2 s</>",
-      "> <C>25%</> of vitals damage received reflected as chemical damage and <C>2 s</> Snare to enemies within <C>3 m</>",
-      "> <C>100%</> Corrode resistance",
-      "<B>></> <C>25%</> <B>reduced vitals restored from all sources</>",
+      "> Body impacts, melee and stealth weapons apply Corrode for <C>2 s</>",
+      "> <C>25%</> of vitals damage received reflected as chemical damage, applying <C>2 s</> Corrode and Snare to enemies within <C>3 m</>",
+      "> Corrode immunity",
+      "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources</>",
       "<B>></> <C>25%</> <B>increased Bleed damage received</>"
     ],
     "foundations": {
@@ -326,8 +327,8 @@
     ],
     "foundations": {
       "type": "body",
-      "tier": 15,
-      "value": 1
+      "tier": 5,
+      "value": 0
     }
   },
   {
@@ -343,7 +344,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "tier": 20,
+      "tier": 15,
       "value": 1
     }
   },
@@ -411,7 +412,7 @@
   {
     "name": "Dispersal",
     "tooltip": [
-      "> Launch <C>4</> Seekers on roll maneuvers if unobscured enemies within <C>30 m</>, <C>15 s</> cooldown",
+      "> Launch <C>4</> Seekers on roll maneuvers if targetable enemies within <C>25 m</>, <C>15 s</> cooldown",
       "> Seeker: Rolls toward and tracks targets, deals <C>20-15</> explosive damage within <C>2-4 m</> on reaching target",
       "<B>></> <C>25%</> <B>Increased device cooldowns</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
@@ -470,7 +471,7 @@
     "tooltip": [
       "> Enemies with defense below <C>50%</> are considered weakened",
       "> <C>100%</> defense bypass with melee damage to weakened enemies",
-      "> Unstoppable if unobscured weakened enemies within <C>15 m</>: Knockdown immunity while grounded, <C>100%</> reduced speed penalties",
+      "> Unstoppable if unobstructed, weakened enemies within <C>15 m</>: Knockdown immunity while grounded, <C>100%</> reduced speed penalties",
       "> <C>25%</> increased direct damage to knocked down enemies",
       "<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>",
       "<B>></> <C>25%</> <B>reduced effectiveness of damage reductions</>"
@@ -515,12 +516,13 @@
   {
     "name": "Hardcase",
     "tooltip": [
-      "> Deflects headshots while active, reducing damage by <C>50%</>, hard target",
-      "> Immunity to Tether and Neuro-Link devices while active",
-      "<B>> Can no longer ADS while active</>",
-      "<B>> Can no longer use Neuro-Link devices while active</>",
-      "<B>> Destroyed on receiving</> <C>150</> <B>damage</>",
-      "<B>></> <C>0.25 m/s</> <B>reduced ground speed and movement speed cap while active</>"
+      "> Deflects headshots, reducing damage by <C>50%</>, hard target",
+      "> Tether, Desync and Neuro-Link device immunity",
+      "> Decapitation and Core syphon immunity",
+      "<B>> Staggered for </><C>0.25-0.5 s</> <B>on receiving headshot damage</>",
+      "<B>> Can no longer ADS</>",
+      "<B>> Can no longer use Neuro-Link devices</>",
+      "<B>></> <C>0.5 m/s</> <B>reduced movement speed cap</>"
     ],
     "foundations": {
       "type": "body",
@@ -532,10 +534,11 @@
     "name": "Hardened",
     "tooltip": [
       "> Activates on receiving vitals damage to body, deactivates and restores max vitals after <C>2 s</> from last vitals damage taken to body, <C>10 s</> cooldown",
-      "> <C>25-75%</> reduced direct vitals damage to body received, scaling with reduced max vitals from <C>0-75%</> while active",
+      "> <C>25-50%</> reduced direct vitals damage to body received and knockback, scaling with reduced max vitals from <C>0-50%</> while active",
+      "> Bleed immunity while active",
       "<B>></> <C>100%</> <B>of vitals damage to body received reduces max vitals while active</>",
       "<B>> Can no longer restore max vitals while active</>",
-      "<B>></> <C>0-50%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling with reduced max vitals from</> <C>0-75%</> <B>while active</>",
+      "<B>></> <C>0-25%</> <B>reduced ground speed, dexterity and aux power regeneration, scaling with reduced max vitals from</> <C>0-50%</> <B>while active</>",
       "<B>></> <C>100%</> <B>increased Burn damage received</>"
     ],
     "foundations": {
@@ -574,19 +577,16 @@
     }
   },
   {
-    "name": "Heavy Weapons",
+    "name": "Hornets Nest",
     "tooltip": [
-      "> Can equip and pickup heavy weapons",
-      "> Strafe maneuver: Run with increased speed in movement direction for <C>1 s</> with no weapon handling speed penalty, can knockback, replaces dive while heavy weapon equipped",
-      "> Disarm immunity while heavy weapon equipped",
-      "<B>> Unable to dive or prone while heavy weapon equipped</>",
-      "<B>> Heavy weapons can only be fired while aiming, are dropped on knockdown and unequipped on rolling maneuvers</>",
-      "<B>></> <C>50%</> <B>increased aux power drain from all sources while not grounded</>",
-      "<B>></> <C>1 m/s</> <B>reduced movement speed cap while heavy weapon equipped</>"
+      "> Launch a Hornet on roll maneuvers, while melee or stealth weapon equipped, to all targetable enemies within <C>25 m</>, <C>5 s</> cooldown",
+      "> Hornet: Tracks targets, deals <C>25</> damage and <C>2 s</> Snare, <C>50%</> defense bypass",
+      "<B>></> <C>25%</> <B>increased device cooldowns</>",
+      "<B>></> <C>25</> <B>reduced defense</>"
     ],
     "foundations": {
-      "type": "hardware",
-      "tier": 40,
+      "type": "body",
+      "tier": 35,
       "value": 2
     }
   },
@@ -684,11 +684,43 @@
     "name": "Maximum Efficiency",
     "tooltip": [
       "> Improves standard and enhancement devices",
-      "<B>></> <C>50%</> <B>Increased device cooldowns</>"
+      "> Reload <C>15%</> of equipped weapons capacity on roll maneuvers",
+      "<B>></> <C>50%</> <B>Increased device cooldowns</>",
+      "<B>></> <C>25%</> <B>reduced ammo regeneration</>"
     ],
     "foundations": {
       "type": "hardware",
       "tier": 30,
+      "value": 2
+    }
+  },
+  {
+    "name": "Meditation",
+    "tooltip": [
+      "> Active if not received damage for <C>5 s</>",
+      "> Gain <C>1</> backup weapon combo point every <C>5 s</> while active",
+      "> <C>10%</> reduced firearm spread, spread gain and recoil every <C>5 s</>, up to <C>50%</> while active",
+      "> <C>10%</> reduced aux power drain every <C>5 s</>, up to <C>50%</> while active",
+      "<B>></> <C>50%</> <B>increased aux power drain while inactive</>",
+      "<B>> Can no longer gain backup weapon combo points from attacks</>"
+    ],
+    "foundations": {
+      "type": "body",
+      "tier": 20,
+      "value": 1
+    }
+  },
+  {
+    "name": "Nanobolic Coating",
+    "tooltip": [
+      "> Tox clouds apply <G>Bolster</> to allies on contact, continues for <C>5 s</> on leaving cloud",
+      "> <C>15%</> defense regeneration restored to max defense",
+      "<B>></> <C>50%</> <B>increased Corrode damage and duration received</>",
+      "<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration. <C>50%</> <B>reduced speed, aux power regeneration and vitals restored from all sources</>"
+    ],
+    "foundations": {
+      "type": "body",
+      "tier": 35,
       "value": 2
     }
   },
@@ -763,10 +795,9 @@
       "> <C>25%</> increased target painting detection zone",
       "> <C>35%</> reduced hipfire spread and spread gain on painted targets",
       "> <C>25%</> reduced alternate aim spread and spread gain on painted targets",
-      "<B>> Disrupts vision if drone takes damage while active</>",
-      "<B>> Can no longer ADS</>",
+      "<B>> Staggered for </><C>0.25-0.5 s</> <B>on drone receiving damage while active</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>",
-      "<B>> Can be destroyed</>",
+      "<B>> Can no longer ADS</>",
       "<B>> Can be Disabled</>"
     ],
     "foundations": {
@@ -829,7 +860,8 @@
       "> <C>25%</> defense bypass with backup weapons and body impact damage",
       "> <C>50%</> increased body impact damage",
       "> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, scaling with impact speed from <C>4-12 m/s</>",
-      "<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>"
+      "<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>",
+      "<B>></> <C>25%</> <B>reduced hard target damage </>"
     ],
     "foundations": {
       "type": "body",
@@ -965,6 +997,20 @@
     ],
     "foundations": {
       "type": "tech",
+      "tier": 20,
+      "value": 1
+    }
+  },
+  {
+    "name": "Serrated",
+    "tooltip": [
+      "> Melee and stealth weapons apply Bleed+ on dealing damage to vitals",
+      "> <C>50%</> increased bleed damage with melee and stealth weapons",
+      "<B>></> <C>100%</> <B>increased aux power drain from melee and stealth weapon attacks</>",
+      "<B>></> <C>50%</> <B>reduced hard target damage </>"
+    ],
+    "foundations": {
+      "type": "body",
       "tier": 25,
       "value": 2
     }
@@ -972,9 +1018,10 @@
   {
     "name": "Shell Shock",
     "tooltip": [
-      "> Explosive damage applies Disable for <C>2 s</>",
+      "> Explosive and body impact damage applies Disable for <C>2 s</>",
       "> All sources of Disable deal <C>5</> shock damage every <C>0.5</> for duration",
       "<B>></> <C>25%</> <B>reduced explosive range</>",
+      "<B>></> <C>25%</> <B>increased shock damage received</>",
       "<B>></> <C>25%</> <B>reduced defense restored from all sources</>"
     ],
     "foundations": {
@@ -1055,11 +1102,10 @@
     "name": "Subversion Neuro-Mesh",
     "tooltip": [
       "> AOE neural disruption, <C>15 m</> range, replaces scan",
-      "> Deal <C>2 /s</> vital damage, per enemy, to unobstructed enemies in range while active",
-      "> Applies Desync+ to unobstructed enemies in range for longer than <C>2 s</>",
-      "> Immunity to Desync and Neuro-Link devices",
-      "<B>></> <C>2 /s</> <B>vital damage received while active, reduced to</> <C>1 /s</> <B>with unobstructed enemies in range</>",
-      "<B>></> <C>100%</> <B>reduced vitals restored from all sources while active</>",
+      "> Deal <C>3 /s</> vital damage, per enemy, to unobstructed enemies in range while active, up to <C>15 /s</>",
+      "> Applies Desync+ to unobstructed enemies in range",
+      "> Desync and Neuro-Link device immunity to unobstructed allies in range",
+      "<B>></> <C>100%</> <B>reduced Core generation and defense restored from all sources while active</>",
       "<B>> Disables detections and radar while active</>",
       "<B>> Can be Disabled</>"
     ],
@@ -1067,6 +1113,21 @@
       "type": "tech",
       "tier": 50,
       "value": 3
+    }
+  },
+  {
+    "name": "Super-Spreader ",
+    "tooltip": [
+      "> Applies <C>4 s</> Corrode to all unobstructed enemies within <C>25 m</> of an enemy killed with Corrode active",
+      "> Create a trail of Tox clouds while Corroding",
+      "> Snare immunity while Corroding",
+      "<B>></> <C>50%</> <B>increased Corrode duration received</>",
+      "<B>> All sources of Corrode received apply Corrode+</>"
+    ],
+    "foundations": {
+      "type": "body",
+      "tier": 40,
+      "value": 2
     }
   },
   {
@@ -1102,7 +1163,7 @@
   {
     "name": "Temporal Suspension",
     "tooltip": [
-      "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>5 s</>, momentum restored when aim released, <C>2.5-5 s</> cooldown, scaling with duration from <C>0-5 s</>",
+      "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>3 s</>, momentum restored when aim released, <C>5 s</> cooldown",
       "> Unaffected by Core slowing effects while active",
       "> <C>25-50%</> reduced direct defense damage received while active, scaling with activation speed from <C>5-10 m/s</>",
       "> Knockback immunity while active",
@@ -1128,7 +1189,7 @@
     ],
     "foundations": {
       "type": "tech",
-      "tier": 40,
+      "tier": 35,
       "value": 2
     }
   },
@@ -1177,6 +1238,21 @@
     ],
     "foundations": {
       "type": "tech",
+      "tier": 40,
+      "value": 2
+    }
+  },
+  {
+    "name": "Vanguard",
+    "tooltip": [
+      "> Can equip and pickup heavy weapons",
+      "> <C>15-25%</> of equipped weapons ammo restored on visible kill.",
+      "> Leap maneuver: Launch in movement direction, can knockback, replaces dive while grounded",
+      "<B>></> <C>25%</> <B>reduced defense and aux power regeneration</>",
+      "<B>></> <C>25</> <B>reduced defense</>"
+    ],
+    "foundations": {
+      "type": "hardware",
       "tier": 40,
       "value": 2
     }

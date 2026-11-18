@@ -181,8 +181,8 @@
           "Value": {
             "Namespace": "",
             "Key": "1DC817D54E36E020B47C0EB4BD075A00",
-            "SourceString": "Heavy Weapons",
-            "LocalizedString": "Heavy Weapons"
+            "SourceString": "Vanguard",
+            "LocalizedString": "Vanguard"
           }
         },
         {
@@ -733,6 +733,105 @@
             "SourceString": "Ballistic Reflex",
             "LocalizedString": "Ballistic Reflex"
           }
+        },
+        {
+          "Key": "NewEnumerator81",
+          "Value": {
+            "Namespace": "",
+            "Key": "30103B654628E6A0F82B19A153490594",
+            "SourceString": "Serrated",
+            "LocalizedString": "Serrated"
+          }
+        },
+        {
+          "Key": "NewEnumerator82",
+          "Value": {
+            "Namespace": "",
+            "Key": "D739D88545860750F6A6DDB6463E65DE",
+            "SourceString": "Boost Plating",
+            "LocalizedString": "Boost Plating"
+          }
+        },
+        {
+          "Key": "NewEnumerator83",
+          "Value": {
+            "Namespace": "",
+            "Key": "7F159678411B6FA2A3C426A9FFFB0AC1",
+            "SourceString": "Meditation",
+            "LocalizedString": "Meditation"
+          }
+        },
+        {
+          "Key": "NewEnumerator84",
+          "Value": {
+            "Namespace": "",
+            "Key": "4A66E16646DB566F7CD456972DBECC72",
+            "SourceString": "Nanobolic Coating",
+            "LocalizedString": "Nanobolic Coating"
+          }
+        },
+        {
+          "Key": "NewEnumerator85",
+          "Value": {
+            "Namespace": "",
+            "Key": "75325ABE4889AFE8E25FA7B02134CD8D",
+            "SourceString": "Hornets Nest",
+            "LocalizedString": "Hornets Nest"
+          }
+        },
+        {
+          "Key": "NewEnumerator86",
+          "Value": {
+            "Namespace": "",
+            "Key": "8C1F350148C2EC99B6C39F81644809C9",
+            "SourceString": "Overpressure",
+            "LocalizedString": "Overpressure"
+          }
+        },
+        {
+          "Key": "NewEnumerator87",
+          "Value": {
+            "Namespace": "",
+            "Key": "32AE477D4FC9B58E91BCF1B4EECFE0CD",
+            "SourceString": "Catalyst",
+            "LocalizedString": "Catalyst"
+          }
+        },
+        {
+          "Key": "NewEnumerator88",
+          "Value": {
+            "Namespace": "",
+            "Key": "5A40AD5744AC8803C0285EBC1069A400",
+            "SourceString": "Enforcer",
+            "LocalizedString": "Enforcer"
+          }
+        },
+        {
+          "Key": "NewEnumerator89",
+          "Value": {
+            "Namespace": "",
+            "Key": "CC42D4EE452F583E688AA99F16A4E757",
+            "SourceString": "System Purge",
+            "LocalizedString": "System Purge"
+          }
+        },
+        {
+          "Key": "NewEnumerator90",
+          "Value": {
+            "Namespace": "",
+            "Key": "D18B8F5449B9ABC06DC54DA64F7F57A2",
+            "SourceString": "Super-Spreader ",
+            "LocalizedString": "Super-Spreader "
+          }
+        },
+        {
+          "Key": "NewEnumerator91",
+          "Value": {
+            "Namespace": "",
+            "Key": "9F93A4AC4C4FC5D5936A68BF71B96F0E",
+            "SourceString": "Gun Fu",
+            "LocalizedString": "Gun Fu"
+          }
         }
       ]
     },
@@ -818,7 +917,18 @@
       "ENUM_PerkID::NewEnumerator78": 78,
       "ENUM_PerkID::NewEnumerator79": 79,
       "ENUM_PerkID::NewEnumerator80": 80,
-      "ENUM_PerkID::ENUM_MAX": 81
+      "ENUM_PerkID::NewEnumerator81": 81,
+      "ENUM_PerkID::NewEnumerator82": 82,
+      "ENUM_PerkID::NewEnumerator83": 83,
+      "ENUM_PerkID::NewEnumerator84": 84,
+      "ENUM_PerkID::NewEnumerator85": 85,
+      "ENUM_PerkID::NewEnumerator86": 86,
+      "ENUM_PerkID::NewEnumerator87": 87,
+      "ENUM_PerkID::NewEnumerator88": 88,
+      "ENUM_PerkID::NewEnumerator89": 89,
+      "ENUM_PerkID::NewEnumerator90": 90,
+      "ENUM_PerkID::NewEnumerator91": 91,
+      "ENUM_PerkID::ENUM_MAX": 92
     },
     "CppForm": "Namespaced"
   }

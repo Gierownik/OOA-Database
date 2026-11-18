@@ -283,6 +283,33 @@
             "SourceString": "Trip Mine",
             "LocalizedString": "Trip Mine"
           }
+        },
+        {
+          "Key": "NewEnumerator42",
+          "Value": {
+            "Namespace": "",
+            "Key": "93BB5D1B424C8C3B0A62658FD4EF1A96",
+            "SourceString": "Blindspot",
+            "LocalizedString": "Blindspot"
+          }
+        },
+        {
+          "Key": "NewEnumerator43",
+          "Value": {
+            "Namespace": "",
+            "Key": "C402568E48DA080D847C13A32EA99B3E",
+            "SourceString": "ERU",
+            "LocalizedString": "ERU"
+          }
+        },
+        {
+          "Key": "NewEnumerator44",
+          "Value": {
+            "Namespace": "",
+            "Key": "440448B54009F391AFF6EC8FBB442A0F",
+            "SourceString": "Syphon",
+            "LocalizedString": "Syphon"
+          }
         }
       ]
     },
@@ -318,7 +345,10 @@
       "ENUM_DeviceID::NewEnumerator39": 28,
       "ENUM_DeviceID::NewEnumerator40": 29,
       "ENUM_DeviceID::NewEnumerator41": 30,
-      "ENUM_DeviceID::ENUM_MAX": 31
+      "ENUM_DeviceID::NewEnumerator42": 31,
+      "ENUM_DeviceID::NewEnumerator43": 32,
+      "ENUM_DeviceID::NewEnumerator44": 33,
+      "ENUM_DeviceID::ENUM_MAX": 34
     },
     "CppForm": "Namespaced"
   }
