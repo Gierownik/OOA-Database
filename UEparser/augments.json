@@ -977,7 +977,7 @@
     "tooltip": [
       "> Deconstruct weapons if Nano-wire held while picking up, weapon is destroyed",
       "> Deconstruct heads if Nano-wire held while picking up, head is destroyed",
-      "> <C>50%</> of equipped weapons ammo restored on deconstruct",
+      "> <C>50%</> of equipped sidearm or primary weapon ammo restored on deconstruct",
       "> <C>100%</> reduced active primary stim cooldown on deconstruct",
       "> <C>25%</> reduced active standard device cooldowns on deconstruct",
       "<B>></> <C>25%</> <B>reduced reserve ammo</>"

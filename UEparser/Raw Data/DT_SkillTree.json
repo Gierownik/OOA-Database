@@ -557,7 +557,14 @@
         "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator2",
         "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 30,
         "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
-        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [],
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "E5DBB62C44294C7BF95DB989CD66F246",
+            "SourceString": "> <C>50%</> reduced pellet spread while ADS",
+            "LocalizedString": "> <C>50%</> reduced pellet spread while ADS"
+          }
+        ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_Gun2'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Gun2.0"
@@ -2423,8 +2430,8 @@
           {
             "Namespace": "",
             "Key": "31B5CDCC403F40C1D94269B41ADFCFFE",
-            "SourceString": "> Deconstruct weapons if Nano-wire held while picking up, weapon is destroyed\r\n> Deconstruct heads if Nano-wire held while picking up, head is destroyed\r\n> <C>50%</> of equipped weapons ammo restored on deconstruct\r\n> <C>100%</> reduced active primary stim cooldown on deconstruct\r\n> <C>25%</> reduced active standard device cooldowns on deconstruct\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>",
-            "LocalizedString": "> Deconstruct weapons if Nano-wire held while picking up, weapon is destroyed\r\n> Deconstruct heads if Nano-wire held while picking up, head is destroyed\r\n> <C>50%</> of equipped weapons ammo restored on deconstruct\r\n> <C>100%</> reduced active primary stim cooldown on deconstruct\r\n> <C>25%</> reduced active standard device cooldowns on deconstruct\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>"
+            "SourceString": "> Deconstruct weapons if Nano-wire held while picking up, weapon is destroyed\r\n> Deconstruct heads if Nano-wire held while picking up, head is destroyed\r\n> <C>50%</> of equipped sidearm or primary weapon ammo restored on deconstruct\r\n> <C>100%</> reduced active primary stim cooldown on deconstruct\r\n> <C>25%</> reduced active standard device cooldowns on deconstruct\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>",
+            "LocalizedString": "> Deconstruct weapons if Nano-wire held while picking up, weapon is destroyed\r\n> Deconstruct heads if Nano-wire held while picking up, head is destroyed\r\n> <C>50%</> of equipped sidearm or primary weapon ammo restored on deconstruct\r\n> <C>100%</> reduced active primary stim cooldown on deconstruct\r\n> <C>25%</> reduced active standard device cooldowns on deconstruct\r\n<B>></> <C>25%</> <B>reduced reserve ammo</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
