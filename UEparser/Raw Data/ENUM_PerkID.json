@@ -832,6 +832,15 @@
             "SourceString": "Gun Fu",
             "LocalizedString": "Gun Fu"
           }
+        },
+        {
+          "Key": "NewEnumerator92",
+          "Value": {
+            "Namespace": "",
+            "Key": "225D1F4E4BE1FCEB453DEA968E0CFC41",
+            "SourceString": "Head Master",
+            "LocalizedString": "Head Master"
+          }
         }
       ]
     },
@@ -928,7 +937,8 @@
       "ENUM_PerkID::NewEnumerator89": 89,
       "ENUM_PerkID::NewEnumerator90": 90,
       "ENUM_PerkID::NewEnumerator91": 91,
-      "ENUM_PerkID::ENUM_MAX": 92
+      "ENUM_PerkID::NewEnumerator92": 92,
+      "ENUM_PerkID::ENUM_MAX": 93
     },
     "CppForm": "Namespaced"
   }

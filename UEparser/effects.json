@@ -175,12 +175,12 @@
     "name": "Snare",
     "tooltip": [
       "<B>> <C>50%</> reduced ground speed</>",
-      "<B>> <C>40/s</> AUX drain</>"
+      "<B>> <C>40/s</> AUX drain</>",
+      "<B>> High speed enviroment impacts deal damage</>"
     ],
     "enhancement": "",
     "enh_tooltip": [
-      "<B>> Removes all aerial charges, maneuvers and the ability to climb</>",
-      "<B>> Enviroment impacts deal damage</>"
+      "<B>> Removes all aerial charges, maneuvers and the ability to climb</>"
     ]
   },
     {

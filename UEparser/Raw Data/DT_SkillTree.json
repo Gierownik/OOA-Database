@@ -1242,8 +1242,8 @@
           {
             "Namespace": "",
             "Key": "438742C54A4D6773183A53BBA8EB0B37",
-            "SourceString": "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown\r\n> Deals <C>25</> vital damage, <C>4 s</> Disable+ and knockback to enemies within <C>5 m</>, Snare+ if within <C>2.5 m</>\r\n> Deflects unattached devices and projectiles within <C>5 m</>\r\n<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>\r\n<B>></> <C>25%</> <B>reduced Core duration</>",
-            "LocalizedString": "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown\r\n> Deals <C>25</> vital damage, <C>4 s</> Disable+ and knockback to enemies within <C>5 m</>, Snare+ if within <C>2.5 m</>\r\n> Deflects unattached devices and projectiles within <C>5 m</>\r\n<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>\r\n<B>></> <C>25%</> <B>reduced Core duration</>"
+            "SourceString": "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown\r\n> Deals <C>25</> vital damage, <C>4 s</> Disable+ and knockback to enemies within <C>5 m</>, Snare+ if within <C>2.5 m</>\r\n> Deflects unattached devices and projectiles within <C>5 m</>\r\n<B>></> <C>25</> <B>Core charge drained on activation from fatal melee or body impact damage</>\r\n<B>></> <C>25%</> <B>reduced Core duration</>",
+            "LocalizedString": "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown\r\n> Deals <C>25</> vital damage, <C>4 s</> Disable+ and knockback to enemies within <C>5 m</>, Snare+ if within <C>2.5 m</>\r\n> Deflects unattached devices and projectiles within <C>5 m</>\r\n<B>></> <C>25</> <B>Core charge drained on activation from fatal melee or body impact damage</>\r\n<B>></> <C>25%</> <B>reduced Core duration</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1404,8 +1404,8 @@
           {
             "Namespace": "",
             "Key": "FC56933E48A413BE2AEC11B5EDD898D8",
-            "SourceString": "> Can survive fatal damage. Relocate to a previous location if death prevented\r\n> <C>50%</> vitals and defense restored on activation\r\n> Removes tagged and clears debuffs on activation\r\n<B>></> <C>50%</> <B>reduced max vitals and defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can no longer restore max vitals and max defense on activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be Disabled</>",
-            "LocalizedString": "> Can survive fatal damage. Relocate to a previous location if death prevented\r\n> <C>50%</> vitals and defense restored on activation\r\n> Removes tagged and clears debuffs on activation\r\n<B>></> <C>50%</> <B>reduced max vitals and defense on activation</>\r\n<B>></> <C>50%</> <B>reduced Core charge on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can no longer restore max vitals and max defense on activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be Disabled</>"
+            "SourceString": "> Can survive fatal damage. Relocate to a previous location if death prevented\r\n> <C>50%</> vitals and defense restored on activation\r\n> Removes tagged and clears debuffs on activation\r\n<B>></> <C>50%</> <B>reduced max vitals and defense on activation</>\r\n<B>></> <C>50</> <B>Core charge drained on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can no longer restore max vitals and max defense on activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be Disabled</>",
+            "LocalizedString": "> Can survive fatal damage. Relocate to a previous location if death prevented\r\n> <C>50%</> vitals and defense restored on activation\r\n> Removes tagged and clears debuffs on activation\r\n<B>></> <C>50%</> <B>reduced max vitals and defense on activation</>\r\n<B>></> <C>50</> <B>Core charge drained on activation</>\r\n<B>> Fatal explosive or telefrag damage prevents activation</>\r\n<B>> Can no longer restore max vitals and max defense on activation</>\r\n<B>> Can only activate once</>\r\n<B>> Can be Disabled</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1681,6 +1681,33 @@
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
           "ObjectName": "Texture2D'UI_M_HeadHunt'",
           "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_HeadHunt.0"
+        },
+        "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "HeadMaster": {
+        "Type_5_4C8CB5D9479537F68D8B4894590CF639": "ENUM_SkillType::NewEnumerator1",
+        "ShellID_20_E0F2764D41C112BEE1BFEA864FA45992": "ENUM_ShellID::NewEnumerator7",
+        "PerkID_25_4BC92A00469A851AA5FE2792BE9F96C4": "ENUM_PerkID::NewEnumerator92",
+        "WeaponID_22_BB8DC4A4405B740F189E2AAEF93AA65E": "ENUM_WeaponID::NewEnumerator15",
+        "DeviceID_28_1CA191F04AB07E6156C5D1B6A59A1F9B": "ENUM_DeviceID::NewEnumerator10",
+        "AttachmentID_37_E6AEC497440716B81674448A0826E94C": "ENUM_AttachmentID::NewEnumerator5",
+        "Foundation_56_A4C8470C4FCFFF82BFB0F097CA1EC92B": "ENUM_Foundation::NewEnumerator1",
+        "Tier_66_D88055FA43F71EEE4E6C4A8D07FC1C9D": 25,
+        "Prerequisite_46_1618947F4F88562C70609FAE0671C5E9": "ENUM_PerkID::NewEnumerator0",
+        "Tooltip_54_1E2214584583FA289C1781AA8CE4153E": [
+          {
+            "Namespace": "",
+            "Key": "CC48C5C94FB486527933CB81AE65FFA8",
+            "SourceString": "> Can field deploy at decapitated head location without ally connection\r\n> <C>50%</> increased Core gained from head harvesting\r\n> <C>100%</> reduced movement speed penalties while head attached to Nano-wire\r\n> <C>50%</> reduced spread, spread gain and recoil while head attached to Nano-wire\r\n<B>></> <C>50</> <B>Core charge drained on field deploy</>",
+            "LocalizedString": "> Can field deploy at decapitated head location without ally connection\r\n> <C>50%</> increased Core gained from head harvesting\r\n> <C>100%</> reduced movement speed penalties while head attached to Nano-wire\r\n> <C>50%</> reduced spread, spread gain and recoil while head attached to Nano-wire\r\n<B>></> <C>50</> <B>Core charge drained on field deploy</>"
+          }
+        ],
+        "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
+          "ObjectName": "Texture2D'UI_M_Placeholder'",
+          "ObjectPath": "OutOfAction/Content/OutOfAction/UI/Textures/Matrix/UI_M_Placeholder.0"
         },
         "coords_65_908FEC1143831CC22A5ED9A297D0B67A": {
           "X": 0.0,

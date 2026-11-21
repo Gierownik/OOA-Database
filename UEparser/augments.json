@@ -309,7 +309,7 @@
       "> AOE impulse on Core activation or receiving fatal melee or body impact damage, can survive fatal damage, <C>30 s</> cooldown",
       "> Deals <C>25</> vital damage, <C>4 s</> Disable+ and knockback to enemies within <C>5 m</>, Snare+ if within <C>2.5 m</>",
       "> Deflects unattached devices and projectiles within <C>5 m</>",
-      "<B>></> <C>25</> <B>reduced Core charge on activation from fatal melee or body impact damage</>",
+      "<B>></> <C>25</> <B>Core charge drained on activation from fatal melee or body impact damage</>",
       "<B>></> <C>25%</> <B>reduced Core duration</>"
     ],
     "foundations": {
@@ -397,7 +397,7 @@
       "> <C>50%</> vitals and defense restored on activation",
       "> Removes tagged and clears debuffs on activation",
       "<B>></> <C>50%</> <B>reduced max vitals and defense on activation</>",
-      "<B>></> <C>50%</> <B>reduced Core charge on activation</>",
+      "<B>></> <C>50</> <B>Core charge drained on activation</>",
       "<B>> Fatal explosive or telefrag damage prevents activation</>",
       "<B>> Can no longer restore max vitals and max defense on activation</>",
       "<B>> Can only activate once</>",
@@ -558,6 +558,21 @@
     ],
     "foundations": {
       "type": "body",
+      "tier": 25,
+      "value": 2
+    }
+  },
+  {
+    "name": "Head Master",
+    "tooltip": [
+      "> Can field deploy at decapitated head location without ally connection",
+      "> <C>50%</> increased Core gained from head harvesting",
+      "> <C>100%</> reduced movement speed penalties while head attached to Nano-wire",
+      "> <C>50%</> reduced spread, spread gain and recoil while head attached to Nano-wire",
+      "<B>></> <C>50</> <B>Core charge drained on field deploy</>"
+    ],
+    "foundations": {
+      "type": "tech",
       "tier": 25,
       "value": 2
     }
