@@ -1174,7 +1174,7 @@
     "tooltip": [
       "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration",
       "> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration",
-      "> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>",
+      "> Deal <C>10</> shock damage to enemies on applied Disable end or removal",
       "<B>></> <C>25%</> <B>increased direct damage received while Disabled or Overcharged</>"
     ],
     "prerequisite": null,
@@ -1740,11 +1740,10 @@
     "type": "perk",
     "id": 37,
     "tooltip": [
-      "> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost",
-      "> <C>10-20%</> increased headshot damage, scaling with headshot damage multiplier from <C>1.75-1.25x</>",
+      "> Headshot kills activate or prolong active Core by up to <C>2 s</> with no charge cost",
+      "> <C>100%</> direct damage reduction bypass on headshots",
       "> <C>200%</> increased head harvesting speed, <C>50</> vitals and defense restored on harvest",
-      "<B>></> <C>15%</> <B>reduced direct torso damage dealt</>",
-      "<B>></> <C>25%</> <B>reduced direct limb damage dealt</>"
+      "<B>></> <C>15%</> <B>reduced direct body damage dealt</>"
     ],
     "prerequisite": null,
     "foundations": {
@@ -3057,8 +3056,8 @@
     "tooltip": [
       "> Can equip sidearm, backup, heavy and primary weapons in both sidearm and primary slots",
       "> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped",
-      "> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped",
-      "> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped",
+      "> <C>15%</> increased ammo regeneration and Core generation with primary weapons while multiple equipped",
+      "> <C>15%</> increased dexterity and ground speed with backup weapons while multiple equipped",
       "> Can equip <C>2</> of the same device",
       "<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>",
       "<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>",

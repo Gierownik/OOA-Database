@@ -1107,8 +1107,8 @@
           {
             "Namespace": "",
             "Key": "2F130C9449AF696DAAE800ABE505BE34",
-            "SourceString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>25%</> <B>increased direct damage received while Disabled or Overcharged</>",
-            "LocalizedString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> <C>5%</> increased direct damage dealt per visible Disabled enemy within <C>50 m</>, stacking up to <C>25%</>\r\n<B>></> <C>25%</> <B>increased direct damage received while Disabled or Overcharged</>"
+            "SourceString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> Deal <C>10</> shock damage to enemies on applied Disable end or removal\r\n<B>></> <C>25%</> <B>increased direct damage received while Disabled or Overcharged</>",
+            "LocalizedString": "> Disable all visible enemies within <C>25 m</> on receiving Disable for <C>50%</> of the duration\r\n> Disable all visible enemies within <C>25 m</> of enemy on applying Disable for <C>50%</> of the duration\r\n> Deal <C>10</> shock damage to enemies on applied Disable end or removal\r\n<B>></> <C>25%</> <B>increased direct damage received while Disabled or Overcharged</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -1674,8 +1674,8 @@
           {
             "Namespace": "",
             "Key": "8426F2EC42DD0C04D63D65AD7EAC08FF",
-            "SourceString": "> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost\r\n> <C>10-20%</> increased headshot damage, scaling with headshot damage multiplier from <C>1.75-1.25x</>\r\n> <C>200%</> increased head harvesting speed, <C>50</> vitals and defense restored on harvest\r\n<B>></> <C>15%</> <B>reduced direct torso damage dealt</>\r\n<B>></> <C>25%</> <B>reduced direct limb damage dealt</>",
-            "LocalizedString": "> Headshot kills activate or prolong active Core by up to <C>2.5 s</> with no charge cost\r\n> <C>10-20%</> increased headshot damage, scaling with headshot damage multiplier from <C>1.75-1.25x</>\r\n> <C>200%</> increased head harvesting speed, <C>50</> vitals and defense restored on harvest\r\n<B>></> <C>15%</> <B>reduced direct torso damage dealt</>\r\n<B>></> <C>25%</> <B>reduced direct limb damage dealt</>"
+            "SourceString": "> Headshot kills activate or prolong active Core by up to <C>2 s</> with no charge cost\r\n> <C>100%</> direct damage reduction bypass on headshots\r\n> <C>200%</> increased head harvesting speed, <C>50</> vitals and defense restored on harvest\r\n<B>></> <C>15%</> <B>reduced direct body damage dealt</>",
+            "LocalizedString": "> Headshot kills activate or prolong active Core by up to <C>2 s</> with no charge cost\r\n> <C>100%</> direct damage reduction bypass on headshots\r\n> <C>200%</> increased head harvesting speed, <C>50</> vitals and defense restored on harvest\r\n<B>></> <C>15%</> <B>reduced direct body damage dealt</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
@@ -2970,8 +2970,8 @@
           {
             "Namespace": "",
             "Key": "C096261F4EDA287B25B186852E6F7A65",
-            "SourceString": "> Can equip sidearm, backup, heavy and primary weapons in both sidearm and primary slots\r\n> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>",
-            "LocalizedString": "> Can equip sidearm, backup, heavy and primary weapons in both sidearm and primary slots\r\n> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased dexterity and Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased melee damage and ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>"
+            "SourceString": "> Can equip sidearm, backup, heavy and primary weapons in both sidearm and primary slots\r\n> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased ammo regeneration and Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased dexterity and ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>",
+            "LocalizedString": "> Can equip sidearm, backup, heavy and primary weapons in both sidearm and primary slots\r\n> <C>15%</> reduced spread and spread gain with sidearms while multiple equipped\r\n> <C>15%</> increased ammo regeneration and Core generation with primary weapons while multiple equipped\r\n> <C>15%</> increased dexterity and ground speed with backup weapons while multiple equipped\r\n> Can equip <C>2</> of the same device\r\n<B>></> <C>25%</> <B>increased device cooldowns while both of same type</>\r\n<B>></> <C>50%</> <B>reduced reserve ammo with multiple of same weapon type</>\r\n<B>></> <C>25</> <B>reduced defense</>"
           }
         ],
         "Icon_62_E4BD900A429389A105BE2091DD2B42DF": {
