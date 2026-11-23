@@ -1431,7 +1431,7 @@
     "name": "Arc Salvo",
     "type": "Mod",
     "tooltip": [
-      "> <C>75</> shock damage and <C>4 s</> disable if full burst hits target while ADS",
+      "> <C>75</> shock damage and <C>4 s</> disable if full burst hits target",
       "<B>> Disables consecutive hit damage multiplier</>",
       "<B>></> <C>20</> <B>reduced ammo capacity</>"
     ],
