@@ -337,7 +337,7 @@
       "> Enemies detecting you within <C>30 m</> are detected",
       "> Enemies interacting with objectives within <C>30 m</> are detected",
       "> Enemies that tag you are tagged",
-      "> Unobstructed enemies within <C>15 m</> of your decapitated head are detected to allies",
+      "> Unobstructed enemies within <C>25 m</> of your decapitated head are detected to allies",
       "> Visible disguised enemies within <C>15 m</> are revealed",
       "<B>> </><C>1</> <B> reduced Neuro-Link target limit</>",
       "<B>> Can be Disabled</>"
@@ -394,14 +394,15 @@
     "name": "Disengage",
     "tooltip": [
       "> Can survive fatal damage. Relocate to a previous location if death prevented",
-      "> <C>50%</> vitals and defense restored on activation",
+      "> <C>50%</> vitals and defense restored on activation, triggers <G>Stabilise</> cooldown",
       "> Removes tagged and clears debuffs on activation",
       "<B>></> <C>50%</> <B>reduced max vitals and defense on activation</>",
       "<B>></> <C>50</> <B>Core charge drained on activation</>",
       "<B>> Fatal explosive or telefrag damage prevents activation</>",
       "<B>> Can no longer restore max vitals and max defense on activation</>",
       "<B>> Can only activate once</>",
-      "<B>> Can be Disabled</>"
+      "<B>> Can be Disabled</>",
+      "<G>*Stabilise:</> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on relocation while on cooldown</>"
     ],
     "foundations": {
       "type": "tech",
@@ -567,7 +568,7 @@
       "> Can field deploy at decapitated head location without ally connection",
       "> <C>50%</> increased Core gained from head harvesting",
       "> <C>100%</> reduced movement speed penalties while head attached to Nano-wire",
-      "> <C>50%</> reduced spread, spread gain and recoil while head attached to Nano-wire",
+      "> <C>65%</> reduced spread, spread gain and recoil while head attached to Nano-wire",
       "<B>></> <C>50</> <B>Core charge drained on field deploy</>"
     ],
     "foundations": {
@@ -581,7 +582,7 @@
     "tooltip": [
       "> <C>50%</> increased explosive Bleed damage",
       "> All equipped or picked up weapons gain the Contact Charge mod with no slot cost",
-      "> Heads thrown with Nano-wire detonate, dealing <C>75-25</> explosive damage",
+      "> Heads thrown with Nano-wire detonate, dealing <C>75-25</> explosive damage within <C>2-4 m</>",
       "<B>></> <C>0.5 m/s</> <B>reduced ground speed</>"
     ],
     "foundations": {
@@ -728,6 +729,7 @@
     "name": "Nanobolic Coating",
     "tooltip": [
       "> Tox clouds apply <G>Bolster</> to allies on contact, continues for <C>5 s</> on leaving cloud",
+      "> <C>2 s</> Bolster on received Corrode end or removal",
       "> <C>15%</> defense regeneration restored to max defense",
       "<B>></> <C>50%</> <B>increased Corrode damage and duration received</>",
       "<G>*Bolster:</> Bleed immunity, knockdown immunity while grounded, <C>200</> max defense, <C>0 s</> defense regen delay, <C>30 /s</> defense regeneration. <C>50%</> <B>reduced speed, aux power regeneration and vitals restored from all sources</>"
@@ -903,7 +905,7 @@
     "tooltip": [
       "> Gain <G>Overkill</> while Core active",
       "> <C>25%</> of damage received from enemies within the last <C>10 s</>, up to <C>50</>, restored to vitals and max vitals on Core activation",
-      "> <C>5%</> of damage received from enemies converted to Core charge",
+      "> <C>10%</> of damage received from enemies converted to Core charge",
       "<G>*Overkill:</> Melee attacks and body impacts bypass defense, <C>100%</> reduced speed penalties and aux drain from all sources, <C>50%</> increased dexterity, backup weapon windup speed and firearm accuracy. <C>100%</> <B>increased direct damage received while active</>"
     ],
     "foundations": {
@@ -960,8 +962,8 @@
       "> <C>50%</> increased ground speed, acceleration, aux power and aerial maneuver charge regeneration while active",
       "> <C>50%</> reduced speed penalties and ground deceleration while active",
       "> <C>1 m/s</> increased movement speed cap while active",
-      "<B>></> <C>50%</> <B>increased damage received while active</>",
-      "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources and effectiveness of damage reductions while active</>",
+      "<B>></> <C>35%</> <B>increased damage received while active</>",
+      "<B>></> <C>35%</> <B>reduced vitals and defense restored from all sources and effectiveness of damage reductions while active</>",
       "<B>></> <C>5 /s</> <B>Core charge drain while active, deactivates if Core charge depleted</>",
       "<B>> Can no longer manually activate Core</>",
       "<B>> Visible trails while active</>"
@@ -1047,13 +1049,13 @@
   {
     "name": "Shifter",
     "tooltip": [
-      "> Shift: Attempt to relocate horizontally up to <C>3 m</> in movement direction, can bypass obstructions, replaces quick melee",
+      "> Shift: Attempt to relocate horizontally up to <C>3 m</> in movement direction, can bypass obstructions, replaces quick melee, triggers <G>Stabilise</> cooldown",
       "> <C>50</> vital damage and knockback to enemies within <C>1 m</> of relocation",
       "> Removes tagged on relocation",
       "<B>> Requires aerial maneuver charge while in air</>",
-      "<B>></> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on activation while Restabilise on cooldown</>",
       "<B>></> <C>25%</> <B>reduced vitals and defense restored from all sources</>",
-      "<B>> Can be Disabled</>"
+      "<B>> Can be Disabled</>",
+      "<G>*Stabilise:</> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on relocation while on cooldown</>"
     ],
     "foundations": {
       "type": "tech",
@@ -1067,12 +1069,13 @@
       "> Climb speed ramps up to Shells max maneuver speed",
       "> Unaffected by all speed penalties while climbing",
       "> <C>40 /s</> aux power regeneration while climbing",
-      "> Surge: Activates on reaching <C>8 m/s</> while climbing, deactivates after <C>2 s</> if no longer climbing or below <C>8 m/s</>",
-      "> Gain <G>Overcharge</> and knockdown enemies while Surge active, can telefrag on activation or detaching from climb",
+      "> Surge: Activates on reaching <C>8 m/s</> while climbing, deactivates after <C>1 s</> if no longer climbing or below <C>8 m/s</>",
+      "> Gain <G>Overcharge</> and knockdown enemies while Surge active, can telefrag on activation or detaching from climb, relocation, triggers <G>Stabilise</> cooldown",
       "<B>></> <C>100%</> <B>reduced vitals and defense restored from all sources while Surge active</>",
       "<B>></> <C>100%</> <B>reduced effectiveness of damage reductions while Surge active</>",
       "<B>></> <C>10 /s</> <B>defense damage while Surge active</>",
-      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>"
+      "<G>*Overcharge:</> Disable immunity, <C>15%</> increased ground, climb speed and dexterity, Disable enemies and enemy devices within <C>3 m</>",
+      "<G>*Stabilise:</> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on relocation while on cooldown</>"
     ],
     "foundations": {
       "type": "tech",
@@ -1177,13 +1180,14 @@
   {
     "name": "Temporal Suspension",
     "tooltip": [
-      "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>3 s</>, momentum restored when aim released, <C>5 s</> cooldown",
+      "> Gain aerial suspension while aiming during an aerial maneuver, for up to <C>5 s</>, momentum restored in held direction when aim release, relocation, triggers <G>Stabilise</> cooldown",
       "> Unaffected by Core slowing effects while active",
-      "> <C>25-50%</> reduced direct defense damage received while active, scaling with activation speed from <C>5-10 m/s</>",
       "> Knockback immunity while active",
-      "<B>></> <C>100%</> <B>reduced vitals and defense regeneration while active</>",
       "<B>> Deactivates on body impacts and collision with ground</>",
-      "<B>> Can be Disabled</>"
+      "<B>></> <C>25%</> <B>reduced defense regeneration</>",
+      "<B>></> <C>25</> <B>reduced defense</>",
+      "<B>> Can be Disabled</>",
+      "<G>*Stabilise:</> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on relocation while on cooldown</>"
     ],
     "foundations": {
       "type": "tech",
@@ -1227,12 +1231,12 @@
   {
     "name": "Transference",
     "tooltip": [
-      "> Relocate to enemy location on visible or detected kill from direct damage, removes tagged, <C>5 s</> cooldown",
+      "> Relocate to enemy location on visible or detected kill from direct damage, removes tagged, <C>5 s</> cooldown, triggers <G>Stabilise</> cooldown",
       "> Disguise as enemy on kill relocation or on Nano-wiring an enemy head for <C>2 s</>, appearing as an ally on enemy HUD and radar",
       "<B>></> <C>50%</> <B>reduced vitals and defense restored from all sources while disguised</>",
       "<B>> Disguise removed on visible facing enemy within</> <C>5 m</><B>, dealing direct damage to visible enemy or receiving direct damage from enemy</>",
-      "<B>></> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on activation while Restabilise on cooldown</>",
-      "<B>> Can be Disabled</>"
+      "<B>> Can be Disabled</>",
+      "<G>*Stabilise:</> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on relocation while on cooldown</>"
     ],
     "foundations": {
       "type": "tech",

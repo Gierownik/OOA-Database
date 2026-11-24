@@ -547,13 +547,13 @@
     "name": "Relocator",
     "type": "Standard",
     "tooltip": [
-      "> Relocate to device location on activation, removes tagged",
+      "> Relocate to device location on activation, removes tagged, triggers <G>Stabilise</> cooldown",
       "> Telefrag targets within <C>1 m</> on relocation",
       "> <C>2 s</> Disable to enemies and devices within <C>3 m</> on relocation",
       "> Can attach to surfaces and Shells",
       "> Maximum Efficiency: <C>50</> vitals and max vitals restored on activation",
-      "<B>></> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on activation while Restabilise on cooldown</>",
-      "<B>> Can be Disabled</>"
+      "<B>> Can be Disabled</>",
+      "<G>*Stabilise:</> <C>2 s</> <B>Disable+ and</> <C>25</> <B>vital damage received on relocation while on cooldown</>"
     ],
     "experimental": "true",
     "stats": {

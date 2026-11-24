@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_ProjectileData'",
-        "ObjectPath": "/Game/Blueprints/Data/STRUCT_ProjectileData"
+        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_ProjectileData.0"
       }
     },
     "Rows": {
