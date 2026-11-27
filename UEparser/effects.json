@@ -32,8 +32,7 @@
     ],
     "enhancement": "",
     "enh_tooltip": [
-      "<B>> Absorbs one bleed clear, downgrades to bleed</>",
-      "> <C>75%</> reduced bleed damage on downgrade"
+      "<B>>50% increased bleed speed</>"
     ]
   },
   {
@@ -72,8 +71,7 @@
     ],
     "enhancement": "",
     "enh_tooltip": [
-      "<B>> <C>50%</> of attempted vitals restoration received as vital damage</>",
-      "<B>> Duration constantly refreshed while bleeding</>"
+      "<B>> <C>100%</> of attempted vitals restoration received as vital damage</>"
     ]
   },
 {

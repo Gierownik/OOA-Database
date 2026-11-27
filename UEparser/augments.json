@@ -874,7 +874,7 @@
     "name": "Puncture",
     "tooltip": [
       "> <C>25%</> defense bypass with backup weapons and body impact damage",
-      "> <C>50%</> increased body impact damage",
+      "> <C>25%</> increased body impact damage",
       "> <C>5-10 /s</> Bleed to enemies on dealing body impact damage, scaling with impact speed from <C>4-12 m/s</>",
       "<B>></> <C>50%</> <B>of body impact damage dealt reduces defense and max defense</>",
       "<B>></> <C>25%</> <B>reduced hard target damage </>"
@@ -1021,7 +1021,6 @@
     "name": "Serrated",
     "tooltip": [
       "> Melee and stealth weapons apply Bleed+ on dealing damage to vitals",
-      "> <C>50%</> increased bleed damage with melee and stealth weapons",
       "<B>></> <C>100%</> <B>increased aux power drain from melee and stealth weapon attacks</>",
       "<B>></> <C>50%</> <B>reduced hard target damage </>"
     ],

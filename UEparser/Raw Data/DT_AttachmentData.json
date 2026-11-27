@@ -6,7 +6,7 @@
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'STRUCT_AttachmentData'",
-        "ObjectPath": "OutOfAction/Content/Blueprints/Data/STRUCT_AttachmentData.0"
+        "ObjectPath": "/Game/Blueprints/Data/STRUCT_AttachmentData"
       }
     },
     "Rows": {
